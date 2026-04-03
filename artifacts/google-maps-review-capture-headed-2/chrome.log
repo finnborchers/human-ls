@@ -1,0 +1,53 @@
+
+DevTools listening on ws://127.0.0.1:9222/devtools/browser/909af774-dfd8-4253-99b1-9264cf5ff2ab
+Trying to load the allocator multiple times. This is *not* supported.
+[21046:16260010:0321/092032.590011:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[21046:16260010:0321/092032.590219:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[21046:16260010:0321/092032.590353:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+Created TensorFlow Lite XNNPACK delegate for CPU.
+[21143:16261247:0321/092047.015825:VERBOSE1:chrome/updater/updater.cc:432] Version: 148.0.7730.0, opt, ARM_64, command line: /Users/finnborchers/Library/Application Support/Google/GoogleUpdater/148.0.7730.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[21143:16261247:0321/092047.016189:VERBOSE1:chrome/updater/updater.cc:435] OS version: 26.3.0, arch: arm64, System uptime (seconds): 781141, parent pid: 21046
+[21143:16261247:0321/092047.018623:VERBOSE2:chrome/updater/event_history.cc:270] Emitted a UPDATER_PROCESS START event to the history log
+[21145:16261251:0321/092047.027553:VERBOSE1:chrome/updater/updater.cc:432] Version: 148.0.7730.0, opt, ARM_64, command line: /Users/finnborchers/Library/Application Support/Google/GoogleUpdater/148.0.7730.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/finnborchers/Library/Application Support/Google/GoogleUpdater/148.0.7730.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=148.0.7730.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[21145:16261251:0321/092047.027872:VERBOSE1:chrome/updater/updater.cc:435] OS version: 26.3.0, arch: arm64, System uptime (seconds): 781141, parent pid: 1
+[21145:16261251:0321/092047.030649:VERBOSE2:chrome/updater/event_history.cc:270] Emitted a UPDATER_PROCESS START event to the history log
+[21143:16261247:0321/092047.031272:VERBOSE1:chrome/updater/crash_reporter.cc:129] Crash handler launched and ready.
+[21143:16261247:0321/092047.032081:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[21143:16261247:0321/092047.032165:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[21143:16261247:0321/092047.032248:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/finnborchers/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[21143:16261247:0321/092047.032285:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/finnborchers/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[21143:16261247:0321/092047.032295:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/finnborchers/Library/Application Support/Google/AndroidStudio2022.2/Crashpad/settings.dat: No such file or directory (2)
+[21143:16261247:0321/092047.032340:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/finnborchers/Library/Application Support/Google/AndroidStudio2023.3/Crashpad/settings.dat: No such file or directory (2)
+[21143:16261247:0321/092047.032352:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/finnborchers/Library/Application Support/Google/AndroidStudio2025.1.2/Crashpad/settings.dat: No such file or directory (2)
+[21143:16261247:0321/092047.032363:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/finnborchers/Library/Application Support/Google/AndroidStudio2020.3/Crashpad/settings.dat: No such file or directory (2)
+[21143:16261247:0321/092047.032379:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[21143:16261259:0321/092047.032679:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/finnborchers/Library/Application Support/Google/GoogleUpdater/148.0.7730.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[21146:16261263:0321/092047.040569:VERBOSE1:chrome/updater/updater.cc:432] Version: 148.0.7730.0, opt, ARM_64, command line: /Users/finnborchers/Library/Application Support/Google/GoogleUpdater/148.0.7730.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[21146:16261263:0321/092047.040793:VERBOSE1:chrome/updater/updater.cc:435] OS version: 26.3.0, arch: arm64, System uptime (seconds): 781141, parent pid: 21143
+[21146:16261263:0321/092047.043010:VERBOSE2:chrome/updater/event_history.cc:270] Emitted a UPDATER_PROCESS START event to the history log
+[21148:16261267:0321/092047.052536:VERBOSE1:chrome/updater/updater.cc:432] Version: 148.0.7730.0, opt, ARM_64, command line: /Users/finnborchers/Library/Application Support/Google/GoogleUpdater/148.0.7730.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/finnborchers/Library/Application Support/Google/GoogleUpdater/148.0.7730.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=148.0.7730.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[21148:16261267:0321/092047.052818:VERBOSE1:chrome/updater/updater.cc:435] OS version: 26.3.0, arch: arm64, System uptime (seconds): 781141, parent pid: 1
+[21148:16261267:0321/092047.055241:VERBOSE2:chrome/updater/event_history.cc:270] Emitted a UPDATER_PROCESS START event to the history log
+[21146:16261263:0321/092047.055720:VERBOSE1:chrome/updater/crash_reporter.cc:129] Crash handler launched and ready.
+[21146:16261263:0321/092047.056338:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[21146:16261263:0321/092047.056398:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[21146:16261263:0321/092047.056469:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/finnborchers/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[21146:16261263:0321/092047.056480:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/finnborchers/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[21146:16261263:0321/092047.056487:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/finnborchers/Library/Application Support/Google/AndroidStudio2022.2/Crashpad/settings.dat: No such file or directory (2)
+[21146:16261263:0321/092047.056522:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/finnborchers/Library/Application Support/Google/AndroidStudio2023.3/Crashpad/settings.dat: No such file or directory (2)
+[21146:16261263:0321/092047.056529:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/finnborchers/Library/Application Support/Google/AndroidStudio2025.1.2/Crashpad/settings.dat: No such file or directory (2)
+[21146:16261263:0321/092047.056535:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/finnborchers/Library/Application Support/Google/AndroidStudio2020.3/Crashpad/settings.dat: No such file or directory (2)
+[21146:16261263:0321/092047.056547:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[21146:16261263:0321/092047.056694:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[21046:16260010:0321/092101.758039:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[21146:16261263:0321/092103.140959:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[21146:16261263:0321/092103.141792:VERBOSE2:chrome/updater/event_history.cc:270] Emitted a UPDATER_PROCESS END event to the history log
+[21146:16261263:0321/092103.141842:VERBOSE1:chrome/updater/updater.cc:470] UpdaterMain (--wake) returned 0.
+[21143:16261259:0321/092103.302495:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/finnborchers/Library/Application Support/Google/GoogleUpdater/148.0.7730.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[21143:16261247:0321/092103.302968:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[21143:16261247:0321/092103.303682:VERBOSE2:chrome/updater/event_history.cc:270] Emitted a UPDATER_PROCESS END event to the history log
+[21143:16261247:0321/092103.303761:VERBOSE1:chrome/updater/updater.cc:470] UpdaterMain (--wake-all) returned 0.
+[21148:16261267:0321/092113.155260:VERBOSE2:chrome/updater/event_history.cc:270] Emitted a UPDATER_PROCESS END event to the history log
+[21148:16261267:0321/092113.156452:VERBOSE1:chrome/updater/updater.cc:470] UpdaterMain (--crash-handler) returned 0.
+[21145:16261251:0321/092113.159471:VERBOSE2:chrome/updater/event_history.cc:270] Emitted a UPDATER_PROCESS END event to the history log
+[21145:16261251:0321/092113.159551:VERBOSE1:chrome/updater/updater.cc:470] UpdaterMain (--crash-handler) returned 0.

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.google.com/maps/place/Medizinische+Hochschule+Hannover/@52.3836782,9.8023805,17z/data=!4m8!3m7!1s0x47b00c83ca3e6511:0x507859bbb59bcfe!8m2!3d52.383675!4d9.8049554!9m1!1b1!16s%2Fm%2F02q_jhp?entry=ttu&g_ep=EgoyMDI2MDMxNy4wIKXMDSoASAFQAw%3D%3D",
+  "startedAt": "2026-03-20T19:10:22Z",
+  "browserVersion": "Chrome/146.0.7680.80",
+  "pageTargetId": "11B97247B398AE383B5E9B204B7B24BB",
+  "cookieConsent": {
+    "clicked": true,
+    "label": "Alle akzeptieren Alle akzeptieren"
+  },
+  "reviewClick": {
+    "clicked": true,
+    "strategy": "selector",
+    "selector": "button[aria-label*=\"Rezension\"]",
+    "label": ""
+  },
+  "reviewsPanel": false,
+  "scrollResults": [
+    {
+      "scrolled": true,
+      "before": 0,
+      "after": 0,
+      "className": "l4mL3 Hk4XGb",
+      "tagName": "DIV",
+      "scrollHeight": 350,
+      "clientHeight": 48
+    },
+    {
+      "scrolled": true,
+      "before": 0,
+      "after": 0,
+      "className": "l4mL3 Hk4XGb",
+      "tagName": "DIV",
+      "scrollHeight": 350,
+      "clientHeight": 48
+    },
+    {
+      "scrolled": true,
+      "before": 0,
+      "after": 0,
+      "className": "l4mL3 Hk4XGb",
+      "tagName": "DIV",
+      "scrollHeight": 350,
+      "clientHeight": 48
+    },
+    {
+      "scrolled": true,
+      "before": 0,
+      "after": 0,
+      "className": "l4mL3 Hk4XGb",
+      "tagName": "DIV",
+      "scrollHeight": 350,
+      "clientHeight": 48
+    },
+    {
+      "scrolled": true,
+      "before": 0,
+      "after": 0,
+      "className": "l4mL3 Hk4XGb",
+      "tagName": "DIV",
+      "scrollHeight": 350,
+      "clientHeight": 48
+    }
+  ],
+  "matchedRequestCount": 5,
+  "batchexecuteCount": 3,
+  "finishedAt": "2026-03-20T19:11:29Z"
+}

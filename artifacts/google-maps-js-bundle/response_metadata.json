@@ -1,0 +1,29 @@
+{
+  "requested_url": "https://www.google.com/maps/_/js/k=maps.m.de.Mg2aPPcY1jw.2021.O/m=GfLzUe,tNOPW,cZ2KIb,Rq2f7d,omhq0,MJcXSb,WEtKm,B863O,bEpRLd,ItB2Fd,pwd,dw,FRNZOb,iDMycd,std,b/am=5AAAQEQACA/rt=j/d=1/rs=ACT90oFM8lk4igEoTdcB6yXTqqgpWVj5dg?wli=m.L1NkJgqoeS4.loadSv.O%3A%3Bm.Eh_F4T8byB8.loadSvVtl.O%3A%3Bm.j_6x3NcpiD4.mapcore.O%3A%3B",
+  "final_url": "https://www.google.com/maps/_/js/k=maps.m.de.Mg2aPPcY1jw.2021.O/m=GfLzUe,tNOPW,cZ2KIb,Rq2f7d,omhq0,MJcXSb,WEtKm,B863O,bEpRLd,ItB2Fd,pwd,dw,FRNZOb,iDMycd,std,b/am=5AAAQEQACA/rt=j/d=1/rs=ACT90oFM8lk4igEoTdcB6yXTqqgpWVj5dg?wli=m.L1NkJgqoeS4.loadSv.O%3A%3Bm.Eh_F4T8byB8.loadSvVtl.O%3A%3Bm.j_6x3NcpiD4.mapcore.O%3A%3B",
+  "status": 200,
+  "reason": "OK",
+  "content_type": "text/javascript; charset=UTF-8",
+  "content_length": 2221553,
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Vary": "Accept-Encoding",
+    "Content-Type": "text/javascript; charset=UTF-8",
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy-Report-Only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/geo-tactile",
+    "Cross-Origin-Resource-Policy": "cross-origin",
+    "Cross-Origin-Opener-Policy-Report-Only": "same-origin; report-to=\"geo-tactile\"",
+    "Report-To": "{\"group\":\"geo-tactile\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/geo-tactile\"}]}",
+    "Content-Length": "2221553",
+    "Date": "Fri, 20 Mar 2026 16:09:44 GMT",
+    "Expires": "Sat, 20 Mar 2027 16:09:44 GMT",
+    "Cache-Control": "public, max-age=31536000",
+    "Last-Modified": "Wed, 18 Mar 2026 03:28:49 GMT",
+    "X-Content-Type-Options": "nosniff",
+    "Server": "sffe",
+    "X-XSS-Protection": "0",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Connection": "close"
+  },
+  "body_path": "artifacts/google-maps-js-bundle/response_body.bin"
+}

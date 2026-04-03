@@ -1,0 +1,722 @@
+[
+  {
+    "text": "",
+    "ariaLabel": "Seitenleiste ausblenden",
+    "jsaction": "pane.close;mouseover:pane.showToggleTooltip; mouseout:pane.hideToggleTooltip; focus:pane.showToggleTooltip; blur:pane.hideToggleTooltip",
+    "className": "fn8vub Hk4XGb"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Seitenleiste ausblenden",
+    "jsaction": "pane.close;mouseover:pane.showToggleTooltip; mouseout:pane.hideToggleTooltip; focus:pane.showToggleTooltip; blur:pane.hideToggleTooltip",
+    "className": "fn8vub Hk4XGb"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Seitenleiste ausblenden",
+    "jsaction": "pane.close;mouseover:pane.showToggleTooltip; mouseout:pane.hideToggleTooltip; focus:pane.showToggleTooltip; blur:pane.hideToggleTooltip",
+    "className": "fn8vub Hk4XGb"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Zurück",
+    "jsaction": "omnibox.back; mouseover:omnibox.showTooltip; mouseout:omnibox.hideTooltip; focus:omnibox.showTooltip; blur:omnibox.hideTooltip",
+    "className": "hYBOP FeXq4d "
+  },
+  {
+    "text": "",
+    "ariaLabel": "Suchen",
+    "jsaction": "omnibox.search; mouseover:omnibox.showTooltip; mouseout:omnibox.hideTooltip; focus:omnibox.showTooltip; blur:omnibox.hideTooltip",
+    "className": "mL3xi"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Schließen",
+    "jsaction": "omnibox.clear; mouseover:omnibox.showTooltip; mouseout:omnibox.hideTooltip; focus:omnibox.showTooltip; focus:omnibox.hideSuggestions; blur:omnibox.hideTooltip",
+    "className": "yAuNSb vF7Cdb"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Seitenleiste ausblenden",
+    "jsaction": "pane.close;mouseover:pane.showToggleTooltip; mouseout:pane.hideToggleTooltip; focus:pane.showToggleTooltip; blur:pane.hideToggleTooltip",
+    "className": "fn8vub Hk4XGb"
+  },
+  {
+    "text": "\nRestaurants",
+    "ariaLabel": "",
+    "jsaction": "pane.wfvdle58; keydown:pane.wfvdle58; mouseover:pane.wfvdle58; mouseout:pane.wfvdle58;keydown:ripple.nested;mousedown:ripple.nested;ptrdown:ripple.nested",
+    "className": "e2moi"
+  },
+  {
+    "text": "\nHotels",
+    "ariaLabel": "",
+    "jsaction": "pane.wfvdle59; keydown:pane.wfvdle59; mouseover:pane.wfvdle59; mouseout:pane.wfvdle59;keydown:ripple.nested;mousedown:ripple.nested;ptrdown:ripple.nested",
+    "className": "e2moi"
+  },
+  {
+    "text": "\nMögliche Aktivitäten",
+    "ariaLabel": "",
+    "jsaction": "pane.wfvdle60; keydown:pane.wfvdle60; mouseover:pane.wfvdle60; mouseout:pane.wfvdle60;keydown:ripple.nested;mousedown:ripple.nested;ptrdown:ripple.nested",
+    "className": "e2moi"
+  },
+  {
+    "text": "\nÖPV/ÖPNV",
+    "ariaLabel": "",
+    "jsaction": "pane.wfvdle61; keydown:pane.wfvdle61; mouseover:pane.wfvdle61; mouseout:pane.wfvdle61;keydown:ripple.nested;mousedown:ripple.nested;ptrdown:ripple.nested",
+    "className": "e2moi"
+  },
+  {
+    "text": "\nParkplätze",
+    "ariaLabel": "",
+    "jsaction": "pane.wfvdle62; keydown:pane.wfvdle62; mouseover:pane.wfvdle62; mouseout:pane.wfvdle62;keydown:ripple.nested;mousedown:ripple.nested;ptrdown:ripple.nested",
+    "className": "e2moi"
+  },
+  {
+    "text": "\nApotheken",
+    "ariaLabel": "",
+    "jsaction": "pane.wfvdle63; keydown:pane.wfvdle63; mouseover:pane.wfvdle63; mouseout:pane.wfvdle63;keydown:ripple.nested;mousedown:ripple.nested;ptrdown:ripple.nested",
+    "className": "e2moi"
+  },
+  {
+    "text": "\nGeld­automaten",
+    "ariaLabel": "",
+    "jsaction": "pane.wfvdle64; keydown:pane.wfvdle64; mouseover:pane.wfvdle64; mouseout:pane.wfvdle64;keydown:ripple.nested;mousedown:ripple.nested;ptrdown:ripple.nested",
+    "className": "e2moi"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Nächste Seite",
+    "jsaction": "pane.wfvdle57.next; mouseover:pane.wfvdle57.next; mouseout:pane.wfvdle57.next",
+    "className": "XMkGfe cPtXLb c8iYDd "
+  },
+  {
+    "text": "",
+    "ariaLabel": "Seitenleiste ausblenden",
+    "jsaction": "pane.close;mouseover:pane.showToggleTooltip; mouseout:pane.hideToggleTooltip; focus:pane.showToggleTooltip; blur:pane.hideToggleTooltip",
+    "className": "fn8vub Hk4XGb"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Menü",
+    "jsaction": "navigationrail.more",
+    "className": "wR3cXd"
+  },
+  {
+    "text": "\nGespeichert",
+    "ariaLabel": "",
+    "jsaction": "navigationrail.saved",
+    "className": "wR3cXd fontLabelMedium"
+  },
+  {
+    "text": "\nZuletzt verwendet",
+    "ariaLabel": "",
+    "jsaction": "navigationrail.recent",
+    "className": "wR3cXd fontLabelMedium"
+  },
+  {
+    "text": "Medizinische Hochschule Hannover",
+    "ariaLabel": "",
+    "jsaction": "click:navigationrail.bundle; mouseover:navigationrail.bundle; mouseout:navigationrail.bundle",
+    "className": "atHn2d wR3cXd aJPqP fontBodySmall QyI6Nb"
+  },
+  {
+    "text": "\nApp herunterladen",
+    "ariaLabel": "",
+    "jsaction": "navigationrail.mobileApp",
+    "className": "wR3cXd Ijds6e fontLabelMedium"
+  },
+  {
+    "text": "Übersicht",
+    "ariaLabel": "Übersicht über Medizinische Hochschule Hannover",
+    "jsaction": "pane.wfvdle5tabs.tabClick; mousedown:pane.wfvdle5tabs.dragTabs; focus:pane.wfvdle5tabs.focus",
+    "className": "hh2c6 "
+  },
+  {
+    "text": "Rezensionen",
+    "ariaLabel": "Rezensionen zu „Medizinische Hochschule Hannover“",
+    "jsaction": "pane.wfvdle5tabs.tabClick; mousedown:pane.wfvdle5tabs.dragTabs; focus:pane.wfvdle5tabs.focus",
+    "className": "hh2c6 G7m0Af"
+  },
+  {
+    "text": "Info",
+    "ariaLabel": "Medizinische Hochschule Hannover",
+    "jsaction": "pane.wfvdle5tabs.tabClick; mousedown:pane.wfvdle5tabs.dragTabs; focus:pane.wfvdle5tabs.focus",
+    "className": "hh2c6 "
+  },
+  {
+    "text": "",
+    "ariaLabel": "Weitere Informationen zur gesetzlichen Offenlegung bei öffentlichen Rezensionen auf Google Maps",
+    "jsaction": "click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;mlnRJb:fLiPzd",
+    "className": "VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-INsAgc VfPpkd-LgbsSe-OWXEXe-icon-M1Soyc VfPpkd-LgbsSe-OWXEXe-dgl2Hf Rj2Mlf OLiIxf PDpWxe LQeN7 s73B3c MyHLpd wphPJc Q8G3mf"
+  },
+  {
+    "text": "\nRezension schreiben",
+    "ariaLabel": "Rezension schreiben",
+    "jsaction": "pane.wfvdle16;keydown:pane.wfvdle16;mouseover:pane.wfvdle16;mouseout:pane.wfvdle16",
+    "className": "S9kvJb "
+  },
+  {
+    "text": "",
+    "ariaLabel": "In Rezensionen suchen",
+    "jsaction": "pane.wfvdle18;keydown:pane.wfvdle18;mouseover:pane.wfvdle18;mouseout:pane.wfvdle18;focus:pane.focusTooltip;blur:pane.blurTooltip",
+    "className": "S9kvJb "
+  },
+  {
+    "text": "",
+    "ariaLabel": "Löschen",
+    "jsaction": "pane.wfvdle43.textEntry.clear",
+    "className": "ngnuC"
+  },
+  {
+    "text": "\nSortieren",
+    "ariaLabel": "Rezensionen sortieren",
+    "jsaction": "pane.wfvdle19;keydown:pane.wfvdle19;mouseover:pane.wfvdle19;mouseout:pane.wfvdle19",
+    "className": "S9kvJb "
+  },
+  {
+    "text": "Alle",
+    "ariaLabel": "Alle Rezensionen",
+    "jsaction": "pane.wfvdle20; keydown:pane.wfvdle20; mouseover:pane.wfvdle20; mouseout:pane.wfvdle20;focus:pane.focusTooltip;blur:pane.blurTooltip",
+    "className": "e2moi"
+  },
+  {
+    "text": "die ärzte\n50",
+    "ariaLabel": "die ärzte, in 50 Rezensionen erwähnt",
+    "jsaction": "pane.wfvdle21; keydown:pane.wfvdle21; mouseover:pane.wfvdle21; mouseout:pane.wfvdle21;focus:pane.focusTooltip;blur:pane.blurTooltip",
+    "className": "e2moi"
+  },
+  {
+    "text": "untersuchungen\n42",
+    "ariaLabel": "untersuchungen, in 42 Rezensionen erwähnt",
+    "jsaction": "pane.wfvdle22; keydown:pane.wfvdle22; mouseover:pane.wfvdle22; mouseout:pane.wfvdle22;focus:pane.focusTooltip;blur:pane.blurTooltip",
+    "className": "e2moi"
+  },
+  {
+    "text": "abteilung\n28",
+    "ariaLabel": "abteilung, in 28 Rezensionen erwähnt",
+    "jsaction": "pane.wfvdle23; keydown:pane.wfvdle23; mouseover:pane.wfvdle23; mouseout:pane.wfvdle23;focus:pane.focusTooltip;blur:pane.blurTooltip",
+    "className": "e2moi"
+  },
+  {
+    "text": "angehörigen\n25",
+    "ariaLabel": "angehörigen, in 25 Rezensionen erwähnt",
+    "jsaction": "pane.wfvdle24; keydown:pane.wfvdle24; mouseover:pane.wfvdle24; mouseout:pane.wfvdle24;focus:pane.focusTooltip;blur:pane.blurTooltip",
+    "className": "e2moi"
+  },
+  {
+    "text": "pflegepersonal\n23",
+    "ariaLabel": "pflegepersonal, in 23 Rezensionen erwähnt",
+    "jsaction": "pane.wfvdle25; keydown:pane.wfvdle25; mouseover:pane.wfvdle25; mouseout:pane.wfvdle25;focus:pane.focusTooltip;blur:pane.blurTooltip",
+    "className": "e2moi"
+  },
+  {
+    "text": "assistenzarzt\n19",
+    "ariaLabel": "assistenzarzt, in 19 Rezensionen erwähnt",
+    "jsaction": "pane.wfvdle26; keydown:pane.wfvdle26; mouseover:pane.wfvdle26; mouseout:pane.wfvdle26;focus:pane.focusTooltip;blur:pane.blurTooltip",
+    "className": "e2moi"
+  },
+  {
+    "text": "augenklinik\n13",
+    "ariaLabel": "augenklinik, in 13 Rezensionen erwähnt",
+    "jsaction": "pane.wfvdle27; keydown:pane.wfvdle27; mouseover:pane.wfvdle27; mouseout:pane.wfvdle27;focus:pane.focusTooltip;blur:pane.blurTooltip",
+    "className": "e2moi"
+  },
+  {
+    "text": "pfleger\n12",
+    "ariaLabel": "pfleger, in 12 Rezensionen erwähnt",
+    "jsaction": "pane.wfvdle28; keydown:pane.wfvdle28; mouseover:pane.wfvdle28; mouseout:pane.wfvdle28;focus:pane.focusTooltip;blur:pane.blurTooltip",
+    "className": "e2moi"
+  },
+  {
+    "text": "starke\n8",
+    "ariaLabel": "starke, in 8 Rezensionen erwähnt",
+    "jsaction": "pane.wfvdle29; keydown:pane.wfvdle29; mouseover:pane.wfvdle29; mouseout:pane.wfvdle29;focus:pane.focusTooltip;blur:pane.blurTooltip",
+    "className": "e2moi"
+  },
+  {
+    "text": "privatpatient\n5",
+    "ariaLabel": "privatpatient, in 5 Rezensionen erwähnt",
+    "jsaction": "pane.wfvdle30; keydown:pane.wfvdle30; mouseover:pane.wfvdle30; mouseout:pane.wfvdle30;focus:pane.focusTooltip;blur:pane.blurTooltip",
+    "className": "e2moi"
+  },
+  {
+    "text": "+6",
+    "ariaLabel": "6 weitere Themen ansehen",
+    "jsaction": "pane.wfvdle31; keydown:pane.wfvdle31; mouseover:pane.wfvdle31; mouseout:pane.wfvdle31;focus:pane.focusTooltip;blur:pane.blurTooltip",
+    "className": "e2moi"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Foto von MJ vonovi",
+    "jsaction": "pane.wfvdle32.review.reviewerLink",
+    "className": "WEBjve"
+  },
+  {
+    "text": "MJ vonovi\n8 Rezensionen",
+    "ariaLabel": "",
+    "jsaction": "pane.wfvdle32.review.reviewerLink",
+    "className": "al6Kxe"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Aktionen für die Rezension von MJ vonovi",
+    "jsaction": "pane.wfvdle32.review.actionMenu; keydown:pane.wfvdle32.review.actionMenu; focus:pane.focusTooltip; blur:pane.blurTooltip; keydown:pane.escapeTooltip",
+    "className": "PP3Y3d S1qRNe"
+  },
+  {
+    "text": "Mehr",
+    "ariaLabel": "Mehr anzeigen",
+    "jsaction": "pane.wfvdle32.review.expandReview",
+    "className": "w8nwRe kyuRq"
+  },
+  {
+    "text": "\nGefällt mir",
+    "ariaLabel": "Gefällt mir",
+    "jsaction": "pane.wfvdle32.review.toggleThumbsUp; keydown:pane.wfvdle32.review.toggleThumbsUp",
+    "className": "gllhef"
+  },
+  {
+    "text": "\nTeilen",
+    "ariaLabel": "Rezension von MJ vonovi teilen.",
+    "jsaction": "pane.wfvdle32.review.share; keydown:pane.wfvdle32.review.share",
+    "className": "gllhef"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Foto von JD",
+    "jsaction": "pane.wfvdle33.review.reviewerLink",
+    "className": "WEBjve"
+  },
+  {
+    "text": "JD\nLocal Guide · 46 Rezensionen · 1 Foto",
+    "ariaLabel": "",
+    "jsaction": "pane.wfvdle33.review.reviewerLink",
+    "className": "al6Kxe"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Aktionen für die Rezension von JD",
+    "jsaction": "pane.wfvdle33.review.actionMenu; keydown:pane.wfvdle33.review.actionMenu; focus:pane.focusTooltip; blur:pane.blurTooltip; keydown:pane.escapeTooltip",
+    "className": "PP3Y3d S1qRNe"
+  },
+  {
+    "text": "Mehr",
+    "ariaLabel": "Mehr anzeigen",
+    "jsaction": "pane.wfvdle33.review.expandReview",
+    "className": "w8nwRe kyuRq"
+  },
+  {
+    "text": "\nGefällt mir",
+    "ariaLabel": "Gefällt mir",
+    "jsaction": "pane.wfvdle33.review.toggleThumbsUp; keydown:pane.wfvdle33.review.toggleThumbsUp",
+    "className": "gllhef"
+  },
+  {
+    "text": "\nTeilen",
+    "ariaLabel": "Rezension von JD teilen.",
+    "jsaction": "pane.wfvdle33.review.share; keydown:pane.wfvdle33.review.share",
+    "className": "gllhef"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Foto von J. D.",
+    "jsaction": "pane.wfvdle34.review.reviewerLink",
+    "className": "WEBjve"
+  },
+  {
+    "text": "J. D.\nLocal Guide · 52 Rezensionen · 15 Fotos",
+    "ariaLabel": "",
+    "jsaction": "pane.wfvdle34.review.reviewerLink",
+    "className": "al6Kxe"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Aktionen für die Rezension von J. D.",
+    "jsaction": "pane.wfvdle34.review.actionMenu; keydown:pane.wfvdle34.review.actionMenu; focus:pane.focusTooltip; blur:pane.blurTooltip; keydown:pane.escapeTooltip",
+    "className": "PP3Y3d S1qRNe"
+  },
+  {
+    "text": "Mehr",
+    "ariaLabel": "Mehr anzeigen",
+    "jsaction": "pane.wfvdle34.review.expandReview",
+    "className": "w8nwRe kyuRq"
+  },
+  {
+    "text": "\nGefällt mir",
+    "ariaLabel": "Gefällt mir",
+    "jsaction": "pane.wfvdle34.review.toggleThumbsUp; keydown:pane.wfvdle34.review.toggleThumbsUp",
+    "className": "gllhef"
+  },
+  {
+    "text": "\nTeilen",
+    "ariaLabel": "Rezension von J. D. teilen.",
+    "jsaction": "pane.wfvdle34.review.share; keydown:pane.wfvdle34.review.share",
+    "className": "gllhef"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Foto von d kuhn",
+    "jsaction": "pane.wfvdle35.review.reviewerLink",
+    "className": "WEBjve"
+  },
+  {
+    "text": "d kuhn\n6 Rezensionen",
+    "ariaLabel": "",
+    "jsaction": "pane.wfvdle35.review.reviewerLink",
+    "className": "al6Kxe"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Aktionen für die Rezension von d kuhn",
+    "jsaction": "pane.wfvdle35.review.actionMenu; keydown:pane.wfvdle35.review.actionMenu; focus:pane.focusTooltip; blur:pane.blurTooltip; keydown:pane.escapeTooltip",
+    "className": "PP3Y3d S1qRNe"
+  },
+  {
+    "text": "Mehr",
+    "ariaLabel": "Mehr anzeigen",
+    "jsaction": "pane.wfvdle35.review.expandReview",
+    "className": "w8nwRe kyuRq"
+  },
+  {
+    "text": "\nGefällt mir",
+    "ariaLabel": "Gefällt mir",
+    "jsaction": "pane.wfvdle35.review.toggleThumbsUp; keydown:pane.wfvdle35.review.toggleThumbsUp",
+    "className": "gllhef"
+  },
+  {
+    "text": "\nTeilen",
+    "ariaLabel": "Rezension von d kuhn teilen.",
+    "jsaction": "pane.wfvdle35.review.share; keydown:pane.wfvdle35.review.share",
+    "className": "gllhef"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Foto von Luke Brandt",
+    "jsaction": "pane.wfvdle36.review.reviewerLink",
+    "className": "WEBjve"
+  },
+  {
+    "text": "Luke Brandt\n6 Rezensionen",
+    "ariaLabel": "",
+    "jsaction": "pane.wfvdle36.review.reviewerLink",
+    "className": "al6Kxe"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Aktionen für die Rezension von Luke Brandt",
+    "jsaction": "pane.wfvdle36.review.actionMenu; keydown:pane.wfvdle36.review.actionMenu; focus:pane.focusTooltip; blur:pane.blurTooltip; keydown:pane.escapeTooltip",
+    "className": "PP3Y3d S1qRNe"
+  },
+  {
+    "text": "Mehr",
+    "ariaLabel": "Mehr anzeigen",
+    "jsaction": "pane.wfvdle36.review.expandReview",
+    "className": "w8nwRe kyuRq"
+  },
+  {
+    "text": "\nGefällt mir",
+    "ariaLabel": "Gefällt mir",
+    "jsaction": "pane.wfvdle36.review.toggleThumbsUp; keydown:pane.wfvdle36.review.toggleThumbsUp",
+    "className": "gllhef"
+  },
+  {
+    "text": "\nTeilen",
+    "ariaLabel": "Rezension von Luke Brandt teilen.",
+    "jsaction": "pane.wfvdle36.review.share; keydown:pane.wfvdle36.review.share",
+    "className": "gllhef"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Foto von Cem Binboga",
+    "jsaction": "pane.wfvdle37.review.reviewerLink",
+    "className": "WEBjve"
+  },
+  {
+    "text": "Cem Binboga\n9 Rezensionen",
+    "ariaLabel": "",
+    "jsaction": "pane.wfvdle37.review.reviewerLink",
+    "className": "al6Kxe"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Aktionen für die Rezension von Cem Binboga",
+    "jsaction": "pane.wfvdle37.review.actionMenu; keydown:pane.wfvdle37.review.actionMenu; focus:pane.focusTooltip; blur:pane.blurTooltip; keydown:pane.escapeTooltip",
+    "className": "PP3Y3d S1qRNe"
+  },
+  {
+    "text": "Mehr",
+    "ariaLabel": "Mehr anzeigen",
+    "jsaction": "pane.wfvdle37.review.expandReview",
+    "className": "w8nwRe kyuRq"
+  },
+  {
+    "text": "\nGefällt mir",
+    "ariaLabel": "Gefällt mir",
+    "jsaction": "pane.wfvdle37.review.toggleThumbsUp; keydown:pane.wfvdle37.review.toggleThumbsUp",
+    "className": "gllhef"
+  },
+  {
+    "text": "\nTeilen",
+    "ariaLabel": "Rezension von Cem Binboga teilen.",
+    "jsaction": "pane.wfvdle37.review.share; keydown:pane.wfvdle37.review.share",
+    "className": "gllhef"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Foto von Mehmet Ali",
+    "jsaction": "pane.wfvdle38.review.reviewerLink",
+    "className": "WEBjve"
+  },
+  {
+    "text": "Mehmet Ali\n2 Rezensionen",
+    "ariaLabel": "",
+    "jsaction": "pane.wfvdle38.review.reviewerLink",
+    "className": "al6Kxe"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Aktionen für die Rezension von Mehmet Ali",
+    "jsaction": "pane.wfvdle38.review.actionMenu; keydown:pane.wfvdle38.review.actionMenu; focus:pane.focusTooltip; blur:pane.blurTooltip; keydown:pane.escapeTooltip",
+    "className": "PP3Y3d S1qRNe"
+  },
+  {
+    "text": "Mehr",
+    "ariaLabel": "Mehr anzeigen",
+    "jsaction": "pane.wfvdle38.review.expandReview",
+    "className": "w8nwRe kyuRq"
+  },
+  {
+    "text": "\nGefällt mir",
+    "ariaLabel": "Gefällt mir",
+    "jsaction": "pane.wfvdle38.review.toggleThumbsUp; keydown:pane.wfvdle38.review.toggleThumbsUp",
+    "className": "gllhef"
+  },
+  {
+    "text": "\nTeilen",
+    "ariaLabel": "Rezension von Mehmet Ali teilen.",
+    "jsaction": "pane.wfvdle38.review.share; keydown:pane.wfvdle38.review.share",
+    "className": "gllhef"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Foto von T F",
+    "jsaction": "pane.wfvdle39.review.reviewerLink",
+    "className": "WEBjve"
+  },
+  {
+    "text": "T F\nLocal Guide · 49 Rezensionen · 6 Fotos",
+    "ariaLabel": "",
+    "jsaction": "pane.wfvdle39.review.reviewerLink",
+    "className": "al6Kxe"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Aktionen für die Rezension von T F",
+    "jsaction": "pane.wfvdle39.review.actionMenu; keydown:pane.wfvdle39.review.actionMenu; focus:pane.focusTooltip; blur:pane.blurTooltip; keydown:pane.escapeTooltip",
+    "className": "PP3Y3d S1qRNe"
+  },
+  {
+    "text": "Mehr",
+    "ariaLabel": "Mehr anzeigen",
+    "jsaction": "pane.wfvdle39.review.expandReview",
+    "className": "w8nwRe kyuRq"
+  },
+  {
+    "text": "\n1",
+    "ariaLabel": "1 „Gefällt mir“-Angabe",
+    "jsaction": "pane.wfvdle39.review.toggleThumbsUp; keydown:pane.wfvdle39.review.toggleThumbsUp",
+    "className": "gllhef"
+  },
+  {
+    "text": "\nTeilen",
+    "ariaLabel": "Rezension von T F teilen.",
+    "jsaction": "pane.wfvdle39.review.share; keydown:pane.wfvdle39.review.share",
+    "className": "gllhef"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Seitenleiste ausblenden",
+    "jsaction": "pane.close;mouseover:pane.showToggleTooltip; mouseout:pane.hideToggleTooltip; focus:pane.showToggleTooltip; blur:pane.hideToggleTooltip",
+    "className": "fn8vub Hk4XGb"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Seitenleiste ausblenden",
+    "jsaction": "pane.close;mouseover:pane.showToggleTooltip; mouseout:pane.hideToggleTooltip; focus:pane.showToggleTooltip; blur:pane.hideToggleTooltip",
+    "className": "fn8vub Hk4XGb"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Seitenleiste ausblenden",
+    "jsaction": "drawer.close;mouseover:drawer.showToggleTooltip; mouseout:drawer.hideToggleTooltip;focus:drawer.showToggleTooltip;blur:drawer.hideToggleTooltip",
+    "className": "yra0jd Hk4XGb"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Google-Apps",
+    "jsaction": "",
+    "className": "gb_B"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Schließen",
+    "jsaction": "reveal.card.close",
+    "className": "Cwoqlf"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Deinen Standort anzeigen",
+    "jsaction": "mylocation.wfvdle48.onButtonClick; ptrdown:ripple.nested; mousedown:ripple.nested; keydown:ripple.nested",
+    "className": "Zf54rc waIsr"
+  },
+  {
+    "text": "Weitere Informationen",
+    "ariaLabel": "",
+    "jsaction": "help.starthelp",
+    "className": "pUmuib"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Heranzoomen",
+    "jsaction": "focus:zoom.onZoomInFocus; mouseover:zoom.onZoomInPointerIn; zoom.onZoomInClick; keydown:zoom.keydownAndRipple; ptrdown:ripple.nested; mousedown:ripple.nested",
+    "className": "rM8v5b FpkVFf "
+  },
+  {
+    "text": "Schieberegler einblenden",
+    "ariaLabel": "",
+    "jsaction": "zoom.onShowSliderClick",
+    "className": "BCEeXd fwySSd"
+  },
+  {
+    "text": "Schieberegler ausblenden",
+    "ariaLabel": "",
+    "jsaction": "zoom.onHideSliderClick",
+    "className": "Mh4jae fwySSd"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Herauszoomen",
+    "jsaction": "mouseover:zoom.onZoomOutPointerIn; zoom.onZoomOutClick; keydown:zoom.keydownAndRipple; ptrdown:ripple.nested; mousedown:ripple.nested",
+    "className": "TlWmQ FpkVFf "
+  },
+  {
+    "text": "",
+    "ariaLabel": "Street View-Bilder ansehen",
+    "jsaction": "runway.pegman; blur:runway.pegman; focus:runway.pegman; mousedown:runway.pegman; mouseup:runway.pegman; mouseover:runway.pegman; mouseout:runway.pegman; touchstart:runway.pegman; touchmove:runway.pegman; touchend:runway.pegman; keydown:runway.pegman; contextmenu:runway.pegman",
+    "className": "sHj5c a8QCmb"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Bilder anzeigen",
+    "jsaction": "runway.expand; mouseover:runway.expand; mouseout:runway.expand; ptrdown:ripple.nested; mousedown:ripple.nested; keydown:ripple.nested; keydown:play.onKeyDown",
+    "className": "GFgdCf waIsr"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Street View",
+    "jsaction": "runway.poi",
+    "className": "dQDAle"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Seitenleiste ausblenden",
+    "jsaction": "pane.close;mouseover:pane.showToggleTooltip; mouseout:pane.hideToggleTooltip; focus:pane.showToggleTooltip; blur:pane.hideToggleTooltip",
+    "className": "fn8vub Hk4XGb"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Heranzoomen",
+    "jsaction": "click:minimap.zoom-in",
+    "className": "OIIkEf K6Fdub Ec0Bcd eYQRj"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Herauszoomen",
+    "jsaction": "click:minimap.zoom-out",
+    "className": "OIIkEf K6Fdub HyDEqd eYQRj"
+  },
+  {
+    "text": "",
+    "ariaLabel": "",
+    "jsaction": "minimap.main; contextmenu:minimap.main; focus:minimap.main; mousemove:minimap.main; mouseover:minimap.main; mouseout:minimap.main",
+    "className": "yHc72 qk5Wte"
+  },
+  {
+    "text": "",
+    "ariaLabel": "Schließen",
+    "jsaction": "layerswitcher.close",
+    "className": "g4zD5e"
+  },
+  {
+    "text": "Öffentliche Verkehrsmittel",
+    "ariaLabel": "",
+    "jsaction": "layerswitcher.intent.transit",
+    "className": "jDuUC "
+  },
+  {
+    "text": "Verkehr",
+    "ariaLabel": "",
+    "jsaction": "layerswitcher.intent.traffic",
+    "className": "jDuUC "
+  },
+  {
+    "text": "Radfahren",
+    "ariaLabel": "",
+    "jsaction": "layerswitcher.intent.bike",
+    "className": "jDuUC "
+  },
+  {
+    "text": "Gelände",
+    "ariaLabel": "",
+    "jsaction": "layerswitcher.intent.terrain",
+    "className": "jDuUC "
+  },
+  {
+    "text": "Street View",
+    "ariaLabel": "",
+    "jsaction": "layerswitcher.intent.streetview",
+    "className": "jDuUC "
+  },
+  {
+    "text": "Waldbrände",
+    "ariaLabel": "",
+    "jsaction": "layerswitcher.intent.wildfire",
+    "className": "jDuUC "
+  },
+  {
+    "text": "Luftqualität",
+    "ariaLabel": "",
+    "jsaction": "layerswitcher.intent.air_quality",
+    "className": "jDuUC "
+  },
+  {
+    "text": "Reisedauer",
+    "ariaLabel": "",
+    "jsaction": "layerswitcher.tool.reachability",
+    "className": "jDuUC "
+  },
+  {
+    "text": "Messen",
+    "ariaLabel": "",
+    "jsaction": "layerswitcher.tool.ruler",
+    "className": "jDuUC "
+  },
+  {
+    "text": "Standard",
+    "ariaLabel": "",
+    "jsaction": "layerswitcher.intent.map",
+    "className": "jDuUC TNsaj"
+  },
+  {
+    "text": "Satellit",
+    "ariaLabel": "",
+    "jsaction": "layerswitcher.intent.satellite",
+    "className": "jDuUC "
+  },
+  {
+    "text": " Globusansicht",
+    "ariaLabel": "",
+    "jsaction": "layerswitcher.intent.spherical",
+    "className": "xzUcD "
+  }
+]

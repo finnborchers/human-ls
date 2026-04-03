@@ -1,0 +1,69 @@
+{
+  "url": "https://www.google.com/maps/place/Medizinische+Hochschule+Hannover/@52.3836782,9.8023805,17z/data=!4m8!3m7!1s0x47b00c83ca3e6511:0x507859bbb59bcfe!8m2!3d52.383675!4d9.8049554!9m1!1b1!16s%2Fm%2F02q_jhp?entry=ttu&g_ep=EgoyMDI2MDMxNy4wIKXMDSoASAFQAw%3D%3D",
+  "startedAt": "2026-03-21T08:20:27Z",
+  "browserVersion": "Chrome/146.0.7680.153",
+  "pageTargetId": "154C63A377252E73761E1AC28E37916F",
+  "cookieConsent": {
+    "clicked": false
+  },
+  "reviewClick": {
+    "clicked": true,
+    "strategy": "selector",
+    "selector": "button[aria-label*=\"Rezension\"]",
+    "label": "Rezensionen"
+  },
+  "reviewsPanel": {
+    "reviewNodeCount": 72,
+    "title": "Medizinische Hochschule Hannover - Google Maps"
+  },
+  "scrollResults": [
+    {
+      "scrolled": true,
+      "before": 0,
+      "after": 600,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 2765,
+      "clientHeight": 641
+    },
+    {
+      "scrolled": true,
+      "before": 600,
+      "after": 1200,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 2765,
+      "clientHeight": 642
+    },
+    {
+      "scrolled": true,
+      "before": 1200,
+      "after": 1800,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 2765,
+      "clientHeight": 642
+    },
+    {
+      "scrolled": true,
+      "before": 1800,
+      "after": 2122.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 2765,
+      "clientHeight": 642
+    },
+    {
+      "scrolled": true,
+      "before": 2122.5,
+      "after": 2722.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 6687,
+      "clientHeight": 642
+    }
+  ],
+  "matchedRequestCount": 4,
+  "batchexecuteCount": 2,
+  "finishedAt": "2026-03-21T08:21:08Z"
+}

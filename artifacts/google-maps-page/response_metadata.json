@@ -1,0 +1,30 @@
+{
+  "requested_url": "https://www.google.com/maps/place/Medizinische+Hochschule+Hannover/@52.3836782,9.8023805,17z/data=!4m8!3m7!1s0x47b00c83ca3e6511:0x507859bbb59bcfe!8m2!3d52.383675!4d9.8049554!9m1!1b1!16s%2Fm%2F02q_jhp?entry=ttu&g_ep=EgoyMDI2MDMxNy4wIKXMDSoASAFQAw%3D%3D",
+  "final_url": "https://www.google.com/maps/place/Medizinische+Hochschule+Hannover/@52.3836782,9.8023805,17z/data=!4m8!3m7!1s0x47b00c83ca3e6511:0x507859bbb59bcfe!8m2!3d52.383675!4d9.8049554!9m1!1b1!16s%2Fm%2F02q_jhp?entry=ttu&g_ep=EgoyMDI2MDMxNy4wIKXMDSoASAFQAw%3D%3D&ucbcb=1",
+  "status": 200,
+  "reason": "OK",
+  "content_type": "text/html; charset=UTF-8",
+  "content_length": 161294,
+  "headers": {
+    "Date": "Fri, 20 Mar 2026 16:04:53 GMT",
+    "Expires": "-1",
+    "Cache-Control": "private, max-age=0",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Reporting-Endpoints": "default=\"/maps/_/MapsWizUi/web-reports?context=eJzj8hFZMpuh6_RshklAzHxhNsNuIG65OJvh_aXZDFMuz2aYDcQMV2YzyAOxPxBXAfEcIL4LxDlXZzMUAfFkIN4GxFL8IYnJJZk5qR75ualhmanlSlxGBkZmBsaG5noGABglLJE\",default=\"//www.google.com/httpservice/retry/jserror?ei=JXC9aaXuFIuqi-gP17fd4QU&cad=crash&error=Page%20Crash&jsel=1&bver=2405&dpf=hCICTvcq-Wigrfkt-umz_2VdNaxRYtl2Sannc-QbwhA\"",
+    "Content-Security-Policy-Report-Only": "object-src 'none';base-uri 'self';script-src 'nonce-TOe7JL6ECRg6fBt_hWs8XQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/maps-tactile",
+    "Cross-Origin-Opener-Policy": "same-origin-allow-popups; report-to=\"gws\"",
+    "Report-To": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gws/maps-tactile\"}]}",
+    "Accept-CH": "RTT",
+    "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+    "Server": "gws",
+    "X-XSS-Protection": "0",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Set-Cookie": "__Secure-BUCKET=CLgF; expires=Wed, 16-Sep-2026 16:04:53 GMT; path=/; domain=.google.com; Secure; HttpOnly",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Accept-Ranges": "none",
+    "Vary": "Accept-Encoding",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "body_path": "artifacts/google-maps-page/response_body.html"
+}
