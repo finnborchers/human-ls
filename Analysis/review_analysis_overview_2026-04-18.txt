@@ -1,0 +1,126 @@
+HUMAN-LS: Quick Review Analysis Overview
+Date: 2026-04-18
+Source: artifacts/*/reviews.json + artifacts/capture_reviews_run_summary.json
+
+1) Crawl and Data Coverage
+- Total places in crawl list: 126
+- Processed places: 126
+- Done: 118
+- Skipped (already successful): 4
+- Failed: 4
+- Failed place IDs:
+  - ameos-klinikum-hildesheim
+  - klinik-bassum
+  - klinik-dr-hancken
+  - staedtisches-klinikum-braunschweig
+
+- Clinics with reviews.json available: 122
+- Total reviews with text: 31,823
+- Rating distribution:
+  - 1 star: 10,531
+  - 2 stars: 1,426
+  - 3 stars: 1,226
+  - 4 stars: 2,444
+  - 5 stars: 16,139
+- Mean rating: 3.39
+- Median rating: 5.0
+
+2) Main Barrier Themes (keyword-based first pass)
+Counts are review-level hits (a review can match multiple themes).
+
+- Wartezeiten / Zugang:
+  - 3,413 reviews (10.7%)
+  - Average rating in this subset: 2.24
+  - Low ratings (1-2 stars): 2,282
+
+- Kommunikation / Respekt:
+  - 2,211 reviews (6.9%)
+  - Average rating in this subset: 1.52
+  - Low ratings (1-2 stars): 1,893
+
+- Organisation / Prozesse:
+  - 3,148 reviews (9.9%)
+  - Average rating in this subset: 2.98
+  - Low ratings (1-2 stars): 1,504
+
+- Hygiene / Infrastruktur / Privatsphaere:
+  - 2,752 reviews (8.6%)
+  - Average rating in this subset: 3.06
+  - Low ratings (1-2 stars): 1,204
+
+- Behandlungsqualitaet / Sicherheit:
+  - 453 reviews (1.4%)
+  - Average rating in this subset: 2.29
+  - Low ratings (1-2 stars): 301
+
+- Schmerz- / Symptommanagement:
+  - 462 reviews (1.5%)
+  - Average rating in this subset: 2.26
+  - Low ratings (1-2 stars): 310
+
+- Verwaltung / Abrechnung:
+  - 275 reviews (0.9%)
+  - Average rating in this subset: 2.02
+  - Low ratings (1-2 stars): 196
+
+3) Migrant-Relevant Findings (language + discrimination focus)
+3.1 Broad migration/language/discrimination signal set
+- Reviews with migration/language/discrimination seed terms: 424 (1.33%)
+
+3.2 Language barriers (more direct)
+- Language-related reviews: 182 (0.57% of all reviews)
+- Median rating in this subset: 1
+- Average rating in this subset: 2.56
+- Low ratings (1-2 stars): 58.6%
+
+Recurring language-linked barrier patterns:
+- No/limited English support in communication situations
+- Need for translation support (Dolmetscher/Uebersetzung)
+- Registration/triage communication problems that can escalate waiting stress
+
+3.3 Discrimination/racism mentions
+- Reviews mentioning explicit discrimination/racism keywords (rassistisch/rassismus/diskrimin*): 57
+- These mentions are mostly low-rated and often co-occur with respect/communication complaints.
+
+3.4 Explicit self-reported migrant-related barriers (strict pattern)
+- Explicit self-reports (e.g., "ich spreche kein Deutsch", "neu in Deutschland", "weil ich kein Deutscher bin", explicit anti-foreigner treatment): 15 reviews
+- Average rating in this strict subset: 2.6
+- Low ratings (1-2 stars): 60%
+
+Interpretation:
+- Strong evidence exists for language-access and discrimination-related barriers, but explicit self-identification by migrant patients is relatively sparse compared with broader system complaints (waiting, communication, process issues).
+
+4) Country/Nationality Mentions (Ukraine and others)
+Mentions in review text (not necessarily patient origin):
+- Ukraine: 13
+- Russia: 42
+- Turkey: 24
+- Syria: 9
+- Arab: 23
+
+Important nuance:
+- These mentions are mixed in meaning:
+  - Some are self-identification by patients/families (e.g., from Ukraine)
+  - Some are references to staff background/accent, including xenophobic framing by reviewers
+- Therefore, country-mention counts should not be interpreted as direct counts of migrant patient barriers.
+
+Specific Ukraine note:
+- Explicit self-identification as from Ukraine (strict pattern): 3 reviews
+- In this strict subset, all 3 are positive (5-star) and describe successful care despite language challenges.
+
+5) Preliminary Conclusions for HUMAN-LS
+- The most robust barrier signals in this data are system-level:
+  - access delays (waiting),
+  - communication/respect deficits,
+  - organizational/process breakdowns.
+- Migrant-relevant issues are present and substantively important, especially language access and perceived discrimination, but are lower-frequency in explicit self-identification form.
+- For next quantitative step, keep separate labels for:
+  1) language-access barriers,
+  2) discrimination against migrants,
+  3) xenophobic complaints about foreign staff (separate to avoid bias in migrant-barrier estimates).
+
+6) Method Note / Caveats
+- This is a rapid keyword-guided qualitative scan, not a validated causal inference.
+- A single review can hit multiple themes.
+- Google reviews are self-selected and may overrepresent extreme experiences.
+- Some migration/discrimination terms are ambiguous and need manual verification in later coding.

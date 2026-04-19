@@ -1,0 +1,1702 @@
+{
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T11:50:49Z",
+    "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+    "place_name": "AGAPLESION Diakonieklinikum Rotenburg gGmbH",
+    "query": "AGAPLESION Diakonieklinikum Rotenburg gGmbH",
+    "resolved_name": "AGAPLESION DIAKONIEKLINIKUM ROTENBURG",
+    "resolved_url": "https://www.google.com/maps/place/AGAPLESION+DIAKONIEKLINIKUM+ROTENBURG/@53.1048732,9.4114918,17z/data=!3m1!4b1!4m6!3m5!1s0x47b10407aadd578f:0x42fbfc1576ca47b0!8m2!3d53.1048732!4d9.4114918!16s%2Fg%2F11clvv8km6?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "agaplesion-ev-bathildiskrankenhaus": {
+    "error": null,
+    "last_checked_at": "2026-04-15T11:51:16Z",
+    "place_id": "agaplesion-ev-bathildiskrankenhaus",
+    "place_name": "AGAPLESION Ev. Bathildiskrankenhaus",
+    "query": "AGAPLESION Ev. Bathildiskrankenhaus",
+    "resolved_name": "AGAPLESION EV. BATHILDISKRANKENHAUS BAD PYRMONT",
+    "resolved_url": "https://www.google.com/maps/place/AGAPLESION+EV.+BATHILDISKRANKENHAUS+BAD+PYRMONT/@51.9852099,9.273638,17z/data=!3m1!4b1!4m6!3m5!1s0x47baf4a7f2998d91:0x8ef5c7432a6d6bd1!8m2!3d51.9852099!4d9.273638!16s%2Fg%2F11bw5xw3hv?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "agaplesion-ev-klinikum-schaumburg": {
+    "error": null,
+    "last_checked_at": "2026-04-15T11:51:43Z",
+    "place_id": "agaplesion-ev-klinikum-schaumburg",
+    "place_name": "AGAPLESION Ev. Klinikum Schaumburg",
+    "query": "AGAPLESION Ev. Klinikum Schaumburg",
+    "resolved_name": "AGAPLESION EV. KLINIKUM SCHAUMBURG gGmbH",
+    "resolved_url": "https://www.google.com/maps/place/AGAPLESION+EV.+KLINIKUM+SCHAUMBURG+gGmbH/@52.2648061,9.1052392,17z/data=!3m1!4b1!4m6!3m5!1s0x47ba7a3d6c288dad:0xbb35614cf4b2be1!8m2!3d52.2648061!4d9.1052392!16s%2Fg%2F1q5z9ty8x?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "agaplesion-evangelisches-krankenhaus-holzminden-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T11:52:10Z",
+    "place_id": "agaplesion-evangelisches-krankenhaus-holzminden-ggmbh",
+    "place_name": "AGAPLESION Evangelisches Krankenhaus Holzminden gGmbH",
+    "query": "AGAPLESION Evangelisches Krankenhaus Holzminden gGmbH",
+    "resolved_name": "AGAPLESION EVANGELISCHES KRANKENHAUS HOLZMINDEN",
+    "resolved_url": "https://www.google.com/maps/place/AGAPLESION+EVANGELISCHES+KRANKENHAUS+HOLZMINDEN/@51.8346393,9.4549658,17z/data=!3m1!4b1!4m6!3m5!1s0x47bae8c98684e75b:0x4d4d7555b39e4575!8m2!3d51.8346393!4d9.4549658!16s%2Fg%2F12ckhhlly?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "agaplesion-krankenhaus-neu-bethlehem-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T11:52:37Z",
+    "place_id": "agaplesion-krankenhaus-neu-bethlehem-ggmbh",
+    "place_name": "AGAPLESION Krankenhaus Neu-Bethlehem gGmbH",
+    "query": "AGAPLESION Krankenhaus Neu-Bethlehem gGmbH",
+    "resolved_name": "AGAPLESION KRANKENHAUS NEU BETHLEHEM",
+    "resolved_url": "https://www.google.com/maps/place/AGAPLESION+KRANKENHAUS+NEU+BETHLEHEM/@51.5408988,9.9425806,17z/data=!3m1!4b1!4m6!3m5!1s0x47a4d4ea3144d407:0x3b53fffad1751dca!8m2!3d51.5408988!4d9.9425806!16s%2Fg%2F1yjg83hh3?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "albert-schweitzer-therapeutikum": {
+    "error": "Name mismatch: requested 'Albert-Schweitzer-Therapeutikum', resolved 'Albert-Schweitzer Familienwerk e.V.- Therapeutikum Holzminden'",
+    "last_checked_at": "2026-04-15T11:58:27Z",
+    "place_id": "albert-schweitzer-therapeutikum",
+    "place_name": "Albert-Schweitzer-Therapeutikum",
+    "query": "Albert-Schweitzer-Therapeutikum",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "aller-weser-klinik-krankenhaus-achim": {
+    "error": "Name mismatch: requested 'Aller-Weser-Klinik Krankenhaus Achim', resolved 'Aller-Weser-Klinik gGmbH - Krankenhaus Achim'",
+    "last_checked_at": "2026-04-15T11:58:55Z",
+    "place_id": "aller-weser-klinik-krankenhaus-achim",
+    "place_name": "Aller-Weser-Klinik Krankenhaus Achim",
+    "query": "Aller-Weser-Klinik Krankenhaus Achim",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "aller-weser-klinik-krankenhaus-verden": {
+    "error": "Name mismatch: requested 'Aller-Weser-Klinik Krankenhaus Verden', resolved 'Aller-Weser-Klinik gGmbH - Krankenhaus Verden'",
+    "last_checked_at": "2026-04-15T11:59:22Z",
+    "place_id": "aller-weser-klinik-krankenhaus-verden",
+    "place_name": "Aller-Weser-Klinik Krankenhaus Verden",
+    "query": "Aller-Weser-Klinik Krankenhaus Verden",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "allgemeines-krankenhaus-celle": {
+    "error": null,
+    "last_checked_at": "2026-04-15T11:59:50Z",
+    "place_id": "allgemeines-krankenhaus-celle",
+    "place_name": "Allgemeines Krankenhaus Celle",
+    "query": "Allgemeines Krankenhaus Celle",
+    "resolved_name": "AKH - Allgemeines Krankenhaus Celle",
+    "resolved_url": "https://www.google.com/maps/place/AKH+-+Allgemeines+Krankenhaus+Celle/@52.6286759,10.0850503,17z/data=!3m1!4b1!4m6!3m5!1s0x47b022b1967531ab:0xc2590fb9f0331f22!8m2!3d52.6286759!4d10.0850503!16s%2Fg%2F1tkbx8cg?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "ameos-klinikum-alfeld": {
+    "error": null,
+    "last_checked_at": "2026-04-15T11:53:04Z",
+    "place_id": "ameos-klinikum-alfeld",
+    "place_name": "AMEOS Klinikum Alfeld",
+    "query": "AMEOS Klinikum Alfeld",
+    "resolved_name": "AMEOS Klinikum Alfeld",
+    "resolved_url": "https://www.google.com/maps/place/AMEOS+Klinikum+Alfeld/@51.9943726,9.8334112,17z/data=!3m1!4b1!4m6!3m5!1s0x47bab9d2a458a719:0xae524284e15399f3!8m2!3d51.9943726!4d9.8334112!16s%2Fg%2F1tdn35yr?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "ameos-klinikum-hameln": {
+    "error": null,
+    "last_checked_at": "2026-04-15T11:53:32Z",
+    "place_id": "ameos-klinikum-hameln",
+    "place_name": "AMEOS Klinikum Hameln",
+    "query": "AMEOS Klinikum Hameln",
+    "resolved_name": "AMEOS Klinikum Hameln",
+    "resolved_url": "https://www.google.com/maps/place/AMEOS+Klinikum+Hameln/@52.10294,9.3635,17z/data=!3m1!4b1!4m6!3m5!1s0x47ba8ef6c6a3b861:0xe958628ce8f81672!8m2!3d52.10294!4d9.3635!16s%2Fg%2F1tcwq7d7?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "ameos-klinikum-hildesheim": {
+    "error": null,
+    "last_checked_at": "2026-04-15T11:54:05Z",
+    "place_id": "ameos-klinikum-hildesheim",
+    "place_name": "AMEOS Klinikum Hildesheim",
+    "query": "AMEOS Klinikum Hildesheim",
+    "resolved_name": "AMEOS Klinikum Hildesheim",
+    "resolved_url": "https://www.google.com/maps/place/AMEOS+Klinikum+Hildesheim/@52.1455703,9.9793482,17z/data=!4m10!1m2!2m1!1sAMEOS+Klinikum+Hildesheim!3m6!1s0x47baae5e7f42287b:0x55006a792a9059eb!8m2!3d52.1455703!4d9.9841118!15sChlBTUVPUyBLbGluaWt1bSBIaWxkZXNoZWltIgOIAQGSARRtZW50YWxfaGVhbHRoX2NsaW5pY-ABAA!16s%2Fg%2F11bzrpygk3?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "ameos-klinikum-osnabrueck": {
+    "error": null,
+    "last_checked_at": "2026-04-15T11:54:32Z",
+    "place_id": "ameos-klinikum-osnabrueck",
+    "place_name": "AMEOS Klinikum Osnabrück",
+    "query": "AMEOS Klinikum Osnabrück",
+    "resolved_name": "AMEOS Klinikum Osnabrück",
+    "resolved_url": "https://www.google.com/maps/place/AMEOS+Klinikum+Osnabr%C3%BCck/@52.288264,8.0522117,17z/data=!3m1!4b1!4m6!3m5!1s0x47b9e5ba5e1f66fb:0x821802253f1953d3!8m2!3d52.288264!4d8.0522117!16s%2Fg%2F12hlffly6?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "ameos-klinikum-seepark-geestland-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T11:54:59Z",
+    "place_id": "ameos-klinikum-seepark-geestland-gmbh",
+    "place_name": "AMEOS Klinikum Seepark Geestland GmbH",
+    "query": "AMEOS Klinikum Seepark Geestland GmbH",
+    "resolved_name": "AMEOS Klinikum Seepark Geestland",
+    "resolved_url": "https://www.google.com/maps/place/AMEOS+Klinikum+Seepark+Geestland/@53.6156649,8.6311408,17z/data=!3m1!4b1!4m6!3m5!1s0x47b6ae12216b1d05:0x662bb95e8343ae!8m2!3d53.6156649!4d8.6311408!16s%2Fg%2F1tfmgww_?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "ammerland-klinik-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:00:17Z",
+    "place_id": "ammerland-klinik-gmbh",
+    "place_name": "Ammerland Klinik GmbH",
+    "query": "Ammerland Klinik GmbH",
+    "resolved_name": "Ammerland-Klinik GmbH",
+    "resolved_url": "https://www.google.com/maps/place/Ammerland-Klinik+GmbH/@53.2587496,7.918355,17z/data=!3m1!4b1!4m6!3m5!1s0x47b6fae211a9cb83:0xacee9771440f14f0!8m2!3d53.2587496!4d7.918355!16s%2Fg%2F1thk7tkq?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "asklepios-fachklinikum-goettingen": {
+    "error": null,
+    "last_checked_at": "2026-04-15T11:55:26Z",
+    "place_id": "asklepios-fachklinikum-goettingen",
+    "place_name": "ASKLEPIOS Fachklinikum Göttingen",
+    "query": "ASKLEPIOS Fachklinikum Göttingen",
+    "resolved_name": "Asklepios Fachklinikum Göttingen",
+    "resolved_url": "https://www.google.com/maps/place/Asklepios+Fachklinikum+G%C3%B6ttingen/@51.5241467,9.916557,17z/data=!3m1!4b1!4m6!3m5!1s0x47a4d4af1f9dcb2f:0xa2869d54b7ca1a8a!8m2!3d51.5241467!4d9.916557!16s%2Fg%2F121j1cx0?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "asklepios-fachklinikumtiefenbrunn": {
+    "error": "Name mismatch: requested 'ASKLEPIOS FachklinikumTiefenbrunn', resolved 'Asklepios Fachklinikum Tiefenbrunn'",
+    "last_checked_at": "2026-04-15T11:55:59Z",
+    "place_id": "asklepios-fachklinikumtiefenbrunn",
+    "place_name": "ASKLEPIOS FachklinikumTiefenbrunn",
+    "query": "ASKLEPIOS FachklinikumTiefenbrunn",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "asklepios-harzklinik-bad-harzburg": {
+    "error": null,
+    "last_checked_at": "2026-04-15T11:56:33Z",
+    "place_id": "asklepios-harzklinik-bad-harzburg",
+    "place_name": "ASKLEPIOS Harzklinik Bad Harzburg",
+    "query": "ASKLEPIOS Harzklinik Bad Harzburg",
+    "resolved_name": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie",
+    "resolved_url": "https://www.google.com/maps/place/Asklepios+Harzklinik+Bad+Harzburg+-+Orthop%C3%A4die+und+gelenkerhaltende+Chirurgie/@51.8860529,10.571285,17z/data=!3m1!5s0x47a56b3353236da7:0x48203cbba00d5986!4m10!1m2!2m1!1sASKLEPIOS+Harzklinik+Bad+Harzburg!3m6!1s0x47a56b334f53a629:0xce2d9f78fcb5bd5c!8m2!3d51.8860529!4d10.5760486!15sCiFBU0tMRVBJT1MgSGFyemtsaW5payBCYWQgSGFyemJ1cmdaIyIhYXNrbGVwaW9zIGhhcnprbGluaWsgYmFkIGhhcnpidXJnkgERb3J0aG9wZWRpY19jbGluaWOaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhLUTJWVVVtdGlNbXhRVFVSb2MxSXdZM1JoTVVwU1pWaHdlVTB5WXhBQuABAPoBBQi9BRBK!16s%2Fg%2F1tj2mgw8?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "asklepios-harzklinik-goslar": {
+    "error": null,
+    "last_checked_at": "2026-04-15T11:57:00Z",
+    "place_id": "asklepios-harzklinik-goslar",
+    "place_name": "ASKLEPIOS Harzklinik Goslar",
+    "query": "ASKLEPIOS Harzklinik Goslar",
+    "resolved_name": "Asklepios Harzklinik Goslar",
+    "resolved_url": "https://www.google.com/maps/place/Asklepios+Harzklinik+Goslar/@51.9284302,10.4425643,17z/data=!3m1!4b1!4m6!3m5!1s0x47a540f0159e11b9:0x4807a02dbcdfb984!8m2!3d51.9284302!4d10.4425643!16s%2Fg%2F11dxss1dbz?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "asklepios-kliniken-schildautal-seesen": {
+    "error": "Name mismatch: requested 'ASKLEPIOS Kliniken Schildautal Seesen', resolved 'Asklepios Klinik Schildautal Seesen'",
+    "last_checked_at": "2026-04-15T11:57:27Z",
+    "place_id": "asklepios-kliniken-schildautal-seesen",
+    "place_name": "ASKLEPIOS Kliniken Schildautal Seesen",
+    "query": "ASKLEPIOS Kliniken Schildautal Seesen",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "augenklinik-dr-georg": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:00:44Z",
+    "place_id": "augenklinik-dr-georg",
+    "place_name": "Augenklinik Dr. Georg",
+    "query": "Augenklinik Dr. Georg",
+    "resolved_name": "Augenklinik Dr. Georg Bad Rothenfelde GmbH & Co. KG",
+    "resolved_url": "https://www.google.com/maps/place/Augenklinik+Dr.+Georg+Bad+Rothenfelde+GmbH+%26+Co.+KG/@52.110257,8.1586914,17z/data=!3m1!4b1!4m6!3m5!1s0x47b9f337f1eb9719:0x475dae07d265707c!8m2!3d52.110257!4d8.1586914!16s%2Fg%2F11frnnvwsp?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "augenklinik-dr-hoffmann": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:01:18Z",
+    "place_id": "augenklinik-dr-hoffmann",
+    "place_name": "Augenklinik Dr. Hoffmann",
+    "query": "Augenklinik Dr. Hoffmann",
+    "resolved_name": "Augenklinik Dr. Hoffmann Augenzentrum Hannover – Sahlkamp",
+    "resolved_url": "https://www.google.com/maps/place/Augenklinik+Dr.+Hoffmann+Augenzentrum+Hannover+%E2%80%93+Sahlkamp/@52.4144537,8.559916,9z/data=!4m10!1m2!2m1!1sAugenklinik+Dr.+Hoffmann!3m6!1s0x47b00cc5619c1003:0x6ebe109dbf6c4ede!8m2!3d52.4144537!4d9.7793984!15sChhBdWdlbmtsaW5payBEci4gSG9mZm1hbm5aGSIXYXVnZW5rbGluaWsgZHIgaG9mZm1hbm6SAQ9vcGh0aGFsbW9sb2dpc3SaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUkRaMXBEVnpOblJSQULgAQD6AQQIABAr!16s%2Fg%2F1w664g0b?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "augenklinik-stadthagen-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:01:51Z",
+    "place_id": "augenklinik-stadthagen-gmbh",
+    "place_name": "Augenklinik Stadthagen GmbH",
+    "query": "Augenklinik Stadthagen GmbH",
+    "resolved_name": "Augenklinik Stadthagen",
+    "resolved_url": "https://www.google.com/maps/place/Augenklinik+Stadthagen/@52.3176059,9.1874769,15z/data=!4m10!1m2!2m1!1sAugenklinik+Stadthagen+GmbH!3m6!1s0x47ba7f0bf93f96bf:0x776ab27bd0e3ebd!8m2!3d52.3176059!4d9.2065313!15sChtBdWdlbmtsaW5payBTdGFkdGhhZ2VuIEdtYkhaHSIbYXVnZW5rbGluaWsgc3RhZHRoYWdlbiBnbWJokgEPb3BodGhhbG1vbG9naXN0mgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDI1b2IyTlVXbkZTTW14c1RUSjBiMWt5T0RGTlYyUlRUVEJ3UlU1R1JSQULgAQD6AQQIShBH!16s%2Fg%2F1tfbr_4v?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "awo-psychiatriezentrum": {
+    "error": null,
+    "last_checked_at": "2026-04-15T11:58:00Z",
+    "place_id": "awo-psychiatriezentrum",
+    "place_name": "AWO Psychiatriezentrum",
+    "query": "AWO Psychiatriezentrum",
+    "resolved_name": "AWO Psychiatriezentrum Königslutter",
+    "resolved_url": "https://www.google.com/maps/place/AWO+Psychiatriezentrum+K%C3%B6nigslutter/@52.3324543,10.6647011,11z/data=!3m1!5s0x47af8853509f9ddf:0x2474364f10ea489d!4m10!1m2!2m1!1sAWO+Psychiatriezentrum!3m6!1s0x47af88540d5d1223:0x226a7a7b3937430a!8m2!3d52.2441361!4d10.8122186!15sChZBV08gUHN5Y2hpYXRyaWV6ZW50cnVtkgEUcHN5Y2hpYXRyaWNfaG9zcGl0YWzgAQA!16s%2Fg%2F11b88_647h?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "bdh-klinik-hessisch-oldendorf": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:02:18Z",
+    "place_id": "bdh-klinik-hessisch-oldendorf",
+    "place_name": "BDH-Klinik Hessisch Oldendorf",
+    "query": "BDH-Klinik Hessisch Oldendorf",
+    "resolved_name": "BDH-Klinik Hessisch Oldendorf gGmbH neurologische Fachklinik",
+    "resolved_url": "https://www.google.com/maps/place/BDH-Klinik+Hessisch+Oldendorf+gGmbH+neurologische+Fachklinik/@52.1735878,9.2499606,17z/data=!3m1!4b1!4m6!3m5!1s0x47ba87e0c41786f1:0x81f5acc577959715!8m2!3d52.1735878!4d9.2499606!16s%2Fg%2F1w11195b?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "borromaeus-hospital-leer-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:02:46Z",
+    "place_id": "borromaeus-hospital-leer-ggmbh",
+    "place_name": "Borromäus Hospital Leer gGmbH",
+    "query": "Borromäus Hospital Leer gGmbH",
+    "resolved_name": "Borromäus Hospital Leer gGmbH",
+    "resolved_url": "https://www.google.com/maps/place/Borrom%C3%A4us+Hospital+Leer+gGmbH/@53.2288,7.44566,17z/data=!3m1!4b1!4m6!3m5!1s0x47b64dc5e132c68d:0x3738e5ba534b8c9f!8m2!3d53.2288!4d7.44566!16s%2Fg%2F11g9w6fw8_?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "bundeswehrkrankenhaus": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:03:19Z",
+    "place_id": "bundeswehrkrankenhaus",
+    "place_name": "Bundeswehrkrankenhaus",
+    "query": "Bundeswehrkrankenhaus",
+    "resolved_name": "Bundeswehrkrankenhaus Hamburg",
+    "resolved_url": "https://www.google.com/maps/place/Bundeswehrkrankenhaus+Hamburg/@53.595024,5.1996594,7z/data=!3m1!5s0x47b18bdffbe29fa3:0x91cf8424880c7366!4m10!1m2!2m1!1sBundeswehrkrankenhaus!3m6!1s0x47b18be005717685:0xbb0b9b934bdb8d8f!8m2!3d53.595024!4d10.0775891!15sChVCdW5kZXN3ZWhya3JhbmtlbmhhdXNaFyIVYnVuZGVzd2VocmtyYW5rZW5oYXVzkgERbWlsaXRhcnlfaG9zcGl0YWyaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUlBhbTh0ZFdsQlJSQULgAQD6AQQIUhBC!16s%2Fg%2F121bw1p3?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "burghof-klinik-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:03:47Z",
+    "place_id": "burghof-klinik-gmbh",
+    "place_name": "Burghof-Klinik GmbH",
+    "query": "Burghof-Klinik GmbH",
+    "resolved_name": "Burghof-Klinik GmbH",
+    "resolved_url": "https://www.google.com/maps/place/Burghof-Klinik+GmbH/@52.2039152,9.0720667,17z/data=!3m1!4b1!4m6!3m5!1s0x47ba7b356d0babf3:0x44ebdcb74609620b!8m2!3d52.2039152!4d9.0720667!16s%2Fg%2F1wbfzhr_?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "capio-elbe-jeetzel-klinik-dannenberg": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:04:20Z",
+    "place_id": "capio-elbe-jeetzel-klinik-dannenberg",
+    "place_name": "Capio Elbe-Jeetzel-Klinik Dannenberg",
+    "query": "Capio Elbe-Jeetzel-Klinik Dannenberg",
+    "resolved_name": "Elbe-Jeetzel-Klinik",
+    "resolved_url": "https://www.google.com/maps/place/Elbe-Jeetzel-Klinik/@53.08255,11.0742815,17z/data=!3m1!5s0x47ae46797def6d71:0x4cc5901ac016e021!4m10!1m2!2m1!1sCapio+Elbe-Jeetzel-Klinik+Dannenberg!3m6!1s0x47ae46797e73d491:0x3319420507baf372!8m2!3d53.08255!4d11.0790451!15sCiRDYXBpbyBFbGJlLUplZXR6ZWwtS2xpbmlrIERhbm5lbmJlcmciA4gBAVomIiRjYXBpbyBlbGJlIGplZXR6ZWwga2xpbmlrIGRhbm5lbmJlcmeSAQhob3NwaXRhbJoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQyMXNUMU5JYkZwWFZHeDRUbFJhVkZnemFFNVJWV3haVmpOV2FWWXpZeEFC4AEA-gEECDkQSQ!16s%2Fg%2F1wh4dxg6?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "christliches-kinderhospital-osnabrueck": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:04:47Z",
+    "place_id": "christliches-kinderhospital-osnabrueck",
+    "place_name": "Christliches Kinderhospital Osnabrück",
+    "query": "Christliches Kinderhospital Osnabrück",
+    "resolved_name": "Christliches Kinderhospital Osnabrück",
+    "resolved_url": "https://www.google.com/maps/place/Christliches+Kinderhospital+Osnabr%C3%BCck/@52.2699831,8.0527283,17z/data=!3m1!4b1!4m6!3m5!1s0x47b9e59a608f0aa5:0x7f5c4ade9fdd5a64!8m2!3d52.2699831!4d8.0527283!16s%2Fg%2F1thzsx3_?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "christliches-krankenhaus-quakenbrueck": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:05:14Z",
+    "place_id": "christliches-krankenhaus-quakenbrueck",
+    "place_name": "Christliches Krankenhaus Quakenbrück",
+    "query": "Christliches Krankenhaus Quakenbrück",
+    "resolved_name": "Christliches Krankenhaus Quakenbrück gGmbH",
+    "resolved_url": "https://www.google.com/maps/place/Christliches+Krankenhaus+Quakenbr%C3%BCck+gGmbH/@52.6680111,7.9382085,17z/data=!3m1!4b1!4m6!3m5!1s0x47b769122f1c57f1:0xd7a4271ca6867275!8m2!3d52.6680111!4d7.9382085!16s%2Fg%2F12hvgn5v1?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "clemens-august-klinik": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:05:41Z",
+    "place_id": "clemens-august-klinik",
+    "place_name": "Clemens-August-Klinik",
+    "query": "Clemens-August-Klinik",
+    "resolved_name": "Clemens-August-Klinik",
+    "resolved_url": "https://www.google.com/maps/place/Clemens-August-Klinik/@52.5127143,8.1066627,17z/data=!3m1!4b1!4m6!3m5!1s0x47b75be06c80adc3:0x41ab34d126b32ee!8m2!3d52.5127143!4d8.1066627!16s%2Fg%2F1tzly0p4?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "deister-suentel-klinik-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:08:09Z",
+    "place_id": "deister-suentel-klinik-gmbh",
+    "place_name": "Deister-Süntel-Klinik GmbH",
+    "query": "Deister-Süntel-Klinik GmbH",
+    "resolved_name": "Deister-Süntel-Klinik",
+    "resolved_url": "https://www.google.com/maps/place/Deister-S%C3%BCntel-Klinik/@52.2093429,9.4691005,18z/data=!4m10!1m2!2m1!1sDeister-S%C3%BCntel-Klinik+GmbH!3m6!1s0x47ba9b30fa7afbb1:0xde2d6ef4577e4f8e!8m2!3d52.2093429!4d9.4714823!15sChtEZWlzdGVyLVPDvG50ZWwtS2xpbmlrIEdtYkhaHSIbZGVpc3RlciBzw7xudGVsIGtsaW5payBnbWJokgEUc3BlY2lhbGl6ZWRfaG9zcGl0YWyaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjV3VldWcVFuWlBTR3d5VVcxbk5VMVdVbE5qYXprelpHdGFTVTVWUlJBQuABAPoBBAgAECY!16s%2Fg%2F1tf_05nf?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "delme-klinikum-delmenhorst": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:08:36Z",
+    "place_id": "delme-klinikum-delmenhorst",
+    "place_name": "Delme Klinikum Delmenhorst",
+    "query": "Delme Klinikum Delmenhorst",
+    "resolved_name": "Delme Klinikum Delmenhorst",
+    "resolved_url": "https://www.google.com/maps/place/Delme+Klinikum+Delmenhorst/@53.0442923,8.5935272,17z/data=!3m1!4b1!4m6!3m5!1s0x47b0d533d315beb3:0x8b70a1ab03347a14!8m2!3d53.0442923!4d8.5935272!16s%2Fg%2F11nxd06ntb?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "diabeteszentrum-bad-lauterberg-fachklinik-fuer-diabetes-und-stoffwechselkrankheiten": {
+    "error": "Name mismatch: requested 'Diabeteszentrum Bad Lauterberg Fachklinik für Diabetes und Stoffwechselkrankheiten', resolved 'Diabeteszentrum Bad Lauterberg - Fachklinik für Innere Medizin, Schwerpunkt Diabetes'",
+    "last_checked_at": "2026-04-15T12:09:03Z",
+    "place_id": "diabeteszentrum-bad-lauterberg-fachklinik-fuer-diabetes-und-stoffwechselkrankheiten",
+    "place_name": "Diabeteszentrum Bad Lauterberg Fachklinik für Diabetes und Stoffwechselkrankheiten",
+    "query": "Diabeteszentrum Bad Lauterberg Fachklinik für Diabetes und Stoffwechselkrankheiten",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "diakovere-annastift": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:06:08Z",
+    "place_id": "diakovere-annastift",
+    "place_name": "DIAKOVERE Annastift",
+    "query": "DIAKOVERE Annastift",
+    "resolved_name": "DIAKOVERE Annastift",
+    "resolved_url": "https://www.google.com/maps/place/DIAKOVERE+Annastift/@52.3701774,9.8092885,17z/data=!3m1!4b1!4m6!3m5!1s0x47b00b9d3cdb9f35:0xcda40e96bf4ee3b5!8m2!3d52.3701774!4d9.8092885!16s%2Fg%2F11bxc668gk?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "diakovere-friederikenstift": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:06:35Z",
+    "place_id": "diakovere-friederikenstift",
+    "place_name": "DIAKOVERE Friederikenstift",
+    "query": "DIAKOVERE Friederikenstift",
+    "resolved_name": "DIAKOVERE Friederikenstift",
+    "resolved_url": "https://www.google.com/maps/place/DIAKOVERE+Friederikenstift/@52.3706697,9.7245321,17z/data=!3m1!4b1!4m6!3m5!1s0x47b00b4c75ef293b:0x2562020c6992a2f5!8m2!3d52.3706697!4d9.7245321!16s%2Fg%2F121vx1vh?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "diakovere-henriettenstift": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:07:09Z",
+    "place_id": "diakovere-henriettenstift",
+    "place_name": "DIAKOVERE Henriettenstift",
+    "query": "DIAKOVERE Henriettenstift",
+    "resolved_name": "DIAKOVERE Henriettenstift",
+    "resolved_url": "https://www.google.com/maps/place/DIAKOVERE+Henriettenstift/@52.3697274,9.7169776,14z/data=!3m1!5s0x47b00b4c75f4f56b:0x6cc1dc466e769740!4m10!1m2!2m1!1sDIAKOVERE+Henriettenstift!3m6!1s0x47b00b4c75ef293b:0xfb034df1c88ac9af!8m2!3d52.3697274!4d9.7550864!15sChlESUFLT1ZFUkUgSGVucmlldHRlbnN0aWZ0IgOIAQGSARBnZW5lcmFsX2hvc3BpdGFs4AEA!16s%2Fg%2F121fwhx4?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "diana-kliniken": {
+    "error": "Name mismatch: requested 'Diana Kliniken', resolved 'DianaKlinik'",
+    "last_checked_at": "2026-04-15T12:09:30Z",
+    "place_id": "diana-kliniken",
+    "place_name": "Diana Kliniken",
+    "query": "Diana Kliniken",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "drk-krankenhaus-clementinenhaus": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:07:36Z",
+    "place_id": "drk-krankenhaus-clementinenhaus",
+    "place_name": "DRK-Krankenhaus Clementinenhaus",
+    "query": "DRK-Krankenhaus Clementinenhaus",
+    "resolved_name": "DRK-Krankenhaus Clementinenhaus",
+    "resolved_url": "https://www.google.com/maps/place/DRK-Krankenhaus+Clementinenhaus/@52.3866031,9.7450329,17z/data=!3m1!4b1!4m6!3m5!1s0x47b073562a3bd727:0xc26fce799779eb2a!8m2!3d52.3866031!4d9.7450329!16s%2Fg%2F1tct7s7y?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "eilenriede-klinik-hannover": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:09:58Z",
+    "place_id": "eilenriede-klinik-hannover",
+    "place_name": "Eilenriede Klinik Hannover",
+    "query": "Eilenriede Klinik Hannover",
+    "resolved_name": "Eilenriede Klinik Hannover",
+    "resolved_url": "https://www.google.com/maps/place/Eilenriede+Klinik+Hannover/@52.395541,9.7466251,17z/data=!3m1!4b1!4m6!3m5!1s0x47b074ad29a72ddb:0x13064ac8242408ba!8m2!3d52.395541!4d9.7466251!16s%2Fg%2F1tl4c1zv?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "einbecker-buergerspital-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:10:25Z",
+    "place_id": "einbecker-buergerspital-gmbh",
+    "place_name": "Einbecker Bürgerspital GmbH",
+    "query": "Einbecker Bürgerspital GmbH",
+    "resolved_name": "Einbecker BürgerSpital GmbH",
+    "resolved_url": "https://www.google.com/maps/place/Einbecker+B%C3%BCrgerSpital+GmbH/@51.8335684,9.8694358,17z/data=!3m1!4b1!4m6!3m5!1s0x47baceec3ba4d625:0xfbef00a62cad24e6!8m2!3d51.8335684!4d9.8694358!16s%2Fg%2F1tjs40xr?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "elbe-klinikum-buxtehude": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:10:52Z",
+    "place_id": "elbe-klinikum-buxtehude",
+    "place_name": "Elbe Klinikum Buxtehude",
+    "query": "Elbe Klinikum Buxtehude",
+    "resolved_name": "Elbe Klinikum Buxtehude",
+    "resolved_url": "https://www.google.com/maps/place/Elbe+Klinikum+Buxtehude/@53.4616341,9.6755993,17z/data=!3m1!4b1!4m6!3m5!1s0x47b19d8ed640a15f:0x814e0da8c97c2ba6!8m2!3d53.4616341!4d9.6755993!16s%2Fg%2F1tcwvsht?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "elbe-klinikum-stade": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:11:19Z",
+    "place_id": "elbe-klinikum-stade",
+    "place_name": "Elbe Klinikum Stade",
+    "query": "Elbe Klinikum Stade",
+    "resolved_name": "Elbe Klinikum Stade",
+    "resolved_url": "https://www.google.com/maps/place/Elbe+Klinikum+Stade/@53.5957856,9.4437363,17z/data=!3m1!4b1!4m6!3m5!1s0x47b164e9bf552045:0x8869b78a0e7860c!8m2!3d53.5957856!4d9.4437363!16s%2Fg%2F1td57n_b?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "euregio-klinik-albert-schweitzer-strasse-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:11:47Z",
+    "place_id": "euregio-klinik-albert-schweitzer-strasse-gmbh",
+    "place_name": "Euregio Klinik Albert-Schweitzer-Straße GmbH",
+    "query": "Euregio Klinik Albert-Schweitzer-Straße GmbH",
+    "resolved_name": "EUREGIO-KLINIK Albert-Schweitzer-Straße GmbH",
+    "resolved_url": "https://www.google.com/maps/place/EUREGIO-KLINIK+Albert-Schweitzer-Stra%C3%9Fe+GmbH/@52.4427517,7.0650036,17z/data=!3m1!4b1!4m6!3m5!1s0x47b821d1ecaea43f:0xca8f8d2a13ee071f!8m2!3d52.4427517!4d7.0650036!16s%2Fg%2F1234bc6v?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "euregio-klinik-hannoverstrasse-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:12:14Z",
+    "place_id": "euregio-klinik-hannoverstrasse-gmbh",
+    "place_name": "Euregio Klinik Hannoverstraße GmbH",
+    "query": "Euregio Klinik Hannoverstraße GmbH",
+    "resolved_name": "Euregio-Klinik Hannoverstraße GmbH",
+    "resolved_url": "https://www.google.com/maps/place/Euregio-Klinik+Hannoverstra%C3%9Fe+GmbH/@52.4427,7.0658,17z/data=!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%2Fg%2F11xc6_5kr?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "ev-krankenhaus-goettingen-weende-ggmbh-standort-neu-mariahilf": {
+    "error": "Name mismatch: requested 'Ev. Krankenhaus Göttingen Weende gGmbH Standort Neu-Mariahilf', resolved 'Krankenhaus Neu-Mariahilf'",
+    "last_checked_at": "2026-04-15T12:12:48Z",
+    "place_id": "ev-krankenhaus-goettingen-weende-ggmbh-standort-neu-mariahilf",
+    "place_name": "Ev. Krankenhaus Göttingen Weende gGmbH Standort Neu-Mariahilf",
+    "query": "Ev. Krankenhaus Göttingen Weende gGmbH Standort Neu-Mariahilf",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "ev-luth-diakonissenanstalt-marienstift": {
+    "error": "Name mismatch: requested 'Ev.-luth. Diakonissenanstalt Marienstift', resolved 'Krankenhaus Marienstift gGmbH - Notaufnahme'",
+    "last_checked_at": "2026-04-15T12:13:21Z",
+    "place_id": "ev-luth-diakonissenanstalt-marienstift",
+    "place_name": "Ev.-luth. Diakonissenanstalt Marienstift",
+    "query": "Ev.-luth. Diakonissenanstalt Marienstift",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "evangelisches-krankenhaus-goettingen-weende-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:13:48Z",
+    "place_id": "evangelisches-krankenhaus-goettingen-weende-ggmbh",
+    "place_name": "Evangelisches Krankenhaus Göttingen-Weende gGmbH",
+    "query": "Evangelisches Krankenhaus Göttingen-Weende gGmbH",
+    "resolved_name": "Evangelisches Krankenhaus Göttingen-Weende",
+    "resolved_url": "https://www.google.com/maps/place/Evangelisches+Krankenhaus+G%C3%B6ttingen-Weende/@51.5547951,9.9437149,17z/data=!3m1!4b1!4m6!3m5!1s0x47a4d4de31f8c9c9:0x9ffc16477f14ff44!8m2!3d51.5547951!4d9.9437149!16s%2Fg%2F1pxxnxn4j?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "evangelisches-krankenhaus-oldenburg": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:14:16Z",
+    "place_id": "evangelisches-krankenhaus-oldenburg",
+    "place_name": "Evangelisches Krankenhaus Oldenburg",
+    "query": "Evangelisches Krankenhaus Oldenburg",
+    "resolved_name": "Evangelisches Krankenhaus Oldenburg",
+    "resolved_url": "https://www.google.com/maps/place/Evangelisches+Krankenhaus+Oldenburg/@53.1426893,8.2057252,17z/data=!3m1!4b1!4m6!3m5!1s0x47b6dfa8e67362b1:0xe7bc8f478b785564!8m2!3d53.1426893!4d8.2057252!16s%2Fg%2F1vspqk_k?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "fachklinik-bad-bentheim-thermalsole-und-schwefelbad-bentheim-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:14:49Z",
+    "place_id": "fachklinik-bad-bentheim-thermalsole-und-schwefelbad-bentheim-gmbh",
+    "place_name": "FACHKLINIK BAD BENTHEIM Thermalsole- und Schwefelbad Bentheim GmbH",
+    "query": "FACHKLINIK BAD BENTHEIM Thermalsole- und Schwefelbad Bentheim GmbH",
+    "resolved_name": "Fachklinik Bad Bentheim",
+    "resolved_url": "https://www.google.com/maps/place/Fachklinik+Bad+Bentheim/@52.31711,7.1574464,17z/data=!4m10!1m2!2m1!1sFACHKLINIK+BAD+BENTHEIM+Thermalsole-+und+Schwefelbad+Bentheim+GmbH!3m6!1s0x47b824cafaf5436f:0x4720eba8a4961229!8m2!3d52.31711!4d7.16221!15sCkJGQUNIS0xJTklLIEJBRCBCRU5USEVJTSBUaGVybWFsc29sZS0gdW5kIFNjaHdlZmVsYmFkIEJlbnRoZWltIEdtYkhaQyJBZmFjaGtsaW5payBiYWQgYmVudGhlaW0gdGhlcm1hbHNvbGUgdW5kIHNjaHdlZmVsYmFkIGJlbnRoZWltIGdtYmiSARVyZWhhYmlsaXRhdGlvbl9jZW50ZXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUnFYM0ZwTkY5blJSQULgAQD6AQUI_gEQJw!16s%2Fg%2F1wz51syc?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "fachklinik-fuer-orthopaedie-und-rheumatologie-dr-muschinsky": {
+    "error": "Name mismatch: requested 'Fachklinik für Orthopädie und Rheumatologie Dr. Muschinsky', resolved 'Fachklinik für Orthopädie und Schmerztherapie Dr. Muschinsky in Bad Lauterberg - Harz'",
+    "last_checked_at": "2026-04-15T12:15:17Z",
+    "place_id": "fachklinik-fuer-orthopaedie-und-rheumatologie-dr-muschinsky",
+    "place_name": "Fachklinik für Orthopädie und Rheumatologie Dr. Muschinsky",
+    "query": "Fachklinik für Orthopädie und Rheumatologie Dr. Muschinsky",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "falkenried-caduceus-klinik-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:15:44Z",
+    "place_id": "falkenried-caduceus-klinik-gmbh",
+    "place_name": "Falkenried Caduceus Klinik GmbH",
+    "query": "Falkenried Caduceus Klinik GmbH",
+    "resolved_name": "Falkenried Caduceus Klinik",
+    "resolved_url": "https://www.google.com/maps/place/Falkenried+Caduceus+Klinik/@53.0906226,10.6021765,17z/data=!3m1!4b1!4m6!3m5!1s0x47ae28aa0bff712b:0x1dccc13a818b2808!8m2!3d53.0906226!4d10.6021765!16s%2Fg%2F1th22vgl?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "heidekreis-klinikum-gmbh-krankenhaus-soltau": {
+    "error": "Name mismatch: requested 'Heidekreis Klinikum GmbH Krankenhaus Soltau', resolved 'Heidekreis-Klinikum gGmbH - Krankenhaus Soltau'",
+    "last_checked_at": "2026-04-15T12:16:11Z",
+    "place_id": "heidekreis-klinikum-gmbh-krankenhaus-soltau",
+    "place_name": "Heidekreis Klinikum GmbH Krankenhaus Soltau",
+    "query": "Heidekreis Klinikum GmbH Krankenhaus Soltau",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "heidekreis-klinikum-gmbh-krankenhaus-walsrode": {
+    "error": "Name mismatch: requested 'Heidekreis Klinikum GmbH Krankenhaus Walsrode', resolved 'Heidekreis-Klinikum gGmbH - Krankenhaus Walsrode'",
+    "last_checked_at": "2026-04-15T12:16:39Z",
+    "place_id": "heidekreis-klinikum-gmbh-krankenhaus-walsrode",
+    "place_name": "Heidekreis Klinikum GmbH Krankenhaus Walsrode",
+    "query": "Heidekreis Klinikum GmbH Krankenhaus Walsrode",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "helios-albert-schweitzer-klinik-northeim": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:17:06Z",
+    "place_id": "helios-albert-schweitzer-klinik-northeim",
+    "place_name": "Helios Albert-Schweitzer-Klinik Northeim",
+    "query": "Helios Albert-Schweitzer-Klinik Northeim",
+    "resolved_name": "Helios Albert-Schweitzer-Klinik Northeim",
+    "resolved_url": "https://www.google.com/maps/place/Helios+Albert-Schweitzer-Klinik+Northeim/@51.7300235,9.9785888,17z/data=!3m1!4b1!4m6!3m5!1s0x47a52c94e14db543:0xa12c85c3e9ea2127!8m2!3d51.7300235!4d9.9785888!16s%2Fg%2F1tghc4l8?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "helios-klinik-cuxhaven-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:17:33Z",
+    "place_id": "helios-klinik-cuxhaven-gmbh",
+    "place_name": "Helios Klinik Cuxhaven GmbH",
+    "query": "Helios Klinik Cuxhaven GmbH",
+    "resolved_name": "Helios Klinik Cuxhaven GmbH",
+    "resolved_url": "https://www.google.com/maps/place/Helios+Klinik+Cuxhaven+GmbH/@53.8528608,8.6921898,17z/data=!3m1!4b1!4m6!3m5!1s0x47b4038b66e288a5:0x3a2fe1f38b90ded1!8m2!3d53.8528608!4d8.6921898!16s%2Fg%2F1tdbk1bw?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "helios-klinik-wesermarsch-nordenham-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:18:07Z",
+    "place_id": "helios-klinik-wesermarsch-nordenham-gmbh",
+    "place_name": "Helios Klinik Wesermarsch Nordenham GmbH",
+    "query": "Helios Klinik Wesermarsch Nordenham GmbH",
+    "resolved_name": "Helios Klinik Wesermarsch",
+    "resolved_url": "https://www.google.com/maps/place/Helios+Klinik+Wesermarsch/@53.4563893,8.437057,17z/data=!3m1!5s0x47b6b8693c6ab489:0x1bee0f6291c53791!4m10!1m2!2m1!1sHelios+Klinik+Wesermarsch+Nordenham+GmbH!3m6!1s0x47b6b9cba2050c35:0x421f043eb0dbefc6!8m2!3d53.4563893!4d8.4418206!15sCihIZWxpb3MgS2xpbmlrIFdlc2VybWFyc2NoIE5vcmRlbmhhbSBHbWJIIgOIAQFaKiIoaGVsaW9zIGtsaW5payB3ZXNlcm1hcnNjaCBub3JkZW5oYW0gZ21iaJIBCGhvc3BpdGFsmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ0YWRtSnVaelZsUld4cFdrUk5lV05WVGpOWFJGSktVa2M1VVZkR1JSQULgAQD6AQUInAYQOQ!16s%2Fg%2F1tp8z376?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "helios-klinik-wittingen-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:18:34Z",
+    "place_id": "helios-klinik-wittingen-gmbh",
+    "place_name": "Helios Klinik Wittingen GmbH",
+    "query": "Helios Klinik Wittingen GmbH",
+    "resolved_name": "Helios Klinik Wittingen",
+    "resolved_url": "https://www.google.com/maps/place/Helios+Klinik+Wittingen/@52.7302107,10.739714,17z/data=!3m1!4b1!4m6!3m5!1s0x47afc6207c047f11:0x6c538916e41af3ea!8m2!3d52.7302107!4d10.739714!16s%2Fg%2F1trqg7ww?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "helios-kliniken-herzberg-und-osterode-gmbh": {
+    "error": "Name mismatch: requested 'Helios Kliniken Herzberg und Osterode GmbH', resolved 'Helios Klinik Herzberg/Osterode'",
+    "last_checked_at": "2026-04-15T12:19:01Z",
+    "place_id": "helios-kliniken-herzberg-und-osterode-gmbh",
+    "place_name": "Helios Kliniken Herzberg und Osterode GmbH",
+    "query": "Helios Kliniken Herzberg und Osterode GmbH",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "helios-kliniken-mittelweser-gmbh-klinik-nienburg": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:19:29Z",
+    "place_id": "helios-kliniken-mittelweser-gmbh-klinik-nienburg",
+    "place_name": "Helios Kliniken Mittelweser GmbH Klinik Nienburg",
+    "query": "Helios Kliniken Mittelweser GmbH Klinik Nienburg",
+    "resolved_name": "Helios Kliniken Mittelweser",
+    "resolved_url": "https://www.google.com/maps/place/Helios+Kliniken+Mittelweser/@52.634854,9.2238487,17z/data=!3m1!4b1!4m6!3m5!1s0x47b08c5ba07f1a13:0x1cd47de6c7ea6d49!8m2!3d52.634854!4d9.2238487!16s%2Fg%2F1tf863rb?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "helios-kliniken-mittelweser-gmbh-klinik-stolzenau": {
+    "error": "Name mismatch: requested 'Helios Kliniken Mittelweser GmbH Klinik Stolzenau', resolved 'Helios Kliniken Mittelweser - Kreiskrankenhaus Stolzenau'",
+    "last_checked_at": "2026-04-15T12:19:56Z",
+    "place_id": "helios-kliniken-mittelweser-gmbh-klinik-stolzenau",
+    "place_name": "Helios Kliniken Mittelweser GmbH Klinik Stolzenau",
+    "query": "Helios Kliniken Mittelweser GmbH Klinik Stolzenau",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "helios-klinikum-gifhorn-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:20:23Z",
+    "place_id": "helios-klinikum-gifhorn-gmbh",
+    "place_name": "Helios Klinikum Gifhorn GmbH",
+    "query": "Helios Klinikum Gifhorn GmbH",
+    "resolved_name": "Helios Klinikum Gifhorn",
+    "resolved_url": "https://www.google.com/maps/place/Helios+Klinikum+Gifhorn/@52.4970339,10.5478897,17z/data=!3m1!4b1!4m6!3m5!1s0x47afeed7f79f36e3:0xc271fee0b3afa475!8m2!3d52.4970339!4d10.5478897!16s%2Fg%2F1t_tjbdv?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "helios-klinikum-hildesheim-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:20:57Z",
+    "place_id": "helios-klinikum-hildesheim-gmbh",
+    "place_name": "Helios Klinikum Hildesheim GmbH",
+    "query": "Helios Klinikum Hildesheim GmbH",
+    "resolved_name": "Helios Klinikum Hildesheim",
+    "resolved_url": "https://www.google.com/maps/place/Helios+Klinikum+Hildesheim/@52.1516209,9.9711496,17z/data=!3m1!5s0x47baae55b74faf19:0x4b7a427517a84ee3!4m10!1m2!2m1!1sHelios+Klinikum+Hildesheim+GmbH!3m6!1s0x47baae581be955df:0x6f9974ba52e7ae71!8m2!3d52.1516209!4d9.9759132!15sCh9IZWxpb3MgS2xpbmlrdW0gSGlsZGVzaGVpbSBHbWJIIgOIAQFaISIfaGVsaW9zIGtsaW5pa3VtIGhpbGRlc2hlaW0gZ21iaJIBEGdlbmVyYWxfaG9zcGl0YWyaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUnNMWEJMWldWQkVBReABAPoBBQjVAxBF!16s%2Fg%2F1tdqgk_f?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "helios-klinikum-salzgitter-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:21:24Z",
+    "place_id": "helios-klinikum-salzgitter-gmbh",
+    "place_name": "Helios Klinikum Salzgitter GmbH",
+    "query": "Helios Klinikum Salzgitter GmbH",
+    "resolved_name": "Helios Klinikum Salzgitter",
+    "resolved_url": "https://www.google.com/maps/place/Helios+Klinikum+Salzgitter/@52.1538136,10.3196993,17z/data=!3m1!4b1!4m6!3m5!1s0x47a550da6e3bb84b:0x86e63f0cdc338a0!8m2!3d52.1538136!4d10.3196993!16s%2Fg%2F1tcxyvdb?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "helios-klinikum-uelzen-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:21:51Z",
+    "place_id": "helios-klinikum-uelzen-gmbh",
+    "place_name": "Helios Klinikum Uelzen GmbH",
+    "query": "Helios Klinikum Uelzen GmbH",
+    "resolved_name": "Helios Klinikum Uelzen",
+    "resolved_url": "https://www.google.com/maps/place/Helios+Klinikum+Uelzen/@52.9715286,10.5318602,17z/data=!3m1!4b1!4m6!3m5!1s0x47ae2b98baf1c869:0x51a660f7e990fde6!8m2!3d52.9715286!4d10.5318602!16s%2Fg%2F1tlvnkpc?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "helios-st-marienberg-klinik-helmstedt": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:22:18Z",
+    "place_id": "helios-st-marienberg-klinik-helmstedt",
+    "place_name": "Helios St. Marienberg Klinik Helmstedt",
+    "query": "Helios St. Marienberg Klinik Helmstedt",
+    "resolved_name": "Helios St. Marienberg Klinik Helmstedt GmbH",
+    "resolved_url": "https://www.google.com/maps/place/Helios+St.+Marienberg+Klinik+Helmstedt+GmbH/@52.2320262,10.99981,17z/data=!3m1!4b1!4m6!3m5!1s0x47af80d86fc2ea0b:0xf903e74283c1608d!8m2!3d52.2320262!4d10.99981!16s%2Fg%2F1v6p3b47?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "herz-und-gefaesszentrum-bad-bevensen": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:22:46Z",
+    "place_id": "herz-und-gefaesszentrum-bad-bevensen",
+    "place_name": "Herz- und Gefäßzentrum Bad Bevensen",
+    "query": "Herz- und Gefäßzentrum Bad Bevensen",
+    "resolved_name": "Herz- und Gefäßzentrum Bad Bevensen",
+    "resolved_url": "https://www.google.com/maps/place/Herz-+und+Gef%C3%A4%C3%9Fzentrum+Bad+Bevensen/@53.0854036,10.6039463,17z/data=!3m1!4b1!4m6!3m5!1s0x47ae28ac83c52e19:0x9a4721a1110cd82b!8m2!3d53.0854036!4d10.6039463!16s%2Fg%2F1th560ll?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "herzogin-elisabeth-hospital": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:23:13Z",
+    "place_id": "herzogin-elisabeth-hospital",
+    "place_name": "Herzogin-Elisabeth-Hospital",
+    "query": "Herzogin-Elisabeth-Hospital",
+    "resolved_name": "Herzogin Elisabeth Hospital",
+    "resolved_url": "https://www.google.com/maps/place/Herzogin+Elisabeth+Hospital/@52.2329785,10.5261127,17z/data=!3m1!4b1!4m6!3m5!1s0x47a55f57ff9a6989:0x66131345a9ba3dfe!8m2!3d52.2329785!4d10.5261127!16s%2Fg%2F1vxvgwp7?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "huemmling-krankenhaus-soegel": {
+    "error": "Name mismatch: requested 'Hümmling Krankenhaus Sögel', resolved 'Hümmling Hospital Sögel gGmbH'",
+    "last_checked_at": "2026-04-15T12:23:40Z",
+    "place_id": "huemmling-krankenhaus-soegel",
+    "place_name": "Hümmling Krankenhaus Sögel",
+    "query": "Hümmling Krankenhaus Sögel",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "ini-international-neuroscience-institute-hannover": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:24:07Z",
+    "place_id": "ini-international-neuroscience-institute-hannover",
+    "place_name": "INI International Neuroscience Institute Hannover",
+    "query": "INI International Neuroscience Institute Hannover",
+    "resolved_name": "INI – International Neuroscience Institute®",
+    "resolved_url": "https://www.google.com/maps/place/INI+%E2%80%93+International+Neuroscience+Institute%C2%AE/@52.3905084,9.7972127,17z/data=!3m1!4b1!4m6!3m5!1s0x47b00c9afe935db9:0xb57c26c6963e3b94!8m2!3d52.3905084!4d9.7972127!16s%2Fg%2F121g72zp?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "inselkrankenhaus-borkum-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:24:35Z",
+    "place_id": "inselkrankenhaus-borkum-ggmbh",
+    "place_name": "Inselkrankenhaus Borkum gGmbH",
+    "query": "Inselkrankenhaus Borkum gGmbH",
+    "resolved_name": "Inselkrankenhaus Borkum",
+    "resolved_url": "https://www.google.com/maps/place/Inselkrankenhaus+Borkum/@53.5848924,6.6712657,17z/data=!3m1!4b1!4m6!3m5!1s0x47c9e7d7372ab0ed:0xb96a018ddf18af2b!8m2!3d53.5848924!4d6.6712657!16s%2Fg%2F1tj7_6nt?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "johann-wilhelm-ritter-klinik-akut-ahb-und-rehabilitationsklinik": {
+    "error": "Name mismatch: requested 'Johann-Wilhelm-Ritter-Klinik Akut-, AHB- und Rehabilitationsklinik', resolved 'Klinik Teutoburger Wald (D27979)'",
+    "last_checked_at": "2026-04-15T12:25:08Z",
+    "place_id": "johann-wilhelm-ritter-klinik-akut-ahb-und-rehabilitationsklinik",
+    "place_name": "Johann-Wilhelm-Ritter-Klinik Akut-, AHB- und Rehabilitationsklinik",
+    "query": "Johann-Wilhelm-Ritter-Klinik Akut-, AHB- und Rehabilitationsklinik",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "johanniter-krankenhaus-gronau-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:25:36Z",
+    "place_id": "johanniter-krankenhaus-gronau-gmbh",
+    "place_name": "Johanniter-Krankenhaus Gronau GmbH",
+    "query": "Johanniter-Krankenhaus Gronau GmbH",
+    "resolved_name": "Johanniter-Krankenhaus Gronau",
+    "resolved_url": "https://www.google.com/maps/place/Johanniter-Krankenhaus+Gronau/@52.0828041,9.7677225,17z/data=!3m1!4b1!4m6!3m5!1s0x47babb81b151691b:0x562fba17d3377db5!8m2!3d52.0828041!4d9.7677225!16s%2Fg%2F1yfjj6tc9?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "karl-jaspers-klinik": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:29:14Z",
+    "place_id": "karl-jaspers-klinik",
+    "place_name": "Karl-Jaspers-Klinik",
+    "query": "Karl-Jaspers-Klinik",
+    "resolved_name": "Karl-Jaspers-Klinik",
+    "resolved_url": "https://www.google.com/maps/place/Karl-Jaspers-Klinik/@53.1731032,8.1397562,17z/data=!3m1!4b1!4m6!3m5!1s0x47b6e09053328bdd:0xfd5475cfec79ec42!8m2!3d53.1731032!4d8.1397562!16s%2Fg%2F121xqc85?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "karl-jaspers-klinik-fuer-psychosomatische-medizin-und-psychotherapie": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:29:41Z",
+    "place_id": "karl-jaspers-klinik-fuer-psychosomatische-medizin-und-psychotherapie",
+    "place_name": "Karl-Jaspers-Klinik für Psychosomatische Medizin und Psychotherapie",
+    "query": "Karl-Jaspers-Klinik für Psychosomatische Medizin und Psychotherapie",
+    "resolved_name": "Karl-Jaspers-Klinik",
+    "resolved_url": "https://www.google.com/maps/place/Karl-Jaspers-Klinik/@53.1731032,8.1397562,17z/data=!3m1!4b1!4m6!3m5!1s0x47b6e09053328bdd:0xfd5475cfec79ec42!8m2!3d53.1731032!4d8.1397562!16s%2Fg%2F121xqc85?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "kinder-und-jugendkrankenhaus-auf-der-bult": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:30:09Z",
+    "place_id": "kinder-und-jugendkrankenhaus-auf-der-bult",
+    "place_name": "Kinder- und Jugendkrankenhaus auf der Bult",
+    "query": "Kinder- und Jugendkrankenhaus auf der Bult",
+    "resolved_name": "Kinder- und Jugendkrankenhaus Auf der Bult",
+    "resolved_url": "https://www.google.com/maps/place/Kinder-+und+Jugendkrankenhaus+Auf+der+Bult/@52.360147,9.777705,17z/data=!3m1!4b1!4m6!3m5!1s0x47b00b150e5621d9:0xb207b43c85fe32b!8m2!3d52.360147!4d9.777705!16s%2Fg%2F1223qp0w?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "kinderhospital-osnabrueck-am-schoelerberg": {
+    "error": "Name mismatch: requested 'Kinderhospital Osnabrück am Schölerberg', resolved 'Klinik für Kinder- und Jugendpsychiatrie - Psychotherapie'",
+    "last_checked_at": "2026-04-15T12:30:36Z",
+    "place_id": "kinderhospital-osnabrueck-am-schoelerberg",
+    "place_name": "Kinderhospital Osnabrück am Schölerberg",
+    "query": "Kinderhospital Osnabrück am Schölerberg",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "kirchberg-klinik": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:31:03Z",
+    "place_id": "kirchberg-klinik",
+    "place_name": "Kirchberg Klinik",
+    "query": "Kirchberg Klinik",
+    "resolved_name": "Kirchberg-Klinik",
+    "resolved_url": "https://www.google.com/maps/place/Kirchberg-Klinik/@51.6261924,10.4691691,17z/data=!3m1!4b1!4m6!3m5!1s0x47a51edad8c79cb9:0x799b819bca4a216!8m2!3d51.6261924!4d10.4691691!16s%2Fg%2F1tzvvkqm?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinik-am-zuckerberg-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:35:22Z",
+    "place_id": "klinik-am-zuckerberg-gmbh",
+    "place_name": "Klinik am Zuckerberg GmbH",
+    "query": "Klinik am Zuckerberg GmbH",
+    "resolved_name": "Klinik Am Zuckerberg GmbH",
+    "resolved_url": "https://www.google.com/maps/place/Klinik+Am+Zuckerberg+GmbH/@52.241931,10.529485,17z/data=!3m1!4b1!4m6!3m5!1s0x47aff5fafc0b44c3:0x788aaea76b3c9c0a!8m2!3d52.241931!4d10.529485!16s%2Fg%2F1wzt1f45?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinik-bassum": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:31:37Z",
+    "place_id": "klinik-bassum",
+    "place_name": "Klinik Bassum",
+    "query": "Klinik Bassum",
+    "resolved_name": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum",
+    "resolved_url": "https://www.google.com/maps/place/Kliniken+Landkreis+Diepholz+gGmbH+-+Klinik+Bassum/@52.8439184,8.7233832,17z/data=!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik+Bassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%2Fg%2F1tfmb8ql?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinik-diepholz": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:32:04Z",
+    "place_id": "klinik-diepholz",
+    "place_name": "Klinik Diepholz",
+    "query": "Klinik Diepholz",
+    "resolved_name": "Kliniken Landkreis Diepholz gGmbH - Klinik Diepholz",
+    "resolved_url": "https://www.google.com/maps/place/Kliniken+Landkreis+Diepholz+gGmbH+-+Klinik+Diepholz/@52.6105834,8.3763693,17z/data=!3m1!4b1!4m6!3m5!1s0x47b74db075452f49:0x6dbce9f11a23a2ec!8m2!3d52.6105834!4d8.3763693!16s%2Fg%2F1tcvnbq5?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinik-dr-barner-fachklinik-fuer-psychosomatische-und-psychotherapeutische-medizin": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:32:31Z",
+    "place_id": "klinik-dr-barner-fachklinik-fuer-psychosomatische-und-psychotherapeutische-medizin",
+    "place_name": "Klinik Dr. Barner Fachklinik für Psychosomatische und Psychotherapeutische Medizin",
+    "query": "Klinik Dr. Barner Fachklinik für Psychosomatische und Psychotherapeutische Medizin",
+    "resolved_name": "Klinik Dr. Barner",
+    "resolved_url": "https://www.google.com/maps/place/Klinik+Dr.+Barner/@51.7294464,10.6176351,17z/data=!3m1!4b1!4m6!3m5!1s0x47a510613446accf:0xbd097a9b911fd9fb!8m2!3d51.7294464!4d10.6176351!16s%2Fg%2F124srr23t?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinik-dr-hancken": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:33:06Z",
+    "place_id": "klinik-dr-hancken",
+    "place_name": "Klinik Dr. Hancken",
+    "query": "Klinik Dr. Hancken",
+    "resolved_name": "Klinik Dr. Hancken GmbH",
+    "resolved_url": "https://www.google.com/maps/place/Klinik+Dr.+Hancken+GmbH/@53.5952656,8.8629643,10z/data=!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik+Dr.+Hancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%2Fg%2F1tfns1b_?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinik-dr-witwity": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:33:33Z",
+    "place_id": "klinik-dr-witwity",
+    "place_name": "Klinik Dr. Witwity",
+    "query": "Klinik Dr. Witwity",
+    "resolved_name": "Klinik Dr. Witwity - Fachklinik für Arthrose, Meniskus, Kreuzbandriss",
+    "resolved_url": "https://www.google.com/maps/place/Klinik+Dr.+Witwity+-+Fachklinik+f%C3%BCr+Arthrose,+Meniskus,+Kreuzbandriss/@53.5980656,9.4739118,17z/data=!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%2Fg%2F1tf14y8d?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinik-fallingbostel-fachklinik-fuer-herz-und-kreislauferkrankungen": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:34:00Z",
+    "place_id": "klinik-fallingbostel-fachklinik-fuer-herz-und-kreislauferkrankungen",
+    "place_name": "Klinik Fallingbostel Fachklinik für Herz- und Kreislauferkrankungen",
+    "query": "Klinik Fallingbostel Fachklinik für Herz- und Kreislauferkrankungen",
+    "resolved_name": "Klinik Fallingbostel",
+    "resolved_url": "https://www.google.com/maps/place/Klinik+Fallingbostel/@52.86903,9.7059601,17z/data=!3m1!4b1!4m6!3m5!1s0x47b04e2dc4a1eb27:0xdc98c5fc80626f15!8m2!3d52.86903!4d9.7059601!16s%2Fg%2F1tp1xw5g?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinik-fuer-kinder-und-jugendpsychotherapie-wichernstift-ggmbh": {
+    "error": "Name mismatch: requested 'Klinik für Kinder- und Jugendpsychotherapie Wichernstift gGmbH', resolved 'Wichernstift Jugendhilfe gGmbH'",
+    "last_checked_at": "2026-04-15T12:35:55Z",
+    "place_id": "klinik-fuer-kinder-und-jugendpsychotherapie-wichernstift-ggmbh",
+    "place_name": "Klinik für Kinder- und Jugendpsychotherapie Wichernstift gGmbH",
+    "query": "Klinik für Kinder- und Jugendpsychotherapie Wichernstift gGmbH",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "klinik-lilienthal": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:34:27Z",
+    "place_id": "klinik-lilienthal",
+    "place_name": "Klinik Lilienthal",
+    "query": "Klinik Lilienthal",
+    "resolved_name": "Klinik Lilienthal",
+    "resolved_url": "https://www.google.com/maps/place/Klinik+Lilienthal/@53.1492736,8.9074696,17z/data=!3m1!4b1!4m6!3m5!1s0x47b125d493c65775:0x48284474ffa89286!8m2!3d53.1492736!4d8.9074696!16s%2Fg%2F1tfgc8ph?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinik-sulingen": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:34:55Z",
+    "place_id": "klinik-sulingen",
+    "place_name": "Klinik Sulingen",
+    "query": "Klinik Sulingen",
+    "resolved_name": "Kliniken Landkreis Diepholz gGmbH - Klinik Sulingen",
+    "resolved_url": "https://www.google.com/maps/place/Kliniken+Landkreis+Diepholz+gGmbH+-+Klinik+Sulingen/@52.6836,8.8053299,17z/data=!3m1!4b1!4m6!3m5!1s0x47b0b8d0f9656f27:0x5c4f438551ba2da6!8m2!3d52.6836!4d8.8053299!16s%2Fg%2F1th09h56?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinikum-emden-hans-susemihl-krankenhaus-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:36:22Z",
+    "place_id": "klinikum-emden-hans-susemihl-krankenhaus-ggmbh",
+    "place_name": "Klinikum Emden Hans-Susemihl-Krankenhaus gGmbH",
+    "query": "Klinikum Emden Hans-Susemihl-Krankenhaus gGmbH",
+    "resolved_name": "Klinikum Emden - Hans-Susemihl-Krankenhaus",
+    "resolved_url": "https://www.google.com/maps/place/Klinikum+Emden+-+Hans-Susemihl-Krankenhaus/@53.3754445,7.2129241,17z/data=!3m1!4b1!4m6!3m5!1s0x47b639bda5b36465:0x5db7edd86596419e!8m2!3d53.3754445!4d7.2129241!16s%2Fg%2F1hhzglcd0?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinikum-hann-muenden-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:36:49Z",
+    "place_id": "klinikum-hann-muenden-gmbh",
+    "place_name": "Klinikum Hann. Münden GmbH",
+    "query": "Klinikum Hann. Münden GmbH",
+    "resolved_name": "Klinikum Hann. Münden GmbH",
+    "resolved_url": "https://www.google.com/maps/place/Klinikum+Hann.+M%C3%BCnden+GmbH/@51.3983911,9.6581418,17z/data=!3m1!4b1!4m6!3m5!1s0x47bb3093cbdf8081:0x8247b720464f735c!8m2!3d51.3983911!4d9.6581418!16s%2Fg%2F1hf4kb33k?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinikum-leer-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:37:16Z",
+    "place_id": "klinikum-leer-ggmbh",
+    "place_name": "Klinikum Leer gGmbH",
+    "query": "Klinikum Leer gGmbH",
+    "resolved_name": "Klinikum Leer",
+    "resolved_url": "https://www.google.com/maps/place/Klinikum+Leer/@53.2359977,7.458307,17z/data=!3m1!4b1!4m6!3m5!1s0x47b64ddd9d128e69:0xf6b5205d745ed4ff!8m2!3d53.2359977!4d7.458307!16s%2Fg%2F1tfw22vp?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinikum-oldenburg-ggmbh": {
+    "error": "Name mismatch: requested 'Klinikum Oldenburg gGmbH', resolved 'Klinikum Oldenburg AöR'",
+    "last_checked_at": "2026-04-15T12:37:43Z",
+    "place_id": "klinikum-oldenburg-ggmbh",
+    "place_name": "Klinikum Oldenburg gGmbH",
+    "query": "Klinikum Oldenburg gGmbH",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "klinikum-osnabrueck": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:38:10Z",
+    "place_id": "klinikum-osnabrueck",
+    "place_name": "Klinikum Osnabrück",
+    "query": "Klinikum Osnabrück",
+    "resolved_name": "Klinikum Osnabrück GmbH",
+    "resolved_url": "https://www.google.com/maps/place/Klinikum+Osnabr%C3%BCck+GmbH/@52.2786765,8.0037699,17z/data=!3m1!4b1!4m6!3m5!1s0x47b9e60c12583235:0xe0fcff6c6aab04fe!8m2!3d52.2786765!4d8.0037699!16s%2Fg%2F1tfb12cq?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinikum-peine-ggmbh": {
+    "error": "Name mismatch: requested 'Klinikum Peine gGmbH', resolved 'Klinikum Peine AöR'",
+    "last_checked_at": "2026-04-15T12:38:37Z",
+    "place_id": "klinikum-peine-ggmbh",
+    "place_name": "Klinikum Peine gGmbH",
+    "query": "Klinikum Peine gGmbH",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "klinikum-region-hannover": {
+    "error": "Name mismatch: requested 'Klinikum Region Hannover', resolved 'KRH Klinikum Nordstadt'",
+    "last_checked_at": "2026-04-15T12:39:10Z",
+    "place_id": "klinikum-region-hannover",
+    "place_name": "Klinikum Region Hannover",
+    "query": "Klinikum Region Hannover",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "klinikum-region-hannover-gmbh-geriatrie-langenhagen": {
+    "error": "Name mismatch: requested 'Klinikum Region Hannover GmbH Geriatrie Langenhagen', resolved 'KRH Geriatrie Langenhagen'",
+    "last_checked_at": "2026-04-15T12:39:37Z",
+    "place_id": "klinikum-region-hannover-gmbh-geriatrie-langenhagen",
+    "place_name": "Klinikum Region Hannover GmbH Geriatrie Langenhagen",
+    "query": "Klinikum Region Hannover GmbH Geriatrie Langenhagen",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "klinikum-region-hannover-gmbh-psychiatrie-langenhagen": {
+    "error": "Name mismatch: requested 'Klinikum Region Hannover GmbH Psychiatrie Langenhagen', resolved 'KRH Psychiatrie Langenhagen'",
+    "last_checked_at": "2026-04-15T12:40:05Z",
+    "place_id": "klinikum-region-hannover-gmbh-psychiatrie-langenhagen",
+    "place_name": "Klinikum Region Hannover GmbH Psychiatrie Langenhagen",
+    "query": "Klinikum Region Hannover GmbH Psychiatrie Langenhagen",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "klinikum-wahrendorff-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:40:38Z",
+    "place_id": "klinikum-wahrendorff-gmbh",
+    "place_name": "Klinikum Wahrendorff GmbH",
+    "query": "Klinikum Wahrendorff GmbH",
+    "resolved_name": "Klinikum Wahrendorff GmbH",
+    "resolved_url": "https://www.google.com/maps/place/Klinikum+Wahrendorff+GmbH/@52.3806517,9.1368755,10z/data=!4m10!1m2!2m1!1sKlinikum+Wahrendorff+GmbH!3m6!1s0x47b074ac03bc6603:0xcefa0717a9b09c02!8m2!3d52.3806517!4d9.7466167!15sChlLbGluaWt1bSBXYWhyZW5kb3JmZiBHbWJIWhsiGWtsaW5pa3VtIHdhaHJlbmRvcmZmIGdtYmiSARRwc3ljaGlhdHJpY19ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VObGVFeE1hVnBSRUFF4AEA-gEECD8QRA!16s%2Fg%2F1ptzjlzl0?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinikum-wilhelmshaven-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:41:06Z",
+    "place_id": "klinikum-wilhelmshaven-ggmbh",
+    "place_name": "Klinikum Wilhelmshaven gGmbH",
+    "query": "Klinikum Wilhelmshaven gGmbH",
+    "resolved_name": "Klinikum Wilhelmshaven 🏥",
+    "resolved_url": "https://www.google.com/maps/place/Klinikum+Wilhelmshaven+%F0%9F%8F%A5/@53.5451937,8.0825951,17z/data=!3m1!4b1!4m6!3m5!1s0x47b69225fd80222d:0xfd1e80745f6c654a!8m2!3d53.5451937!4d8.0825951!16s%2Fg%2F11dxgk15bw?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "klinikum-wolfsburg": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:41:33Z",
+    "place_id": "klinikum-wolfsburg",
+    "place_name": "Klinikum Wolfsburg",
+    "query": "Klinikum Wolfsburg",
+    "resolved_name": "Klinikum Wolfsburg",
+    "resolved_url": "https://www.google.com/maps/place/Klinikum+Wolfsburg/@52.413263,10.7688799,17z/data=!3m1!4b1!4m6!3m5!1s0x47af925a37c45f5d:0xbd52464a39741d3c!8m2!3d52.413263!4d10.7688799!16s%2Fg%2F1yxkhk75m?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krankenhaus-buchholz-und-winsen-ggmbh-krankenhaus-buchholz": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:42:00Z",
+    "place_id": "krankenhaus-buchholz-und-winsen-ggmbh-krankenhaus-buchholz",
+    "place_name": "Krankenhaus Buchholz und Winsen gGmbH Krankenhaus Buchholz",
+    "query": "Krankenhaus Buchholz und Winsen gGmbH Krankenhaus Buchholz",
+    "resolved_name": "Krankenhaus Buchholz und Winsen gGmbH - Krankenhaus Buchholz",
+    "resolved_url": "https://www.google.com/maps/place/Krankenhaus+Buchholz+und+Winsen+gGmbH+-+Krankenhaus+Buchholz/@53.3334919,9.8719518,17z/data=!3m1!4b1!4m6!3m5!1s0x47b197fc836cea0b:0xf01ccc02318ca872!8m2!3d53.3334919!4d9.8719518!16s%2Fg%2F12ckhhhlk?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krankenhaus-buchholz-und-winsen-ggmbh-krankenhaus-winsen": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:42:28Z",
+    "place_id": "krankenhaus-buchholz-und-winsen-ggmbh-krankenhaus-winsen",
+    "place_name": "Krankenhaus Buchholz und Winsen gGmbH Krankenhaus Winsen",
+    "query": "Krankenhaus Buchholz und Winsen gGmbH Krankenhaus Winsen",
+    "resolved_name": "Krankenhaus Buchholz und Winsen gGmbH - Krankenhaus Winsen",
+    "resolved_url": "https://www.google.com/maps/place/Krankenhaus+Buchholz+und+Winsen+gGmbH+-+Krankenhaus+Winsen/@53.3510284,10.2005344,17z/data=!3m1!4b1!4m6!3m5!1s0x47b1ebc974edd00f:0x8eb1b5da5d07a68e!8m2!3d53.3510284!4d10.2005344!16s%2Fg%2F11c3spny78?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krankenhaus-ginsterhof": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:42:55Z",
+    "place_id": "krankenhaus-ginsterhof",
+    "place_name": "Krankenhaus Ginsterhof",
+    "query": "Krankenhaus Ginsterhof",
+    "resolved_name": "Ev. Krankenhaus Ginsterhof gGmbH",
+    "resolved_url": "https://www.google.com/maps/place/Ev.+Krankenhaus+Ginsterhof+gGmbH/@53.4052676,9.9356957,17z/data=!3m1!4b1!4m6!3m5!1s0x47b1972c331206cf:0xdf3c5bc4ff9d2c01!8m2!3d53.4052676!4d9.9356957!16s%2Fg%2F1tf0pp0s?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krankenhaus-johanneum": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:43:22Z",
+    "place_id": "krankenhaus-johanneum",
+    "place_name": "Krankenhaus Johanneum",
+    "query": "Krankenhaus Johanneum",
+    "resolved_name": "Krankenhaus Johanneum",
+    "resolved_url": "https://www.google.com/maps/place/Krankenhaus+Johanneum/@52.893141,8.4314399,17z/data=!3m1!4b1!4m6!3m5!1s0x47b73223be69abcb:0xd5ccaaec43cf2653!8m2!3d52.893141!4d8.4314399!16s%2Fg%2F1t_kflf_?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krankenhaus-land-hadeln": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:43:50Z",
+    "place_id": "krankenhaus-land-hadeln",
+    "place_name": "Krankenhaus Land Hadeln",
+    "query": "Krankenhaus Land Hadeln",
+    "resolved_name": "Krankenhaus Land Hadeln Otterndorf gGmbH",
+    "resolved_url": "https://www.google.com/maps/place/Krankenhaus+Land+Hadeln+Otterndorf+gGmbH/@53.8126283,8.8891178,17z/data=!3m1!4b1!4m6!3m5!1s0x47b3ff1d746a57a1:0xe9eec0dbaa2881a6!8m2!3d53.8126283!4d8.8891178!16s%2Fg%2F1tgn8pjl?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krankenhaus-lindenbrunn": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:44:23Z",
+    "place_id": "krankenhaus-lindenbrunn",
+    "place_name": "Krankenhaus Lindenbrunn",
+    "query": "Krankenhaus Lindenbrunn",
+    "resolved_name": "Krankenhaus Lindenbrunn",
+    "resolved_url": "https://www.google.com/maps/place/Krankenhaus+Lindenbrunn/@52.1104958,9.5446238,17z/data=!4m10!1m2!2m1!1sKrankenhaus+Lindenbrunn!3m6!1s0x47ba972dcfb94871:0x2ba194a9d9fbed1d!8m2!3d52.1104958!4d9.5493874!15sChdLcmFua2VuaGF1cyBMaW5kZW5icnVubpIBCGhvc3BpdGFs4AEA!16s%2Fg%2F1236mm8g?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krankenhaus-ludmillenstift-meppen": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:44:51Z",
+    "place_id": "krankenhaus-ludmillenstift-meppen",
+    "place_name": "Krankenhaus Ludmillenstift Meppen",
+    "query": "Krankenhaus Ludmillenstift Meppen",
+    "resolved_name": "Ludmillenstift Meppen",
+    "resolved_url": "https://www.google.com/maps/place/Ludmillenstift+Meppen/@52.6889101,7.2928687,17z/data=!3m1!4b1!4m6!3m5!1s0x47b79056baf43483:0x59c2048e1a4953f!8m2!3d52.6889101!4d7.2928687!16s%2Fg%2F122pkz8g?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krankenhaus-norderney": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:45:18Z",
+    "place_id": "krankenhaus-norderney",
+    "place_name": "Krankenhaus Norderney",
+    "query": "Krankenhaus Norderney",
+    "resolved_name": "Krankenhaus Norderney",
+    "resolved_url": "https://www.google.com/maps/place/Krankenhaus+Norderney/@53.7161097,7.1727201,17z/data=!3m1!4b1!4m6!3m5!1s0x47b60fed6271c141:0xe3c3e05ef20ec5f5!8m2!3d53.7161097!4d7.1727201!16s%2Fg%2F1tfl8qq9?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krankenhaus-rheiderland": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:45:45Z",
+    "place_id": "krankenhaus-rheiderland",
+    "place_name": "Krankenhaus Rheiderland",
+    "query": "Krankenhaus Rheiderland",
+    "resolved_name": "Krankenhaus Rheiderland",
+    "resolved_url": "https://www.google.com/maps/place/Krankenhaus+Rheiderland/@53.168067,7.3524265,17z/data=!3m1!4b1!4m6!3m5!1s0x47b64b543594847f:0x2b8dc77e31e072a6!8m2!3d53.168067!4d7.3524265!16s%2Fg%2F1tht0jf7?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krankenhaus-st-elisabeth-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:46:19Z",
+    "place_id": "krankenhaus-st-elisabeth-ggmbh",
+    "place_name": "Krankenhaus St. Elisabeth gGmbH",
+    "query": "Krankenhaus St. Elisabeth gGmbH",
+    "resolved_name": "Krankenhaus St. Elisabeth gGmbH",
+    "resolved_url": "https://www.google.com/maps/place/Krankenhaus+St.+Elisabeth+gGmbH/@52.52164,6.9750476,9z/data=!3m1!5s0x47b75a0a19348837:0x26bcb797175d4630!4m10!1m2!2m1!1sKrankenhaus+St.+Elisabeth+gGmbH!3m6!1s0x47b75a0a028ddec1:0x8dd949789aea2510!8m2!3d52.52164!4d8.19453!15sCh9LcmFua2VuaGF1cyBTdC4gRWxpc2FiZXRoIGdHbWJIWiAiHmtyYW5rZW5oYXVzIHN0IGVsaXNhYmV0aCBnZ21iaJIBEGdlbmVyYWxfaG9zcGl0YWyaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUXpMWE5YVlZOM0VBReABAPoBBQjIAhBK!16s%2Fg%2F1tph0tmt?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krankenhaus-wittmund-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:46:46Z",
+    "place_id": "krankenhaus-wittmund-ggmbh",
+    "place_name": "Krankenhaus Wittmund gGmbH",
+    "query": "Krankenhaus Wittmund gGmbH",
+    "resolved_name": "Krankenhaus Wittmund",
+    "resolved_url": "https://www.google.com/maps/place/Krankenhaus+Wittmund/@53.57191,7.78858,17z/data=!3m1!4b1!4m6!3m5!1s0x47b6621fb4e21f09:0xe4d264de136c5178!8m2!3d53.57191!4d7.78858!16s%2Fg%2F12ckhqgsx?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "kreiskrankenhaus-osterholz": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:47:13Z",
+    "place_id": "kreiskrankenhaus-osterholz",
+    "place_name": "Kreiskrankenhaus Osterholz",
+    "query": "Kreiskrankenhaus Osterholz",
+    "resolved_name": "Kreiskrankenhaus Osterholz",
+    "resolved_url": "https://www.google.com/maps/place/Kreiskrankenhaus+Osterholz/@53.2337217,8.7942051,17z/data=!3m1!4b1!4m6!3m5!1s0x47b12e2220f1eb2d:0xee4b35384cb3b2ad!8m2!3d53.2337217!4d8.7942051!16s%2Fg%2F11g6p8_n41?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krh-klinikum-agnes-karll-laatzen": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:26:03Z",
+    "place_id": "krh-klinikum-agnes-karll-laatzen",
+    "place_name": "KRH-Klinikum Agnes Karll Laatzen",
+    "query": "KRH-Klinikum Agnes Karll Laatzen",
+    "resolved_name": "KRH Klinikum Agnes Karll Laatzen",
+    "resolved_url": "https://www.google.com/maps/place/KRH+Klinikum+Agnes+Karll+Laatzen/@52.3065734,9.7990812,17z/data=!3m1!4b1!4m6!3m5!1s0x47b00a7aab528ecd:0xcf56445f117865ac!8m2!3d52.3065734!4d9.7990812!16s%2Fg%2F11h033htz8?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krh-klinikum-grossburgwedel": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:26:30Z",
+    "place_id": "krh-klinikum-grossburgwedel",
+    "place_name": "KRH-Klinikum Großburgwedel",
+    "query": "KRH-Klinikum Großburgwedel",
+    "resolved_name": "KRH Klinikum Großburgwedel",
+    "resolved_url": "https://www.google.com/maps/place/KRH+Klinikum+Gro%C3%9Fburgwedel/@52.49634,9.86174,17z/data=!3m1!4b1!4m6!3m5!1s0x47b01250bee1a2ab:0x6097ffe5c867564f!8m2!3d52.49634!4d9.86174!16s%2Fg%2F1tg_8jdl?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krh-klinikum-lehrte": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:26:58Z",
+    "place_id": "krh-klinikum-lehrte",
+    "place_name": "KRH-Klinikum Lehrte",
+    "query": "KRH-Klinikum Lehrte",
+    "resolved_name": "KRH Klinikum Lehrte",
+    "resolved_url": "https://www.google.com/maps/place/KRH+Klinikum+Lehrte/@52.38014,9.9830362,17z/data=!3m1!4b1!4m6!3m5!1s0x47b00f588d8cc601:0xcdad104f265200f7!8m2!3d52.38014!4d9.9830362!16s%2Fg%2F1tnpk14p?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krh-klinikum-neustadt-am-ruebenberge": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:27:25Z",
+    "place_id": "krh-klinikum-neustadt-am-ruebenberge",
+    "place_name": "KRH-Klinikum Neustadt am Rübenberge",
+    "query": "KRH-Klinikum Neustadt am Rübenberge",
+    "resolved_name": "KRH Klinikum Neustadt am Rübenberge",
+    "resolved_url": "https://www.google.com/maps/place/KRH+Klinikum+Neustadt+am+R%C3%BCbenberge/@52.4937535,9.4653818,17z/data=!3m1!4b1!4m6!3m5!1s0x47b07b4ceed9dac9:0xd9055fe72196dccf!8m2!3d52.4937535!4d9.4653818!16s%2Fg%2F1td3qjqq?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krh-klinikum-nordstadt": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:27:52Z",
+    "place_id": "krh-klinikum-nordstadt",
+    "place_name": "KRH-Klinikum Nordstadt",
+    "query": "KRH-Klinikum Nordstadt",
+    "resolved_name": "KRH Klinikum Nordstadt",
+    "resolved_url": "https://www.google.com/maps/place/KRH+Klinikum+Nordstadt/@52.3920183,9.7159296,17z/data=!3m1!4b1!4m6!3m5!1s0x47b0737cd16e9f4b:0x3c9a9e866f43196a!8m2!3d52.3920183!4d9.7159296!16s%2Fg%2F120s1wqs?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krh-klinikum-robert-koch-gehrden": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:28:19Z",
+    "place_id": "krh-klinikum-robert-koch-gehrden",
+    "place_name": "KRH-Klinikum Robert Koch Gehrden",
+    "query": "KRH-Klinikum Robert Koch Gehrden",
+    "resolved_name": "KRH Klinikum Robert Koch Gehrden",
+    "resolved_url": "https://www.google.com/maps/place/KRH+Klinikum+Robert+Koch+Gehrden/@52.304126,9.5981583,17z/data=!3m1!4b1!4m6!3m5!1s0x47ba9dfa8e6dae8d:0x88ecc082bef541cc!8m2!3d52.304126!4d9.5981583!16s%2Fg%2F1tf5cvw1?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "krh-klinikum-siloah": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:28:47Z",
+    "place_id": "krh-klinikum-siloah",
+    "place_name": "KRH-Klinikum Siloah",
+    "query": "KRH-Klinikum Siloah",
+    "resolved_name": "KRH Klinikum Siloah",
+    "resolved_url": "https://www.google.com/maps/place/KRH+Klinikum+Siloah/@52.3595457,9.7245203,17z/data=!3m1!4b1!4m6!3m5!1s0x47b00cf23ecde9d1:0xd81dd62b3c00c3ce!8m2!3d52.3595457!4d9.7245203!16s%2Fg%2F1tf01f4_?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "marienkrankenhaus-papenburg-aschendorf-gmbh": {
+    "error": "Name mismatch: requested 'Marienkrankenhaus Papenburg-Aschendorf GmbH', resolved 'Marien Hospital Papenburg Aschendorf'",
+    "last_checked_at": "2026-04-15T12:47:46Z",
+    "place_id": "marienkrankenhaus-papenburg-aschendorf-gmbh",
+    "place_name": "Marienkrankenhaus Papenburg-Aschendorf GmbH",
+    "query": "Marienkrankenhaus Papenburg-Aschendorf GmbH",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "median-zentrum-fuer-verhaltensmedizin-bad-pyrmont-fachkrankenhaus": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:49:41Z",
+    "place_id": "median-zentrum-fuer-verhaltensmedizin-bad-pyrmont-fachkrankenhaus",
+    "place_name": "Median Zentrum für Verhaltensmedizin Bad Pyrmont Fachkrankenhaus",
+    "query": "Median Zentrum für Verhaltensmedizin Bad Pyrmont Fachkrankenhaus",
+    "resolved_name": "MEDIAN Zentrum für Verhaltensmedizin Bad Pyrmont",
+    "resolved_url": "https://www.google.com/maps/place/MEDIAN+Zentrum+f%C3%BCr+Verhaltensmedizin+Bad+Pyrmont/@51.9908178,9.2525297,17z/data=!3m1!4b1!4m6!3m5!1s0x47baf4b6c4ee5145:0x5e56bbf981392152!8m2!3d51.9908178!4d9.2525297!16s%2Fg%2F1thxk57k?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "mediclin-deister-weser-klinik-akutpsychosomatik": {
+    "error": "Name mismatch: requested 'Mediclin Deister-Weser-Klinik Akutpsychosomatik', resolved 'MEDICLIN Deister Weser Kliniken - Haus Weser'",
+    "last_checked_at": "2026-04-15T12:50:08Z",
+    "place_id": "mediclin-deister-weser-klinik-akutpsychosomatik",
+    "place_name": "Mediclin Deister-Weser-Klinik Akutpsychosomatik",
+    "query": "Mediclin Deister-Weser-Klinik Akutpsychosomatik",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "mediclin-hedon-klinik": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:48:13Z",
+    "place_id": "mediclin-hedon-klinik",
+    "place_name": "MediClin Hedon-Klinik",
+    "query": "MediClin Hedon-Klinik",
+    "resolved_name": "MEDICLIN Hedon Klinik",
+    "resolved_url": "https://www.google.com/maps/place/MEDICLIN+Hedon+Klinik/@52.5120606,7.3588325,17z/data=!3m1!4b1!4m6!3m5!1s0x47b787038937ce6d:0x115104372bd2b4c0!8m2!3d52.5120606!4d7.3588325!16s%2Fg%2F1td3237l?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "mediclin-klinikum-soltau": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:48:40Z",
+    "place_id": "mediclin-klinikum-soltau",
+    "place_name": "MediClin Klinikum Soltau",
+    "query": "MediClin Klinikum Soltau",
+    "resolved_name": "MEDICLIN Klinikum Soltau",
+    "resolved_url": "https://www.google.com/maps/place/MEDICLIN+Klinikum+Soltau/@52.99415,9.85705,17z/data=!3m1!4b1!4m6!3m5!1s0x47b1b4a78d1c81bf:0xf03a8a5e310d8752!8m2!3d52.99415!4d9.85705!16s%2Fg%2F1tjv2kmq?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "mediclin-seepark-klinik-akutpsychosomatik-schwerpunkt-essstoerungen": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:49:14Z",
+    "place_id": "mediclin-seepark-klinik-akutpsychosomatik-schwerpunkt-essstoerungen",
+    "place_name": "MediClin Seepark Klinik Akutpsychosomatik Schwerpunkt Essstörungen",
+    "query": "MediClin Seepark Klinik Akutpsychosomatik Schwerpunkt Essstörungen",
+    "resolved_name": "MEDICLIN Seepark Klinik",
+    "resolved_url": "https://www.google.com/maps/place/MEDICLIN+Seepark+Klinik/@52.8236461,10.6785638,17z/data=!4m10!1m2!2m1!1sMediClin+Seepark+Klinik+Akutpsychosomatik+Schwerpunkt+Essst%C3%B6rungen!3m6!1s0x47afcdd54bea4b53:0x3df95c42798fac31!8m2!3d52.8236461!4d10.6833274!15sCkNNZWRpQ2xpbiBTZWVwYXJrIEtsaW5payBBa3V0cHN5Y2hvc29tYXRpayBTY2h3ZXJwdW5rdCBFc3NzdMO2cnVuZ2VuWkUiQ21lZGljbGluIHNlZXBhcmsga2xpbmlrIGFrdXRwc3ljaG9zb21hdGlrIHNjaHdlcnB1bmt0IGVzc3N0w7ZydW5nZW6SARVyZWhhYmlsaXRhdGlvbl9jZW50ZXKaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTmZhRXRUT0dSbkVBReABAPoBBQj7AxBB!16s%2Fg%2F1th7lyvh?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "medizinische-hochschule-hannover": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:50:35Z",
+    "place_id": "medizinische-hochschule-hannover",
+    "place_name": "Medizinische Hochschule Hannover",
+    "query": "Medizinische Hochschule Hannover",
+    "resolved_name": "Medizinische Hochschule Hannover",
+    "resolved_url": "https://www.google.com/maps/place/Medizinische+Hochschule+Hannover/@52.383675,9.8049554,17z/data=!3m1!4b1!4m6!3m5!1s0x47b00c83ca3e6511:0x507859bbb59bcfe!8m2!3d52.383675!4d9.8049554!16s%2Fm%2F02q_jhp?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "niels-stensen-kliniken-bramsche": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:51:02Z",
+    "place_id": "niels-stensen-kliniken-bramsche",
+    "place_name": "Niels-Stensen-Kliniken Bramsche",
+    "query": "Niels-Stensen-Kliniken Bramsche",
+    "resolved_name": "Niels-Stensen-Kliniken Bramsche",
+    "resolved_url": "https://www.google.com/maps/place/Niels-Stensen-Kliniken+Bramsche/@52.4086349,7.9857609,17z/data=!3m1!4b1!4m6!3m5!1s0x47b9e0497d85c575:0xa723bba81ec66264!8m2!3d52.4086349!4d7.9857609!16s%2Fg%2F1tl0wfpl?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "niels-stensen-kliniken-christliches-klinikum-melle": {
+    "error": "Name mismatch: requested 'Niels-Stensen-Kliniken Christliches Klinikum Melle', resolved 'Christliches Klinikum Melle - Niels-Stensen-Kliniken'",
+    "last_checked_at": "2026-04-15T12:51:29Z",
+    "place_id": "niels-stensen-kliniken-christliches-klinikum-melle",
+    "place_name": "Niels-Stensen-Kliniken Christliches Klinikum Melle",
+    "query": "Niels-Stensen-Kliniken Christliches Klinikum Melle",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "niels-stensen-kliniken-elisabeth-krankenhausthuine": {
+    "error": "Name mismatch: requested 'Niels-Stensen-Kliniken Elisabeth-KrankenhausThuine', resolved 'Elisabeth-Krankenhaus Thuine'",
+    "last_checked_at": "2026-04-15T12:51:56Z",
+    "place_id": "niels-stensen-kliniken-elisabeth-krankenhausthuine",
+    "place_name": "Niels-Stensen-Kliniken Elisabeth-KrankenhausThuine",
+    "query": "Niels-Stensen-Kliniken Elisabeth-KrankenhausThuine",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "niels-stensen-kliniken-franziskus-hospital-harderberg": {
+    "error": "Name mismatch: requested 'Niels-Stensen-Kliniken Franziskus Hospital Harderberg', resolved 'Franziskus-Hospital Harderberg - Niels-Stensen-Kliniken'",
+    "last_checked_at": "2026-04-15T12:52:23Z",
+    "place_id": "niels-stensen-kliniken-franziskus-hospital-harderberg",
+    "place_name": "Niels-Stensen-Kliniken Franziskus Hospital Harderberg",
+    "query": "Niels-Stensen-Kliniken Franziskus Hospital Harderberg",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "niels-stensen-kliniken-magdalenen-klinik": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:52:51Z",
+    "place_id": "niels-stensen-kliniken-magdalenen-klinik",
+    "place_name": "Niels-Stensen-Kliniken Magdalenen-Klinik",
+    "query": "Niels-Stensen-Kliniken Magdalenen-Klinik",
+    "resolved_name": "Magdalenen-Klinik",
+    "resolved_url": "https://www.google.com/maps/place/Magdalenen-Klinik/@52.23769,8.07372,17z/data=!3m1!4b1!4m6!3m5!1s0x47b9ef96fa654ae3:0x3f5aa3f26817c43d!8m2!3d52.23769!4d8.07372!16s%2Fg%2F1tdbk2bj?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "niels-stensen-kliniken-marienhospital-ankum-bersenbrueck-gmbh": {
+    "error": "Name mismatch: requested 'Niels-Stensen-Kliniken Marienhospital Ankum-Bersenbrück GmbH', resolved 'Marienhospital Ankum-Bersenbrück - Niels-Stensen-Kliniken'",
+    "last_checked_at": "2026-04-15T12:53:18Z",
+    "place_id": "niels-stensen-kliniken-marienhospital-ankum-bersenbrueck-gmbh",
+    "place_name": "Niels-Stensen-Kliniken Marienhospital Ankum-Bersenbrück GmbH",
+    "query": "Niels-Stensen-Kliniken Marienhospital Ankum-Bersenbrück GmbH",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "niels-stensen-kliniken-marienhospital-osnabrueck": {
+    "error": "Name mismatch: requested 'Niels-Stensen-Kliniken Marienhospital Osnabrück', resolved 'Marienhospital Osnabrück - Niels-Stensen-Kliniken'",
+    "last_checked_at": "2026-04-15T12:53:45Z",
+    "place_id": "niels-stensen-kliniken-marienhospital-osnabrueck",
+    "place_name": "Niels-Stensen-Kliniken Marienhospital Osnabrück",
+    "query": "Niels-Stensen-Kliniken Marienhospital Osnabrück",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "niels-stensen-kliniken-st-vinzenz-hospital-haseluenne": {
+    "error": "Name mismatch: requested 'Niels-Stensen-Kliniken St. Vinzenz-Hospital Haselünne', resolved 'St. Vinzenz Hospital Haselünne gGmbH'",
+    "last_checked_at": "2026-04-15T12:54:12Z",
+    "place_id": "niels-stensen-kliniken-st-vinzenz-hospital-haseluenne",
+    "place_name": "Niels-Stensen-Kliniken St. Vinzenz-Hospital Haselünne",
+    "query": "Niels-Stensen-Kliniken St. Vinzenz-Hospital Haselünne",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "niels-stensen-klinikenkrankenhaus-st-raphael-ostercappeln": {
+    "error": "Name mismatch: requested 'Niels-Stensen-KlinikenKrankenhaus St. Raphael Ostercappeln', resolved 'Hospizprojekt Spes Viva im St.-Raphael-Krankenhaus'",
+    "last_checked_at": "2026-04-15T12:54:45Z",
+    "place_id": "niels-stensen-klinikenkrankenhaus-st-raphael-ostercappeln",
+    "place_name": "Niels-Stensen-KlinikenKrankenhaus St. Raphael Ostercappeln",
+    "query": "Niels-Stensen-KlinikenKrankenhaus St. Raphael Ostercappeln",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "nordwest-krankenhaus-sanderbusch-gmbh": {
+    "error": "Name mismatch: requested 'Nordwest-Krankenhaus Sanderbusch GmbH', resolved 'Friesland Kliniken gGmbH - Nordwest-Krankenhaus Sanderbusch'",
+    "last_checked_at": "2026-04-15T12:55:12Z",
+    "place_id": "nordwest-krankenhaus-sanderbusch-gmbh",
+    "place_name": "Nordwest-Krankenhaus Sanderbusch GmbH",
+    "query": "Nordwest-Krankenhaus Sanderbusch GmbH",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "ostemed-klinik-bremervoerde": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:55:40Z",
+    "place_id": "ostemed-klinik-bremervoerde",
+    "place_name": "OsteMed Klinik Bremervörde",
+    "query": "OsteMed Klinik Bremervörde",
+    "resolved_name": "OsteMed Klinik Bremervörde",
+    "resolved_url": "https://www.google.com/maps/place/OsteMed+Klinik+Bremerv%C3%B6rde/@53.47135,9.13539,17z/data=!3m1!4b1!4m6!3m5!1s0x47b14181cc71b863:0x9e67a0479524aff6!8m2!3d53.47135!4d9.13539!16s%2Fg%2F1tfbgsnv?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "paracelsus-klinik-am-silbersee": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:56:07Z",
+    "place_id": "paracelsus-klinik-am-silbersee",
+    "place_name": "Paracelsus Klinik am Silbersee",
+    "query": "Paracelsus Klinik am Silbersee",
+    "resolved_name": "Paracelsus-Klinik am Silbersee Langenhagen",
+    "resolved_url": "https://www.google.com/maps/place/Paracelsus-Klinik+am+Silbersee+Langenhagen/@52.4340758,9.7576896,17z/data=!3m1!4b1!4m6!3m5!1s0x47b072da01dde877:0x55607cf76e52d304!8m2!3d52.4340758!4d9.7576896!16s%2Fg%2F1tj2gygy?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "paulinenkrankenhaus": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:56:34Z",
+    "place_id": "paulinenkrankenhaus",
+    "place_name": "Paulinenkrankenhaus",
+    "query": "Paulinenkrankenhaus",
+    "resolved_name": "Sana Paulinenkrankenhaus",
+    "resolved_url": "https://www.google.com/maps/place/Sana+Paulinenkrankenhaus/@52.50783,13.23368,17z/data=!3m1!4b1!4m6!3m5!1s0x47a857107b18a25d:0x5336993b57064a8f!8m2!3d52.50783!4d13.23368!16s%2Fg%2F11dyrkhtpb?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "pius-hospital": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:57:02Z",
+    "place_id": "pius-hospital",
+    "place_name": "Pius-Hospital",
+    "query": "Pius-Hospital",
+    "resolved_name": "Pius-Hospital Oldenburg",
+    "resolved_url": "https://www.google.com/maps/place/Pius-Hospital+Oldenburg/@53.1436979,8.2104858,17z/data=!3m1!4b1!4m6!3m5!1s0x47b6df07679660fb:0x6b8abb566b25a4ba!8m2!3d53.1436979!4d8.2104858!16s%2Fg%2F1vvdt8ng?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "privat-nervenklinik-dr-med-fontheim": {
+    "error": "Name mismatch: requested 'Privat-Nervenklinik Dr. med. Fontheim', resolved 'DR. FONTHEIM Mentale Gesundheit'",
+    "last_checked_at": "2026-04-15T12:57:36Z",
+    "place_id": "privat-nervenklinik-dr-med-fontheim",
+    "place_name": "Privat-Nervenklinik Dr. med. Fontheim",
+    "query": "Privat-Nervenklinik Dr. med. Fontheim",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "privatklinik-bad-zwischenahn-fachklinik-fuer-psychotherapeutische-medizin-und-psychosomatik": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:58:09Z",
+    "place_id": "privatklinik-bad-zwischenahn-fachklinik-fuer-psychotherapeutische-medizin-und-psychosomatik",
+    "place_name": "Privatklinik Bad Zwischenahn Fachklinik für Psychotherapeutische Medizin und Psychosomatik",
+    "query": "Privatklinik Bad Zwischenahn Fachklinik für Psychotherapeutische Medizin und Psychosomatik",
+    "resolved_name": "Privatklinik Bad Zwischenahn",
+    "resolved_url": "https://www.google.com/maps/place/Privatklinik+Bad+Zwischenahn/@53.1929672,7.9127943,13z/data=!4m10!1m2!2m1!1sPrivatklinik+Bad+Zwischenahn+Fachklinik+f%C3%BCr+Psychotherapeutische+Medizin+und+Psychosomatik!3m6!1s0x47b6e374242160c5:0x918196e720ca90d1!8m2!3d53.1929672!4d7.989012!15sCltQcml2YXRrbGluaWsgQmFkIFp3aXNjaGVuYWhuIEZhY2hrbGluaWsgZsO8ciBQc3ljaG90aGVyYXBldXRpc2NoZSBNZWRpemluIHVuZCBQc3ljaG9zb21hdGlrWl0iW3ByaXZhdGtsaW5payBiYWQgendpc2NoZW5haG4gZmFjaGtsaW5payBmw7xyIHBzeWNob3RoZXJhcGV1dGlzY2hlIG1lZGl6aW4gdW5kIHBzeWNob3NvbWF0aWuSARBwcml2YXRlX2hvc3BpdGFsmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU4xZDNSWWNYcDNSUkFC4AEA-gEECAAQQg!16s%2Fg%2F1tfphwwx?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "psychiatrisch-psychosomatische-klinik-celle": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:58:37Z",
+    "place_id": "psychiatrisch-psychosomatische-klinik-celle",
+    "place_name": "Psychiatrisch-Psychosomatische Klinik Celle",
+    "query": "Psychiatrisch-Psychosomatische Klinik Celle",
+    "resolved_name": "Psychiatrisch Psychosomatische Klinik Celle Wahrendorff GmbH",
+    "resolved_url": "https://www.google.com/maps/place/Psychiatrisch+Psychosomatische+Klinik+Celle+Wahrendorff+GmbH/@52.6281472,10.0873795,17z/data=!3m1!4b1!4m6!3m5!1s0x47b022b0352ad255:0x9eb79b7a7e08c37b!8m2!3d52.6281472!4d10.0873795!16s%2Fg%2F11fxvplxvg?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "psychiatrische-klinik-lueneburg-gemeinnuetzige-gmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:59:11Z",
+    "place_id": "psychiatrische-klinik-lueneburg-gemeinnuetzige-gmbh",
+    "place_name": "Psychiatrische Klinik Lüneburg gemeinnützige GmbH",
+    "query": "Psychiatrische Klinik Lüneburg gemeinnützige GmbH",
+    "resolved_name": "Psychiatrische Klinik Lüneburg",
+    "resolved_url": "https://www.google.com/maps/place/Psychiatrische+Klinik+L%C3%BCneburg/@53.2533851,10.3765866,16z/data=!3m1!5s0x47b1ddbacf4e397d:0xc0fc2967ba39fa79!4m10!1m2!2m1!1sPsychiatrische+Klinik+L%C3%BCneburg+gemeinn%C3%BCtzige+GmbH!3m6!1s0x47b1dda6abd3b2cf:0xbfe01ae99fd0adc0!8m2!3d53.2533851!4d10.3861138!15sCjNQc3ljaGlhdHJpc2NoZSBLbGluaWsgTMO8bmVidXJnIGdlbWVpbm7DvHR6aWdlIEdtYkgiA4gBAVo1IjNwc3ljaGlhdHJpc2NoZSBrbGluaWsgbMO8bmVidXJnIGdlbWVpbm7DvHR6aWdlIGdtYmiSARRtZW50YWxfaGVhbHRoX2NsaW5pY5oBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOaU1HVXlWMUZSRUFF4AEA-gEECHEQQA!16s%2Fg%2F11x97zr2g?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "psychiatrische-klinik-uelzen-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T12:59:38Z",
+    "place_id": "psychiatrische-klinik-uelzen-ggmbh",
+    "place_name": "Psychiatrische Klinik Uelzen gGmbH",
+    "query": "Psychiatrische Klinik Uelzen gGmbH",
+    "resolved_name": "Psychiatrische Klinik Uelzen",
+    "resolved_url": "https://www.google.com/maps/place/Psychiatrische+Klinik+Uelzen/@52.96681,10.52842,17z/data=!3m1!4b1!4m6!3m5!1s0x47ae2b0aa232ecbb:0xc428125844ba9e04!8m2!3d52.96681!4d10.52842!16s%2Fg%2F11g18_crr5?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "sana-klinikum-hameln-pyrmont": {
+    "error": null,
+    "last_checked_at": "2026-04-15T13:00:05Z",
+    "place_id": "sana-klinikum-hameln-pyrmont",
+    "place_name": "Sana Klinikum Hameln-Pyrmont",
+    "query": "Sana Klinikum Hameln-Pyrmont",
+    "resolved_name": "Sana Klinikum Hameln-Pyrmont",
+    "resolved_url": "https://www.google.com/maps/place/Sana+Klinikum+Hameln-Pyrmont/@52.1075512,9.3516712,17z/data=!3m1!4b1!4m6!3m5!1s0x47ba8eef7bb09701:0x38c5edd92206a8ed!8m2!3d52.1075512!4d9.3516712!16s%2Fg%2F12156376?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "schuechtermann-klinik": {
+    "error": null,
+    "last_checked_at": "2026-04-15T13:00:33Z",
+    "place_id": "schuechtermann-klinik",
+    "place_name": "Schüchtermann-Klinik",
+    "query": "Schüchtermann-Klinik",
+    "resolved_name": "Schüchtermann-Klinik",
+    "resolved_url": "https://www.google.com/maps/place/Sch%C3%BCchtermann-Klinik/@52.1127078,8.1654244,17z/data=!3m1!4b1!4m6!3m5!1s0x47b9f371897daa55:0xd8d1445a4a632be5!8m2!3d52.1127078!4d8.1654244!16s%2Fg%2F1tpc71t7?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "sophien-klinik-gmbh": {
+    "error": "Name mismatch: requested 'Sophien-Klinik GmbH', resolved 'Sophienklinik GmbH'",
+    "last_checked_at": "2026-04-15T13:01:00Z",
+    "place_id": "sophien-klinik-gmbh",
+    "place_name": "Sophien-Klinik GmbH",
+    "query": "Sophien-Klinik GmbH",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "st-anna-klinik": {
+    "error": "Name mismatch: requested 'St. Anna Klinik', resolved 'DIAKOVERE Annastift'",
+    "last_checked_at": "2026-04-15T13:01:34Z",
+    "place_id": "st-anna-klinik",
+    "place_name": "St. Anna Klinik",
+    "query": "St. Anna Klinik",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "st-bernhard-hospital": {
+    "error": null,
+    "last_checked_at": "2026-04-15T13:02:08Z",
+    "place_id": "st-bernhard-hospital",
+    "place_name": "St. Bernhard-Hospital",
+    "query": "St. Bernhard-Hospital",
+    "resolved_name": "St. Bernhard-Hospital Kamp-Lintfort GmbH",
+    "resolved_url": "https://www.google.com/maps/place/St.+Bernhard-Hospital+Kamp-Lintfort+GmbH/@51.4921656,4.0769335,8z/data=!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.+Bernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%2Fg%2F12288w17?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "st-bernward-krankenhaus": {
+    "error": null,
+    "last_checked_at": "2026-04-15T13:02:35Z",
+    "place_id": "st-bernward-krankenhaus",
+    "place_name": "St. Bernward Krankenhaus",
+    "query": "St. Bernward Krankenhaus",
+    "resolved_name": "St. Bernward Krankenhaus",
+    "resolved_url": "https://www.google.com/maps/place/St.+Bernward+Krankenhaus/@52.1471957,9.9479112,17z/data=!3m1!4b1!4m6!3m5!1s0x47baafaf051e8923:0x206ecd56350c847f!8m2!3d52.1471957!4d9.9479112!16s%2Fg%2F1v7pxl7h?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "st-bonifatius-hospital": {
+    "error": "Name mismatch: requested 'St. Bonifatius Hospital', resolved 'Bonifatius Hospital Lingen'",
+    "last_checked_at": "2026-04-15T13:03:10Z",
+    "place_id": "st-bonifatius-hospital",
+    "place_name": "St. Bonifatius Hospital",
+    "query": "St. Bonifatius Hospital",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "st-elisabeth-krankenhaus-salzgitter-gemeinuetzige-gesellschaft-mbh": {
+    "error": "Name mismatch: requested 'St. Elisabeth-Krankenhaus Salzgitter gemeinützige Gesellschaft mbH', resolved 'St. Elisabeth-Krankenhaus Salzgitter gGmbH'",
+    "last_checked_at": "2026-04-15T13:03:37Z",
+    "place_id": "st-elisabeth-krankenhaus-salzgitter-gemeinuetzige-gesellschaft-mbh",
+    "place_name": "St. Elisabeth-Krankenhaus Salzgitter gemeinützige Gesellschaft mbH",
+    "query": "St. Elisabeth-Krankenhaus Salzgitter gemeinützige Gesellschaft mbH",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "st-franziskus-hospital-ggmbh": {
+    "error": "Name mismatch: requested 'St. Franziskus Hospital gGmbH', resolved 'St. Franziskus-Hospital GmbH Winterberg'",
+    "last_checked_at": "2026-04-15T13:04:04Z",
+    "place_id": "st-franziskus-hospital-ggmbh",
+    "place_name": "St. Franziskus Hospital gGmbH",
+    "query": "St. Franziskus Hospital gGmbH",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "st-johannes-hospital": {
+    "error": null,
+    "last_checked_at": "2026-04-15T13:04:38Z",
+    "place_id": "st-johannes-hospital",
+    "place_name": "St. Johannes-Hospital",
+    "query": "St. Johannes-Hospital",
+    "resolved_name": "St. Johannes Hospital | Kath. St. Paulus Gesellschaft",
+    "resolved_url": "https://www.google.com/maps/place/St.+Johannes+Hospital+%7C+Kath.+St.+Paulus+Gesellschaft/@51.5116774,2.5793738,7z/data=!3m1!5s0x47b919e7725547a7:0xbbebb68e06368a10!4m10!1m2!2m1!1sSt.+Johannes-Hospital!3m6!1s0x47b919ddda3544d7:0x2920137ada8315b7!8m2!3d51.5116774!4d7.4573035!15sChVTdC4gSm9oYW5uZXMtSG9zcGl0YWxaFiIUc3Qgam9oYW5uZXMgaG9zcGl0YWySAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VReWVIUXRkMUJCRUFF4AEA-gEECB0QOw!16s%2Fg%2F120jwsf1?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "st-josefs-hospital-cloppenburg-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T13:06:40Z",
+    "place_id": "st-josefs-hospital-cloppenburg-ggmbh",
+    "place_name": "St.-Josefs-Hospital Cloppenburg gGmbH",
+    "query": "St.-Josefs-Hospital Cloppenburg gGmbH",
+    "resolved_name": "St.-Josefs-Hospital Cloppenburg",
+    "resolved_url": "https://www.google.com/maps/place/St.-Josefs-Hospital+Cloppenburg/@52.8472307,8.040256,17z/data=!3m1!4b1!4m6!3m5!1s0x47b715e850a341b9:0x24f1cdb920159e!8m2!3d52.8472307!4d8.040256!16s%2Fg%2F1tj83x_n?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "st-marien-hospital-ggmbh": {
+    "error": "Name mismatch: requested 'St. Marien Hospital gGmbH', resolved 'St. Marien-Hospital Düren-Birkesdorf'",
+    "last_checked_at": "2026-04-15T13:05:12Z",
+    "place_id": "st-marien-hospital-ggmbh",
+    "place_name": "St. Marien Hospital gGmbH",
+    "query": "St. Marien Hospital gGmbH",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "st-marienhospital-vechta-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T13:05:39Z",
+    "place_id": "st-marienhospital-vechta-ggmbh",
+    "place_name": "St. Marienhospital Vechta gGmbH",
+    "query": "St. Marienhospital Vechta gGmbH",
+    "resolved_name": "St. Marienhospital Vechta",
+    "resolved_url": "https://www.google.com/maps/place/St.+Marienhospital+Vechta/@52.72573,8.28672,17z/data=!3m1!4b1!4m6!3m5!1s0x47b7484294229b09:0x923de4710b39f403!8m2!3d52.72573!4d8.28672!16s%2Fg%2F11cs6kb18k?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "st-martini-ggmbh": {
+    "error": "Name mismatch: requested 'St. Martini gGmbH', resolved 'St. Martini Krankenhaus'",
+    "last_checked_at": "2026-04-15T13:06:13Z",
+    "place_id": "st-martini-ggmbh",
+    "place_name": "St. Martini gGmbH",
+    "query": "St. Martini gGmbH",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "staedtisches-klinikum-braunschweig": {
+    "error": null,
+    "last_checked_at": "2026-04-15T13:07:40Z",
+    "place_id": "staedtisches-klinikum-braunschweig",
+    "place_name": "Städtisches Klinikum Braunschweig",
+    "query": "Städtisches Klinikum Braunschweig",
+    "resolved_name": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund",
+    "resolved_url": "https://www.google.com/maps/place/St%C3%A4dtisches+Klinikum+Braunschweig+gGmbH+-+Klinikum+Fichtengrund/@52.2552957,10.5260594,14z/data=!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%C3%A4dtisches+Klinikum+Braunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%2Fg%2F11h4tpwp0z?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "staedtisches-klinikum-lueneburg-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T13:08:08Z",
+    "place_id": "staedtisches-klinikum-lueneburg-ggmbh",
+    "place_name": "Städtisches Klinikum Lüneburg gGmbH",
+    "query": "Städtisches Klinikum Lüneburg gGmbH",
+    "resolved_name": "Städtisches Klinikum Lüneburg",
+    "resolved_url": "https://www.google.com/maps/place/St%C3%A4dtisches+Klinikum+L%C3%BCneburg/@53.2401634,10.3956715,17z/data=!3m1!4b1!4m6!3m5!1s0x47b1ddcaa9c145a1:0xd8ee528f8184a132!8m2!3d53.2401634!4d10.3956715!16s%2Fg%2F122wh59q?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "staedtisches-klinikum-wolfenbuettel-ggmbh": {
+    "error": null,
+    "last_checked_at": "2026-04-15T13:08:35Z",
+    "place_id": "staedtisches-klinikum-wolfenbuettel-ggmbh",
+    "place_name": "Städtisches Klinikum Wolfenbüttel gGmbH",
+    "query": "Städtisches Klinikum Wolfenbüttel gGmbH",
+    "resolved_name": "Städtisches Klinikum Wolfenbüttel gGmbH",
+    "resolved_url": "https://www.google.com/maps/place/St%C3%A4dtisches+Klinikum+Wolfenb%C3%BCttel+gGmbH/@52.1799988,10.5332577,17z/data=!3m1!4b1!4m6!3m5!1s0x47a55ee5141faff7:0xb4e83d415b057f87!8m2!3d52.1799988!4d10.5332577!16s%2Fg%2F1ts2z8vp?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "stenum-fachklinik-fuer-orthopaedie": {
+    "error": "Name mismatch: requested 'Stenum Fachklinik für Orthopädie', resolved 'STENUM Ortho GmbH- Fachklinik für Orthopädie'",
+    "last_checked_at": "2026-04-15T13:07:08Z",
+    "place_id": "stenum-fachklinik-fuer-orthopaedie",
+    "place_name": "Stenum Fachklinik für Orthopädie",
+    "query": "Stenum Fachklinik für Orthopädie",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "ubbo-emmius-klinik-aurich": {
+    "error": "Name mismatch: requested 'Ubbo-Emmius-Klinik Aurich', resolved 'Ubbo-Emmius-Klinik – Klinik Aurich'",
+    "last_checked_at": "2026-04-15T13:09:02Z",
+    "place_id": "ubbo-emmius-klinik-aurich",
+    "place_name": "Ubbo-Emmius-Klinik Aurich",
+    "query": "Ubbo-Emmius-Klinik Aurich",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "ubbo-emmius-klinik-ggmbh-klinik-norden": {
+    "error": "Name mismatch: requested 'Ubbo-Emmius-Klinik gGmbH Klinik Norden', resolved 'Ubbo-Emmius-Klinik – Klinik Norden'",
+    "last_checked_at": "2026-04-15T13:09:30Z",
+    "place_id": "ubbo-emmius-klinik-ggmbh-klinik-norden",
+    "place_name": "Ubbo-Emmius-Klinik gGmbH Klinik Norden",
+    "query": "Ubbo-Emmius-Klinik gGmbH Klinik Norden",
+    "resolved_name": null,
+    "resolved_url": null,
+    "status": "mismatch"
+  },
+  "universitaetsmedizin-goettingen": {
+    "error": null,
+    "last_checked_at": "2026-04-15T13:09:57Z",
+    "place_id": "universitaetsmedizin-goettingen",
+    "place_name": "Universitätsmedizin Göttingen",
+    "query": "Universitätsmedizin Göttingen",
+    "resolved_name": "Universitätsmedizin Göttingen",
+    "resolved_url": "https://www.google.com/maps/place/Universit%C3%A4tsmedizin+G%C3%B6ttingen/@51.5505375,9.9427949,17z/data=!3m1!4b1!4m6!3m5!1s0x47a4d4c27b7e144b:0x5e92ac02b3e44044!8m2!3d51.5505375!4d9.9427949!16s%2Fg%2F120hhjtx?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "venenzentrum-braunschweig": {
+    "error": null,
+    "last_checked_at": "2026-04-15T13:10:31Z",
+    "place_id": "venenzentrum-braunschweig",
+    "place_name": "Venenzentrum Braunschweig",
+    "query": "Venenzentrum Braunschweig",
+    "resolved_name": "Venenzentrum Braunschweig",
+    "resolved_url": "https://www.google.com/maps/place/Venenzentrum+Braunschweig/@52.2632067,10.5057208,14z/data=!4m10!1m2!2m1!1sVenenzentrum+Braunschweig!3m6!1s0x47aff5c58470d4e5:0x25ae53531af89549!8m2!3d52.2632067!4d10.5438296!15sChlWZW5lbnplbnRydW0gQnJhdW5zY2h3ZWlnkgEIaG9zcGl0YWzgAQA!16s%2Fg%2F1v5fqz2p?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "vinzenzkrankenhaus": {
+    "error": null,
+    "last_checked_at": "2026-04-15T13:10:58Z",
+    "place_id": "vinzenzkrankenhaus",
+    "place_name": "Vinzenzkrankenhaus",
+    "query": "Vinzenzkrankenhaus",
+    "resolved_name": "Vinzenzkrankenhaus Hannover",
+    "resolved_url": "https://www.google.com/maps/place/Vinzenzkrankenhaus+Hannover/@52.35851,9.814467,17z/data=!3m1!4b1!4m6!3m5!1s0x47b00ba2874b3c5b:0x7dc16a7d1720f240!8m2!3d52.35851!4d9.814467!16s%2Fg%2F11f647z7nc?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  },
+  "waldklinik-jesteburg": {
+    "error": null,
+    "last_checked_at": "2026-04-15T13:11:25Z",
+    "place_id": "waldklinik-jesteburg",
+    "place_name": "Waldklinik Jesteburg",
+    "query": "Waldklinik Jesteburg",
+    "resolved_name": "Waldklinik Jesteburg Aldag GmbH & Co. KG",
+    "resolved_url": "https://www.google.com/maps/place/Waldklinik+Jesteburg+Aldag+GmbH+%26+Co.+KG/@53.3193625,9.9489471,17z/data=!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%2Fg%2F1tzly062?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+    "status": "resolved"
+  }
+}
