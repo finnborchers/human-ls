@@ -1,0 +1,25 @@
+{
+  "name": "human-ls-website",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build:data && vite",
+    "build:data": "node ./scripts/build-clinic-dataset.mjs",
+    "build": "npm run build:data && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@deck.gl/aggregation-layers": "latest",
+    "@deck.gl/layers": "latest",
+    "@deck.gl/mapbox": "latest",
+    "@deck.gl/react": "latest",
+    "maplibre-gl": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.2.1",
+    "vite": "4.5.14"
+  }
+}
