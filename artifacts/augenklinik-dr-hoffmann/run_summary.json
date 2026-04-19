@@ -1,0 +1,309 @@
+{
+  "url": "https://www.google.com/maps/place/Augenklinik+Dr.+Hoffmann+Augenzentrum+Hannover+%E2%80%93+Sahlkamp/@52.4144537,8.559916,9z/data=!4m10!1m2!2m1!1sAugenklinik+Dr.+Hoffmann!3m6!1s0x47b00cc5619c1003:0x6ebe109dbf6c4ede!8m2!3d52.4144537!4d9.7793984!15sChhBdWdlbmtsaW5payBEci4gSG9mZm1hbm5aGSIXYXVnZW5rbGluaWsgZHIgaG9mZm1hbm6SAQ9vcGh0aGFsbW9sb2dpc3SaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUkRaMXBEVnpOblJSQULgAQD6AQQIABAr!16s%2Fg%2F1w664g0b?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "placeId": "augenklinik-dr-hoffmann",
+  "startedAt": "2026-04-15T14:43:06Z",
+  "scrollDelayUsed": 1.5,
+  "browserVersion": "Chrome/147.0.7727.56",
+  "pageTargetId": "E246A5816377B1FE00C4E488343F6F68",
+  "selectedTargetId": "E246A5816377B1FE00C4E488343F6F68",
+  "selectedTargetUrl": "https://www.google.com/maps/place/Augenklinik+Dr.+Hoffmann+Augenzentrum+Hannover+%E2%80%93+Sahlkamp/@52.4144537,8.559916,9z/data=!4m10!1m2!2m1!1sAugenklinik+Dr.+Hoffmann!3m6!1s0x47b00cc5619c1003:0x6ebe109dbf6c4ede!8m2!3d52.4144537!4d9.7793984!15sChhBdWdlbmtsaW5payBEci4gSG9mZm1hbm5aGSIXYXVnZW5rbGluaWsgZHIgaG9mZm1hbm6SAQ9vcGh0aGFsbW9sb2dpc3SaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUkRaMXBEVnpOblJSQULgAQD6AQQIABAr!16s%2Fg%2F1w664g0b?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "targetSelectionStrategy": "exact_url_match",
+  "cookieConsent": {
+    "clicked": true,
+    "attempts": [
+      {
+        "clicked": true,
+        "action": "deny",
+        "label": "alle ablehnen alle ablehnen",
+        "strategy": "direct_selector",
+        "selector": "button[aria-label*=\"ablehnen\" i]",
+        "source": "document",
+        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Augenklinik%2BDr.%2BHoffmann%2BAugenzentrum%2BHannover%2B%25E2%2580%2593%2BSahlkamp/@52.4144537,8.559916,9z/data%3D!4m10!1m2!2m1!1sAugenklinik%2BDr.%2BHoffmann!3m6!1s0x47b00cc5619c1003:0x6ebe109dbf6c4ede!8m2!3d52.4144537!4d9.7793984!15sChhBdWdlbmtsaW5payBEci4gSG9mZm1hbm5aGSIXYXVnZW5rbGluaWsgZHIgaG9mZm1hbm6SAQ9vcGh0aGFsbW9sb2dpc3SaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUkRaMXBEVnpOblJSQULgAQD6AQQIABAr!16s%252Fg%252F1w664g0b?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Augenklinik%2BDr.%2BHoffmann%2BAugenzentrum%2BHannover%2B%25E2%2580%2593%2BSahlkamp/@52.4144537,8.559916,9z/data%3D!4m10!1m2!2m1!1sAugenklinik%2BDr.%2BHoffmann!3m6!1s0x47b00cc5619c1003:0x6ebe109dbf6c4ede!8m2!3d52.4144537!4d9.7793984!15sChhBdWdlbmtsaW5payBEci4gSG9mZm1hbm5aGSIXYXVnZW5rbGluaWsgZHIgaG9mZm1hbm6SAQ9vcGh0aGFsbW9sb2dpc3SaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUkRaMXBEVnpOblJSQULgAQD6AQQIABAr!16s%252Fg%252F1w664g0b?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "onConsentHost": true,
+        "attempt": 1
+      }
+    ],
+    "resolvedWith": {
+      "clicked": true,
+      "action": "deny",
+      "label": "alle ablehnen alle ablehnen",
+      "strategy": "direct_selector",
+      "selector": "button[aria-label*=\"ablehnen\" i]",
+      "source": "document",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Augenklinik%2BDr.%2BHoffmann%2BAugenzentrum%2BHannover%2B%25E2%2580%2593%2BSahlkamp/@52.4144537,8.559916,9z/data%3D!4m10!1m2!2m1!1sAugenklinik%2BDr.%2BHoffmann!3m6!1s0x47b00cc5619c1003:0x6ebe109dbf6c4ede!8m2!3d52.4144537!4d9.7793984!15sChhBdWdlbmtsaW5payBEci4gSG9mZm1hbm5aGSIXYXVnZW5rbGluaWsgZHIgaG9mZm1hbm6SAQ9vcGh0aGFsbW9sb2dpc3SaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUkRaMXBEVnpOblJSQULgAQD6AQQIABAr!16s%252Fg%252F1w664g0b?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Augenklinik%2BDr.%2BHoffmann%2BAugenzentrum%2BHannover%2B%25E2%2580%2593%2BSahlkamp/@52.4144537,8.559916,9z/data%3D!4m10!1m2!2m1!1sAugenklinik%2BDr.%2BHoffmann!3m6!1s0x47b00cc5619c1003:0x6ebe109dbf6c4ede!8m2!3d52.4144537!4d9.7793984!15sChhBdWdlbmtsaW5payBEci4gSG9mZm1hbm5aGSIXYXVnZW5rbGluaWsgZHIgaG9mZm1hbm6SAQ9vcGh0aGFsbW9sb2dpc3SaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUkRaMXBEVnpOblJSQULgAQD6AQQIABAr!16s%252Fg%252F1w664g0b?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "onConsentHost": true,
+      "attempt": 1
+    }
+  },
+  "reviewOpenAttempts": [
+    {
+      "rank": 1,
+      "candidate": {
+        "domIndex": 89,
+        "score": 215,
+        "reasons": [
+          "jsaction_more_reviews",
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "30 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle76.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 89,
+        "text": "30 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle76.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "reviewsPanelAfterClick": {
+        "reviewNodeCount": 98,
+        "title": "Augenklinik Dr. Hoffmann Augenzentrum Hannover – Sahlkamp - Google Maps"
+      }
+    }
+  ],
+  "reviewOpenCandidateCount": 25,
+  "reviewClick": {
+    "clicked": true,
+    "strategy": "candidate",
+    "label": "30 Berichte",
+    "domIndex": 89,
+    "candidateScore": 215,
+    "candidateReasons": [
+      "jsaction_more_reviews",
+      "count_label",
+      "review_keyword",
+      "button_like_control"
+    ],
+    "jsaction": "pane.wfvdle76.reviewchart.morereviews"
+  },
+  "reviewsPanel": {
+    "reviewNodeCount": 98,
+    "title": "Augenklinik Dr. Hoffmann Augenzentrum Hannover – Sahlkamp - Google Maps"
+  },
+  "initialReviewsState": {
+    "title": "Augenklinik Dr. Hoffmann Augenzentrum Hannover – Sahlkamp - Google Maps",
+    "reviewNodeCount": 98,
+    "uniqueReviewIdCount": 10,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 0,
+    "scrollHeight": 3996,
+    "clientHeight": 630,
+    "distanceToBottom": 3366
+  },
+  "declaredReviewTotalInfo": {
+    "found": true,
+    "declaredReviewTotal": 29,
+    "sourceKind": "rating-histogram",
+    "histogramByStar": {
+      "2": 0,
+      "3": 2,
+      "4": 0,
+      "5": 27
+    },
+    "histogramStarCount": 4
+  },
+  "declaredReviewTotal": 29,
+  "declaredTotalSettleSeconds": 1.5,
+  "declaredTotalFastStopUsed": true,
+  "declaredTotalFinalCheck": {
+    "iteration": 3,
+    "before": {
+      "uniqueReviewIdCount": 30,
+      "scrollHeight": 9271,
+      "distanceToBottom": 0.5
+    },
+    "after": {
+      "uniqueReviewIdCount": 30,
+      "scrollHeight": 9271,
+      "distanceToBottom": 0.5
+    },
+    "settleSeconds": 1.5,
+    "grewDuringSettle": false,
+    "atBottomAfterSettle": true,
+    "declaredTotalReachedAfterSettle": true
+  },
+  "fallbackStableRoundsRequired": 5,
+  "scrollResults": [
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 0,
+      "after": 3365.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 3996,
+      "clientHeight": 630,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 98,
+      "uniqueReviewIdCount": 10,
+      "iteration": 1,
+      "declaredReviewTotal": 29,
+      "stateAfterDelay": {
+        "title": "Augenklinik Dr. Hoffmann Augenzentrum Hannover – Sahlkamp - Google Maps",
+        "reviewNodeCount": 188,
+        "uniqueReviewIdCount": 20,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 3365.5,
+        "scrollHeight": 6992,
+        "clientHeight": 631,
+        "distanceToBottom": 2995.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 9.209034033119678e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 3365.5,
+      "after": 6360.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 6992,
+      "clientHeight": 631,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 188,
+      "uniqueReviewIdCount": 20,
+      "iteration": 2,
+      "declaredReviewTotal": 29,
+      "stateAfterDelay": {
+        "title": "Augenklinik Dr. Hoffmann Augenzentrum Hannover – Sahlkamp - Google Maps",
+        "reviewNodeCount": 259,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 6360.5,
+        "scrollHeight": 9271,
+        "clientHeight": 631,
+        "distanceToBottom": 2279.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 8.66700429469347e-06,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 6360.5,
+      "after": 8639.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 9271,
+      "clientHeight": 631,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 259,
+      "uniqueReviewIdCount": 30,
+      "iteration": 3,
+      "declaredReviewTotal": 29,
+      "stateAfterDelay": {
+        "title": "Augenklinik Dr. Hoffmann Augenzentrum Hannover – Sahlkamp - Google Maps",
+        "reviewNodeCount": 259,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 8639.5,
+        "scrollHeight": 9271,
+        "clientHeight": 631,
+        "distanceToBottom": 0.5
+      },
+      "declaredTotalSettle": {
+        "waitSeconds": 1.5,
+        "stateAfterSettle": {
+          "title": "Augenklinik Dr. Hoffmann Augenzentrum Hannover – Sahlkamp - Google Maps",
+          "reviewNodeCount": 259,
+          "uniqueReviewIdCount": 30,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 8639.5,
+          "scrollHeight": 9271,
+          "clientHeight": 631,
+          "distanceToBottom": 0.5
+        }
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.669379874947481,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": true
+    }
+  ],
+  "scrollStopReason": "declared_total_reached_fast",
+  "exhausted": false,
+  "scrollSafetyTimeoutHit": false,
+  "growthEvents": [
+    {
+      "iteration": 1,
+      "uniqueReviewIdCount": 20,
+      "scrollHeight": 6992
+    },
+    {
+      "iteration": 2,
+      "uniqueReviewIdCount": 30,
+      "scrollHeight": 9271
+    }
+  ],
+  "networkEventsDuringScroll": 11,
+  "finalNetworkIdleSeconds": 6.669390582945198,
+  "noGrowthCycles": 0,
+  "finalReviewsState": {
+    "title": "Augenklinik Dr. Hoffmann Augenzentrum Hannover – Sahlkamp - Google Maps",
+    "reviewNodeCount": 259,
+    "uniqueReviewIdCount": 30,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 8639.5,
+    "scrollHeight": 9271,
+    "clientHeight": 631,
+    "distanceToBottom": 0.5
+  },
+  "reachedDeclaredReviewTotal": true,
+  "reachedReviewPaneEnd": true,
+  "finalUniqueReviewIdCount": 30,
+  "finalScrollTop": 8639.5,
+  "finalScrollHeight": 9271,
+  "reviewExpansion": {
+    "buttonCount": 19,
+    "clickedCount": 19
+  },
+  "matchedRequestCount": 49,
+  "batchexecuteCount": 2,
+  "reviewPhaseXhrCount": 22,
+  "captureSuccessful": true,
+  "finishedAt": "2026-04-15T14:43:43Z",
+  "retryRunsRequested": 2,
+  "retryRunsExecuted": 1,
+  "retryAttempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/augenklinik-dr-hoffmann",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 30,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 29
+    }
+  ],
+  "mergedReviewCountAcrossAttempts": 26,
+  "reviewsPath": "artifacts/augenklinik-dr-hoffmann/reviews.json",
+  "latestDeclaredReviewTotalAcrossAttempts": 29
+}

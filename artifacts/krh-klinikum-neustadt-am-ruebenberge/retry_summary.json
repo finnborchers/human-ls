@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/krh-klinikum-neustadt-am-ruebenberge",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 714,
+      "scrollStopReason": "exhausted_no_growth_at_bottom",
+      "declaredReviewTotal": 716
+    }
+  ]
+}

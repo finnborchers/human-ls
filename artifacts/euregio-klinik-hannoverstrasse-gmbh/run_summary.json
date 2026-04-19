@@ -1,0 +1,274 @@
+{
+  "url": "https://www.google.com/maps/place/Euregio-Klinik+Hannoverstra%C3%9Fe+GmbH/@52.4427,7.0658,17z/data=!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%2Fg%2F11xc6_5kr?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "placeId": "euregio-klinik-hannoverstrasse-gmbh",
+  "startedAt": "2026-04-15T15:45:03Z",
+  "scrollDelayUsed": 1.5,
+  "browserVersion": "Chrome/147.0.7727.56",
+  "pageTargetId": "556D8445913A1F48E259AE9D6A7FC7C5",
+  "selectedTargetId": "556D8445913A1F48E259AE9D6A7FC7C5",
+  "selectedTargetUrl": "https://www.google.com/maps/place/Euregio-Klinik+Hannoverstra%C3%9Fe+GmbH/@52.4427,7.0658,17z/data=!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%2Fg%2F11xc6_5kr?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "targetSelectionStrategy": "exact_url_match",
+  "cookieConsent": {
+    "clicked": true,
+    "attempts": [
+      {
+        "clicked": true,
+        "action": "deny",
+        "label": "alle ablehnen alle ablehnen",
+        "strategy": "direct_selector",
+        "selector": "button[aria-label*=\"ablehnen\" i]",
+        "source": "document",
+        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Euregio-Klinik%2BHannoverstra%25C3%259Fe%2BGmbH/@52.4427,7.0658,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%252Fg%252F11xc6_5kr?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Euregio-Klinik%2BHannoverstra%25C3%259Fe%2BGmbH/@52.4427,7.0658,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%252Fg%252F11xc6_5kr?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "onConsentHost": true,
+        "attempt": 1
+      }
+    ],
+    "resolvedWith": {
+      "clicked": true,
+      "action": "deny",
+      "label": "alle ablehnen alle ablehnen",
+      "strategy": "direct_selector",
+      "selector": "button[aria-label*=\"ablehnen\" i]",
+      "source": "document",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Euregio-Klinik%2BHannoverstra%25C3%259Fe%2BGmbH/@52.4427,7.0658,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%252Fg%252F11xc6_5kr?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Euregio-Klinik%2BHannoverstra%25C3%259Fe%2BGmbH/@52.4427,7.0658,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%252Fg%252F11xc6_5kr?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "onConsentHost": true,
+      "attempt": 1
+    }
+  },
+  "reviewOpenAttempts": [
+    {
+      "rank": 1,
+      "candidate": {
+        "domIndex": 58,
+        "score": 215,
+        "reasons": [
+          "jsaction_more_reviews",
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "14 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle14.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 58,
+        "text": "14 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle14.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "reviewsPanelAfterClick": {
+        "reviewNodeCount": 83,
+        "title": "Euregio-Klinik Hannoverstraße GmbH - Google Maps"
+      }
+    }
+  ],
+  "reviewOpenCandidateCount": 25,
+  "reviewClick": {
+    "clicked": true,
+    "strategy": "candidate",
+    "label": "14 Berichte",
+    "domIndex": 58,
+    "candidateScore": 215,
+    "candidateReasons": [
+      "jsaction_more_reviews",
+      "count_label",
+      "review_keyword",
+      "button_like_control"
+    ],
+    "jsaction": "pane.wfvdle14.reviewchart.morereviews"
+  },
+  "reviewsPanel": {
+    "reviewNodeCount": 83,
+    "title": "Euregio-Klinik Hannoverstraße GmbH - Google Maps"
+  },
+  "initialReviewsState": {
+    "title": "Euregio-Klinik Hannoverstraße GmbH - Google Maps",
+    "reviewNodeCount": 83,
+    "uniqueReviewIdCount": 10,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 0,
+    "scrollHeight": 3079,
+    "clientHeight": 694,
+    "distanceToBottom": 2385
+  },
+  "declaredReviewTotalInfo": {
+    "found": true,
+    "declaredReviewTotal": 14,
+    "sourceKind": "rating-histogram",
+    "histogramByStar": {
+      "1": 3,
+      "2": 0,
+      "3": 2,
+      "4": 4,
+      "5": 5
+    },
+    "histogramStarCount": 5
+  },
+  "declaredReviewTotal": 14,
+  "declaredTotalSettleSeconds": 1.5,
+  "declaredTotalFastStopUsed": true,
+  "declaredTotalFinalCheck": {
+    "iteration": 2,
+    "before": {
+      "uniqueReviewIdCount": 14,
+      "scrollHeight": 3555,
+      "distanceToBottom": 0.5
+    },
+    "after": {
+      "uniqueReviewIdCount": 14,
+      "scrollHeight": 3555,
+      "distanceToBottom": 0.5
+    },
+    "settleSeconds": 1.5,
+    "grewDuringSettle": false,
+    "atBottomAfterSettle": true,
+    "declaredTotalReachedAfterSettle": true
+  },
+  "fallbackStableRoundsRequired": 5,
+  "scrollResults": [
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 0,
+      "after": 2384.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 3079,
+      "clientHeight": 694,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 83,
+      "uniqueReviewIdCount": 10,
+      "iteration": 1,
+      "declaredReviewTotal": 14,
+      "stateAfterDelay": {
+        "title": "Euregio-Klinik Hannoverstraße GmbH - Google Maps",
+        "reviewNodeCount": 103,
+        "uniqueReviewIdCount": 14,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 2384.5,
+        "scrollHeight": 3555,
+        "clientHeight": 695,
+        "distanceToBottom": 475.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 9.041046723723412e-06,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 2384.5,
+      "after": 2859.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 3555,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 103,
+      "uniqueReviewIdCount": 14,
+      "iteration": 2,
+      "declaredReviewTotal": 14,
+      "stateAfterDelay": {
+        "title": "Euregio-Klinik Hannoverstraße GmbH - Google Maps",
+        "reviewNodeCount": 103,
+        "uniqueReviewIdCount": 14,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 2859.5,
+        "scrollHeight": 3555,
+        "clientHeight": 695,
+        "distanceToBottom": 0.5
+      },
+      "declaredTotalSettle": {
+        "waitSeconds": 1.5,
+        "stateAfterSettle": {
+          "title": "Euregio-Klinik Hannoverstraße GmbH - Google Maps",
+          "reviewNodeCount": 103,
+          "uniqueReviewIdCount": 14,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 2859.5,
+          "scrollHeight": 3555,
+          "clientHeight": 695,
+          "distanceToBottom": 0.5
+        }
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.651497457991354,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": true
+    }
+  ],
+  "scrollStopReason": "declared_total_reached_fast",
+  "exhausted": false,
+  "scrollSafetyTimeoutHit": false,
+  "growthEvents": [
+    {
+      "iteration": 1,
+      "uniqueReviewIdCount": 14,
+      "scrollHeight": 3555
+    }
+  ],
+  "networkEventsDuringScroll": 2,
+  "finalNetworkIdleSeconds": 6.651503000059165,
+  "noGrowthCycles": 0,
+  "finalReviewsState": {
+    "title": "Euregio-Klinik Hannoverstraße GmbH - Google Maps",
+    "reviewNodeCount": 103,
+    "uniqueReviewIdCount": 14,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 2859.5,
+    "scrollHeight": 3555,
+    "clientHeight": 695,
+    "distanceToBottom": 0.5
+  },
+  "reachedDeclaredReviewTotal": true,
+  "reachedReviewPaneEnd": true,
+  "finalUniqueReviewIdCount": 14,
+  "finalScrollTop": 2859.5,
+  "finalScrollHeight": 3555,
+  "reviewExpansion": {
+    "buttonCount": 2,
+    "clickedCount": 2
+  },
+  "matchedRequestCount": 32,
+  "batchexecuteCount": 3,
+  "reviewPhaseXhrCount": 11,
+  "captureSuccessful": true,
+  "finishedAt": "2026-04-15T15:45:37Z",
+  "retryRunsRequested": 2,
+  "retryRunsExecuted": 1,
+  "retryAttempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/euregio-klinik-hannoverstrasse-gmbh",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 14,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 14
+    }
+  ],
+  "mergedReviewCountAcrossAttempts": 9,
+  "reviewsPath": "artifacts/euregio-klinik-hannoverstrasse-gmbh/reviews.json",
+  "latestDeclaredReviewTotalAcrossAttempts": 14
+}

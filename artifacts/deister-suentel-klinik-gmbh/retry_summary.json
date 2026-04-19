@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/deister-suentel-klinik-gmbh",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 43,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 43
+    }
+  ]
+}

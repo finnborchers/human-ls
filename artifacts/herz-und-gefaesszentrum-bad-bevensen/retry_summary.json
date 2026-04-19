@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/herz-und-gefaesszentrum-bad-bevensen",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 201,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 201
+    }
+  ]
+}

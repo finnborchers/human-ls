@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/psychiatrische-klinik-lueneburg-gemeinnuetzige-gmbh",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 132,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 132
+    }
+  ]
+}

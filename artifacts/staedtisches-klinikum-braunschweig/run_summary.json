@@ -1,0 +1,691 @@
+{
+  "url": "https://www.google.com/maps/place/St%C3%A4dtisches+Klinikum+Braunschweig+gGmbH+-+Klinikum+Fichtengrund/@52.2552957,10.5260594,14z/data=!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%C3%A4dtisches+Klinikum+Braunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%2Fg%2F11h4tpwp0z?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "placeId": "staedtisches-klinikum-braunschweig",
+  "startedAt": "2026-04-15T19:27:50Z",
+  "scrollDelayUsed": 1.5,
+  "browserVersion": "Chrome/147.0.7727.56",
+  "pageTargetId": "4267F0DF32ADB69DADD3FF1E75C238D1",
+  "selectedTargetId": "4267F0DF32ADB69DADD3FF1E75C238D1",
+  "selectedTargetUrl": "https://www.google.com/maps/place/St%C3%A4dtisches+Klinikum+Braunschweig+gGmbH+-+Klinikum+Fichtengrund/@52.2552957,10.5260594,14z/data=!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%C3%A4dtisches+Klinikum+Braunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%2Fg%2F11h4tpwp0z?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "targetSelectionStrategy": "exact_url_match",
+  "cookieConsent": {
+    "clicked": true,
+    "attempts": [
+      {
+        "clicked": true,
+        "action": "deny",
+        "label": "alle ablehnen alle ablehnen",
+        "strategy": "direct_selector",
+        "selector": "button[aria-label*=\"ablehnen\" i]",
+        "source": "document",
+        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St%25C3%25A4dtisches%2BKlinikum%2BBraunschweig%2BgGmbH%2B-%2BKlinikum%2BFichtengrund/@52.2552957,10.5260594,14z/data%3D!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%25C3%25A4dtisches%2BKlinikum%2BBraunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%252Fg%252F11h4tpwp0z?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St%25C3%25A4dtisches%2BKlinikum%2BBraunschweig%2BgGmbH%2B-%2BKlinikum%2BFichtengrund/@52.2552957,10.5260594,14z/data%3D!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%25C3%25A4dtisches%2BKlinikum%2BBraunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%252Fg%252F11h4tpwp0z?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "onConsentHost": true,
+        "attempt": 1
+      }
+    ],
+    "resolvedWith": {
+      "clicked": true,
+      "action": "deny",
+      "label": "alle ablehnen alle ablehnen",
+      "strategy": "direct_selector",
+      "selector": "button[aria-label*=\"ablehnen\" i]",
+      "source": "document",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St%25C3%25A4dtisches%2BKlinikum%2BBraunschweig%2BgGmbH%2B-%2BKlinikum%2BFichtengrund/@52.2552957,10.5260594,14z/data%3D!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%25C3%25A4dtisches%2BKlinikum%2BBraunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%252Fg%252F11h4tpwp0z?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St%25C3%25A4dtisches%2BKlinikum%2BBraunschweig%2BgGmbH%2B-%2BKlinikum%2BFichtengrund/@52.2552957,10.5260594,14z/data%3D!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%25C3%25A4dtisches%2BKlinikum%2BBraunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%252Fg%252F11h4tpwp0z?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "onConsentHost": true,
+      "attempt": 1
+    }
+  },
+  "reviewOpenAttempts": [
+    {
+      "rank": 1,
+      "candidate": {
+        "domIndex": 102,
+        "score": 215,
+        "reasons": [
+          "jsaction_more_reviews",
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "549 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle77.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 102,
+        "text": "549 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle77.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 2,
+      "candidate": {
+        "domIndex": 116,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "notaufnahme 121",
+        "ariaLabel": "notaufnahme, in 121 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle125; keydown:pane.wfvdle125; mouseover:pane.wfvdle125; mouseout:pane.wfvdle125;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 116
+      }
+    },
+    {
+      "rank": 3,
+      "candidate": {
+        "domIndex": 117,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "OP 64",
+        "ariaLabel": "OP, in 64 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle126; keydown:pane.wfvdle126; mouseover:pane.wfvdle126; mouseout:pane.wfvdle126;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 117
+      }
+    },
+    {
+      "rank": 4,
+      "candidate": {
+        "domIndex": 118,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "katastrophe 38",
+        "ariaLabel": "katastrophe, in 38 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle127; keydown:pane.wfvdle127; mouseover:pane.wfvdle127; mouseout:pane.wfvdle127;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 118
+      }
+    },
+    {
+      "rank": 5,
+      "candidate": {
+        "domIndex": 119,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "parkhaus 24",
+        "ariaLabel": "parkhaus, in 24 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle128; keydown:pane.wfvdle128; mouseover:pane.wfvdle128; mouseout:pane.wfvdle128;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 119
+      }
+    },
+    {
+      "rank": 6,
+      "candidate": {
+        "domIndex": 128,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Ping R Local Guide · 49 Rezensionen · 72 Fotos",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle136.review.reviewerlink",
+        "className": "al6Kxe"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 128
+      }
+    },
+    {
+      "rank": 7,
+      "candidate": {
+        "domIndex": 142,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Susanne Mulder Local Guide · 15 Rezensionen",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle138.review.reviewerlink",
+        "className": "al6Kxe"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 142
+      }
+    },
+    {
+      "rank": 8,
+      "candidate": {
+        "domIndex": 115,
+        "score": 80,
+        "reasons": [
+          "explicit_all_reviews",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Alle",
+        "ariaLabel": "Alle Rezensionen",
+        "title": "",
+        "jsaction": "pane.wfvdle124; keydown:pane.wfvdle124; mouseover:pane.wfvdle124; mouseout:pane.wfvdle124;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 115
+      }
+    },
+    {
+      "rank": 9,
+      "candidate": {
+        "domIndex": 59,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Rezensionen",
+        "ariaLabel": "Rezensionen zu „Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund“",
+        "title": "",
+        "jsaction": "pane.wfvdle68tabs.tabclick; mousedown:pane.wfvdle68tabs.dragtabs; focus:pane.wfvdle68tabs.focus",
+        "className": "hh2c6"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 59,
+        "text": "Weitere Informationen",
+        "ariaLabel": "",
+        "jsaction": ""
+      }
+    },
+    {
+      "rank": 10,
+      "candidate": {
+        "domIndex": 112,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "In Rezensionen suchen",
+        "title": "",
+        "jsaction": "pane.wfvdle122;keydown:pane.wfvdle122;mouseover:pane.wfvdle122;mouseout:pane.wfvdle122;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "S9kvJb"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 112,
+        "text": "Datenschutz",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "fineprint.privacy",
+        "className": "ZiKfbc tUdUte Hk4XGb ZqLNQd"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 11,
+      "candidate": {
+        "domIndex": 114,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Sortieren",
+        "ariaLabel": "Rezensionen sortieren",
+        "title": "",
+        "jsaction": "pane.wfvdle123;keydown:pane.wfvdle123;mouseover:pane.wfvdle123;mouseout:pane.wfvdle123",
+        "className": "S9kvJb"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 114,
+        "text": "500 m",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "scale.click",
+        "className": "LNGekf"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 12,
+      "candidate": {
+        "domIndex": 147,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Weitere Rezensionen (546)",
+        "ariaLabel": "Weitere Rezensionen (546)",
+        "title": "",
+        "jsaction": "pane.wfvdle139",
+        "className": "M77dve"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 147
+      }
+    },
+    {
+      "rank": 13,
+      "candidate": {
+        "domIndex": 3,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "Suchen",
+        "title": "",
+        "jsaction": "omnibox.search; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip",
+        "className": "mL3xi"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 3,
+        "text": "",
+        "ariaLabel": "Suchen",
+        "title": "",
+        "jsaction": "omnibox.search; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip",
+        "className": "mL3xi"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 14,
+      "candidate": {
+        "domIndex": 4,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "Schließen",
+        "title": "",
+        "jsaction": "omnibox.clear; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; focus:omnibox.hidesuggestions; blur:omnibox.hidetooltip",
+        "className": "yAuNSb vF7Cdb"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 4,
+        "text": "",
+        "ariaLabel": "Schließen",
+        "title": "",
+        "jsaction": "omnibox.clear; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; focus:omnibox.hidesuggestions; blur:omnibox.hidetooltip",
+        "className": "yAuNSb vF7Cdb"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 15,
+      "candidate": {
+        "domIndex": 6,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Bewertung ",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle153; keydown:pane.wfvdle153; mouseover:pane.wfvdle153; mouseout:pane.wfvdle153",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 6,
+        "text": "",
+        "ariaLabel": "Löschen",
+        "jsaction": "mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip;suggestion.delete"
+      }
+    },
+    {
+      "rank": 16,
+      "candidate": {
+        "domIndex": 7,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Öffnungszeiten ",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle154; keydown:pane.wfvdle154; mouseover:pane.wfvdle154; mouseout:pane.wfvdle154",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 7,
+        "text": "",
+        "ariaLabel": "Seitenleiste ausblenden",
+        "jsaction": "pane.close;mouseover:pane.showtoggletooltip; mouseout:pane.hidetoggletooltip; focus:pane.showtoggletooltip; blur:pane.hidetoggletooltip"
+      }
+    },
+    {
+      "rank": 17,
+      "candidate": {
+        "domIndex": 8,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Alle Filter",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle155; keydown:pane.wfvdle155; mouseover:pane.wfvdle155; mouseout:pane.wfvdle155",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 8,
+        "text": "Mäßiger Verkehr im Umkreis Viel langsamer als normal ",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.list-item.seetraffic",
+        "className": "GFG2E"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 18,
+      "candidate": {
+        "domIndex": 10,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "Menü",
+        "title": "",
+        "jsaction": "navigationrail.more",
+        "className": "wR3cXd"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 10,
+        "text": "",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "focus:pane.focustooltip; blur:pane.blurtooltip; keydown:pane.escapetooltip",
+        "className": "m6Uuef"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 19,
+      "candidate": {
+        "domIndex": 11,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Gespeichert",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "navigationrail.saved",
+        "className": "wR3cXd fontLabelMedium"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 11,
+        "text": "",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "focus:pane.focustooltip; blur:pane.blurtooltip; keydown:pane.escapetooltip",
+        "className": "m6Uuef"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 20,
+      "candidate": {
+        "domIndex": 12,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Zuletzt verwendet",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "navigationrail.recent",
+        "className": "wR3cXd fontLabelMedium"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 12,
+        "text": "",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "focus:pane.focustooltip; blur:pane.blurtooltip; keydown:pane.escapetooltip",
+        "className": "m6Uuef"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 21,
+      "candidate": {
+        "domIndex": 13,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "click:navigationrail.bundle; mouseover:navigationrail.bundle; mouseout:navigationrail.bundle",
+        "className": "atHn2d wR3cXd aJPqP fontBodySmall QyI6Nb"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 13,
+        "text": "",
+        "ariaLabel": "Routenplaner schließen",
+        "title": "",
+        "jsaction": "directions.close; focus:pane.focustooltip; blur:pane.blurtooltip; keydown:pane.escapetooltip",
+        "className": "YismEf"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 22,
+      "candidate": {
+        "domIndex": 14,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " App herunterladen",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "navigationrail.mobileapp",
+        "className": "wR3cXd Ijds6e fontLabelMedium"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 14,
+        "text": "",
+        "ariaLabel": "",
+        "jsaction": "focus:pane.focustooltip; blur:pane.blurtooltip; keydown:pane.escapetooltip"
+      }
+    },
+    {
+      "rank": 23,
+      "candidate": {
+        "domIndex": 19,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Teilen",
+        "ariaLabel": "Teilen",
+        "title": "",
+        "jsaction": "pane.wfvdle10",
+        "className": "M77dve"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 19,
+        "text": "",
+        "ariaLabel": "Suchen",
+        "jsaction": "directions.search; focus:pane.focustooltip; blur:pane.blurtooltip; keydown:pane.escapetooltip;"
+      }
+    },
+    {
+      "rank": 24,
+      "candidate": {
+        "domIndex": 22,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Routen­planer",
+        "ariaLabel": "Route zum Ziel \"Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund\" berechnen",
+        "title": "",
+        "jsaction": "pane.wfvdle16;keydown:pane.wfvdle16;mouseover:pane.wfvdle16;mouseout:pane.wfvdle16",
+        "className": "S9kvJb"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 22,
+        "text": "Ziel hinzufügen",
+        "ariaLabel": "",
+        "jsaction": "pane.directions-options.addwaypoint"
+      }
+    },
+    {
+      "rank": 25,
+      "candidate": {
+        "domIndex": 26,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Routen­planer",
+        "ariaLabel": "Route zum Ziel \"Städtisches Klinikum Braunschweig gGmbH - Klinikum Celler Straße\" berechnen",
+        "title": "",
+        "jsaction": "pane.wfvdle21;keydown:pane.wfvdle21;mouseover:pane.wfvdle21;mouseout:pane.wfvdle21",
+        "className": "S9kvJb"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 26,
+        "text": " Hotels",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle189; keydown:pane.wfvdle189; mouseover:pane.wfvdle189; mouseout:pane.wfvdle189;keydown:ripple.nested;mousedown:ripple.nested;ptrdown:ripple.nested",
+        "className": "e2moi"
+      },
+      "reviewsPanelAfterClick": false
+    }
+  ],
+  "reviewOpenCandidateCount": 25,
+  "reviewClick": {
+    "clicked": false,
+    "reason": "reviews_panel_not_opened"
+  },
+  "reviewsPanel": false,
+  "failureReason": "reviews_panel_not_opened",
+  "scrollStopReason": "reviews_panel_not_opened",
+  "captureSuccessful": false,
+  "finishedAt": "2026-04-15T19:29:47Z",
+  "reviewPhaseXhrCount": 41,
+  "matchedRequestCount": 0,
+  "batchexecuteCount": 0,
+  "retryRunsRequested": 2,
+  "retryRunsExecuted": 1,
+  "retryAttempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/staedtisches-klinikum-braunschweig",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": false,
+      "failureReason": "reviews_panel_not_opened",
+      "finalUniqueReviewIdCount": 0,
+      "scrollStopReason": "reviews_panel_not_opened",
+      "declaredReviewTotal": null
+    }
+  ],
+  "mergedReviewCountAcrossAttempts": 0,
+  "reviewsPath": null,
+  "latestDeclaredReviewTotalAcrossAttempts": null
+}

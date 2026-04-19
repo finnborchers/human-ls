@@ -1,0 +1,562 @@
+{
+  "url": "https://www.google.com/maps/place/Asklepios+Harzklinik+Bad+Harzburg+-+Orthop%C3%A4die+und+gelenkerhaltende+Chirurgie/@51.8860529,10.571285,17z/data=!3m1!5s0x47a56b3353236da7:0x48203cbba00d5986!4m10!1m2!2m1!1sASKLEPIOS+Harzklinik+Bad+Harzburg!3m6!1s0x47a56b334f53a629:0xce2d9f78fcb5bd5c!8m2!3d51.8860529!4d10.5760486!15sCiFBU0tMRVBJT1MgSGFyemtsaW5payBCYWQgSGFyemJ1cmdaIyIhYXNrbGVwaW9zIGhhcnprbGluaWsgYmFkIGhhcnpidXJnkgERb3J0aG9wZWRpY19jbGluaWOaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhLUTJWVVVtdGlNbXhRVFVSb2MxSXdZM1JoTVVwU1pWaHdlVTB5WXhBQuABAPoBBQi9BRBK!16s%2Fg%2F1tj2mgw8?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "placeId": "asklepios-harzklinik-bad-harzburg",
+  "startedAt": "2026-04-15T14:38:35Z",
+  "scrollDelayUsed": 1.5,
+  "browserVersion": "Chrome/147.0.7727.56",
+  "pageTargetId": "46F2249D6190E5014553FB839BF1DF66",
+  "selectedTargetId": "46F2249D6190E5014553FB839BF1DF66",
+  "selectedTargetUrl": "https://www.google.com/maps/place/Asklepios+Harzklinik+Bad+Harzburg+-+Orthop%C3%A4die+und+gelenkerhaltende+Chirurgie/@51.8860529,10.571285,17z/data=!3m1!5s0x47a56b3353236da7:0x48203cbba00d5986!4m10!1m2!2m1!1sASKLEPIOS+Harzklinik+Bad+Harzburg!3m6!1s0x47a56b334f53a629:0xce2d9f78fcb5bd5c!8m2!3d51.8860529!4d10.5760486!15sCiFBU0tMRVBJT1MgSGFyemtsaW5payBCYWQgSGFyemJ1cmdaIyIhYXNrbGVwaW9zIGhhcnprbGluaWsgYmFkIGhhcnpidXJnkgERb3J0aG9wZWRpY19jbGluaWOaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhLUTJWVVVtdGlNbXhRVFVSb2MxSXdZM1JoTVVwU1pWaHdlVTB5WXhBQuABAPoBBQi9BRBK!16s%2Fg%2F1tj2mgw8?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "targetSelectionStrategy": "exact_url_match",
+  "cookieConsent": {
+    "clicked": true,
+    "attempts": [
+      {
+        "clicked": true,
+        "action": "deny",
+        "label": "alle ablehnen alle ablehnen",
+        "strategy": "direct_selector",
+        "selector": "button[aria-label*=\"ablehnen\" i]",
+        "source": "document",
+        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Asklepios%2BHarzklinik%2BBad%2BHarzburg%2B-%2BOrthop%25C3%25A4die%2Bund%2Bgelenkerhaltende%2BChirurgie/@51.8860529,10.571285,17z/data%3D!3m1!5s0x47a56b3353236da7:0x48203cbba00d5986!4m10!1m2!2m1!1sASKLEPIOS%2BHarzklinik%2BBad%2BHarzburg!3m6!1s0x47a56b334f53a629:0xce2d9f78fcb5bd5c!8m2!3d51.8860529!4d10.5760486!15sCiFBU0tMRVBJT1MgSGFyemtsaW5payBCYWQgSGFyemJ1cmdaIyIhYXNrbGVwaW9zIGhhcnprbGluaWsgYmFkIGhhcnpidXJnkgERb3J0aG9wZWRpY19jbGluaWOaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhLUTJWVVVtdGlNbXhRVFVSb2MxSXdZM1JoTVVwU1pWaHdlVTB5WXhBQuABAPoBBQi9BRBK!16s%252Fg%252F1tj2mgw8?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Asklepios%2BHarzklinik%2BBad%2BHarzburg%2B-%2BOrthop%25C3%25A4die%2Bund%2Bgelenkerhaltende%2BChirurgie/@51.8860529,10.571285,17z/data%3D!3m1!5s0x47a56b3353236da7:0x48203cbba00d5986!4m10!1m2!2m1!1sASKLEPIOS%2BHarzklinik%2BBad%2BHarzburg!3m6!1s0x47a56b334f53a629:0xce2d9f78fcb5bd5c!8m2!3d51.8860529!4d10.5760486!15sCiFBU0tMRVBJT1MgSGFyemtsaW5payBCYWQgSGFyemJ1cmdaIyIhYXNrbGVwaW9zIGhhcnprbGluaWsgYmFkIGhhcnpidXJnkgERb3J0aG9wZWRpY19jbGluaWOaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhLUTJWVVVtdGlNbXhRVFVSb2MxSXdZM1JoTVVwU1pWaHdlVTB5WXhBQuABAPoBBQi9BRBK!16s%252Fg%252F1tj2mgw8?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "onConsentHost": true,
+        "attempt": 1
+      }
+    ],
+    "resolvedWith": {
+      "clicked": true,
+      "action": "deny",
+      "label": "alle ablehnen alle ablehnen",
+      "strategy": "direct_selector",
+      "selector": "button[aria-label*=\"ablehnen\" i]",
+      "source": "document",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Asklepios%2BHarzklinik%2BBad%2BHarzburg%2B-%2BOrthop%25C3%25A4die%2Bund%2Bgelenkerhaltende%2BChirurgie/@51.8860529,10.571285,17z/data%3D!3m1!5s0x47a56b3353236da7:0x48203cbba00d5986!4m10!1m2!2m1!1sASKLEPIOS%2BHarzklinik%2BBad%2BHarzburg!3m6!1s0x47a56b334f53a629:0xce2d9f78fcb5bd5c!8m2!3d51.8860529!4d10.5760486!15sCiFBU0tMRVBJT1MgSGFyemtsaW5payBCYWQgSGFyemJ1cmdaIyIhYXNrbGVwaW9zIGhhcnprbGluaWsgYmFkIGhhcnpidXJnkgERb3J0aG9wZWRpY19jbGluaWOaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhLUTJWVVVtdGlNbXhRVFVSb2MxSXdZM1JoTVVwU1pWaHdlVTB5WXhBQuABAPoBBQi9BRBK!16s%252Fg%252F1tj2mgw8?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Asklepios%2BHarzklinik%2BBad%2BHarzburg%2B-%2BOrthop%25C3%25A4die%2Bund%2Bgelenkerhaltende%2BChirurgie/@51.8860529,10.571285,17z/data%3D!3m1!5s0x47a56b3353236da7:0x48203cbba00d5986!4m10!1m2!2m1!1sASKLEPIOS%2BHarzklinik%2BBad%2BHarzburg!3m6!1s0x47a56b334f53a629:0xce2d9f78fcb5bd5c!8m2!3d51.8860529!4d10.5760486!15sCiFBU0tMRVBJT1MgSGFyemtsaW5payBCYWQgSGFyemJ1cmdaIyIhYXNrbGVwaW9zIGhhcnprbGluaWsgYmFkIGhhcnpidXJnkgERb3J0aG9wZWRpY19jbGluaWOaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhLUTJWVVVtdGlNbXhRVFVSb2MxSXdZM1JoTVVwU1pWaHdlVTB5WXhBQuABAPoBBQi9BRBK!16s%252Fg%252F1tj2mgw8?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "onConsentHost": true,
+      "attempt": 1
+    }
+  },
+  "reviewOpenAttempts": [
+    {
+      "rank": 1,
+      "candidate": {
+        "domIndex": 85,
+        "score": 215,
+        "reasons": [
+          "jsaction_more_reviews",
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "95 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle46.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 85,
+        "text": "95 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle46.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "reviewsPanelAfterClick": {
+        "reviewNodeCount": 94,
+        "title": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie - Google Maps"
+      }
+    }
+  ],
+  "reviewOpenCandidateCount": 25,
+  "reviewClick": {
+    "clicked": true,
+    "strategy": "candidate",
+    "label": "95 Berichte",
+    "domIndex": 85,
+    "candidateScore": 215,
+    "candidateReasons": [
+      "jsaction_more_reviews",
+      "count_label",
+      "review_keyword",
+      "button_like_control"
+    ],
+    "jsaction": "pane.wfvdle46.reviewchart.morereviews"
+  },
+  "reviewsPanel": {
+    "reviewNodeCount": 94,
+    "title": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie - Google Maps"
+  },
+  "initialReviewsState": {
+    "title": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie - Google Maps",
+    "reviewNodeCount": 94,
+    "uniqueReviewIdCount": 10,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 0,
+    "scrollHeight": 3982,
+    "clientHeight": 630,
+    "distanceToBottom": 3352
+  },
+  "declaredReviewTotalInfo": {
+    "found": true,
+    "declaredReviewTotal": 95,
+    "sourceKind": "rating-histogram",
+    "histogramByStar": {
+      "1": 19,
+      "2": 5,
+      "3": 3,
+      "4": 8,
+      "5": 60
+    },
+    "histogramStarCount": 5
+  },
+  "declaredReviewTotal": 95,
+  "declaredTotalSettleSeconds": 1.5,
+  "declaredTotalFastStopUsed": true,
+  "declaredTotalFinalCheck": {
+    "iteration": 10,
+    "before": {
+      "uniqueReviewIdCount": 95,
+      "scrollHeight": 22991,
+      "distanceToBottom": 0.5
+    },
+    "after": {
+      "uniqueReviewIdCount": 95,
+      "scrollHeight": 22991,
+      "distanceToBottom": 0.5
+    },
+    "settleSeconds": 1.5,
+    "grewDuringSettle": false,
+    "atBottomAfterSettle": true,
+    "declaredTotalReachedAfterSettle": true
+  },
+  "fallbackStableRoundsRequired": 5,
+  "scrollResults": [
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 0,
+      "after": 3351.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 3982,
+      "clientHeight": 630,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 94,
+      "uniqueReviewIdCount": 10,
+      "iteration": 1,
+      "declaredReviewTotal": 95,
+      "stateAfterDelay": {
+        "title": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie - Google Maps",
+        "reviewNodeCount": 180,
+        "uniqueReviewIdCount": 20,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 3351.5,
+        "scrollHeight": 6834,
+        "clientHeight": 631,
+        "distanceToBottom": 2851.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 2.450007013976574e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 3351.5,
+      "after": 6202.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 6834,
+      "clientHeight": 631,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 180,
+      "uniqueReviewIdCount": 20,
+      "iteration": 2,
+      "declaredReviewTotal": 95,
+      "stateAfterDelay": {
+        "title": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie - Google Maps",
+        "reviewNodeCount": 266,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 6202.5,
+        "scrollHeight": 9707,
+        "clientHeight": 631,
+        "distanceToBottom": 2873.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.292015314102173e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 6202.5,
+      "after": 9075.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 9707,
+      "clientHeight": 631,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 266,
+      "uniqueReviewIdCount": 30,
+      "iteration": 3,
+      "declaredReviewTotal": 95,
+      "stateAfterDelay": {
+        "title": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie - Google Maps",
+        "reviewNodeCount": 353,
+        "uniqueReviewIdCount": 40,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 9075.5,
+        "scrollHeight": 12534,
+        "clientHeight": 631,
+        "distanceToBottom": 2827.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 8.207978680729866e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 9075.5,
+      "after": 11902.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 12534,
+      "clientHeight": 631,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 353,
+      "uniqueReviewIdCount": 40,
+      "iteration": 4,
+      "declaredReviewTotal": 95,
+      "stateAfterDelay": {
+        "title": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie - Google Maps",
+        "reviewNodeCount": 435,
+        "uniqueReviewIdCount": 50,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 11902.5,
+        "scrollHeight": 15134,
+        "clientHeight": 631,
+        "distanceToBottom": 2600.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.249989382922649e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 11902.5,
+      "after": 14502.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 15134,
+      "clientHeight": 631,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 435,
+      "uniqueReviewIdCount": 50,
+      "iteration": 5,
+      "declaredReviewTotal": 95,
+      "stateAfterDelay": {
+        "title": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie - Google Maps",
+        "reviewNodeCount": 515,
+        "uniqueReviewIdCount": 60,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 14502.5,
+        "scrollHeight": 17356,
+        "clientHeight": 631,
+        "distanceToBottom": 2222.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.750000804662704e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 14502.5,
+      "after": 16724.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 17356,
+      "clientHeight": 631,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 515,
+      "uniqueReviewIdCount": 60,
+      "iteration": 6,
+      "declaredReviewTotal": 95,
+      "stateAfterDelay": {
+        "title": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie - Google Maps",
+        "reviewNodeCount": 595,
+        "uniqueReviewIdCount": 70,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 16724.5,
+        "scrollHeight": 19326,
+        "clientHeight": 631,
+        "distanceToBottom": 1970.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.4589625000953674e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 16724.5,
+      "after": 18694.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 19326,
+      "clientHeight": 631,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 595,
+      "uniqueReviewIdCount": 70,
+      "iteration": 7,
+      "declaredReviewTotal": 95,
+      "stateAfterDelay": {
+        "title": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie - Google Maps",
+        "reviewNodeCount": 656,
+        "uniqueReviewIdCount": 80,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 18694.5,
+        "scrollHeight": 21008,
+        "clientHeight": 631,
+        "distanceToBottom": 1682.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.458015948534012e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 18694.5,
+      "after": 20376.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 21008,
+      "clientHeight": 631,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 656,
+      "uniqueReviewIdCount": 80,
+      "iteration": 8,
+      "declaredReviewTotal": 95,
+      "stateAfterDelay": {
+        "title": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie - Google Maps",
+        "reviewNodeCount": 706,
+        "uniqueReviewIdCount": 90,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 20376.5,
+        "scrollHeight": 22378,
+        "clientHeight": 631,
+        "distanceToBottom": 1370.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 8.791917935013771e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 20376.5,
+      "after": 21746.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 22378,
+      "clientHeight": 631,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 706,
+      "uniqueReviewIdCount": 90,
+      "iteration": 9,
+      "declaredReviewTotal": 95,
+      "stateAfterDelay": {
+        "title": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie - Google Maps",
+        "reviewNodeCount": 731,
+        "uniqueReviewIdCount": 95,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 21746.5,
+        "scrollHeight": 22991,
+        "clientHeight": 631,
+        "distanceToBottom": 613.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.0582967661321163e-05,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 21746.5,
+      "after": 22359.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 22991,
+      "clientHeight": 631,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 731,
+      "uniqueReviewIdCount": 95,
+      "iteration": 10,
+      "declaredReviewTotal": 95,
+      "stateAfterDelay": {
+        "title": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie - Google Maps",
+        "reviewNodeCount": 731,
+        "uniqueReviewIdCount": 95,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 22359.5,
+        "scrollHeight": 22991,
+        "clientHeight": 631,
+        "distanceToBottom": 0.5
+      },
+      "declaredTotalSettle": {
+        "waitSeconds": 1.5,
+        "stateAfterSettle": {
+          "title": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie - Google Maps",
+          "reviewNodeCount": 731,
+          "uniqueReviewIdCount": 95,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 22359.5,
+          "scrollHeight": 22991,
+          "clientHeight": 631,
+          "distanceToBottom": 0.5
+        }
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.654852458043024,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": true
+    }
+  ],
+  "scrollStopReason": "declared_total_reached_fast",
+  "exhausted": false,
+  "scrollSafetyTimeoutHit": false,
+  "growthEvents": [
+    {
+      "iteration": 1,
+      "uniqueReviewIdCount": 20,
+      "scrollHeight": 6834
+    },
+    {
+      "iteration": 2,
+      "uniqueReviewIdCount": 30,
+      "scrollHeight": 9707
+    },
+    {
+      "iteration": 3,
+      "uniqueReviewIdCount": 40,
+      "scrollHeight": 12534
+    },
+    {
+      "iteration": 4,
+      "uniqueReviewIdCount": 50,
+      "scrollHeight": 15134
+    },
+    {
+      "iteration": 5,
+      "uniqueReviewIdCount": 60,
+      "scrollHeight": 17356
+    },
+    {
+      "iteration": 6,
+      "uniqueReviewIdCount": 70,
+      "scrollHeight": 19326
+    },
+    {
+      "iteration": 7,
+      "uniqueReviewIdCount": 80,
+      "scrollHeight": 21008
+    },
+    {
+      "iteration": 8,
+      "uniqueReviewIdCount": 90,
+      "scrollHeight": 22378
+    },
+    {
+      "iteration": 9,
+      "uniqueReviewIdCount": 95,
+      "scrollHeight": 22991
+    }
+  ],
+  "networkEventsDuringScroll": 46,
+  "finalNetworkIdleSeconds": 6.654859708040021,
+  "noGrowthCycles": 0,
+  "finalReviewsState": {
+    "title": "Asklepios Harzklinik Bad Harzburg - Orthopädie und gelenkerhaltende Chirurgie - Google Maps",
+    "reviewNodeCount": 731,
+    "uniqueReviewIdCount": 95,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 22359.5,
+    "scrollHeight": 22991,
+    "clientHeight": 631,
+    "distanceToBottom": 0.5
+  },
+  "reachedDeclaredReviewTotal": true,
+  "reachedReviewPaneEnd": true,
+  "finalUniqueReviewIdCount": 95,
+  "finalScrollTop": 22359.5,
+  "finalScrollHeight": 22991,
+  "reviewExpansion": {
+    "buttonCount": 30,
+    "clickedCount": 30
+  },
+  "matchedRequestCount": 89,
+  "batchexecuteCount": 3,
+  "reviewPhaseXhrCount": 58,
+  "captureSuccessful": true,
+  "finishedAt": "2026-04-15T14:39:37Z",
+  "retryRunsRequested": 2,
+  "retryRunsExecuted": 1,
+  "retryAttempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/asklepios-harzklinik-bad-harzburg",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 95,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 95
+    }
+  ],
+  "mergedReviewCountAcrossAttempts": 73,
+  "reviewsPath": "artifacts/asklepios-harzklinik-bad-harzburg/reviews.json",
+  "latestDeclaredReviewTotalAcrossAttempts": 95
+}

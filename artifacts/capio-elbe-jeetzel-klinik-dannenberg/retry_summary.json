@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/capio-elbe-jeetzel-klinik-dannenberg",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 200,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 200
+    }
+  ]
+}

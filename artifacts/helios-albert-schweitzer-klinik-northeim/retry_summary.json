@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/helios-albert-schweitzer-klinik-northeim",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 491,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 491
+    }
+  ]
+}

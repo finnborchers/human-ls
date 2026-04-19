@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/median-zentrum-fuer-verhaltensmedizin-bad-pyrmont-fachkrankenhaus",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 119,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 119
+    }
+  ]
+}

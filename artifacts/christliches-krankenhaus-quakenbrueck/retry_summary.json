@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/christliches-krankenhaus-quakenbrueck",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 377,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 377
+    }
+  ]
+}

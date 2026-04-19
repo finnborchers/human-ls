@@ -1,0 +1,697 @@
+{
+  "url": "https://www.google.com/maps/place/Klinik+Dr.+Hancken+GmbH/@53.5952656,8.8629643,10z/data=!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik+Dr.+Hancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%2Fg%2F1tfns1b_?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "placeId": "klinik-dr-hancken",
+  "startedAt": "2026-04-15T16:51:17Z",
+  "scrollDelayUsed": 1.5,
+  "browserVersion": "Chrome/147.0.7727.56",
+  "pageTargetId": "B9A8E5E6A161CB7E87C5ED88AF0505A3",
+  "selectedTargetId": "B9A8E5E6A161CB7E87C5ED88AF0505A3",
+  "selectedTargetUrl": "https://www.google.com/maps/place/Klinik+Dr.+Hancken+GmbH/@53.5952656,8.8629643,10z/data=!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik+Dr.+Hancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%2Fg%2F1tfns1b_?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "targetSelectionStrategy": "exact_url_match",
+  "cookieConsent": {
+    "clicked": true,
+    "attempts": [
+      {
+        "clicked": true,
+        "action": "deny",
+        "label": "alle ablehnen alle ablehnen",
+        "strategy": "direct_selector",
+        "selector": "button[aria-label*=\"ablehnen\" i]",
+        "source": "document",
+        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BHancken%2BGmbH/@53.5952656,8.8629643,10z/data%3D!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik%2BDr.%2BHancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%252Fg%252F1tfns1b_?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BHancken%2BGmbH/@53.5952656,8.8629643,10z/data%3D!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik%2BDr.%2BHancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%252Fg%252F1tfns1b_?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "onConsentHost": true,
+        "attempt": 1
+      }
+    ],
+    "resolvedWith": {
+      "clicked": true,
+      "action": "deny",
+      "label": "alle ablehnen alle ablehnen",
+      "strategy": "direct_selector",
+      "selector": "button[aria-label*=\"ablehnen\" i]",
+      "source": "document",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BHancken%2BGmbH/@53.5952656,8.8629643,10z/data%3D!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik%2BDr.%2BHancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%252Fg%252F1tfns1b_?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BHancken%2BGmbH/@53.5952656,8.8629643,10z/data%3D!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik%2BDr.%2BHancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%252Fg%252F1tfns1b_?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "onConsentHost": true,
+      "attempt": 1
+    }
+  },
+  "reviewOpenAttempts": [
+    {
+      "rank": 1,
+      "candidate": {
+        "domIndex": 99,
+        "score": 215,
+        "reasons": [
+          "jsaction_more_reviews",
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "133 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle65.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 99,
+        "text": "133 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle65.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 2,
+      "candidate": {
+        "domIndex": 113,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "termin 26",
+        "ariaLabel": "termin, in 26 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle109; keydown:pane.wfvdle109; mouseover:pane.wfvdle109; mouseout:pane.wfvdle109;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 113
+      }
+    },
+    {
+      "rank": 3,
+      "candidate": {
+        "domIndex": 114,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "team 12",
+        "ariaLabel": "team, in 12 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle110; keydown:pane.wfvdle110; mouseover:pane.wfvdle110; mouseout:pane.wfvdle110;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 114
+      }
+    },
+    {
+      "rank": 4,
+      "candidate": {
+        "domIndex": 115,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "MRT 12",
+        "ariaLabel": "MRT, in 12 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle111; keydown:pane.wfvdle111; mouseover:pane.wfvdle111; mouseout:pane.wfvdle111;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 115
+      }
+    },
+    {
+      "rank": 5,
+      "candidate": {
+        "domIndex": 116,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "personal 8",
+        "ariaLabel": "personal, in 8 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle112; keydown:pane.wfvdle112; mouseover:pane.wfvdle112; mouseout:pane.wfvdle112;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 116
+      }
+    },
+    {
+      "rank": 6,
+      "candidate": {
+        "domIndex": 125,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Carsten Baatz Local Guide · 83 Rezensionen · 6 Fotos",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle120.review.reviewerlink",
+        "className": "al6Kxe"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 125
+      }
+    },
+    {
+      "rank": 7,
+      "candidate": {
+        "domIndex": 131,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Frauke Kraffczyk Local Guide · 91 Rezensionen · 96 Fotos",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle121.review.reviewerlink",
+        "className": "al6Kxe"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 131
+      }
+    },
+    {
+      "rank": 8,
+      "candidate": {
+        "domIndex": 138,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "E46 Alina 4 Rezensionen",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle122.review.reviewerlink",
+        "className": "al6Kxe"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 138
+      }
+    },
+    {
+      "rank": 9,
+      "candidate": {
+        "domIndex": 112,
+        "score": 80,
+        "reasons": [
+          "explicit_all_reviews",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Alle",
+        "ariaLabel": "Alle Rezensionen",
+        "title": "",
+        "jsaction": "pane.wfvdle108; keydown:pane.wfvdle108; mouseover:pane.wfvdle108; mouseout:pane.wfvdle108;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 112,
+        "text": "10 km",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "scale.click",
+        "className": "LNGekf"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 10,
+      "candidate": {
+        "domIndex": 57,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Rezensionen",
+        "ariaLabel": "Rezensionen zu „Klinik Dr. Hancken GmbH“",
+        "title": "",
+        "jsaction": "pane.wfvdle56tabs.tabclick; mousedown:pane.wfvdle56tabs.dragtabs; focus:pane.wfvdle56tabs.focus",
+        "className": "hh2c6"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 57,
+        "text": "Weitere Informationen",
+        "ariaLabel": "",
+        "jsaction": ""
+      }
+    },
+    {
+      "rank": 11,
+      "candidate": {
+        "domIndex": 109,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "In Rezensionen suchen",
+        "title": "",
+        "jsaction": "pane.wfvdle106;keydown:pane.wfvdle106;mouseover:pane.wfvdle106;mouseout:pane.wfvdle106;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "S9kvJb"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 109,
+        "text": "Bedingungen",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "fineprint.terms",
+        "className": "ZiKfbc tUdUte Hk4XGb ZqLNQd"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 12,
+      "candidate": {
+        "domIndex": 111,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Sortieren",
+        "ariaLabel": "Rezensionen sortieren",
+        "title": "",
+        "jsaction": "pane.wfvdle107;keydown:pane.wfvdle107;mouseover:pane.wfvdle107;mouseout:pane.wfvdle107",
+        "className": "S9kvJb"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 111,
+        "text": "Produktfeedback geben",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "fineprint.rap",
+        "className": "ZiKfbc tUdUte Hk4XGb ZqLNQd UjoA5b"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 13,
+      "candidate": {
+        "domIndex": 144,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Weitere Rezensionen (130)",
+        "ariaLabel": "Weitere Rezensionen (130)",
+        "title": "",
+        "jsaction": "pane.wfvdle123",
+        "className": "M77dve"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 144
+      }
+    },
+    {
+      "rank": 14,
+      "candidate": {
+        "domIndex": 3,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "Suchen",
+        "title": "",
+        "jsaction": "omnibox.search; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip",
+        "className": "mL3xi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 3,
+        "text": "",
+        "ariaLabel": "Menü",
+        "jsaction": "mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip"
+      }
+    },
+    {
+      "rank": 15,
+      "candidate": {
+        "domIndex": 4,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "Schließen",
+        "title": "",
+        "jsaction": "omnibox.clear; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; focus:omnibox.hidesuggestions; blur:omnibox.hidetooltip",
+        "className": "yAuNSb vF7Cdb"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 4,
+        "text": "",
+        "ariaLabel": "Suchen",
+        "jsaction": "omnibox.search; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip"
+      }
+    },
+    {
+      "rank": 16,
+      "candidate": {
+        "domIndex": 6,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Bewertung ",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle137; keydown:pane.wfvdle137; mouseover:pane.wfvdle137; mouseout:pane.wfvdle137",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 6,
+        "text": "",
+        "ariaLabel": "Seitenleiste ausblenden",
+        "jsaction": "pane.close;mouseover:pane.showtoggletooltip; mouseout:pane.hidetoggletooltip; focus:pane.showtoggletooltip; blur:pane.hidetoggletooltip"
+      }
+    },
+    {
+      "rank": 17,
+      "candidate": {
+        "domIndex": 7,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Öffnungszeiten ",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle138; keydown:pane.wfvdle138; mouseover:pane.wfvdle138; mouseout:pane.wfvdle138",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 7,
+        "text": " Bewertung ",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle137; keydown:pane.wfvdle137; mouseover:pane.wfvdle137; mouseout:pane.wfvdle137",
+        "className": "e2moi"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 18,
+      "candidate": {
+        "domIndex": 8,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Alle Filter",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle139; keydown:pane.wfvdle139; mouseover:pane.wfvdle139; mouseout:pane.wfvdle139",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 8,
+        "text": " Öffnungszeiten ",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle138; keydown:pane.wfvdle138; mouseover:pane.wfvdle138; mouseout:pane.wfvdle138",
+        "className": "e2moi"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 19,
+      "candidate": {
+        "domIndex": 10,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "Menü",
+        "title": "",
+        "jsaction": "navigationrail.more",
+        "className": "wR3cXd"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 10,
+        "text": "01:00",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.refinementlistselector; keydown:pane.refinementlistselector.keydown",
+        "className": "ba7fbf"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 20,
+      "candidate": {
+        "domIndex": 11,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Gespeichert",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "navigationrail.saved",
+        "className": "wR3cXd fontLabelMedium"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 11,
+        "text": "02:00",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.refinementlistselector; keydown:pane.refinementlistselector.keydown",
+        "className": "ba7fbf"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 21,
+      "candidate": {
+        "domIndex": 12,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Zuletzt verwendet",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "navigationrail.recent",
+        "className": "wR3cXd fontLabelMedium"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 12,
+        "text": "03:00",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.refinementlistselector; keydown:pane.refinementlistselector.keydown",
+        "className": "ba7fbf"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 22,
+      "candidate": {
+        "domIndex": 13,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Klinik Dr. Hancken GmbH",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "click:navigationrail.bundle; mouseover:navigationrail.bundle; mouseout:navigationrail.bundle",
+        "className": "atHn2d wR3cXd aJPqP fontBodySmall QyI6Nb"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 13,
+        "text": "04:00",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.refinementlistselector; keydown:pane.refinementlistselector.keydown",
+        "className": "ba7fbf"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 23,
+      "candidate": {
+        "domIndex": 14,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " App herunterladen",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "navigationrail.mobileapp",
+        "className": "wR3cXd Ijds6e fontLabelMedium"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 14,
+        "text": "05:00",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.refinementlistselector; keydown:pane.refinementlistselector.keydown",
+        "className": "ba7fbf"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 24,
+      "candidate": {
+        "domIndex": 19,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Teilen",
+        "ariaLabel": "Teilen",
+        "title": "",
+        "jsaction": "pane.wfvdle10",
+        "className": "M77dve"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 19,
+        "text": "10:00",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.refinementlistselector; keydown:pane.refinementlistselector.keydown",
+        "className": "ba7fbf"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 25,
+      "candidate": {
+        "domIndex": 22,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Routen­planer",
+        "ariaLabel": "Route zum Ziel \"Klinik Dr. Hancken GmbH\" berechnen",
+        "title": "",
+        "jsaction": "pane.wfvdle15;keydown:pane.wfvdle15;mouseover:pane.wfvdle15;mouseout:pane.wfvdle15",
+        "className": "S9kvJb"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 22,
+        "text": "13:00",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.refinementlistselector; keydown:pane.refinementlistselector.keydown",
+        "className": "ba7fbf"
+      },
+      "reviewsPanelAfterClick": false
+    }
+  ],
+  "reviewOpenCandidateCount": 25,
+  "reviewClick": {
+    "clicked": false,
+    "reason": "reviews_panel_not_opened"
+  },
+  "reviewsPanel": false,
+  "failureReason": "reviews_panel_not_opened",
+  "scrollStopReason": "reviews_panel_not_opened",
+  "captureSuccessful": false,
+  "finishedAt": "2026-04-15T16:53:33Z",
+  "reviewPhaseXhrCount": 6,
+  "matchedRequestCount": 0,
+  "batchexecuteCount": 0,
+  "retryRunsRequested": 2,
+  "retryRunsExecuted": 1,
+  "retryAttempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/klinik-dr-hancken",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": false,
+      "failureReason": "reviews_panel_not_opened",
+      "finalUniqueReviewIdCount": 0,
+      "scrollStopReason": "reviews_panel_not_opened",
+      "declaredReviewTotal": null
+    }
+  ],
+  "mergedReviewCountAcrossAttempts": 0,
+  "reviewsPath": null,
+  "latestDeclaredReviewTotalAcrossAttempts": null
+}

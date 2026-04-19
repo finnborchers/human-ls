@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/st-josefs-hospital-cloppenburg-ggmbh",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 302,
+      "scrollStopReason": "exhausted_no_growth_at_bottom",
+      "declaredReviewTotal": 304
+    }
+  ]
+}

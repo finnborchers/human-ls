@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/kreiskrankenhaus-osterholz",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 278,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 278
+    }
+  ]
+}
