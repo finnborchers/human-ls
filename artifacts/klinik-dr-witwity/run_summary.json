@@ -1,0 +1,380 @@
+{
+  "url": "https://www.google.com/maps/place/Klinik+Dr.+Witwity+-+Fachklinik+f%C3%BCr+Arthrose,+Meniskus,+Kreuzbandriss/@53.5980656,9.4739118,17z/data=!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%2Fg%2F1tf14y8d?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "placeId": "klinik-dr-witwity",
+  "startedAt": "2026-04-15T16:53:34Z",
+  "scrollDelayUsed": 1.5,
+  "browserVersion": "Chrome/147.0.7727.56",
+  "pageTargetId": "C224D8AD948CC143B272CA3EA217E66E",
+  "selectedTargetId": "C224D8AD948CC143B272CA3EA217E66E",
+  "selectedTargetUrl": "https://www.google.com/maps/place/Klinik+Dr.+Witwity+-+Fachklinik+f%C3%BCr+Arthrose,+Meniskus,+Kreuzbandriss/@53.5980656,9.4739118,17z/data=!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%2Fg%2F1tf14y8d?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "targetSelectionStrategy": "exact_url_match",
+  "cookieConsent": {
+    "clicked": true,
+    "attempts": [
+      {
+        "clicked": true,
+        "action": "deny",
+        "label": "alle ablehnen alle ablehnen",
+        "strategy": "direct_selector",
+        "selector": "button[aria-label*=\"ablehnen\" i]",
+        "source": "document",
+        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BWitwity%2B-%2BFachklinik%2Bf%25C3%25BCr%2BArthrose,%2BMeniskus,%2BKreuzbandriss/@53.5980656,9.4739118,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%252Fg%252F1tf14y8d?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BWitwity%2B-%2BFachklinik%2Bf%25C3%25BCr%2BArthrose,%2BMeniskus,%2BKreuzbandriss/@53.5980656,9.4739118,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%252Fg%252F1tf14y8d?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "onConsentHost": true,
+        "attempt": 1
+      }
+    ],
+    "resolvedWith": {
+      "clicked": true,
+      "action": "deny",
+      "label": "alle ablehnen alle ablehnen",
+      "strategy": "direct_selector",
+      "selector": "button[aria-label*=\"ablehnen\" i]",
+      "source": "document",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BWitwity%2B-%2BFachklinik%2Bf%25C3%25BCr%2BArthrose,%2BMeniskus,%2BKreuzbandriss/@53.5980656,9.4739118,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%252Fg%252F1tf14y8d?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BWitwity%2B-%2BFachklinik%2Bf%25C3%25BCr%2BArthrose,%2BMeniskus,%2BKreuzbandriss/@53.5980656,9.4739118,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%252Fg%252F1tf14y8d?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "onConsentHost": true,
+      "attempt": 1
+    }
+  },
+  "reviewOpenAttempts": [
+    {
+      "rank": 1,
+      "candidate": {
+        "domIndex": 47,
+        "score": 215,
+        "reasons": [
+          "jsaction_more_reviews",
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "48 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle14.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 47,
+        "text": "48 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle14.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "reviewsPanelAfterClick": {
+        "reviewNodeCount": 89,
+        "title": "Klinik Dr. Witwity - Fachklinik für Arthrose, Meniskus, Kreuzbandriss - Google Maps"
+      }
+    }
+  ],
+  "reviewOpenCandidateCount": 25,
+  "reviewClick": {
+    "clicked": true,
+    "strategy": "candidate",
+    "label": "48 Berichte",
+    "domIndex": 47,
+    "candidateScore": 215,
+    "candidateReasons": [
+      "jsaction_more_reviews",
+      "count_label",
+      "review_keyword",
+      "button_like_control"
+    ],
+    "jsaction": "pane.wfvdle14.reviewchart.morereviews"
+  },
+  "reviewsPanel": {
+    "reviewNodeCount": 89,
+    "title": "Klinik Dr. Witwity - Fachklinik für Arthrose, Meniskus, Kreuzbandriss - Google Maps"
+  },
+  "initialReviewsState": {
+    "title": "Klinik Dr. Witwity - Fachklinik für Arthrose, Meniskus, Kreuzbandriss - Google Maps",
+    "reviewNodeCount": 89,
+    "uniqueReviewIdCount": 10,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 0,
+    "scrollHeight": 3394,
+    "clientHeight": 694,
+    "distanceToBottom": 2700
+  },
+  "declaredReviewTotalInfo": {
+    "found": true,
+    "declaredReviewTotal": 46,
+    "sourceKind": "rating-histogram",
+    "histogramByStar": {
+      "1": 10,
+      "3": 0,
+      "5": 36
+    },
+    "histogramStarCount": 3
+  },
+  "declaredReviewTotal": 46,
+  "declaredTotalSettleSeconds": 1.5,
+  "declaredTotalFastStopUsed": true,
+  "declaredTotalFinalCheck": {
+    "iteration": 5,
+    "before": {
+      "uniqueReviewIdCount": 48,
+      "scrollHeight": 11466,
+      "distanceToBottom": 0.5
+    },
+    "after": {
+      "uniqueReviewIdCount": 48,
+      "scrollHeight": 11466,
+      "distanceToBottom": 0.5
+    },
+    "settleSeconds": 1.5,
+    "grewDuringSettle": false,
+    "atBottomAfterSettle": true,
+    "declaredTotalReachedAfterSettle": true
+  },
+  "fallbackStableRoundsRequired": 5,
+  "scrollResults": [
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 0,
+      "after": 2699.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 3394,
+      "clientHeight": 694,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 89,
+      "uniqueReviewIdCount": 10,
+      "iteration": 1,
+      "declaredReviewTotal": 46,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Witwity - Fachklinik für Arthrose, Meniskus, Kreuzbandriss - Google Maps",
+        "reviewNodeCount": 175,
+        "uniqueReviewIdCount": 20,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 2699.5,
+        "scrollHeight": 6099,
+        "clientHeight": 695,
+        "distanceToBottom": 2704.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.6332953236997128e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 2699.5,
+      "after": 5403.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 6099,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 175,
+      "uniqueReviewIdCount": 20,
+      "iteration": 2,
+      "declaredReviewTotal": 46,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Witwity - Fachklinik für Arthrose, Meniskus, Kreuzbandriss - Google Maps",
+        "reviewNodeCount": 257,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 5403.5,
+        "scrollHeight": 8445,
+        "clientHeight": 695,
+        "distanceToBottom": 2346.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.1874944902956486e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 5403.5,
+      "after": 7749.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 8445,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 257,
+      "uniqueReviewIdCount": 30,
+      "iteration": 3,
+      "declaredReviewTotal": 46,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Witwity - Fachklinik für Arthrose, Meniskus, Kreuzbandriss - Google Maps",
+        "reviewNodeCount": 325,
+        "uniqueReviewIdCount": 40,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 7749.5,
+        "scrollHeight": 10442,
+        "clientHeight": 695,
+        "distanceToBottom": 1997.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.1416967026889324e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 7749.5,
+      "after": 9746.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 10442,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 325,
+      "uniqueReviewIdCount": 40,
+      "iteration": 4,
+      "declaredReviewTotal": 46,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Witwity - Fachklinik für Arthrose, Meniskus, Kreuzbandriss - Google Maps",
+        "reviewNodeCount": 365,
+        "uniqueReviewIdCount": 48,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 9746.5,
+        "scrollHeight": 11466,
+        "clientHeight": 695,
+        "distanceToBottom": 1024.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 8.792034350335598e-06,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 9746.5,
+      "after": 10770.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 11466,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 365,
+      "uniqueReviewIdCount": 48,
+      "iteration": 5,
+      "declaredReviewTotal": 46,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Witwity - Fachklinik für Arthrose, Meniskus, Kreuzbandriss - Google Maps",
+        "reviewNodeCount": 365,
+        "uniqueReviewIdCount": 48,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 10770.5,
+        "scrollHeight": 11466,
+        "clientHeight": 695,
+        "distanceToBottom": 0.5
+      },
+      "declaredTotalSettle": {
+        "waitSeconds": 1.5,
+        "stateAfterSettle": {
+          "title": "Klinik Dr. Witwity - Fachklinik für Arthrose, Meniskus, Kreuzbandriss - Google Maps",
+          "reviewNodeCount": 365,
+          "uniqueReviewIdCount": 48,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 10770.5,
+          "scrollHeight": 11466,
+          "clientHeight": 695,
+          "distanceToBottom": 0.5
+        }
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.634284041938372,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": true
+    }
+  ],
+  "scrollStopReason": "declared_total_reached_fast",
+  "exhausted": false,
+  "scrollSafetyTimeoutHit": false,
+  "growthEvents": [
+    {
+      "iteration": 1,
+      "uniqueReviewIdCount": 20,
+      "scrollHeight": 6099
+    },
+    {
+      "iteration": 2,
+      "uniqueReviewIdCount": 30,
+      "scrollHeight": 8445
+    },
+    {
+      "iteration": 3,
+      "uniqueReviewIdCount": 40,
+      "scrollHeight": 10442
+    },
+    {
+      "iteration": 4,
+      "uniqueReviewIdCount": 48,
+      "scrollHeight": 11466
+    }
+  ],
+  "networkEventsDuringScroll": 21,
+  "finalNetworkIdleSeconds": 6.634291999973357,
+  "noGrowthCycles": 0,
+  "finalReviewsState": {
+    "title": "Klinik Dr. Witwity - Fachklinik für Arthrose, Meniskus, Kreuzbandriss - Google Maps",
+    "reviewNodeCount": 365,
+    "uniqueReviewIdCount": 48,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 10770.5,
+    "scrollHeight": 11466,
+    "clientHeight": 695,
+    "distanceToBottom": 0.5
+  },
+  "reachedDeclaredReviewTotal": true,
+  "reachedReviewPaneEnd": true,
+  "finalUniqueReviewIdCount": 48,
+  "finalScrollTop": 10770.5,
+  "finalScrollHeight": 11466,
+  "reviewExpansion": {
+    "buttonCount": 18,
+    "clickedCount": 18
+  },
+  "matchedRequestCount": 51,
+  "batchexecuteCount": 3,
+  "reviewPhaseXhrCount": 33,
+  "captureSuccessful": true,
+  "finishedAt": "2026-04-15T16:54:18Z",
+  "retryRunsRequested": 2,
+  "retryRunsExecuted": 1,
+  "retryAttempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/klinik-dr-witwity",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 48,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 46
+    }
+  ],
+  "mergedReviewCountAcrossAttempts": 35,
+  "reviewsPath": "artifacts/klinik-dr-witwity/reviews.json",
+  "latestDeclaredReviewTotalAcrossAttempts": 46
+}

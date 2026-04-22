@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/krankenhaus-st-elisabeth-ggmbh",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 306,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 306
+    }
+  ]
+}

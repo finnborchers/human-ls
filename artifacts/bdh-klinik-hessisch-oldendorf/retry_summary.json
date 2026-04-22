@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/bdh-klinik-hessisch-oldendorf",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 136,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 136
+    }
+  ]
+}

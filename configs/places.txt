@@ -1,0 +1,172 @@
+# One place name per line. Blank lines and comments are ignored.
+
+AGAPLESION Diakonieklinikum Rotenburg gGmbH
+AGAPLESION Ev. Bathildiskrankenhaus
+AGAPLESION Ev. Klinikum Schaumburg
+AGAPLESION Evangelisches Krankenhaus Holzminden gGmbH
+AGAPLESION Krankenhaus Neu-Bethlehem gGmbH
+AMEOS Klinikum Alfeld
+AMEOS Klinikum Hameln
+AMEOS Klinikum Hildesheim
+AMEOS Klinikum Osnabrück
+AMEOS Klinikum Seepark Geestland GmbH
+ASKLEPIOS Fachklinikum Göttingen
+ASKLEPIOS FachklinikumTiefenbrunn
+ASKLEPIOS Harzklinik Bad Harzburg
+ASKLEPIOS Harzklinik Goslar
+ASKLEPIOS Kliniken Schildautal Seesen
+AWO Psychiatriezentrum
+Albert-Schweitzer-Therapeutikum
+Aller-Weser-Klinik Krankenhaus Achim
+Aller-Weser-Klinik Krankenhaus Verden
+Allgemeines Krankenhaus Celle
+Ammerland Klinik GmbH
+Augenklinik Dr. Georg
+Augenklinik Dr. Hoffmann
+Augenklinik Stadthagen GmbH
+BDH-Klinik Hessisch Oldendorf
+Borromäus Hospital Leer gGmbH
+Bundeswehrkrankenhaus
+Burghof-Klinik GmbH
+Capio Elbe-Jeetzel-Klinik Dannenberg
+Christliches Kinderhospital Osnabrück
+Christliches Krankenhaus Quakenbrück
+Clemens-August-Klinik
+DIAKOVERE Annastift
+DIAKOVERE Friederikenstift
+DIAKOVERE Henriettenstift
+DRK-Krankenhaus Clementinenhaus
+Deister-Süntel-Klinik GmbH
+Delme Klinikum Delmenhorst
+Diabeteszentrum Bad Lauterberg Fachklinik für Diabetes und Stoffwechselkrankheiten
+Diana Kliniken
+Eilenriede Klinik Hannover
+Einbecker Bürgerspital GmbH
+Elbe Klinikum Buxtehude
+Elbe Klinikum Stade
+Euregio Klinik Albert-Schweitzer-Straße GmbH
+Euregio Klinik Hannoverstraße GmbH
+Ev. Krankenhaus Göttingen Weende gGmbH Standort Neu-Mariahilf
+Ev.-luth. Diakonissenanstalt Marienstift
+Evangelisches Krankenhaus Göttingen-Weende gGmbH
+Evangelisches Krankenhaus Oldenburg
+FACHKLINIK BAD BENTHEIM Thermalsole- und Schwefelbad Bentheim GmbH
+Fachklinik für Orthopädie und Rheumatologie Dr. Muschinsky
+Falkenried Caduceus Klinik GmbH
+Heidekreis Klinikum GmbH Krankenhaus Soltau
+Heidekreis Klinikum GmbH Krankenhaus Walsrode
+Helios Albert-Schweitzer-Klinik Northeim
+Helios Klinik Cuxhaven GmbH
+Helios Klinik Wesermarsch Nordenham GmbH
+Helios Klinik Wittingen GmbH
+Helios Kliniken Herzberg und Osterode GmbH
+Helios Kliniken Mittelweser GmbH Klinik Nienburg
+Helios Kliniken Mittelweser GmbH Klinik Stolzenau
+Helios Klinikum Gifhorn GmbH
+Helios Klinikum Hildesheim GmbH
+Helios Klinikum Salzgitter GmbH
+Helios Klinikum Uelzen GmbH
+Helios St. Marienberg Klinik Helmstedt
+Herz- und Gefäßzentrum Bad Bevensen
+Herzogin-Elisabeth-Hospital
+Hümmling Krankenhaus Sögel
+INI International Neuroscience Institute Hannover
+Inselkrankenhaus Borkum gGmbH
+Johann-Wilhelm-Ritter-Klinik Akut-, AHB- und Rehabilitationsklinik
+Johanniter-Krankenhaus Gronau GmbH
+KRH-Klinikum Agnes Karll Laatzen
+KRH-Klinikum Großburgwedel
+KRH-Klinikum Lehrte
+KRH-Klinikum Neustadt am Rübenberge
+KRH-Klinikum Nordstadt
+KRH-Klinikum Robert Koch Gehrden
+KRH-Klinikum Siloah
+Karl-Jaspers-Klinik
+Karl-Jaspers-Klinik für Psychosomatische Medizin und Psychotherapie
+Kinder- und Jugendkrankenhaus auf der Bult
+Kinderhospital Osnabrück am Schölerberg
+Kirchberg Klinik
+Klinik Bassum
+Klinik Diepholz
+Klinik Dr. Barner Fachklinik für Psychosomatische und Psychotherapeutische Medizin
+Klinik Dr. Hancken
+Klinik Dr. Witwity
+Klinik Fallingbostel Fachklinik für Herz- und Kreislauferkrankungen
+Klinik Lilienthal
+Klinik Sulingen
+Klinik am Zuckerberg GmbH
+Klinik für Kinder- und Jugendpsychotherapie Wichernstift gGmbH
+Klinikum Emden Hans-Susemihl-Krankenhaus gGmbH
+Klinikum Hann. Münden GmbH
+Klinikum Leer gGmbH
+Klinikum Oldenburg gGmbH
+Klinikum Osnabrück
+Klinikum Peine gGmbH
+Klinikum Region Hannover
+Klinikum Region Hannover GmbH Geriatrie Langenhagen
+Klinikum Region Hannover GmbH Psychiatrie Langenhagen
+Klinikum Wahrendorff GmbH
+Klinikum Wilhelmshaven gGmbH
+Klinikum Wolfsburg
+Krankenhaus Buchholz und Winsen gGmbH Krankenhaus Buchholz
+Krankenhaus Buchholz und Winsen gGmbH Krankenhaus Winsen
+Krankenhaus Ginsterhof
+Krankenhaus Johanneum
+Krankenhaus Land Hadeln
+Krankenhaus Lindenbrunn
+Krankenhaus Ludmillenstift Meppen
+Krankenhaus Norderney
+Krankenhaus Rheiderland
+Krankenhaus St. Elisabeth gGmbH
+Krankenhaus Wittmund gGmbH
+Kreiskrankenhaus Osterholz
+Marienkrankenhaus Papenburg-Aschendorf GmbH
+MediClin Hedon-Klinik
+MediClin Klinikum Soltau
+MediClin Seepark Klinik Akutpsychosomatik Schwerpunkt Essstörungen
+Median Zentrum für Verhaltensmedizin Bad Pyrmont Fachkrankenhaus
+Mediclin Deister-Weser-Klinik Akutpsychosomatik
+Medizinische Hochschule Hannover
+Niels-Stensen-Kliniken Bramsche
+Niels-Stensen-Kliniken Christliches Klinikum Melle
+Niels-Stensen-Kliniken Elisabeth-KrankenhausThuine
+Niels-Stensen-Kliniken Franziskus Hospital Harderberg
+Niels-Stensen-Kliniken Magdalenen-Klinik
+Niels-Stensen-Kliniken Marienhospital Ankum-Bersenbrück GmbH
+Niels-Stensen-Kliniken Marienhospital Osnabrück
+Niels-Stensen-Kliniken St. Vinzenz-Hospital Haselünne
+Niels-Stensen-KlinikenKrankenhaus St. Raphael Ostercappeln
+Nordwest-Krankenhaus Sanderbusch GmbH
+OsteMed Klinik Bremervörde
+Paracelsus Klinik am Silbersee
+Paulinenkrankenhaus
+Pius-Hospital
+Privat-Nervenklinik Dr. med. Fontheim
+Privatklinik Bad Zwischenahn Fachklinik für Psychotherapeutische Medizin und Psychosomatik
+Psychiatrisch-Psychosomatische Klinik Celle
+Psychiatrische Klinik Lüneburg gemeinnützige GmbH
+Psychiatrische Klinik Uelzen gGmbH
+Sana Klinikum Hameln-Pyrmont
+Schüchtermann-Klinik
+Sophien-Klinik GmbH
+St. Anna Klinik
+St. Bernhard-Hospital
+St. Bernward Krankenhaus
+St. Bonifatius Hospital
+St. Elisabeth-Krankenhaus Salzgitter gemeinützige Gesellschaft mbH
+St. Franziskus Hospital gGmbH
+St. Johannes-Hospital
+St. Marien Hospital gGmbH
+St. Marienhospital Vechta gGmbH
+St. Martini gGmbH
+St.-Josefs-Hospital Cloppenburg gGmbH
+Stenum Fachklinik für Orthopädie
+Städtisches Klinikum Braunschweig
+Städtisches Klinikum Lüneburg gGmbH
+Städtisches Klinikum Wolfenbüttel gGmbH
+Ubbo-Emmius-Klinik Aurich
+Ubbo-Emmius-Klinik gGmbH Klinik Norden
+Universitätsmedizin Göttingen
+Venenzentrum Braunschweig
+Vinzenzkrankenhaus
+Waldklinik Jesteburg

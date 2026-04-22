@@ -1,0 +1,687 @@
+{
+  "url": "https://www.google.com/maps/place/Kliniken+Landkreis+Diepholz+gGmbH+-+Klinik+Bassum/@52.8439184,8.7233832,17z/data=!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik+Bassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%2Fg%2F1tfmb8ql?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "placeId": "klinik-bassum",
+  "startedAt": "2026-04-15T16:47:27Z",
+  "scrollDelayUsed": 1.5,
+  "browserVersion": "Chrome/147.0.7727.56",
+  "pageTargetId": "8689A145A149D00ED31A3B87A12FAD0D",
+  "selectedTargetId": "8689A145A149D00ED31A3B87A12FAD0D",
+  "selectedTargetUrl": "https://www.google.com/maps/place/Kliniken+Landkreis+Diepholz+gGmbH+-+Klinik+Bassum/@52.8439184,8.7233832,17z/data=!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik+Bassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%2Fg%2F1tfmb8ql?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "targetSelectionStrategy": "exact_url_match",
+  "cookieConsent": {
+    "clicked": true,
+    "attempts": [
+      {
+        "clicked": true,
+        "action": "deny",
+        "label": "alle ablehnen alle ablehnen",
+        "strategy": "direct_selector",
+        "selector": "button[aria-label*=\"ablehnen\" i]",
+        "source": "document",
+        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Kliniken%2BLandkreis%2BDiepholz%2BgGmbH%2B-%2BKlinik%2BBassum/@52.8439184,8.7233832,17z/data%3D!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik%2BBassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%252Fg%252F1tfmb8ql?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Kliniken%2BLandkreis%2BDiepholz%2BgGmbH%2B-%2BKlinik%2BBassum/@52.8439184,8.7233832,17z/data%3D!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik%2BBassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%252Fg%252F1tfmb8ql?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "onConsentHost": true,
+        "attempt": 1
+      }
+    ],
+    "resolvedWith": {
+      "clicked": true,
+      "action": "deny",
+      "label": "alle ablehnen alle ablehnen",
+      "strategy": "direct_selector",
+      "selector": "button[aria-label*=\"ablehnen\" i]",
+      "source": "document",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Kliniken%2BLandkreis%2BDiepholz%2BgGmbH%2B-%2BKlinik%2BBassum/@52.8439184,8.7233832,17z/data%3D!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik%2BBassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%252Fg%252F1tfmb8ql?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Kliniken%2BLandkreis%2BDiepholz%2BgGmbH%2B-%2BKlinik%2BBassum/@52.8439184,8.7233832,17z/data%3D!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik%2BBassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%252Fg%252F1tfmb8ql?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "onConsentHost": true,
+      "attempt": 1
+    }
+  },
+  "reviewOpenAttempts": [
+    {
+      "rank": 1,
+      "candidate": {
+        "domIndex": 69,
+        "score": 215,
+        "reasons": [
+          "jsaction_more_reviews",
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "197 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle41.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 69,
+        "text": "197 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle41.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 2,
+      "candidate": {
+        "domIndex": 83,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "OP 31",
+        "ariaLabel": "OP, in 31 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle75; keydown:pane.wfvdle75; mouseover:pane.wfvdle75; mouseout:pane.wfvdle75;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 83,
+        "text": "Messen",
+        "ariaLabel": "",
+        "jsaction": "layerswitcher.tool.ruler"
+      }
+    },
+    {
+      "rank": 3,
+      "candidate": {
+        "domIndex": 84,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "notaufnahme 22",
+        "ariaLabel": "notaufnahme, in 22 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle76; keydown:pane.wfvdle76; mouseover:pane.wfvdle76; mouseout:pane.wfvdle76;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 84,
+        "text": "Standard",
+        "ariaLabel": "",
+        "jsaction": "layerswitcher.intent.map"
+      }
+    },
+    {
+      "rank": 4,
+      "candidate": {
+        "domIndex": 85,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "team 16",
+        "ariaLabel": "team, in 16 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle77; keydown:pane.wfvdle77; mouseover:pane.wfvdle77; mouseout:pane.wfvdle77;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 85,
+        "text": "Satellit",
+        "ariaLabel": "",
+        "jsaction": "layerswitcher.intent.satellite"
+      }
+    },
+    {
+      "rank": 5,
+      "candidate": {
+        "domIndex": 86,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "die ärzte 10",
+        "ariaLabel": "die ärzte, in 10 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle78; keydown:pane.wfvdle78; mouseover:pane.wfvdle78; mouseout:pane.wfvdle78;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 86,
+        "text": " Globusansicht",
+        "ariaLabel": "",
+        "jsaction": "layerswitcher.intent.spherical"
+      }
+    },
+    {
+      "rank": 6,
+      "candidate": {
+        "domIndex": 95,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Julia Knippenberg 10 Rezensionen · 3 Fotos",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle86.review.reviewerlink",
+        "className": "al6Kxe"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 95
+      }
+    },
+    {
+      "rank": 7,
+      "candidate": {
+        "domIndex": 101,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Jenny Klein 4 Rezensionen",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle87.review.reviewerlink",
+        "className": "al6Kxe"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 101
+      }
+    },
+    {
+      "rank": 8,
+      "candidate": {
+        "domIndex": 107,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Abdollah Dashan 6 Rezensionen",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle88.review.reviewerlink",
+        "className": "al6Kxe"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 107
+      }
+    },
+    {
+      "rank": 9,
+      "candidate": {
+        "domIndex": 82,
+        "score": 80,
+        "reasons": [
+          "explicit_all_reviews",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Alle",
+        "ariaLabel": "Alle Rezensionen",
+        "title": "",
+        "jsaction": "pane.wfvdle74; keydown:pane.wfvdle74; mouseover:pane.wfvdle74; mouseout:pane.wfvdle74;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 82,
+        "text": "Reisedauer",
+        "ariaLabel": "",
+        "jsaction": "layerswitcher.tool.reachability"
+      }
+    },
+    {
+      "rank": 10,
+      "candidate": {
+        "domIndex": 38,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Rezensionen",
+        "ariaLabel": "Rezensionen zu „Kliniken Landkreis Diepholz gGmbH - Klinik Bassum“",
+        "title": "",
+        "jsaction": "pane.wfvdle32tabs.tabclick; mousedown:pane.wfvdle32tabs.dragtabs; focus:pane.wfvdle32tabs.focus",
+        "className": "hh2c6"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 38,
+        "text": "Weitere Informationen",
+        "ariaLabel": "",
+        "jsaction": ""
+      }
+    },
+    {
+      "rank": 11,
+      "candidate": {
+        "domIndex": 79,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "In Rezensionen suchen",
+        "title": "",
+        "jsaction": "pane.wfvdle72;keydown:pane.wfvdle72;mouseover:pane.wfvdle72;mouseout:pane.wfvdle72;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "S9kvJb"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 79,
+        "text": "Street View",
+        "ariaLabel": "",
+        "jsaction": "layerswitcher.intent.streetview"
+      }
+    },
+    {
+      "rank": 12,
+      "candidate": {
+        "domIndex": 81,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Sortieren",
+        "ariaLabel": "Rezensionen sortieren",
+        "title": "",
+        "jsaction": "pane.wfvdle73;keydown:pane.wfvdle73;mouseover:pane.wfvdle73;mouseout:pane.wfvdle73",
+        "className": "S9kvJb"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 81,
+        "text": "Luftqualität",
+        "ariaLabel": "",
+        "jsaction": "layerswitcher.intent.air_quality"
+      }
+    },
+    {
+      "rank": 13,
+      "candidate": {
+        "domIndex": 111,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Weitere Rezensionen (194)",
+        "ariaLabel": "Weitere Rezensionen (194)",
+        "title": "",
+        "jsaction": "pane.wfvdle89",
+        "className": "M77dve"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 111
+      }
+    },
+    {
+      "rank": 14,
+      "candidate": {
+        "domIndex": 3,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "Suchen",
+        "title": "",
+        "jsaction": "omnibox.search; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip",
+        "className": "mL3xi"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 3,
+        "text": "",
+        "ariaLabel": "Suchen",
+        "title": "",
+        "jsaction": "omnibox.search; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip",
+        "className": "mL3xi"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 15,
+      "candidate": {
+        "domIndex": 4,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "Schließen",
+        "title": "",
+        "jsaction": "omnibox.clear; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; focus:omnibox.hidesuggestions; blur:omnibox.hidetooltip",
+        "className": "yAuNSb vF7Cdb"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 4,
+        "text": "",
+        "ariaLabel": "Schließen",
+        "title": "",
+        "jsaction": "omnibox.clear; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; focus:omnibox.hidesuggestions; blur:omnibox.hidetooltip",
+        "className": "yAuNSb vF7Cdb"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 16,
+      "candidate": {
+        "domIndex": 6,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Bewertung ",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle103; keydown:pane.wfvdle103; mouseover:pane.wfvdle103; mouseout:pane.wfvdle103",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 6,
+        "text": "In diesem Gebiet suchen",
+        "ariaLabel": "In diesem Gebiet suchen",
+        "jsaction": "search.refresh"
+      }
+    },
+    {
+      "rank": 17,
+      "candidate": {
+        "domIndex": 7,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Öffnungszeiten ",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle104; keydown:pane.wfvdle104; mouseover:pane.wfvdle104; mouseout:pane.wfvdle104",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 7,
+        "text": " Restaurants",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle123; keydown:pane.wfvdle123; mouseover:pane.wfvdle123; mouseout:pane.wfvdle123;keydown:ripple.nested;mousedown:ripple.nested;ptrdown:ripple.nested",
+        "className": "e2moi"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 18,
+      "candidate": {
+        "domIndex": 8,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Alle Filter",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle105; keydown:pane.wfvdle105; mouseover:pane.wfvdle105; mouseout:pane.wfvdle105",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 8,
+        "text": " Bewertung ",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle158; keydown:pane.wfvdle158; mouseover:pane.wfvdle158; mouseout:pane.wfvdle158",
+        "className": "e2moi"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 19,
+      "candidate": {
+        "domIndex": 10,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "Menü",
+        "title": "",
+        "jsaction": "navigationrail.more",
+        "className": "wR3cXd"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 10,
+        "text": " Alle Filter",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle160; keydown:pane.wfvdle160; mouseover:pane.wfvdle160; mouseout:pane.wfvdle160",
+        "className": "e2moi"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 20,
+      "candidate": {
+        "domIndex": 11,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Gespeichert",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "navigationrail.saved",
+        "className": "wR3cXd fontLabelMedium"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 11,
+        "text": " Zuletzt verwendet",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "navigationrail.recent",
+        "className": "wR3cXd fontLabelMedium"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 21,
+      "candidate": {
+        "domIndex": 12,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Zuletzt verwendet",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "navigationrail.recent",
+        "className": "wR3cXd fontLabelMedium"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 12,
+        "text": " Gespeichert",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "navigationrail.saved",
+        "className": "wR3cXd fontLabelMedium"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 22,
+      "candidate": {
+        "domIndex": 13,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "click:navigationrail.bundle; mouseover:navigationrail.bundle; mouseout:navigationrail.bundle",
+        "className": "atHn2d wR3cXd aJPqP fontBodySmall QyI6Nb"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 13
+      }
+    },
+    {
+      "rank": 23,
+      "candidate": {
+        "domIndex": 14,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " App herunterladen",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "navigationrail.mobileapp",
+        "className": "wR3cXd Ijds6e fontLabelMedium"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 14
+      }
+    },
+    {
+      "rank": 24,
+      "candidate": {
+        "domIndex": 19,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Teilen",
+        "ariaLabel": "Teilen",
+        "title": "",
+        "jsaction": "pane.wfvdle10",
+        "className": "M77dve"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 19
+      }
+    },
+    {
+      "rank": 25,
+      "candidate": {
+        "domIndex": 22,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Routen­planer",
+        "ariaLabel": "Route zum Ziel \"Kliniken Landkreis Diepholz gGmbH - Klinik Bassum\" berechnen",
+        "title": "",
+        "jsaction": "pane.wfvdle15;keydown:pane.wfvdle15;mouseover:pane.wfvdle15;mouseout:pane.wfvdle15",
+        "className": "S9kvJb"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 22
+      }
+    }
+  ],
+  "reviewOpenCandidateCount": 25,
+  "reviewClick": {
+    "clicked": false,
+    "reason": "reviews_panel_not_opened"
+  },
+  "reviewsPanel": false,
+  "failureReason": "reviews_panel_not_opened",
+  "scrollStopReason": "reviews_panel_not_opened",
+  "captureSuccessful": false,
+  "finishedAt": "2026-04-15T16:48:58Z",
+  "reviewPhaseXhrCount": 37,
+  "matchedRequestCount": 0,
+  "batchexecuteCount": 0,
+  "retryRunsRequested": 2,
+  "retryRunsExecuted": 1,
+  "retryAttempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/klinik-bassum",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": false,
+      "failureReason": "reviews_panel_not_opened",
+      "finalUniqueReviewIdCount": 0,
+      "scrollStopReason": "reviews_panel_not_opened",
+      "declaredReviewTotal": null
+    }
+  ],
+  "mergedReviewCountAcrossAttempts": 0,
+  "reviewsPath": null,
+  "latestDeclaredReviewTotalAcrossAttempts": null
+}

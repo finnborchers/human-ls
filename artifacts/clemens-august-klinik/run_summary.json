@@ -1,0 +1,670 @@
+{
+  "url": "https://www.google.com/maps/place/Clemens-August-Klinik/@52.5127143,8.1066627,17z/data=!3m1!4b1!4m6!3m5!1s0x47b75be06c80adc3:0x41ab34d126b32ee!8m2!3d52.5127143!4d8.1066627!16s%2Fg%2F1tzly0p4?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "placeId": "clemens-august-klinik",
+  "startedAt": "2026-04-15T15:04:42Z",
+  "scrollDelayUsed": 1.5,
+  "browserVersion": "Chrome/147.0.7727.56",
+  "pageTargetId": "2C2DFA62BDE3E5E2C75392B97B22F679",
+  "selectedTargetId": "2C2DFA62BDE3E5E2C75392B97B22F679",
+  "selectedTargetUrl": "https://www.google.com/maps/place/Clemens-August-Klinik/@52.5127143,8.1066627,17z/data=!3m1!4b1!4m6!3m5!1s0x47b75be06c80adc3:0x41ab34d126b32ee!8m2!3d52.5127143!4d8.1066627!16s%2Fg%2F1tzly0p4?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "targetSelectionStrategy": "exact_url_match",
+  "cookieConsent": {
+    "clicked": true,
+    "attempts": [
+      {
+        "clicked": true,
+        "action": "deny",
+        "label": "alle ablehnen alle ablehnen",
+        "strategy": "direct_selector",
+        "selector": "button[aria-label*=\"ablehnen\" i]",
+        "source": "document",
+        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Clemens-August-Klinik/@52.5127143,8.1066627,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b75be06c80adc3:0x41ab34d126b32ee!8m2!3d52.5127143!4d8.1066627!16s%252Fg%252F1tzly0p4?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Clemens-August-Klinik/@52.5127143,8.1066627,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b75be06c80adc3:0x41ab34d126b32ee!8m2!3d52.5127143!4d8.1066627!16s%252Fg%252F1tzly0p4?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "onConsentHost": true,
+        "attempt": 1
+      }
+    ],
+    "resolvedWith": {
+      "clicked": true,
+      "action": "deny",
+      "label": "alle ablehnen alle ablehnen",
+      "strategy": "direct_selector",
+      "selector": "button[aria-label*=\"ablehnen\" i]",
+      "source": "document",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Clemens-August-Klinik/@52.5127143,8.1066627,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b75be06c80adc3:0x41ab34d126b32ee!8m2!3d52.5127143!4d8.1066627!16s%252Fg%252F1tzly0p4?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Clemens-August-Klinik/@52.5127143,8.1066627,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b75be06c80adc3:0x41ab34d126b32ee!8m2!3d52.5127143!4d8.1066627!16s%252Fg%252F1tzly0p4?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "onConsentHost": true,
+      "attempt": 1
+    }
+  },
+  "reviewOpenAttempts": [
+    {
+      "rank": 1,
+      "candidate": {
+        "domIndex": 56,
+        "score": 215,
+        "reasons": [
+          "jsaction_more_reviews",
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "129 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle14.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 56,
+        "text": "129 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle14.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "reviewsPanelAfterClick": {
+        "reviewNodeCount": 90,
+        "title": "Clemens-August-Klinik - Google Maps"
+      }
+    }
+  ],
+  "reviewOpenCandidateCount": 25,
+  "reviewClick": {
+    "clicked": true,
+    "strategy": "candidate",
+    "label": "129 Berichte",
+    "domIndex": 56,
+    "candidateScore": 215,
+    "candidateReasons": [
+      "jsaction_more_reviews",
+      "count_label",
+      "review_keyword",
+      "button_like_control"
+    ],
+    "jsaction": "pane.wfvdle14.reviewchart.morereviews"
+  },
+  "reviewsPanel": {
+    "reviewNodeCount": 90,
+    "title": "Clemens-August-Klinik - Google Maps"
+  },
+  "initialReviewsState": {
+    "title": "Clemens-August-Klinik - Google Maps",
+    "reviewNodeCount": 90,
+    "uniqueReviewIdCount": 10,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 0,
+    "scrollHeight": 3258,
+    "clientHeight": 694,
+    "distanceToBottom": 2564
+  },
+  "declaredReviewTotalInfo": {
+    "found": true,
+    "declaredReviewTotal": 129,
+    "sourceKind": "rating-histogram",
+    "histogramByStar": {
+      "1": 39,
+      "2": 5,
+      "3": 0,
+      "4": 13,
+      "5": 72
+    },
+    "histogramStarCount": 5
+  },
+  "declaredReviewTotal": 129,
+  "declaredTotalSettleSeconds": 1.5,
+  "declaredTotalFastStopUsed": true,
+  "declaredTotalFinalCheck": {
+    "iteration": 13,
+    "before": {
+      "uniqueReviewIdCount": 129,
+      "scrollHeight": 32309,
+      "distanceToBottom": 0.5
+    },
+    "after": {
+      "uniqueReviewIdCount": 129,
+      "scrollHeight": 32309,
+      "distanceToBottom": 0.5
+    },
+    "settleSeconds": 1.5,
+    "grewDuringSettle": false,
+    "atBottomAfterSettle": true,
+    "declaredTotalReachedAfterSettle": true
+  },
+  "fallbackStableRoundsRequired": 5,
+  "scrollResults": [
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 0,
+      "after": 2563.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 3258,
+      "clientHeight": 694,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 90,
+      "uniqueReviewIdCount": 10,
+      "iteration": 1,
+      "declaredReviewTotal": 129,
+      "stateAfterDelay": {
+        "title": "Clemens-August-Klinik - Google Maps",
+        "reviewNodeCount": 179,
+        "uniqueReviewIdCount": 20,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 2563.5,
+        "scrollHeight": 6632,
+        "clientHeight": 695,
+        "distanceToBottom": 3373.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.917056791484356e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 2563.5,
+      "after": 5936.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 6632,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 179,
+      "uniqueReviewIdCount": 20,
+      "iteration": 2,
+      "declaredReviewTotal": 129,
+      "stateAfterDelay": {
+        "title": "Clemens-August-Klinik - Google Maps",
+        "reviewNodeCount": 273,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 5936.5,
+        "scrollHeight": 9989,
+        "clientHeight": 695,
+        "distanceToBottom": 3357.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.709007382392883e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 5936.5,
+      "after": 9293.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 9989,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 273,
+      "uniqueReviewIdCount": 30,
+      "iteration": 3,
+      "declaredReviewTotal": 129,
+      "stateAfterDelay": {
+        "title": "Clemens-August-Klinik - Google Maps",
+        "reviewNodeCount": 362,
+        "uniqueReviewIdCount": 40,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 9293.5,
+        "scrollHeight": 12778,
+        "clientHeight": 695,
+        "distanceToBottom": 2789.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.083057425916195e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 9293.5,
+      "after": 12082.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 12778,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 362,
+      "uniqueReviewIdCount": 40,
+      "iteration": 4,
+      "declaredReviewTotal": 129,
+      "stateAfterDelay": {
+        "title": "Clemens-August-Klinik - Google Maps",
+        "reviewNodeCount": 448,
+        "uniqueReviewIdCount": 50,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 12082.5,
+        "scrollHeight": 15357,
+        "clientHeight": 695,
+        "distanceToBottom": 2579.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.8749068304896355e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 12082.5,
+      "after": 14661.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 15357,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 448,
+      "uniqueReviewIdCount": 50,
+      "iteration": 5,
+      "declaredReviewTotal": 129,
+      "stateAfterDelay": {
+        "title": "Clemens-August-Klinik - Google Maps",
+        "reviewNodeCount": 536,
+        "uniqueReviewIdCount": 60,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 14661.5,
+        "scrollHeight": 17978,
+        "clientHeight": 695,
+        "distanceToBottom": 2621.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.833004929125309e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 14661.5,
+      "after": 17282.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 17978,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 536,
+      "uniqueReviewIdCount": 60,
+      "iteration": 6,
+      "declaredReviewTotal": 129,
+      "stateAfterDelay": {
+        "title": "Clemens-August-Klinik - Google Maps",
+        "reviewNodeCount": 624,
+        "uniqueReviewIdCount": 70,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 17282.5,
+        "scrollHeight": 20836,
+        "clientHeight": 695,
+        "distanceToBottom": 2858.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.6249707490205765e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 17282.5,
+      "after": 20140.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 20836,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 624,
+      "uniqueReviewIdCount": 70,
+      "iteration": 7,
+      "declaredReviewTotal": 129,
+      "stateAfterDelay": {
+        "title": "Clemens-August-Klinik - Google Maps",
+        "reviewNodeCount": 706,
+        "uniqueReviewIdCount": 80,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 20140.5,
+        "scrollHeight": 23826,
+        "clientHeight": 695,
+        "distanceToBottom": 2990.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 8.958042599260807e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 20140.5,
+      "after": 23130.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 23826,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 706,
+      "uniqueReviewIdCount": 80,
+      "iteration": 8,
+      "declaredReviewTotal": 129,
+      "stateAfterDelay": {
+        "title": "Clemens-August-Klinik - Google Maps",
+        "reviewNodeCount": 787,
+        "uniqueReviewIdCount": 90,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 23130.5,
+        "scrollHeight": 26180,
+        "clientHeight": 695,
+        "distanceToBottom": 2354.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 8.125090971589088e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 23130.5,
+      "after": 25484.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 26180,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 787,
+      "uniqueReviewIdCount": 90,
+      "iteration": 9,
+      "declaredReviewTotal": 129,
+      "stateAfterDelay": {
+        "title": "Clemens-August-Klinik - Google Maps",
+        "reviewNodeCount": 870,
+        "uniqueReviewIdCount": 100,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 25484.5,
+        "scrollHeight": 28408,
+        "clientHeight": 695,
+        "distanceToBottom": 2228.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.833004929125309e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 25484.5,
+      "after": 27712.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 28408,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 870,
+      "uniqueReviewIdCount": 100,
+      "iteration": 10,
+      "declaredReviewTotal": 129,
+      "stateAfterDelay": {
+        "title": "Clemens-August-Klinik - Google Maps",
+        "reviewNodeCount": 920,
+        "uniqueReviewIdCount": 110,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 27712.5,
+        "scrollHeight": 29778,
+        "clientHeight": 695,
+        "distanceToBottom": 1370.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.2042000889778137e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 27712.5,
+      "after": 29082.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 29778,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 920,
+      "uniqueReviewIdCount": 110,
+      "iteration": 11,
+      "declaredReviewTotal": 129,
+      "stateAfterDelay": {
+        "title": "Clemens-August-Klinik - Google Maps",
+        "reviewNodeCount": 970,
+        "uniqueReviewIdCount": 120,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 29082.5,
+        "scrollHeight": 31148,
+        "clientHeight": 695,
+        "distanceToBottom": 1370.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.417052984237671e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 29082.5,
+      "after": 30452.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 31148,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 970,
+      "uniqueReviewIdCount": 120,
+      "iteration": 12,
+      "declaredReviewTotal": 129,
+      "stateAfterDelay": {
+        "title": "Clemens-August-Klinik - Google Maps",
+        "reviewNodeCount": 1015,
+        "uniqueReviewIdCount": 129,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 30452.5,
+        "scrollHeight": 32309,
+        "clientHeight": 695,
+        "distanceToBottom": 1161.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 9.333016350865364e-06,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 30452.5,
+      "after": 31613.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 32309,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1015,
+      "uniqueReviewIdCount": 129,
+      "iteration": 13,
+      "declaredReviewTotal": 129,
+      "stateAfterDelay": {
+        "title": "Clemens-August-Klinik - Google Maps",
+        "reviewNodeCount": 1015,
+        "uniqueReviewIdCount": 129,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 31613.5,
+        "scrollHeight": 32309,
+        "clientHeight": 695,
+        "distanceToBottom": 0.5
+      },
+      "declaredTotalSettle": {
+        "waitSeconds": 1.5,
+        "stateAfterSettle": {
+          "title": "Clemens-August-Klinik - Google Maps",
+          "reviewNodeCount": 1015,
+          "uniqueReviewIdCount": 129,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 31613.5,
+          "scrollHeight": 32309,
+          "clientHeight": 695,
+          "distanceToBottom": 0.5
+        }
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.595336457947269,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": true
+    }
+  ],
+  "scrollStopReason": "declared_total_reached_fast",
+  "exhausted": false,
+  "scrollSafetyTimeoutHit": false,
+  "growthEvents": [
+    {
+      "iteration": 1,
+      "uniqueReviewIdCount": 20,
+      "scrollHeight": 6632
+    },
+    {
+      "iteration": 2,
+      "uniqueReviewIdCount": 30,
+      "scrollHeight": 9989
+    },
+    {
+      "iteration": 3,
+      "uniqueReviewIdCount": 40,
+      "scrollHeight": 12778
+    },
+    {
+      "iteration": 4,
+      "uniqueReviewIdCount": 50,
+      "scrollHeight": 15357
+    },
+    {
+      "iteration": 5,
+      "uniqueReviewIdCount": 60,
+      "scrollHeight": 17978
+    },
+    {
+      "iteration": 6,
+      "uniqueReviewIdCount": 70,
+      "scrollHeight": 20836
+    },
+    {
+      "iteration": 7,
+      "uniqueReviewIdCount": 80,
+      "scrollHeight": 23826
+    },
+    {
+      "iteration": 8,
+      "uniqueReviewIdCount": 90,
+      "scrollHeight": 26180
+    },
+    {
+      "iteration": 9,
+      "uniqueReviewIdCount": 100,
+      "scrollHeight": 28408
+    },
+    {
+      "iteration": 10,
+      "uniqueReviewIdCount": 110,
+      "scrollHeight": 29778
+    },
+    {
+      "iteration": 11,
+      "uniqueReviewIdCount": 120,
+      "scrollHeight": 31148
+    },
+    {
+      "iteration": 12,
+      "uniqueReviewIdCount": 129,
+      "scrollHeight": 32309
+    }
+  ],
+  "networkEventsDuringScroll": 66,
+  "finalNetworkIdleSeconds": 6.595344999921508,
+  "noGrowthCycles": 0,
+  "finalReviewsState": {
+    "title": "Clemens-August-Klinik - Google Maps",
+    "reviewNodeCount": 1015,
+    "uniqueReviewIdCount": 129,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 31613.5,
+    "scrollHeight": 32309,
+    "clientHeight": 695,
+    "distanceToBottom": 0.5
+  },
+  "reachedDeclaredReviewTotal": true,
+  "reachedReviewPaneEnd": true,
+  "finalUniqueReviewIdCount": 129,
+  "finalScrollTop": 31613.5,
+  "finalScrollHeight": 32309,
+  "reviewExpansion": {
+    "buttonCount": 57,
+    "clickedCount": 57
+  },
+  "matchedRequestCount": 98,
+  "batchexecuteCount": 3,
+  "reviewPhaseXhrCount": 81,
+  "captureSuccessful": true,
+  "finishedAt": "2026-04-15T15:05:54Z",
+  "retryRunsRequested": 2,
+  "retryRunsExecuted": 1,
+  "retryAttempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/clemens-august-klinik",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 129,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 129
+    }
+  ],
+  "mergedReviewCountAcrossAttempts": 100,
+  "reviewsPath": "artifacts/clemens-august-klinik/reviews.json",
+  "latestDeclaredReviewTotalAcrossAttempts": 129
+}

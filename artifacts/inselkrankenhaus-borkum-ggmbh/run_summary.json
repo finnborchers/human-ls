@@ -1,0 +1,526 @@
+{
+  "url": "https://www.google.com/maps/place/Inselkrankenhaus+Borkum/@53.5848924,6.6712657,17z/data=!3m1!4b1!4m6!3m5!1s0x47c9e7d7372ab0ed:0xb96a018ddf18af2b!8m2!3d53.5848924!4d6.6712657!16s%2Fg%2F1tj7_6nt?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "placeId": "inselkrankenhaus-borkum-ggmbh",
+  "startedAt": "2026-04-15T16:34:43Z",
+  "scrollDelayUsed": 1.5,
+  "browserVersion": "Chrome/147.0.7727.56",
+  "pageTargetId": "ED5DBD386BF7D3D8C16D6AC6964B701E",
+  "selectedTargetId": "ED5DBD386BF7D3D8C16D6AC6964B701E",
+  "selectedTargetUrl": "https://www.google.com/maps/place/Inselkrankenhaus+Borkum/@53.5848924,6.6712657,17z/data=!3m1!4b1!4m6!3m5!1s0x47c9e7d7372ab0ed:0xb96a018ddf18af2b!8m2!3d53.5848924!4d6.6712657!16s%2Fg%2F1tj7_6nt?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "targetSelectionStrategy": "exact_url_match",
+  "cookieConsent": {
+    "clicked": true,
+    "attempts": [
+      {
+        "clicked": true,
+        "action": "deny",
+        "label": "alle ablehnen alle ablehnen",
+        "strategy": "direct_selector",
+        "selector": "button[aria-label*=\"ablehnen\" i]",
+        "source": "document",
+        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Inselkrankenhaus%2BBorkum/@53.5848924,6.6712657,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47c9e7d7372ab0ed:0xb96a018ddf18af2b!8m2!3d53.5848924!4d6.6712657!16s%252Fg%252F1tj7_6nt?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Inselkrankenhaus%2BBorkum/@53.5848924,6.6712657,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47c9e7d7372ab0ed:0xb96a018ddf18af2b!8m2!3d53.5848924!4d6.6712657!16s%252Fg%252F1tj7_6nt?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "onConsentHost": true,
+        "attempt": 1
+      }
+    ],
+    "resolvedWith": {
+      "clicked": true,
+      "action": "deny",
+      "label": "alle ablehnen alle ablehnen",
+      "strategy": "direct_selector",
+      "selector": "button[aria-label*=\"ablehnen\" i]",
+      "source": "document",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Inselkrankenhaus%2BBorkum/@53.5848924,6.6712657,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47c9e7d7372ab0ed:0xb96a018ddf18af2b!8m2!3d53.5848924!4d6.6712657!16s%252Fg%252F1tj7_6nt?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Inselkrankenhaus%2BBorkum/@53.5848924,6.6712657,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47c9e7d7372ab0ed:0xb96a018ddf18af2b!8m2!3d53.5848924!4d6.6712657!16s%252Fg%252F1tj7_6nt?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "onConsentHost": true,
+      "attempt": 1
+    }
+  },
+  "reviewOpenAttempts": [
+    {
+      "rank": 1,
+      "candidate": {
+        "domIndex": 59,
+        "score": 215,
+        "reasons": [
+          "jsaction_more_reviews",
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "81 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle14.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 59,
+        "text": "81 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle14.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "reviewsPanelAfterClick": {
+        "reviewNodeCount": 85,
+        "title": "Inselkrankenhaus Borkum - Google Maps"
+      }
+    }
+  ],
+  "reviewOpenCandidateCount": 25,
+  "reviewClick": {
+    "clicked": true,
+    "strategy": "candidate",
+    "label": "81 Berichte",
+    "domIndex": 59,
+    "candidateScore": 215,
+    "candidateReasons": [
+      "jsaction_more_reviews",
+      "count_label",
+      "review_keyword",
+      "button_like_control"
+    ],
+    "jsaction": "pane.wfvdle14.reviewchart.morereviews"
+  },
+  "reviewsPanel": {
+    "reviewNodeCount": 85,
+    "title": "Inselkrankenhaus Borkum - Google Maps"
+  },
+  "initialReviewsState": {
+    "title": "Inselkrankenhaus Borkum - Google Maps",
+    "reviewNodeCount": 85,
+    "uniqueReviewIdCount": 10,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 0,
+    "scrollHeight": 3369,
+    "clientHeight": 694,
+    "distanceToBottom": 2675
+  },
+  "declaredReviewTotalInfo": {
+    "found": true,
+    "declaredReviewTotal": 81,
+    "sourceKind": "rating-histogram",
+    "histogramByStar": {
+      "1": 26,
+      "2": 0,
+      "3": 3,
+      "4": 5,
+      "5": 47
+    },
+    "histogramStarCount": 5
+  },
+  "declaredReviewTotal": 81,
+  "declaredTotalSettleSeconds": 1.5,
+  "declaredTotalFastStopUsed": true,
+  "declaredTotalFinalCheck": {
+    "iteration": 9,
+    "before": {
+      "uniqueReviewIdCount": 81,
+      "scrollHeight": 18766,
+      "distanceToBottom": 0.5
+    },
+    "after": {
+      "uniqueReviewIdCount": 81,
+      "scrollHeight": 18766,
+      "distanceToBottom": 0.5
+    },
+    "settleSeconds": 1.5,
+    "grewDuringSettle": false,
+    "atBottomAfterSettle": true,
+    "declaredTotalReachedAfterSettle": true
+  },
+  "fallbackStableRoundsRequired": 5,
+  "scrollResults": [
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 0,
+      "after": 2674.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 3369,
+      "clientHeight": 694,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 85,
+      "uniqueReviewIdCount": 10,
+      "iteration": 1,
+      "declaredReviewTotal": 81,
+      "stateAfterDelay": {
+        "title": "Inselkrankenhaus Borkum - Google Maps",
+        "reviewNodeCount": 173,
+        "uniqueReviewIdCount": 20,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 2674.5,
+        "scrollHeight": 6179,
+        "clientHeight": 695,
+        "distanceToBottom": 2809.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 8.833943866193295e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 2674.5,
+      "after": 5483.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 6179,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 173,
+      "uniqueReviewIdCount": 20,
+      "iteration": 2,
+      "declaredReviewTotal": 81,
+      "stateAfterDelay": {
+        "title": "Inselkrankenhaus Borkum - Google Maps",
+        "reviewNodeCount": 261,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 5483.5,
+        "scrollHeight": 8905,
+        "clientHeight": 695,
+        "distanceToBottom": 2726.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.5874975360929966e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 5483.5,
+      "after": 8209.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 8905,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 261,
+      "uniqueReviewIdCount": 30,
+      "iteration": 3,
+      "declaredReviewTotal": 81,
+      "stateAfterDelay": {
+        "title": "Inselkrankenhaus Borkum - Google Maps",
+        "reviewNodeCount": 341,
+        "uniqueReviewIdCount": 40,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 8209.5,
+        "scrollHeight": 11316,
+        "clientHeight": 695,
+        "distanceToBottom": 2411.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.292022928595543e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 8209.5,
+      "after": 10620.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 11316,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 341,
+      "uniqueReviewIdCount": 40,
+      "iteration": 4,
+      "declaredReviewTotal": 81,
+      "stateAfterDelay": {
+        "title": "Inselkrankenhaus Borkum - Google Maps",
+        "reviewNodeCount": 421,
+        "uniqueReviewIdCount": 50,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 10620.5,
+        "scrollHeight": 13496,
+        "clientHeight": 695,
+        "distanceToBottom": 2180.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 4.499917849898338e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 10620.5,
+      "after": 12800.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 13496,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 421,
+      "uniqueReviewIdCount": 50,
+      "iteration": 5,
+      "declaredReviewTotal": 81,
+      "stateAfterDelay": {
+        "title": "Inselkrankenhaus Borkum - Google Maps",
+        "reviewNodeCount": 497,
+        "uniqueReviewIdCount": 60,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 12800.5,
+        "scrollHeight": 15961,
+        "clientHeight": 695,
+        "distanceToBottom": 2465.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.2999982573091984e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 12800.5,
+      "after": 15265.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 15961,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 497,
+      "uniqueReviewIdCount": 60,
+      "iteration": 6,
+      "declaredReviewTotal": 81,
+      "stateAfterDelay": {
+        "title": "Inselkrankenhaus Borkum - Google Maps",
+        "reviewNodeCount": 547,
+        "uniqueReviewIdCount": 70,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 15265.5,
+        "scrollHeight": 17331,
+        "clientHeight": 695,
+        "distanceToBottom": 1370.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.0791933164000511e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 15265.5,
+      "after": 16635.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 17331,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 547,
+      "uniqueReviewIdCount": 70,
+      "iteration": 7,
+      "declaredReviewTotal": 81,
+      "stateAfterDelay": {
+        "title": "Inselkrankenhaus Borkum - Google Maps",
+        "reviewNodeCount": 597,
+        "uniqueReviewIdCount": 80,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 16635.5,
+        "scrollHeight": 18701,
+        "clientHeight": 695,
+        "distanceToBottom": 1370.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.790978997945786e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 16635.5,
+      "after": 18005.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 18701,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 597,
+      "uniqueReviewIdCount": 80,
+      "iteration": 8,
+      "declaredReviewTotal": 81,
+      "stateAfterDelay": {
+        "title": "Inselkrankenhaus Borkum - Google Maps",
+        "reviewNodeCount": 602,
+        "uniqueReviewIdCount": 81,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 18005.5,
+        "scrollHeight": 18766,
+        "clientHeight": 695,
+        "distanceToBottom": 65.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.1708005331456661e-05,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 18005.5,
+      "after": 18070.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 18766,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 602,
+      "uniqueReviewIdCount": 81,
+      "iteration": 9,
+      "declaredReviewTotal": 81,
+      "stateAfterDelay": {
+        "title": "Inselkrankenhaus Borkum - Google Maps",
+        "reviewNodeCount": 602,
+        "uniqueReviewIdCount": 81,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 18070.5,
+        "scrollHeight": 18766,
+        "clientHeight": 695,
+        "distanceToBottom": 0.5
+      },
+      "declaredTotalSettle": {
+        "waitSeconds": 1.5,
+        "stateAfterSettle": {
+          "title": "Inselkrankenhaus Borkum - Google Maps",
+          "reviewNodeCount": 602,
+          "uniqueReviewIdCount": 81,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 18070.5,
+          "scrollHeight": 18766,
+          "clientHeight": 695,
+          "distanceToBottom": 0.5
+        }
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.673887042095885,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": true
+    }
+  ],
+  "scrollStopReason": "declared_total_reached_fast",
+  "exhausted": false,
+  "scrollSafetyTimeoutHit": false,
+  "growthEvents": [
+    {
+      "iteration": 1,
+      "uniqueReviewIdCount": 20,
+      "scrollHeight": 6179
+    },
+    {
+      "iteration": 2,
+      "uniqueReviewIdCount": 30,
+      "scrollHeight": 8905
+    },
+    {
+      "iteration": 3,
+      "uniqueReviewIdCount": 40,
+      "scrollHeight": 11316
+    },
+    {
+      "iteration": 4,
+      "uniqueReviewIdCount": 50,
+      "scrollHeight": 13496
+    },
+    {
+      "iteration": 5,
+      "uniqueReviewIdCount": 60,
+      "scrollHeight": 15961
+    },
+    {
+      "iteration": 6,
+      "uniqueReviewIdCount": 70,
+      "scrollHeight": 17331
+    },
+    {
+      "iteration": 7,
+      "uniqueReviewIdCount": 80,
+      "scrollHeight": 18701
+    },
+    {
+      "iteration": 8,
+      "uniqueReviewIdCount": 81,
+      "scrollHeight": 18766
+    }
+  ],
+  "networkEventsDuringScroll": 39,
+  "finalNetworkIdleSeconds": 6.67389491701033,
+  "noGrowthCycles": 0,
+  "finalReviewsState": {
+    "title": "Inselkrankenhaus Borkum - Google Maps",
+    "reviewNodeCount": 602,
+    "uniqueReviewIdCount": 81,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 18070.5,
+    "scrollHeight": 18766,
+    "clientHeight": 695,
+    "distanceToBottom": 0.5
+  },
+  "reachedDeclaredReviewTotal": true,
+  "reachedReviewPaneEnd": true,
+  "finalUniqueReviewIdCount": 81,
+  "finalScrollTop": 18070.5,
+  "finalScrollHeight": 18766,
+  "reviewExpansion": {
+    "buttonCount": 22,
+    "clickedCount": 22
+  },
+  "matchedRequestCount": 72,
+  "batchexecuteCount": 3,
+  "reviewPhaseXhrCount": 51,
+  "captureSuccessful": true,
+  "finishedAt": "2026-04-15T16:35:42Z",
+  "retryRunsRequested": 2,
+  "retryRunsExecuted": 1,
+  "retryAttempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/inselkrankenhaus-borkum-ggmbh",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 81,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 81
+    }
+  ],
+  "mergedReviewCountAcrossAttempts": 57,
+  "reviewsPath": "artifacts/inselkrankenhaus-borkum-ggmbh/reviews.json",
+  "latestDeclaredReviewTotalAcrossAttempts": 81
+}

@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/krankenhaus-buchholz-und-winsen-ggmbh-krankenhaus-winsen",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 421,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 421
+    }
+  ]
+}

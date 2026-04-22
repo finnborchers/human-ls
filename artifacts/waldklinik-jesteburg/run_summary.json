@@ -1,0 +1,598 @@
+{
+  "url": "https://www.google.com/maps/place/Waldklinik+Jesteburg+Aldag+GmbH+%26+Co.+KG/@53.3193625,9.9489471,17z/data=!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%2Fg%2F1tzly062?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "placeId": "waldklinik-jesteburg",
+  "startedAt": "2026-04-15T19:52:24Z",
+  "scrollDelayUsed": 1.5,
+  "browserVersion": "Chrome/147.0.7727.56",
+  "pageTargetId": "521EBBBE811884A2B2056C31E436AECA",
+  "selectedTargetId": "521EBBBE811884A2B2056C31E436AECA",
+  "selectedTargetUrl": "https://www.google.com/maps/place/Waldklinik+Jesteburg+Aldag+GmbH+%26+Co.+KG/@53.3193625,9.9489471,17z/data=!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%2Fg%2F1tzly062?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "targetSelectionStrategy": "exact_url_match",
+  "cookieConsent": {
+    "clicked": true,
+    "attempts": [
+      {
+        "clicked": true,
+        "action": "deny",
+        "label": "alle ablehnen alle ablehnen",
+        "strategy": "direct_selector",
+        "selector": "button[aria-label*=\"ablehnen\" i]",
+        "source": "document",
+        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Waldklinik%2BJesteburg%2BAldag%2BGmbH%2B%2526%2BCo.%2BKG/@53.3193625,9.9489471,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%252Fg%252F1tzly062?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Waldklinik%2BJesteburg%2BAldag%2BGmbH%2B%2526%2BCo.%2BKG/@53.3193625,9.9489471,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%252Fg%252F1tzly062?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "onConsentHost": true,
+        "attempt": 1
+      }
+    ],
+    "resolvedWith": {
+      "clicked": true,
+      "action": "deny",
+      "label": "alle ablehnen alle ablehnen",
+      "strategy": "direct_selector",
+      "selector": "button[aria-label*=\"ablehnen\" i]",
+      "source": "document",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Waldklinik%2BJesteburg%2BAldag%2BGmbH%2B%2526%2BCo.%2BKG/@53.3193625,9.9489471,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%252Fg%252F1tzly062?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Waldklinik%2BJesteburg%2BAldag%2BGmbH%2B%2526%2BCo.%2BKG/@53.3193625,9.9489471,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%252Fg%252F1tzly062?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "onConsentHost": true,
+      "attempt": 1
+    }
+  },
+  "reviewOpenAttempts": [
+    {
+      "rank": 1,
+      "candidate": {
+        "domIndex": 59,
+        "score": 215,
+        "reasons": [
+          "jsaction_more_reviews",
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "108 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle14.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 59,
+        "text": "108 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle14.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "reviewsPanelAfterClick": {
+        "reviewNodeCount": 124,
+        "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps"
+      }
+    }
+  ],
+  "reviewOpenCandidateCount": 25,
+  "reviewClick": {
+    "clicked": true,
+    "strategy": "candidate",
+    "label": "108 Berichte",
+    "domIndex": 59,
+    "candidateScore": 215,
+    "candidateReasons": [
+      "jsaction_more_reviews",
+      "count_label",
+      "review_keyword",
+      "button_like_control"
+    ],
+    "jsaction": "pane.wfvdle14.reviewchart.morereviews"
+  },
+  "reviewsPanel": {
+    "reviewNodeCount": 124,
+    "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps"
+  },
+  "initialReviewsState": {
+    "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
+    "reviewNodeCount": 124,
+    "uniqueReviewIdCount": 10,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 0,
+    "scrollHeight": 6001,
+    "clientHeight": 694,
+    "distanceToBottom": 5307
+  },
+  "declaredReviewTotalInfo": {
+    "found": true,
+    "declaredReviewTotal": 108,
+    "sourceKind": "rating-histogram",
+    "histogramByStar": {
+      "1": 17,
+      "2": 6,
+      "3": 4,
+      "4": 9,
+      "5": 72
+    },
+    "histogramStarCount": 5
+  },
+  "declaredReviewTotal": 108,
+  "declaredTotalSettleSeconds": 1.5,
+  "declaredTotalFastStopUsed": true,
+  "declaredTotalFinalCheck": {
+    "iteration": 11,
+    "before": {
+      "uniqueReviewIdCount": 108,
+      "scrollHeight": 36379,
+      "distanceToBottom": 0.5
+    },
+    "after": {
+      "uniqueReviewIdCount": 108,
+      "scrollHeight": 36379,
+      "distanceToBottom": 0.5
+    },
+    "settleSeconds": 1.5,
+    "grewDuringSettle": false,
+    "atBottomAfterSettle": true,
+    "declaredTotalReachedAfterSettle": true
+  },
+  "fallbackStableRoundsRequired": 5,
+  "scrollResults": [
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 0,
+      "after": 5306.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 6001,
+      "clientHeight": 694,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 124,
+      "uniqueReviewIdCount": 10,
+      "iteration": 1,
+      "declaredReviewTotal": 108,
+      "stateAfterDelay": {
+        "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
+        "reviewNodeCount": 233,
+        "uniqueReviewIdCount": 20,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 5306.5,
+        "scrollHeight": 10557,
+        "clientHeight": 695,
+        "distanceToBottom": 4555.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 9.249895811080933e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 5306.5,
+      "after": 9861.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 10557,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 233,
+      "uniqueReviewIdCount": 20,
+      "iteration": 2,
+      "declaredReviewTotal": 108,
+      "stateAfterDelay": {
+        "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
+        "reviewNodeCount": 340,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 9861.5,
+        "scrollHeight": 14660,
+        "clientHeight": 695,
+        "distanceToBottom": 4103.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 9.958050213754177e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 9861.5,
+      "after": 13964.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 14660,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 340,
+      "uniqueReviewIdCount": 30,
+      "iteration": 3,
+      "declaredReviewTotal": 108,
+      "stateAfterDelay": {
+        "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
+        "reviewNodeCount": 440,
+        "uniqueReviewIdCount": 40,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 13964.5,
+        "scrollHeight": 18191,
+        "clientHeight": 695,
+        "distanceToBottom": 3531.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 9.750016033649445e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 13964.5,
+      "after": 17495.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 18191,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 440,
+      "uniqueReviewIdCount": 40,
+      "iteration": 4,
+      "declaredReviewTotal": 108,
+      "stateAfterDelay": {
+        "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
+        "reviewNodeCount": 534,
+        "uniqueReviewIdCount": 50,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 17495.5,
+        "scrollHeight": 21932,
+        "clientHeight": 695,
+        "distanceToBottom": 3741.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 8.707982487976551e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 17495.5,
+      "after": 21236.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 21932,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 534,
+      "uniqueReviewIdCount": 50,
+      "iteration": 5,
+      "declaredReviewTotal": 108,
+      "stateAfterDelay": {
+        "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
+        "reviewNodeCount": 632,
+        "uniqueReviewIdCount": 60,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 21236.5,
+        "scrollHeight": 25519,
+        "clientHeight": 695,
+        "distanceToBottom": 3587.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 9.833020158112049e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 21236.5,
+      "after": 24823.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 25519,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 632,
+      "uniqueReviewIdCount": 60,
+      "iteration": 6,
+      "declaredReviewTotal": 108,
+      "stateAfterDelay": {
+        "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
+        "reviewNodeCount": 719,
+        "uniqueReviewIdCount": 70,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 24823.5,
+        "scrollHeight": 28416,
+        "clientHeight": 695,
+        "distanceToBottom": 2897.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 8.167000487446785e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 24823.5,
+      "after": 27720.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 28416,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 719,
+      "uniqueReviewIdCount": 70,
+      "iteration": 7,
+      "declaredReviewTotal": 108,
+      "stateAfterDelay": {
+        "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
+        "reviewNodeCount": 803,
+        "uniqueReviewIdCount": 80,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 27720.5,
+        "scrollHeight": 30887,
+        "clientHeight": 695,
+        "distanceToBottom": 2471.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.1499971151351929e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 27720.5,
+      "after": 30191.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 30887,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 803,
+      "uniqueReviewIdCount": 80,
+      "iteration": 8,
+      "declaredReviewTotal": 108,
+      "stateAfterDelay": {
+        "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
+        "reviewNodeCount": 883,
+        "uniqueReviewIdCount": 90,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 30191.5,
+        "scrollHeight": 33889,
+        "clientHeight": 695,
+        "distanceToBottom": 3002.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.2542004697024822e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 30191.5,
+      "after": 33193.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 33889,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 883,
+      "uniqueReviewIdCount": 90,
+      "iteration": 9,
+      "declaredReviewTotal": 108,
+      "stateAfterDelay": {
+        "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
+        "reviewNodeCount": 934,
+        "uniqueReviewIdCount": 100,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 33193.5,
+        "scrollHeight": 35355,
+        "clientHeight": 695,
+        "distanceToBottom": 1466.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 9.458046406507492e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 33193.5,
+      "after": 34659.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 35355,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 934,
+      "uniqueReviewIdCount": 100,
+      "iteration": 10,
+      "declaredReviewTotal": 108,
+      "stateAfterDelay": {
+        "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
+        "reviewNodeCount": 974,
+        "uniqueReviewIdCount": 108,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 34659.5,
+        "scrollHeight": 36379,
+        "clientHeight": 695,
+        "distanceToBottom": 1024.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.2584030628204346e-05,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 34659.5,
+      "after": 35683.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 36379,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 974,
+      "uniqueReviewIdCount": 108,
+      "iteration": 11,
+      "declaredReviewTotal": 108,
+      "stateAfterDelay": {
+        "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
+        "reviewNodeCount": 974,
+        "uniqueReviewIdCount": 108,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 35683.5,
+        "scrollHeight": 36379,
+        "clientHeight": 695,
+        "distanceToBottom": 0.5
+      },
+      "declaredTotalSettle": {
+        "waitSeconds": 1.5,
+        "stateAfterSettle": {
+          "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
+          "reviewNodeCount": 974,
+          "uniqueReviewIdCount": 108,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 35683.5,
+          "scrollHeight": 36379,
+          "clientHeight": 695,
+          "distanceToBottom": 0.5
+        }
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.569139792001806,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": true
+    }
+  ],
+  "scrollStopReason": "declared_total_reached_fast",
+  "exhausted": false,
+  "scrollSafetyTimeoutHit": false,
+  "growthEvents": [
+    {
+      "iteration": 1,
+      "uniqueReviewIdCount": 20,
+      "scrollHeight": 10557
+    },
+    {
+      "iteration": 2,
+      "uniqueReviewIdCount": 30,
+      "scrollHeight": 14660
+    },
+    {
+      "iteration": 3,
+      "uniqueReviewIdCount": 40,
+      "scrollHeight": 18191
+    },
+    {
+      "iteration": 4,
+      "uniqueReviewIdCount": 50,
+      "scrollHeight": 21932
+    },
+    {
+      "iteration": 5,
+      "uniqueReviewIdCount": 60,
+      "scrollHeight": 25519
+    },
+    {
+      "iteration": 6,
+      "uniqueReviewIdCount": 70,
+      "scrollHeight": 28416
+    },
+    {
+      "iteration": 7,
+      "uniqueReviewIdCount": 80,
+      "scrollHeight": 30887
+    },
+    {
+      "iteration": 8,
+      "uniqueReviewIdCount": 90,
+      "scrollHeight": 33889
+    },
+    {
+      "iteration": 9,
+      "uniqueReviewIdCount": 100,
+      "scrollHeight": 35355
+    },
+    {
+      "iteration": 10,
+      "uniqueReviewIdCount": 108,
+      "scrollHeight": 36379
+    }
+  ],
+  "networkEventsDuringScroll": 56,
+  "finalNetworkIdleSeconds": 6.569148459006101,
+  "noGrowthCycles": 0,
+  "finalReviewsState": {
+    "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
+    "reviewNodeCount": 974,
+    "uniqueReviewIdCount": 108,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 35683.5,
+    "scrollHeight": 36379,
+    "clientHeight": 695,
+    "distanceToBottom": 0.5
+  },
+  "reachedDeclaredReviewTotal": true,
+  "reachedReviewPaneEnd": true,
+  "finalUniqueReviewIdCount": 108,
+  "finalScrollTop": 35683.5,
+  "finalScrollHeight": 36379,
+  "reviewExpansion": {
+    "buttonCount": 96,
+    "clickedCount": 96
+  },
+  "matchedRequestCount": 89,
+  "batchexecuteCount": 2,
+  "reviewPhaseXhrCount": 75,
+  "captureSuccessful": true,
+  "finishedAt": "2026-04-15T19:53:29Z",
+  "retryRunsRequested": 2,
+  "retryRunsExecuted": 1,
+  "retryAttempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/waldklinik-jesteburg",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 108,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 108
+    }
+  ],
+  "mergedReviewCountAcrossAttempts": 86,
+  "reviewsPath": "artifacts/waldklinik-jesteburg/reviews.json",
+  "latestDeclaredReviewTotalAcrossAttempts": 108
+}

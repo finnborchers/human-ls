@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/helios-st-marienberg-klinik-helmstedt",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 282,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 282
+    }
+  ]
+}

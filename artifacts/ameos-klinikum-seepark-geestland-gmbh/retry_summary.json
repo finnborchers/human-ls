@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/ameos-klinikum-seepark-geestland-gmbh",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 143,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 143
+    }
+  ]
+}

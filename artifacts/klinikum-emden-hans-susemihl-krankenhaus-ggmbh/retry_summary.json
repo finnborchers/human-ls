@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/klinikum-emden-hans-susemihl-krankenhaus-ggmbh",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 501,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 501
+    }
+  ]
+}

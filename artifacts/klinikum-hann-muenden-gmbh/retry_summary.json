@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/klinikum-hann-muenden-gmbh",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 152,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 152
+    }
+  ]
+}

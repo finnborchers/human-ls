@@ -1,0 +1,658 @@
+{
+  "url": "https://www.google.com/maps/place/AMEOS+Klinikum+Hildesheim/@52.1455703,9.9793482,17z/data=!4m10!1m2!2m1!1sAMEOS+Klinikum+Hildesheim!3m6!1s0x47baae5e7f42287b:0x55006a792a9059eb!8m2!3d52.1455703!4d9.9841118!15sChlBTUVPUyBLbGluaWt1bSBIaWxkZXNoZWltIgOIAQGSARRtZW50YWxfaGVhbHRoX2NsaW5pY-ABAA!16s%2Fg%2F11bzrpygk3?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "placeId": "ameos-klinikum-hildesheim",
+  "startedAt": "2026-04-15T14:28:35Z",
+  "scrollDelayUsed": 1.5,
+  "browserVersion": "Chrome/147.0.7727.56",
+  "pageTargetId": "F28005F65294394665A0C75CD6A1BF5A",
+  "selectedTargetId": "F28005F65294394665A0C75CD6A1BF5A",
+  "selectedTargetUrl": "https://www.google.com/maps/place/AMEOS+Klinikum+Hildesheim/@52.1455703,9.9793482,17z/data=!4m10!1m2!2m1!1sAMEOS+Klinikum+Hildesheim!3m6!1s0x47baae5e7f42287b:0x55006a792a9059eb!8m2!3d52.1455703!4d9.9841118!15sChlBTUVPUyBLbGluaWt1bSBIaWxkZXNoZWltIgOIAQGSARRtZW50YWxfaGVhbHRoX2NsaW5pY-ABAA!16s%2Fg%2F11bzrpygk3?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "targetSelectionStrategy": "exact_url_match",
+  "cookieConsent": {
+    "clicked": true,
+    "attempts": [
+      {
+        "clicked": true,
+        "action": "deny",
+        "label": "alle ablehnen alle ablehnen",
+        "strategy": "direct_selector",
+        "selector": "button[aria-label*=\"ablehnen\" i]",
+        "source": "document",
+        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/AMEOS%2BKlinikum%2BHildesheim/@52.1455703,9.9793482,17z/data%3D!4m10!1m2!2m1!1sAMEOS%2BKlinikum%2BHildesheim!3m6!1s0x47baae5e7f42287b:0x55006a792a9059eb!8m2!3d52.1455703!4d9.9841118!15sChlBTUVPUyBLbGluaWt1bSBIaWxkZXNoZWltIgOIAQGSARRtZW50YWxfaGVhbHRoX2NsaW5pY-ABAA!16s%252Fg%252F11bzrpygk3?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/AMEOS%2BKlinikum%2BHildesheim/@52.1455703,9.9793482,17z/data%3D!4m10!1m2!2m1!1sAMEOS%2BKlinikum%2BHildesheim!3m6!1s0x47baae5e7f42287b:0x55006a792a9059eb!8m2!3d52.1455703!4d9.9841118!15sChlBTUVPUyBLbGluaWt1bSBIaWxkZXNoZWltIgOIAQGSARRtZW50YWxfaGVhbHRoX2NsaW5pY-ABAA!16s%252Fg%252F11bzrpygk3?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "onConsentHost": true,
+        "attempt": 1
+      }
+    ],
+    "resolvedWith": {
+      "clicked": true,
+      "action": "deny",
+      "label": "alle ablehnen alle ablehnen",
+      "strategy": "direct_selector",
+      "selector": "button[aria-label*=\"ablehnen\" i]",
+      "source": "document",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/AMEOS%2BKlinikum%2BHildesheim/@52.1455703,9.9793482,17z/data%3D!4m10!1m2!2m1!1sAMEOS%2BKlinikum%2BHildesheim!3m6!1s0x47baae5e7f42287b:0x55006a792a9059eb!8m2!3d52.1455703!4d9.9841118!15sChlBTUVPUyBLbGluaWt1bSBIaWxkZXNoZWltIgOIAQGSARRtZW50YWxfaGVhbHRoX2NsaW5pY-ABAA!16s%252Fg%252F11bzrpygk3?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/AMEOS%2BKlinikum%2BHildesheim/@52.1455703,9.9793482,17z/data%3D!4m10!1m2!2m1!1sAMEOS%2BKlinikum%2BHildesheim!3m6!1s0x47baae5e7f42287b:0x55006a792a9059eb!8m2!3d52.1455703!4d9.9841118!15sChlBTUVPUyBLbGluaWt1bSBIaWxkZXNoZWltIgOIAQGSARRtZW50YWxfaGVhbHRoX2NsaW5pY-ABAA!16s%252Fg%252F11bzrpygk3?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+      "onConsentHost": true,
+      "attempt": 1
+    }
+  },
+  "reviewOpenAttempts": [
+    {
+      "rank": 1,
+      "candidate": {
+        "domIndex": 71,
+        "score": 215,
+        "reasons": [
+          "jsaction_more_reviews",
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "107 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle40.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 71,
+        "text": "107 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle40.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 2,
+      "candidate": {
+        "domIndex": 85,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "gespräch 7",
+        "ariaLabel": "gespräch, in 7 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle75; keydown:pane.wfvdle75; mouseover:pane.wfvdle75; mouseout:pane.wfvdle75;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 85,
+        "text": "Deutschland",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "fineprint.country",
+        "className": "ZiKfbc tUdUte Hk4XGb ZqLNQd"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 3,
+      "candidate": {
+        "domIndex": 86,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "behandlung 7",
+        "ariaLabel": "behandlung, in 7 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle76; keydown:pane.wfvdle76; mouseover:pane.wfvdle76; mouseout:pane.wfvdle76;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 86
+      }
+    },
+    {
+      "rank": 4,
+      "candidate": {
+        "domIndex": 87,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "krankenhaus 6",
+        "ariaLabel": "krankenhaus, in 6 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle77; keydown:pane.wfvdle77; mouseover:pane.wfvdle77; mouseout:pane.wfvdle77;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 87
+      }
+    },
+    {
+      "rank": 5,
+      "candidate": {
+        "domIndex": 88,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "angehörigen 5",
+        "ariaLabel": "angehörigen, in 5 Rezensionen erwähnt",
+        "title": "",
+        "jsaction": "pane.wfvdle78; keydown:pane.wfvdle78; mouseover:pane.wfvdle78; mouseout:pane.wfvdle78;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 88
+      }
+    },
+    {
+      "rank": 6,
+      "candidate": {
+        "domIndex": 97,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Leah Stock 2 Rezensionen",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle86.review.reviewerlink",
+        "className": "al6Kxe"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 97
+      }
+    },
+    {
+      "rank": 7,
+      "candidate": {
+        "domIndex": 103,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Kim Märtyrerin Local Guide · 745 Rezensionen",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle87.review.reviewerlink",
+        "className": "al6Kxe"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 103
+      }
+    },
+    {
+      "rank": 8,
+      "candidate": {
+        "domIndex": 109,
+        "score": 95,
+        "reasons": [
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Eywanlya Local Guide · 24 Rezensionen · 3 Fotos",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle88.review.reviewerlink",
+        "className": "al6Kxe"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 109
+      }
+    },
+    {
+      "rank": 9,
+      "candidate": {
+        "domIndex": 84,
+        "score": 80,
+        "reasons": [
+          "explicit_all_reviews",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Alle",
+        "ariaLabel": "Alle Rezensionen",
+        "title": "",
+        "jsaction": "pane.wfvdle74; keydown:pane.wfvdle74; mouseover:pane.wfvdle74; mouseout:pane.wfvdle74;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 84
+      }
+    },
+    {
+      "rank": 10,
+      "candidate": {
+        "domIndex": 36,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Rezensionen",
+        "ariaLabel": "Rezensionen zu „AMEOS Klinikum Hildesheim“",
+        "title": "",
+        "jsaction": "pane.wfvdle31tabs.tabclick; mousedown:pane.wfvdle31tabs.dragtabs; focus:pane.wfvdle31tabs.focus",
+        "className": "hh2c6"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 36
+      }
+    },
+    {
+      "rank": 11,
+      "candidate": {
+        "domIndex": 81,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "In Rezensionen suchen",
+        "title": "",
+        "jsaction": "pane.wfvdle72;keydown:pane.wfvdle72;mouseover:pane.wfvdle72;mouseout:pane.wfvdle72;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "S9kvJb"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 81
+      }
+    },
+    {
+      "rank": 12,
+      "candidate": {
+        "domIndex": 83,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Sortieren",
+        "ariaLabel": "Rezensionen sortieren",
+        "title": "",
+        "jsaction": "pane.wfvdle73;keydown:pane.wfvdle73;mouseover:pane.wfvdle73;mouseout:pane.wfvdle73",
+        "className": "S9kvJb"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 83
+      }
+    },
+    {
+      "rank": 13,
+      "candidate": {
+        "domIndex": 114,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Weitere Rezensionen (104)",
+        "ariaLabel": "Weitere Rezensionen (104)",
+        "title": "",
+        "jsaction": "pane.wfvdle89",
+        "className": "M77dve"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 114
+      }
+    },
+    {
+      "rank": 14,
+      "candidate": {
+        "domIndex": 3,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "Suchen",
+        "title": "",
+        "jsaction": "omnibox.search; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip",
+        "className": "mL3xi"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 3,
+        "text": "Jugendschutzeinstellungen in Family Link",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "",
+        "className": "pkgtHd"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 15,
+      "candidate": {
+        "domIndex": 4,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "Schließen",
+        "title": "",
+        "jsaction": "omnibox.clear; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; focus:omnibox.hidesuggestions; blur:omnibox.hidetooltip",
+        "className": "yAuNSb vF7Cdb"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "not_visible",
+        "index": 4,
+        "text": "Family Link",
+        "ariaLabel": "",
+        "jsaction": ""
+      }
+    },
+    {
+      "rank": 16,
+      "candidate": {
+        "domIndex": 6,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Öffnungszeiten ",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle103; keydown:pane.wfvdle103; mouseover:pane.wfvdle103; mouseout:pane.wfvdle103",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 6,
+        "text": "Family Link",
+        "ariaLabel": "Google",
+        "title": "Google",
+        "jsaction": "",
+        "className": "glue-header__logo-link"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 17,
+      "candidate": {
+        "domIndex": 7,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Alle Filter",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle104; keydown:pane.wfvdle104; mouseover:pane.wfvdle104; mouseout:pane.wfvdle104",
+        "className": "e2moi"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 7,
+        "text": "Übersicht",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "",
+        "className": "glue-header__link"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 18,
+      "candidate": {
+        "domIndex": 9,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "Menü",
+        "title": "",
+        "jsaction": "navigationrail.more",
+        "className": "wR3cXd"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 9,
+        "text": "FAQ",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "",
+        "className": "glue-header__link"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 19,
+      "candidate": {
+        "domIndex": 10,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Gespeichert",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "navigationrail.saved",
+        "className": "wR3cXd fontLabelMedium"
+      },
+      "clickResult": {
+        "clicked": true,
+        "index": 10,
+        "text": "Anmelden",
+        "ariaLabel": "Bei Family Link registrieren",
+        "title": "",
+        "jsaction": "",
+        "className": "glue-button glue-button--high-emphasis glue-button--icon"
+      },
+      "reviewsPanelAfterClick": false
+    },
+    {
+      "rank": 20,
+      "candidate": {
+        "domIndex": 11,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Zuletzt verwendet",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "navigationrail.recent",
+        "className": "wR3cXd fontLabelMedium"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 11
+      }
+    },
+    {
+      "rank": 21,
+      "candidate": {
+        "domIndex": 12,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "AMEOS Klinikum Hildesheim",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "click:navigationrail.bundle; mouseover:navigationrail.bundle; mouseout:navigationrail.bundle",
+        "className": "atHn2d wR3cXd aJPqP fontBodySmall QyI6Nb"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 12
+      }
+    },
+    {
+      "rank": 22,
+      "candidate": {
+        "domIndex": 13,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " App herunterladen",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "navigationrail.mobileapp",
+        "className": "wR3cXd Ijds6e fontLabelMedium"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 13
+      }
+    },
+    {
+      "rank": 23,
+      "candidate": {
+        "domIndex": 17,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Teilen",
+        "ariaLabel": "Teilen",
+        "title": "",
+        "jsaction": "pane.wfvdle9",
+        "className": "M77dve"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 17
+      }
+    },
+    {
+      "rank": 24,
+      "candidate": {
+        "domIndex": 20,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Routen­planer",
+        "ariaLabel": "Route zum Ziel \"AMEOS Klinikum Hildesheim\" berechnen",
+        "title": "",
+        "jsaction": "pane.wfvdle14;keydown:pane.wfvdle14;mouseover:pane.wfvdle14;mouseout:pane.wfvdle14",
+        "className": "S9kvJb"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 20
+      }
+    },
+    {
+      "rank": 25,
+      "candidate": {
+        "domIndex": 24,
+        "score": 10,
+        "reasons": [
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Routen­planer",
+        "ariaLabel": "Route zum Ziel \"AMEOS Klinikum Hildesheim: Kinder- und Jugendpsychiatrie und Psychotherapie\" berechnen",
+        "title": "",
+        "jsaction": "pane.wfvdle18;keydown:pane.wfvdle18;mouseover:pane.wfvdle18;mouseout:pane.wfvdle18",
+        "className": "S9kvJb"
+      },
+      "clickResult": {
+        "clicked": false,
+        "reason": "index_out_of_range",
+        "index": 24
+      }
+    }
+  ],
+  "reviewOpenCandidateCount": 25,
+  "reviewClick": {
+    "clicked": false,
+    "reason": "reviews_panel_not_opened"
+  },
+  "reviewsPanel": false,
+  "failureReason": "reviews_panel_not_opened",
+  "scrollStopReason": "reviews_panel_not_opened",
+  "captureSuccessful": false,
+  "finishedAt": "2026-04-15T14:29:56Z",
+  "reviewPhaseXhrCount": 5,
+  "matchedRequestCount": 0,
+  "batchexecuteCount": 0,
+  "retryRunsRequested": 2,
+  "retryRunsExecuted": 1,
+  "retryAttempts": [
+    {
+      "attempt": 1,
+      "outputDir": "artifacts/ameos-klinikum-hildesheim",
+      "scrollDelayUsed": 1.5,
+      "captureSuccessful": false,
+      "failureReason": "reviews_panel_not_opened",
+      "finalUniqueReviewIdCount": 0,
+      "scrollStopReason": "reviews_panel_not_opened",
+      "declaredReviewTotal": null
+    }
+  ],
+  "mergedReviewCountAcrossAttempts": 0,
+  "reviewsPath": null,
+  "latestDeclaredReviewTotalAcrossAttempts": null
+}
