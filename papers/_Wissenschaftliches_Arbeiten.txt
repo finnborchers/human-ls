@@ -1,0 +1,68 @@
+Leibniz Universität Hannover
+Wirtschaftswissenschaftliche Fakultät
+Institut für Wirtschaftsinformatik
+
+Wissenschaftliches Arbeiten für Studierende
+
+Die folgenden „Hinweise zum Schreiben von Seminar-, Haus- und Abschlussarbeiten" enthalten Empfehlungen und Richtlinien, die Studierende bei der Anfertigung einer Seminar-, Haus- sowie Abschlussarbeit (Bachelor- und Masterarbeit) am Institut für Wirtschaftsinformatik der Leibniz Universität Hannover unterstützen.
+
+Im Zweifelsfall sind die Bestimmungen der jeweils gültigen Prüfungsordnung maßgebend (Studiendekanat). Die über die dortigen Regelungen hinausgehenden Empfehlungen sind keine zwingenden Vorschriften, sondern können mögliche Fragen zur Gestaltung und zum inhaltlichen Aufbau beantworten und damit zu einem guten oder sehr guten Gelingen der Seminar-, Haus- oder Abschlussarbeit beitragen.
+
+Die Entscheidung über das Thema gehört zu den wichtigsten Entscheidungen im Rahmen des Seminars, der Haus- bzw. der Abschlussarbeit. Die finale Themenformulierung, die offizielle Vergabe und die finale Bewertung der Seminar-, Haus- und Abschlussarbeiten erfolgt durch Herrn Prof. Breitner. Die Betreuung erfolgt durch Herrn Prof. Breitner oder durch von ihm benannte verantwortliche MitarbeiterInnen des Instituts für Wirtschaftsinformatik
+
+Bitte beachten Sie die Anmeldefristen des Studiendekanats!
+Hinweise zum Schreiben von Seminar-, Haus- und Abschlussarbeiten
+
+Formelle Anforderungen und Formatierungen
+Grundsätzlich soll im Vorfeld der Erstellung der Arbeit ein Treffen mit dem/der jeweiligen Betreuer/in zur Konkretisierung des Themas sowie zur Absprache der Vorgehensweise angestrebt werden. Seminar-, Haus- und Abschlussarbeiten am Institut für Wirtschaftsinformatik können nach Absprache jederzeit begonnen werden!
+
+Der empfohlene Umfang (Richtwert) beträgt:
+
+Seminar- und Hausarbeiten 20-30 Seiten pro Person inkl. Anhänge
+Bachelorarbeit 40-60 Seiten (WiWi) bzw. 60-90 (WiIng) pro Person inkl. Anhänge
+Masterarbeit 100-150 Seiten pro Person inkl. Research Summary (ca. 10-15 Seiten) und Anhänge
+
+
+Der empfohlene Umfang kann bei sehr vielen Grafiken/Tabellen, Anhängen oder großen Fonts und Zeilenabständen deutlich überschritten werden.
+
+Die Arbeit sollte im A4 Format einseitig erstellt werden.
+Bitte verwenden Sie die Schriftgröße 11 - 12 pt mit einer üblichen Schriftarten (Arial, Times New Roman etc.) und Seitenrändern von 2,5 cm rundum.
+Der Zeilenabstand soll 1,1 - 1,3 betragen.
+Sinnvolles, einheitliches und durchdachtes Layout nach individuellen Vorstellungen:
+Kopf- und Fußzeile
+Seitennummerierungen
+Inhalts-, Abkürzungs-, Abbildungs- und Tabellenverzeichnis
+formales Deckblatt und ehrenwörtliche Erklärung bei Abschlussarbeiten (siehe Studiendekanat).
+Sinnvolle Nutzung von Abbildungen und Tabellen, diese sollen grafisch professionell aufgearbeitet und visuell ansprechend sein, zudem ist eine inhaltliche Einbettung und Referenzierung im Text unabdingbar.
+Die Anzahl der Gliederungspunkte sowie die Gliederungstiefe sollen dem Umfang der Arbeit angemessen sein.
+In Bachelor- und Masterarbeiten wird erwartet, dass wissenschaftliche Methoden, Theorien und Modelle verwendet werden.
+Auf einer CD/Stick sind alle elektronischen Quellen und die schriftliche Arbeit als .doc/.docx oder pdf einzureichen.
+Aufbau der Arbeit ("Roter Faden")
+Titelblatt, Inhaltsverzeichnis, Abbildungs- und Tabellenverzeichnis, Verzeichnis benutzter Abkürzungen
+Kurzer und prägnanter Abstrakt mit 5-8 Schlagwörtern, für Masterarbeiten eine prägnante Zusammenfassung der Kerninhalte der Arbeit in einer 10-15 seitigen Research Summary (inkl. Gliederung)
+Einleitung: Motivation des Themas und praktische/theoretische Relevanz
+Grundlagen/Status quo/strukturierte Literaturauswertung: Vorstellung und Diskussion von Theorien, Modellen, Daten und Fakten
+Herleitung der Forschungslücke und 1-3 Forschungsfragen mit „WARUM“ und „WIE“ (weniger Forschungsfragen sind hier mehr, eine fokussierte Betrachtung mit nur einer Forschungsfrage ist empfehlenswert)
+Präsentation der gewählten Forschungsmethodologie, der Forschungsmethode(n) und Werkzeuge (fundierte, strukturierte, verständliche und nachvollziehbare Methodik soll verwendet werden)
+Hauptteil: Ergebnisse und kritische Diskussion des „WARUM“ und „WIE“ und ihrer eigenen Meinung und Ideen
+Limitationen
+Wissenschaftlicher und praktischer Beitrag, Handlungsempfehlungen und Strategien
+Zusammenfassung (nur Wiederholung von Highlights der Arbeit) und Ausblick (kann Überschneidungen zu Limitationen enthalten, da weiterführende Forschungsansätze empfohlen werden sollen)
+Referenzen
+Ggf. Anhänge (relevante weitere Grafiken, Tabellen, Kodierungen, Ergebnisse etc.)
+Ehrenwörtliche Erklärung bei Abschlussarbeiten
+Literaturrecherche und Zitierweise
+Für die Literaturrecherche empfehlen wir u.a. folgende sinnvolle Datenbanken: TIB Online Contents, AiSeL, IEEE Xplore, KIT, JSTOR, ScienceDirect, ACM, EBSCOhost Business Source Premier, SpringerLink. Anschließend wird die Literaturbasis erweitert mit Google Scholar, d.h. durch Vorwärts-, Rückwärts-, Autoren- und Ähnlichkeitssuche. In Google Scholar viel zitierte Artikel sind gut sichtbar und meist qualitativ mindestens gut.
+Die Literaturverwaltungssoftware der LUH Citavi kann bei große Anzahl der Quellen verwendet werden. Besonders hilfreich ist Citavi bei expliziten Literaturarbeiten und für die Masterarbeit. Für eine rigorose wissenschaftliche Auseinandersetzung mit dem Fachthema ist die Verwendung aktueller, hochkarätiger wissenschaftlicher Literatur empfehlenswert. Die hierfür relevanten Rankings finden Sie hier:
+VHB JourQual 3
+WI-Orientierungsliste
+Zitation: Bitte achten Sie auf eine durchgängig konsistente, korrekte und klare Zitierweise. Ein Verstoß gegen die Rechte des geistigen Eigentums (Plagiat) kann zum Nichtbestehen der schriftlichen Arbeit führen und ist sehr einfach softwarebasiert nachzuweisen. Daher ist es generell gut, viele Literaturzitate in der Arbeit anzubringen. Zitieren können Sie bspw.
+nach Harvard oder
+mit Fußnoten
+Abbildungen und Tabellen, die unverändert oder modifiziert aus Veröffentlichungen übernommen werden, sind mit Angabe der Literaturquelle zu versehen. Bei Modifikation einer Abbildung oder Tabelle kann ein Literaturverweis mit "In Anlehnung an ..." eingeleitet werden.
+Relevante ergänzende Anmerkungen, die nicht sinnvoll im Haupttext platziert werden können, sollen als Fußnote eingefügt werden.
+Empfehlungen für eine strukturierte Literaturanalyse:
+Vom Brocke et al. (2015) Standing on the Shoulders of Giants: Challenges and Recommendations of Literature Search in Information Systems Research
+Webster and Watson (2020) Analysing the past to prepare for the future: Writing a literature review a roadmap for release 2.0
+Webster and Watson (2002) Writing A Literature Review
+Templier and Paré (2015) A Framework for Guiding and Evaluating Literature Reviews

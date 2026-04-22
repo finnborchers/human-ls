@@ -1,0 +1,11 @@
+Medizinische Hochschule Hannover (MHH), Leibniz Universität Hannover (LUH)
+HUMAN-LS
+Schwerpunktthemen: Forschung, Gesundheitssystem
+
+Deutschland verfügt über ein umfassendes Gesundheitssystem, das allen Menschen zur Verfügung steht. Doch nicht alle haben den gleichen Zugang zu den verfügbaren Leistungen oder können diese aus verschiedenen Gründen nicht in Anspruch nehmen.
+
+Im Projekt HUMAN-LS (Health Equality, Migration and Diversity: Data Driven Assessment of Disparities, Digitization and Diversity in Prevention, Medical Care and Nursing Care in Lower Saxony) wird untersucht, welche Hürden Menschen mit Migrationshintergrund beim Zugang zu Gesundheitsleistungen in Niedersachsen erleben – etwa in den Bereichen Frauengesundheit, psychische Gesundheit und Pflege. Mithilfe von Gesundheitsdaten und künstlicher Intelligenz werden Unterschiede beim Zugang und bei der Nutzung von medizinischen Leistungen analysiert. Zudem sollen Verbände, Verwaltung und Selbsthilfeorganisationen aktiv eingebunden werden, um so ein hohes Maß an gesellschaftlicher Teilhabe zu gewährleisten.
+
+Mit dem Projekt soll ein umfassender Überblick über Umfang und Gründe für Versorgungslücken entstehen und Lösungsangebote für deren Überwindung entwickelt werden. Ziel ist es, Gesundheitsleistungen für Menschen mit Migrationshintergrund zu verbessern.
+
+Das Land Niedersachsen und die VolkswagenStiftung fördern das Projekt.
