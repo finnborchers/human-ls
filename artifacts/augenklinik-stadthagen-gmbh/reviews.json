@@ -1,290 +1,482 @@
 [
   {
     "reviewer_name": "Loai Jafar",
-    "review_text": "Ich möchte dem gesamten Operationsteam meinen aufrichtigen Dank aussprechen, alle waren außerordentlich freundlich, herzlich und sehr aufmerksam, ihr professionelles und zugleich menschliches Auftreten hat mir von Anfang an ein Gefühl von Sicherheit und Vertrauen gegeben, besonders die wunderbaren Krankenschwestern waren äußerst fürsorglich, respektvoll und hilfsbereit und haben sich mit großer Geduld und Freundlichkeit um mich gekümmert, das Krankenhaus ist ein sehr gepflegter und respektvoller Ort mit einem hohen medizinischen Standard und einem engagierten Team, ich habe dort eine Operation durchführen lassen und meine Erfahrung war sehr positiv und erfolgreich, ich habe mich jederzeit gut betreut und ernst genommen gefühlt, dieses Krankenhaus kann ich aus voller Überzeugung weiterempfehlen Viele Grüße Loai Saleh",
+    "review_text": "Ich möchte dem gesamten Operationsteam meinen aufrichtigen Dank aussprechen, alle waren außerordentlich freundlich, herzlich und sehr aufmerksam, ihr professionelles und zugleich menschliches Auftreten hat mir von Anfang an ein Gefühl von …",
     "star_rating": 5,
-    "review_time": "vor einem Monat"
+    "review_time": "vor 2 Monaten",
+    "like_count": 0,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Sabine Wicklein",
     "review_text": "Ich habe meine Mutter (86 Jahre alt) begleitet. Ärzte und Schwestern waren sehr nett und geduldig mit Erklärungen, dass besonders bei älteren Patienten wichtig ist. Denn auch sie sollten verstehen was in einer OP passiert. Vielen Dank an das tolle Team.👏👍 …",
     "star_rating": 5,
-    "review_time": "vor 8 Monaten"
+    "review_time": "vor 9 Monaten",
+    "like_count": 0,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Roland Baciulis",
-    "review_text": "Ich möchte mich bei dem OP Team vom 1.8. und 1.9. ganz herzlich bedanken. Alle Ärzte und alle Schwestern waren kompetent, hilfsbereit und nett. Zudem erhielt ich ein herausragendes OP Ergebnis. Besser geht nicht und somit absolut empfehlenswert... Liebe Grüße aus Bad Nenndorf.",
+    "review_text": "Ich möchte mich bei dem OP Team vom 1.8. und 1.9. ganz herzlich bedanken. Alle Ärzte und alle Schwestern waren kompetent, hilfsbereit und nett. Zudem erhielt ich ein herausragendes OP Ergebnis. …",
     "star_rating": 5,
-    "review_time": "vor 7 Monaten"
+    "review_time": "vor 8 Monaten",
+    "like_count": 0,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Ernst Knolle",
     "review_text": "Danke sehr an das gesamte Team für die vorzügliche Behandlung in Ihrer Einrichtung - mir wurde die Angst vor den beiden Operationen genommen; Empathie und Professionalität im Arbeitslauf haben mir dabei geholfen. 😉 …",
     "star_rating": 5,
-    "review_time": "vor 7 Monaten"
+    "review_time": "vor 8 Monaten",
+    "like_count": 1,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Marcus Schiebusch",
-    "review_text": "Liebes Team der Augenklienik, Ich wurde gestern am li. Auge Operiert/ grauer Star und bin sehr froh in der Klink gewesen zu sein. Das gesamte Team ist sehr freundlich, ob wohl sie immer am wuseln sind und haben immer zeit für fragen jeglicher art. Vor und wehrend der OP ist die berteuung sehr angenehm und man braucht Keine angst haben. Nach der OP gibt es einen Kaffee ☕️ und der war sehr sehr lecker 😋 Ich kann nur Danke sagen !!!",
+    "review_text": "Liebes Team der Augenklienik, Ich wurde gestern am li. Auge Operiert/ grauer Star und bin sehr froh in der Klink gewesen zu sein. …",
     "star_rating": 5,
-    "review_time": "vor 11 Monaten"
+    "review_time": "vor einem Jahr",
+    "like_count": 0,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Bea Res",
-    "review_text": "Ich habe nur reine Panikmache kennengelernt. Das Vorabgespräch mit dem Anästhesisten verlief anfangs gut und als er auf Schlafapnoe im Fragebogen stieß wurde eine Kurz Vollnarkose strikt abgelehnt. Auch,dass ich von meinen Erfahrungen im Sommer berichtet hatte wo keine Komplikationen aufgetreten seien, ließ er keine Einwände zu. Ob er wirklich nochmals bei der Klinikleitung für mich nachgefragt hat steht in den Sternen. Die OP unter örtlicher Betäubung hat er für mich gruselig erklärt, nichts für einen Angstpatienten. Kann die Klinik somit überhaupt nicht empfehlen bei dieser Konstellation. Ich fühlte mich dort nicht gut aufgehoben.",
+    "review_text": "Ich habe nur reine Panikmache kennengelernt. Das Vorabgespräch mit dem Anästhesisten verlief anfangs gut und als er auf Schlafapnoe im Fragebogen stieß wurde eine Kurz Vollnarkose strikt abgelehnt. Auch,dass ich von meinen Erfahrungen im …",
     "star_rating": 2,
-    "review_time": "vor einem Jahr"
+    "review_time": "vor einem Jahr",
+    "like_count": 1,
+    "has_owner_response": true,
+    "owner_response_time": "vor einem Jahr",
+    "owner_response_text": "Vielen Dank, Frau Res, für Ihr Feedback. Wir bedauern, dass Sie mit Ihrem Besuch unzufrieden waren. Bitte verstehen Sie, dass unsere Entscheidungen stets auf medizinischen Leitlinien und der Patientensicherheit basieren. Eine Vollnarkose … Mehr"
   },
   {
     "reviewer_name": "Hannelore Worona",
     "review_text": "Sehr freundliches Personal, gute Ärzte!",
     "star_rating": 5,
-    "review_time": "vor 3 Monaten"
+    "review_time": "vor 4 Monaten",
+    "like_count": 0,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "edeltraud Khollaidi",
-    "review_text": "Am 10. 01. 25 Hatte ich eine OP grùner Star Ich war mehr als zu Frieden . Hatte ein bisschen Angst , nicht vor der OP ,sondern bei mir ist es schlecht Venen zu finden . Aber Dr. Knoche hat mir die Angst genommen beim Vorgespräch .unten dann im OP wurde ich ruhiger mir wurde dann mit einer dùnnen Baby Nadel der Zugang am Handrücken gelegt . Ein kleiner pickser , dafür möchte ich mich erstmal bei der Anästhesistin bedanken sie hat das so gut gemacht 👍 man kann nicht sehen . Auch bei Dr. Knoche super Arzt vielen Dank. Das gesamte Team super und nett vielen , vielen Dank 🙏 ich kann die Klinik weiter empfehlen",
+    "review_text": "Am 10. 01. 25 Hatte ich eine OP grùner Star Ich war mehr als zu Frieden . Hatte ein bisschen Angst , nicht vor der OP ,sondern bei mir ist es schlecht Venen zu finden . Aber Dr. Knoche hat mir die Angst genommen beim Vorgespräch .unten …",
     "star_rating": 5,
-    "review_time": "vor einem Jahr"
+    "review_time": "vor einem Jahr",
+    "like_count": 0,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Canan Ates",
-    "review_text": "Wir sind mehr als zufrieden. Gerade eben wurde meine Mama am Auge operiert. Ihre erste op war in Hannover und es war furchtbar. Sofort haben wir den Arzt gewechselt und wurden in die Augenklinik Augenzentrum Stadthagen überwiesen zwecks op. So eine tolle Betreuung seitens der Ärzte, Schwestern und allen anderen Mitarbeitern. Meine Mama fühlte sich sehr umsorgt. Vielen lieben Dank Ann alle.",
+    "review_text": "Wir sind mehr als zufrieden. Gerade eben wurde meine Mama am Auge operiert. Ihre erste op war in Hannover und es war furchtbar. Sofort haben wir den Arzt gewechselt und wurden in die Augenklinik Augenzentrum Stadthagen überwiesen zwecks op. …",
     "star_rating": 5,
-    "review_time": "vor einem Jahr"
+    "review_time": "vor einem Jahr",
+    "like_count": 0,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "El Puerro",
     "review_text": "Absolute Frechheit, letztes Jahr im September 23 wollte ich ein Termin machen und bekam als Antwort das KOMPLETTE restliche Jahr gibt es keine Termine mehr, ich solle 2024 nochmal ANFRAGEN!! Jetzt habe ich angefragt und mir wird gesagt ich solle in 6 Wochen erneut ANFRAGEN! Unglaublich was für ein Niveau hier herrscht",
     "star_rating": 1,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 2 Jahren",
+    "like_count": 1,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Sehr geehrter Herr Denker, vielen Dank für Ihre Rückmeldung. Es scheint, dass Ihre Rezension auf das … Mehr"
   },
   {
     "reviewer_name": "Wolfgang Zinecker",
     "review_text": "Ich kann nur positives berichten, von der Untersuchung bis zur OP alles sehr professionell, moderne Zimmer, alles pikobello sauber, sehr freundliches Personal. Dank auch dem ganzen OP Team. Gibt leider nur 5 Sterne , hätte gerne mehr vergeben :-)",
     "star_rating": 5,
-    "review_time": "vor einem Jahr"
+    "review_time": "vor einem Jahr",
+    "like_count": 0,
+    "has_owner_response": true,
+    "owner_response_time": "vor einem Jahr",
+    "owner_response_text": "Sehr geehrter Herr Zinecker, vielen herzlichen Dank für Ihre wunderbare Bewertung und die freundlichen Worte! … Mehr"
   },
   {
     "reviewer_name": "Oliver Bruns",
-    "review_text": "Vom Ärztlichen ist das ja ganz in Ordnung, aber das Personal am der Anmeldung in der oberen Etage ist nicht so toll. Ich war mit meinem Vater am 17.09.2024 da und man hat vergessen die Versicherungskarte einzulesen darauf hat man mich am 26.09.2024 morgens angerufen und mir gesagt dass die Versicherungskarte noch ganz dringend heute oder spätestens morgen da sein sollte sie einzulesen da Quartals Abschluss ist. Ich habe dann gesagt das es nicht so einfach ist da mein Vater in Bad Eilsen im Altenheim ist und ich die Karte erst holen muss und dann auch wieder zurück bringen muss weil sie im Altenheim für Notfall immer da sein muss, ich bin dann nach Bad Eilsen gefahren habe die Karte geholt und dann nach Stadthagen zur Augenklinik um die Karte einzulesen das Personal ist nicht in der Lage sich zu entschuldigen da es sich ja um deren Fehler handelt und hat so getan als ob es sich nicht um deren Fehler handelt und es gab keine entsprechende Erklärung. Anschließend musste ich die Versicherungskarte wieder nach Bad Eilsen bringen ich selbst komme aus Stadthagen es sind halt viele Fahrten die man sich hätte sparen können wenn man die Versicherungskarte am 17.09.2024 um 16 Uhr gleich einzulesen.",
+    "review_text": "Vom Ärztlichen ist das ja ganz in Ordnung, aber das Personal am der Anmeldung in der oberen Etage ist nicht so toll. Ich war mit meinem Vater am 17.09.2024 da und man hat vergessen die Versicherungskarte einzulesen darauf hat man mich am …",
     "star_rating": 3,
-    "review_time": "vor einem Jahr"
+    "review_time": "vor einem Jahr",
+    "like_count": 2,
+    "has_owner_response": true,
+    "owner_response_time": "vor einem Jahr",
+    "owner_response_text": "Lieber Herr Bruns, vielen Dank für Ihr Feedback und entschuldigen Sie bitte die entstandenen … Mehr"
   },
   {
     "reviewer_name": "M P",
-    "review_text": "Am Montag erfolgte die erste OP mit der Diagnose grauer Star. Die Voruntersuchung ließ keine Fragen offen. Der Arzt nahm sich Zeit für eine verständliche Erklärung zum Operationsablauf. Ein großes Lob an die Klinikmitarbeiter. Super freundlich, haben jeden Handgriff während der OP Vorbereitung erklärt. Mir wurden alle Ängste genommen, ich fühlte mich sehr gut aufgehoben und betreut. Zur 2. OP werde ich wesentlich ruhiger gehen. DANKE",
+    "review_text": "Am Montag erfolgte die erste OP mit der Diagnose grauer Star. Die Voruntersuchung ließ keine Fragen offen. Der Arzt nahm sich Zeit für eine verständliche Erklärung zum Operationsablauf. Ein großes Lob an die Klinikmitarbeiter. Super …",
     "star_rating": 5,
-    "review_time": "vor 4 Jahren"
+    "review_time": "vor 4 Jahren",
+    "like_count": 6,
+    "has_owner_response": true,
+    "owner_response_time": "vor 4 Jahren",
+    "owner_response_text": "Guten Tag und herzlichen Dank für Ihren positiven Bericht. Wir freuen uns sehr, dass Sie sich bei uns wohlgefühlt haben. Ihr Lob ist für … Mehr"
   },
   {
     "reviewer_name": "Iris Kellner",
-    "review_text": "Was ich dort gestern als abzuholende Begleitperson erlebt habe, dass spottet jeder Beschreibung. Mein Vater bekam ,ohne es vorher gewusst zu haben, sein linkes Auge gelasert. Er war aber von einer Voruntersuchung ausgegangen und somit mit dem eigenen Auto angereist. Als ich mich nach dieser Info auf den Weg machte, meinen Vater abzuholen, war dieser in der Klinik nicht mehr aufzufinden. Am Empfang wimmelte man mich gleich ab und nahm während meiner Frage ein Telefongespräch an und ließ mich einfach stehen. Eine andere Angestellte schickte mich dann zu einem weiteren Infopunkt, wo man mir angeblich weiterhelfen könnte. Eine sehr junge Angestellte guckte nachdem ich ihr die Frage gestellt hatte, wo mein Vater sei in den Computer und teilte mir mit, er dürfte nicht alleine nach Hause fahren, aber wo er jetzt sei, das wüsste sie auch nicht. Ich fragte nochmals, ob sie bitte herausfinden könne, wo mein Vater nun sei. Daraufhin grinste sie unrund sagte, dass könne sie mir nicht sagen. Unglaublich, dass man auf einen älteren Herren kein Augenmerk hat, wo er sich nach einer Laserbehandlung aufhält. Es war seitens der Mitarbeiter scheinbar egal, ob er eventuell alleine den Heimweg angetreten hatte, obwohl er es laut Computer nicht hätte tun dürfen. Zum Glück, kam mir mein Vater draußen von dem gegenüber liegenden Einkaufsmarkt entgegen. Mittlerweile war gut eine Stunde vergangen, in der niemand von dem Personal wusste, wo mein Vater geblieben war. Ich finde das sehr sehr traurig. Was passiert mit Menschen, die geistig nicht mehr ganz so auf der Höhe sind wie mein Vater es noch ist? Überlässt man diese dann auch einfach sich alleine?",
+    "review_text": "Was ich dort gestern als abzuholende Begleitperson erlebt habe, dass spottet jeder Beschreibung. Mein Vater bekam ,ohne es vorher gewusst zu haben, sein linkes Auge gelasert. Er war aber von einer Voruntersuchung ausgegangen und somit mit …",
     "star_rating": 2,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 2 Jahren",
+    "like_count": 6,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Sehr geehrte Frau Kellner, wir möchten auf Ihre Rückmeldung zu dem gestrigen Vorfall in unserer Klinik … Mehr"
   },
   {
     "reviewer_name": "Sandra Busse",
-    "review_text": "Ich muss gestehen nachdem ich einige Bewertungen gelesen habe ,dachte ich Um Himmels Willen,da soll ich hin? Ich absoluter Angstpatient was Spritzen angeht, bekommt ne Spritze ins Auge. ABER es kam anders als erwartet. So liebevoll und freundlich wurde ich noch nie empfangen. Die Damen am Empfang extrem lieb und lustig.Spritzen Vorbereitung Top.Die Dame im OP Vorzimmer auch super toll. Und dann die 💉 Spritze. Okay es ist ein doofes Gefühl ne klammer am Auge zu haben,aber der behandelne Arzt war so lieb und einwandfrei. Ich würde lügen wenn ich sage ich freue mich auf den nächsten Termin ABER das Team macht es möglich keine Panik zu haben. Tausend Dank an ALLE♥️",
+    "review_text": "Ich muss gestehen nachdem ich einige Bewertungen gelesen habe ,dachte ich Um Himmels Willen,da soll ich hin? Ich absoluter Angstpatient was Spritzen angeht, bekommt ne Spritze ins Auge. …",
     "star_rating": 5,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 2 Jahren",
+    "like_count": 3,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Sehr geehrte Frau Busse, es freut uns sehr zu hören, dass Ihre Erfahrung bei uns Ihre Erwartungen … Mehr"
   },
   {
     "reviewer_name": "Google Nutzer",
-    "review_text": "Der Klinik würde ich sogar 10 Sterne geben. Habe meinen Vater Heute wieder zur seiner Behandlung gebracht und wir wurden wie immer mega freundlichen empfangen, das Personal ist sehr fürsorglich meinem Vater gegenüber und für offene Fragen direkt zur stelle gewesen und mir alles präzise erklärt. Das Personal dort ist ein mega Team kann ich nur weiter empfehlen 👍",
+    "review_text": "Der Klinik würde ich sogar 10 Sterne geben. Habe meinen Vater Heute wieder zur seiner Behandlung gebracht und wir wurden wie immer mega freundlichen empfangen, das Personal ist sehr fürsorglich meinem Vater gegenüber und für offene Fragen …",
     "star_rating": 5,
-    "review_time": "Bearbeitet: vor einem Jahr"
+    "review_time": "Bearbeitet: vor einem Jahr",
+    "like_count": 1,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Friedrich Wilhelm Koch",
     "review_text": "Ich wurde am 14.2.23 operiert . Von der Narkose bis zur Entlassung nach zwei Übernachtungen alles super . Keine Schmerzen tolle Betreuung bis hin zur Nachtschwester , komme demnächst wieder. F.W.Koch",
     "star_rating": 5,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 3 Jahren",
+    "like_count": 3,
+    "has_owner_response": true,
+    "owner_response_time": "vor 3 Jahren",
+    "owner_response_text": "Sehr geehrter Herr Koch, es ist schön zu lesen, dass Sie sich bei uns wohlgefühlt haben. Danke, dass Sie … Mehr"
   },
   {
     "reviewer_name": "Karin Gehle",
     "review_text": "Dem gesamten Personal ein herzliches Dankeschön. Auch wenn die Wartezeit sehr lang war im Gegensatz zu dem kurzen Eingriff, so habe ich mich während der gesamten Zeit sehr wohl gefühlt. Es sei noch zu erwähnen, dass die Ansprache an mich als Patient zu jederzeit positiv zu bewerten ist. Karin Gehle",
     "star_rating": 5,
-    "review_time": "vor 7 Jahren"
+    "review_time": "vor 7 Jahren",
+    "like_count": 2,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "E S",
-    "review_text": "Schon die Vorabberatung und Betreuung war sehr qualifiziert und sehr sympathisch. Mir wurde alles verständlich erklärt. Bei mir wurden beide Augen operiert. Die OP, Vor- und Nachsorgeuntersuchungen erfolgten top durchorganisiert. Arzt, Arzthelferinnen und auch die Schwestern im OP-Bereich waren kompetent, sehr nett und einfühlsam. Ich bin sehr zufrieden mit dem Ergebnis und empfehle diese Klinik mit gutem Gewissen weiter!",
+    "review_text": "Schon die Vorabberatung und Betreuung war sehr qualifiziert und sehr sympathisch. Mir wurde alles verständlich erklärt. Bei mir wurden beide Augen operiert. Die OP, Vor- und Nachsorgeuntersuchungen erfolgten top durchorganisiert. Arzt, …",
     "star_rating": 5,
-    "review_time": "vor 9 Jahren"
+    "review_time": "vor 9 Jahren",
+    "like_count": 5,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Volker Gerber",
     "review_text": "Ich wurde am 09.08.23 am rechten Auge (Grauer Star) operiert. Die Fürsorge des Personals vor und nach der OP war sehr schön. Das Sehvermögen danach grandios",
     "star_rating": 5,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 2 Jahren",
+    "like_count": 2,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Sehr geehrter Herr Gerber, wir freuen sehr über Ihre freundlichen Worte. Vielen Dank dafür! Weiterhin alles … Mehr"
   },
   {
     "reviewer_name": "Sola",
-    "review_text": "Ich war im Frühjahr zur Voruntersuchung mit einer Überweisung meines behandelnden Augenarztes wegen einer Katarakt-OP in der Praxis. Geplant war ein ambulanter Eingriff mit örtlicher Betäubung bei einem stark kurzsichtigen Auge mit einem Visus von 0,6. Positiv zu erwähnen ist die freundliche Atmosphäre vor Ort. Leider ist meine persönliche Bewertung aber dennoch nicht positiv: Im Verlauf der Untersuchungen hieß es dann plötzlich, man müsse mit Vollnarkose operieren und ich müsse eine Nacht stationär dort bleiben. Auch müsse man von meinem Auge ein Bild der Netzhaut machen, weil der Operateur das brauche. Die 149 EUR müsse ich allerdings selbst zahlen, weil die Kasse das nicht übernimmt. Auf meine Frage, was denn passiert, wenn das Bild nicht gemacht wird, sagte man mir, dann werde man nicht für eine Netzhautablösung haften. Außerdem sagte man mir mehrfach, ich würde mit dem Auge nach der OP vermutlich ohnehin nicht besser sehen können, da ich so stark kurzsichtig sei. Meine Hinweise, dass der Visus bis vor einigen Jahren aber noch bei 1,0 lag, wurden abgetan. Zu diesem Zeitpunkt hatte ich bereits drei Stunden dort verbracht, mehrere zahlungspflichtige Untersuchungen und eine aufpreispflichtige Premiumlinse angeboten bekommen und das sehr deutliche Gefühl, dass ich vor der OP noch eine zweite Meinung einholen möchte. Das habe ich auch so gesagt und am Ende des Gespräches um Zusendung meiner Unterlagen gebeten. Das wurde mir zugesagt, ist aber nie erfolgt. Mittlerweile habe ich mich woanders operieren lassen. Die Voruntersuchungen dort waren sehr sorgfältig, ohne jeglichen Aufpreis und die OP wurde ambulant durchgeführt. Ich habe auf dem operierten Auge übrigens wieder einen Visus von 1,0 und keinerlei Probleme.",
+    "review_text": "Ich war im Frühjahr zur Voruntersuchung mit einer Überweisung meines behandelnden Augenarztes wegen einer Katarakt-OP in der Praxis. Geplant war ein ambulanter Eingriff mit örtlicher Betäubung bei einem stark kurzsichtigen Auge mit einem …",
     "star_rating": 1,
-    "review_time": "vor 4 Jahren"
+    "review_time": "vor 4 Jahren",
+    "like_count": 11,
+    "has_owner_response": true,
+    "owner_response_time": "vor 4 Jahren",
+    "owner_response_text": "Sehr geehrte Frau/Herr SF, wir freuen uns, dass Sie erfolgreich operiert werden konnten. Gerne würde unser … Mehr"
   },
   {
     "reviewer_name": "Heyko Bock",
     "review_text": "Bin am grauen Star operiert worden. Das komplette Team von der Augenklinik bekommt von mir eine EINS PLUS.Besser geht nicht!",
     "star_rating": 5,
-    "review_time": "vor 11 Monaten"
+    "review_time": "vor einem Jahr",
+    "like_count": 0,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Ulrich Machann",
     "review_text": "Ich wurde vor 7 Jahren hier am grauen Star behandelt...es ist immer noch Top...verstehe einige Rezessionen hier nicht...wir wurden von zu Hause abgeholt und wieder nach Hause gebracht...von der Behandlung hab ich nicht's mitbekommen...gut die Wartezeit ist etwas lang....aber es hat sich gelohnt...",
     "star_rating": 5,
-    "review_time": "vor 5 Jahren"
+    "review_time": "vor 5 Jahren",
+    "like_count": 1,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Ingrid Simon",
     "review_text": "Bin hier gestern am Auge operiert worden. Grauer Star. Ich kann nur Gutes berichten. Sehr nette Leute und super durch organisiert. Bin super zufrieden, auch mit dem Ergebnis.",
     "star_rating": 5,
-    "review_time": "vor 4 Jahren"
+    "review_time": "vor 4 Jahren",
+    "like_count": 3,
+    "has_owner_response": true,
+    "owner_response_time": "vor 4 Jahren",
+    "owner_response_text": "Sehr geehrte Frau Simon, ganz herzlichen Dank, dass Sie sich die Mühe gemacht haben, Ihre Erfahrung hier … Mehr"
   },
   {
     "reviewer_name": "Ann Kathrin Esch",
-    "review_text": "Die Mitarbeiterin am Telefon war ziemlich unfreundlich. Als erstes fragte Sie, aus welchem Einzuggebiet ich denn komme und wie alt ich wäre. Auf die Frage nach einem Termin bzgl. Sehschärfe und wechsel auf Kontaktlinsen sagte sie dann, dass ich doch zum Optiker gehen soll. Als ich ihr sagte, dass laut meinem alten Augenarzt jährlich 2-3 Kontrollen stattfinden müssen und die Sehstärke von nun schon vier Optikern nicht passt hätte Sie einen Termin im Januar 2019. Wäre man Privatversichert, wäre das so nicht gelaufen. Naja... die bekommen mich dann wohl nicht als Patientin.",
+    "review_text": "Die Mitarbeiterin am Telefon war ziemlich unfreundlich. Als erstes fragte Sie, aus welchem Einzuggebiet ich denn komme und wie alt ich wäre. Auf die Frage nach einem Termin bzgl. Sehschärfe und wechsel auf Kontaktlinsen sagte sie dann, dass …",
     "star_rating": 1,
-    "review_time": "vor 7 Jahren"
+    "review_time": "vor 7 Jahren",
+    "like_count": 6,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Gerry Weber",
     "review_text": "Sehr gut , Freundliches Personal , sehr Kompetent , gerne weiter zu empfehlen Fühle mich als Patient dort gut Behandeln und Aufgehoben , weiter so",
     "star_rating": 5,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 3 Jahren",
+    "like_count": 2,
+    "has_owner_response": true,
+    "owner_response_time": "vor 3 Jahren",
+    "owner_response_text": "Sehr geehrter Herr Weber, ganz herzlichen Dank, dass Sie sich die Mühe gemacht haben, sich hier öffentlich … Mehr"
   },
   {
     "reviewer_name": "D.",
     "review_text": "Ich war zur Katarakt OP dort und kann die Klinik nur weiterempfehlen! Sehr nettes Personal dort und eine tolle Betreuung vor und nach der OP!",
     "star_rating": 5,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 2 Jahren",
+    "like_count": 1,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Sehr geehrte/r Frau/Herr Bertelmann, wir freuen uns sehr über Ihre netten Worte. Herzlichen Dank, dass Sie sich die … Mehr"
   },
   {
     "reviewer_name": "Bernd Kretschmer",
     "review_text": "Die Qualität der Augenärzte ist tadellos! Allein die Verwaltung ist seltsam. Beispiel? Einfach mal versuchen jemanden telefonisch zu erreichen:)",
     "star_rating": 2,
-    "review_time": "Bearbeitet: vor 2 Jahren"
+    "review_time": "Bearbeitet: vor 2 Jahren",
+    "like_count": 1,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Sehr geehrter Herr Kretschmer, leider schreiben Sie nicht, warum Sie die Augenklinik Stadthagen nur mit zwei … Mehr"
   },
   {
     "reviewer_name": "Vier Sieben",
     "review_text": "Mit die schlechteste Hilfe die man kriegen kann seit über einem Jahr versucht man bei dennen ein Termin zu kriegen und jedes Mal die gleiche ausrede angeblich Ärzte Mängel und die Frau am Telefon wie immer richtig pampig und unfreundlich kann ich nicht empfehlen genauso wenig mhv Stadthagen",
     "star_rating": 1,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 3 Jahren",
+    "like_count": 4,
+    "has_owner_response": true,
+    "owner_response_time": "vor 3 Jahren",
+    "owner_response_text": "Guten Tag Vier Sieben, wir bedauern, dass wir Ihnen nicht den gewünschten Termin anbieten konnten. … Mehr"
   },
   {
     "reviewer_name": "Stefan Teichert",
     "review_text": "Sehr, sehr gute Klinik. Nettes, freundliches Personal und Ärzte die vor der OP noch zu einem Scherz bereit sind. Danke",
     "star_rating": 5,
-    "review_time": "vor 7 Jahren"
+    "review_time": "vor 8 Jahren",
+    "like_count": 0,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Therri E",
     "review_text": "Super freundliches Personal, saubere Klinik und breite Parkplätze! Ich komme gerne wieder zu Ihnen!",
     "star_rating": 5,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 3 Jahren",
+    "like_count": 0,
+    "has_owner_response": true,
+    "owner_response_time": "vor 3 Jahren",
+    "owner_response_text": "Sehr geehrte Frau Ebert, unsere MitarbeiterInnen freuen sich sehr über Ihr Lob. Herzlichen Dank, dass Sie … Mehr"
   },
   {
     "reviewer_name": "Inge Romahn",
     "review_text": "Fürsorgliche Betreuung, es wird alles sehr gut erklärt. Ich fühlte mich sehr gut aufgehoben.",
     "star_rating": 5,
-    "review_time": "vor 6 Jahren"
+    "review_time": "vor 6 Jahren",
+    "like_count": 3,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "P.M M.P",
     "review_text": "Sehr Freundliches Kompetentes Personal ich fühle mich dort sehr gut aufgehobenen .weiter so",
     "star_rating": 5,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 3 Jahren",
+    "like_count": 0,
+    "has_owner_response": true,
+    "owner_response_time": "vor 3 Jahren",
+    "owner_response_text": "Sehr geehrte/r Frau/Herr P.M M.P, unser Team der Augenklinik Stadthagen freut sich sehr über Ihre lobenden Worte. … Mehr"
   },
   {
     "reviewer_name": "Peter Wieder",
     "review_text": "Zwei neue linsen bekommen einfach toll, danke an die Angestellten die da arbeiten 2023",
     "star_rating": 5,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 2 Jahren",
+    "like_count": 1,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Sehr geehrter Herr Wieder, herzlichen Dank für Ihr positives Feedback! Wir freuen uns sehr, dass Sie mit … Mehr"
   },
   {
     "reviewer_name": "Ultr4slan",
     "review_text": "Nicht zu empfehlen. Sucht euch bitte einen richtigen Augenarzt. 8 Wochen falsch behandelt!",
     "star_rating": 1,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 3 Jahren",
+    "like_count": 2,
+    "has_owner_response": true,
+    "owner_response_time": "vor 3 Jahren",
+    "owner_response_text": "Sehr geehrte:r Patient:in, wir bedauern, dass Sie nicht zufrieden waren und möchten gerne im persönlichen … Mehr"
   },
   {
     "reviewer_name": "Metin",
     "review_text": "Keine termin einhalten alle passentin wartezeit 4 atunde warten liebe andre klinikum besuchen",
     "star_rating": 1,
-    "review_time": "vor 6 Jahren"
+    "review_time": "vor 7 Jahren",
+    "like_count": 1,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Heinz Droste",
     "review_text": "Bei der beider beiden Augen operationen ist alles gut verlaufen dieses krankenhaus wurde ich immer weiter empfehlen",
     "star_rating": 5,
-    "review_time": "vor 9 Jahren"
+    "review_time": "vor 9 Jahren",
+    "like_count": 2,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Friedhelm Behrendt",
     "review_text": "Freundliche Mitarbeiter, schwierige Augenerkrankung wurde gut erklärt, OP verlief problemlos, guter Heilerfolg.",
     "star_rating": 4,
-    "review_time": "Bearbeitet: vor 7 Jahren"
+    "review_time": "Bearbeitet: vor 7 Jahren",
+    "like_count": 0,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Sven Kaulich",
     "review_text": "Nettes Team. Gute Beratung",
     "star_rating": 4,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 2 Jahren",
+    "like_count": 0,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Lieber Sven Kaulich, vielen Dank für Ihr positives Feedback! Wir freuen uns, dass Sie mit unserem … Mehr"
   },
   {
     "reviewer_name": "Uwe Wollenberg",
     "review_text": "Sehr gute Klinik, freundlich und hilfsbereit.",
     "star_rating": 3,
-    "review_time": "vor 10 Jahren"
+    "review_time": "vor 10 Jahren",
+    "like_count": 1,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Angelika Glatzel",
     "review_text": "Super organisiert.Sehr freundliches Team!!!",
     "star_rating": 5,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 4 Jahren",
+    "like_count": 0,
+    "has_owner_response": true,
+    "owner_response_time": "vor 3 Jahren",
+    "owner_response_text": "Sehr geehrte Frau Glatzel, unser Team in Stadthagen hat sich sehr über Ihre Bewertung und positive … Mehr"
   },
   {
     "reviewer_name": "Thomas Baum",
     "review_text": "Tolles kompetentes Unternehmen Sehr nettes Personal",
     "star_rating": 5,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 3 Jahren",
+    "like_count": 0,
+    "has_owner_response": true,
+    "owner_response_time": "vor 3 Jahren",
+    "owner_response_text": "Sehr geehrter Herr Baum, wir freuen uns, dass Sie mit der Behandlung in der Augenklinik Stadthagen … Mehr"
   },
   {
     "reviewer_name": "Lasse Leh",
     "review_text": "extrem lange wartezeiten bei notfällen. eine frechheit ist das",
     "star_rating": 1,
-    "review_time": "vor 7 Jahren"
+    "review_time": "vor 7 Jahren",
+    "like_count": 2,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Rüdiger Schilling-Weiß",
     "review_text": "Sehr gut Personal top",
     "star_rating": 5,
-    "review_time": "vor 4 Jahren"
+    "review_time": "vor 4 Jahren",
+    "like_count": 0,
+    "has_owner_response": true,
+    "owner_response_time": "vor 4 Jahren",
+    "owner_response_text": "Sehr geehrter Herr Schilling-Weiß, wir freuen sehr über Ihre gute Bewertung. Ganz herzlichen Dank dafür. Wir … Mehr"
   },
   {
     "reviewer_name": "tom tom",
     "review_text": "Leider viel zu wenige Parkplätze",
     "star_rating": 2,
-    "review_time": "vor 4 Jahren"
+    "review_time": "vor 4 Jahren",
+    "like_count": 1,
+    "has_owner_response": true,
+    "owner_response_time": "vor 4 Jahren",
+    "owner_response_text": "Sehr geehrter Herr Tom, vielen Dank für Ihren Hinweis. In der Regel werden unsere Patienten von ihren … Mehr"
   },
   {
     "reviewer_name": "Valentin Krüger",
     "review_text": "Sehr nett alle",
     "star_rating": 5,
-    "review_time": "vor 6 Jahren"
+    "review_time": "vor 6 Jahren",
+    "like_count": 0,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Lazlo Lo",
     "review_text": "unfreundlich",
     "star_rating": 1,
-    "review_time": "vor 7 Jahren"
+    "review_time": "vor 7 Jahren",
+    "like_count": 4,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "H. N. K.",
     "review_text": "Darm",
     "star_rating": 5,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 3 Jahren",
+    "like_count": 0,
+    "has_owner_response": true,
+    "owner_response_time": "vor 3 Jahren",
+    "owner_response_text": "Guten Tag hül hülos, wir freuen uns über Ihr positives Feedback und dass Sie sich die Mühe gemacht … Mehr"
   }
 ]

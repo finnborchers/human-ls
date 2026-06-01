@@ -1,0 +1,164 @@
+{
+  "total_records": 10000,
+  "empty_label_records": 284,
+  "max_total_labels_on_single_review": 19,
+  "top_problem_labels": [
+    [
+      "care.treatment",
+      1564
+    ],
+    [
+      "access.waiting",
+      1350
+    ],
+    [
+      "staff.friendliness",
+      1193
+    ],
+    [
+      "staff.respect",
+      1148
+    ],
+    [
+      "staff.seriousness",
+      876
+    ],
+    [
+      "care.competence",
+      807
+    ],
+    [
+      "care.safety",
+      763
+    ],
+    [
+      "staff.empathy",
+      729
+    ],
+    [
+      "coordination.coordination",
+      624
+    ],
+    [
+      "care.diagnosis",
+      574
+    ],
+    [
+      "communication.communication",
+      572
+    ],
+    [
+      "care.symptoms",
+      428
+    ],
+    [
+      "environment.food",
+      388
+    ],
+    [
+      "communication.information",
+      375
+    ],
+    [
+      "environment.facilities",
+      351
+    ]
+  ],
+  "top_strength_labels": [
+    [
+      "staff.friendliness",
+      5444
+    ],
+    [
+      "staff.empathy",
+      3392
+    ],
+    [
+      "care.treatment",
+      3210
+    ],
+    [
+      "care.competence",
+      2527
+    ],
+    [
+      "staff.respect",
+      1275
+    ],
+    [
+      "environment.support",
+      992
+    ],
+    [
+      "environment.food",
+      674
+    ],
+    [
+      "staff.seriousness",
+      620
+    ],
+    [
+      "communication.explanation",
+      581
+    ],
+    [
+      "environment.facilities",
+      493
+    ],
+    [
+      "coordination.coordination",
+      487
+    ],
+    [
+      "care.safety",
+      420
+    ],
+    [
+      "access.waiting",
+      399
+    ],
+    [
+      "environment.cleanliness",
+      303
+    ],
+    [
+      "care.diagnosis",
+      283
+    ]
+  ],
+  "generated_at": "2026-05-18T06:25:27.597584+00:00",
+  "scope": "10000_ids",
+  "expected_reviews": 10000,
+  "materialized_reviews": 10000,
+  "missing_reviews": 0,
+  "batch_count": 5,
+  "completed_batch_files": 5,
+  "parse_errors_total": 0,
+  "batch_summaries": [
+    {
+      "batch_name": "10000_ids_batch_001",
+      "materialized_records": 2000,
+      "parse_errors": 0
+    },
+    {
+      "batch_name": "10000_ids_batch_002",
+      "materialized_records": 2000,
+      "parse_errors": 0
+    },
+    {
+      "batch_name": "10000_ids_batch_003",
+      "materialized_records": 2000,
+      "parse_errors": 0
+    },
+    {
+      "batch_name": "10000_ids_batch_004",
+      "materialized_records": 2000,
+      "parse_errors": 0
+    },
+    {
+      "batch_name": "10000_ids_batch_005",
+      "materialized_records": 2000,
+      "parse_errors": 0
+    }
+  ]
+}

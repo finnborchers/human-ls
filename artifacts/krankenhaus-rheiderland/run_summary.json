@@ -1,47 +1,114 @@
 {
   "url": "https://www.google.com/maps/place/Krankenhaus+Rheiderland/@53.168067,7.3524265,17z/data=!3m1!4b1!4m6!3m5!1s0x47b64b543594847f:0x2b8dc77e31e072a6!8m2!3d53.168067!4d7.3524265!16s%2Fg%2F1tht0jf7?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "krankenhaus-rheiderland",
-  "startedAt": "2026-04-15T17:44:20Z",
+  "startedAt": "2026-05-11T15:07:19Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "38834715564A173387114354D3EC9D55",
-  "selectedTargetId": "38834715564A173387114354D3EC9D55",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "67D0DA8A1996279F9CB19A31085863A4",
+  "selectedTargetId": "67D0DA8A1996279F9CB19A31085863A4",
   "selectedTargetUrl": "https://www.google.com/maps/place/Krankenhaus+Rheiderland/@53.168067,7.3524265,17z/data=!3m1!4b1!4m6!3m5!1s0x47b64b543594847f:0x2b8dc77e31e072a6!8m2!3d53.168067!4d7.3524265!16s%2Fg%2F1tht0jf7?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Krankenhaus%2BRheiderland/@53.168067,7.3524265,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b64b543594847f:0x2b8dc77e31e072a6!8m2!3d53.168067!4d7.3524265!16s%252Fg%252F1tht0jf7?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Krankenhaus%2BRheiderland/@53.168067,7.3524265,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b64b543594847f:0x2b8dc77e31e072a6!8m2!3d53.168067!4d7.3524265!16s%252Fg%252F1tht0jf7?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Krankenhaus%2BRheiderland/@53.168067,7.3524265,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b64b543594847f:0x2b8dc77e31e072a6!8m2!3d53.168067!4d7.3524265!16s%252Fg%252F1tht0jf7?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Krankenhaus%2BRheiderland/@53.168067,7.3524265,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b64b543594847f:0x2b8dc77e31e072a6!8m2!3d53.168067!4d7.3524265!16s%252Fg%252F1tht0jf7?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/Krankenhaus+Rheiderland/@53.168067,7.3524265,17z/data=!3m1!4b1!4m6!3m5!1s0x47b64b543594847f:0x2b8dc77e31e072a6!8m2!3d53.168067!4d7.3524265!16s%2Fg%2F1tht0jf7?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Krankenhaus%2BRheiderland/@53.168067,7.3524265,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b64b543594847f:0x2b8dc77e31e072a6!8m2!3d53.168067!4d7.3524265!16s%252Fg%252F1tht0jf7?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Krankenhaus%2BRheiderland/@53.168067,7.3524265,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b64b543594847f:0x2b8dc77e31e072a6!8m2!3d53.168067!4d7.3524265!16s%252Fg%252F1tht0jf7?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Krankenhaus%2BRheiderland/@53.168067,7.3524265,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b64b543594847f:0x2b8dc77e31e072a6!8m2!3d53.168067!4d7.3524265!16s%252Fg%252F1tht0jf7?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
     {
       "rank": 1,
       "candidate": {
-        "domIndex": 57,
+        "domIndex": 58,
         "score": 215,
         "reasons": [
           "jsaction_more_reviews",
@@ -56,9 +123,10 @@
         "jsaction": "pane.wfvdle14.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 6,
       "clickResult": {
         "clicked": true,
-        "index": 57,
+        "index": 58,
         "text": "70 Berichte",
         "ariaLabel": "",
         "title": "",
@@ -71,12 +139,12 @@
       }
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 6,
   "reviewClick": {
     "clicked": true,
     "strategy": "candidate",
     "label": "70 Berichte",
-    "domIndex": 57,
+    "domIndex": 58,
     "candidateScore": 215,
     "candidateReasons": [
       "jsaction_more_reviews",
@@ -99,8 +167,8 @@
     "tagName": "DIV",
     "scrollTop": 0,
     "scrollHeight": 3292,
-    "clientHeight": 694,
-    "distanceToBottom": 2598
+    "clientHeight": 695,
+    "distanceToBottom": 2597
   },
   "declaredReviewTotalInfo": {
     "found": true,
@@ -141,11 +209,11 @@
       "scrolled": true,
       "strategy": "pane_to_bottom",
       "before": 0,
-      "after": 2597.5,
+      "after": 2596.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 3292,
-      "clientHeight": 694,
+      "clientHeight": 695,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 88,
       "uniqueReviewIdCount": 10,
@@ -158,25 +226,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 2597.5,
+        "scrollTop": 2596.5,
         "scrollHeight": 6060,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 2767.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 1.48330582305789e-05,
+      "networkIdleSeconds": 1.937500201165676e-05,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 2597.5,
-      "after": 5364.5,
+      "before": 2596.5,
+      "after": 5363.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 6060,
-      "clientHeight": 695,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 173,
       "uniqueReviewIdCount": 20,
@@ -189,25 +257,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 5364.5,
+        "scrollTop": 5363.5,
         "scrollHeight": 8660,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 2600.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 1.0042102076113224e-05,
+      "networkIdleSeconds": 7.541850209236145e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 5364.5,
-      "after": 7964.5,
+      "before": 5363.5,
+      "after": 7963.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 8660,
-      "clientHeight": 695,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 255,
       "uniqueReviewIdCount": 30,
@@ -220,25 +288,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 7964.5,
+        "scrollTop": 7963.5,
         "scrollHeight": 10987,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 2327.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 8.167000487446785e-06,
+      "networkIdleSeconds": 3.6249402910470963e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 7964.5,
-      "after": 10291.5,
+      "before": 7963.5,
+      "after": 10290.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 10987,
-      "clientHeight": 695,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 336,
       "uniqueReviewIdCount": 40,
@@ -251,25 +319,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 10291.5,
+        "scrollTop": 10290.5,
         "scrollHeight": 13791,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 2804.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 5.541020072996616e-06,
+      "networkIdleSeconds": 1.3417098671197891e-05,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 10291.5,
-      "after": 13095.5,
+      "before": 10290.5,
+      "after": 13094.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 13791,
-      "clientHeight": 695,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 424,
       "uniqueReviewIdCount": 50,
@@ -282,25 +350,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 13095.5,
+        "scrollTop": 13094.5,
         "scrollHeight": 15269,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 1478.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 9.916024282574654e-06,
+      "networkIdleSeconds": 6.250105798244476e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 13095.5,
-      "after": 14573.5,
+      "before": 13094.5,
+      "after": 14572.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 15269,
-      "clientHeight": 695,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 478,
       "uniqueReviewIdCount": 60,
@@ -313,25 +381,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 14573.5,
+        "scrollTop": 14572.5,
         "scrollHeight": 16567,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 1298.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 8.082948625087738e-06,
+      "networkIdleSeconds": 2.0167091861367226e-05,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 14573.5,
-      "after": 15871.5,
+      "before": 14572.5,
+      "after": 15870.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 16567,
-      "clientHeight": 695,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 528,
       "uniqueReviewIdCount": 70,
@@ -344,9 +412,9 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 15871.5,
+        "scrollTop": 15870.5,
         "scrollHeight": 16567,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 0.5
       },
       "declaredTotalSettle": {
@@ -358,14 +426,14 @@
           "foundTarget": true,
           "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
           "tagName": "DIV",
-          "scrollTop": 15871.5,
+          "scrollTop": 15870.5,
           "scrollHeight": 16567,
-          "clientHeight": 695,
+          "clientHeight": 696,
           "distanceToBottom": 0.5
         }
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 3.063021375099197,
+      "networkIdleSeconds": 3.0586209590546787,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": true
     }
@@ -405,8 +473,8 @@
       "scrollHeight": 16567
     }
   ],
-  "networkEventsDuringScroll": 34,
-  "finalNetworkIdleSeconds": 3.063026542076841,
+  "networkEventsDuringScroll": 32,
+  "finalNetworkIdleSeconds": 3.058625750010833,
   "noGrowthCycles": 0,
   "finalReviewsState": {
     "title": "Krankenhaus Rheiderland - Google Maps",
@@ -415,25 +483,25 @@
     "foundTarget": true,
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
-    "scrollTop": 15871.5,
+    "scrollTop": 15870.5,
     "scrollHeight": 16567,
-    "clientHeight": 695,
+    "clientHeight": 696,
     "distanceToBottom": 0.5
   },
   "reachedDeclaredReviewTotal": true,
   "reachedReviewPaneEnd": true,
   "finalUniqueReviewIdCount": 70,
-  "finalScrollTop": 15871.5,
+  "finalScrollTop": 15870.5,
   "finalScrollHeight": 16567,
   "reviewExpansion": {
     "buttonCount": 18,
     "clickedCount": 18
   },
-  "matchedRequestCount": 67,
+  "matchedRequestCount": 63,
   "batchexecuteCount": 3,
-  "reviewPhaseXhrCount": 46,
+  "reviewPhaseXhrCount": 43,
   "captureSuccessful": true,
-  "finishedAt": "2026-04-15T17:45:11Z",
+  "finishedAt": "2026-05-11T15:08:11Z",
   "retryRunsRequested": 2,
   "retryRunsExecuted": 1,
   "retryAttempts": [

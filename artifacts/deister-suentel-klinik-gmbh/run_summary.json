@@ -1,47 +1,114 @@
 {
   "url": "https://www.google.com/maps/place/Deister-S%C3%BCntel-Klinik/@52.2093429,9.4691005,18z/data=!4m10!1m2!2m1!1sDeister-S%C3%BCntel-Klinik+GmbH!3m6!1s0x47ba9b30fa7afbb1:0xde2d6ef4577e4f8e!8m2!3d52.2093429!4d9.4714823!15sChtEZWlzdGVyLVPDvG50ZWwtS2xpbmlrIEdtYkhaHSIbZGVpc3RlciBzw7xudGVsIGtsaW5payBnbWJokgEUc3BlY2lhbGl6ZWRfaG9zcGl0YWyaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjV3VldWcVFuWlBTR3d5VVcxbk5VMVdVbE5qYXprelpHdGFTVTVWUlJBQuABAPoBBAgAECY!16s%2Fg%2F1tf_05nf?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "deister-suentel-klinik-gmbh",
-  "startedAt": "2026-04-15T15:05:55Z",
+  "startedAt": "2026-05-11T12:27:08Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "3A9F2A867D1A0126C8062BED2DB18FA4",
-  "selectedTargetId": "3A9F2A867D1A0126C8062BED2DB18FA4",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "63BE3D9959FA2A35F546153900064E4F",
+  "selectedTargetId": "63BE3D9959FA2A35F546153900064E4F",
   "selectedTargetUrl": "https://www.google.com/maps/place/Deister-S%C3%BCntel-Klinik/@52.2093429,9.4691005,18z/data=!4m10!1m2!2m1!1sDeister-S%C3%BCntel-Klinik+GmbH!3m6!1s0x47ba9b30fa7afbb1:0xde2d6ef4577e4f8e!8m2!3d52.2093429!4d9.4714823!15sChtEZWlzdGVyLVPDvG50ZWwtS2xpbmlrIEdtYkhaHSIbZGVpc3RlciBzw7xudGVsIGtsaW5payBnbWJokgEUc3BlY2lhbGl6ZWRfaG9zcGl0YWyaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjV3VldWcVFuWlBTR3d5VVcxbk5VMVdVbE5qYXprelpHdGFTVTVWUlJBQuABAPoBBAgAECY!16s%2Fg%2F1tf_05nf?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Deister-S%25C3%25BCntel-Klinik/@52.2093429,9.4691005,18z/data%3D!4m10!1m2!2m1!1sDeister-S%25C3%25BCntel-Klinik%2BGmbH!3m6!1s0x47ba9b30fa7afbb1:0xde2d6ef4577e4f8e!8m2!3d52.2093429!4d9.4714823!15sChtEZWlzdGVyLVPDvG50ZWwtS2xpbmlrIEdtYkhaHSIbZGVpc3RlciBzw7xudGVsIGtsaW5payBnbWJokgEUc3BlY2lhbGl6ZWRfaG9zcGl0YWyaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjV3VldWcVFuWlBTR3d5VVcxbk5VMVdVbE5qYXprelpHdGFTVTVWUlJBQuABAPoBBAgAECY!16s%252Fg%252F1tf_05nf?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Deister-S%25C3%25BCntel-Klinik/@52.2093429,9.4691005,18z/data%3D!4m10!1m2!2m1!1sDeister-S%25C3%25BCntel-Klinik%2BGmbH!3m6!1s0x47ba9b30fa7afbb1:0xde2d6ef4577e4f8e!8m2!3d52.2093429!4d9.4714823!15sChtEZWlzdGVyLVPDvG50ZWwtS2xpbmlrIEdtYkhaHSIbZGVpc3RlciBzw7xudGVsIGtsaW5payBnbWJokgEUc3BlY2lhbGl6ZWRfaG9zcGl0YWyaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjV3VldWcVFuWlBTR3d5VVcxbk5VMVdVbE5qYXprelpHdGFTVTVWUlJBQuABAPoBBAgAECY!16s%252Fg%252F1tf_05nf?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Deister-S%25C3%25BCntel-Klinik/@52.2093429,9.4691005,18z/data%3D!4m10!1m2!2m1!1sDeister-S%25C3%25BCntel-Klinik%2BGmbH!3m6!1s0x47ba9b30fa7afbb1:0xde2d6ef4577e4f8e!8m2!3d52.2093429!4d9.4714823!15sChtEZWlzdGVyLVPDvG50ZWwtS2xpbmlrIEdtYkhaHSIbZGVpc3RlciBzw7xudGVsIGtsaW5payBnbWJokgEUc3BlY2lhbGl6ZWRfaG9zcGl0YWyaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjV3VldWcVFuWlBTR3d5VVcxbk5VMVdVbE5qYXprelpHdGFTVTVWUlJBQuABAPoBBAgAECY!16s%252Fg%252F1tf_05nf?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Deister-S%25C3%25BCntel-Klinik/@52.2093429,9.4691005,18z/data%3D!4m10!1m2!2m1!1sDeister-S%25C3%25BCntel-Klinik%2BGmbH!3m6!1s0x47ba9b30fa7afbb1:0xde2d6ef4577e4f8e!8m2!3d52.2093429!4d9.4714823!15sChtEZWlzdGVyLVPDvG50ZWwtS2xpbmlrIEdtYkhaHSIbZGVpc3RlciBzw7xudGVsIGtsaW5payBnbWJokgEUc3BlY2lhbGl6ZWRfaG9zcGl0YWyaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjV3VldWcVFuWlBTR3d5VVcxbk5VMVdVbE5qYXprelpHdGFTVTVWUlJBQuABAPoBBAgAECY!16s%252Fg%252F1tf_05nf?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/Deister-S%C3%BCntel-Klinik/@52.2093429,9.4691005,18z/data=!4m10!1m2!2m1!1sDeister-S%C3%BCntel-Klinik+GmbH!3m6!1s0x47ba9b30fa7afbb1:0xde2d6ef4577e4f8e!8m2!3d52.2093429!4d9.4714823!15sChtEZWlzdGVyLVPDvG50ZWwtS2xpbmlrIEdtYkhaHSIbZGVpc3RlciBzw7xudGVsIGtsaW5payBnbWJokgEUc3BlY2lhbGl6ZWRfaG9zcGl0YWyaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjV3VldWcVFuWlBTR3d5VVcxbk5VMVdVbE5qYXprelpHdGFTVTVWUlJBQuABAPoBBAgAECY!16s%2Fg%2F1tf_05nf?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Deister-S%25C3%25BCntel-Klinik/@52.2093429,9.4691005,18z/data%3D!4m10!1m2!2m1!1sDeister-S%25C3%25BCntel-Klinik%2BGmbH!3m6!1s0x47ba9b30fa7afbb1:0xde2d6ef4577e4f8e!8m2!3d52.2093429!4d9.4714823!15sChtEZWlzdGVyLVPDvG50ZWwtS2xpbmlrIEdtYkhaHSIbZGVpc3RlciBzw7xudGVsIGtsaW5payBnbWJokgEUc3BlY2lhbGl6ZWRfaG9zcGl0YWyaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjV3VldWcVFuWlBTR3d5VVcxbk5VMVdVbE5qYXprelpHdGFTVTVWUlJBQuABAPoBBAgAECY!16s%252Fg%252F1tf_05nf?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Deister-S%25C3%25BCntel-Klinik/@52.2093429,9.4691005,18z/data%3D!4m10!1m2!2m1!1sDeister-S%25C3%25BCntel-Klinik%2BGmbH!3m6!1s0x47ba9b30fa7afbb1:0xde2d6ef4577e4f8e!8m2!3d52.2093429!4d9.4714823!15sChtEZWlzdGVyLVPDvG50ZWwtS2xpbmlrIEdtYkhaHSIbZGVpc3RlciBzw7xudGVsIGtsaW5payBnbWJokgEUc3BlY2lhbGl6ZWRfaG9zcGl0YWyaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjV3VldWcVFuWlBTR3d5VVcxbk5VMVdVbE5qYXprelpHdGFTVTVWUlJBQuABAPoBBAgAECY!16s%252Fg%252F1tf_05nf?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Deister-S%25C3%25BCntel-Klinik/@52.2093429,9.4691005,18z/data%3D!4m10!1m2!2m1!1sDeister-S%25C3%25BCntel-Klinik%2BGmbH!3m6!1s0x47ba9b30fa7afbb1:0xde2d6ef4577e4f8e!8m2!3d52.2093429!4d9.4714823!15sChtEZWlzdGVyLVPDvG50ZWwtS2xpbmlrIEdtYkhaHSIbZGVpc3RlciBzw7xudGVsIGtsaW5payBnbWJokgEUc3BlY2lhbGl6ZWRfaG9zcGl0YWyaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjV3VldWcVFuWlBTR3d5VVcxbk5VMVdVbE5qYXprelpHdGFTVTVWUlJBQuABAPoBBAgAECY!16s%252Fg%252F1tf_05nf?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
     {
       "rank": 1,
       "candidate": {
-        "domIndex": 61,
+        "domIndex": 62,
         "score": 215,
         "reasons": [
           "jsaction_more_reviews",
@@ -50,33 +117,34 @@
           "button_like_control"
         ],
         "tagName": "BUTTON",
-        "text": "43 Berichte",
+        "text": "48 Berichte",
         "ariaLabel": "",
         "title": "",
-        "jsaction": "pane.wfvdle36.reviewchart.morereviews",
+        "jsaction": "pane.wfvdle18.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 6,
       "clickResult": {
         "clicked": true,
-        "index": 61,
-        "text": "43 Berichte",
+        "index": 62,
+        "text": "48 Berichte",
         "ariaLabel": "",
         "title": "",
-        "jsaction": "pane.wfvdle36.reviewchart.morereviews",
+        "jsaction": "pane.wfvdle18.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
       "reviewsPanelAfterClick": {
-        "reviewNodeCount": 101,
-        "title": "Deister-Süntel-Klinik - Google Maps"
+        "reviewNodeCount": 98,
+        "title": "MEDICLIN Deister Weser Kliniken - Haus Weser - Google Maps"
       }
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 6,
   "reviewClick": {
     "clicked": true,
     "strategy": "candidate",
-    "label": "43 Berichte",
-    "domIndex": 61,
+    "label": "48 Berichte",
+    "domIndex": 62,
     "candidateScore": 215,
     "candidateReasons": [
       "jsaction_more_reviews",
@@ -84,50 +152,50 @@
       "review_keyword",
       "button_like_control"
     ],
-    "jsaction": "pane.wfvdle36.reviewchart.morereviews"
+    "jsaction": "pane.wfvdle18.reviewchart.morereviews"
   },
   "reviewsPanel": {
-    "reviewNodeCount": 101,
-    "title": "Deister-Süntel-Klinik - Google Maps"
+    "reviewNodeCount": 98,
+    "title": "MEDICLIN Deister Weser Kliniken - Haus Weser - Google Maps"
   },
   "initialReviewsState": {
-    "title": "Deister-Süntel-Klinik - Google Maps",
-    "reviewNodeCount": 101,
+    "title": "MEDICLIN Deister Weser Kliniken - Haus Weser - Google Maps",
+    "reviewNodeCount": 98,
     "uniqueReviewIdCount": 10,
     "foundTarget": true,
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
     "scrollTop": 0,
-    "scrollHeight": 4587,
-    "clientHeight": 630,
-    "distanceToBottom": 3957
+    "scrollHeight": 4526,
+    "clientHeight": 695,
+    "distanceToBottom": 3831
   },
   "declaredReviewTotalInfo": {
     "found": true,
-    "declaredReviewTotal": 43,
+    "declaredReviewTotal": 48,
     "sourceKind": "rating-histogram",
     "histogramByStar": {
       "1": 2,
       "2": 0,
       "3": 5,
-      "4": 5,
-      "5": 31
+      "4": 6,
+      "5": 35
     },
     "histogramStarCount": 5
   },
-  "declaredReviewTotal": 43,
+  "declaredReviewTotal": 48,
   "declaredTotalSettleSeconds": 1.5,
   "declaredTotalFastStopUsed": true,
   "declaredTotalFinalCheck": {
     "iteration": 5,
     "before": {
-      "uniqueReviewIdCount": 43,
-      "scrollHeight": 13532,
+      "uniqueReviewIdCount": 48,
+      "scrollHeight": 14910,
       "distanceToBottom": 0.5
     },
     "after": {
-      "uniqueReviewIdCount": 43,
-      "scrollHeight": 13532,
+      "uniqueReviewIdCount": 48,
+      "scrollHeight": 14910,
       "distanceToBottom": 0.5
     },
     "settleSeconds": 1.5,
@@ -141,169 +209,169 @@
       "scrolled": true,
       "strategy": "pane_to_bottom",
       "before": 0,
-      "after": 3956.5,
+      "after": 3830.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 4587,
-      "clientHeight": 630,
+      "scrollHeight": 4526,
+      "clientHeight": 695,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 101,
+      "reviewNodeCount": 98,
       "uniqueReviewIdCount": 10,
       "iteration": 1,
-      "declaredReviewTotal": 43,
+      "declaredReviewTotal": 48,
       "stateAfterDelay": {
-        "title": "Deister-Süntel-Klinik - Google Maps",
+        "title": "MEDICLIN Deister Weser Kliniken - Haus Weser - Google Maps",
         "reviewNodeCount": 195,
         "uniqueReviewIdCount": 20,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 3956.5,
-        "scrollHeight": 7881,
-        "clientHeight": 631,
-        "distanceToBottom": 3293.5
+        "scrollTop": 3830.5,
+        "scrollHeight": 7910,
+        "clientHeight": 696,
+        "distanceToBottom": 3383.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 7.541966624557972e-06,
+      "networkIdleSeconds": 5.708076059818268e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 3956.5,
-      "after": 7249.5,
+      "before": 3830.5,
+      "after": 7213.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 7881,
-      "clientHeight": 631,
+      "scrollHeight": 7910,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 195,
       "uniqueReviewIdCount": 20,
       "iteration": 2,
-      "declaredReviewTotal": 43,
+      "declaredReviewTotal": 48,
       "stateAfterDelay": {
-        "title": "Deister-Süntel-Klinik - Google Maps",
+        "title": "MEDICLIN Deister Weser Kliniken - Haus Weser - Google Maps",
         "reviewNodeCount": 282,
         "uniqueReviewIdCount": 30,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 7249.5,
-        "scrollHeight": 10917,
-        "clientHeight": 631,
-        "distanceToBottom": 3036.5
+        "scrollTop": 7213.5,
+        "scrollHeight": 11051,
+        "clientHeight": 696,
+        "distanceToBottom": 3141.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 7.207971066236496e-06,
+      "networkIdleSeconds": 5.249865353107452e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 7249.5,
-      "after": 10285.5,
+      "before": 7213.5,
+      "after": 10354.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 10917,
-      "clientHeight": 631,
+      "scrollHeight": 11051,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 282,
       "uniqueReviewIdCount": 30,
       "iteration": 3,
-      "declaredReviewTotal": 43,
+      "declaredReviewTotal": 48,
       "stateAfterDelay": {
-        "title": "Deister-Süntel-Klinik - Google Maps",
-        "reviewNodeCount": 348,
+        "title": "MEDICLIN Deister Weser Kliniken - Haus Weser - Google Maps",
+        "reviewNodeCount": 359,
         "uniqueReviewIdCount": 40,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 10285.5,
-        "scrollHeight": 13193,
-        "clientHeight": 631,
-        "distanceToBottom": 2276.5
+        "scrollTop": 10354.5,
+        "scrollHeight": 13748,
+        "clientHeight": 696,
+        "distanceToBottom": 2697.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 7.6249707490205765e-06,
+      "networkIdleSeconds": 6.541842594742775e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 10285.5,
-      "after": 12561.5,
+      "before": 10354.5,
+      "after": 13051.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 13193,
-      "clientHeight": 631,
+      "scrollHeight": 13748,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 348,
+      "reviewNodeCount": 359,
       "uniqueReviewIdCount": 40,
       "iteration": 4,
-      "declaredReviewTotal": 43,
+      "declaredReviewTotal": 48,
       "stateAfterDelay": {
-        "title": "Deister-Süntel-Klinik - Google Maps",
-        "reviewNodeCount": 363,
-        "uniqueReviewIdCount": 43,
+        "title": "MEDICLIN Deister Weser Kliniken - Haus Weser - Google Maps",
+        "reviewNodeCount": 401,
+        "uniqueReviewIdCount": 48,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 12561.5,
-        "scrollHeight": 13532,
-        "clientHeight": 631,
-        "distanceToBottom": 339.5
+        "scrollTop": 13051.5,
+        "scrollHeight": 14910,
+        "clientHeight": 696,
+        "distanceToBottom": 1162.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 7.4999406933784485e-06,
+      "networkIdleSeconds": 5.708076059818268e-06,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 12561.5,
-      "after": 12900.5,
+      "before": 13051.5,
+      "after": 14213.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 13532,
-      "clientHeight": 631,
+      "scrollHeight": 14910,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 363,
-      "uniqueReviewIdCount": 43,
+      "reviewNodeCount": 401,
+      "uniqueReviewIdCount": 48,
       "iteration": 5,
-      "declaredReviewTotal": 43,
+      "declaredReviewTotal": 48,
       "stateAfterDelay": {
-        "title": "Deister-Süntel-Klinik - Google Maps",
-        "reviewNodeCount": 363,
-        "uniqueReviewIdCount": 43,
+        "title": "MEDICLIN Deister Weser Kliniken - Haus Weser - Google Maps",
+        "reviewNodeCount": 401,
+        "uniqueReviewIdCount": 48,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 12900.5,
-        "scrollHeight": 13532,
-        "clientHeight": 631,
+        "scrollTop": 14213.5,
+        "scrollHeight": 14910,
+        "clientHeight": 696,
         "distanceToBottom": 0.5
       },
       "declaredTotalSettle": {
         "waitSeconds": 1.5,
         "stateAfterSettle": {
-          "title": "Deister-Süntel-Klinik - Google Maps",
-          "reviewNodeCount": 363,
-          "uniqueReviewIdCount": 43,
+          "title": "MEDICLIN Deister Weser Kliniken - Haus Weser - Google Maps",
+          "reviewNodeCount": 401,
+          "uniqueReviewIdCount": 48,
           "foundTarget": true,
           "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
           "tagName": "DIV",
-          "scrollTop": 12900.5,
-          "scrollHeight": 13532,
-          "clientHeight": 631,
+          "scrollTop": 14213.5,
+          "scrollHeight": 14910,
+          "clientHeight": 696,
           "distanceToBottom": 0.5
         }
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 6.575270249973983,
+      "networkIdleSeconds": 6.642449792008847,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": true
     }
@@ -315,53 +383,53 @@
     {
       "iteration": 1,
       "uniqueReviewIdCount": 20,
-      "scrollHeight": 7881
+      "scrollHeight": 7910
     },
     {
       "iteration": 2,
       "uniqueReviewIdCount": 30,
-      "scrollHeight": 10917
+      "scrollHeight": 11051
     },
     {
       "iteration": 3,
       "uniqueReviewIdCount": 40,
-      "scrollHeight": 13193
+      "scrollHeight": 13748
     },
     {
       "iteration": 4,
-      "uniqueReviewIdCount": 43,
-      "scrollHeight": 13532
+      "uniqueReviewIdCount": 48,
+      "scrollHeight": 14910
     }
   ],
-  "networkEventsDuringScroll": 18,
-  "finalNetworkIdleSeconds": 6.575277958996594,
+  "networkEventsDuringScroll": 21,
+  "finalNetworkIdleSeconds": 6.642454958055168,
   "noGrowthCycles": 0,
   "finalReviewsState": {
-    "title": "Deister-Süntel-Klinik - Google Maps",
-    "reviewNodeCount": 363,
-    "uniqueReviewIdCount": 43,
+    "title": "MEDICLIN Deister Weser Kliniken - Haus Weser - Google Maps",
+    "reviewNodeCount": 401,
+    "uniqueReviewIdCount": 48,
     "foundTarget": true,
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
-    "scrollTop": 12900.5,
-    "scrollHeight": 13532,
-    "clientHeight": 631,
+    "scrollTop": 14213.5,
+    "scrollHeight": 14910,
+    "clientHeight": 696,
     "distanceToBottom": 0.5
   },
   "reachedDeclaredReviewTotal": true,
   "reachedReviewPaneEnd": true,
-  "finalUniqueReviewIdCount": 43,
-  "finalScrollTop": 12900.5,
-  "finalScrollHeight": 13532,
+  "finalUniqueReviewIdCount": 48,
+  "finalScrollTop": 14213.5,
+  "finalScrollHeight": 14910,
   "reviewExpansion": {
-    "buttonCount": 25,
-    "clickedCount": 25
+    "buttonCount": 26,
+    "clickedCount": 26
   },
-  "matchedRequestCount": 61,
+  "matchedRequestCount": 56,
   "batchexecuteCount": 3,
-  "reviewPhaseXhrCount": 32,
+  "reviewPhaseXhrCount": 34,
   "captureSuccessful": true,
-  "finishedAt": "2026-04-15T15:06:39Z",
+  "finishedAt": "2026-05-11T12:27:53Z",
   "retryRunsRequested": 2,
   "retryRunsExecuted": 1,
   "retryAttempts": [
@@ -371,12 +439,12 @@
       "scrollDelayUsed": 1.5,
       "captureSuccessful": true,
       "failureReason": null,
-      "finalUniqueReviewIdCount": 43,
+      "finalUniqueReviewIdCount": 48,
       "scrollStopReason": "declared_total_reached_fast",
-      "declaredReviewTotal": 43
+      "declaredReviewTotal": 48
     }
   ],
-  "mergedReviewCountAcrossAttempts": 33,
+  "mergedReviewCountAcrossAttempts": 36,
   "reviewsPath": "artifacts/deister-suentel-klinik-gmbh/reviews.json",
-  "latestDeclaredReviewTotalAcrossAttempts": 43
+  "latestDeclaredReviewTotalAcrossAttempts": 48
 }

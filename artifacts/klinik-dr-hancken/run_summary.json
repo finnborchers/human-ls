@@ -1,47 +1,114 @@
 {
   "url": "https://www.google.com/maps/place/Klinik+Dr.+Hancken+GmbH/@53.5952656,8.8629643,10z/data=!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik+Dr.+Hancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%2Fg%2F1tfns1b_?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "klinik-dr-hancken",
-  "startedAt": "2026-04-15T16:51:17Z",
+  "startedAt": "2026-05-11T14:12:17Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "B9A8E5E6A161CB7E87C5ED88AF0505A3",
-  "selectedTargetId": "B9A8E5E6A161CB7E87C5ED88AF0505A3",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "1F1CF0406A1CCF9D900FCD7C6E25BDD5",
+  "selectedTargetId": "1F1CF0406A1CCF9D900FCD7C6E25BDD5",
   "selectedTargetUrl": "https://www.google.com/maps/place/Klinik+Dr.+Hancken+GmbH/@53.5952656,8.8629643,10z/data=!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik+Dr.+Hancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%2Fg%2F1tfns1b_?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BHancken%2BGmbH/@53.5952656,8.8629643,10z/data%3D!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik%2BDr.%2BHancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%252Fg%252F1tfns1b_?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BHancken%2BGmbH/@53.5952656,8.8629643,10z/data%3D!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik%2BDr.%2BHancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%252Fg%252F1tfns1b_?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BHancken%2BGmbH/@53.5952656,8.8629643,10z/data%3D!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik%2BDr.%2BHancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%252Fg%252F1tfns1b_?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BHancken%2BGmbH/@53.5952656,8.8629643,10z/data%3D!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik%2BDr.%2BHancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%252Fg%252F1tfns1b_?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/Klinik+Dr.+Hancken+GmbH/@53.5952656,8.8629643,10z/data=!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik+Dr.+Hancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%2Fg%2F1tfns1b_?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BHancken%2BGmbH/@53.5952656,8.8629643,10z/data%3D!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik%2BDr.%2BHancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%252Fg%252F1tfns1b_?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BHancken%2BGmbH/@53.5952656,8.8629643,10z/data%3D!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik%2BDr.%2BHancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%252Fg%252F1tfns1b_?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BHancken%2BGmbH/@53.5952656,8.8629643,10z/data%3D!3m1!5s0x47b164cc831c1195:0x1706647b2b87ee13!4m10!1m2!2m1!1sKlinik%2BDr.%2BHancken!3m6!1s0x47b164cc9f4bd78d:0x1eb3b17c78bb3298!8m2!3d53.5952656!4d9.4727055!15sChJLbGluaWsgRHIuIEhhbmNrZW6SAQtyYWRpb2xvZ2lzdOABAA!16s%252Fg%252F1tfns1b_?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
     {
       "rank": 1,
       "candidate": {
-        "domIndex": 99,
+        "domIndex": 104,
         "score": 215,
         "reasons": [
           "jsaction_more_reviews",
@@ -50,633 +117,643 @@
           "button_like_control"
         ],
         "tagName": "BUTTON",
-        "text": "133 Berichte",
+        "text": "138 Berichte",
         "ariaLabel": "",
         "title": "",
-        "jsaction": "pane.wfvdle65.reviewchart.morereviews",
+        "jsaction": "pane.wfvdle79.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 6,
       "clickResult": {
         "clicked": true,
-        "index": 99,
-        "text": "133 Berichte",
+        "index": 104,
+        "text": "138 Berichte",
         "ariaLabel": "",
         "title": "",
-        "jsaction": "pane.wfvdle65.reviewchart.morereviews",
+        "jsaction": "pane.wfvdle79.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 2,
-      "candidate": {
-        "domIndex": 113,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "termin 26",
-        "ariaLabel": "termin, in 26 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle109; keydown:pane.wfvdle109; mouseover:pane.wfvdle109; mouseout:pane.wfvdle109;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 113
+      "reviewsPanelAfterClick": {
+        "reviewNodeCount": 108,
+        "title": "Klinik Dr. Hancken GmbH - Google Maps"
       }
-    },
-    {
-      "rank": 3,
-      "candidate": {
-        "domIndex": 114,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "team 12",
-        "ariaLabel": "team, in 12 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle110; keydown:pane.wfvdle110; mouseover:pane.wfvdle110; mouseout:pane.wfvdle110;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 114
-      }
-    },
-    {
-      "rank": 4,
-      "candidate": {
-        "domIndex": 115,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "MRT 12",
-        "ariaLabel": "MRT, in 12 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle111; keydown:pane.wfvdle111; mouseover:pane.wfvdle111; mouseout:pane.wfvdle111;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 115
-      }
-    },
-    {
-      "rank": 5,
-      "candidate": {
-        "domIndex": 116,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "personal 8",
-        "ariaLabel": "personal, in 8 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle112; keydown:pane.wfvdle112; mouseover:pane.wfvdle112; mouseout:pane.wfvdle112;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 116
-      }
-    },
-    {
-      "rank": 6,
-      "candidate": {
-        "domIndex": 125,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Carsten Baatz Local Guide · 83 Rezensionen · 6 Fotos",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle120.review.reviewerlink",
-        "className": "al6Kxe"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 125
-      }
-    },
-    {
-      "rank": 7,
-      "candidate": {
-        "domIndex": 131,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Frauke Kraffczyk Local Guide · 91 Rezensionen · 96 Fotos",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle121.review.reviewerlink",
-        "className": "al6Kxe"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 131
-      }
-    },
-    {
-      "rank": 8,
-      "candidate": {
-        "domIndex": 138,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "E46 Alina 4 Rezensionen",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle122.review.reviewerlink",
-        "className": "al6Kxe"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 138
-      }
-    },
-    {
-      "rank": 9,
-      "candidate": {
-        "domIndex": 112,
-        "score": 80,
-        "reasons": [
-          "explicit_all_reviews",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Alle",
-        "ariaLabel": "Alle Rezensionen",
-        "title": "",
-        "jsaction": "pane.wfvdle108; keydown:pane.wfvdle108; mouseover:pane.wfvdle108; mouseout:pane.wfvdle108;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 112,
-        "text": "10 km",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "scale.click",
-        "className": "LNGekf"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 10,
-      "candidate": {
-        "domIndex": 57,
-        "score": 35,
-        "reasons": [
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Rezensionen",
-        "ariaLabel": "Rezensionen zu „Klinik Dr. Hancken GmbH“",
-        "title": "",
-        "jsaction": "pane.wfvdle56tabs.tabclick; mousedown:pane.wfvdle56tabs.dragtabs; focus:pane.wfvdle56tabs.focus",
-        "className": "hh2c6"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 57,
-        "text": "Weitere Informationen",
-        "ariaLabel": "",
-        "jsaction": ""
-      }
-    },
-    {
-      "rank": 11,
-      "candidate": {
-        "domIndex": 109,
-        "score": 35,
-        "reasons": [
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "",
-        "ariaLabel": "In Rezensionen suchen",
-        "title": "",
-        "jsaction": "pane.wfvdle106;keydown:pane.wfvdle106;mouseover:pane.wfvdle106;mouseout:pane.wfvdle106;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "S9kvJb"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 109,
-        "text": "Bedingungen",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "fineprint.terms",
-        "className": "ZiKfbc tUdUte Hk4XGb ZqLNQd"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 12,
-      "candidate": {
-        "domIndex": 111,
-        "score": 35,
-        "reasons": [
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Sortieren",
-        "ariaLabel": "Rezensionen sortieren",
-        "title": "",
-        "jsaction": "pane.wfvdle107;keydown:pane.wfvdle107;mouseover:pane.wfvdle107;mouseout:pane.wfvdle107",
-        "className": "S9kvJb"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 111,
-        "text": "Produktfeedback geben",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "fineprint.rap",
-        "className": "ZiKfbc tUdUte Hk4XGb ZqLNQd UjoA5b"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 13,
-      "candidate": {
-        "domIndex": 144,
-        "score": 35,
-        "reasons": [
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Weitere Rezensionen (130)",
-        "ariaLabel": "Weitere Rezensionen (130)",
-        "title": "",
-        "jsaction": "pane.wfvdle123",
-        "className": "M77dve"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 144
-      }
-    },
-    {
-      "rank": 14,
-      "candidate": {
-        "domIndex": 3,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "",
-        "ariaLabel": "Suchen",
-        "title": "",
-        "jsaction": "omnibox.search; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip",
-        "className": "mL3xi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 3,
-        "text": "",
-        "ariaLabel": "Menü",
-        "jsaction": "mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip"
-      }
-    },
-    {
-      "rank": 15,
-      "candidate": {
-        "domIndex": 4,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "",
-        "ariaLabel": "Schließen",
-        "title": "",
-        "jsaction": "omnibox.clear; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; focus:omnibox.hidesuggestions; blur:omnibox.hidetooltip",
-        "className": "yAuNSb vF7Cdb"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 4,
-        "text": "",
-        "ariaLabel": "Suchen",
-        "jsaction": "omnibox.search; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip"
-      }
-    },
-    {
-      "rank": 16,
-      "candidate": {
-        "domIndex": 6,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Bewertung ",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle137; keydown:pane.wfvdle137; mouseover:pane.wfvdle137; mouseout:pane.wfvdle137",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 6,
-        "text": "",
-        "ariaLabel": "Seitenleiste ausblenden",
-        "jsaction": "pane.close;mouseover:pane.showtoggletooltip; mouseout:pane.hidetoggletooltip; focus:pane.showtoggletooltip; blur:pane.hidetoggletooltip"
-      }
-    },
-    {
-      "rank": 17,
-      "candidate": {
-        "domIndex": 7,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Öffnungszeiten ",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle138; keydown:pane.wfvdle138; mouseover:pane.wfvdle138; mouseout:pane.wfvdle138",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 7,
-        "text": " Bewertung ",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle137; keydown:pane.wfvdle137; mouseover:pane.wfvdle137; mouseout:pane.wfvdle137",
-        "className": "e2moi"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 18,
-      "candidate": {
-        "domIndex": 8,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Alle Filter",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle139; keydown:pane.wfvdle139; mouseover:pane.wfvdle139; mouseout:pane.wfvdle139",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 8,
-        "text": " Öffnungszeiten ",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle138; keydown:pane.wfvdle138; mouseover:pane.wfvdle138; mouseout:pane.wfvdle138",
-        "className": "e2moi"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 19,
-      "candidate": {
-        "domIndex": 10,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "",
-        "ariaLabel": "Menü",
-        "title": "",
-        "jsaction": "navigationrail.more",
-        "className": "wR3cXd"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 10,
-        "text": "01:00",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.refinementlistselector; keydown:pane.refinementlistselector.keydown",
-        "className": "ba7fbf"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 20,
-      "candidate": {
-        "domIndex": 11,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Gespeichert",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.saved",
-        "className": "wR3cXd fontLabelMedium"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 11,
-        "text": "02:00",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.refinementlistselector; keydown:pane.refinementlistselector.keydown",
-        "className": "ba7fbf"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 21,
-      "candidate": {
-        "domIndex": 12,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Zuletzt verwendet",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.recent",
-        "className": "wR3cXd fontLabelMedium"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 12,
-        "text": "03:00",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.refinementlistselector; keydown:pane.refinementlistselector.keydown",
-        "className": "ba7fbf"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 22,
-      "candidate": {
-        "domIndex": 13,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Klinik Dr. Hancken GmbH",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "click:navigationrail.bundle; mouseover:navigationrail.bundle; mouseout:navigationrail.bundle",
-        "className": "atHn2d wR3cXd aJPqP fontBodySmall QyI6Nb"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 13,
-        "text": "04:00",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.refinementlistselector; keydown:pane.refinementlistselector.keydown",
-        "className": "ba7fbf"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 23,
-      "candidate": {
-        "domIndex": 14,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " App herunterladen",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.mobileapp",
-        "className": "wR3cXd Ijds6e fontLabelMedium"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 14,
-        "text": "05:00",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.refinementlistselector; keydown:pane.refinementlistselector.keydown",
-        "className": "ba7fbf"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 24,
-      "candidate": {
-        "domIndex": 19,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Teilen",
-        "ariaLabel": "Teilen",
-        "title": "",
-        "jsaction": "pane.wfvdle10",
-        "className": "M77dve"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 19,
-        "text": "10:00",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.refinementlistselector; keydown:pane.refinementlistselector.keydown",
-        "className": "ba7fbf"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 25,
-      "candidate": {
-        "domIndex": 22,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Routen­planer",
-        "ariaLabel": "Route zum Ziel \"Klinik Dr. Hancken GmbH\" berechnen",
-        "title": "",
-        "jsaction": "pane.wfvdle15;keydown:pane.wfvdle15;mouseover:pane.wfvdle15;mouseout:pane.wfvdle15",
-        "className": "S9kvJb"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 22,
-        "text": "13:00",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.refinementlistselector; keydown:pane.refinementlistselector.keydown",
-        "className": "ba7fbf"
-      },
-      "reviewsPanelAfterClick": false
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 6,
   "reviewClick": {
-    "clicked": false,
-    "reason": "reviews_panel_not_opened"
+    "clicked": true,
+    "strategy": "candidate",
+    "label": "138 Berichte",
+    "domIndex": 104,
+    "candidateScore": 215,
+    "candidateReasons": [
+      "jsaction_more_reviews",
+      "count_label",
+      "review_keyword",
+      "button_like_control"
+    ],
+    "jsaction": "pane.wfvdle79.reviewchart.morereviews"
   },
-  "reviewsPanel": false,
-  "failureReason": "reviews_panel_not_opened",
-  "scrollStopReason": "reviews_panel_not_opened",
-  "captureSuccessful": false,
-  "finishedAt": "2026-04-15T16:53:33Z",
-  "reviewPhaseXhrCount": 6,
-  "matchedRequestCount": 0,
-  "batchexecuteCount": 0,
+  "reviewsPanel": {
+    "reviewNodeCount": 108,
+    "title": "Klinik Dr. Hancken GmbH - Google Maps"
+  },
+  "initialReviewsState": {
+    "title": "Klinik Dr. Hancken GmbH - Google Maps",
+    "reviewNodeCount": 108,
+    "uniqueReviewIdCount": 10,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 0,
+    "scrollHeight": 4767,
+    "clientHeight": 498,
+    "distanceToBottom": 4269
+  },
+  "declaredReviewTotalInfo": {
+    "found": true,
+    "declaredReviewTotal": 138,
+    "sourceKind": "rating-histogram",
+    "histogramByStar": {
+      "1": 24,
+      "2": 5,
+      "3": 8,
+      "4": 9,
+      "5": 92
+    },
+    "histogramStarCount": 5
+  },
+  "declaredReviewTotal": 138,
+  "declaredTotalSettleSeconds": 1.5,
+  "declaredTotalFastStopUsed": true,
+  "declaredTotalFinalCheck": {
+    "iteration": 14,
+    "before": {
+      "uniqueReviewIdCount": 138,
+      "scrollHeight": 37796,
+      "distanceToBottom": 0.5
+    },
+    "after": {
+      "uniqueReviewIdCount": 138,
+      "scrollHeight": 37796,
+      "distanceToBottom": 0.5
+    },
+    "settleSeconds": 1.5,
+    "grewDuringSettle": false,
+    "atBottomAfterSettle": true,
+    "declaredTotalReachedAfterSettle": true
+  },
+  "fallbackStableRoundsRequired": 5,
+  "scrollResults": [
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 0,
+      "after": 4268.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 4767,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 108,
+      "uniqueReviewIdCount": 10,
+      "iteration": 1,
+      "declaredReviewTotal": 138,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Hancken GmbH - Google Maps",
+        "reviewNodeCount": 216,
+        "uniqueReviewIdCount": 20,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 4268.5,
+        "scrollHeight": 8939,
+        "clientHeight": 498,
+        "distanceToBottom": 4172.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 3.287498839199543e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 4268.5,
+      "after": 8440.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 8939,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 216,
+      "uniqueReviewIdCount": 20,
+      "iteration": 2,
+      "declaredReviewTotal": 138,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Hancken GmbH - Google Maps",
+        "reviewNodeCount": 316,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 8440.5,
+        "scrollHeight": 12811,
+        "clientHeight": 498,
+        "distanceToBottom": 3872.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.166046321392059e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 8440.5,
+      "after": 12312.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 12811,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 316,
+      "uniqueReviewIdCount": 30,
+      "iteration": 3,
+      "declaredReviewTotal": 138,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Hancken GmbH - Google Maps",
+        "reviewNodeCount": 402,
+        "uniqueReviewIdCount": 40,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 12312.5,
+        "scrollHeight": 15879,
+        "clientHeight": 498,
+        "distanceToBottom": 3068.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.250098183751106e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 12312.5,
+      "after": 15380.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 15879,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 402,
+      "uniqueReviewIdCount": 40,
+      "iteration": 4,
+      "declaredReviewTotal": 138,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Hancken GmbH - Google Maps",
+        "reviewNodeCount": 485,
+        "uniqueReviewIdCount": 50,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 15380.5,
+        "scrollHeight": 18794,
+        "clientHeight": 498,
+        "distanceToBottom": 2915.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.832873284816742e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 15380.5,
+      "after": 18295.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 18794,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 485,
+      "uniqueReviewIdCount": 50,
+      "iteration": 5,
+      "declaredReviewTotal": 138,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Hancken GmbH - Google Maps",
+        "reviewNodeCount": 573,
+        "uniqueReviewIdCount": 60,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 18295.5,
+        "scrollHeight": 21872,
+        "clientHeight": 498,
+        "distanceToBottom": 3078.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.791895091533661e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 18295.5,
+      "after": 21373.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 21872,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 573,
+      "uniqueReviewIdCount": 60,
+      "iteration": 6,
+      "declaredReviewTotal": 138,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Hancken GmbH - Google Maps",
+        "reviewNodeCount": 657,
+        "uniqueReviewIdCount": 70,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 21373.5,
+        "scrollHeight": 24688,
+        "clientHeight": 498,
+        "distanceToBottom": 2816.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 3.4999102354049683e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 21373.5,
+      "after": 24189.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 24688,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 657,
+      "uniqueReviewIdCount": 70,
+      "iteration": 7,
+      "declaredReviewTotal": 138,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Hancken GmbH - Google Maps",
+        "reviewNodeCount": 740,
+        "uniqueReviewIdCount": 80,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 24189.5,
+        "scrollHeight": 27132,
+        "clientHeight": 498,
+        "distanceToBottom": 2444.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 3.7499703466892242e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 24189.5,
+      "after": 26633.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 27132,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 740,
+      "uniqueReviewIdCount": 80,
+      "iteration": 8,
+      "declaredReviewTotal": 138,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Hancken GmbH - Google Maps",
+        "reviewNodeCount": 824,
+        "uniqueReviewIdCount": 90,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 26633.5,
+        "scrollHeight": 29429,
+        "clientHeight": 498,
+        "distanceToBottom": 2297.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.708091288805008e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 26633.5,
+      "after": 28930.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 29429,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 824,
+      "uniqueReviewIdCount": 90,
+      "iteration": 9,
+      "declaredReviewTotal": 138,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Hancken GmbH - Google Maps",
+        "reviewNodeCount": 914,
+        "uniqueReviewIdCount": 100,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 28930.5,
+        "scrollHeight": 32101,
+        "clientHeight": 498,
+        "distanceToBottom": 2672.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 2.583954483270645e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 28930.5,
+      "after": 31602.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 32101,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 914,
+      "uniqueReviewIdCount": 100,
+      "iteration": 10,
+      "declaredReviewTotal": 138,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Hancken GmbH - Google Maps",
+        "reviewNodeCount": 977,
+        "uniqueReviewIdCount": 110,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 31602.5,
+        "scrollHeight": 33978,
+        "clientHeight": 498,
+        "distanceToBottom": 1877.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.583977326750755e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 31602.5,
+      "after": 33479.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 33978,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 977,
+      "uniqueReviewIdCount": 110,
+      "iteration": 11,
+      "declaredReviewTotal": 138,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Hancken GmbH - Google Maps",
+        "reviewNodeCount": 1028,
+        "uniqueReviewIdCount": 120,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 33479.5,
+        "scrollHeight": 35402,
+        "clientHeight": 498,
+        "distanceToBottom": 1424.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.708076059818268e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 33479.5,
+      "after": 34903.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 35402,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1028,
+      "uniqueReviewIdCount": 120,
+      "iteration": 12,
+      "declaredReviewTotal": 138,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Hancken GmbH - Google Maps",
+        "reviewNodeCount": 1078,
+        "uniqueReviewIdCount": 130,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 34903.5,
+        "scrollHeight": 36772,
+        "clientHeight": 498,
+        "distanceToBottom": 1370.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.58304600417614e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 34903.5,
+      "after": 36273.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 36772,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1078,
+      "uniqueReviewIdCount": 130,
+      "iteration": 13,
+      "declaredReviewTotal": 138,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Hancken GmbH - Google Maps",
+        "reviewNodeCount": 1118,
+        "uniqueReviewIdCount": 138,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 36273.5,
+        "scrollHeight": 37796,
+        "clientHeight": 498,
+        "distanceToBottom": 1024.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.541842594742775e-06,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 36273.5,
+      "after": 37297.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 37796,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1118,
+      "uniqueReviewIdCount": 138,
+      "iteration": 14,
+      "declaredReviewTotal": 138,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Hancken GmbH - Google Maps",
+        "reviewNodeCount": 1118,
+        "uniqueReviewIdCount": 138,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 37297.5,
+        "scrollHeight": 37796,
+        "clientHeight": 498,
+        "distanceToBottom": 0.5
+      },
+      "declaredTotalSettle": {
+        "waitSeconds": 1.5,
+        "stateAfterSettle": {
+          "title": "Klinik Dr. Hancken GmbH - Google Maps",
+          "reviewNodeCount": 1118,
+          "uniqueReviewIdCount": 138,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 37297.5,
+          "scrollHeight": 37796,
+          "clientHeight": 498,
+          "distanceToBottom": 0.5
+        }
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.639215791830793,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": true
+    }
+  ],
+  "scrollStopReason": "declared_total_reached_fast",
+  "exhausted": false,
+  "scrollSafetyTimeoutHit": false,
+  "growthEvents": [
+    {
+      "iteration": 1,
+      "uniqueReviewIdCount": 20,
+      "scrollHeight": 8939
+    },
+    {
+      "iteration": 2,
+      "uniqueReviewIdCount": 30,
+      "scrollHeight": 12811
+    },
+    {
+      "iteration": 3,
+      "uniqueReviewIdCount": 40,
+      "scrollHeight": 15879
+    },
+    {
+      "iteration": 4,
+      "uniqueReviewIdCount": 50,
+      "scrollHeight": 18794
+    },
+    {
+      "iteration": 5,
+      "uniqueReviewIdCount": 60,
+      "scrollHeight": 21872
+    },
+    {
+      "iteration": 6,
+      "uniqueReviewIdCount": 70,
+      "scrollHeight": 24688
+    },
+    {
+      "iteration": 7,
+      "uniqueReviewIdCount": 80,
+      "scrollHeight": 27132
+    },
+    {
+      "iteration": 8,
+      "uniqueReviewIdCount": 90,
+      "scrollHeight": 29429
+    },
+    {
+      "iteration": 9,
+      "uniqueReviewIdCount": 100,
+      "scrollHeight": 32101
+    },
+    {
+      "iteration": 10,
+      "uniqueReviewIdCount": 110,
+      "scrollHeight": 33978
+    },
+    {
+      "iteration": 11,
+      "uniqueReviewIdCount": 120,
+      "scrollHeight": 35402
+    },
+    {
+      "iteration": 12,
+      "uniqueReviewIdCount": 130,
+      "scrollHeight": 36772
+    },
+    {
+      "iteration": 13,
+      "uniqueReviewIdCount": 138,
+      "scrollHeight": 37796
+    }
+  ],
+  "networkEventsDuringScroll": 72,
+  "finalNetworkIdleSeconds": 6.639217874966562,
+  "noGrowthCycles": 0,
+  "finalReviewsState": {
+    "title": "Klinik Dr. Hancken GmbH - Google Maps",
+    "reviewNodeCount": 1118,
+    "uniqueReviewIdCount": 138,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 37297.5,
+    "scrollHeight": 37796,
+    "clientHeight": 498,
+    "distanceToBottom": 0.5
+  },
+  "reachedDeclaredReviewTotal": true,
+  "reachedReviewPaneEnd": true,
+  "finalUniqueReviewIdCount": 138,
+  "finalScrollTop": 37297.5,
+  "finalScrollHeight": 37796,
+  "reviewExpansion": {
+    "buttonCount": 70,
+    "clickedCount": 70
+  },
+  "matchedRequestCount": 117,
+  "batchexecuteCount": 2,
+  "reviewPhaseXhrCount": 89,
+  "captureSuccessful": true,
+  "finishedAt": "2026-05-11T14:13:33Z",
   "retryRunsRequested": 2,
   "retryRunsExecuted": 1,
   "retryAttempts": [
@@ -684,14 +761,14 @@
       "attempt": 1,
       "outputDir": "artifacts/klinik-dr-hancken",
       "scrollDelayUsed": 1.5,
-      "captureSuccessful": false,
-      "failureReason": "reviews_panel_not_opened",
-      "finalUniqueReviewIdCount": 0,
-      "scrollStopReason": "reviews_panel_not_opened",
-      "declaredReviewTotal": null
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 138,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 138
     }
   ],
-  "mergedReviewCountAcrossAttempts": 0,
-  "reviewsPath": null,
-  "latestDeclaredReviewTotalAcrossAttempts": null
+  "mergedReviewCountAcrossAttempts": 103,
+  "reviewsPath": "artifacts/klinik-dr-hancken/reviews.json",
+  "latestDeclaredReviewTotalAcrossAttempts": 138
 }

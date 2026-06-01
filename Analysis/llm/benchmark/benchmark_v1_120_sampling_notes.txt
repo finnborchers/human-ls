@@ -1,0 +1,28 @@
+Benchmark sampling notes
+seed: 20260513
+created_at: 2026-05-13T08:42:03.597515+00:00
+bucket_counts: {'mixed_hard': 40, 'negative': 40, 'positive': 40}
+unique_places: 59
+max_reviews_per_place: 5
+
+Top places in sample:
+- delme-klinikum-delmenhorst: 5
+- euregio-klinik-albert-schweitzer-strasse-gmbh: 5
+- diakovere-friederikenstift: 4
+- klinikum-leer-ggmbh: 4
+- krh-klinikum-siloah: 4
+- sana-klinikum-hameln-pyrmont: 4
+- st-johannes-hospital: 4
+- christliches-krankenhaus-quakenbrueck: 3
+- helios-klinikum-salzgitter-gmbh: 3
+- krankenhaus-st-elisabeth-ggmbh: 3
+- staedtisches-klinikum-lueneburg-ggmbh: 3
+- staedtisches-klinikum-wolfenbuettel-ggmbh: 3
+- asklepios-harzklinik-goslar: 3
+- drk-krankenhaus-clementinenhaus: 3
+- klinikum-osnabrueck: 3
+- krh-klinikum-neustadt-am-ruebenberge: 3
+- agaplesion-ev-klinikum-schaumburg: 2
+- bundeswehrkrankenhaus: 2
+- christliches-kinderhospital-osnabrueck: 2
+- clemens-august-klinik: 2

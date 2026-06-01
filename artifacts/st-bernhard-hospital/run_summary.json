@@ -1,47 +1,114 @@
 {
   "url": "https://www.google.com/maps/place/St.+Bernhard-Hospital+Kamp-Lintfort+GmbH/@51.4921656,4.0769335,8z/data=!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.+Bernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%2Fg%2F12288w17?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "st-bernhard-hospital",
-  "startedAt": "2026-04-15T19:02:44Z",
+  "startedAt": "2026-05-11T16:26:10Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "B7DCFDF1441A23436D60D5BEE6F39904",
-  "selectedTargetId": "B7DCFDF1441A23436D60D5BEE6F39904",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "553FC9626568DCE936DAAE73894E94B4",
+  "selectedTargetId": "553FC9626568DCE936DAAE73894E94B4",
   "selectedTargetUrl": "https://www.google.com/maps/place/St.+Bernhard-Hospital+Kamp-Lintfort+GmbH/@51.4921656,4.0769335,8z/data=!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.+Bernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%2Fg%2F12288w17?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St.%2BBernhard-Hospital%2BKamp-Lintfort%2BGmbH/@51.4921656,4.0769335,8z/data%3D!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.%2BBernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%252Fg%252F12288w17?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St.%2BBernhard-Hospital%2BKamp-Lintfort%2BGmbH/@51.4921656,4.0769335,8z/data%3D!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.%2BBernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%252Fg%252F12288w17?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St.%2BBernhard-Hospital%2BKamp-Lintfort%2BGmbH/@51.4921656,4.0769335,8z/data%3D!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.%2BBernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%252Fg%252F12288w17?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St.%2BBernhard-Hospital%2BKamp-Lintfort%2BGmbH/@51.4921656,4.0769335,8z/data%3D!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.%2BBernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%252Fg%252F12288w17?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/St.+Bernhard-Hospital+Kamp-Lintfort+GmbH/@51.4921656,4.0769335,8z/data=!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.+Bernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%2Fg%2F12288w17?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St.%2BBernhard-Hospital%2BKamp-Lintfort%2BGmbH/@51.4921656,4.0769335,8z/data%3D!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.%2BBernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%252Fg%252F12288w17?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St.%2BBernhard-Hospital%2BKamp-Lintfort%2BGmbH/@51.4921656,4.0769335,8z/data%3D!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.%2BBernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%252Fg%252F12288w17?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St.%2BBernhard-Hospital%2BKamp-Lintfort%2BGmbH/@51.4921656,4.0769335,8z/data%3D!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.%2BBernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%252Fg%252F12288w17?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
     {
       "rank": 1,
       "candidate": {
-        "domIndex": 82,
+        "domIndex": 88,
         "score": 215,
         "reasons": [
           "jsaction_more_reviews",
@@ -50,188 +117,35 @@
           "button_like_control"
         ],
         "tagName": "BUTTON",
-        "text": "477 Berichte",
+        "text": "489 Berichte",
         "ariaLabel": "",
         "title": "",
-        "jsaction": "pane.wfvdle50.reviewchart.morereviews",
+        "jsaction": "pane.wfvdle60.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 6,
       "clickResult": {
         "clicked": true,
-        "index": 82,
-        "text": "477 Berichte",
+        "index": 88,
+        "text": "489 Berichte",
         "ariaLabel": "",
         "title": "",
-        "jsaction": "pane.wfvdle50.reviewchart.morereviews",
+        "jsaction": "pane.wfvdle60.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
-      "reviewsPanelAfterClick": false
+      "reviewsPanelAfterClick": false,
+      "reviewsContinuationAttempts": [
+        {
+          "clicked": false,
+          "visibleContinuationCount": 0,
+          "policyNoticeDetected": false
+        }
+      ]
     },
     {
       "rank": 2,
       "candidate": {
-        "domIndex": 96,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "OP 81",
-        "ariaLabel": "OP, in 81 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle97; keydown:pane.wfvdle97; mouseover:pane.wfvdle97; mouseout:pane.wfvdle97;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 96
-      }
-    },
-    {
-      "rank": 3,
-      "candidate": {
-        "domIndex": 97,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "pflegepersonal 28",
-        "ariaLabel": "pflegepersonal, in 28 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle98; keydown:pane.wfvdle98; mouseover:pane.wfvdle98; mouseout:pane.wfvdle98;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 97
-      }
-    },
-    {
-      "rank": 4,
-      "candidate": {
-        "domIndex": 98,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "die ärzte 24",
-        "ariaLabel": "die ärzte, in 24 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle99; keydown:pane.wfvdle99; mouseover:pane.wfvdle99; mouseout:pane.wfvdle99;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 98
-      }
-    },
-    {
-      "rank": 5,
-      "candidate": {
-        "domIndex": 99,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "untersuchung 16",
-        "ariaLabel": "untersuchung, in 16 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle100; keydown:pane.wfvdle100; mouseover:pane.wfvdle100; mouseout:pane.wfvdle100;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 99
-      }
-    },
-    {
-      "rank": 6,
-      "candidate": {
-        "domIndex": 108,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Berend Virgils Local Guide · 8 Rezensionen · 4 Fotos",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle108.review.reviewerlink",
-        "className": "al6Kxe"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 108
-      }
-    },
-    {
-      "rank": 7,
-      "candidate": {
-        "domIndex": 114,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Iris Heinzel 4 Rezensionen",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle109.review.reviewerlink",
-        "className": "al6Kxe"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 114
-      }
-    },
-    {
-      "rank": 8,
-      "candidate": {
-        "domIndex": 121,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "David 3 Rezensionen",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle110.review.reviewerlink",
-        "className": "al6Kxe"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 121
-      }
-    },
-    {
-      "rank": 9,
-      "candidate": {
-        "domIndex": 95,
+        "domIndex": 53,
         "score": 80,
         "reasons": [
           "explicit_all_reviews",
@@ -239,27 +153,35 @@
           "button_like_control"
         ],
         "tagName": "BUTTON",
-        "text": " Alle",
+        "text": "Alle",
         "ariaLabel": "Alle Rezensionen",
         "title": "",
-        "jsaction": "pane.wfvdle96; keydown:pane.wfvdle96; mouseover:pane.wfvdle96; mouseout:pane.wfvdle96;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "jsaction": "pane.wfvdle139; keydown:pane.wfvdle139; mouseover:pane.wfvdle139; mouseout:pane.wfvdle139;focus:pane.focustooltip;blur:pane.blurtooltip",
         "className": "e2moi"
       },
+      "candidateCountBeforeClick": 4,
       "clickResult": {
         "clicked": true,
-        "index": 95,
-        "text": "20 km",
-        "ariaLabel": "",
+        "index": 53,
+        "text": "Alle",
+        "ariaLabel": "Alle Rezensionen",
         "title": "",
-        "jsaction": "scale.click",
-        "className": "LNGekf"
+        "jsaction": "pane.wfvdle139; keydown:pane.wfvdle139; mouseover:pane.wfvdle139; mouseout:pane.wfvdle139;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
       },
-      "reviewsPanelAfterClick": false
+      "reviewsPanelAfterClick": false,
+      "reviewsContinuationAttempts": [
+        {
+          "clicked": false,
+          "visibleContinuationCount": 0,
+          "policyNoticeDetected": false
+        }
+      ]
     },
     {
-      "rank": 10,
+      "rank": 3,
       "candidate": {
-        "domIndex": 41,
+        "domIndex": 44,
         "score": 35,
         "reasons": [
           "review_keyword",
@@ -269,22 +191,32 @@
         "text": "Rezensionen",
         "ariaLabel": "Rezensionen zu „St. Bernhard-Hospital Kamp-Lintfort GmbH“",
         "title": "",
-        "jsaction": "pane.wfvdle41tabs.tabclick; mousedown:pane.wfvdle41tabs.dragtabs; focus:pane.wfvdle41tabs.focus",
-        "className": "hh2c6"
+        "jsaction": "pane.wfvdle51tabs.tabclick; mousedown:pane.wfvdle51tabs.dragtabs; focus:pane.wfvdle51tabs.focus",
+        "className": "hh2c6 G7m0Af"
       },
+      "candidateCountBeforeClick": 4,
       "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 41,
-        "text": "Weitere Informationen",
-        "ariaLabel": "",
-        "jsaction": ""
-      }
+        "clicked": true,
+        "index": 44,
+        "text": "Rezensionen",
+        "ariaLabel": "Rezensionen zu „St. Bernhard-Hospital Kamp-Lintfort GmbH“",
+        "title": "",
+        "jsaction": "pane.wfvdle51tabs.tabclick; mousedown:pane.wfvdle51tabs.dragtabs; focus:pane.wfvdle51tabs.focus",
+        "className": "hh2c6 G7m0Af"
+      },
+      "reviewsPanelAfterClick": false,
+      "reviewsContinuationAttempts": [
+        {
+          "clicked": false,
+          "visibleContinuationCount": 0,
+          "policyNoticeDetected": false
+        }
+      ]
     },
     {
-      "rank": 11,
+      "rank": 4,
       "candidate": {
-        "domIndex": 92,
+        "domIndex": 50,
         "score": 35,
         "reasons": [
           "review_keyword",
@@ -294,24 +226,32 @@
         "text": "",
         "ariaLabel": "In Rezensionen suchen",
         "title": "",
-        "jsaction": "pane.wfvdle94;keydown:pane.wfvdle94;mouseover:pane.wfvdle94;mouseout:pane.wfvdle94;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "jsaction": "pane.wfvdle137;keydown:pane.wfvdle137;mouseover:pane.wfvdle137;mouseout:pane.wfvdle137;focus:pane.focustooltip;blur:pane.blurtooltip",
         "className": "S9kvJb"
       },
+      "candidateCountBeforeClick": 4,
       "clickResult": {
         "clicked": true,
-        "index": 92,
-        "text": "Bedingungen",
-        "ariaLabel": "",
+        "index": 50,
+        "text": "",
+        "ariaLabel": "In Rezensionen suchen",
         "title": "",
-        "jsaction": "fineprint.terms",
-        "className": "ZiKfbc tUdUte Hk4XGb ZqLNQd"
+        "jsaction": "pane.wfvdle137;keydown:pane.wfvdle137;mouseover:pane.wfvdle137;mouseout:pane.wfvdle137;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "S9kvJb"
       },
-      "reviewsPanelAfterClick": false
+      "reviewsPanelAfterClick": false,
+      "reviewsContinuationAttempts": [
+        {
+          "clicked": false,
+          "visibleContinuationCount": 0,
+          "policyNoticeDetected": false
+        }
+      ]
     },
     {
-      "rank": 12,
+      "rank": 5,
       "candidate": {
-        "domIndex": 94,
+        "domIndex": 52,
         "score": 35,
         "reasons": [
           "review_keyword",
@@ -321,745 +261,67 @@
         "text": " Sortieren",
         "ariaLabel": "Rezensionen sortieren",
         "title": "",
-        "jsaction": "pane.wfvdle95;keydown:pane.wfvdle95;mouseover:pane.wfvdle95;mouseout:pane.wfvdle95",
+        "jsaction": "pane.wfvdle138;keydown:pane.wfvdle138;mouseover:pane.wfvdle138;mouseout:pane.wfvdle138",
         "className": "S9kvJb"
       },
+      "candidateCountBeforeClick": 3,
       "clickResult": {
         "clicked": true,
-        "index": 94,
-        "text": "Produktfeedback geben",
-        "ariaLabel": "",
+        "index": 52,
+        "text": " Sortieren",
+        "ariaLabel": "Rezensionen sortieren",
         "title": "",
-        "jsaction": "fineprint.rap",
-        "className": "ZiKfbc tUdUte Hk4XGb ZqLNQd UjoA5b"
+        "jsaction": "pane.wfvdle138;keydown:pane.wfvdle138;mouseover:pane.wfvdle138;mouseout:pane.wfvdle138",
+        "className": "S9kvJb"
       },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 13,
-      "candidate": {
-        "domIndex": 127,
-        "score": 35,
-        "reasons": [
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Weitere Rezensionen (474)",
-        "ariaLabel": "Weitere Rezensionen (474)",
-        "title": "",
-        "jsaction": "pane.wfvdle111",
-        "className": "M77dve"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 127
-      }
-    },
-    {
-      "rank": 14,
-      "candidate": {
-        "domIndex": 3,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "",
-        "ariaLabel": "Suchen",
-        "title": "",
-        "jsaction": "omnibox.search; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip",
-        "className": "mL3xi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 3,
-        "text": "",
-        "ariaLabel": "Menü",
-        "jsaction": "mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip"
-      }
-    },
-    {
-      "rank": 15,
-      "candidate": {
-        "domIndex": 4,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "",
-        "ariaLabel": "Schließen",
-        "title": "",
-        "jsaction": "omnibox.clear; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; focus:omnibox.hidesuggestions; blur:omnibox.hidetooltip",
-        "className": "yAuNSb vF7Cdb"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 4,
-        "text": "",
-        "ariaLabel": "Suchen",
-        "jsaction": "omnibox.search; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip"
-      }
-    },
-    {
-      "rank": 16,
-      "candidate": {
-        "domIndex": 7,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "",
-        "ariaLabel": "Menü",
-        "title": "",
-        "jsaction": "navigationrail.more",
-        "className": "wR3cXd"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 7,
-        "text": "",
-        "ariaLabel": "Seitenleiste ausblenden",
-        "jsaction": "pane.close;mouseover:pane.showtoggletooltip; mouseout:pane.hidetoggletooltip; focus:pane.showtoggletooltip; blur:pane.hidetoggletooltip"
-      }
-    },
-    {
-      "rank": 17,
-      "candidate": {
-        "domIndex": 8,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Gespeichert",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.saved",
-        "className": "wR3cXd fontLabelMedium"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 8,
-        "text": "",
-        "ariaLabel": "Schließen",
-        "title": "",
-        "jsaction": "rap.signincard.cancel",
-        "className": "rSgkCb"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 18,
-      "candidate": {
-        "domIndex": 9,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Zuletzt verwendet",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.recent",
-        "className": "wR3cXd fontLabelMedium"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 9,
-        "text": " Zuletzt verwendet",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.recent",
-        "className": "wR3cXd fontLabelMedium"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 19,
-      "candidate": {
-        "domIndex": 10,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "St. Bernhard-Hospital Kamp-Lintfort GmbH",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "click:navigationrail.bundle; mouseover:navigationrail.bundle; mouseout:navigationrail.bundle",
-        "className": "atHn2d wR3cXd aJPqP fontBodySmall QyI6Nb"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 10,
-        "text": " Zuletzt verwendet",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.recent",
-        "className": "wR3cXd fontLabelMedium atHn2d"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 20,
-      "candidate": {
-        "domIndex": 11,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " App herunterladen",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.mobileapp",
-        "className": "wR3cXd Ijds6e fontLabelMedium"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 11,
-        "text": "St. Bernhard-Hospital Kamp-Lintfort GmbH",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "click:navigationrail.bundle; mouseover:navigationrail.bundle; mouseout:navigationrail.bundle",
-        "className": "wR3cXd aJPqP fontBodySmall QyI6Nb"
-      },
-      "reviewsPanelAfterClick": {
-        "reviewNodeCount": 32,
-        "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps"
-      }
+      "reviewsPanelAfterClick": false,
+      "reviewsContinuationAttempts": [
+        {
+          "clicked": false,
+          "visibleContinuationCount": 0,
+          "policyNoticeDetected": false
+        }
+      ]
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 3,
   "reviewClick": {
-    "clicked": true,
-    "strategy": "candidate",
-    "label": "St. Bernhard-Hospital Kamp-Lintfort GmbH",
-    "domIndex": 11,
-    "candidateScore": 10,
-    "candidateReasons": [
-      "button_like_control"
-    ],
-    "jsaction": "click:navigationrail.bundle; mouseover:navigationrail.bundle; mouseout:navigationrail.bundle"
+    "clicked": false,
+    "reason": "reviews_panel_not_opened"
   },
-  "reviewsPanel": {
-    "reviewNodeCount": 32,
-    "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps"
-  },
-  "initialReviewsState": {
-    "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-    "reviewNodeCount": 32,
-    "uniqueReviewIdCount": 3,
-    "foundTarget": true,
-    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-    "tagName": "DIV",
-    "scrollTop": 0,
-    "scrollHeight": 4466,
-    "clientHeight": 735,
-    "distanceToBottom": 3731
-  },
-  "declaredReviewTotalInfo": {
-    "found": true,
-    "declaredReviewTotal": 477,
-    "sourceKind": "rating-histogram",
-    "histogramByStar": {
-      "1": 128,
-      "2": 21,
-      "3": 18,
-      "4": 45,
-      "5": 265
-    },
-    "histogramStarCount": 5
-  },
-  "declaredReviewTotal": 477,
-  "declaredTotalSettleSeconds": 1.5,
-  "declaredTotalFastStopUsed": false,
-  "declaredTotalFinalCheck": null,
-  "fallbackStableRoundsRequired": 5,
-  "scrollResults": [
-    {
-      "scrolled": true,
-      "strategy": "pane_to_bottom",
-      "before": 0,
-      "after": 3730.5,
-      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-      "tagName": "DIV",
-      "scrollHeight": 4466,
-      "clientHeight": 735,
-      "distanceToBottom": 0.5,
-      "reviewNodeCount": 32,
-      "uniqueReviewIdCount": 3,
-      "iteration": 1,
-      "declaredReviewTotal": 477,
-      "stateAfterDelay": {
-        "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-        "reviewNodeCount": 32,
-        "uniqueReviewIdCount": 3,
-        "foundTarget": true,
-        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-        "tagName": "DIV",
-        "scrollTop": 3730.5,
-        "scrollHeight": 4872,
-        "clientHeight": 735,
-        "distanceToBottom": 406.5
-      },
-      "noGrowthCycles": 0,
-      "networkIdleSeconds": 3.540153499925509,
-      "declaredTotalReached": false,
-      "declaredTotalFastStopReady": false
-    },
-    {
-      "scrolled": true,
-      "strategy": "pane_to_bottom",
-      "before": 3730.5,
-      "after": 4136.5,
-      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-      "tagName": "DIV",
-      "scrollHeight": 4872,
-      "clientHeight": 735,
-      "distanceToBottom": 0.5,
-      "reviewNodeCount": 32,
-      "uniqueReviewIdCount": 3,
-      "iteration": 2,
-      "declaredReviewTotal": 477,
-      "stateAfterDelay": {
-        "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-        "reviewNodeCount": 32,
-        "uniqueReviewIdCount": 3,
-        "foundTarget": true,
-        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-        "tagName": "DIV",
-        "scrollTop": 4136.5,
-        "scrollHeight": 4872,
-        "clientHeight": 735,
-        "distanceToBottom": 0.5
-      },
-      "bottomProbe": {
-        "waitSeconds": 6.0,
-        "nudgeUp": {
-          "nudged": true,
-          "before": 4136.5,
-          "after": 3876.5,
-          "scrollHeight": 4872,
-          "clientHeight": 735
-        },
-        "scrollDown": {
-          "scrolled": true,
-          "strategy": "pane_to_bottom",
-          "before": 3876.5,
-          "after": 4136.5,
-          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-          "tagName": "DIV",
-          "scrollHeight": 4872,
-          "clientHeight": 735,
-          "distanceToBottom": 0.5,
-          "reviewNodeCount": 32,
-          "uniqueReviewIdCount": 3
-        },
-        "stateAfterProbe": {
-          "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-          "reviewNodeCount": 32,
-          "uniqueReviewIdCount": 3,
-          "foundTarget": true,
-          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-          "tagName": "DIV",
-          "scrollTop": 4136.5,
-          "scrollHeight": 4872,
-          "clientHeight": 735,
-          "distanceToBottom": 0.5
-        }
-      },
-      "stateAfterProbe": {
-        "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-        "reviewNodeCount": 32,
-        "uniqueReviewIdCount": 3,
-        "foundTarget": true,
-        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-        "tagName": "DIV",
-        "scrollTop": 4136.5,
-        "scrollHeight": 4872,
-        "clientHeight": 735,
-        "distanceToBottom": 0.5
-      },
-      "noGrowthCycles": 1,
-      "networkIdleSeconds": 17.42563716589939,
-      "declaredTotalReached": false,
-      "declaredTotalFastStopReady": false
-    },
-    {
-      "scrolled": true,
-      "strategy": "pane_to_bottom",
-      "before": 4136.5,
-      "after": 4136.5,
-      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-      "tagName": "DIV",
-      "scrollHeight": 4872,
-      "clientHeight": 735,
-      "distanceToBottom": 0.5,
-      "reviewNodeCount": 32,
-      "uniqueReviewIdCount": 3,
-      "iteration": 3,
-      "declaredReviewTotal": 477,
-      "stateAfterDelay": {
-        "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-        "reviewNodeCount": 32,
-        "uniqueReviewIdCount": 3,
-        "foundTarget": true,
-        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-        "tagName": "DIV",
-        "scrollTop": 4136.5,
-        "scrollHeight": 4872,
-        "clientHeight": 735,
-        "distanceToBottom": 0.5
-      },
-      "bottomProbe": {
-        "waitSeconds": 6.0,
-        "nudgeUp": {
-          "nudged": true,
-          "before": 4136.5,
-          "after": 3876.5,
-          "scrollHeight": 4872,
-          "clientHeight": 735
-        },
-        "scrollDown": {
-          "scrolled": true,
-          "strategy": "pane_to_bottom",
-          "before": 3876.5,
-          "after": 4136.5,
-          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-          "tagName": "DIV",
-          "scrollHeight": 4872,
-          "clientHeight": 735,
-          "distanceToBottom": 0.5,
-          "reviewNodeCount": 32,
-          "uniqueReviewIdCount": 3
-        },
-        "stateAfterProbe": {
-          "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-          "reviewNodeCount": 32,
-          "uniqueReviewIdCount": 3,
-          "foundTarget": true,
-          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-          "tagName": "DIV",
-          "scrollTop": 4136.5,
-          "scrollHeight": 4872,
-          "clientHeight": 735,
-          "distanceToBottom": 0.5
-        }
-      },
-      "stateAfterProbe": {
-        "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-        "reviewNodeCount": 32,
-        "uniqueReviewIdCount": 3,
-        "foundTarget": true,
-        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-        "tagName": "DIV",
-        "scrollTop": 4136.5,
-        "scrollHeight": 4872,
-        "clientHeight": 735,
-        "distanceToBottom": 0.5
-      },
-      "noGrowthCycles": 2,
-      "networkIdleSeconds": 31.318778290995397,
-      "declaredTotalReached": false,
-      "declaredTotalFastStopReady": false
-    },
-    {
-      "scrolled": true,
-      "strategy": "pane_to_bottom",
-      "before": 4136.5,
-      "after": 4136.5,
-      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-      "tagName": "DIV",
-      "scrollHeight": 4872,
-      "clientHeight": 735,
-      "distanceToBottom": 0.5,
-      "reviewNodeCount": 32,
-      "uniqueReviewIdCount": 3,
-      "iteration": 4,
-      "declaredReviewTotal": 477,
-      "stateAfterDelay": {
-        "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-        "reviewNodeCount": 32,
-        "uniqueReviewIdCount": 3,
-        "foundTarget": true,
-        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-        "tagName": "DIV",
-        "scrollTop": 4136.5,
-        "scrollHeight": 4872,
-        "clientHeight": 735,
-        "distanceToBottom": 0.5
-      },
-      "bottomProbe": {
-        "waitSeconds": 6.0,
-        "nudgeUp": {
-          "nudged": true,
-          "before": 4136.5,
-          "after": 3876.5,
-          "scrollHeight": 4872,
-          "clientHeight": 735
-        },
-        "scrollDown": {
-          "scrolled": true,
-          "strategy": "pane_to_bottom",
-          "before": 3876.5,
-          "after": 4136.5,
-          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-          "tagName": "DIV",
-          "scrollHeight": 4872,
-          "clientHeight": 735,
-          "distanceToBottom": 0.5,
-          "reviewNodeCount": 32,
-          "uniqueReviewIdCount": 3
-        },
-        "stateAfterProbe": {
-          "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-          "reviewNodeCount": 32,
-          "uniqueReviewIdCount": 3,
-          "foundTarget": true,
-          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-          "tagName": "DIV",
-          "scrollTop": 4136.5,
-          "scrollHeight": 4872,
-          "clientHeight": 735,
-          "distanceToBottom": 0.5
-        }
-      },
-      "stateAfterProbe": {
-        "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-        "reviewNodeCount": 32,
-        "uniqueReviewIdCount": 3,
-        "foundTarget": true,
-        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-        "tagName": "DIV",
-        "scrollTop": 4136.5,
-        "scrollHeight": 4872,
-        "clientHeight": 735,
-        "distanceToBottom": 0.5
-      },
-      "noGrowthCycles": 3,
-      "networkIdleSeconds": 45.13714995793998,
-      "declaredTotalReached": false,
-      "declaredTotalFastStopReady": false
-    },
-    {
-      "scrolled": true,
-      "strategy": "pane_to_bottom",
-      "before": 4136.5,
-      "after": 4136.5,
-      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-      "tagName": "DIV",
-      "scrollHeight": 4872,
-      "clientHeight": 735,
-      "distanceToBottom": 0.5,
-      "reviewNodeCount": 32,
-      "uniqueReviewIdCount": 3,
-      "iteration": 5,
-      "declaredReviewTotal": 477,
-      "stateAfterDelay": {
-        "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-        "reviewNodeCount": 32,
-        "uniqueReviewIdCount": 3,
-        "foundTarget": true,
-        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-        "tagName": "DIV",
-        "scrollTop": 4136.5,
-        "scrollHeight": 4872,
-        "clientHeight": 735,
-        "distanceToBottom": 0.5
-      },
-      "bottomProbe": {
-        "waitSeconds": 6.0,
-        "nudgeUp": {
-          "nudged": true,
-          "before": 4136.5,
-          "after": 3876.5,
-          "scrollHeight": 4872,
-          "clientHeight": 735
-        },
-        "scrollDown": {
-          "scrolled": true,
-          "strategy": "pane_to_bottom",
-          "before": 3876.5,
-          "after": 4136.5,
-          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-          "tagName": "DIV",
-          "scrollHeight": 4872,
-          "clientHeight": 735,
-          "distanceToBottom": 0.5,
-          "reviewNodeCount": 32,
-          "uniqueReviewIdCount": 3
-        },
-        "stateAfterProbe": {
-          "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-          "reviewNodeCount": 32,
-          "uniqueReviewIdCount": 3,
-          "foundTarget": true,
-          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-          "tagName": "DIV",
-          "scrollTop": 4136.5,
-          "scrollHeight": 4872,
-          "clientHeight": 735,
-          "distanceToBottom": 0.5
-        }
-      },
-      "stateAfterProbe": {
-        "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-        "reviewNodeCount": 32,
-        "uniqueReviewIdCount": 3,
-        "foundTarget": true,
-        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-        "tagName": "DIV",
-        "scrollTop": 4136.5,
-        "scrollHeight": 4872,
-        "clientHeight": 735,
-        "distanceToBottom": 0.5
-      },
-      "noGrowthCycles": 4,
-      "networkIdleSeconds": 59.035069665987976,
-      "declaredTotalReached": false,
-      "declaredTotalFastStopReady": false
-    },
-    {
-      "scrolled": true,
-      "strategy": "pane_to_bottom",
-      "before": 4136.5,
-      "after": 4136.5,
-      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-      "tagName": "DIV",
-      "scrollHeight": 4872,
-      "clientHeight": 735,
-      "distanceToBottom": 0.5,
-      "reviewNodeCount": 32,
-      "uniqueReviewIdCount": 3,
-      "iteration": 6,
-      "declaredReviewTotal": 477,
-      "stateAfterDelay": {
-        "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-        "reviewNodeCount": 32,
-        "uniqueReviewIdCount": 3,
-        "foundTarget": true,
-        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-        "tagName": "DIV",
-        "scrollTop": 4136.5,
-        "scrollHeight": 4872,
-        "clientHeight": 735,
-        "distanceToBottom": 0.5
-      },
-      "bottomProbe": {
-        "waitSeconds": 6.0,
-        "nudgeUp": {
-          "nudged": true,
-          "before": 4136.5,
-          "after": 3876.5,
-          "scrollHeight": 4872,
-          "clientHeight": 735
-        },
-        "scrollDown": {
-          "scrolled": true,
-          "strategy": "pane_to_bottom",
-          "before": 3876.5,
-          "after": 4136.5,
-          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-          "tagName": "DIV",
-          "scrollHeight": 4872,
-          "clientHeight": 735,
-          "distanceToBottom": 0.5,
-          "reviewNodeCount": 32,
-          "uniqueReviewIdCount": 3
-        },
-        "stateAfterProbe": {
-          "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-          "reviewNodeCount": 32,
-          "uniqueReviewIdCount": 3,
-          "foundTarget": true,
-          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-          "tagName": "DIV",
-          "scrollTop": 4136.5,
-          "scrollHeight": 4872,
-          "clientHeight": 735,
-          "distanceToBottom": 0.5
-        }
-      },
-      "stateAfterProbe": {
-        "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-        "reviewNodeCount": 32,
-        "uniqueReviewIdCount": 3,
-        "foundTarget": true,
-        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-        "tagName": "DIV",
-        "scrollTop": 4136.5,
-        "scrollHeight": 4872,
-        "clientHeight": 735,
-        "distanceToBottom": 0.5
-      },
-      "noGrowthCycles": 5,
-      "networkIdleSeconds": 72.83932708296925,
-      "declaredTotalReached": false,
-      "declaredTotalFastStopReady": false
-    }
-  ],
-  "scrollStopReason": "exhausted_no_growth_at_bottom",
-  "exhausted": true,
-  "scrollSafetyTimeoutHit": false,
-  "growthEvents": [
-    {
-      "iteration": 1,
-      "uniqueReviewIdCount": 3,
-      "scrollHeight": 4872
-    }
-  ],
-  "networkEventsDuringScroll": 0,
-  "finalNetworkIdleSeconds": 72.83933633298147,
-  "noGrowthCycles": 5,
-  "finalReviewsState": {
-    "title": "St. Bernhard-Hospital Kamp-Lintfort GmbH - Google Maps",
-    "reviewNodeCount": 32,
-    "uniqueReviewIdCount": 3,
-    "foundTarget": true,
-    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-    "tagName": "DIV",
-    "scrollTop": 4136.5,
-    "scrollHeight": 4872,
-    "clientHeight": 735,
-    "distanceToBottom": 0.5
-  },
-  "reachedDeclaredReviewTotal": false,
-  "reachedReviewPaneEnd": true,
-  "finalUniqueReviewIdCount": 3,
-  "finalScrollTop": 4136.5,
-  "finalScrollHeight": 4872,
-  "reviewExpansion": {
-    "buttonCount": 5,
-    "clickedCount": 5
-  },
-  "matchedRequestCount": 55,
-  "batchexecuteCount": 5,
-  "reviewPhaseXhrCount": 25,
-  "captureSuccessful": true,
-  "finishedAt": "2026-04-15T19:05:24Z",
+  "reviewsPanel": false,
+  "failureReason": "reviews_panel_not_opened",
+  "scrollStopReason": "reviews_panel_not_opened",
+  "captureSuccessful": false,
+  "finishedAt": "2026-05-11T16:27:13Z",
+  "reviewPhaseXhrCount": 5,
+  "matchedRequestCount": 0,
+  "batchexecuteCount": 0,
   "retryRunsRequested": 2,
-  "retryRunsExecuted": 1,
+  "retryRunsExecuted": 2,
   "retryAttempts": [
     {
       "attempt": 1,
       "outputDir": "artifacts/st-bernhard-hospital",
       "scrollDelayUsed": 1.5,
-      "captureSuccessful": true,
-      "failureReason": null,
-      "finalUniqueReviewIdCount": 3,
-      "scrollStopReason": "exhausted_no_growth_at_bottom",
-      "declaredReviewTotal": 477
+      "captureSuccessful": false,
+      "failureReason": "reviews_panel_not_opened",
+      "finalUniqueReviewIdCount": 0,
+      "scrollStopReason": "reviews_panel_not_opened",
+      "declaredReviewTotal": null
+    },
+    {
+      "attempt": 2,
+      "outputDir": "artifacts/st-bernhard-hospital/retry_2",
+      "scrollDelayUsed": 2.25,
+      "captureSuccessful": false,
+      "failureReason": "reviews_panel_not_opened",
+      "finalUniqueReviewIdCount": 0,
+      "scrollStopReason": "reviews_panel_not_opened",
+      "declaredReviewTotal": null
     }
   ],
-  "mergedReviewCountAcrossAttempts": 3,
-  "reviewsPath": "artifacts/st-bernhard-hospital/reviews.json",
-  "latestDeclaredReviewTotalAcrossAttempts": 477
+  "mergedReviewCountAcrossAttempts": 0,
+  "reviewsPath": null,
+  "latestDeclaredReviewTotalAcrossAttempts": null
 }

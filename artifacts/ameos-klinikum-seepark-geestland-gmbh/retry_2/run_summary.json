@@ -1,0 +1,689 @@
+{
+  "url": "https://www.google.com/maps/place/AMEOS+Klinikum+Seepark+Geestland/@53.6156649,8.6311408,17z/data=!3m1!4b1!4m6!3m5!1s0x47b6ae12216b1d05:0x662bb95e8343ae!8m2!3d53.6156649!4d8.6311408!16s%2Fg%2F1tfmgww_?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "placeId": "ameos-klinikum-seepark-geestland-gmbh",
+  "startedAt": "2026-05-11T11:46:39Z",
+  "scrollDelayUsed": 2.25,
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "5E63F85B844E6049B763F537B6E1BB53",
+  "selectedTargetId": "5E63F85B844E6049B763F537B6E1BB53",
+  "selectedTargetUrl": "https://www.google.com/maps/place/AMEOS+Klinikum+Seepark+Geestland/@53.6156649,8.6311408,17z/data=!3m1!4b1!4m6!3m5!1s0x47b6ae12216b1d05:0x662bb95e8343ae!8m2!3d53.6156649!4d8.6311408!16s%2Fg%2F1tfmgww_?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "targetSelectionStrategy": "exact_url_match",
+  "cookieConsent": {
+    "clicked": true,
+    "action": "accept",
+    "attempts": [
+      {
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/AMEOS%2BKlinikum%2BSeepark%2BGeestland/@53.6156649,8.6311408,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b6ae12216b1d05:0x662bb95e8343ae!8m2!3d53.6156649!4d8.6311408!16s%252Fg%252F1tfmgww_?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/AMEOS%2BKlinikum%2BSeepark%2BGeestland/@53.6156649,8.6311408,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b6ae12216b1d05:0x662bb95e8343ae!8m2!3d53.6156649!4d8.6311408!16s%252Fg%252F1tfmgww_?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
+        "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/AMEOS%2BKlinikum%2BSeepark%2BGeestland/@53.6156649,8.6311408,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b6ae12216b1d05:0x662bb95e8343ae!8m2!3d53.6156649!4d8.6311408!16s%252Fg%252F1tfmgww_?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "onConsentHost": true,
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/AMEOS+Klinikum+Seepark+Geestland/@53.6156649,8.6311408,17z/data=!3m1!4b1!4m6!3m5!1s0x47b6ae12216b1d05:0x662bb95e8343ae!8m2!3d53.6156649!4d8.6311408!16s%2Fg%2F1tfmgww_?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
+      }
+    ],
+    "resolvedWith": {
+      "clicked": true,
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
+      "strategy": "direct_selector",
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/AMEOS%2BKlinikum%2BSeepark%2BGeestland/@53.6156649,8.6311408,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b6ae12216b1d05:0x662bb95e8343ae!8m2!3d53.6156649!4d8.6311408!16s%252Fg%252F1tfmgww_?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+    }
+  },
+  "reviewOpenAttempts": [
+    {
+      "rank": 1,
+      "candidate": {
+        "domIndex": 64,
+        "score": 215,
+        "reasons": [
+          "jsaction_more_reviews",
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "143 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle14.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "candidateCountBeforeClick": 6,
+      "clickResult": {
+        "clicked": true,
+        "index": 64,
+        "text": "143 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle14.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "reviewsPanelAfterClick": {
+        "reviewNodeCount": 87,
+        "title": "AMEOS Klinikum Seepark Geestland - Google Maps"
+      }
+    }
+  ],
+  "reviewOpenCandidateCount": 6,
+  "reviewClick": {
+    "clicked": true,
+    "strategy": "candidate",
+    "label": "143 Berichte",
+    "domIndex": 64,
+    "candidateScore": 215,
+    "candidateReasons": [
+      "jsaction_more_reviews",
+      "count_label",
+      "review_keyword",
+      "button_like_control"
+    ],
+    "jsaction": "pane.wfvdle14.reviewchart.morereviews"
+  },
+  "reviewsPanel": {
+    "reviewNodeCount": 87,
+    "title": "AMEOS Klinikum Seepark Geestland - Google Maps"
+  },
+  "initialReviewsState": {
+    "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+    "reviewNodeCount": 87,
+    "uniqueReviewIdCount": 10,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 0,
+    "scrollHeight": 3627,
+    "clientHeight": 562,
+    "distanceToBottom": 3065
+  },
+  "declaredReviewTotalInfo": {
+    "found": true,
+    "declaredReviewTotal": 143,
+    "sourceKind": "rating-histogram",
+    "histogramByStar": {
+      "1": 26,
+      "2": 3,
+      "3": 16,
+      "4": 24,
+      "5": 74
+    },
+    "histogramStarCount": 5
+  },
+  "declaredReviewTotal": 143,
+  "declaredTotalSettleSeconds": 1.5,
+  "declaredTotalFastStopUsed": false,
+  "declaredTotalFinalCheck": null,
+  "fallbackStableRoundsRequired": 5,
+  "scrollResults": [
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 0,
+      "after": 3064.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 3627,
+      "clientHeight": 562,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 87,
+      "uniqueReviewIdCount": 10,
+      "iteration": 1,
+      "declaredReviewTotal": 143,
+      "stateAfterDelay": {
+        "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+        "reviewNodeCount": 185,
+        "uniqueReviewIdCount": 20,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 3064.5,
+        "scrollHeight": 7418,
+        "clientHeight": 562,
+        "distanceToBottom": 3791.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.2582938224077225e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 3064.5,
+      "after": 6855.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 7418,
+      "clientHeight": 562,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 185,
+      "uniqueReviewIdCount": 20,
+      "iteration": 2,
+      "declaredReviewTotal": 143,
+      "stateAfterDelay": {
+        "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+        "reviewNodeCount": 289,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 6855.5,
+        "scrollHeight": 11152,
+        "clientHeight": 562,
+        "distanceToBottom": 3734.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.100008375942707e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 6855.5,
+      "after": 10589.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 11152,
+      "clientHeight": 562,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 289,
+      "uniqueReviewIdCount": 30,
+      "iteration": 3,
+      "declaredReviewTotal": 143,
+      "stateAfterDelay": {
+        "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+        "reviewNodeCount": 289,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 10589.5,
+        "scrollHeight": 11152,
+        "clientHeight": 562,
+        "distanceToBottom": 0.5
+      },
+      "bottomProbe": {
+        "waitSeconds": 6.0,
+        "nudgeUp": {
+          "nudged": true,
+          "before": 10589.5,
+          "after": 10364.5,
+          "scrollHeight": 11152,
+          "clientHeight": 562
+        },
+        "scrollDown": {
+          "scrolled": true,
+          "strategy": "pane_to_bottom",
+          "before": 10364.5,
+          "after": 10589.5,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollHeight": 11152,
+          "clientHeight": 562,
+          "distanceToBottom": 0.5,
+          "reviewNodeCount": 289,
+          "uniqueReviewIdCount": 30
+        },
+        "stateAfterProbe": {
+          "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+          "reviewNodeCount": 289,
+          "uniqueReviewIdCount": 30,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 10589.5,
+          "scrollHeight": 11152,
+          "clientHeight": 562,
+          "distanceToBottom": 0.5
+        }
+      },
+      "stateAfterProbe": {
+        "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+        "reviewNodeCount": 289,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 10589.5,
+        "scrollHeight": 11152,
+        "clientHeight": 562,
+        "distanceToBottom": 0.5
+      },
+      "noGrowthCycles": 1,
+      "networkIdleSeconds": 14.59167716698721,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 10589.5,
+      "after": 10589.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 11152,
+      "clientHeight": 562,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 289,
+      "uniqueReviewIdCount": 30,
+      "iteration": 4,
+      "declaredReviewTotal": 143,
+      "stateAfterDelay": {
+        "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+        "reviewNodeCount": 289,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 10589.5,
+        "scrollHeight": 11152,
+        "clientHeight": 562,
+        "distanceToBottom": 0.5
+      },
+      "bottomProbe": {
+        "waitSeconds": 6.0,
+        "nudgeUp": {
+          "nudged": true,
+          "before": 10589.5,
+          "after": 10364.5,
+          "scrollHeight": 11152,
+          "clientHeight": 562
+        },
+        "scrollDown": {
+          "scrolled": true,
+          "strategy": "pane_to_bottom",
+          "before": 10364.5,
+          "after": 10589.5,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollHeight": 11152,
+          "clientHeight": 562,
+          "distanceToBottom": 0.5,
+          "reviewNodeCount": 289,
+          "uniqueReviewIdCount": 30
+        },
+        "stateAfterProbe": {
+          "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+          "reviewNodeCount": 289,
+          "uniqueReviewIdCount": 30,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 10589.5,
+          "scrollHeight": 11152,
+          "clientHeight": 562,
+          "distanceToBottom": 0.5
+        }
+      },
+      "stateAfterProbe": {
+        "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+        "reviewNodeCount": 289,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 10589.5,
+        "scrollHeight": 11152,
+        "clientHeight": 562,
+        "distanceToBottom": 0.5
+      },
+      "noGrowthCycles": 2,
+      "networkIdleSeconds": 29.188468042062595,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 10589.5,
+      "after": 10589.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 11152,
+      "clientHeight": 562,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 289,
+      "uniqueReviewIdCount": 30,
+      "iteration": 5,
+      "declaredReviewTotal": 143,
+      "stateAfterDelay": {
+        "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+        "reviewNodeCount": 289,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 10589.5,
+        "scrollHeight": 11152,
+        "clientHeight": 562,
+        "distanceToBottom": 0.5
+      },
+      "bottomProbe": {
+        "waitSeconds": 6.0,
+        "nudgeUp": {
+          "nudged": true,
+          "before": 10589.5,
+          "after": 10364.5,
+          "scrollHeight": 11152,
+          "clientHeight": 562
+        },
+        "scrollDown": {
+          "scrolled": true,
+          "strategy": "pane_to_bottom",
+          "before": 10364.5,
+          "after": 10589.5,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollHeight": 11152,
+          "clientHeight": 562,
+          "distanceToBottom": 0.5,
+          "reviewNodeCount": 289,
+          "uniqueReviewIdCount": 30
+        },
+        "stateAfterProbe": {
+          "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+          "reviewNodeCount": 289,
+          "uniqueReviewIdCount": 30,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 10589.5,
+          "scrollHeight": 11152,
+          "clientHeight": 562,
+          "distanceToBottom": 0.5
+        }
+      },
+      "stateAfterProbe": {
+        "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+        "reviewNodeCount": 289,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 10589.5,
+        "scrollHeight": 11152,
+        "clientHeight": 562,
+        "distanceToBottom": 0.5
+      },
+      "noGrowthCycles": 3,
+      "networkIdleSeconds": 43.819991166936234,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 10589.5,
+      "after": 10589.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 11152,
+      "clientHeight": 562,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 289,
+      "uniqueReviewIdCount": 30,
+      "iteration": 6,
+      "declaredReviewTotal": 143,
+      "stateAfterDelay": {
+        "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+        "reviewNodeCount": 289,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 10589.5,
+        "scrollHeight": 11152,
+        "clientHeight": 562,
+        "distanceToBottom": 0.5
+      },
+      "bottomProbe": {
+        "waitSeconds": 6.0,
+        "nudgeUp": {
+          "nudged": true,
+          "before": 10589.5,
+          "after": 10364.5,
+          "scrollHeight": 11152,
+          "clientHeight": 562
+        },
+        "scrollDown": {
+          "scrolled": true,
+          "strategy": "pane_to_bottom",
+          "before": 10364.5,
+          "after": 10589.5,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollHeight": 11152,
+          "clientHeight": 562,
+          "distanceToBottom": 0.5,
+          "reviewNodeCount": 289,
+          "uniqueReviewIdCount": 30
+        },
+        "stateAfterProbe": {
+          "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+          "reviewNodeCount": 289,
+          "uniqueReviewIdCount": 30,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 10589.5,
+          "scrollHeight": 11152,
+          "clientHeight": 562,
+          "distanceToBottom": 0.5
+        }
+      },
+      "stateAfterProbe": {
+        "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+        "reviewNodeCount": 289,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 10589.5,
+        "scrollHeight": 11152,
+        "clientHeight": 562,
+        "distanceToBottom": 0.5
+      },
+      "noGrowthCycles": 4,
+      "networkIdleSeconds": 58.44134312495589,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 10589.5,
+      "after": 10589.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 11152,
+      "clientHeight": 562,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 289,
+      "uniqueReviewIdCount": 30,
+      "iteration": 7,
+      "declaredReviewTotal": 143,
+      "stateAfterDelay": {
+        "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+        "reviewNodeCount": 289,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 10589.5,
+        "scrollHeight": 11152,
+        "clientHeight": 562,
+        "distanceToBottom": 0.5
+      },
+      "bottomProbe": {
+        "waitSeconds": 6.0,
+        "nudgeUp": {
+          "nudged": true,
+          "before": 10589.5,
+          "after": 10364.5,
+          "scrollHeight": 11152,
+          "clientHeight": 562
+        },
+        "scrollDown": {
+          "scrolled": true,
+          "strategy": "pane_to_bottom",
+          "before": 10364.5,
+          "after": 10589.5,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollHeight": 11152,
+          "clientHeight": 562,
+          "distanceToBottom": 0.5,
+          "reviewNodeCount": 289,
+          "uniqueReviewIdCount": 30
+        },
+        "stateAfterProbe": {
+          "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+          "reviewNodeCount": 289,
+          "uniqueReviewIdCount": 30,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 10589.5,
+          "scrollHeight": 11152,
+          "clientHeight": 562,
+          "distanceToBottom": 0.5
+        }
+      },
+      "stateAfterProbe": {
+        "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+        "reviewNodeCount": 289,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 10589.5,
+        "scrollHeight": 11152,
+        "clientHeight": 562,
+        "distanceToBottom": 0.5
+      },
+      "noGrowthCycles": 5,
+      "networkIdleSeconds": 73.0709681250155,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    }
+  ],
+  "scrollStopReason": "exhausted_no_growth_at_bottom",
+  "exhausted": true,
+  "scrollSafetyTimeoutHit": false,
+  "growthEvents": [
+    {
+      "iteration": 1,
+      "uniqueReviewIdCount": 20,
+      "scrollHeight": 7418
+    },
+    {
+      "iteration": 2,
+      "uniqueReviewIdCount": 30,
+      "scrollHeight": 11152
+    }
+  ],
+  "networkEventsDuringScroll": 12,
+  "finalNetworkIdleSeconds": 73.07097700005397,
+  "noGrowthCycles": 5,
+  "finalReviewsState": {
+    "title": "AMEOS Klinikum Seepark Geestland - Google Maps",
+    "reviewNodeCount": 289,
+    "uniqueReviewIdCount": 30,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 10589.5,
+    "scrollHeight": 11152,
+    "clientHeight": 562,
+    "distanceToBottom": 0.5
+  },
+  "reachedDeclaredReviewTotal": false,
+  "reachedReviewPaneEnd": true,
+  "finalUniqueReviewIdCount": 30,
+  "finalScrollTop": 10589.5,
+  "finalScrollHeight": 11152,
+  "reviewExpansion": {
+    "buttonCount": 33,
+    "clickedCount": 33
+  },
+  "matchedRequestCount": 44,
+  "batchexecuteCount": 3,
+  "reviewPhaseXhrCount": 19,
+  "captureSuccessful": true,
+  "finishedAt": "2026-05-11T11:48:24Z"
+}

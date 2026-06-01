@@ -4,11 +4,11 @@
       "attempt": 1,
       "outputDir": "artifacts/klinik-bassum",
       "scrollDelayUsed": 1.5,
-      "captureSuccessful": false,
-      "failureReason": "reviews_panel_not_opened",
-      "finalUniqueReviewIdCount": 0,
-      "scrollStopReason": "reviews_panel_not_opened",
-      "declaredReviewTotal": null
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 199,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 199
     }
   ]
 }

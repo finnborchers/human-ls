@@ -1,40 +1,107 @@
 {
   "url": "https://www.google.com/maps/place/Magdalenen-Klinik/@52.23769,8.07372,17z/data=!3m1!4b1!4m6!3m5!1s0x47b9ef96fa654ae3:0x3f5aa3f26817c43d!8m2!3d52.23769!4d8.07372!16s%2Fg%2F1tdbk2bj?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "niels-stensen-kliniken-magdalenen-klinik",
-  "startedAt": "2026-04-15T18:40:11Z",
+  "startedAt": "2026-05-11T16:03:58Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "6EF1AF9C08947E70C019816EB2D1BECC",
-  "selectedTargetId": "6EF1AF9C08947E70C019816EB2D1BECC",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "086D8FB56B5CA9DCF9E39AE3BC2471C3",
+  "selectedTargetId": "086D8FB56B5CA9DCF9E39AE3BC2471C3",
   "selectedTargetUrl": "https://www.google.com/maps/place/Magdalenen-Klinik/@52.23769,8.07372,17z/data=!3m1!4b1!4m6!3m5!1s0x47b9ef96fa654ae3:0x3f5aa3f26817c43d!8m2!3d52.23769!4d8.07372!16s%2Fg%2F1tdbk2bj?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Magdalenen-Klinik/@52.23769,8.07372,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b9ef96fa654ae3:0x3f5aa3f26817c43d!8m2!3d52.23769!4d8.07372!16s%252Fg%252F1tdbk2bj?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Magdalenen-Klinik/@52.23769,8.07372,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b9ef96fa654ae3:0x3f5aa3f26817c43d!8m2!3d52.23769!4d8.07372!16s%252Fg%252F1tdbk2bj?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Magdalenen-Klinik/@52.23769,8.07372,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b9ef96fa654ae3:0x3f5aa3f26817c43d!8m2!3d52.23769!4d8.07372!16s%252Fg%252F1tdbk2bj?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Magdalenen-Klinik/@52.23769,8.07372,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b9ef96fa654ae3:0x3f5aa3f26817c43d!8m2!3d52.23769!4d8.07372!16s%252Fg%252F1tdbk2bj?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/Magdalenen-Klinik/@52.23769,8.07372,17z/data=!3m1!4b1!4m6!3m5!1s0x47b9ef96fa654ae3:0x3f5aa3f26817c43d!8m2!3d52.23769!4d8.07372!16s%2Fg%2F1tdbk2bj?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Magdalenen-Klinik/@52.23769,8.07372,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b9ef96fa654ae3:0x3f5aa3f26817c43d!8m2!3d52.23769!4d8.07372!16s%252Fg%252F1tdbk2bj?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Magdalenen-Klinik/@52.23769,8.07372,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b9ef96fa654ae3:0x3f5aa3f26817c43d!8m2!3d52.23769!4d8.07372!16s%252Fg%252F1tdbk2bj?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Magdalenen-Klinik/@52.23769,8.07372,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b9ef96fa654ae3:0x3f5aa3f26817c43d!8m2!3d52.23769!4d8.07372!16s%252Fg%252F1tdbk2bj?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
@@ -56,6 +123,7 @@
         "jsaction": "pane.wfvdle14.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 4,
       "clickResult": {
         "clicked": true,
         "index": 46,
@@ -71,7 +139,7 @@
       }
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 4,
   "reviewClick": {
     "clicked": true,
     "strategy": "candidate",
@@ -99,8 +167,8 @@
     "tagName": "DIV",
     "scrollTop": 0,
     "scrollHeight": 1017,
-    "clientHeight": 694,
-    "distanceToBottom": 323
+    "clientHeight": 695,
+    "distanceToBottom": 322
   },
   "declaredReviewTotalInfo": {
     "found": true,
@@ -141,11 +209,11 @@
       "scrolled": true,
       "strategy": "pane_to_bottom",
       "before": 0,
-      "after": 322.5,
+      "after": 321.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 1017,
-      "clientHeight": 694,
+      "clientHeight": 695,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 23,
       "uniqueReviewIdCount": 3,
@@ -158,9 +226,9 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 321.5,
+        "scrollTop": 320.5,
         "scrollHeight": 1017,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 0.5
       },
       "declaredTotalSettle": {
@@ -172,14 +240,14 @@
           "foundTarget": true,
           "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
           "tagName": "DIV",
-          "scrollTop": 321.5,
+          "scrollTop": 320.5,
           "scrollHeight": 1017,
-          "clientHeight": 695,
+          "clientHeight": 696,
           "distanceToBottom": 0.5
         }
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 6.563454332994297,
+      "networkIdleSeconds": 6.645480292150751,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": true
     }
@@ -189,7 +257,7 @@
   "scrollSafetyTimeoutHit": false,
   "growthEvents": [],
   "networkEventsDuringScroll": 0,
-  "finalNetworkIdleSeconds": 6.563494083005935,
+  "finalNetworkIdleSeconds": 6.645503542153165,
   "noGrowthCycles": 0,
   "finalReviewsState": {
     "title": "Magdalenen-Klinik - Google Maps",
@@ -198,25 +266,25 @@
     "foundTarget": true,
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
-    "scrollTop": 321.5,
+    "scrollTop": 320.5,
     "scrollHeight": 1017,
-    "clientHeight": 695,
+    "clientHeight": 696,
     "distanceToBottom": 0.5
   },
   "reachedDeclaredReviewTotal": true,
   "reachedReviewPaneEnd": true,
   "finalUniqueReviewIdCount": 3,
-  "finalScrollTop": 321.5,
+  "finalScrollTop": 320.5,
   "finalScrollHeight": 1017,
   "reviewExpansion": {
     "buttonCount": 2,
     "clickedCount": 2
   },
-  "matchedRequestCount": 24,
-  "batchexecuteCount": 3,
-  "reviewPhaseXhrCount": 5,
+  "matchedRequestCount": 26,
+  "batchexecuteCount": 4,
+  "reviewPhaseXhrCount": 6,
   "captureSuccessful": true,
-  "finishedAt": "2026-04-15T18:40:41Z",
+  "finishedAt": "2026-05-11T16:04:29Z",
   "retryRunsRequested": 2,
   "retryRunsExecuted": 1,
   "retryAttempts": [

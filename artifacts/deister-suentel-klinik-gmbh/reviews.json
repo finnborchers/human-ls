@@ -3,198 +3,360 @@
     "reviewer_name": "Frank",
     "review_text": "Meine Mutter im Dezember 2025 in der Gereatrie in Bad Münder gewesen. Ich kann weder über die Einrichtung noch über das Personal, einschließlich Ärzte (mit ein paar Ausnahmen, die wirklich nett waren und sich gekümmert haben) etwas positives berichten. Wäre zu viel um hier alle Einzelheiten aufzulisten, ich kann nur empfehlen, sich die Klinik (Gereatrie) vorher einmal anzuschauen, denke der erste Besuch wird die Entscheidung für diese Klinik schon entscheiden.",
     "star_rating": 1,
-    "review_time": "vor 2 Monaten"
+    "review_time": "vor 3 Monaten",
+    "like_count": 0,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "S Taubert",
     "review_text": "Ich wurde nachts per RTW eingeliefert. Das Team des RTW war schon toll und in der Klinik wurde ich umgehend versorgt. Wirklich tolles, herzliches, super gut gelauntes und nettes Personal, durch und durch. Alle Untersuchungen gingen super schnell, so dass ich zügig wieder nach Hause konnte. Bei der spürbaren Freude an der Arbeit hätte man aber auch länger bleiben können 😅 Einfach nur \"Dankeschön\" dafür das es Menschen wie Sie gibt 🫶",
     "star_rating": 5,
-    "review_time": "vor 5 Monaten"
+    "review_time": "vor 6 Monaten",
+    "like_count": 0,
+    "has_owner_response": true,
+    "owner_response_time": "vor 3 Monaten",
+    "owner_response_text": "Liebe/r Taubert, vielen Dank für Ihre Bewertung und die lieben Worte. Wir wünschen Ihnen alles Gute. Ihre Deister-Süntel-Klinik"
   },
   {
     "reviewer_name": "Andreas Heynlein",
     "review_text": "Eine gutes kleines Krankenhaus das Team ist sehr freundlich hilfsbereit Zimmer sind mit Toilette Handwaschbecken alles im Zimmer bloß beim Essen muss man ein bisschen nachbestellen aber sonst ist hier alles in Ordnung gute Klinik",
     "star_rating": 5,
-    "review_time": "vor 3 Monaten"
+    "review_time": "vor 4 Monaten",
+    "like_count": 0,
+    "has_owner_response": true,
+    "owner_response_time": "vor 3 Monaten",
+    "owner_response_text": "Lieber Herr Heynlein, vielen Dank für Ihre Bewertung. Wir wünschen Ihnen alles ute. Ihre Deister-Süntel-Klinik."
   },
   {
     "reviewer_name": "Wolfgang Sädler",
     "review_text": "Ich war erst zum 2xin einem Krankenhaus. Ich fand das Personal die Ärzte dort soo toll. Sie haben mich untersucht und alles alles ausgewertet. Ich bin froh das ich dort eingeliefert wurde. Danke an alle die dort arbeiten und helfen.",
     "star_rating": 5,
-    "review_time": "vor 7 Monaten"
+    "review_time": "vor 8 Monaten",
+    "like_count": 0,
+    "has_owner_response": true,
+    "owner_response_time": "vor 7 Monaten",
+    "owner_response_text": "Lieber Herr Sädler, vielen Dank für die tolle Bewertungen. Wir wünschen Ihnen alles Gute. Ihre Deister-Süntel-Klinik Bad Münder."
+  },
+  {
+    "reviewer_name": "Fadi Slo",
+    "review_text": "Gute Service",
+    "star_rating": 5,
+    "review_time": "vor 3 Jahren",
+    "like_count": 3,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Michael",
     "review_text": "Also ich kam als Notfall am 25.06.2022 bis zum 27.06.2022 in die Klinik. Alles hat perfekt funktioniert und ich war 3 Tage auf der Intensiv. Ein Top Ärzte und Pfleger und Schwestern Team. Das Essen war gut und ich wurde bestens behandelt. Alle Fragen wurden sofort beantwortet - das Team hat richtig viel Arbeit und war immer freundlich und zuvorkommend. Meine Hochachtung für alle, die mich und die anderen so gut versorgt haben. Danke nochmals",
     "star_rating": 5,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 3 Jahren",
+    "like_count": 4,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Karl-Heinz Driftmann",
     "review_text": "In der Geriatrie konnte ich nach 2 Tagen Eingewöhnung sehr gute Fortschritte Richtung Selbstständigkeit und Mobilität machen. Ich bin allen Betreuern, Therapeuten und Ärzten sehr dankbar.",
     "star_rating": 5,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 3 Jahren",
+    "like_count": 2,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Lieber Herr Driftmann, das freut uns sehr zu hören, das Sie so gute Fortschritte bei uns in der Geriatrie machen konnten. Vielen Dank für Ihre Bewertung, wir wünschen Ihnen weiterhin alles Gute. Ihre Deister-Süntel-Klinik"
   },
   {
     "reviewer_name": "GM Association",
     "review_text": "Das Haus ist wunderschön gelegen und gut erreichbar. Die Zugänge sind barrierefrei und idR mit automatischen Türen ausgestattet. Das Personal ist auch am Wochenende und in der Nacht freundlich und packt an. Die Zeit für Visite finden Ärzte leider nicht regelmäßig und auch nur kurz. Da es sich um ein kleines Haus mit internistischem Schwerpunkt handelt, ist es nicht schlimm, dass für viele Eingriffe in größere Häuser verlegt werden muss. Das weiß man aber schon vor dem Besuch. Das Essen ist für Krankenhausniveau in Ordnung. Die Servicekräfte die das Essen bringen und holen machen das mit ihrer guten Laune wett.",
     "star_rating": 4,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 2 Jahren",
+    "like_count": 1,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Liebe/r Jackomedy, vielen Dank, das Sie sich die Zeit genommen haben und uns dieses Feedback zu geben. Wir wünschen Ihnen alles Gute. Ihre Deister-süntel-Klinik."
   },
   {
     "reviewer_name": "Anja Jausch",
     "review_text": "Tolles Personal, sehr kompetent und jederzeit ansprechbar! Meine Mutter hat sich dort sehr wohl und sehr gut betreut gefühlt. Auch für mich und meine Fragen hatten sie ein offenes Ohr. Wir sagen DANKE 🙏 und können die Klinik jederzeit, mit gutem Gewissen weiter empfehlen. …",
     "star_rating": 5,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 2 Jahren",
+    "like_count": 1,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Liebe Anja Jausch, vielen Dank für die lieben Worte und die tolle Bewertung. Wir wünschen Ihnen und Ihrer Mutter alles Gute. Ihre Deister-Süntel-Klinik"
   },
   {
     "reviewer_name": "Axel „Zimmbo“ Zimmermann",
     "review_text": "Schlaflabor: Alles hier war für mich Neuland. Das Personal ist sehr freundlich, der Doc ebenfalls. Ich habe relativ gut geschlafen und es wurde auch sehr gut behandelt. 5 Sterne wären es gewesen nur leider ist das Essen hier eine absolute Frechheit!!! Das für sowas Geld bezahlt wird ist ein Witz. Ich habe in meinem Leben noch nie so einen Fraß gesehen der auch noch absolut widerlich schmeckt. Frühstück genauso wie das Mittagessen. Einfach nur schlecht.",
     "star_rating": 3,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 2 Jahren",
+    "like_count": 0,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Manuela Knabe",
     "review_text": "Ich kam vor Ostern als Notfall mit dem RTW auf die Station B (InnereMedizin/Kardiologie). Ich möchte mich bei dem ganzen Team von Dr. Schneider und Dr. Mäckel bedanken. Alle Mitarbeiter/innen zeichnen sich durch Fachkompetenz u. Professionalität aus. Die Freundlichkeit und Hilfsbereitschaft ist besonders hervorzuheben, auch in Stresssituationen bleibt die Menschlichkeit nicht auf der Strecke. Ich kann die Klinik nur empfehlen und begeistert hat mich auch, dass sich genug Zeit für Aufklärungsgespräche und Fragen genommen wurde.",
     "star_rating": 5,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 2 Jahren",
+    "like_count": 1,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Liebe Frau Knabe, vielen Dank für Ihre tolle und ausführliche Bewertung, darüber freuen wir uns sehr. Wir wünschen Ihnen alles Gute. Ihre Deister-Süntel-Klinik"
   },
   {
     "reviewer_name": "Ursula Richter",
     "review_text": "Ich bin seit dem 14.5.2023 in der Klinik. zuerst war Ich auf der Intensiv Station dann nach ein paar Tagen wurde ich auf die Innere verlegt und kann nur sagen das ich äußert zu zufrieden bin und dankbar bin, dass ich in diese Klinik gekommen bin. wenn es nach mir geht, dann immer in diese Klinik. Tolle kompetente und freundliche Ärzte, Pflegekräfte,die Dame vom Sozialdienst, die Damen vom Service und der Reinigung.frau Borgmann vom Schlaflabor die dafür gesorgt hat, dass ich ein neues Resmd Gerät bekomme habe.auch Frau Hobein vom Sozialdienst hat mir so für die dafür gesorgt hat dass sich vieles erleichtert wird. Die nachwester war auch immerhin freundlich. Besten Dank auch an Silke, André, Georg, imahn, Jascha Gunnar und Angelikba.ich wünsche der gesamten Klinik nur das Beste für die Zukunft",
     "star_rating": 5,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 2 Jahren",
+    "like_count": 4,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Liebe Frau Richter, vielen Dank für Ihre Bewertung. Wir freuen uns sehr über Ihre lieben Worte und wünschen auch Ihnen alles Gute. Ihre Deister-Süntel-Klinik"
   },
   {
     "reviewer_name": "Conny S.",
     "review_text": "Zuerst einmal: \"nur\" 4 Sterne, weil ich der Meinung bin, daß nach oben immer Luft ist und es eigentlich immer etwas zu verbessern gibt. Meine Mutter ( Jahrgang 1937 ) bekam im November 2021 in der Deister-Süntel-Klinik ihren Herzschrittmacher. Sie war hochzufrieden! Super freundliches Personal, sowohl das Pflegepersonal als auch die Ärzte. Mit Humor und lustigen Sprüchen wurde ihr die \"Angst\" vor der OP genommen. Die Betreuung war wirklich super. Sie hat sich dort sehr wohl gefühlt. Einziger \"Minuspunkt\" war das Essen, welches aber geliefert wurde. Somit kann die Klinik selber nichts für die mangelhafte Qualität. Da sollte die Klinik vielleicht eine Alternative suchen.",
     "star_rating": 4,
-    "review_time": "vor 4 Jahren"
+    "review_time": "vor 4 Jahren",
+    "like_count": 2,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Cornelius de Vries",
     "review_text": "Behandlung wegen Vorhofflimmern. Eine sehr gründliche Voruntersuchung mit super Erklärungen der Vorgehensweise. Sehr gute Nachuntersuchung. Sehr nette Ärzte und Ärztinnen sowie ganz freundliches Stationspersonal. Saubere Zimmer und sehr gutes Essen mit vielen Wahlmöglichkeiten abends und morgens. Die Behandlung war sehr erfolgreich. Man fühlt sich wiedér richtig fit nach der Elektrokardioversion. Kann ich wärmstens empfehlen wenn man Vorhofflimmern behandeln will. An das Team. Ihr seit klasse ohne Ausnahme.",
     "star_rating": 5,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 3 Jahren",
+    "like_count": 3,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Lieber Herr de Vries, vielen Dank, das Sie sich die Zeit genommen haben, um uns so ein tolles und positives Feedback zu geben. Wir wünschen Ihnen weiterhin alles Gute. Ihre Deister-Süntel-Klinik"
   },
   {
     "reviewer_name": "Jessica Bruns",
     "review_text": "Sehr liebes Personal..ich war dort stationär mit starken Schmerzen sowie ambulant zur darmspiegelung. Alle waren sehr freundlich und haben mir extrem geholfen. Die Ärzte waren verständnisvoll und und haben meine Ängste ernst genommen und mich bestens aufgeklärt. Ich habe vorher in der Stadt gewohnt und nie so viel Empathie und mitgefühl erleben dürfen wie hier. In der inneren Medizin habe ich mich sehr gut aufgehoben gefühlt.",
     "star_rating": 5,
-    "review_time": "vor 5 Jahren"
+    "review_time": "vor 5 Jahren",
+    "like_count": 2,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Anja Lange",
     "review_text": "Ich kann leider nur drei Sterne vergeben. Begründung Arzt: sehr freundlich und hört gut zu und respektiert meine Taubheit. Danke dafür. Pflegeteam: einige sehr freundlich trotz vielen Stress auf Station A. Nachtschwester leider genervt gewesen ( ok war allein auf Station, heißt aber nicht ihr schlechte Laune beim Patienten auszulassen) . Und weil ich einmal!!! geklingelt habe wegen der Schmerzen kam sie mit Schmerzmittel was ok war aber was eine absolute Sauerei war brachte sie mir ungefragt eine Bedarfstablette von 1 mg Tavor. Auf die Frage wofür sagte sie um mich zu beruhigen, hä? Dabei war ich sehr ruhig und hatte nur Schmerzen. Macht sie das mit allen Patienten, damit sie keinen Stress hat? Ihr alter schätze ich ohne sie beleidigen zu wollen ca. 60 ein. Sorry, dann soll sie sich einen ruhigeren Job suchen. Servicekraft sehr freundlich . Das Zimmer in dem ich liege/ lag ist voll in Ordnung. Ansonsten war ich mit allem zufrieden. Daher bin ich froh wenn ich wieder ins Haus Deister gehen kann und meine Reha fortsetzen kann.",
     "star_rating": 3,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 4 Jahren",
+    "like_count": 2,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Melissa Durra",
     "review_text": "Meine Mutter ist nach einem Brand dort auf die Intensivstation gekommen. Sie ist Krebspatienten mit palliativ medizinischer Versorgung und befindet sich unmittelbar im Sterbeprozess .Dort lief auch wirklich alles super. Sie hat zusätzlich mehrere Metastasen im Kopf. Die Uhrzeiten zu denen sie ihre Tabletten nehmen muss sind unheimlich wichtig. Als sie auf der normalen Station dann war standen teilweise 2 Becher mit Tabletten dort, unteranderem Morphium auf nachfragen welche Tabletten für wann gedacht seien wurde geäußert das sie auch alle Tabletten auf einmal schlucken kann das wäre ja egal. Ich war schockiert. Auf der Intensivstation standen Uhrzeiten auf den Bechern aber diese hätte auch auf der normalen Station nichts genützt da keine Uhren vorhanden waren abgesehen davon standen dort dann auch keine Uhrzeiten mehr drauf. Sie ist medizinisch nicht in der Lage selbst die Medikamente abzuwägen und zeitgerecht zu nehmen. Zudem wurden Medikamente erhöht und Gespräche nur mit meiner Mutter geführt obwohl darauf hingewiesen wurde das dies keinen Sinn macht da sie nichts im Kontext wiedergeben kann und auch nicht sachgemäß versteht. Bei meinen besuchen war zu 90 Prozent der Toiletten Stuhl voll und ich habe die Reinigung übernommen. Sie wurde auch nicht zum Duschen begleitet so das ich das Waschen mit ihr übernahm. Meiner Mutter ist ein unwohles Gefühl vermittelt worden und teilweise auch geäußert, dinge wie dies sei kein obdachlosenheim sind schon sehe menschenunwürdig. Trotzdem waren viele die dort arbeiten sehr nett und versuchten ihr bestes. Hier kann wirklich gearbeitet werden wenn denn das nötige Empathiegefühl aufgestellt ist und bitten der Angehörigen gehört werden. Man braucht eine gewisse Distanz das weiß ich aber vieles ist ein Vertrauensbruch und geht garnicht",
     "star_rating": 3,
-    "review_time": "vor 5 Jahren"
+    "review_time": "vor 5 Jahren",
+    "like_count": 5,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Carsten König",
     "review_text": "Sehr gute Betreuung, tolle Ärztin",
     "star_rating": 5,
-    "review_time": "vor einem Monat"
+    "review_time": "vor 2 Monaten",
+    "like_count": 0,
+    "has_owner_response": true,
+    "owner_response_time": "vor einem Monat",
+    "owner_response_text": "Lieber Herr König, vielen Dank für Ihre schöne Bewertung. Wir wünschen Ihnen alles Gute. Ihre Deister-Süntel-Klinik"
   },
   {
     "reviewer_name": "Carsten Lindemann",
     "review_text": "Eigentlich 5Sterne aufgrund der nephrologischen Betreuung sowie der hier vorhanden Pflegeabteilungen sowie der Physiotherapie. Abwertung wg. des renovierungsbedürftigen Gebäudes und fehlendem WLAN. In einigen Gebäudeteilen wird der Empfang für Handys unmöglich. Die Nephrologin Frau Dr. Kara... überließ nichts dem Zufall und war erfreulich umsichtig. Die zugeordnete Pflegestation 23/24 war immer hilfsbereit; so sollte es immer sein. Die Physiotherapie hat mich wirklich weiter gebracht. Hintergrund: Frisch mehrfach im Bauchbereich angiologisch operiert. Das linke Bein war voller Wasser und musste übergangsweise gewickelt werden. Für die Pflege gar kein Thema. Das Kreatinin meiner Transplantatniere konnte von 2,9 auf 1,86 verbessert werden. Fazit: Kann wieder gehen und es geht mir gut. Das WLAN war da nicht mehr so wichtig. Liebes Personal, bitte macht so weiter- nicht nachlassen 😘",
     "star_rating": 4,
-    "review_time": "vor 4 Jahren"
+    "review_time": "vor 4 Jahren",
+    "like_count": 0,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Burkhard Werner",
     "review_text": "Ich war eine Woche mit extremer Blutarmut und Eisenmangel hier.Alle,und ich betonen ausdrücklich Alle Mitarbeiter waren sehr freundlich und höflich,aufmerksam und wussten genau was sie tun.Einzig die Sprachbarrieren bei ein paar Mitarbeitern war hinderlich ,aber wurde durch die Zuvorkommenheit der Kollegen ausgeglichen.Ich fühlte mich sehr gut aufgehoben hier und da ich Münderaner bin stolz darauf,hier ein solches Krankenhaus zu haben.",
     "star_rating": 5,
-    "review_time": "vor einem Jahr"
+    "review_time": "vor einem Jahr",
+    "like_count": 1,
+    "has_owner_response": true,
+    "owner_response_time": "vor einem Jahr",
+    "owner_response_text": "Lieber Herr Werner, vielen Dank für Ihre Bewertung. Es freut uns sehr, das Sie sich so gut bei uns aufgehoben gefühlt haben. Wir wünschen Ihnen alles Gute. Ihre Deister-Süntel-Klinik"
   },
   {
     "reviewer_name": "Sabine Wehrhoff",
     "review_text": "Ich war bei meinem Aufenthalt zufrieden.Nette Schwestern und Ärzte.Nachts leider auch negative Erfahrungen im Zimmer(nicht bei mir selber)gemacht. alles in allem ein ordentliches Krankenhaus mit gutem Essen, wenig Abwechslung(keine Cafeteria o.Ä).Ich war zufrieden und gut aufgehoben",
     "star_rating": 3,
-    "review_time": "vor 7 Jahren"
+    "review_time": "vor 7 Jahren",
+    "like_count": 1,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Regina Carstens",
     "review_text": "Ich kann mich den negativen Bewertungen nicht anschließen. Ich habe mich in dem wunderschönen renovierten Zimmer sehr wohl gefühlt und würde gut betreut. Viele bleiben da zur dreiwöchigen geriatrischrn Kur.",
     "star_rating": 5,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 4 Jahren",
+    "like_count": 8,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Angelika Kuhrcke",
     "review_text": "Ich bin sehr zufrieden mit Station A! Personal war sehr nett und zuvorkommend. Kann mich also nicht beklagen. Würde die Klinik jederzeit weiterempfehlen.",
     "star_rating": 5,
-    "review_time": "vor 4 Jahren"
+    "review_time": "vor 4 Jahren",
+    "like_count": 1,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Tim Sackewitz",
     "review_text": "Top Schlaflabor.... Super Arzt, super Personal, alle waren nett und ich habe mich dort gut aufgehoben gefühlt. Das Essen war auch gut und ich habe dort einen schönen Aufenthalt gehabt. Vielen Dank!",
     "star_rating": 5,
-    "review_time": "vor 5 Jahren"
+    "review_time": "vor 5 Jahren",
+    "like_count": 3,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Helmut Steuernagel",
     "review_text": "Ich kann nicht verstehen dass so viele Leute schlechte Bewertungen über die Klinik schreiben meine Frau kann dorthin konnte nicht laufen und sich anziehen nach 2 Wochen läuft sie zieht sich selbst an der Stations.arzt sowie die Schwestern..Und die Therapeuten sind spitze auch der sozialdienst Frau muric nimmt sich viel Zeit nochmals vielen vielen Dank für die gute Arbeit die 5 sterne sind durchaus bereitig nochmals vielen Dank für die gute Arbeit",
     "star_rating": 5,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 3 Jahren",
+    "like_count": 3,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Astrid Lane",
     "review_text": "Ein großes Lob an das gesamte Team des Schlaflabors. Wir wurden ausführlich aufgeklärt und es wurde sich viel Zeit genommen. Kompetenz und Freundlichkeit werden hier groß geschrieben 🍀 …",
     "star_rating": 5,
-    "review_time": "Bearbeitet: vor 6 Jahren"
+    "review_time": "Bearbeitet: vor 6 Jahren",
+    "like_count": 3,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Helmut Steuernagel",
     "review_text": "Sehr Gute Klinik Da Kann man nur Gutes Berichten Meine Frau konnte nicht Aufstehen und Laufen Nach 2 Wochen in der Klinik Läuft und steht selbst aus dem Bett auf Nochmals vielen vielen Dank an Alle in der Klinik ihr seit alle Super Gut",
     "star_rating": 5,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 3 Jahren",
+    "like_count": 3,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Lieber Herr Steuernagel, vielen Dank für Ihre Bewertung. Es freut uns sehr, das Ihre Frau solche Fortschritte bei uns machen konnte. Wir wünschen Ihnen und Ihrer Frau alles Gute. Ihre Deister-Süntel-Klinik"
   },
   {
     "reviewer_name": "Mohrchen45 H",
     "review_text": "Eine kleine Klinik mit super Ärzteteam u tollen Pfleger*innen! War aktuell für 8 Tage dort und bin zufrieden nach Hause gegangen. Danke!",
     "star_rating": 5,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 2 Jahren",
+    "like_count": 1,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Liebe/r Mohrchen45H, vielen Dank das Sie sich die Zeit genommen haben, uns eine Bewertung zu hinterlassen. Wir freuen uns sehr, das wir Sie zufrieden nach Hause entlassen konnten und wüschen Ihnen weiterhin alles Gute. Ihre Deister-Süntel-Klinik"
   },
   {
     "reviewer_name": "Thomas Dunsing",
     "review_text": "Ganz großes Dankeschön an die Verwaltung, Küche, Pflege, das gesamte Ärzteteam und das Pflegepersonal. Alle sehr kompetent und nett. Macht weiter so.",
     "star_rating": 5,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 2 Jahren",
+    "like_count": 1,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Lieber Herr Dunsing, vielen Dank für Ihre Bewertung und das nette Feedback. Wir wünschen Ihnen weiterhin alles Gute. Ihre Deister-Süntel-Klinik"
   },
   {
     "reviewer_name": "Hans-Juergen Förster",
     "review_text": "War sehr zufrieden besonders die Küche da ich nicht alles essen konnte nochmals danke",
     "star_rating": 4,
-    "review_time": "vor 7 Jahren"
+    "review_time": "vor 7 Jahren",
+    "like_count": 2,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Mike",
     "review_text": "Rundum zufrieden gewesen.",
     "star_rating": 5,
-    "review_time": "vor 3 Jahren"
+    "review_time": "vor 4 Jahren",
+    "like_count": 2,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Dieter Borcherding",
     "review_text": "Sehr familier",
     "star_rating": 5,
-    "review_time": "vor einem Jahr"
+    "review_time": "vor einem Jahr",
+    "like_count": 1,
+    "has_owner_response": true,
+    "owner_response_time": "vor einem Jahr",
+    "owner_response_text": "Lieber Herr Borcherding, vielen Dank für Ihre Bewertung. Wir wünschen Ihnen alles Gute Ihre Deister-Süntel-Klinik"
   },
   {
     "reviewer_name": "Michael Henke",
     "review_text": "Gut",
     "star_rating": 4,
-    "review_time": "vor 2 Jahren"
+    "review_time": "vor 2 Jahren",
+    "like_count": 1,
+    "has_owner_response": true,
+    "owner_response_time": "vor 2 Jahren",
+    "owner_response_text": "Lieber Herr Henke, vielen Dank für Ihre Bewertung. Wir wünschen Ihnen alles Gute. Ihre Deister-Süntel-Klinik"
+  },
+  {
+    "reviewer_name": "Alena Rebeta",
+    "review_text": "-Schlaflabor- ich war für zwei Nächte im Schlaflabor und habe mich dort sehr gut aufgehoben gefühlt. Der Pfleger war sehr nett und auch der Arzt super. Selbst der Pfleger war sehr vom Arzt überzeugt und das spricht für ein gutes Miteinander und dementsprechend eine gute allgemeine Atmosphäre. Man konnte Tagsüber rausgehen und Verpflegung gab es auf Wunsch auch dazu. Die Essenszeiten sehr flexibel da das Essen in der kleinen Küche zur Verfügung gestellt wird. Auch sehr positiv, die 3 Einzelzimmer mit lediglich 2 weiteren Mitpatienten und mir. Dadurch bessere Behandlung. Alles im einen, ich kann’s nur empfehlen 🙏🏻",
+    "star_rating": 5,
+    "review_time": "vor 1 Tag",
+    "like_count": 0,
+    "has_owner_response": false,
+    "owner_response_time": null,
+    "owner_response_text": null
   },
   {
     "reviewer_name": "Tachmina Abbosova",
     "review_text": "Eine tolle Klinik mit sehr freundlichen Ärzten und Pflegepersonal. Ich wurde am Ostersonntag eingeliefert und habe eine schnelle und professionelle ärzliche Versorgung erhalten. So viel Menschlichkeit und Empathie. Vielen Dank für alles.",
     "star_rating": 5,
-    "review_time": "vor einer Woche"
+    "review_time": "vor einem Monat",
+    "like_count": 0,
+    "has_owner_response": true,
+    "owner_response_time": "vor 3 Wochen",
+    "owner_response_text": "Hallo @Tachmina Abbosova, Vielen Dank für die Bewertung, das freut uns sehr. Wir wünschen Ihnen alles Gute. Ihre Deister-Süntel-Klinik."
+  },
+  {
+    "reviewer_name": "Stefan Pöhler",
+    "review_text": "Spitze",
+    "star_rating": 5,
+    "review_time": "vor 2 Wochen",
+    "like_count": 0,
+    "has_owner_response": true,
+    "owner_response_time": "vor einer Woche",
+    "owner_response_text": "Lieber Herr Pöhler, vielen Dank für Ihre Bewertung. Wir wünschen Ihnen alles Gute. Ihre Deister-Süntel-Klinik"
   }
 ]

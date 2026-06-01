@@ -1,0 +1,689 @@
+{
+  "url": "https://www.google.com/maps/place/Helios+Klinikum+Uelzen/@52.9715286,10.5318602,17z/data=!3m1!4b1!4m6!3m5!1s0x47ae2b98baf1c869:0x51a660f7e990fde6!8m2!3d52.9715286!4d10.5318602!16s%2Fg%2F1tlvnkpc?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "placeId": "helios-klinikum-uelzen-gmbh",
+  "startedAt": "2026-05-11T13:35:18Z",
+  "scrollDelayUsed": 2.25,
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "99007A6AF32DB25AB07843B4B338F9B2",
+  "selectedTargetId": "99007A6AF32DB25AB07843B4B338F9B2",
+  "selectedTargetUrl": "https://www.google.com/maps/place/Helios+Klinikum+Uelzen/@52.9715286,10.5318602,17z/data=!3m1!4b1!4m6!3m5!1s0x47ae2b98baf1c869:0x51a660f7e990fde6!8m2!3d52.9715286!4d10.5318602!16s%2Fg%2F1tlvnkpc?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "targetSelectionStrategy": "exact_url_match",
+  "cookieConsent": {
+    "clicked": true,
+    "action": "accept",
+    "attempts": [
+      {
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Helios%2BKlinikum%2BUelzen/@52.9715286,10.5318602,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47ae2b98baf1c869:0x51a660f7e990fde6!8m2!3d52.9715286!4d10.5318602!16s%252Fg%252F1tlvnkpc?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Helios%2BKlinikum%2BUelzen/@52.9715286,10.5318602,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47ae2b98baf1c869:0x51a660f7e990fde6!8m2!3d52.9715286!4d10.5318602!16s%252Fg%252F1tlvnkpc?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
+        "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Helios%2BKlinikum%2BUelzen/@52.9715286,10.5318602,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47ae2b98baf1c869:0x51a660f7e990fde6!8m2!3d52.9715286!4d10.5318602!16s%252Fg%252F1tlvnkpc?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "onConsentHost": true,
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/Helios+Klinikum+Uelzen/@52.9715286,10.5318602,17z/data=!3m1!4b1!4m6!3m5!1s0x47ae2b98baf1c869:0x51a660f7e990fde6!8m2!3d52.9715286!4d10.5318602!16s%2Fg%2F1tlvnkpc?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
+      }
+    ],
+    "resolvedWith": {
+      "clicked": true,
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
+      "strategy": "direct_selector",
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Helios%2BKlinikum%2BUelzen/@52.9715286,10.5318602,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47ae2b98baf1c869:0x51a660f7e990fde6!8m2!3d52.9715286!4d10.5318602!16s%252Fg%252F1tlvnkpc?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+    }
+  },
+  "reviewOpenAttempts": [
+    {
+      "rank": 1,
+      "candidate": {
+        "domIndex": 63,
+        "score": 215,
+        "reasons": [
+          "jsaction_more_reviews",
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "318 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle14.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "candidateCountBeforeClick": 6,
+      "clickResult": {
+        "clicked": true,
+        "index": 63,
+        "text": "318 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle14.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "reviewsPanelAfterClick": {
+        "reviewNodeCount": 96,
+        "title": "Helios Klinikum Uelzen - Google Maps"
+      }
+    }
+  ],
+  "reviewOpenCandidateCount": 6,
+  "reviewClick": {
+    "clicked": true,
+    "strategy": "candidate",
+    "label": "318 Berichte",
+    "domIndex": 63,
+    "candidateScore": 215,
+    "candidateReasons": [
+      "jsaction_more_reviews",
+      "count_label",
+      "review_keyword",
+      "button_like_control"
+    ],
+    "jsaction": "pane.wfvdle14.reviewchart.morereviews"
+  },
+  "reviewsPanel": {
+    "reviewNodeCount": 96,
+    "title": "Helios Klinikum Uelzen - Google Maps"
+  },
+  "initialReviewsState": {
+    "title": "Helios Klinikum Uelzen - Google Maps",
+    "reviewNodeCount": 96,
+    "uniqueReviewIdCount": 10,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 0,
+    "scrollHeight": 4487,
+    "clientHeight": 695,
+    "distanceToBottom": 3792
+  },
+  "declaredReviewTotalInfo": {
+    "found": true,
+    "declaredReviewTotal": 318,
+    "sourceKind": "rating-histogram",
+    "histogramByStar": {
+      "1": 64,
+      "2": 29,
+      "3": 17,
+      "4": 27,
+      "5": 181
+    },
+    "histogramStarCount": 5
+  },
+  "declaredReviewTotal": 318,
+  "declaredTotalSettleSeconds": 1.5,
+  "declaredTotalFastStopUsed": false,
+  "declaredTotalFinalCheck": null,
+  "fallbackStableRoundsRequired": 5,
+  "scrollResults": [
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 0,
+      "after": 3791.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 4487,
+      "clientHeight": 695,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 96,
+      "uniqueReviewIdCount": 10,
+      "iteration": 1,
+      "declaredReviewTotal": 318,
+      "stateAfterDelay": {
+        "title": "Helios Klinikum Uelzen - Google Maps",
+        "reviewNodeCount": 186,
+        "uniqueReviewIdCount": 20,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 3791.5,
+        "scrollHeight": 7639,
+        "clientHeight": 696,
+        "distanceToBottom": 3151.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 2.7999980375170708e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 3791.5,
+      "after": 6942.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 7639,
+      "clientHeight": 696,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 186,
+      "uniqueReviewIdCount": 20,
+      "iteration": 2,
+      "declaredReviewTotal": 318,
+      "stateAfterDelay": {
+        "title": "Helios Klinikum Uelzen - Google Maps",
+        "reviewNodeCount": 271,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 6942.5,
+        "scrollHeight": 10407,
+        "clientHeight": 696,
+        "distanceToBottom": 2768.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 2.2919848561286926e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 6942.5,
+      "after": 9710.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 10407,
+      "clientHeight": 696,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 271,
+      "uniqueReviewIdCount": 30,
+      "iteration": 3,
+      "declaredReviewTotal": 318,
+      "stateAfterDelay": {
+        "title": "Helios Klinikum Uelzen - Google Maps",
+        "reviewNodeCount": 271,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 9710.5,
+        "scrollHeight": 10407,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "bottomProbe": {
+        "waitSeconds": 6.0,
+        "nudgeUp": {
+          "nudged": true,
+          "before": 9710.5,
+          "after": 9450.5,
+          "scrollHeight": 10407,
+          "clientHeight": 696
+        },
+        "scrollDown": {
+          "scrolled": true,
+          "strategy": "pane_to_bottom",
+          "before": 9450.5,
+          "after": 9710.5,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollHeight": 10407,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5,
+          "reviewNodeCount": 271,
+          "uniqueReviewIdCount": 30
+        },
+        "stateAfterProbe": {
+          "title": "Helios Klinikum Uelzen - Google Maps",
+          "reviewNodeCount": 271,
+          "uniqueReviewIdCount": 30,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 9710.5,
+          "scrollHeight": 10407,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5
+        }
+      },
+      "stateAfterProbe": {
+        "title": "Helios Klinikum Uelzen - Google Maps",
+        "reviewNodeCount": 271,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 9710.5,
+        "scrollHeight": 10407,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "noGrowthCycles": 1,
+      "networkIdleSeconds": 14.564714667154476,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 9710.5,
+      "after": 9710.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 10407,
+      "clientHeight": 696,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 271,
+      "uniqueReviewIdCount": 30,
+      "iteration": 4,
+      "declaredReviewTotal": 318,
+      "stateAfterDelay": {
+        "title": "Helios Klinikum Uelzen - Google Maps",
+        "reviewNodeCount": 271,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 9710.5,
+        "scrollHeight": 10407,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "bottomProbe": {
+        "waitSeconds": 6.0,
+        "nudgeUp": {
+          "nudged": true,
+          "before": 9710.5,
+          "after": 9450.5,
+          "scrollHeight": 10407,
+          "clientHeight": 696
+        },
+        "scrollDown": {
+          "scrolled": true,
+          "strategy": "pane_to_bottom",
+          "before": 9450.5,
+          "after": 9710.5,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollHeight": 10407,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5,
+          "reviewNodeCount": 271,
+          "uniqueReviewIdCount": 30
+        },
+        "stateAfterProbe": {
+          "title": "Helios Klinikum Uelzen - Google Maps",
+          "reviewNodeCount": 271,
+          "uniqueReviewIdCount": 30,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 9710.5,
+          "scrollHeight": 10407,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5
+        }
+      },
+      "stateAfterProbe": {
+        "title": "Helios Klinikum Uelzen - Google Maps",
+        "reviewNodeCount": 271,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 9710.5,
+        "scrollHeight": 10407,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "noGrowthCycles": 2,
+      "networkIdleSeconds": 29.141753417206928,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 9710.5,
+      "after": 9710.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 10407,
+      "clientHeight": 696,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 271,
+      "uniqueReviewIdCount": 30,
+      "iteration": 5,
+      "declaredReviewTotal": 318,
+      "stateAfterDelay": {
+        "title": "Helios Klinikum Uelzen - Google Maps",
+        "reviewNodeCount": 271,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 9710.5,
+        "scrollHeight": 10407,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "bottomProbe": {
+        "waitSeconds": 6.0,
+        "nudgeUp": {
+          "nudged": true,
+          "before": 9710.5,
+          "after": 9450.5,
+          "scrollHeight": 10407,
+          "clientHeight": 696
+        },
+        "scrollDown": {
+          "scrolled": true,
+          "strategy": "pane_to_bottom",
+          "before": 9450.5,
+          "after": 9710.5,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollHeight": 10407,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5,
+          "reviewNodeCount": 271,
+          "uniqueReviewIdCount": 30
+        },
+        "stateAfterProbe": {
+          "title": "Helios Klinikum Uelzen - Google Maps",
+          "reviewNodeCount": 271,
+          "uniqueReviewIdCount": 30,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 9710.5,
+          "scrollHeight": 10407,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5
+        }
+      },
+      "stateAfterProbe": {
+        "title": "Helios Klinikum Uelzen - Google Maps",
+        "reviewNodeCount": 271,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 9710.5,
+        "scrollHeight": 10407,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "noGrowthCycles": 3,
+      "networkIdleSeconds": 43.74185000010766,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 9710.5,
+      "after": 9710.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 10407,
+      "clientHeight": 696,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 271,
+      "uniqueReviewIdCount": 30,
+      "iteration": 6,
+      "declaredReviewTotal": 318,
+      "stateAfterDelay": {
+        "title": "Helios Klinikum Uelzen - Google Maps",
+        "reviewNodeCount": 271,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 9710.5,
+        "scrollHeight": 10407,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "bottomProbe": {
+        "waitSeconds": 6.0,
+        "nudgeUp": {
+          "nudged": true,
+          "before": 9710.5,
+          "after": 9450.5,
+          "scrollHeight": 10407,
+          "clientHeight": 696
+        },
+        "scrollDown": {
+          "scrolled": true,
+          "strategy": "pane_to_bottom",
+          "before": 9450.5,
+          "after": 9710.5,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollHeight": 10407,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5,
+          "reviewNodeCount": 271,
+          "uniqueReviewIdCount": 30
+        },
+        "stateAfterProbe": {
+          "title": "Helios Klinikum Uelzen - Google Maps",
+          "reviewNodeCount": 271,
+          "uniqueReviewIdCount": 30,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 9710.5,
+          "scrollHeight": 10407,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5
+        }
+      },
+      "stateAfterProbe": {
+        "title": "Helios Klinikum Uelzen - Google Maps",
+        "reviewNodeCount": 271,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 9710.5,
+        "scrollHeight": 10407,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "noGrowthCycles": 4,
+      "networkIdleSeconds": 58.33634250005707,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 9710.5,
+      "after": 9710.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 10407,
+      "clientHeight": 696,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 271,
+      "uniqueReviewIdCount": 30,
+      "iteration": 7,
+      "declaredReviewTotal": 318,
+      "stateAfterDelay": {
+        "title": "Helios Klinikum Uelzen - Google Maps",
+        "reviewNodeCount": 271,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 9710.5,
+        "scrollHeight": 10407,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "bottomProbe": {
+        "waitSeconds": 6.0,
+        "nudgeUp": {
+          "nudged": true,
+          "before": 9710.5,
+          "after": 9450.5,
+          "scrollHeight": 10407,
+          "clientHeight": 696
+        },
+        "scrollDown": {
+          "scrolled": true,
+          "strategy": "pane_to_bottom",
+          "before": 9450.5,
+          "after": 9710.5,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollHeight": 10407,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5,
+          "reviewNodeCount": 271,
+          "uniqueReviewIdCount": 30
+        },
+        "stateAfterProbe": {
+          "title": "Helios Klinikum Uelzen - Google Maps",
+          "reviewNodeCount": 271,
+          "uniqueReviewIdCount": 30,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 9710.5,
+          "scrollHeight": 10407,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5
+        }
+      },
+      "stateAfterProbe": {
+        "title": "Helios Klinikum Uelzen - Google Maps",
+        "reviewNodeCount": 271,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 9710.5,
+        "scrollHeight": 10407,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "noGrowthCycles": 5,
+      "networkIdleSeconds": 72.94794016703963,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    }
+  ],
+  "scrollStopReason": "exhausted_no_growth_at_bottom",
+  "exhausted": true,
+  "scrollSafetyTimeoutHit": false,
+  "growthEvents": [
+    {
+      "iteration": 1,
+      "uniqueReviewIdCount": 20,
+      "scrollHeight": 7639
+    },
+    {
+      "iteration": 2,
+      "uniqueReviewIdCount": 30,
+      "scrollHeight": 10407
+    }
+  ],
+  "networkEventsDuringScroll": 12,
+  "finalNetworkIdleSeconds": 72.94794529210776,
+  "noGrowthCycles": 5,
+  "finalReviewsState": {
+    "title": "Helios Klinikum Uelzen - Google Maps",
+    "reviewNodeCount": 271,
+    "uniqueReviewIdCount": 30,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 9710.5,
+    "scrollHeight": 10407,
+    "clientHeight": 696,
+    "distanceToBottom": 0.5
+  },
+  "reachedDeclaredReviewTotal": false,
+  "reachedReviewPaneEnd": true,
+  "finalUniqueReviewIdCount": 30,
+  "finalScrollTop": 9710.5,
+  "finalScrollHeight": 10407,
+  "reviewExpansion": {
+    "buttonCount": 23,
+    "clickedCount": 23
+  },
+  "matchedRequestCount": 46,
+  "batchexecuteCount": 3,
+  "reviewPhaseXhrCount": 21,
+  "captureSuccessful": true,
+  "finishedAt": "2026-05-11T13:37:03Z"
+}

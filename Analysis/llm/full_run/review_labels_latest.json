@@ -1,0 +1,1741 @@
+{
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:0": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:0",
+    "review_index": 0,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 2 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Ich war vor 7 Monaten in der Notaufnahme und wurde dort sehr gut aufgenommen. Ich hatte mir 2 Finger geklemmt. Dieses wurde von Dr. Rahmati behandelt. Er hat meine Finger wieder so zusammengenäht, inclusive Nagelbett wieder herstellen, dass …",
+    "labels": {
+      "overall_sentiment": "positive",
+      "care_context": [
+        "emergency"
+      ],
+      "barriers": [],
+      "strengths": [
+        "successful_treatment"
+      ],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": null,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": true,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Ich war vor 7 Monaten in der Notaufnahme und wurde dort sehr gut aufgenommen.",
+        "Dieses wurde von Dr. Rahmati behandelt.",
+        "Er hat meine Finger wieder so zusammengenäht, inclusive Nagelbett wieder herstellen, dass …"
+      ],
+      "confidence": 0.6
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:1": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:1",
+    "review_index": 1,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 2 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Am Wochenende musste ich mit meinen 1,5 jährigen Sohn in die Notaufnahme wegen einer kleinen Platzwunde. Von Anmeldung bis zum Abschluss der Behandlung sind keine 30 min. vergangen. Sicherlich hatten wir Glück, dass nicht so viel los war, …",
+    "labels": {
+      "overall_sentiment": "positive",
+      "care_context": [
+        "emergency",
+        "pediatrics"
+      ],
+      "barriers": [],
+      "strengths": [
+        "fast_help"
+      ],
+      "access": {
+        "appointment_issue": false,
+        "waiting_time": false,
+        "reachability_issue": false,
+        "navigation_issue": false
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": null,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": true,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Von Anmeldung bis zum Abschluss der Behandlung sind keine 30 min vergangen.",
+        "Am Wochenende musste ich mit meinem 1,5 jährigen Sohn in die Notaufnahme.",
+        "Wir hatten Glück, dass nicht so viel los war."
+      ],
+      "confidence": 0.8
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:2": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:2",
+    "review_index": 2,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 1,
+      "review_time": "vor 2 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Grundsätzlich haben wir im Agaplesion Krankenhaus Rotenburg sehr gute Erfahrungen gemacht. Das Personal war freundlich und kompetent, insbesondere die Hebammen und die Kinderstation verdienen ausdrücklich Lob. Fünf Sterne für euch! Zwei …",
+    "labels": {
+      "overall_sentiment": "positive",
+      "care_context": [
+        "maternity",
+        "pediatrics"
+      ],
+      "barriers": [],
+      "strengths": [
+        "friendly_staff"
+      ],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": true,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Das Personal war freundlich und kompetent, insbesondere die Hebammen und die Kinderstation verdienen ausdrücklich Lob.",
+        "Fünf Sterne für euch!"
+      ],
+      "confidence": 0.85
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:3": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:3",
+    "review_index": 3,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 4,
+      "review_time": "vor 3 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Wir hatten zur Geburt unserers Kindes einen angemessenen Aufenthalt. Es gab Umstände die jedoch für mich nicht Wertbar sind da ich nicht genug Hintergründe kenne. Die Bisichrigungs Termin sind schwer zu empfehlen und es gibt vieles dazu …",
+    "labels": {
+      "overall_sentiment": "mixed",
+      "care_context": [
+        "maternity",
+        "ward"
+      ],
+      "barriers": [
+        "appointment_issue"
+      ],
+      "strengths": [],
+      "access": {
+        "appointment_issue": true,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": null,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Wir hatten zur Geburt unserers Kindes einen angemessenen Aufenthalt.",
+        "Die Bisichrigungs Termin sind schwer zu empfehlen"
+      ],
+      "confidence": 0.55
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:4": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:4",
+    "review_index": 4,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 2 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Ein herzliches Dankeschön an der Notaufnahme, Station 8 und 9 und ans OpTeam . Alle waren sehr kompetent und freundlich. Unsere Tochter fühlte sich gut aufgehoben. Ich kann das Krankenhaus nur empfehlen. Ich bin extra dankbar der Person, die mich in der Nacht, sofort nach der Oparation meiner Tochter angerufen hat.",
+    "labels": {
+      "overall_sentiment": "positive",
+      "care_context": [
+        "emergency",
+        "ward",
+        "surgery"
+      ],
+      "barriers": [],
+      "strengths": [
+        "friendly_staff",
+        "trust_and_safety",
+        "fast_help"
+      ],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": true,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": true,
+        "good_communication": null,
+        "trust_and_safety": true,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "sehr kompetent und freundlich",
+        "Unsere Tochter fühlte sich gut aufgehoben",
+        "Ich kann das Krankenhaus nur empfehlen",
+        "in der Nacht, sofort nach der Oparation meiner Tochter angerufen hat"
+      ],
+      "confidence": 0.92
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:5": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:5",
+    "review_index": 5,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 2 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Ich möchte meinen aufrichtigen Dank für die hervorragende Betreuung während meines Aufenthalts in Ihrem Krankenhaus nach meiner Wirbelsäulenoperation aussprechen. …",
+    "labels": {
+      "overall_sentiment": "positive",
+      "care_context": [
+        "ward",
+        "surgery"
+      ],
+      "barriers": [],
+      "strengths": [
+        "empathetic_care"
+      ],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": null,
+        "empathetic_care": true,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "hervorragende Betreuung",
+        "aufrichtigen Dank",
+        "Aufenthalt in Ihrem Krankenhaus nach meiner Wirbelsäulenoperation"
+      ],
+      "confidence": 0.92
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:6": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:6",
+    "review_index": 6,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 5 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Sehr gute Erfahrung in der Notaufnahme Ich war gestern in der Notaufnahme des Diakoniekrankenhauses und habe mich dort …",
+    "labels": {
+      "overall_sentiment": "positive",
+      "care_context": [
+        "emergency"
+      ],
+      "barriers": [],
+      "strengths": [],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": null,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Sehr gute Erfahrung in der Notaufnahme"
+      ],
+      "confidence": 0.6
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:7": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:7",
+    "review_index": 7,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 1,
+      "review_time": "vor 3 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Ich verstehe nicht, weshalb man hier Termine vergibt . Es werden alle nacheinander aufgerufen, diejenigen ohne Termin , kommen eher dran als wir …. Mit Termin . Bis zu 7 Stunden Wartezeiten sollten hier in Kauf genommen werden. Auch mit …",
+    "labels": {
+      "overall_sentiment": "negative",
+      "care_context": [
+        "admin",
+        "outpatient"
+      ],
+      "barriers": [
+        "appointment_issue",
+        "waiting_time"
+      ],
+      "strengths": [],
+      "access": {
+        "appointment_issue": true,
+        "waiting_time": true,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": true,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": true,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": null,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Ich verstehe nicht, weshalb man hier Termine vergibt.",
+        "Es werden alle nacheinander aufgerufen, diejenigen ohne Termin , kommen eher dran als wir …. Mit Termin .",
+        "Bis zu 7 Stunden Wartezeiten sollten hier in Kauf genommen werden."
+      ],
+      "confidence": 0.75
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:8": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:8",
+    "review_index": 8,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 1,
+      "review_time": "vor 8 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Ich war ja schon in fast 20 Krankenhäuser aber was hier abläuft ist der Oberhammer . Abreißen und Neubauen hilft wahrscheinlich auch nicht wenn die Hygiene Standards nicht eingehalten werden und sogar Leute vom Personal mit Fahrrad im …",
+    "labels": {
+      "overall_sentiment": "negative",
+      "care_context": [
+        "unknown"
+      ],
+      "barriers": [
+        "cleanliness_issue"
+      ],
+      "strengths": [],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": true,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": null,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Hygiene Standards nicht eingehalten werden",
+        "was hier abläuft ist der Oberhammer",
+        "Personal mit Fahrrad im …"
+      ],
+      "confidence": 0.8
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:9": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:9",
+    "review_index": 9,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 1,
+      "review_time": "vor 3 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Für mich null Sterne … Ich wurde letzte Woche mit dem Krankenwagen abgeholt weil es mir nicht gut ging und ich habe ihn nicht gerufen weil ich Langeweile hatte … …",
+    "labels": {
+      "overall_sentiment": "negative",
+      "care_context": [
+        "emergency"
+      ],
+      "barriers": [],
+      "strengths": [],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": null,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Für mich null Sterne …",
+        "Ich wurde letzte Woche mit dem Krankenwagen abgeholt weil es mir nicht gut ging",
+        "ich habe ihn nicht gerufen weil ich Langeweile hatte"
+      ],
+      "confidence": 0.6
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:10": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:10",
+    "review_index": 10,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 3 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Ich bin an einem Sonntag in die Notaufnahme gekommen. Ein Fall für die Handchirurgie. Ich habe mich von dem ersten Moment an gut aufgehoben gefühlt. …",
+    "labels": {
+      "overall_sentiment": "positive",
+      "care_context": [
+        "emergency"
+      ],
+      "barriers": [],
+      "strengths": [
+        "trust_and_safety",
+        "empathetic_care"
+      ],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": null,
+        "empathetic_care": true,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": true,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Ich bin an einem Sonntag in die Notaufnahme gekommen.",
+        "Ich habe mich von dem ersten Moment an gut aufgehoben gefühlt."
+      ],
+      "confidence": 0.8
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:11": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:11",
+    "review_index": 11,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 5 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Ein riesengroßes DANKE an das fantastische Team der Station 9 im Agaplesion Diakonie Klinikum! 😄 Nicht nur die Schwestern und Pflegekräfte, sondern auch die Chirurgen verdienen …",
+    "labels": {
+      "overall_sentiment": "positive",
+      "care_context": [
+        "ward",
+        "surgery"
+      ],
+      "barriers": [],
+      "strengths": [],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": true,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Ein riesengroßes DANKE an das fantastische Team der Station 9 im Agaplesion Diakonie Klinikum!",
+        "Nicht nur die Schwestern und Pflegekräfte, sondern auch die Chirurgen verdienen …"
+      ],
+      "confidence": 0.86
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:12": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:12",
+    "review_index": 12,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 6 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "DANKE ! 2.12.2024 über den Hausarzt mit Wartezeit in die Notaufnahme. ( Triage, weil sehr voll ) bis …",
+    "labels": {
+      "overall_sentiment": "positive",
+      "care_context": [
+        "emergency"
+      ],
+      "barriers": [
+        "waiting_time"
+      ],
+      "strengths": [],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": true,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": null,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Wartezeit in die Notaufnahme",
+        "Triage, weil sehr voll",
+        "DANKE"
+      ],
+      "confidence": 0.65
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:13": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:13",
+    "review_index": 13,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 4,
+      "review_time": "vor 3 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Herzlichen Dank an das gesamte Team, Ärzte und Pflegepersonal der Stadion 12. Alle sehr sehr nett und freundlich, kompetent und hilfsbereit. Hier werden auch mal Konservative Methoden vorgeschlagen und durchgeführt, und …",
+    "labels": {
+      "overall_sentiment": "positive",
+      "care_context": [
+        "unknown"
+      ],
+      "barriers": [],
+      "strengths": [
+        "friendly_staff",
+        "empathetic_care"
+      ],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": true,
+        "empathetic_care": true,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Herzlichen Dank an das gesamte Team, Ärzte und Pflegepersonal der Stadion 12.",
+        "Alle sehr sehr nett und freundlich, kompetent und hilfsbereit."
+      ],
+      "confidence": 0.92
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:14": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:14",
+    "review_index": 14,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 2,
+      "review_time": "vor 3 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Die medizinische Versorgung meines minderjährigen Sohnes war in Ordnung. Leider war die Kommunikation sehr unzureichend. Ich wurde weder darüber informiert, dass mein Sohn aus der Narkose erwacht ist, …",
+    "labels": {
+      "overall_sentiment": "mixed",
+      "care_context": [
+        "pediatrics",
+        "surgery"
+      ],
+      "barriers": [
+        "poor_communication",
+        "missing_information"
+      ],
+      "strengths": [],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": true,
+        "poor_explanation": null,
+        "missing_information": true,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": null,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Die medizinische Versorgung meines minderjährigen Sohnes war in Ordnung.",
+        "Leider war die Kommunikation sehr unzureichend.",
+        "Ich wurde weder darüber informiert, dass mein Sohn aus der Narkose erwacht ist."
+      ],
+      "confidence": 0.65
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:15": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:15",
+    "review_index": 15,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 4 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Der Erhalt einer medizinischen Diagnose ist im ersten Moment natürlich ernüchternd. Erfolgt die Behandlung bei Prof. Dr. Dr. Chr. G. Schippers, sollten Sie die Phase des ersten Moments überspringen. …",
+    "labels": {
+      "overall_sentiment": "mixed",
+      "care_context": [
+        "unknown"
+      ],
+      "barriers": [],
+      "strengths": [],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": null,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Der Erhalt einer medizinischen Diagnose ist im ersten Moment natürlich ernüchternd.",
+        "Erfolgt die Behandlung bei Prof. Dr. Dr. Chr. G. Schippers, sollten Sie die Phase des ersten Moments überspringen."
+      ],
+      "confidence": 0.6
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:16": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:16",
+    "review_index": 16,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 7 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Ich möchte fünf Sterne für das Diakoniekrankenhaus vergeben. Und zwar besonders für das Essen. Heute hatten wir eine Spinat Lasagne auf Tomatensoße und ein gebackenes Fischfilet mit Kräutersauce ,auf dem Punkt genau gegarten Brokkoli !!!!! …",
+    "labels": {
+      "overall_sentiment": "positive",
+      "care_context": [
+        "unknown"
+      ],
+      "barriers": [],
+      "strengths": [],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": null,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Ich möchte fünf Sterne für das Diakoniekrankenhaus vergeben.",
+        "Und zwar besonders für das Essen.",
+        "Heute hatten wir eine Spinat Lasagne auf Tomatensoße und ein gebackenes Fischfilet mit Kräutersauce ,auf dem Punkt genau gegarten Brokkoli !!!!! …"
+      ],
+      "confidence": 0.85
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:17": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:17",
+    "review_index": 17,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 1,
+      "review_time": "vor 7 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Hallo, leider ist es nicht möglich mit 0 Sternen zu bewerten. Vorweg möchte ich betonen das es hier um meine eigene Erfahrung mit dem KH geht, nicht um ein Allgemein Bericht. …",
+    "labels": {
+      "overall_sentiment": "negative",
+      "care_context": [
+        "unknown"
+      ],
+      "barriers": [],
+      "strengths": [],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": null,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Hallo, leider ist es nicht möglich mit 0 Sternen zu bewerten.",
+        "Vorweg möchte ich betonen das es hier um meine eigene Erfahrung mit dem KH geht, nicht um ein Allgemein Bericht."
+      ],
+      "confidence": 0.4
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:18": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:18",
+    "review_index": 18,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 7 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Ich liege aktuell im Klinikum , von Notaufnahme bis Station 24 wurde ich freundlich und mit großer Kompetenz versorgt! Besonders hervor heben möchte ich die Stroke Unit Abteilung auf der Station. Sofort greifende Therapien und rundum …",
+    "labels": {
+      "overall_sentiment": "positive",
+      "care_context": [
+        "emergency",
+        "ward"
+      ],
+      "barriers": [],
+      "strengths": [
+        "friendly_staff",
+        "fast_help",
+        "special_unit_praise"
+      ],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": null,
+        "paperwork_issue": null,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": true,
+        "empathetic_care": false,
+        "good_organization": false,
+        "fast_help": true,
+        "good_communication": false,
+        "trust_and_safety": false,
+        "successful_treatment": false,
+        "special_unit_praise": true
+      },
+      "evidence_spans": [
+        "Ich liege aktuell im Klinikum , von Notaufnahme bis Station 24 wurde ich freundlich und mit großer Kompetenz versorgt!",
+        "Besonders hervor heben möchte ich die Stroke Unit Abteilung auf der Station.",
+        "Sofort greifende Therapien und rundum …"
+      ],
+      "confidence": 0.92
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:19": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:19",
+    "review_index": 19,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 1,
+      "review_time": "vor 7 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Das Allerletzte. Mein Partner hat gestern als akutfall wegen Speiseröhrenkrebs eine Überweisung bekommen. Sogar mit Code! …",
+    "labels": {
+      "overall_sentiment": "negative",
+      "care_context": [
+        "admin"
+      ],
+      "barriers": [
+        "registration_issue",
+        "paperwork_issue"
+      ],
+      "strengths": [],
+      "access": {
+        "appointment_issue": null,
+        "waiting_time": null,
+        "reachability_issue": null,
+        "navigation_issue": null
+      },
+      "admin": {
+        "registration_issue": true,
+        "paperwork_issue": true,
+        "insurance_or_cost_issue": null,
+        "privacy_issue": null
+      },
+      "communication": {
+        "poor_communication": null,
+        "poor_explanation": null,
+        "missing_information": null,
+        "decision_exclusion": null
+      },
+      "staff": {
+        "rude_staff": null,
+        "lack_of_empathy": null,
+        "not_taken_seriously": null
+      },
+      "care": {
+        "diagnosis_problem": null,
+        "treatment_problem": null,
+        "medication_problem": null,
+        "pain_or_symptom_management": null,
+        "safety_incident": null
+      },
+      "coordination": {
+        "coordination_problem": null,
+        "discharge_problem": null,
+        "follow_up_problem": null
+      },
+      "environment": {
+        "cleanliness_issue": null,
+        "facilities_issue": null,
+        "food_issue": null,
+        "basic_support_issue": null
+      },
+      "inclusion": {
+        "language_barrier": null,
+        "missing_interpreter_support": null,
+        "discrimination_or_racism": null,
+        "cultural_or_religious_needs": null,
+        "refugee_or_asylum_context": null
+      },
+      "strengths_detail": {
+        "friendly_staff": null,
+        "empathetic_care": null,
+        "good_organization": null,
+        "fast_help": null,
+        "good_communication": null,
+        "trust_and_safety": null,
+        "successful_treatment": null,
+        "special_unit_praise": null
+      },
+      "evidence_spans": [
+        "Das Allerletzte.",
+        "Mein Partner hat gestern als akutfall wegen Speiseröhrenkrebs eine Überweisung bekommen.",
+        "Sogar mit Code!"
+      ],
+      "confidence": 0.6
+    }
+  }
+}

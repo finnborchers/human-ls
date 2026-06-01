@@ -1,40 +1,107 @@
 {
   "url": "https://www.google.com/maps/place/Privatklinik+Bad+Zwischenahn/@53.1929672,7.9127943,13z/data=!4m10!1m2!2m1!1sPrivatklinik+Bad+Zwischenahn+Fachklinik+f%C3%BCr+Psychotherapeutische+Medizin+und+Psychosomatik!3m6!1s0x47b6e374242160c5:0x918196e720ca90d1!8m2!3d53.1929672!4d7.989012!15sCltQcml2YXRrbGluaWsgQmFkIFp3aXNjaGVuYWhuIEZhY2hrbGluaWsgZsO8ciBQc3ljaG90aGVyYXBldXRpc2NoZSBNZWRpemluIHVuZCBQc3ljaG9zb21hdGlrWl0iW3ByaXZhdGtsaW5payBiYWQgendpc2NoZW5haG4gZmFjaGtsaW5payBmw7xyIHBzeWNob3RoZXJhcGV1dGlzY2hlIG1lZGl6aW4gdW5kIHBzeWNob3NvbWF0aWuSARBwcml2YXRlX2hvc3BpdGFsmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU4xZDNSWWNYcDNSUkFC4AEA-gEECAAQQg!16s%2Fg%2F1tfphwwx?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "privatklinik-bad-zwischenahn-fachklinik-fuer-psychotherapeutische-medizin-und-psychosomatik",
-  "startedAt": "2026-04-15T18:51:44Z",
+  "startedAt": "2026-05-11T16:14:53Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "75C1FEF2BFC236DAC50321DA16B539B3",
-  "selectedTargetId": "75C1FEF2BFC236DAC50321DA16B539B3",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "E6002696A3D3C60466A83BA55C7F4214",
+  "selectedTargetId": "E6002696A3D3C60466A83BA55C7F4214",
   "selectedTargetUrl": "https://www.google.com/maps/place/Privatklinik+Bad+Zwischenahn/@53.1929672,7.9127943,13z/data=!4m10!1m2!2m1!1sPrivatklinik+Bad+Zwischenahn+Fachklinik+f%C3%BCr+Psychotherapeutische+Medizin+und+Psychosomatik!3m6!1s0x47b6e374242160c5:0x918196e720ca90d1!8m2!3d53.1929672!4d7.989012!15sCltQcml2YXRrbGluaWsgQmFkIFp3aXNjaGVuYWhuIEZhY2hrbGluaWsgZsO8ciBQc3ljaG90aGVyYXBldXRpc2NoZSBNZWRpemluIHVuZCBQc3ljaG9zb21hdGlrWl0iW3ByaXZhdGtsaW5payBiYWQgendpc2NoZW5haG4gZmFjaGtsaW5payBmw7xyIHBzeWNob3RoZXJhcGV1dGlzY2hlIG1lZGl6aW4gdW5kIHBzeWNob3NvbWF0aWuSARBwcml2YXRlX2hvc3BpdGFsmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU4xZDNSWWNYcDNSUkFC4AEA-gEECAAQQg!16s%2Fg%2F1tfphwwx?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Privatklinik%2BBad%2BZwischenahn/@53.1929672,7.9127943,13z/data%3D!4m10!1m2!2m1!1sPrivatklinik%2BBad%2BZwischenahn%2BFachklinik%2Bf%25C3%25BCr%2BPsychotherapeutische%2BMedizin%2Bund%2BPsychosomatik!3m6!1s0x47b6e374242160c5:0x918196e720ca90d1!8m2!3d53.1929672!4d7.989012!15sCltQcml2YXRrbGluaWsgQmFkIFp3aXNjaGVuYWhuIEZhY2hrbGluaWsgZsO8ciBQc3ljaG90aGVyYXBldXRpc2NoZSBNZWRpemluIHVuZCBQc3ljaG9zb21hdGlrWl0iW3ByaXZhdGtsaW5payBiYWQgendpc2NoZW5haG4gZmFjaGtsaW5payBmw7xyIHBzeWNob3RoZXJhcGV1dGlzY2hlIG1lZGl6aW4gdW5kIHBzeWNob3NvbWF0aWuSARBwcml2YXRlX2hvc3BpdGFsmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU4xZDNSWWNYcDNSUkFC4AEA-gEECAAQQg!16s%252Fg%252F1tfphwwx?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Privatklinik%2BBad%2BZwischenahn/@53.1929672,7.9127943,13z/data%3D!4m10!1m2!2m1!1sPrivatklinik%2BBad%2BZwischenahn%2BFachklinik%2Bf%25C3%25BCr%2BPsychotherapeutische%2BMedizin%2Bund%2BPsychosomatik!3m6!1s0x47b6e374242160c5:0x918196e720ca90d1!8m2!3d53.1929672!4d7.989012!15sCltQcml2YXRrbGluaWsgQmFkIFp3aXNjaGVuYWhuIEZhY2hrbGluaWsgZsO8ciBQc3ljaG90aGVyYXBldXRpc2NoZSBNZWRpemluIHVuZCBQc3ljaG9zb21hdGlrWl0iW3ByaXZhdGtsaW5payBiYWQgendpc2NoZW5haG4gZmFjaGtsaW5payBmw7xyIHBzeWNob3RoZXJhcGV1dGlzY2hlIG1lZGl6aW4gdW5kIHBzeWNob3NvbWF0aWuSARBwcml2YXRlX2hvc3BpdGFsmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU4xZDNSWWNYcDNSUkFC4AEA-gEECAAQQg!16s%252Fg%252F1tfphwwx?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Privatklinik%2BBad%2BZwischenahn/@53.1929672,7.9127943,13z/data%3D!4m10!1m2!2m1!1sPrivatklinik%2BBad%2BZwischenahn%2BFachklinik%2Bf%25C3%25BCr%2BPsychotherapeutische%2BMedizin%2Bund%2BPsychosomatik!3m6!1s0x47b6e374242160c5:0x918196e720ca90d1!8m2!3d53.1929672!4d7.989012!15sCltQcml2YXRrbGluaWsgQmFkIFp3aXNjaGVuYWhuIEZhY2hrbGluaWsgZsO8ciBQc3ljaG90aGVyYXBldXRpc2NoZSBNZWRpemluIHVuZCBQc3ljaG9zb21hdGlrWl0iW3ByaXZhdGtsaW5payBiYWQgendpc2NoZW5haG4gZmFjaGtsaW5payBmw7xyIHBzeWNob3RoZXJhcGV1dGlzY2hlIG1lZGl6aW4gdW5kIHBzeWNob3NvbWF0aWuSARBwcml2YXRlX2hvc3BpdGFsmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU4xZDNSWWNYcDNSUkFC4AEA-gEECAAQQg!16s%252Fg%252F1tfphwwx?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Privatklinik%2BBad%2BZwischenahn/@53.1929672,7.9127943,13z/data%3D!4m10!1m2!2m1!1sPrivatklinik%2BBad%2BZwischenahn%2BFachklinik%2Bf%25C3%25BCr%2BPsychotherapeutische%2BMedizin%2Bund%2BPsychosomatik!3m6!1s0x47b6e374242160c5:0x918196e720ca90d1!8m2!3d53.1929672!4d7.989012!15sCltQcml2YXRrbGluaWsgQmFkIFp3aXNjaGVuYWhuIEZhY2hrbGluaWsgZsO8ciBQc3ljaG90aGVyYXBldXRpc2NoZSBNZWRpemluIHVuZCBQc3ljaG9zb21hdGlrWl0iW3ByaXZhdGtsaW5payBiYWQgendpc2NoZW5haG4gZmFjaGtsaW5payBmw7xyIHBzeWNob3RoZXJhcGV1dGlzY2hlIG1lZGl6aW4gdW5kIHBzeWNob3NvbWF0aWuSARBwcml2YXRlX2hvc3BpdGFsmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU4xZDNSWWNYcDNSUkFC4AEA-gEECAAQQg!16s%252Fg%252F1tfphwwx?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/Privatklinik+Bad+Zwischenahn/@53.1929672,7.9127943,13z/data=!4m10!1m2!2m1!1sPrivatklinik+Bad+Zwischenahn+Fachklinik+f%C3%BCr+Psychotherapeutische+Medizin+und+Psychosomatik!3m6!1s0x47b6e374242160c5:0x918196e720ca90d1!8m2!3d53.1929672!4d7.989012!15sCltQcml2YXRrbGluaWsgQmFkIFp3aXNjaGVuYWhuIEZhY2hrbGluaWsgZsO8ciBQc3ljaG90aGVyYXBldXRpc2NoZSBNZWRpemluIHVuZCBQc3ljaG9zb21hdGlrWl0iW3ByaXZhdGtsaW5payBiYWQgendpc2NoZW5haG4gZmFjaGtsaW5payBmw7xyIHBzeWNob3RoZXJhcGV1dGlzY2hlIG1lZGl6aW4gdW5kIHBzeWNob3NvbWF0aWuSARBwcml2YXRlX2hvc3BpdGFsmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU4xZDNSWWNYcDNSUkFC4AEA-gEECAAQQg!16s%2Fg%2F1tfphwwx?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Privatklinik%2BBad%2BZwischenahn/@53.1929672,7.9127943,13z/data%3D!4m10!1m2!2m1!1sPrivatklinik%2BBad%2BZwischenahn%2BFachklinik%2Bf%25C3%25BCr%2BPsychotherapeutische%2BMedizin%2Bund%2BPsychosomatik!3m6!1s0x47b6e374242160c5:0x918196e720ca90d1!8m2!3d53.1929672!4d7.989012!15sCltQcml2YXRrbGluaWsgQmFkIFp3aXNjaGVuYWhuIEZhY2hrbGluaWsgZsO8ciBQc3ljaG90aGVyYXBldXRpc2NoZSBNZWRpemluIHVuZCBQc3ljaG9zb21hdGlrWl0iW3ByaXZhdGtsaW5payBiYWQgendpc2NoZW5haG4gZmFjaGtsaW5payBmw7xyIHBzeWNob3RoZXJhcGV1dGlzY2hlIG1lZGl6aW4gdW5kIHBzeWNob3NvbWF0aWuSARBwcml2YXRlX2hvc3BpdGFsmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU4xZDNSWWNYcDNSUkFC4AEA-gEECAAQQg!16s%252Fg%252F1tfphwwx?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Privatklinik%2BBad%2BZwischenahn/@53.1929672,7.9127943,13z/data%3D!4m10!1m2!2m1!1sPrivatklinik%2BBad%2BZwischenahn%2BFachklinik%2Bf%25C3%25BCr%2BPsychotherapeutische%2BMedizin%2Bund%2BPsychosomatik!3m6!1s0x47b6e374242160c5:0x918196e720ca90d1!8m2!3d53.1929672!4d7.989012!15sCltQcml2YXRrbGluaWsgQmFkIFp3aXNjaGVuYWhuIEZhY2hrbGluaWsgZsO8ciBQc3ljaG90aGVyYXBldXRpc2NoZSBNZWRpemluIHVuZCBQc3ljaG9zb21hdGlrWl0iW3ByaXZhdGtsaW5payBiYWQgendpc2NoZW5haG4gZmFjaGtsaW5payBmw7xyIHBzeWNob3RoZXJhcGV1dGlzY2hlIG1lZGl6aW4gdW5kIHBzeWNob3NvbWF0aWuSARBwcml2YXRlX2hvc3BpdGFsmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU4xZDNSWWNYcDNSUkFC4AEA-gEECAAQQg!16s%252Fg%252F1tfphwwx?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Privatklinik%2BBad%2BZwischenahn/@53.1929672,7.9127943,13z/data%3D!4m10!1m2!2m1!1sPrivatklinik%2BBad%2BZwischenahn%2BFachklinik%2Bf%25C3%25BCr%2BPsychotherapeutische%2BMedizin%2Bund%2BPsychosomatik!3m6!1s0x47b6e374242160c5:0x918196e720ca90d1!8m2!3d53.1929672!4d7.989012!15sCltQcml2YXRrbGluaWsgQmFkIFp3aXNjaGVuYWhuIEZhY2hrbGluaWsgZsO8ciBQc3ljaG90aGVyYXBldXRpc2NoZSBNZWRpemluIHVuZCBQc3ljaG9zb21hdGlrWl0iW3ByaXZhdGtsaW5payBiYWQgendpc2NoZW5haG4gZmFjaGtsaW5payBmw7xyIHBzeWNob3RoZXJhcGV1dGlzY2hlIG1lZGl6aW4gdW5kIHBzeWNob3NvbWF0aWuSARBwcml2YXRlX2hvc3BpdGFsmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU4xZDNSWWNYcDNSUkFC4AEA-gEECAAQQg!16s%252Fg%252F1tfphwwx?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
@@ -56,6 +123,7 @@
         "jsaction": "pane.wfvdle18.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 5,
       "clickResult": {
         "clicked": true,
         "index": 56,
@@ -71,7 +139,7 @@
       }
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 5,
   "reviewClick": {
     "clicked": true,
     "strategy": "candidate",
@@ -99,8 +167,8 @@
     "tagName": "DIV",
     "scrollTop": 0,
     "scrollHeight": 2449,
-    "clientHeight": 694,
-    "distanceToBottom": 1755
+    "clientHeight": 695,
+    "distanceToBottom": 1754
   },
   "declaredReviewTotalInfo": {
     "found": true,
@@ -141,11 +209,11 @@
       "scrolled": true,
       "strategy": "pane_to_bottom",
       "before": 0,
-      "after": 1754.5,
+      "after": 1753.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 2449,
-      "clientHeight": 694,
+      "clientHeight": 695,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 75,
       "uniqueReviewIdCount": 10,
@@ -158,9 +226,9 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 1753.5,
+        "scrollTop": 1752.5,
         "scrollHeight": 2449,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 0.5
       },
       "declaredTotalSettle": {
@@ -172,14 +240,14 @@
           "foundTarget": true,
           "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
           "tagName": "DIV",
-          "scrollTop": 1753.5,
+          "scrollTop": 1752.5,
           "scrollHeight": 2449,
-          "clientHeight": 695,
+          "clientHeight": 696,
           "distanceToBottom": 0.5
         }
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 6.6644349580165,
+      "networkIdleSeconds": 6.641543040983379,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": true
     }
@@ -189,7 +257,7 @@
   "scrollSafetyTimeoutHit": false,
   "growthEvents": [],
   "networkEventsDuringScroll": 0,
-  "finalNetworkIdleSeconds": 6.664474583114497,
+  "finalNetworkIdleSeconds": 6.641592415980995,
   "noGrowthCycles": 0,
   "finalReviewsState": {
     "title": "Privatklinik Bad Zwischenahn - Google Maps",
@@ -198,25 +266,25 @@
     "foundTarget": true,
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
-    "scrollTop": 1753.5,
+    "scrollTop": 1752.5,
     "scrollHeight": 2449,
-    "clientHeight": 695,
+    "clientHeight": 696,
     "distanceToBottom": 0.5
   },
   "reachedDeclaredReviewTotal": true,
   "reachedReviewPaneEnd": true,
   "finalUniqueReviewIdCount": 10,
-  "finalScrollTop": 1753.5,
+  "finalScrollTop": 1752.5,
   "finalScrollHeight": 2449,
   "reviewExpansion": {
     "buttonCount": 4,
     "clickedCount": 4
   },
-  "matchedRequestCount": 31,
+  "matchedRequestCount": 32,
   "batchexecuteCount": 3,
   "reviewPhaseXhrCount": 8,
   "captureSuccessful": true,
-  "finishedAt": "2026-04-15T18:52:15Z",
+  "finishedAt": "2026-05-11T16:15:24Z",
   "retryRunsRequested": 2,
   "retryRunsExecuted": 1,
   "retryAttempts": [

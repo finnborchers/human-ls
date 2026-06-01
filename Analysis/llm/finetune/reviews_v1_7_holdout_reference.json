@@ -1,0 +1,1129 @@
+{
+  "benchmark_name": "review_labels_benchmark_v1_seed_120_holdout20",
+  "created_at": "2026-05-13T08:42:03.600945+00:00",
+  "source_model": "gpt-4.1-mini",
+  "prompt_version": "flat_v1",
+  "sampling_seed": 20260513,
+  "records": {
+    "ammerland-klinik-gmbh:297": {
+      "review_id": "ammerland-klinik-gmbh:297",
+      "bucket": "positive",
+      "metadata": {
+        "place_id": "ammerland-klinik-gmbh",
+        "clinic_name": null,
+        "star_rating": 5,
+        "review_time": "vor 2 Jahren",
+        "like_count": 0,
+        "has_owner_response": false
+      },
+      "review_text": "Die Ammerland-Klinik ist eine klare Empfehlung. Unkomplizierte Terminvereinbarung, freundlich u. kompetente Beratung; gründliche Untersuchung, sehr nettes Klinikpersonal. Vorbildlich!!",
+      "model_prelabels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "access.appointments",
+          "staff.friendliness",
+          "care.competence"
+        ]
+      },
+      "benchmark_labels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "access.appointments",
+          "staff.friendliness",
+          "care.competence"
+        ]
+      },
+      "benchmark_notes": "",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "ready",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T08:04:17.879Z",
+        "verdict": "ok",
+        "summary": "Die gesetzten Labels spiegeln die positive Bewertung des Textes gut wider. Die unkomplizierte Terminvereinbarung wird durch 'access.appointments' abgedeckt, die Freundlichkeit des Personals durch 'staff.friendliness' und die kompetente Beratung durch 'care.competence'.",
+        "suggested_additions": [],
+        "suggested_removals": [],
+        "critical_spans": [],
+        "raw_recommendation_notes": "Keine Änderungen notwendig, da die Labels alle zentralen Aspekte des Reviews abdecken.",
+        "error_message": ""
+      }
+    },
+    "asklepios-fachklinikum-goettingen:39": {
+      "review_id": "asklepios-fachklinikum-goettingen:39",
+      "bucket": "negative",
+      "metadata": {
+        "place_id": "asklepios-fachklinikum-goettingen",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "Bearbeitet: vor 3 Jahren",
+        "like_count": 16,
+        "has_owner_response": true
+      },
+      "review_text": "Ich kann von dieser Klinik nur abraten! Man wird ziemlich schnell aus den Therapiestationen rausgeschmissen und auf die geschlossene oder Akut verlegt. Auf der geschlossenen Station werden Fixierungen nicht als „die letzte Möglichkeit“ angewandt und viel zu lange angewandt. Wenn man sich gegen die Fixierung wehrt, weil man zum Beispiel Panik bekommt, wird die dort genannte „Streckfixierung“ angewandt, was mehr eine Foltermethode als eine medizinische Maßnahme ist. Die Arme und Hände werden taub und tuen weh und trotz mehrmaligen Bescheid sagen, wurde die Position nicht geändert, weil man sich beruhigen soll. Aber wie soll man sich beruhigen wenn man Schmerzen hat? Außerdem ist diese Maßnahme rechtlich gesehen auch nicht ok. Wenn man so aggressiv ist, dass eine 4 Punkt Fixierung nicht ausreicht, muss eine höhere Fixierung gemacht werden. Und das muss wieder vom Richter genehmigt werden. Da das aber zu viel Aufwand ist und die Fixiergurte zu viel Geld kosten, greift man zu dieser Art Folter. Außerdem habe ich schon mehrmals mitbekommen, das Patienten die nichts gemacht haben eingeliefert wurden, sich ruhig verhalten haben, aber sie direkt für die nächsten 2 Tage fixiert wurden, ohne wirklich zu überprüfen ob das notwendig sei. Die Richter halten sich eh an die Ärzte. Abgesehen davon wird auch so häufig fixiert, weil nicht genug Personal für Beobachtung da ist. Ich bin total zerstört und vor allem verstört aus dieser Klinik rausgegangen. Mittlerweile ist eine ganze Zeit vergangen, aber das Trauma begleitet mich noch 24/7. Vielen dank auch… (Wie es auf den Stationen Therapiestationen ist, davon kann ich kaum sprechen. War bislang nur auf Einer und dort wurde ich wieder rausgeworfen)",
+      "model_prelabels": {
+        "problem_labels": [
+          "care.safety",
+          "care.treatment",
+          "staff.respect"
+        ],
+        "strength_labels": []
+      },
+      "benchmark_labels": {
+        "problem_labels": [
+          "care.competence",
+          "care.safety",
+          "care.treatment",
+          "coordination.coordination",
+          "staff.empathy",
+          "staff.respect"
+        ],
+        "strength_labels": []
+      },
+      "benchmark_notes": "KI-Empfehlungen übernommen",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "stale",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T09:45:36.087Z",
+        "verdict": "consider_changes",
+        "summary": "Die gesetzten Labels care.safety, care.treatment und staff.respect passen gut zur Kritik an den Fixierungen und der Behandlung. Ergänzend sollten labels zur Kompetenz des Personals (care.competence) wegen Kritik an fachlichem Fehlverhalten sowie zur Koordination (coordination.coordination) wegen mangelhafter Beobachtung und Personalmangel erwogen werden. Auch ein Label zur empathischen und respektvollen Kommunikation (staff.empathy) könnte ergänzt werden, da Patientenwohl offensichtlich nicht berücksichtigt wurde. Entfernen sollte man keine der gesetzten Labels, da alle textlich klar gestützt sind.",
+        "suggested_additions": [
+          "care.competence",
+          "coordination.coordination",
+          "staff.empathy"
+        ],
+        "suggested_removals": [],
+        "critical_spans": [
+          "Fixierungen nicht als „die letzte Möglichkeit“ angewandt und viel zu lange angewandt",
+          "„Streckfixierung“ angewandt, was mehr eine Foltermethode als eine medizinische Maßnahme ist",
+          "trotz mehrmaligen Bescheid sagen, wurde die Position nicht geändert",
+          "diese Maßnahme rechtlich gesehen auch nicht ok",
+          "Patienten ... wurden direkt für die nächsten 2 Tage fixiert, ohne wirklich zu überprüfen ob das notwendig sei",
+          "so häufig fixiert, weil nicht genug Personal für Beobachtung da ist",
+          "Ich bin total zerstört und vor allem verstört ... Trauma begleitet mich noch 24/7"
+        ],
+        "raw_recommendation_notes": "Der Review kritisiert schwerwiegende Mängel bei der Behandlungssicherheit (fehlende rechtliche und medizinische Korrektheit der Fixierungen), somit bleibt care.safety notwendig. care.treatment und staff.respect werden durch den Umgang mit Patienten nahegelegt. Die fachliche Kompetenz erscheint infrage gestellt durch die unangemessene Fixierungspraxis, daher Ergänzung care.competence. Die Koordination zwischen Personal und Ressourcen ist offenbar mangelhaft, dies stützt coordination.coordination. Auch empathische Zuwendung wurde nicht wahrgenommen, was staff.empathy rechtfertigt. Keine Entfernen der existierenden Labels, da diese textlich gut gestützt sind.",
+        "error_message": ""
+      }
+    },
+    "asklepios-fachklinikum-goettingen:77": {
+      "review_id": "asklepios-fachklinikum-goettingen:77",
+      "bucket": "positive",
+      "metadata": {
+        "place_id": "asklepios-fachklinikum-goettingen",
+        "clinic_name": null,
+        "star_rating": 5,
+        "review_time": "Bearbeitet: vor 2 Jahren",
+        "like_count": 2,
+        "has_owner_response": true
+      },
+      "review_text": "Also vielen Dank für die mitarbeiter der Station 10,ihr seit die besten,habe mich dort so wohl gefühlt,und noch herzlichen dank an Herrn Blume, Danke",
+      "model_prelabels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "staff.friendliness",
+          "staff.empathy"
+        ]
+      },
+      "benchmark_labels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "staff.friendliness",
+          "staff.empathy"
+        ]
+      },
+      "benchmark_notes": "",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "ready",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T08:06:13.747Z",
+        "verdict": "ok",
+        "summary": "Die vergebenen Labels staff.friendliness und staff.empathy sind textlich sehr gut gestützt. Der Text lobt ausdrücklich die Mitarbeiter und nennt ein positives persönliches Gefühl sowie Dankbarkeit. Es gibt keine Hinweise auf Probleme oder weitere Aspekte, die gelabelt werden sollten.",
+        "suggested_additions": [],
+        "suggested_removals": [],
+        "critical_spans": [],
+        "raw_recommendation_notes": "Die aktuellen Benchmark-Labels spiegeln treffsicher die positive Erfahrung mit dem Personal wider. Keine weiteren Labels aus anderen Kategorien können im Text erkannt oder begründet werden.",
+        "error_message": ""
+      }
+    },
+    "asklepios-harzklinik-goslar:160": {
+      "review_id": "asklepios-harzklinik-goslar:160",
+      "bucket": "negative",
+      "metadata": {
+        "place_id": "asklepios-harzklinik-goslar",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "vor 9 Jahren",
+        "like_count": 4,
+        "has_owner_response": false
+      },
+      "review_text": "Sehr unfreundliche und hochnäsige Mitarbeiter. Ich wurde trotz richtigem Überweisungsschein angemacht, ich habe einen Vogel, und wurde des Hauses verwiesen. Nachdem ich ein zweites mal angerufen habe, mein Problem geschildert habe, bekam …",
+      "model_prelabels": {
+        "problem_labels": [
+          "staff.friendliness",
+          "staff.respect"
+        ],
+        "strength_labels": []
+      },
+      "benchmark_labels": {
+        "problem_labels": [
+          "staff.friendliness",
+          "staff.respect"
+        ],
+        "strength_labels": []
+      },
+      "benchmark_notes": "",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "ready",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T09:49:16.149Z",
+        "verdict": "ok",
+        "summary": "Die gesetzten Labels staff.friendliness und staff.respect sind textnah und plausibel, da der Text von unfreundlichen und respektlosen Mitarbeitern berichtet. Es sind keine weiteren Ergänzungen oder Entfernungen notwendig.",
+        "suggested_additions": [],
+        "suggested_removals": [],
+        "critical_spans": [
+          "Sehr unfreundliche und hochnäsige Mitarbeiter",
+          "ich wurde trotz richtigem Überweisungsschein angemacht",
+          "ich habe einen Vogel, und wurde des Hauses verwiesen"
+        ],
+        "raw_recommendation_notes": "Die negative Darstellung der Mitarbeiter im Text unterstützt die Labels staff.friendliness (Unfreundlichkeit) und staff.respect (Respektlosigkeit). Weitere Labels, z.B. Kommunikation oder Koordination, werden durch den Text nicht eindeutig gestützt.",
+        "error_message": ""
+      }
+    },
+    "bundeswehrkrankenhaus:223": {
+      "review_id": "bundeswehrkrankenhaus:223",
+      "bucket": "mixed_hard",
+      "metadata": {
+        "place_id": "bundeswehrkrankenhaus",
+        "clinic_name": null,
+        "star_rating": 3,
+        "review_time": "vor einem Jahr",
+        "like_count": 1,
+        "has_owner_response": true
+      },
+      "review_text": "Ich war zur OP einer Weber-B-Fraktur 2 Nächte in diesem KKH. An sich bin ich mit dem Verlauf etc zufrieden, die Auskünfte und Aufklärung der Ärzte nach der OP hätten jedoch etwas präsenter sein können. Eine absolute Katastrophe ist jedoch das Essen, morgens und abends geht es noch gerade so, auch wenn prinzipiell nicht das gebracht wurde, was man zuvor bestellt hat und es, gerade was Obst und Gemüse angeht, sehr übersichtlich war (entweder Gurke oder Tomate, beides geht nicht). Das Mittagessen jedoch ist wirklich eine Zumutung. Dass man sowas in 2024 Menschen noch vorsetzt, ist mir unerklärlich. Widerlich ist leider das einzig richtige Wort dafür. Ich konnte keinen Bissen davon essen. Bei einem Aufenthalt von 2 Nächten kein Problem, schlimm wird es für die Menschen, die längere Zeit in diesem KKH verbringen müssen. Bitte, bitte ändert daran etwas, Ernährung ist wichtig, gerade wenn man krank ist!!!",
+      "model_prelabels": {
+        "problem_labels": [
+          "communication.explanation",
+          "environment.food"
+        ],
+        "strength_labels": [
+          "care.treatment"
+        ]
+      },
+      "benchmark_labels": {
+        "problem_labels": [
+          "communication.explanation",
+          "environment.food"
+        ],
+        "strength_labels": [
+          "care.treatment"
+        ]
+      },
+      "benchmark_notes": "",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "ready",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T11:42:46.935Z",
+        "verdict": "ok",
+        "summary": "Die aktuellen Labels spiegeln die Kritik an der Erklärungskommunikation und der Verpflegung wider, während die Behandlung als Stärke hervorgehoben wird. Es gibt keine Hinweise auf weitere relevante Themen im Reviewtext, die eine Ergänzung oder Entfernung von Labels rechtfertigen würden.",
+        "suggested_additions": [],
+        "suggested_removals": [],
+        "critical_spans": [
+          "die Auskünfte und Aufklärung der Ärzte nach der OP hätten jedoch etwas präsenter sein können",
+          "Eine absolute Katastrophe ist jedoch das Essen, ... Mittagessen jedoch ist wirklich eine Zumutung ... Widerlich ist leider das einzig richtige Wort dafür"
+        ],
+        "raw_recommendation_notes": "Die Label sind textnah und passen gut zum Review. Die Kritik an der Kommunikation bezieht sich explizit auf medizinische Aufklärung nach der OP, was den Label communication.explanation gerecht wird. Die Essensproblematik wird ausführlich beschrieben und rechtfertigt das Label environment.food. Die Behandlung wird als zufriedenstellend beschrieben, sodass care.treatment als Stärke passt. Keine weiteren Labels erscheinen aus dem Text notwendig.",
+        "error_message": ""
+      }
+    },
+    "clemens-august-klinik:12": {
+      "review_id": "clemens-august-klinik:12",
+      "bucket": "negative",
+      "metadata": {
+        "place_id": "clemens-august-klinik",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "Bearbeitet: vor 2 Monaten",
+        "like_count": 0,
+        "has_owner_response": false
+      },
+      "review_text": "Die Oberärzte sind so von oben herab und nicht einfühlsam. Des Weiteren wurde ich angelogen von meiner Therapeutin. Das Essen könnte besser sein. Wenig Therapien und viele Ausfälle. 😕 …",
+      "model_prelabels": {
+        "problem_labels": [
+          "staff.empathy",
+          "staff.respect",
+          "communication.communication",
+          "environment.food",
+          "care.treatment"
+        ],
+        "strength_labels": []
+      },
+      "benchmark_labels": {
+        "problem_labels": [
+          "care.competence",
+          "care.treatment",
+          "communication.communication",
+          "environment.food",
+          "staff.empathy",
+          "staff.respect"
+        ],
+        "strength_labels": []
+      },
+      "benchmark_notes": "competence als problem ergänzt",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "stale",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T09:50:35.870Z",
+        "verdict": "consider_changes",
+        "summary": "Das Label staff.empathy ist passend, da die Oberärzte als nicht einfühlsam beschrieben werden. Das Label staff.respect ist relevant wegen der herablassenden Haltung und des Lügens seitens der Therapeutin. communication.communication ist angemessen, da das Vertrauensverhältnis durch Lügen beeinträchtigt ist. environment.food ist zutreffend, da das Essen kritisch erwähnt wird. care.treatment könnte hier hinsichtlich der Therapieversorgung ergänzt oder genauer differenziert werden, da wenige Therapien und viele Ausfälle angesprochen werden. Es könnten zusätzlich Labels aus dem Bereich coordination.discharge entfernt werden, da keine Hinweise auf Entlassungsorganisation vorliegen, und care.symptoms fehlen, da Symptome nicht erwähnt werden. Ergänzend sollte care.competence geprüft werden, da der Hinweis auf mangelnde Therapien und Ausfälle auf Kompetenzmängel hindeuten könnte.",
+        "suggested_additions": [
+          "care.competence"
+        ],
+        "suggested_removals": [],
+        "critical_spans": [
+          "Die Oberärzte sind so von oben herab und nicht einfühlsam",
+          "wurde ich angelogen von meiner Therapeutin",
+          "Das Essen könnte besser sein",
+          "Wenig Therapien und viele Ausfälle"
+        ],
+        "raw_recommendation_notes": "Die bestehenden Labels decken den Text gut ab. Die Kritik an fehlender Einfühlsamkeit (staff.empathy) und respektlosem Verhalten (staff.respect) sowie der Kommunikation (communication.communication) ist klar gerechtfertigt. Die negative Bemerkung zum Essen (environment.food) ist ebenfalls belegt. Die Anmerkung über wenige Therapien und Ausfälle spricht für eine ergänzende Betrachtung der fachlichen Kompetenz (care.competence), da dies auf Qualitätsmängel in der Versorgung hinweist. Weitere Ergänzungen oder Entfernungen von Labels sind nicht zwingend notwendig.",
+        "error_message": ""
+      }
+    },
+    "delme-klinikum-delmenhorst:136": {
+      "review_id": "delme-klinikum-delmenhorst:136",
+      "bucket": "positive",
+      "metadata": {
+        "place_id": "delme-klinikum-delmenhorst",
+        "clinic_name": null,
+        "star_rating": 5,
+        "review_time": "vor einem Jahr",
+        "like_count": 1,
+        "has_owner_response": true
+      },
+      "review_text": "Behandlung der Symptome etwas holprig. Das Personal auf Station 31 ist unglaublich aufmerksam, freundlich und geht sehr schnell auf die Belange ein!!! Immer ein freundliches Wort und Lächeln! Ist leider heutzutage nicht mehr selbstverständlich. Deshalb erleichtert es die Schmerzen sehr gut!! Ein tolles Team 👍👍👍",
+      "model_prelabels": {
+        "problem_labels": [
+          "care.symptoms"
+        ],
+        "strength_labels": [
+          "staff.friendliness",
+          "staff.empathy",
+          "care.symptoms"
+        ]
+      },
+      "benchmark_labels": {
+        "problem_labels": [
+          "care.treatment"
+        ],
+        "strength_labels": [
+          "staff.friendliness",
+          "staff.empathy",
+          "care.symptoms"
+        ]
+      },
+      "benchmark_notes": "\"Behandlung\" -> care.treatment anstatt care.symptoms",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "stale",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T08:13:56.202Z",
+        "verdict": "ok",
+        "summary": "Die gesetzten Labels sind textnah und plausibel. Die Kritik zur Behandlung wird durch 'care.symptoms' treffend abgebildet. Die positiven Rückmeldungen zur Freundlichkeit und Empathie des Personals sind ebenfalls gut erfasst. Keine Ergänzungen oder Entfernungen notwendig.",
+        "suggested_additions": [],
+        "suggested_removals": [],
+        "critical_spans": [
+          "\"Behandlung der Symptome etwas holprig.\"",
+          "\"Das Personal auf Station 31 ist unglaublich aufmerksam, freundlich und geht sehr schnell auf die Belange ein!!!\"",
+          "\"Immer ein freundliches Wort und Lächeln!\"",
+          "\"Deshalb erleichtert es die Schmerzen sehr gut!!\""
+        ],
+        "raw_recommendation_notes": "Die Kritik ist klar auf die Behandlung der Symptome bezogen, daher ist 'care.symptoms' als Problemlabel passend. Die Stärken des Personals im Bereich Freundlichkeit und Empathie spiegeln sich im Text wider. Es gibt keine Hinweise auf andere Aspekte wie Organisation, Kommunikation oder Umfeld, daher sind keine weiteren Labels notwendig.",
+        "error_message": ""
+      }
+    },
+    "diakovere-annastift:48": {
+      "review_id": "diakovere-annastift:48",
+      "bucket": "mixed_hard",
+      "metadata": {
+        "place_id": "diakovere-annastift",
+        "clinic_name": null,
+        "star_rating": 2,
+        "review_time": "vor einem Jahr",
+        "like_count": 0,
+        "has_owner_response": true
+      },
+      "review_text": "Ich wurde gestern im Annastift an der Hüfte operiert und habe ein neues Hüftgelenk bekommen. Die Dysplasie-Sprechstunde war toll. Hatte schnell einen Termin bekommen und auch sehr schnell einen Op- und Op- Vorbereitungstermin bekommen. Die Op- Vorbereitung war wie zu erwarten zeitaufwendig, aber alle waren super nett und freundlich. Das Sozialsteam habe ich per Mail kontaktiert, damit Sie sich um die Anschluss-Reha kümmern können. Das hat auch super geklappt. Die Parkplatzsituation am Krankenhaus ist katastrophal. Wenn man Glück hat, verlässt gerade jemand einen Parkplatz mit seinem Auto. Sonst sucht man ewig und verzweifelt eine Parkmöglichkeit. Zur OP selbst musste ich schon um 6:15 h da sein. Das lief auch alles gut und reibungslos. Auch als ich für die OP von der Anästhesie vorbereitet wurde, war alles top… sehr freundlich. Auf der Intensivstation waren ebenfalls alle sehr freundlich. Aber als ich auf Station A4 gebracht wurde, war ich sehr enttäuscht. Meine Krankenhaustasche war nicht wie versprochen im Zimmer. Das Mittagessen wurde mir von der Intensivstation auf mein Bett gestellt und mit auf die Station gebracht. Aber es war natürlich kalt und niemand kam mal auf die Idee zu fragen, ob das Essen aufgewärmt werden soll oder ob ich etwas brauchen würde. Erst nach dem ich irgendwann nachgefragt habe, ob mir meine Sachen ins Zimmer gebracht werden können, damit ich mich mal umziehen kann, bekam ich meine Sachen. Das Pflegepersonal ist einfach unterbesetzt. Und da genügt es nicht, Pflegekräfte aus dem Ausland einzustellen, die ein anderes Verständnis für Pflege haben als die hier in Deutschland ausgebildeten Pflegekräfte. Es gibt da leider große Unterschiede. Die Einheimischen Pflegekräfte sind sehr bemüht und freundlich, zuvorkommend und sehen auch, was die Patienten brauchen. Allerdings können Sie die Mankos der Pflegekräfte aus dem Ausland nicht alle kompensieren. Sie gehen wirklich auf dem Zahnfleisch. Sie sind schlicht weg überbeansprucht und sichtlich am Ende ihrer Kräfte. Traurig ist auch, was man für Mahlzeiten angeboten wird. Es fehlt an qualitativen Nahrungsmitteln. Es gibt kein Salat, Tomate oder Gurke als Beilage zum Abendessen. Der Kaffee morgens ist schauderhaft. Es gibt lauwarmes Wasser und dazu einen Ministick Instantkaffee. Das dürfte kaum günstiger sein, als große Kaffeemengen zu kochen. Es kam auch nicht mehr der Operierende Arzt zu mir, um mir zu erklären, was genau bei der Op passiert ist. Ebenso bin ich enttäuscht, dass die Physiotherapie erst am Tag nach der Operation kam. Ich habe mich kaum getraut zu klingeln in der Nacht, obwohl ich starke Schmerzen hatte und zur Toilette musste. Hab bis morgens 6;00 ausgehalten, bekam dann zwar eine Schmerztablette, aber keine Hilfe beim aufstehen, damit ich zur Toilette konnte, obwohl ich noch nicht alleine aufstehen sollte. Niemand kam morgens ins Zimmer, um zu fragen, ob man vielleicht Hilfe bei der Körperpflege und beim Ankleiden braucht. Da man nach einer Hüftoperation sich nicht über 90 Grad bücken darf, war es echt triggy sich saubere Wäsche anzuziehen. Auch wenn die meisten Angestellte hier im Annastift sehr nett sind, gibt es leider zu viel zu bemängeln. Ich komme selbst aus der Pflege und habe auch im Krankenhaus gearbeitet, aber da hat man den Patienten noch Hilfe angeboten und musste nicht schamhaft darum bitten. Ich verstehe, dass die Pflegekräfte überfordert sind und immer unterbesetzt, aber sie sollten dennoch fürsorglich mit den Patienten umgehen. Nicht alle Patienten, die keine Hilfe anfordern, benötigen auch keine Hilfe. Sie nehmen Rücksicht auf die Pflegekräfte… so wie ich, aber das ist falsch. Wir sind nicht umsonst im Krankenhaus.",
+      "model_prelabels": {
+        "problem_labels": [
+          "environment.facilities",
+          "staff.friendliness",
+          "staff.empathy",
+          "staff.seriousness",
+          "care.treatment",
+          "care.safety",
+          "communication.explanation",
+          "coordination.followup",
+          "environment.food"
+        ],
+        "strength_labels": [
+          "access.appointments",
+          "staff.friendliness",
+          "coordination.coordination"
+        ]
+      },
+      "benchmark_labels": {
+        "problem_labels": [
+          "environment.facilities",
+          "staff.friendliness",
+          "staff.empathy",
+          "staff.seriousness",
+          "care.treatment",
+          "care.safety",
+          "communication.explanation",
+          "coordination.followup",
+          "environment.food"
+        ],
+        "strength_labels": [
+          "access.appointments",
+          "staff.friendliness",
+          "coordination.coordination"
+        ]
+      },
+      "benchmark_notes": "",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "ready",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T12:01:49.142Z",
+        "verdict": "consider_changes",
+        "summary": "Die aktuellen Labels sind überwiegend passend, aber es fehlen wichtige Aspekte wie Personalunterbesetzung, Schmerzen und Pflegehilfe, die im Text klar angesprochen werden. Auch die Parkplatzproblematik sollte berücksichtigt werden, da sie die Zugänglichkeit zum Krankenhaus beeinflusst. Die Essensqualität und fehlende Aufklärung durch den Arzt sind gut mit 'environment.food' und 'communication.explanation' abgedeckt, aber Pflegeprobleme sollten stärker hervorgehoben werden.",
+        "suggested_additions": [
+          "staff.respect",
+          "staff.seriousness",
+          "care.symptoms",
+          "environment.support",
+          "access.reachability",
+          "access.navigation"
+        ],
+        "suggested_removals": [],
+        "critical_spans": [
+          "Die Parkplatzsituation am Krankenhaus ist katastrophal.",
+          "Das Pflegepersonal ist einfach unterbesetzt.",
+          "Ich habe mich kaum getraut zu klingeln in der Nacht, obwohl ich starke Schmerzen hatte und zur Toilette musste.",
+          "Niemand kam morgens ins Zimmer, um zu fragen, ob man vielleicht Hilfe bei der Körperpflege und beim Ankleiden braucht.",
+          "Es kam auch nicht mehr der Operierende Arzt zu mir, um mir zu erklären, was genau bei der Op passiert ist.",
+          "Das Mittagessen wurde mir ... aber es war natürlich kalt und niemand kam mal auf die Idee zu fragen, ob das Essen aufgewärmt werden soll."
+        ],
+        "raw_recommendation_notes": "Der Bericht spricht neben den bereits gelabelten Problemen auch weitere relevante Punkte an. Die Parkplatzproblematik beeinflusst den Zugang (access.reachability oder access.navigation). Die schwere Unterbesetzung der Pflegekräfte und deren unterschiedliche Qualitäten sowie fehlende Unterstützung bei Alltagsaktivitäten sprechen für Ergänzungen bei staff.respect, staff.seriousness und environment.support. Die Schmerzen und fehlende Hilfe beim Toilettengang sollten mit care.symptoms erfasst werden. Die nicht erfolgte ärztliche Nachbesprechung unterstreicht die Bedeutung von communication.explanation (bereits gelabelt). Es gibt keine Labels, die entfernt werden sollten, da alle gesetzten Labels durch den Text plausibel gestützt sind.",
+        "error_message": ""
+      }
+    },
+    "drk-krankenhaus-clementinenhaus:374": {
+      "review_id": "drk-krankenhaus-clementinenhaus:374",
+      "bucket": "positive",
+      "metadata": {
+        "place_id": "drk-krankenhaus-clementinenhaus",
+        "clinic_name": null,
+        "star_rating": 5,
+        "review_time": "vor 3 Jahren",
+        "like_count": 0,
+        "has_owner_response": true
+      },
+      "review_text": "An die Belegschaft am23.02.23 abens in der Notaufnahme vielen vielen Dank ihr seit super!!! von den pflegern bis zur aerztin alle qualifiziert.",
+      "model_prelabels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "staff.friendliness",
+          "staff.respect"
+        ]
+      },
+      "benchmark_labels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "care.competence",
+          "staff.friendliness",
+          "staff.respect"
+        ]
+      },
+      "benchmark_notes": "\"qualifiziert\" -> care.competence",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "stale",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T08:16:40.063Z",
+        "verdict": "consider_changes",
+        "summary": "Die bestehenden Labels 'staff.friendliness' und 'staff.respect' passen gut zum lobenden Text bezüglich der Belegschaft und ihrem qualifizierten Umgang. Zusätzlich sollte 'care.competence' ergänzt werden, da die Qualifikation der Pfleger und Ärztin ausdrücklich hervorgehoben wird.",
+        "suggested_additions": [
+          "care.competence"
+        ],
+        "suggested_removals": [],
+        "critical_spans": [
+          "ihr seit super!!!",
+          "von den pflegern bis zur aerztin alle qualifiziert"
+        ],
+        "raw_recommendation_notes": "Das Lob umfasst sowohl den freundlichen Umgang als auch die fachliche Kompetenz der Mitarbeitenden. Daher ist eine Ergänzung um 'care.competence' sinnvoll.",
+        "error_message": ""
+      }
+    },
+    "euregio-klinik-albert-schweitzer-strasse-gmbh:191": {
+      "review_id": "euregio-klinik-albert-schweitzer-strasse-gmbh:191",
+      "bucket": "positive",
+      "metadata": {
+        "place_id": "euregio-klinik-albert-schweitzer-strasse-gmbh",
+        "clinic_name": null,
+        "star_rating": 5,
+        "review_time": "vor 7 Jahren",
+        "like_count": 2,
+        "has_owner_response": false
+      },
+      "review_text": "Schwiegervater war Ende 2014 auf Paliativstation zum Sterben wegen verstreuten Kehlkopfkrebs. Schwestern waren super net und Ärzte haben sich prima gekümmert. Enge Familie durfte sogar bis spät Abends leise zu Besuch bleiben. Mein Partner durfte als Sohn zum besonderen Fußball Spiel im Fernsehen bei seinem Vater im Zimmer bis Nachts bleiben und beide durften q Bier gemeinsam trinken.",
+      "model_prelabels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "staff.friendliness",
+          "staff.empathy",
+          "care.treatment",
+          "environment.support"
+        ]
+      },
+      "benchmark_labels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "staff.friendliness",
+          "staff.empathy",
+          "care.treatment",
+          "environment.support"
+        ]
+      },
+      "benchmark_notes": "",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "ready",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T08:20:48.362Z",
+        "verdict": "ok",
+        "summary": "Die vorhandenen Labels zu Freundlichkeit, Empathie, Behandlung und praktische Unterstützung sind textnah und plausibel. Der Text hebt besonders die nette Pflege, einfühlsame Betreuung und individuelle Unterstützung hervor. Es gibt keine Hinweise auf weitere Themen wie Terminorganisation, Kommunikation oder organisatorische Abläufe, die eine Ergänzung der Labels rechtfertigen würden.",
+        "suggested_additions": [],
+        "suggested_removals": [],
+        "critical_spans": [],
+        "raw_recommendation_notes": "Keine Änderungen notwendig, da die Labels die wesentlichen positiven Aspekte der Bewertung abdecken und keine relevanten negativen Aspekte oder weitere Bereiche angesprochen werden.",
+        "error_message": ""
+      }
+    },
+    "helios-klinikum-hildesheim-gmbh:140": {
+      "review_id": "helios-klinikum-hildesheim-gmbh:140",
+      "bucket": "negative",
+      "metadata": {
+        "place_id": "helios-klinikum-hildesheim-gmbh",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "vor einem Jahr",
+        "like_count": 0,
+        "has_owner_response": false
+      },
+      "review_text": "Patient wird eingeliefert am Freitag, es geht immer schlechter! Arzt sagt vor Montag wird hier nichts passieren! Auf eigene Kosten und Risiko in MHH gefahren! (Urologe) Notfall OP! Noch Samstag Nacht! Stark Unterbesetzt und Fehlende Geräte! Wenn es wirklich um etwas ernsthaftes geht! Vermeiden!",
+      "model_prelabels": {
+        "problem_labels": [
+          "staff.seriousness",
+          "care.safety",
+          "care.competence",
+          "environment.facilities"
+        ],
+        "strength_labels": []
+      },
+      "benchmark_labels": {
+        "problem_labels": [
+          "care.competence",
+          "care.safety",
+          "care.treatment",
+          "environment.facilities",
+          "staff.seriousness"
+        ],
+        "strength_labels": []
+      },
+      "benchmark_notes": "",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "stale",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T10:13:52.395Z",
+        "verdict": "consider_changes",
+        "summary": "Die aktuellen Problem-Labels (staff.seriousness, care.safety, care.competence, environment.facilities) sind textnah und plausibel. Es gibt Hinweise auf fehlendes Personal und fehlende Geräte (environment.facilities), Unterschätzung der Dringlichkeit durch den Arzt (staff.seriousness), und potentiell riskante Situationen bis zur Notfall-OP (care.safety). Allerdings fehlen Aspekte zur Koordination (z.B. Abstimmung und Entlassung) oder Kommunikation, da der Arzt quasi keine Handlung vorgesehen hatte und der Patient selbst gehandelt hat. Dies könnte auf coordination.coordination oder communication.decisions hinweisen. Die Kritik an der fehlenden adäquaten Versorgung spricht auch für care.treatment als Ergänzung. Da im Text keine Hinweise auf Verwaltung, Zugang oder Sprache sind, sollten diese Labels nicht ergänzt werden.",
+        "suggested_additions": [
+          "care.treatment",
+          "coordination.coordination"
+        ],
+        "suggested_removals": [],
+        "critical_spans": [
+          "Arzt sagt vor Montag wird hier nichts passieren!",
+          "Stark Unterbesetzt und Fehlende Geräte!",
+          "Notfall OP! Noch Samstag Nacht!"
+        ],
+        "raw_recommendation_notes": "Der Text kritisiert die mangelnde Reaktionsbereitschaft des Arztes und den schlechten Zustand bezüglich Personal und Ausstattung, was care.safety, care.competence, staff.seriousness und environment.facilities gut abdeckt. Die fehlende Behandlung bis zur eigenen Initiative des Patienten legt nahe, care.treatment und coordination.coordination zu ergänzen. Keine Anhaltspunkte zu entfernen.",
+        "error_message": ""
+      }
+    },
+    "herzogin-elisabeth-hospital:259": {
+      "review_id": "herzogin-elisabeth-hospital:259",
+      "bucket": "positive",
+      "metadata": {
+        "place_id": "herzogin-elisabeth-hospital",
+        "clinic_name": null,
+        "star_rating": 5,
+        "review_time": "vor 3 Jahren",
+        "like_count": 4,
+        "has_owner_response": false
+      },
+      "review_text": "Bin sofort dran genommen. Die Schwestern lassen sich Zeit und sind mega freundlich 💪 Werde dort auch bald operiert. Habe vollstes Vertrauen. …",
+      "model_prelabels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "staff.friendliness",
+          "care.treatment"
+        ]
+      },
+      "benchmark_labels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "access.waiting",
+          "staff.friendliness"
+        ]
+      },
+      "benchmark_notes": "\"sofort dran genommen\"-> access.waiting\nKeine Hinweise auf care.treatment",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "stale",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T08:23:40.118Z",
+        "verdict": "ok",
+        "summary": "Die aktuellen Stärke-Labels staff.friendliness und care.treatment passen gut zum Text. Es wird die Freundlichkeit der Schwestern gelobt sowie Vertrauen in die bevorstehende Operation gezeigt. Es gibt keine Hinweise auf Probleme oder weitere Aspekte, die gelabelt werden sollten.",
+        "suggested_additions": [],
+        "suggested_removals": [],
+        "critical_spans": [
+          "Die Schwestern lassen sich Zeit und sind mega freundlich",
+          "Werde dort auch bald operiert. Habe vollstes Vertrauen."
+        ],
+        "raw_recommendation_notes": "Die Labels spiegeln den Textinhalt treffend wider. Zusätzliche Labels sind nicht notwendig, da keine weiteren Aspekte angesprochen werden.",
+        "error_message": ""
+      }
+    },
+    "klinikum-leer-ggmbh:180": {
+      "review_id": "klinikum-leer-ggmbh:180",
+      "bucket": "mixed_hard",
+      "metadata": {
+        "place_id": "klinikum-leer-ggmbh",
+        "clinic_name": null,
+        "star_rating": 3,
+        "review_time": "vor 4 Jahren",
+        "like_count": 5,
+        "has_owner_response": false
+      },
+      "review_text": "Das Ärzteteam ist sehr gut. Danke für die erfolgreiche OP. Nun ein paar Anmerkungen zum Pflegepersonal... Prinzipiell erstmal freundlich, aber... Wenn frisch operierte Patienten nicht in der Lage sind, sich selbst zu waschen oder ins Bad zu gehen, sollten sie besser einen in der Pflege erfahrenen Angehörigen mitbringen, denn es wird NICHTS gemacht. Schlussendlich habe ich mir eine Waschschüssel geben lassen und das selbst übernommen. Meiner Meinung nach ein Armutszeugnis für die Pflege. Noch eine Anmerkung zur Mobilisierung... Wenn Patienten sich unbedingt bewegen wollen, aber zum Beispiel die letzten Zentimeter fehlen, um sich irgendwo festhalten zu können, hilft es für die Mobilisierung überhaupt nicht, wenn man nur daneben steht und zuschaut. Da darf man dann ruhig mal unterstützend eingreifen. Da das Personal auch das nicht hinbekommen hat, hab ich das auch übernommen. Der Patient bzw die Patientin soll ja gerne soviel wie irgend möglich selbst machen. Aber gerade nach einer frischen Rücken - OP, wenn die Beweglichkeit doch sehr stark eingeschränkt ist, kann man wohl kaum erwarten, dass schon alles alleine geht. Und noch was allgemein. Ich kann mich nicht erinnern, dass auf Station bei uns jemals soviel Zeit war, dass ständig mindestens zwei Schwestern im Pausenraum am Handy sitzen konnten. Es ist eigentlich immer was zu tun und wenn man sich einmal einen kleinen Eimer nimmt und Patiententische säubert. Ja, auch sowas gehört eigentlich dazu. Man kann vielleicht, nicht ganz unterschwellig, heraushören, dass ich mit der Pflege in diesem Haus überhaupt nicht zufrieden bin.",
+      "model_prelabels": {
+        "problem_labels": [
+          "staff.friendliness",
+          "staff.empathy",
+          "care.safety",
+          "care.competence",
+          "environment.cleanliness"
+        ],
+        "strength_labels": [
+          "care.treatment",
+          "staff.friendliness"
+        ]
+      },
+      "benchmark_labels": {
+        "problem_labels": [
+          "care.competence",
+          "care.safety",
+          "staff.empathy",
+          "staff.friendliness",
+          "staff.seriousness"
+        ],
+        "strength_labels": [
+          "care.treatment",
+          "staff.friendliness"
+        ]
+      },
+      "benchmark_notes": "KI-Empfehlungen übernommen",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "stale",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T12:29:18.427Z",
+        "verdict": "consider_changes",
+        "summary": "Die Bewertung kritisiert vor allem das Pflegepersonal bezüglich mangelnder Unterstützung bei der Körperpflege und Mobilisierung, was die Label staff.empathy und staff.friendliness stützt. care.safety und care.competence sind ebenfalls passend, da die mangelnde Hilfe bei der Mobilisierung ein Sicherheitsrisiko darstellt und Kompetenzmängel evident sind. environment.cleanliness erscheint weniger relevant, da die Kritik eher an der Pflege und nicht an der Sauberkeit an sich liegt. care.treatment als Stärke wirkt plausibel wegen der erfolgreichen Operation, dennoch ist das Problem beim Pflegepersonal deutlich.",
+        "suggested_additions": [
+          "staff.seriousness"
+        ],
+        "suggested_removals": [
+          "environment.cleanliness"
+        ],
+        "critical_spans": [
+          "Prinzipiell erstmal freundlich, aber... Wenn frisch operierte Patienten nicht in der Lage sind, sich selbst zu waschen oder ins Bad zu gehen, sollten sie besser einen in der Pflege erfahrenen Angehörigen mitbringen, denn es wird NICHTS gemacht.",
+          "Ich kann mich nicht erinnern, dass auf Station bei uns jemals soviel Zeit war, dass ständig mindestens zwei Schwestern im Pausenraum am Handy sitzen konnten.",
+          "Wenn Patienten sich unbedingt bewegen wollen... hilft es für die Mobilisierung überhaupt nicht, wenn man nur daneben steht und zuschaut.",
+          "Da das Personal auch das nicht hinbekommen hat, hab ich das auch übernommen.",
+          "Nein, ich bin mit der Pflege in diesem Haus überhaupt nicht zufrieden."
+        ],
+        "raw_recommendation_notes": "Environment.cleanliness passt nicht, da Sauberkeit nicht bemängelt wurde. Die Intervention des Pflegepersonals wird als unzureichend, teilweise sogar nachlässig beschrieben, was staff.seriousness unterstützt. Die bereits gesetzten Labels stimmen mit dem Text überein, eine Ergänzung um staff.seriousness erscheint angebracht.",
+        "error_message": ""
+      }
+    },
+    "klinikum-wilhelmshaven-ggmbh:12": {
+      "review_id": "klinikum-wilhelmshaven-ggmbh:12",
+      "bucket": "negative",
+      "metadata": {
+        "place_id": "klinikum-wilhelmshaven-ggmbh",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "vor 4 Monaten",
+        "like_count": 0,
+        "has_owner_response": false
+      },
+      "review_text": "Leider kann ich überhaupt nichts positives berichten. Es betrifft hier in erster Linie den 6. Stock, ab der 1. Januarwoche. Seit Monaten gibt es keinen Fernsehempfang, für ältere Personen eine absolutes No Go. Keinerlei Kommunikation, Ärzte werden nur Ansatzweise mal gesehen. Wenn sie mal erscheinen, dann bei 2 Ärzten 2 Meinungen. Nachfragen werden allerdings nicht beantwortet. Informationen über das weitere Vorgehen, Fehlanzeige. Ansteckung mit einem Magen-Darm Virus mehrerer Patienten. Freundlichkeit und Empathie ist auch nur bei wenigen Pfleger/innen vorhanden. Wenn es ginge würde ich -10 Punkte vergeben",
+      "model_prelabels": {
+        "problem_labels": [
+          "communication.communication",
+          "communication.explanation",
+          "communication.information",
+          "care.safety",
+          "staff.friendliness",
+          "staff.empathy"
+        ],
+        "strength_labels": []
+      },
+      "benchmark_labels": {
+        "problem_labels": [
+          "care.safety",
+          "communication.communication",
+          "communication.explanation",
+          "communication.information",
+          "environment.facilities",
+          "staff.empathy",
+          "staff.friendliness"
+        ],
+        "strength_labels": []
+      },
+      "benchmark_notes": "Ausstattung der Zimmer (Fernseher) ergänzt mit environment.facilities",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "stale",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T10:28:38.134Z",
+        "verdict": "consider_changes",
+        "summary": "Die gesetzten Labels passen größtenteils zum Text, insbesondere Kommunikation, Sicherheit, Freundlichkeit und Empathie. Allerdings fehlen Labels im Bereich Environment.facilities (fehlender Fernsehempfang) und care.safety (Ansteckung mit Magen-Darm Virus) ist korrekt. Die Kommunikation ist allgemein schwach, daher sind die Kommunikationslabels passend. Eine Ergänzung des Labels environment.facilities wird empfohlen, da der fehlende Fernsehempfang konkret angesprochen wird. Keine Labels erscheinen unpassend.",
+        "suggested_additions": [
+          "environment.facilities"
+        ],
+        "suggested_removals": [],
+        "critical_spans": [
+          "Seit Monaten gibt es keinen Fernsehempfang, für ältere Personen eine absolutes No Go.",
+          "Keinerlei Kommunikation, Ärzte werden nur Ansatzweise mal gesehen.",
+          "Nachfragen werden allerdings nicht beantwortet.",
+          "Informationen über das weitere Vorgehen, Fehlanzeige.",
+          "Ansteckung mit einem Magen-Darm Virus mehrerer Patienten.",
+          "Freundlichkeit und Empathie ist auch nur bei wenigen Pfleger/innen vorhanden."
+        ],
+        "raw_recommendation_notes": "Die Kritik am fehlenden Fernsehempfang im 6. Stock ist ein klarer Hinweis auf Probleme mit der Ausstattung bzw. den Einrichtungen, daher sollte 'environment.facilities' hinzugefügt werden. Die Hinweise auf mangelnde Kommunikation und fehlende Informationen rechtfertigen die bestehenden communication Labels. Die Erwähnung der Ansteckung mit einem Virus passt zum Label care.safety. Freundlichkeit und Empathie werden als problematisch bewertet, daher sind die bestehenden staff Labels sinnvoll. Es werden keine Labels empfohlen zu entfernen.",
+        "error_message": ""
+      }
+    },
+    "krankenhaus-st-elisabeth-ggmbh:21": {
+      "review_id": "krankenhaus-st-elisabeth-ggmbh:21",
+      "bucket": "mixed_hard",
+      "metadata": {
+        "place_id": "krankenhaus-st-elisabeth-ggmbh",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "vor 9 Monaten",
+        "like_count": 0,
+        "has_owner_response": false
+      },
+      "review_text": "Am liebsten keinen Stern! Ich bin damals 2023 mit sehr starken Kopfschmerzen, Nackensteifigkeit, Fieber, starkem erbrechen und sehr schlechten Blutwerten nach damme gekommen. Soweit so gut. Unten wurde ich relativ nett und schnell behandelt. Aber was danach kam hätte mich fast 24 Std später das Leben gekostet. Erst wurde gesagt, das sie mir nervenwasser abnehmen wollen aber am nächsten morgen wurde ich ohne grosses aufheben mit den Worten es wäre \"nur\" eine migräne. Jeder der etwas Ahnung hat sobald der nackten steif wird und Fieber auftritt das dort alarm gemacht werden muss. Also heim Fieber stieg von 39° auf 41° an und ich wurde zunehmend eingetrübter. Ende vom Lied ist, das uch PRIVAT nach Osnabrück gefahren wurde. Dort wurde sofort reagiert. Punktion gemacht und zack war ganz schnell klar, das ich in Lebensgefahr schwebe. Also auf intensiv und bangen. Ergebnis der nervenwasser Untersuchung ergab MENINGITS. Da ich ein Gerät im kopf habe das das nervenwasser ableitet damit der druck sinkt ist dann das bild noch kritischer anzusehen. Meine Folgeschäden von zu später Behandlung aufgrund von verharmlosen sind heftig. Ich meine fehler macht jeder aber nur rein nach akte zu entscheiden und ohne bis auf in der Aufnahme einen Arzt gesehen zu haben entlassen zu werden geht absolut nicht. Zu dem kommen Stigmatisierung und beleidigungen dazu. Ich war selber dort mal im Haus angestellt und hatte einen anderen Mädchen Namen. Ich war noch nie so enttäuscht. Hätte man sich entschuldigt wäre das Thema nicht so präsent. Aber nach knapp 2 Jahren habe ich auch an den psychischen Folgen zu leiden. Ich vertraue kaum noch Ärzten. Die körperlichen Schäden sind auch absolut nicht mehr reparierbar. Nervenzerfall, MR/CFS, Cluster Kopfschmerz, und immer wieder heftige Entzündungen im nervenwasser, Einlagerung im gesamten Körper, gedächtnisverlust, angststörung und regelmäßige nachkomtrollen via LP mit leider auch dort Schwierigkeiten (nur unter Narkose noch möglich), gabgstörungen, Sprachstörungen und vieles mehr was ich nicht alles aufzählen kann. Was ich heute weiss ist wenn sowas nochmal wäre würde ich nur noch über meine Leiche dort hin wollen. Ostern dieses Jahres war ich leider auch da wegen der heftigsten nervenschmerzen der Welt aber ich habe mich sofort selbst entlassen und bin auf eigene Faust in eine emphatosche Klinik gefahren. Dort bin ich auch seid dem angebunden und diese reagieren sofort wenn nur die kleinste Veränderung diesbezüglich wieder Eintritt.",
+      "model_prelabels": {
+        "problem_labels": [
+          "care.diagnosis",
+          "care.treatment",
+          "care.safety",
+          "communication.communication",
+          "communication.explanation",
+          "staff.friendliness",
+          "staff.respect",
+          "staff.empathy",
+          "staff.seriousness",
+          "care.competence"
+        ],
+        "strength_labels": [
+          "staff.friendliness",
+          "care.treatment"
+        ]
+      },
+      "benchmark_labels": {
+        "problem_labels": [
+          "care.competence",
+          "care.diagnosis",
+          "care.safety",
+          "care.treatment",
+          "communication.communication",
+          "communication.decisions",
+          "communication.explanation",
+          "coordination.discharge",
+          "inclusion.equality",
+          "staff.empathy",
+          "staff.friendliness",
+          "staff.respect",
+          "staff.seriousness"
+        ],
+        "strength_labels": [
+          "staff.friendliness",
+          "care.treatment"
+        ]
+      },
+      "benchmark_notes": "KI-Empfehlungen übernommen + equality (stigmatisierung)",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "stale",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T12:33:21.719Z",
+        "verdict": "consider_changes",
+        "summary": "Die aktuellen Labels sind größtenteils zutreffend, jedoch fehlen wichtige Aspekte wie die problematische Entlassung und Stigmatisierung sowie mögliche Koordinations- und Kommunikationsdefizite bei Entscheidungen. Zusätzlich ist der Bereich 'communication.decisions' aufgrund der fehlenden Mitsprache plausibel. Die Entlassungsproblematik spricht für coordination.discharge, und die Stigmatisierung für staff.respect, wo bereits ein Label gesetzt ist. Ein Label zu access.waiting ist nicht direkt gestützt. Ergänzungen werden empfohlen; Entfernungen sind nicht angebracht, da alle bestehenden Labels textlich sinnvoll sind.",
+        "suggested_additions": [
+          "communication.decisions",
+          "coordination.discharge"
+        ],
+        "suggested_removals": [],
+        "critical_spans": [
+          "Erst wurde gesagt, das sie mir nervenwasser abnehmen wollen aber am nächsten morgen wurde ich ohne grosses aufheben mit den Worten es wäre \"nur\" eine migräne.",
+          "Ich wurde zunehmend eingetrübter. Ende vom Lied ist, das uch PRIVAT nach Osnabrück gefahren wurde. Dort wurde sofort reagiert. Punktion gemacht und zack war ganz schnell klar, das ich in Lebensgefahr schwebe.",
+          "nur rein nach akte zu entscheiden und ohne bis auf in der Aufnahme einen Arzt gesehen zu haben entlassen zu werden geht absolut nicht.",
+          "Zu dem kommen Stigmatisierung und beleidigungen dazu.",
+          "Ich habe mich sofort selbst entlassen und bin auf eigene Faust in eine emphatosche Klinik gefahren."
+        ],
+        "raw_recommendation_notes": "Das Review schildert eine fehlerhafte und gefährliche Fehldiagnose (care.diagnosis) und Behandlung (care.treatment), die zu schweren Folgeerkrankungen führte. Die problematische Entlassung ohne ärztliche Kontrolle und die dadurch mangelnde Abstimmung bei der Entlassungsorganisation sprechen für Ergänzungen bei coordination.discharge. Die fehlende Mitsprache bei der Beurteilung (communication.decisions) sollte ebenfalls berücksichtigt werden. Stigmatisierung und Beleidigungen sind passend unter staff.respect eingeordnet. Die bereits gesetzten Labels sind inhaltlich belegt, sollten aber durch 'communication.decisions' und 'coordination.discharge' ergänzt werden.",
+        "error_message": ""
+      }
+    },
+    "paracelsus-klinik-am-silbersee:193": {
+      "review_id": "paracelsus-klinik-am-silbersee:193",
+      "bucket": "positive",
+      "metadata": {
+        "place_id": "paracelsus-klinik-am-silbersee",
+        "clinic_name": null,
+        "star_rating": 5,
+        "review_time": "Bearbeitet: vor 2 Jahren",
+        "like_count": 4,
+        "has_owner_response": true
+      },
+      "review_text": "Zwei KnieTEP's in 11/2 Jahren. Keine Probleme, bin mehr als zufrieden. Hier steht der Mensch im Mittelpunkt. Vielen lieben Dank.",
+      "model_prelabels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "care.treatment",
+          "care.safety",
+          "staff.empathy"
+        ]
+      },
+      "benchmark_labels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "care.treatment",
+          "care.safety",
+          "staff.empathy"
+        ]
+      },
+      "benchmark_notes": "",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "ready",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T09:26:30.712Z",
+        "verdict": "ok",
+        "summary": "Die gesetzten Labels care.treatment, care.safety und staff.empathy sind textlich nachvollziehbar und stützen sich auf die Zufriedenheit und die menschliche Zuwendung im Review. Es sind keine Ergänzungen oder Entfernungen notwendig.",
+        "suggested_additions": [],
+        "suggested_removals": [],
+        "critical_spans": [
+          "Keine Probleme, bin mehr als zufrieden",
+          "Hier steht der Mensch im Mittelpunkt"
+        ],
+        "raw_recommendation_notes": "Das Review lobt die Behandlung (care.treatment), hebt hervor, dass es keine Probleme gab (care.safety) und beschreibt eine menschliche Zuwendung (staff.empathy). Weitere Labels wie staff.friendliness oder staff.respect wären zwar denkbar, sind im Text nicht explizit genannt. Daher sind keine Änderungen vorzuschlagen.",
+        "error_message": ""
+      }
+    },
+    "psychiatrische-klinik-uelzen-ggmbh:6": {
+      "review_id": "psychiatrische-klinik-uelzen-ggmbh:6",
+      "bucket": "mixed_hard",
+      "metadata": {
+        "place_id": "psychiatrische-klinik-uelzen-ggmbh",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "vor 2 Jahren",
+        "like_count": 8,
+        "has_owner_response": false
+      },
+      "review_text": "Dies wird eine längere Bewertung. Sie bezieht sich nicht auf jede einzelne Pflegekraft. Station 3… alles was ich schreibe ist aus meiner Erfahrung erstanden. Ich habe auch das Gegenteil mitbekommen, jeder Mensch ist anders und jeder wirkt anders auf andere. Ich habe aber bereits von mehreren Personen ähnliche Geschichten gehört und komischerweise waren diese Personen auch alternativer in ihrem Aussehen. Diese trauen sich nicht immer zu bewerten, da sie Angst haben, dass ihnen wieder nicht geglaubt wird. All diese Personen haben noch was gemeinsam: Intrusionen, Dissoziationen, also alles traumatisierte Frauen, die aber dadurch nach außen richtig stark werden mussten. Alle Sterne würden an den Pfleger mit dem tätowierten Kreuz und an die Psychologen gehen, der Rest war definitiv KEINE heilende Erfahrung und wenn überhaupt ein Stern wert. Für Menschen mit Depressionen o.ä. mag das eine gute Station sein, aber ich bin schwer traumatisiert und bat nur um Stabilisierung. Ich hatte oft gefragt ob sie auf dem Gebiet der Intrusionen und Dissoziationen geschult seien, hätten sie es mal mit nein beantwortet… dann hätte ich mir das sparen können und wäre auch vielleicht nicht so zur „Last“ gefallen. Die erhoffte Stabilisierung trat nicht ein, im Gegenteil, ich habe jetzt extrem lange gebraucht um mich überhaupt wieder an eine Klinik und die benötigte Hilfe zu wenden. Woanders. Während Intrusionen (sogenannten Flashbacks) die aufgrund verschiedener traumatisierungen unterschiedlich sind, wurde ich angeschrien und gezwungen aufzustehen, mir wurde ein kindliches Verhalten vorgeworfen und das ich mich nicht so anstellen sollte. Auf den Hinweis meiner Zimmernachbarin, dass ich wahrscheinlich gar nicht reagieren kann, wegen der Intrusion, wurde sie angefahren, sie solle sich nicht einmischen. Bei einer anderen Intrusion schaffte ich es vorher noch den Notknopf zu drücken. Als ich aus meiner nahtoderfahrung zurück kam, wurde ich angemeckert, dass der Knopf nur für Notfälle ist. Also sagte ich ab dann gar nicht mehr Bescheid. Meine Kraft war eh begrenzt und ich brauchte sie um nicht aufzugeben und nicht um mich gegen sowas zu wehren. Eine Entschuldigung kam nie, trotz Hinweis meinerseits. Ein anderes Mal wurde ich auf die Schuhe angesprochen, obwohl die Person neben mir die gleichen trug. Sie hat mich gemaßregelt und meinte ich würde keine Regeln einhalten, obwohl mir eine andere Pflegekraft genau diese Schuhe erlaubt hatte. Mir wurden Vorwürfe von Pflegerinnen gemacht, die überhaupt nicht der Wahrheit entsprachen, trotz der Bitte das normal zu klären, wurde ich ins „Kreuzverhör“ genommen. Da das Team natürlich zusammenhält, war mir klar, dass es für mich auf der Station nicht weiter geht. Dies sind nur die für mich prägenden Erfahrungen, die ganzen Kleinigkeiten der zwischenmenschlichkeit lasse ich mal dahin gestellt. Mir ist durchaus bewusst das der Umgang mit traumatisierten schwer ist, aber das darf einfach nicht passieren. Ich rede im Gegensatz zu anderen traumatisierten wenigstens noch, mich kann man ruhig und normal alles fragen was man als Pflegekraft wissen sollte, ich habe an meinem ersten Tag Informationen über den Umgang mit mir gegeben. Schien nur die wenigsten zu interessieren, denn genau dass worauf ich hingewiesen hatte, ist eingetreten. Sprich: ich wurde behandelt wie ein Kind, welches im Kindergarten so zu funktionieren hat, wie die Erzieher das gerne hätten, um ihre Ruhe zu haben. Also nichts für eine Psychiatrische Klinik. Auch wenn die Station vielleicht unterbesetzt ist, die Pflegekräfte nicht immer aus dem Psychiatrischen Bereich kommen oder der Druck sehr hoch ist, auf jeden einzelnen. Das mag sein und es ist menschlich unter diesem Druck auch falsche Entscheidungen zu treffen. Aber so oft? Und dann auch noch von den selben? Wow… Ich habe durch diese Punkte versucht, nicht noch zusätzlich zur Herausforderung zu werden. Aber wenn man sich das nichtmal anguckt/anhört, kann ich auch nichts machen.",
+      "model_prelabels": {
+        "problem_labels": [
+          "staff.respect",
+          "staff.empathy",
+          "staff.friendliness",
+          "care.competence",
+          "care.safety"
+        ],
+        "strength_labels": [
+          "staff.friendliness",
+          "communication.information"
+        ]
+      },
+      "benchmark_labels": {
+        "problem_labels": [
+          "staff.respect",
+          "staff.empathy",
+          "staff.friendliness",
+          "care.competence",
+          "care.safety"
+        ],
+        "strength_labels": [
+          "staff.friendliness",
+          "communication.information"
+        ]
+      },
+      "benchmark_notes": "",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "ready",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T13:21:27.292Z",
+        "verdict": "ok",
+        "summary": "Die gesetzten Labels reflektieren die kritischen Erfahrungen des Bewerters mit dem Pflegepersonal bezüglich Respektlosigkeit, fehlender Empathie und mangelnder Kompetenz sowie situationsbedingter Unsicherheit und Gefahr. Die Stärken bezüglich Freundlichkeit einzelner Mitarbeiter und guter Informationsweitergabe sind ebenfalls passend. Es sind keine weiteren Ergänzungen oder Entfernungen erforderlich, da keine weiteren relevant gestützten Aspekte aus dem Text hervorgehen.",
+        "suggested_additions": [],
+        "suggested_removals": [],
+        "critical_spans": [
+          "Ich wurde angeschrien und gezwungen aufzustehen, mir wurde ein kindliches Verhalten vorgeworfen",
+          "Eine Entschuldigung kam nie, trotz Hinweis meinerseits",
+          "Mir wurden Vorwürfe von Pflegerinnen gemacht, die überhaupt nicht der Wahrheit entsprachen",
+          "Jeder Mensch ist anders und jeder wirkt anders auf andere",
+          "Alle Sterne würden an den Pfleger mit dem tätowierten Kreuz und an die Psychologen gehen",
+          "Mir wurden Punkte genannt, die darauf hindeuten dass die erhoffte Stabilisierung nicht eingetreten ist"
+        ],
+        "raw_recommendation_notes": "Die vorhandenen Labels decken die im Text beschriebenen Stärken und Schwächen gut ab. Die problematischen sozialen Umgangsformen (staff.respect, staff.empathy, staff.friendliness) und die wahrgenommene fachliche Unzulänglichkeit und Gefährdung (care.competence, care.safety) sind klar erkennbar. Die benannte Stärke communication.information wird durch indirekte Hinweise auf die Informationsweitergabe gestützt. Es gibt keinen Hinweis auf weitere Labelthemen wie Zugang oder Verwaltung, die ergänzend relevant wären.",
+        "error_message": ""
+      }
+    },
+    "sana-klinikum-hameln-pyrmont:139": {
+      "review_id": "sana-klinikum-hameln-pyrmont:139",
+      "bucket": "negative",
+      "metadata": {
+        "place_id": "sana-klinikum-hameln-pyrmont",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "Bearbeitet: vor 2 Jahren",
+        "like_count": 8,
+        "has_owner_response": true
+      },
+      "review_text": "Am Montag Morgen um ca 3 Uhr wurde mein Vater eingeliefert. In meiner Mittagspause um ca 12 Uhr wollte ich meinen Vater besuchen und ihm Kleidung bringen sowie für die noch am gleichen Tag stattfindende OP alles Gute wünschen. Mit Verweis darauf, dass die Besuchszeiten erst um 14 Uhr beginnen, ließ mich die Dame an der Rezeption nicht zu ihm auf die Station. Vielleicht sollte die Dame lieber in den Einzelhandel wechseln. Dort kann sie sich dann gerne an die Öffnungszeiten klammern. In einem Krankenhaus jedoch sollte es meiner Meinung nach um den Menschen und nicht um Öffnungszeiten gehen! Glücklicherweise ist wenigstens die OP gut verlaufen. Eine Empfehlung für dieses Krankenhaus kann ich allerdings definitiv nicht aussprechen! Edit: Mein Vater war um 14 Uhr bereits im OP, so dass es sich nicht \"lediglich\" um zwei Stunden handelte. Zudem hat er eine chronische schwere Erkrankung. Also hören Sie auf, Herr Höxter, die Sache herunter zu spielen. Ich bin froh, dass er die OP überlebt hat, aber über Ihren Umgang mit Menschen bin ich keinesfalls erfreut. Ihre Antwort auf meine Rezension konnten Sie sich sparen.",
+      "model_prelabels": {
+        "problem_labels": [
+          "access.navigation",
+          "staff.friendliness",
+          "staff.empathy"
+        ],
+        "strength_labels": [
+          "care.treatment"
+        ]
+      },
+      "benchmark_labels": {
+        "problem_labels": [
+          "staff.friendliness",
+          "staff.empathy"
+        ],
+        "strength_labels": [
+          "care.treatment"
+        ]
+      },
+      "benchmark_notes": "access.navigation entfernt",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "stale",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T10:58:13.982Z",
+        "verdict": "consider_changes",
+        "summary": "Das Label 'access.navigation' ist nicht passend, da der Text vorrangig das Besuchszeit-Management und Menschlichkeit thematisiert. 'Staff.friendliness' und 'staff.empathy' sind passend, da der unfreundliche Umgang und fehlende Menschlichkeit beklagt werden. Es wird empfohlen, 'access.appointments' für die Besuchszeiten aufnahme zu ergänzen, weil die Problematik der Zugangszeiten stark thematisiert wird. 'care.treatment' als Stärke ist korrekt, da die OP gut verlaufen ist.",
+        "suggested_additions": [
+          "access.appointments"
+        ],
+        "suggested_removals": [
+          "access.navigation"
+        ],
+        "critical_spans": [
+          "Mit Verweis darauf, dass die Besuchszeiten erst um 14 Uhr beginnen, ließ mich die Dame an der Rezeption nicht zu ihm auf die Station.",
+          "In einem Krankenhaus jedoch sollte es meiner Meinung nach um den Menschen und nicht um Öffnungszeiten gehen!",
+          "Ich bin froh, dass er die OP überlebt hat",
+          "aber über Ihren Umgang mit Menschen bin ich keinesfalls erfreut."
+        ],
+        "raw_recommendation_notes": "Das Label 'access.navigation' fokussiert auf Wegfindung und Orientierung im Krankenhaus, was hier nicht Thema ist. Stattdessen geht es um Öffnungs- und Besuchszeiten (Termin-Management), daher 'access.appointments' ist passender. Die Beschwerden über den Personalumgang sind durchgehend präsent und damit passen 'staff.friendliness' und 'staff.empathy'. Die OP als positives Erlebnis unterstützt 'care.treatment'.",
+        "error_message": ""
+      }
+    },
+    "st-josefs-hospital-cloppenburg-ggmbh:27": {
+      "review_id": "st-josefs-hospital-cloppenburg-ggmbh:27",
+      "bucket": "mixed_hard",
+      "metadata": {
+        "place_id": "st-josefs-hospital-cloppenburg-ggmbh",
+        "clinic_name": null,
+        "star_rating": 2,
+        "review_time": "vor einem Jahr",
+        "like_count": 0,
+        "has_owner_response": false
+      },
+      "review_text": "Ich habe eine Einweisung von meiner Ärztin ins Krankenhaus bekommen (Gastroenterologie). Erstmal zum positiven: Ich kam in die Notaufnahme und schon nach nicht mal 30 Minuten lag ich auf der Liege im Arztzimmer, umringt von 4 Schwestern (scheinbar Azubis) - alle nett und zuvorkommend. Das bei dem Versuch einen Zugang zu legen die Arterie getroffen wird und das Blut durch den halben Raum spritzt - kann mal passieren. Dann eben in den anderen Arm. Aber leider auch da so ungünstig gestochen, dass der Zugang die zwei Tage über durchgehend schmerzte. Innerhalb von 2 Stunden lag ich bereits auf dem Zimmer. Bis hierher hätte ich 4 Sterne gegeben - weil man merkt, dass das Hospital schon etwas in die Jahre gekommen ist. Na ja, ist ja kein Hotel. Dreibettzimmer. Der eine Schnarcht wie alter Zug, der andere telefoniert lauthals. Muss man als Kassenpatient hinnehmen. Am nächsten Tag die Untersuchung. Auch da noch alles im grünen Bereich. Keine zwei Stunden nach der Vollnarkose wurde ich entlassen. Alles gut. Das war an einem Donnerstagmittag. Der Arzbericht sollte spätestens am Freitag mit den Blutwerten an meinen Hausarzt übermittelt werden. Am Montagnachmittag immer noch nichts da. Erst nach unzähligen Anrufversuchen (sitzt da überhaupt jemand mal am Empfangstelefon?) jemanden erreicht. Keiner hat es für nötig erachtet den Arztbericht zu übermitteln, obwohl gesagt worden ist, dass weitere Untersuchungen nötig sind und dies im Hause nicht durchgeführt werden kann und mit dem Hausarzt abgesprochen werden soll. Die Schwester hat den Arztbericht dann netterweise gefaxt (wollte es erst per Post senden). Also gleich beim Hausarzt angerufen - die Blutwerte wurden nicht übermittelt. Also wieder unzählige Anrufversuche. Dieselbe Schwester am Telefon sagte \"ja, ich kann die Datei mit den Blutwerten nicht öffnen\". Ja und weiter? Wenigstens an jemanden im Hause weiterleiten der sich darum kümmern kann. Erst auf meine - nun schon etwas angenervte Bitte - sagte Sie, dass Sie dem Sekretariat für morgen einen Zettel hinterlegt. Zum Glück habe ich am nächsten Tag selbst nochmal angerufen. Nach drei Versuchen hat dies auch mal geklappt. Das Sekretariat wusste davon natürlich nichts aber dann hat es wenigstens funktioniert. Eigentlich hätte ich hier gerne max. 2 Sterne vergeben. Aber gut, so schlimm war es dann doch nicht...aber definitiv Luft nach oben...",
+      "model_prelabels": {
+        "problem_labels": [
+          "staff.seriousness",
+          "coordination.followup",
+          "access.navigation",
+          "environment.facilities"
+        ],
+        "strength_labels": [
+          "staff.friendliness",
+          "access.waiting",
+          "care.treatment"
+        ]
+      },
+      "benchmark_labels": {
+        "problem_labels": [
+          "access.reachability",
+          "admin.paperwork",
+          "communication.communication",
+          "communication.information",
+          "coordination.followup",
+          "environment.facilities",
+          "staff.seriousness"
+        ],
+        "strength_labels": [
+          "staff.friendliness",
+          "access.waiting",
+          "care.treatment"
+        ]
+      },
+      "benchmark_notes": "KI-Empfehlungen übernommen",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "stale",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T13:28:23.879Z",
+        "verdict": "consider_changes",
+        "summary": "Die gesetzten Labels sind im Großen und Ganzen nachvollziehbar, sprechen aber einzelne Aspekte unzureichend oder fehlen an wichtigen Stellen. Das Label 'staff.seriousness' ist textlich durch die beschriebene Nachlässigkeit bei der Übermittlung der Befunde und fehlende proaktive Kommunikation gut gedeckt. 'coordination.followup' ist durch die Probleme mit der Nachsorge-Kommunikation sehr passend. 'access.navigation' erscheint weniger relevant, da kaum etwas zur Orientierung im Haus geschrieben wird; hier spricht der Text eher von der veralteten Ausstattung und Dreibettzimmer (welches eher zu 'environment.facilities' passt). 'environment.facilities' wird angesprochen, aber durch den Lärm und veralteten Zustand eher nebenbei erwähnt. Stärken wie 'staff.friendliness' und 'access.waiting' sind explizit genannt. 'care.treatment' lässt sich aufgrund der Behandlung und Diagnose als angemessen bewerten. Es fehlen allerdings Labels zur Kommunikation (z.B. 'communication.information' und 'communication.communication'), da die schlechte Informationsweitergabe und schlechte Erreichbarkeit am Telefon zentral sind. Ebenso könnte 'access.reachability' ergänzt werden wegen der Schwierigkeiten bei der telefonischen Kontaktaufnahme. Die Empfehlung lautet, 'access.navigation' zu entfernen und stattdessen 'access.reachability', 'communication.information' und 'communication.communication' hinzuzufügen.",
+        "suggested_additions": [
+          "access.reachability",
+          "communication.information",
+          "communication.communication"
+        ],
+        "suggested_removals": [
+          "access.navigation"
+        ],
+        "critical_spans": [
+          "nach unzähligen Anrufversuchen (sitzt da überhaupt jemand mal am Empfangstelefon?)",
+          "Erst nach unzähligen Anrufversuchen... jemanden erreicht",
+          "Keiner hat es für nötig erachtet den Arztbericht zu übermitteln",
+          "Die Schwester hat den Arztbericht dann netterweise gefaxt",
+          "Das Sekretariat wusste davon natürlich nichts aber dann hat es wenigstens funktioniert",
+          "Das Hospital schon etwas in die Jahre gekommen ist",
+          "Dreibettzimmer. Der eine Schnarcht wie alter Zug, der andere telefoniert lauthals."
+        ],
+        "raw_recommendation_notes": "Das Label 'access.navigation' ist im Text nicht klar belegt, Orientierung im Haus wird nicht thematisiert. Telefonische Erreichbarkeit und Kommunikationsprobleme sind jedoch zentral, daher sollten 'access.reachability' und Kommunikationslabels ergänzt werden. Die Kommentare zu Zimmerausstattung und Geräuschkulisse passen gut zu 'environment.facilities'. Die Probleme bei der Nachsorge-Kommunikation rechtfertigen 'coordination.followup'. Die Freundlichkeit des Personals wird klar positiv hervorgehoben, ebenso die Wartezeiten. Insgesamt sollten die Kommunikationsaspekte deutlicher berücksichtigt werden.",
+        "error_message": ""
+      }
+    },
+    "staedtisches-klinikum-wolfenbuettel-ggmbh:56": {
+      "review_id": "staedtisches-klinikum-wolfenbuettel-ggmbh:56",
+      "bucket": "negative",
+      "metadata": {
+        "place_id": "staedtisches-klinikum-wolfenbuettel-ggmbh",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "vor 8 Monaten",
+        "like_count": 0,
+        "has_owner_response": true
+      },
+      "review_text": "Leider muss man einen Stern vergeben um zu bewerten. Drei Stunden vor dem Vorstellungstermin bekommt man einen Anruf,das eine Behandlung nicht nötig wäre. Aber man(n) bzw.Frau hat seit über 20 Schmerzen,die von jedem Arzt dokumentiert sind,aber wirklich von jedem(die über eine Woche vorher eingereicht wurden.Vorstellungstermin wäre der 15.08.2025 um 12.30 gewesen. Um 10.00 kam der Ablehnungsanruf.lch glaube nicht,das die Unterlagen nur ansatzweise,wenn dann nur vielleicht die erste Seite,durchgelesen wurde). Die Argumente der Praxis waren einfach,gelinde ausgedrückt einfach nur seltsam. Mehr schreib ich nicht dazu, außer: Nicht zu empfehlen! Und soviel ich weiß,sind Ärzte dazu verpflichtet den Menschen zu helfen. Gibt ja sowas wie den hypokratischen Eid, der hier nicht erfüllt wird. Wie ich oben schon geschrieben habe,nicht zu empfehlen. Hätte gute Lust,das bei der Ärztekammer zu melden. Da frage ich wirklich wie man eine 5 Sterne Bewertung bekommt. Wirkt irgendwie unglaubhaft.",
+      "model_prelabels": {
+        "problem_labels": [
+          "care.treatment",
+          "care.symptoms",
+          "communication.communication",
+          "communication.explanation",
+          "staff.respect"
+        ],
+        "strength_labels": []
+      },
+      "benchmark_labels": {
+        "problem_labels": [
+          "care.competence",
+          "care.symptoms",
+          "care.treatment",
+          "communication.communication",
+          "communication.explanation",
+          "staff.respect"
+        ],
+        "strength_labels": []
+      },
+      "benchmark_notes": "KI-Empfehlungen ergänzt",
+      "benchmark_status": "reviewed_by_user",
+      "ai_review": {
+        "status": "stale",
+        "model": "gpt-4.1-mini",
+        "prompt_version": "benchmark_review_v1",
+        "checked_at": "2026-05-14T11:08:31.258Z",
+        "verdict": "consider_changes",
+        "summary": "Das Review beschreibt eine ablehnende Behandlung trotz dokumentierter Schmerzen über 20 Jahre und kritisiert die medizinische Entscheidung und Kommunikationsweise. Die gesetzten Labels zu 'care.treatment', 'care.symptoms', 'communication.communication', 'communication.explanation' und 'staff.respect' sind grundsätzlich plausibel. Zusätzlich könnte 'care.competence' zur fachlichen Kompetenz der Ärzte ergänzt werden, da Zweifel an der gründlichen Prüfung der Unterlagen und der medizinischen Entscheidung geäußert werden. Ein Entfernungsbedarf besteht nicht.",
+        "suggested_additions": [
+          "care.competence"
+        ],
+        "suggested_removals": [],
+        "critical_spans": [
+          "Seit über 20 Schmerzen, die von jedem Arzt dokumentiert sind",
+          "Um 10.00 kam der Ablehnungsanruf",
+          "Ich glaube nicht, dass die Unterlagen nur ansatzweise durchgelesen wurden",
+          "Die Argumente der Praxis waren einfach, gelinde ausgedrückt einfach nur seltsam",
+          "Nicht zu empfehlen! ... Ärzte sind dazu verpflichtet den Menschen zu helfen ... hypokratischen Eid wurde hier nicht erfüllt"
+        ],
+        "raw_recommendation_notes": "Das Review thematisiert neben der problematischen Behandlung und dem Umgang mit Beschwerden auch die fachliche Kompetenz der behandelnden Ärzte, weshalb die Ergänzung des Labels 'care.competence' sinnvoll ist. Die bestehenden Labels sind im Wesentlichen zutreffend und sollten beibehalten werden.",
+        "error_message": ""
+      }
+    }
+  },
+  "saved_at": "2026-05-14T19:04:50.059721+00:00",
+  "source_file": "analysis/llm/benchmark_comparison/benchmark_v1_120_reviewed_2026-05-14T13-43-24Z.json",
+  "working_file_role": "holdout_reference_subset",
+  "working_saved_at": "2026-05-14T13:43:24.493Z",
+  "ai_review_model": "gpt-4.1-mini",
+  "ai_review_prompt_version": "benchmark_review_v1",
+  "holdout_split_seed": 20260514,
+  "holdout_total_reviews": 20
+}

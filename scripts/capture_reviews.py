@@ -537,6 +537,17 @@ def evaluate_json(client: CDPClient, expression: str, timeout: float = 15.0) -> 
     return details.get("value")
 
 
+def safe_evaluate_json(client: CDPClient, expression: str, timeout: float = 5.0) -> dict[str, Any]:
+    try:
+        return {"ok": True, "value": evaluate_json(client, expression, timeout=timeout)}
+    except Exception as exc:  # noqa: BLE001
+        return {
+            "ok": False,
+            "errorType": type(exc).__name__,
+            "error": str(exc),
+        }
+
+
 def wait_for_predicate(client: CDPClient, expression: str, timeout: float) -> Any:
     deadline = time.time() + timeout
     last_value = None
@@ -594,8 +605,8 @@ def collect_review_open_candidates(client: CDPClient) -> list[dict[str, Any]]:
           };
           const normalize = (value) => (value || '').replace(/\s+/g, ' ').trim();
           const hasWordChars = (value) => /[0-9A-Za-z\u00C0-\u024F]/.test(value);
-          const bannedPattern = /\b(weitere information|offenlegung|gesetzlich|gesetzliche|disclosure|legal|rezension schreiben|write a review|help)\b/i;
-          const countPattern = /\b[0-9][0-9.,\s\u00a0]*\s*(berichte|rezensionen|bewertungen|reviews?)\b/i;
+          const bannedPattern = /\b(weitere information|offenlegung|gesetzlich|gesetzliche|disclosure|legal|rezension schreiben|write a review|help|erwahnt|erwähnt|mentioned)\b/i;
+          const countPattern = /(^|\s)[0-9][0-9.,\s\u00a0]*\s*(berichte|rezensionen|bewertungen|reviews?)\b/i;
           const reviewPattern = /\b(alle rezensionen|all reviews|rezensionen|bewertungen|reviews?|berichte)\b/i;
           const exactOpenPattern = /\b(alle rezensionen|all reviews)\b/i;
 
@@ -611,11 +622,15 @@ def collect_review_open_candidates(client: CDPClient) -> list[dict[str, Any]]:
             const ariaLabel = normalize(element.getAttribute('aria-label') || '');
             const title = normalize(element.getAttribute('title') || '');
             const jsaction = normalize((element.getAttribute('jsaction') || '').toLowerCase());
+            const hasReviewId = Boolean(element.getAttribute('data-review-id'));
             const combined = normalize([text, ariaLabel, title].filter(Boolean).join(' '));
             if (!combined || !hasWordChars(combined)) {
               continue;
             }
             if (bannedPattern.test(combined)) {
+              continue;
+            }
+            if (hasReviewId || jsaction.includes('review.reviewerlink') || jsaction.includes('review.actionmenu')) {
               continue;
             }
 
@@ -625,7 +640,7 @@ def collect_review_open_candidates(client: CDPClient) -> list[dict[str, Any]]:
               score += 120;
               reasons.push('jsaction_more_reviews');
             }
-            if (countPattern.test(combined)) {
+            if (countPattern.test(combined) && !/\bin\s+[0-9][0-9.,\s\u00a0]*\s*(rezensionen|bewertungen|reviews?)\b/i.test(combined)) {
               score += 60;
               reasons.push('count_label');
             }
@@ -637,12 +652,12 @@ def collect_review_open_candidates(client: CDPClient) -> list[dict[str, Any]]:
               score += 25;
               reasons.push('review_keyword');
             }
+            if (score <= 0) {
+              continue;
+            }
             if (element.tagName === 'BUTTON' || element.getAttribute('role') === 'button') {
               score += 10;
               reasons.push('button_like_control');
-            }
-            if (score <= 0) {
-              continue;
             }
 
             candidates.push({
@@ -712,11 +727,85 @@ def click_review_open_candidate(client: CDPClient, dom_index: int) -> dict[str, 
     return result if isinstance(result, dict) else {"clicked": False}
 
 
-def open_reviews_panel(client: CDPClient, requests: dict[str, dict[str, Any]], verify_timeout: float) -> dict[str, Any]:
-    candidates = collect_review_open_candidates(client)
-    attempts: list[dict[str, Any]] = []
+def advance_reviews_notice_or_more(client: CDPClient) -> dict[str, Any]:
+    expression = r"""
+        (() => {
+          const normalize = (value) => (value || '').replace(/\s+/g, ' ').trim();
+          const isVisible = (element) => {
+            const style = window.getComputedStyle(element);
+            const rect = element.getBoundingClientRect();
+            return style.visibility !== 'hidden' && style.display !== 'none' &&
+              rect.width > 0 && rect.height > 0;
+          };
+          const controls = [...document.querySelectorAll('button,[role="button"],a')];
+          const continuationPattern = /\b(weitere\s+rezensionen|more\s+reviews)\b/i;
+          const policyNoticePattern = /\b(entfernt|removed|richtlinien|polic(?:y|ies)|unangemessen|inappropriate)\b/i;
+          const bodyText = normalize(document.body && document.body.innerText || '');
+          const candidates = [];
 
-    for rank, candidate in enumerate(candidates, start=1):
+          for (let domIndex = 0; domIndex < controls.length; domIndex += 1) {
+            const element = controls[domIndex];
+            if (!isVisible(element)) {
+              continue;
+            }
+            const text = normalize(element.innerText || element.textContent || '');
+            const ariaLabel = normalize(element.getAttribute('aria-label') || '');
+            const title = normalize(element.getAttribute('title') || '');
+            const combined = normalize([text, ariaLabel, title].filter(Boolean).join(' '));
+            if (!continuationPattern.test(combined)) {
+              continue;
+            }
+            candidates.push({
+              domIndex,
+              text,
+              ariaLabel,
+              title,
+              jsaction: normalize(element.getAttribute('jsaction') || ''),
+              className: normalize(element.className || ''),
+            });
+          }
+
+          if (candidates.length) {
+            const selected = candidates[0];
+            controls[selected.domIndex].click();
+            return {
+              clicked: true,
+              strategy: 'reviews_continuation',
+              candidate: selected,
+              policyNoticeDetected: policyNoticePattern.test(bodyText),
+            };
+          }
+
+          return {
+            clicked: false,
+            visibleContinuationCount: candidates.length,
+            policyNoticeDetected: policyNoticePattern.test(bodyText),
+          };
+        })()
+    """
+    result = evaluate_json(client, expression, timeout=10.0)
+    return result if isinstance(result, dict) else {"clicked": False}
+
+
+def open_reviews_panel(client: CDPClient, requests: dict[str, dict[str, Any]], verify_timeout: float) -> dict[str, Any]:
+    attempts: list[dict[str, Any]] = []
+    attempted_fingerprints: set[str] = set()
+
+    for rank in range(1, 9):
+        candidates = collect_review_open_candidates(client)
+        candidate = None
+        for current_candidate in candidates:
+            fingerprint = "|".join(
+                str(current_candidate.get(key) or "")
+                for key in ("text", "ariaLabel", "title", "jsaction")
+            )
+            if fingerprint in attempted_fingerprints:
+                continue
+            candidate = current_candidate
+            attempted_fingerprints.add(fingerprint)
+            break
+        if candidate is None:
+            break
         dom_index = candidate.get("domIndex")
         if not isinstance(dom_index, int):
             continue
@@ -724,6 +813,7 @@ def open_reviews_panel(client: CDPClient, requests: dict[str, dict[str, Any]], v
         attempt: dict[str, Any] = {
             "rank": rank,
             "candidate": candidate,
+            "candidateCountBeforeClick": len(candidates),
             "clickResult": click_result,
         }
         attempts.append(attempt)
@@ -744,10 +834,106 @@ def open_reviews_panel(client: CDPClient, requests: dict[str, dict[str, Any]], v
                 "candidateCount": len(candidates),
             }
 
+        continuation_attempts: list[dict[str, Any]] = []
+        for _ in range(3):
+            continuation = advance_reviews_notice_or_more(client)
+            continuation_attempts.append(continuation)
+            if not continuation.get("clicked"):
+                break
+            time.sleep(1.0)
+            pump_events(client, requests, time_limit=2.0)
+            panel = wait_for_reviews_panel(client, timeout=verify_timeout)
+            if panel:
+                attempt["reviewsContinuationAttempts"] = continuation_attempts
+                attempt["reviewsPanelAfterContinuation"] = panel
+                return {
+                    "opened": True,
+                    "attempts": attempts,
+                    "selectedCandidate": candidate,
+                    "selectedClick": click_result,
+                    "selectedContinuation": continuation,
+                    "reviewsPanel": panel,
+                    "candidateCount": len(candidates),
+                }
+        if continuation_attempts:
+            attempt["reviewsContinuationAttempts"] = continuation_attempts
+
     return {
         "opened": False,
         "attempts": attempts,
-        "candidateCount": len(candidates),
+        "candidateCount": len(collect_review_open_candidates(client)),
+    }
+
+
+def get_cookie_consent_state(client: CDPClient) -> dict[str, Any]:
+    expression = r"""
+        (() => {
+          const normalize = (value) => (value || '')
+            .toString()
+            .toLowerCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/\s+/g, ' ')
+            .trim();
+          const isVisible = (element) => {
+            const style = window.getComputedStyle(element);
+            const rect = element.getBoundingClientRect();
+            return style.visibility !== 'hidden' && style.display !== 'none' &&
+              rect.width > 0 && rect.height > 0;
+          };
+          const extractLabel = (element) => normalize(
+            [
+              element.innerText || element.textContent || '',
+              element.getAttribute('aria-label') || '',
+              element.getAttribute('title') || '',
+              element.getAttribute('value') || '',
+              element.id || '',
+            ].join(' ')
+          );
+          const controls = [...document.querySelectorAll('button,[role="button"],a,input[type="button"],input[type="submit"]')]
+            .filter(isVisible)
+            .map((element) => ({
+              tagName: element.tagName,
+              id: element.id || '',
+              label: extractLabel(element),
+              ariaLabel: normalize(element.getAttribute('aria-label') || ''),
+              title: normalize(element.getAttribute('title') || ''),
+            }))
+            .filter((item) => item.label)
+            .slice(0, 40);
+          const pageUrl = window.location.href;
+          const bodyText = normalize((document.body && document.body.innerText || '').slice(0, 2000));
+          const consentNeedles = [
+            'consent.google.',
+            'cookies',
+            'cookie',
+            'datenschutz',
+            'privacy',
+            'alle akzeptieren',
+            'accept all',
+            'ich stimme zu',
+            'i agree',
+          ];
+          const combined = normalize([pageUrl, document.title || '', bodyText, controls.map((item) => item.label).join(' ')].join(' '));
+          return {
+            pageUrl,
+            title: document.title || '',
+            controlCount: controls.length,
+            controls,
+            onConsentHost: pageUrl.includes('consent.google.'),
+            looksLikeConsent: consentNeedles.some((needle) => combined.includes(needle)),
+          };
+        })()
+    """
+    result = safe_evaluate_json(client, expression, timeout=5.0)
+    if result.get("ok") and isinstance(result.get("value"), dict):
+        state = result["value"]
+        state["runtimeOk"] = True
+        return state
+    return {
+        "runtimeOk": False,
+        "runtimeErrorType": result.get("errorType"),
+        "runtimeError": result.get("error"),
     }
 
 
@@ -767,20 +953,6 @@ def click_cookie_consent(client: CDPClient) -> dict[str, Any]:
             return style.visibility !== 'hidden' && style.display !== 'none' &&
               rect.width > 0 && rect.height > 0;
           };
-          const denyNeedles = [
-            'alle ablehnen',
-            'alles ablehnen',
-            'ablehnen',
-            'ich lehne ab',
-            'nur erforderliche',
-            'nur notwendige',
-            'reject all',
-            'reject',
-            'decline',
-            'only necessary',
-            'only essential',
-            'deny all',
-          ];
           const extractLabel = (element) => normalize(
             [
               element.innerText || element.textContent || '',
@@ -790,99 +962,135 @@ def click_cookie_consent(client: CDPClient) -> dict[str, Any]:
               element.id || '',
             ].join(' ')
           );
-
-          const clickFromRoot = (root, source) => {
-            const directSelectors = [
-              '#W0wltc',
-              'button#W0wltc',
-              'button[id*="reject" i]',
-              'button[aria-label*="reject" i]',
-              'button[aria-label*="ablehnen" i]',
-              'button[aria-label*="nur erforderliche" i]',
-              'button[aria-label*="only necessary" i]',
-            ];
-            for (const selector of directSelectors) {
-              let elements = [];
-              try {
-                elements = [...root.querySelectorAll(selector)];
-              } catch (_) {}
-              for (const element of elements) {
-                if (!isVisible(element)) {
-                  continue;
-                }
-                const label = extractLabel(element);
-                element.click();
-                return {clicked: true, action: 'deny', label, strategy: 'direct_selector', selector, source};
-              }
-            }
-
-            const controls = [...root.querySelectorAll('button,[role="button"],a,input[type="button"],input[type="submit"]')];
-            for (const element of controls) {
+          const acceptNeedles = [
+            'alle akzeptieren',
+            'alles akzeptieren',
+            'akzeptieren',
+            'ich stimme zu',
+            'zustimmen',
+            'einverstanden',
+            'accept all',
+            'accept',
+            'i agree',
+            'agree',
+          ];
+          const directSelectors = [
+            '#L2AGLb',
+            'button#L2AGLb',
+            '#introAgreeButton',
+            '#introAgree',
+            'button[aria-label*="accept" i]',
+            'button[aria-label*="akzeptieren" i]',
+            'button[aria-label*="zustimmen" i]',
+          ];
+          for (const selector of directSelectors) {
+            let elements = [];
+            try {
+              elements = [...document.querySelectorAll(selector)];
+            } catch (_) {}
+            for (const element of elements) {
               if (!isVisible(element)) {
                 continue;
               }
               const label = extractLabel(element);
-              if (!label) {
-                continue;
-              }
-              if (denyNeedles.some((needle) => label.includes(needle))) {
-                element.click();
-                return {clicked: true, action: 'deny', label, strategy: 'label_match', source};
-              }
-            }
-            return {clicked: false};
-          };
-
-          let result = clickFromRoot(document, 'document');
-          if (result.clicked) {
-            return {...result, pageUrl: window.location.href};
-          }
-
-          const iframes = [...document.querySelectorAll('iframe')];
-          for (const iframe of iframes) {
-            try {
-              const frameDoc = iframe.contentDocument;
-              if (!frameDoc) {
-                continue;
-              }
-              result = clickFromRoot(frameDoc, 'iframe');
-              if (result.clicked) {
-                return {...result, pageUrl: window.location.href};
-              }
-            } catch (_) {
-              // Cross-origin iframe access can fail; ignore and continue.
+              element.click();
+              return {clicked: true, action: 'accept', label, strategy: 'direct_selector', selector, pageUrl: window.location.href};
             }
           }
-          return {clicked: false, pageUrl: window.location.href, iframeCount: iframes.length};
+
+          const controls = [...document.querySelectorAll('button,[role="button"],a,input[type="button"],input[type="submit"]')];
+          for (const element of controls) {
+            if (!isVisible(element)) {
+              continue;
+            }
+            const label = extractLabel(element);
+            if (!label) {
+              continue;
+            }
+            if (acceptNeedles.some((needle) => label.includes(needle))) {
+              element.click();
+              return {clicked: true, action: 'accept', label, strategy: 'label_match', pageUrl: window.location.href};
+            }
+          }
+          return {clicked: false, pageUrl: window.location.href, visibleControlCount: controls.filter(isVisible).length};
         })()
     """
-    result = evaluate_json(client, expression, timeout=15.0)
-    return result if isinstance(result, dict) else {"clicked": False}
+    result = safe_evaluate_json(client, expression, timeout=5.0)
+    if result.get("ok") and isinstance(result.get("value"), dict):
+        return result["value"]
+    return {
+        "clicked": False,
+        "runtimeTimeout": result.get("errorType") == "TimeoutError",
+        "runtimeErrorType": result.get("errorType"),
+        "runtimeError": result.get("error"),
+    }
 
 
 def resolve_cookie_consent(client: CDPClient, requests: dict[str, dict[str, Any]]) -> dict[str, Any]:
     attempts: list[dict[str, Any]] = []
-    for attempt in range(1, 13):
-        result = click_cookie_consent(client)
-        current_url = evaluate_json(client, "window.location.href", timeout=10.0)
-        result["currentUrl"] = current_url if isinstance(current_url, str) else None
-        result["onConsentHost"] = isinstance(current_url, str) and "consent.google." in current_url
-        result["attempt"] = attempt
-        attempts.append(result)
+    consecutive_runtime_failures = 0
+    for attempt in range(1, 8):
+        state = get_cookie_consent_state(client)
+        if not state.get("runtimeOk", True):
+            consecutive_runtime_failures += 1
+        else:
+            consecutive_runtime_failures = 0
+
+        result = click_cookie_consent(client) if state.get("looksLikeConsent") or state.get("onConsentHost") else {"clicked": False, "skipped": True}
+        if result.get("runtimeTimeout") or result.get("runtimeErrorType"):
+            consecutive_runtime_failures += 1
+
+        current_url_result = safe_evaluate_json(client, "window.location.href", timeout=3.0)
+        current_url = current_url_result.get("value") if current_url_result.get("ok") else state.get("pageUrl")
+        on_consent_host = isinstance(current_url, str) and "consent.google." in current_url
+        attempt_record = {
+            "attempt": attempt,
+            "state": state,
+            "clickResult": result,
+            "currentUrl": current_url if isinstance(current_url, str) else None,
+            "onConsentHost": on_consent_host,
+            "currentUrlReadOk": bool(current_url_result.get("ok")),
+            "consecutiveRuntimeFailures": consecutive_runtime_failures,
+        }
+        attempts.append(attempt_record)
+
         if result.get("clicked"):
             pump_events(client, requests, time_limit=1.0)
-            time.sleep(1.0)
+            time.sleep(1.5)
+            post_click_url = safe_evaluate_json(client, "window.location.href", timeout=4.0)
+            post_click_url_value = post_click_url.get("value") if post_click_url.get("ok") else current_url
+            attempt_record["postClickUrl"] = post_click_url_value if isinstance(post_click_url_value, str) else None
             return {
                 "clicked": True,
+                "action": result.get("action"),
                 "attempts": attempts,
                 "resolvedWith": result,
             }
+
+        if consecutive_runtime_failures >= 2:
+            return {
+                "clicked": False,
+                "attempts": attempts,
+                "runtimeTimeout": True,
+                "blockedOnConsentHost": on_consent_host,
+                "finalUrl": current_url if isinstance(current_url, str) else None,
+            }
+
+        if not state.get("looksLikeConsent") and not on_consent_host:
+            return {
+                "clicked": False,
+                "attempts": attempts,
+                "blockedOnConsentHost": False,
+                "finalUrl": current_url if isinstance(current_url, str) else None,
+            }
+
         pump_events(client, requests, time_limit=0.5)
-        if result.get("onConsentHost"):
+        if on_consent_host:
             time.sleep(1.5)
         else:
             time.sleep(0.9)
-    final_url = evaluate_json(client, "window.location.href", timeout=10.0)
+    final_url_result = safe_evaluate_json(client, "window.location.href", timeout=3.0)
+    final_url = final_url_result.get("value") if final_url_result.get("ok") else None
     blocked_on_consent_host = isinstance(final_url, str) and "consent.google." in final_url
     return {
         "clicked": False,
@@ -896,6 +1104,8 @@ def wait_for_reviews_panel(client: CDPClient, timeout: float) -> Any:
     expression = r"""
         (() => {
           const reviewNodes = document.querySelectorAll('[data-review-id], .jftiEf, .wiI7pd');
+          const normalize = (value) => (value || '').replace(/\s+/g, ' ').trim();
+          const bodyText = normalize(document.body && document.body.innerText || '');
           if (reviewNodes.length > 0) {
             return {
               reviewNodeCount: reviewNodes.length,
@@ -910,6 +1120,33 @@ def wait_for_reviews_panel(client: CDPClient, timeout: float) -> Any:
             return {
               reviewNodeCount: reviewNodes.length,
               heading: heading.innerText.trim(),
+              title: document.title,
+            };
+          }
+          const policyNoticeDetected = /\b(entfernt|removed|richtlinien|polic(?:y|ies)|diffamierung|inappropriate|unangemessen)\b/i.test(bodyText);
+          const reviewsTabSelected = [...document.querySelectorAll('button,[role="tab"],[aria-selected="true"]')]
+            .some((node) => {
+              const label = normalize([
+                node.innerText || node.textContent || '',
+                node.getAttribute('aria-label') || '',
+              ].join(' '));
+              return /rezensionen|bewertungen|reviews/i.test(label) &&
+                (node.getAttribute('aria-selected') === 'true' || /hh2c6|Gpq6kf|tXXpyf/.test(String(node.className || '')));
+            });
+          const hasReviewsControls = [...document.querySelectorAll('button,[role="button"]')]
+            .some((node) => {
+              const label = normalize([
+                node.innerText || node.textContent || '',
+                node.getAttribute('aria-label') || '',
+              ].join(' '));
+              return /\b(sortieren|in rezensionen suchen|rezension schreiben|sort|search reviews|write a review)\b/i.test(label);
+            });
+          if (policyNoticeDetected && (reviewsTabSelected || hasReviewsControls)) {
+            return {
+              reviewNodeCount: 0,
+              policyNoticeDetected: true,
+              reviewsTabSelected,
+              hasReviewsControls,
               title: document.title,
             };
           }
@@ -937,7 +1174,7 @@ def get_reviews_scroll_state(client: CDPClient) -> dict[str, Any]:
             }
 
             const candidates = [...document.querySelectorAll('*')]
-              .filter((element) => element.scrollHeight > element.clientHeight + 300 && element.clientHeight > 200)
+              .filter((element) => element.scrollHeight > element.clientHeight + 80 && element.clientHeight > 180)
               .map((element) => ({
                 element,
                 score: element.scrollHeight - element.clientHeight,
@@ -1146,7 +1383,7 @@ def scroll_reviews(client: CDPClient) -> dict[str, Any]:
             }
 
             const candidates = [...document.querySelectorAll('*')]
-              .filter((element) => element.scrollHeight > element.clientHeight + 300 && element.clientHeight > 200)
+              .filter((element) => element.scrollHeight > element.clientHeight + 80 && element.clientHeight > 180)
               .map((element) => ({
                 element,
                 score: element.scrollHeight - element.clientHeight,
@@ -1167,6 +1404,12 @@ def scroll_reviews(client: CDPClient) -> dict[str, Any]:
           }
           const before = target.scrollTop;
           target.scrollTop = target.scrollHeight;
+          target.dispatchEvent(new Event('scroll', {bubbles: true}));
+          target.dispatchEvent(new WheelEvent('wheel', {
+            deltaY: Math.max(target.clientHeight, 240),
+            bubbles: true,
+            cancelable: true,
+          }));
           const distanceToBottom = Math.max(
             target.scrollHeight - (target.scrollTop + target.clientHeight),
             0
@@ -1203,7 +1446,7 @@ def nudge_reviews_loading(client: CDPClient) -> dict[str, Any]:
             }
 
             const candidates = [...document.querySelectorAll('*')]
-              .filter((element) => element.scrollHeight > element.clientHeight + 300 && element.clientHeight > 200)
+              .filter((element) => element.scrollHeight > element.clientHeight + 80 && element.clientHeight > 180)
               .map((element) => ({
                 element,
                 score: element.scrollHeight - element.clientHeight,
@@ -1438,6 +1681,21 @@ def normalize_review_time(value: Any) -> str | None:
     return normalized or None
 
 
+def normalize_review_text(value: Any) -> str:
+    if not isinstance(value, str):
+        return ""
+    normalized = html.unescape(value).replace("\xa0", " ")
+    normalized = re.sub(r"<[^>]+>", "", normalized)
+    return re.sub(r"\s+", " ", normalized).strip()
+
+
+def extract_tag_attr(tag: str, attr: str) -> str | None:
+    match = re.search(rf'\b{re.escape(attr)}="(?P<value>[^"]*)"', tag, flags=re.S)
+    if not match:
+        return None
+    return html.unescape(match.group("value")).replace("\xa0", " ").strip()
+
+
 def extract_star_rating_from_fragment(fragment: str) -> int | None:
     rating_match = re.search(
         r'aria-label="(?P<label>[^"]*(?:Stern|Sterne|star|stars)[^"]*)"',
@@ -1461,31 +1719,128 @@ def extract_review_time_from_fragment(fragment: str) -> str | None:
     return normalize_review_time(raw_time)
 
 
+def parse_like_count_label(label: str | None) -> int | None:
+    if not isinstance(label, str):
+        return None
+    decoded = html.unescape(label).replace("\xa0", " ")
+    decoded = re.sub(r"\s+", " ", decoded).strip()
+    if decoded == "Gefällt mir":
+        return 0
+    if "Gefällt mir" not in decoded:
+        return None
+    match = re.search(r"\b(?P<count>\d[\d.]*)\b", decoded)
+    if not match:
+        return None
+    return int(match.group("count").replace(".", ""))
+
+
+def normalize_like_count(value: Any) -> int | None:
+    if isinstance(value, bool):
+        return None
+    if isinstance(value, int):
+        return value if value >= 0 else None
+    if isinstance(value, str):
+        return parse_like_count_label(value)
+    return None
+
+
+def extract_like_count_from_fragment(fragment: str, review_id: str) -> int | None:
+    button_match = re.search(
+        r'<button\b(?=[^>]*\bdata-review-id="'
+        + re.escape(review_id)
+        + r'")(?=[^>]*review\.toggleThumbsUp)[^>]*>',
+        fragment,
+        flags=re.S,
+    )
+    if not button_match:
+        return None
+    button_tag = button_match.group(0)
+    aria_like_count = parse_like_count_label(extract_tag_attr(button_tag, "aria-label"))
+    if aria_like_count is not None:
+        return aria_like_count
+    return parse_like_count_label(extract_tag_attr(button_tag, "title"))
+
+
+def extract_owner_response_from_fragment(fragment: str) -> dict[str, Any]:
+    anchor = fragment.find("Antwort vom Inhaber")
+    if anchor < 0:
+        return {
+            "has_owner_response": False,
+            "owner_response_time": None,
+            "owner_response_text": None,
+        }
+
+    tail = fragment[anchor + len("Antwort vom Inhaber") :]
+    time_match = re.search(r"<span\b[^>]*>(?P<time>.*?)</span>", tail, flags=re.S)
+    response_time = normalize_review_time(time_match.group("time")) if time_match else None
+    text_search_start = time_match.end() if time_match else 0
+    text_match = re.search(
+        r"<div\b[^>]*>(?P<text>.*?)</div>",
+        tail[text_search_start:],
+        flags=re.S,
+    )
+    response_text = normalize_review_text(text_match.group("text")) if text_match else None
+    return {
+        "has_owner_response": True,
+        "owner_response_time": response_time,
+        "owner_response_text": response_text or None,
+    }
+
+
+def iter_review_fragments(text: str) -> list[tuple[str, str, str]]:
+    start_pattern = re.compile(
+        r'<div\b(?=[^>]*\baria-label="(?P<name>[^"]+)")'
+        r'(?=[^>]*\bdata-review-id="(?P<review_id>[^"]+)")'
+        r'(?=[^>]*\bjslog="21866(?:;|"))[^>]*>',
+        flags=re.S,
+    )
+    matches = list(start_pattern.finditer(text))
+    fragments: list[tuple[str, str, str]] = []
+    for index, match in enumerate(matches):
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+        fragments.append(
+            (
+                html.unescape(match.group("name")).strip(),
+                match.group("review_id"),
+                text[match.start() : end],
+            )
+        )
+    return fragments
+
+
 def parse_reviews_from_html(path: pathlib.Path) -> list[dict[str, Any]]:
     if not path.is_file():
         return []
     text = path.read_text(encoding="utf-8", errors="ignore")
-    matches = re.finditer(
-        r'<div class="jftiEf fontBodyMedium [^"]*" aria-label="(?P<name>[^"]+)" data-review-id="(?P<review_id>[^"]+)".*?<span class="wiI7pd">(?P<text>.*?)</span>',
-        text,
-        flags=re.S,
-    )
 
-    reviews: list[dict[str, str]] = []
-    for match in matches:
-        reviewer_name = html.unescape(match.group("name")).strip()
-        review_text = html.unescape(re.sub(r"<[^>]+>", "", match.group("text"))).strip()
-        star_rating = extract_star_rating_from_fragment(match.group(0))
-        review_time = extract_review_time_from_fragment(match.group(0))
+    reviews: list[dict[str, Any]] = []
+    for reviewer_name, review_id, fragment in iter_review_fragments(text):
+        content_end_candidates = [
+            position
+            for position in (fragment.find("review.toggleThumbsUp"), fragment.find("Antwort vom Inhaber"))
+            if position >= 0
+        ]
+        review_content_fragment = fragment[: min(content_end_candidates)] if content_end_candidates else fragment
+        text_match = re.search(
+            r'<span\b(?=[^>]*\bclass="[^"]*\bwiI7pd\b[^"]*")[^>]*>(?P<text>.*?)</span>',
+            review_content_fragment,
+            flags=re.S,
+        )
+        review_text = normalize_review_text(text_match.group("text")) if text_match else ""
+        star_rating = extract_star_rating_from_fragment(fragment)
+        review_time = extract_review_time_from_fragment(fragment)
+        owner_response = extract_owner_response_from_fragment(fragment)
         if not reviewer_name or not review_text:
             continue
         reviews.append(
             {
-                "review_id": match.group("review_id"),
+                "review_id": review_id,
                 "reviewer_name": reviewer_name,
                 "review_text": review_text,
                 "star_rating": star_rating,
                 "review_time": review_time,
+                "like_count": extract_like_count_from_fragment(fragment, review_id),
+                **owner_response,
             }
         )
     return reviews
@@ -1510,6 +1865,10 @@ def dedupe_review_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]
             "review_text": re.sub(r"\s+", " ", record.get("review_text", "").strip()),
             "star_rating": normalize_star_rating(record.get("star_rating")),
             "review_time": normalize_review_time(record.get("review_time")),
+            "like_count": normalize_like_count(record.get("like_count")),
+            "has_owner_response": bool(record.get("has_owner_response")),
+            "owner_response_time": normalize_review_time(record.get("owner_response_time")),
+            "owner_response_text": normalize_review_text(record.get("owner_response_text")) or None,
         }
         existing = deduped.get(key)
         if existing is None:
@@ -1526,6 +1885,16 @@ def dedupe_review_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]
             winner["star_rating"] = loser["star_rating"]
         if winner.get("review_time") is None and loser.get("review_time") is not None:
             winner["review_time"] = loser["review_time"]
+        if winner.get("like_count") is None and loser.get("like_count") is not None:
+            winner["like_count"] = loser["like_count"]
+        elif loser.get("like_count") is not None and winner.get("like_count") is not None:
+            winner["like_count"] = max(winner["like_count"], loser["like_count"])
+        if not winner.get("has_owner_response") and loser.get("has_owner_response"):
+            winner["has_owner_response"] = True
+        if winner.get("owner_response_time") is None and loser.get("owner_response_time") is not None:
+            winner["owner_response_time"] = loser["owner_response_time"]
+        if winner.get("owner_response_text") is None and loser.get("owner_response_text") is not None:
+            winner["owner_response_text"] = loser["owner_response_text"]
         deduped[key] = winner
     return list(deduped.values())
 
@@ -1690,14 +2059,22 @@ def run_capture_once(
         run_summary["cookieConsent"] = consent_result
         if consent_result.get("clicked"):
             pump_events(client, requests, time_limit=3.0)
-        elif consent_result.get("blockedOnConsentHost"):
-            run_summary["reviewClick"] = {"clicked": False, "reason": "cookie_deny_unavailable"}
+        elif consent_result.get("runtimeTimeout"):
+            run_summary["reviewClick"] = {"clicked": False, "reason": "cookie_consent_runtime_timeout"}
             run_summary["reviewsPanel"] = False
             run_summary["reviewOpenAttempts"] = []
             if args.keep_debug_artifacts:
                 safe_capture_screenshot(client, output_dir / "02_reviews.png", run_summary, "reviews_opened")
                 save_text(output_dir / "page_reviews.html", get_page_html(client))
-            return finalize_early_failure("cookie_deny_unavailable")
+            return finalize_early_failure("cookie_consent_runtime_timeout")
+        elif consent_result.get("blockedOnConsentHost"):
+            run_summary["reviewClick"] = {"clicked": False, "reason": "cookie_consent_unresolved"}
+            run_summary["reviewsPanel"] = False
+            run_summary["reviewOpenAttempts"] = []
+            if args.keep_debug_artifacts:
+                safe_capture_screenshot(client, output_dir / "02_reviews.png", run_summary, "reviews_opened")
+                save_text(output_dir / "page_reviews.html", get_page_html(client))
+            return finalize_early_failure("cookie_consent_unresolved")
 
         review_phase_started_at = time.time()
         verify_timeout = max(min(args.review_timeout, 6.0), 2.0)
@@ -2032,6 +2409,24 @@ def run_capture_once(
             "outputDir": str(output_dir),
             "runSummary": run_summary,
         }
+    except Exception as exc:  # noqa: BLE001
+        reason = "unexpected_capture_exception"
+        run_summary["failureReason"] = reason
+        run_summary["scrollStopReason"] = reason
+        run_summary["captureSuccessful"] = False
+        run_summary["exceptionType"] = type(exc).__name__
+        run_summary["exception"] = str(exc)
+        run_summary["finishedAt"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+        run_summary.setdefault("matchedRequestCount", 0)
+        run_summary.setdefault("batchexecuteCount", 0)
+        run_summary.setdefault("reviewPhaseXhrCount", 0)
+        save_text(output_dir / "run_summary.json", json.dumps(run_summary, indent=2, ensure_ascii=False))
+        print(f"Saved run summary to {output_dir / 'run_summary.json'}")
+        print(f"Capture stopped early: {reason} ({type(exc).__name__}: {exc})")
+        return {
+            "outputDir": str(output_dir),
+            "runSummary": run_summary,
+        }
     finally:
         if client is not None:
             client.close()
@@ -2113,7 +2508,32 @@ def run_single_capture(
         delay_multiplier = 1.0 + (0.5 * attempt_index)
         attempt_scroll_delay = run_args.scroll_delay * delay_multiplier
 
-        attempt_result = run_capture_once(run_args, attempt_output_dir, attempt_scroll_delay)
+        try:
+            attempt_result = run_capture_once(run_args, attempt_output_dir, attempt_scroll_delay)
+        except Exception as exc:  # noqa: BLE001
+            attempt_output_dir.mkdir(parents=True, exist_ok=True)
+            run_summary = {
+                "url": run_args.url,
+                "placeId": run_args.place_id,
+                "startedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                "finishedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                "scrollDelayUsed": attempt_scroll_delay,
+                "captureSuccessful": False,
+                "failureReason": "capture_attempt_exception",
+                "scrollStopReason": "capture_attempt_exception",
+                "exceptionType": type(exc).__name__,
+                "exception": str(exc),
+                "matchedRequestCount": 0,
+                "batchexecuteCount": 0,
+                "reviewPhaseXhrCount": 0,
+            }
+            save_text(attempt_output_dir / "run_summary.json", json.dumps(run_summary, indent=2, ensure_ascii=False))
+            print(f"Saved run summary to {attempt_output_dir / 'run_summary.json'}")
+            print(f"Capture attempt failed before cleanup could complete: {type(exc).__name__}: {exc}")
+            attempt_result = {
+                "outputDir": str(attempt_output_dir),
+                "runSummary": run_summary,
+            }
         run_summary = attempt_result["runSummary"]
         attempts.append(
             {
@@ -2130,15 +2550,14 @@ def run_single_capture(
 
         final_count = int(run_summary.get("finalUniqueReviewIdCount") or 0)
         stop_reason = str(run_summary.get("scrollStopReason") or "")
+        capture_successful = bool(run_summary.get("captureSuccessful"))
         latest_declared_review_total = run_summary.get("declaredReviewTotal") if isinstance(run_summary.get("declaredReviewTotal"), int) else latest_declared_review_total
-        if stop_reason in {"cookie_deny_unavailable", "reviews_panel_not_opened"}:
+        if capture_successful and stop_reason in {"declared_total_reached_fast", "exhausted_no_growth_at_bottom"}:
             break
-        if stop_reason in {"declared_total_reached_fast", "exhausted_no_growth_at_bottom"}:
-            break
-        if isinstance(latest_declared_review_total, int):
+        if capture_successful and isinstance(latest_declared_review_total, int):
             if final_count >= latest_declared_review_total:
                 break
-        elif final_count >= low_count_threshold:
+        elif capture_successful and final_count >= low_count_threshold:
             break
 
     merged_records: list[dict[str, Any]] = []
@@ -2152,6 +2571,10 @@ def run_single_capture(
             "review_text": record["review_text"],
             "star_rating": record.get("star_rating"),
             "review_time": record.get("review_time"),
+            "like_count": record.get("like_count"),
+            "has_owner_response": record.get("has_owner_response", False),
+            "owner_response_time": record.get("owner_response_time"),
+            "owner_response_text": record.get("owner_response_text"),
         }
         for record in merged_records
     ]
@@ -2285,7 +2708,38 @@ def main() -> int:
                 f"reviews={entry['review_count']} reason=already_successful"
             )
         else:
-            result = run_single_capture(args, url, place_id, output_dir)
+            elapsed_seconds = round(time.monotonic() - place_started_monotonic, 2)
+            try:
+                result = run_single_capture(args, url, place_id, output_dir)
+            except Exception as exc:  # noqa: BLE001
+                output_dir.mkdir(parents=True, exist_ok=True)
+                failure_summary = {
+                    "url": url,
+                    "placeId": place_id,
+                    "startedAt": place_started_at,
+                    "finishedAt": utc_now_iso(),
+                    "captureSuccessful": False,
+                    "failureReason": "batch_place_exception",
+                    "scrollStopReason": "batch_place_exception",
+                    "exceptionType": type(exc).__name__,
+                    "exception": str(exc),
+                    "matchedRequestCount": 0,
+                    "batchexecuteCount": 0,
+                    "reviewPhaseXhrCount": 0,
+                }
+                save_text(output_dir / "run_summary.json", json.dumps(failure_summary, indent=2, ensure_ascii=False))
+                result = {
+                    "exitCode": 1,
+                    "success": False,
+                    "outputDir": str(output_dir),
+                    "reviewsPath": None,
+                    "reviewCount": 0,
+                    "declaredReviewTotal": None,
+                    "finalUniqueReviewIdCount": None,
+                    "scrollStopReason": "batch_place_exception",
+                    "failureReason": f"{type(exc).__name__}: {exc}",
+                    "retryAttempts": [],
+                }
             elapsed_seconds = round(time.monotonic() - place_started_monotonic, 2)
             status = "done" if result.get("success") else "failed"
             entry = {

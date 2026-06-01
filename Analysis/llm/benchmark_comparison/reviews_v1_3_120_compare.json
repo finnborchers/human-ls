@@ -1,0 +1,501 @@
+{
+  "generated_at": "2026-05-14T16:41:57.319745+00:00",
+  "prediction_file": "analysis/llm/benchmark_comparison/reviews_v1_3_120_labeled.json",
+  "reference_file": "analysis/llm/benchmark_comparison/benchmark_v1_120_reviewed_2026-05-14T13-43-24Z.json",
+  "overall": {
+    "total_reviews": 120,
+    "exact_matches": 18,
+    "non_exact_matches": 102,
+    "benchmark_total_labels": 679,
+    "predicted_total_labels": 633,
+    "matched_labels": 477,
+    "missing_labels": 202,
+    "extra_labels": 156
+  },
+  "buckets": {
+    "positive": {
+      "total_reviews": 40,
+      "exact_matches": 10,
+      "non_exact_matches": 30,
+      "benchmark_total_labels": 137,
+      "predicted_total_labels": 145,
+      "matched_labels": 109,
+      "missing_labels": 28,
+      "extra_labels": 36
+    },
+    "negative": {
+      "total_reviews": 40,
+      "exact_matches": 7,
+      "non_exact_matches": 33,
+      "benchmark_total_labels": 174,
+      "predicted_total_labels": 163,
+      "matched_labels": 123,
+      "missing_labels": 51,
+      "extra_labels": 40
+    },
+    "mixed_hard": {
+      "total_reviews": 40,
+      "exact_matches": 1,
+      "non_exact_matches": 39,
+      "benchmark_total_labels": 368,
+      "predicted_total_labels": 325,
+      "matched_labels": 245,
+      "missing_labels": 123,
+      "extra_labels": 80
+    }
+  },
+  "domains": {
+    "access": {
+      "total_reviews": 120,
+      "exact_matches": 91,
+      "non_exact_matches": 29,
+      "benchmark_total_labels": 53,
+      "predicted_total_labels": 48,
+      "matched_labels": 32,
+      "missing_labels": 21,
+      "extra_labels": 16
+    },
+    "admin": {
+      "total_reviews": 120,
+      "exact_matches": 116,
+      "non_exact_matches": 4,
+      "benchmark_total_labels": 11,
+      "predicted_total_labels": 9,
+      "matched_labels": 8,
+      "missing_labels": 3,
+      "extra_labels": 1
+    },
+    "communication": {
+      "total_reviews": 120,
+      "exact_matches": 73,
+      "non_exact_matches": 47,
+      "benchmark_total_labels": 85,
+      "predicted_total_labels": 70,
+      "matched_labels": 40,
+      "missing_labels": 45,
+      "extra_labels": 30
+    },
+    "staff": {
+      "total_reviews": 120,
+      "exact_matches": 64,
+      "non_exact_matches": 56,
+      "benchmark_total_labels": 214,
+      "predicted_total_labels": 215,
+      "matched_labels": 171,
+      "missing_labels": 43,
+      "extra_labels": 44
+    },
+    "care": {
+      "total_reviews": 120,
+      "exact_matches": 63,
+      "non_exact_matches": 57,
+      "benchmark_total_labels": 179,
+      "predicted_total_labels": 173,
+      "matched_labels": 131,
+      "missing_labels": 48,
+      "extra_labels": 42
+    },
+    "coordination": {
+      "total_reviews": 120,
+      "exact_matches": 95,
+      "non_exact_matches": 25,
+      "benchmark_total_labels": 47,
+      "predicted_total_labels": 35,
+      "matched_labels": 26,
+      "missing_labels": 21,
+      "extra_labels": 9
+    },
+    "environment": {
+      "total_reviews": 120,
+      "exact_matches": 94,
+      "non_exact_matches": 26,
+      "benchmark_total_labels": 79,
+      "predicted_total_labels": 75,
+      "matched_labels": 62,
+      "missing_labels": 17,
+      "extra_labels": 13
+    },
+    "inclusion": {
+      "total_reviews": 120,
+      "exact_matches": 115,
+      "non_exact_matches": 5,
+      "benchmark_total_labels": 11,
+      "predicted_total_labels": 8,
+      "matched_labels": 7,
+      "missing_labels": 4,
+      "extra_labels": 1
+    }
+  },
+  "top_missing_labels": [
+    [
+      "problem:staff.seriousness",
+      15
+    ],
+    [
+      "problem:communication.communication",
+      11
+    ],
+    [
+      "problem:communication.explanation",
+      9
+    ],
+    [
+      "problem:access.waiting",
+      9
+    ],
+    [
+      "problem:care.competence",
+      8
+    ],
+    [
+      "strength:care.competence",
+      7
+    ],
+    [
+      "strength:care.treatment",
+      7
+    ],
+    [
+      "problem:staff.respect",
+      7
+    ],
+    [
+      "problem:communication.information",
+      7
+    ],
+    [
+      "problem:care.safety",
+      7
+    ],
+    [
+      "problem:care.symptoms",
+      7
+    ],
+    [
+      "strength:environment.support",
+      6
+    ],
+    [
+      "problem:staff.empathy",
+      6
+    ],
+    [
+      "strength:communication.communication",
+      6
+    ],
+    [
+      "problem:coordination.discharge",
+      6
+    ]
+  ],
+  "top_extra_labels": [
+    [
+      "strength:communication.communication",
+      10
+    ],
+    [
+      "strength:care.competence",
+      10
+    ],
+    [
+      "problem:communication.communication",
+      9
+    ],
+    [
+      "strength:staff.empathy",
+      9
+    ],
+    [
+      "problem:staff.seriousness",
+      7
+    ],
+    [
+      "problem:care.safety",
+      7
+    ],
+    [
+      "problem:care.competence",
+      6
+    ],
+    [
+      "strength:staff.respect",
+      6
+    ],
+    [
+      "problem:care.treatment",
+      6
+    ],
+    [
+      "strength:staff.friendliness",
+      6
+    ],
+    [
+      "problem:staff.friendliness",
+      6
+    ],
+    [
+      "problem:care.symptoms",
+      5
+    ],
+    [
+      "problem:access.waiting",
+      5
+    ],
+    [
+      "problem:communication.decisions",
+      4
+    ],
+    [
+      "problem:access.navigation",
+      4
+    ]
+  ],
+  "top_missing_problem_labels": [
+    [
+      "staff.seriousness",
+      15
+    ],
+    [
+      "communication.communication",
+      11
+    ],
+    [
+      "communication.explanation",
+      9
+    ],
+    [
+      "access.waiting",
+      9
+    ],
+    [
+      "care.competence",
+      8
+    ],
+    [
+      "staff.respect",
+      7
+    ],
+    [
+      "communication.information",
+      7
+    ],
+    [
+      "care.safety",
+      7
+    ],
+    [
+      "care.symptoms",
+      7
+    ],
+    [
+      "staff.empathy",
+      6
+    ],
+    [
+      "coordination.discharge",
+      6
+    ],
+    [
+      "access.reachability",
+      6
+    ],
+    [
+      "coordination.followup",
+      5
+    ],
+    [
+      "environment.facilities",
+      5
+    ],
+    [
+      "coordination.coordination",
+      5
+    ]
+  ],
+  "top_missing_strength_labels": [
+    [
+      "care.competence",
+      7
+    ],
+    [
+      "care.treatment",
+      7
+    ],
+    [
+      "environment.support",
+      6
+    ],
+    [
+      "communication.communication",
+      6
+    ],
+    [
+      "communication.explanation",
+      5
+    ],
+    [
+      "staff.empathy",
+      4
+    ],
+    [
+      "staff.respect",
+      3
+    ],
+    [
+      "staff.friendliness",
+      3
+    ],
+    [
+      "communication.information",
+      3
+    ],
+    [
+      "care.safety",
+      2
+    ],
+    [
+      "coordination.coordination",
+      2
+    ],
+    [
+      "coordination.discharge",
+      2
+    ],
+    [
+      "access.waiting",
+      2
+    ],
+    [
+      "access.appointments",
+      1
+    ],
+    [
+      "environment.food",
+      1
+    ]
+  ],
+  "top_extra_problem_labels": [
+    [
+      "communication.communication",
+      9
+    ],
+    [
+      "staff.seriousness",
+      7
+    ],
+    [
+      "care.safety",
+      7
+    ],
+    [
+      "care.competence",
+      6
+    ],
+    [
+      "care.treatment",
+      6
+    ],
+    [
+      "staff.friendliness",
+      6
+    ],
+    [
+      "care.symptoms",
+      5
+    ],
+    [
+      "access.waiting",
+      5
+    ],
+    [
+      "communication.decisions",
+      4
+    ],
+    [
+      "access.navigation",
+      4
+    ],
+    [
+      "communication.explanation",
+      4
+    ],
+    [
+      "staff.respect",
+      4
+    ],
+    [
+      "staff.empathy",
+      3
+    ],
+    [
+      "access.reachability",
+      2
+    ],
+    [
+      "environment.cleanliness",
+      2
+    ]
+  ],
+  "top_extra_strength_labels": [
+    [
+      "communication.communication",
+      10
+    ],
+    [
+      "care.competence",
+      10
+    ],
+    [
+      "staff.empathy",
+      9
+    ],
+    [
+      "staff.respect",
+      6
+    ],
+    [
+      "staff.friendliness",
+      6
+    ],
+    [
+      "environment.support",
+      3
+    ],
+    [
+      "care.treatment",
+      3
+    ],
+    [
+      "staff.seriousness",
+      3
+    ],
+    [
+      "care.safety",
+      2
+    ],
+    [
+      "environment.facilities",
+      2
+    ],
+    [
+      "coordination.coordination",
+      2
+    ],
+    [
+      "coordination.followup",
+      2
+    ],
+    [
+      "access.waiting",
+      2
+    ],
+    [
+      "environment.food",
+      1
+    ],
+    [
+      "access.navigation",
+      1
+    ]
+  ]
+}

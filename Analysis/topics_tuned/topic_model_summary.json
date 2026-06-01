@@ -1,0 +1,30 @@
+{
+  "review_count": 30863,
+  "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "min_topic_size": 35,
+  "min_samples": 5,
+  "top_n_words": 12,
+  "high_like_min_count": 3,
+  "summaries": [
+    {
+      "subset": "negative_reviews",
+      "review_count": 11943,
+      "topic_count": 43
+    },
+    {
+      "subset": "positive_reviews",
+      "review_count": 17700,
+      "topic_count": 67
+    },
+    {
+      "subset": "liked_reviews",
+      "review_count": 18055,
+      "topic_count": 59
+    },
+    {
+      "subset": "high_liked_reviews",
+      "review_count": 9773,
+      "topic_count": 29
+    }
+  ]
+}

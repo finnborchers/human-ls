@@ -1,47 +1,114 @@
 {
   "url": "https://www.google.com/maps/place/Klinikum+Wahrendorff+GmbH/@52.3806517,9.1368755,10z/data=!4m10!1m2!2m1!1sKlinikum+Wahrendorff+GmbH!3m6!1s0x47b074ac03bc6603:0xcefa0717a9b09c02!8m2!3d52.3806517!4d9.7466167!15sChlLbGluaWt1bSBXYWhyZW5kb3JmZiBHbWJIWhsiGWtsaW5pa3VtIHdhaHJlbmRvcmZmIGdtYmiSARRwc3ljaGlhdHJpY19ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VObGVFeE1hVnBSRUFF4AEA-gEECD8QRA!16s%2Fg%2F1ptzjlzl0?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "klinikum-wahrendorff-gmbh",
-  "startedAt": "2026-04-15T17:15:27Z",
+  "startedAt": "2026-05-11T14:38:23Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "AD7263D4D979E75B07F48D18B525DFA1",
-  "selectedTargetId": "AD7263D4D979E75B07F48D18B525DFA1",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "37D672FAE19C6317B4233E493510B343",
+  "selectedTargetId": "37D672FAE19C6317B4233E493510B343",
   "selectedTargetUrl": "https://www.google.com/maps/place/Klinikum+Wahrendorff+GmbH/@52.3806517,9.1368755,10z/data=!4m10!1m2!2m1!1sKlinikum+Wahrendorff+GmbH!3m6!1s0x47b074ac03bc6603:0xcefa0717a9b09c02!8m2!3d52.3806517!4d9.7466167!15sChlLbGluaWt1bSBXYWhyZW5kb3JmZiBHbWJIWhsiGWtsaW5pa3VtIHdhaHJlbmRvcmZmIGdtYmiSARRwc3ljaGlhdHJpY19ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VObGVFeE1hVnBSRUFF4AEA-gEECD8QRA!16s%2Fg%2F1ptzjlzl0?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinikum%2BWahrendorff%2BGmbH/@52.3806517,9.1368755,10z/data%3D!4m10!1m2!2m1!1sKlinikum%2BWahrendorff%2BGmbH!3m6!1s0x47b074ac03bc6603:0xcefa0717a9b09c02!8m2!3d52.3806517!4d9.7466167!15sChlLbGluaWt1bSBXYWhyZW5kb3JmZiBHbWJIWhsiGWtsaW5pa3VtIHdhaHJlbmRvcmZmIGdtYmiSARRwc3ljaGlhdHJpY19ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VObGVFeE1hVnBSRUFF4AEA-gEECD8QRA!16s%252Fg%252F1ptzjlzl0?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinikum%2BWahrendorff%2BGmbH/@52.3806517,9.1368755,10z/data%3D!4m10!1m2!2m1!1sKlinikum%2BWahrendorff%2BGmbH!3m6!1s0x47b074ac03bc6603:0xcefa0717a9b09c02!8m2!3d52.3806517!4d9.7466167!15sChlLbGluaWt1bSBXYWhyZW5kb3JmZiBHbWJIWhsiGWtsaW5pa3VtIHdhaHJlbmRvcmZmIGdtYmiSARRwc3ljaGlhdHJpY19ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VObGVFeE1hVnBSRUFF4AEA-gEECD8QRA!16s%252Fg%252F1ptzjlzl0?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinikum%2BWahrendorff%2BGmbH/@52.3806517,9.1368755,10z/data%3D!4m10!1m2!2m1!1sKlinikum%2BWahrendorff%2BGmbH!3m6!1s0x47b074ac03bc6603:0xcefa0717a9b09c02!8m2!3d52.3806517!4d9.7466167!15sChlLbGluaWt1bSBXYWhyZW5kb3JmZiBHbWJIWhsiGWtsaW5pa3VtIHdhaHJlbmRvcmZmIGdtYmiSARRwc3ljaGlhdHJpY19ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VObGVFeE1hVnBSRUFF4AEA-gEECD8QRA!16s%252Fg%252F1ptzjlzl0?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinikum%2BWahrendorff%2BGmbH/@52.3806517,9.1368755,10z/data%3D!4m10!1m2!2m1!1sKlinikum%2BWahrendorff%2BGmbH!3m6!1s0x47b074ac03bc6603:0xcefa0717a9b09c02!8m2!3d52.3806517!4d9.7466167!15sChlLbGluaWt1bSBXYWhyZW5kb3JmZiBHbWJIWhsiGWtsaW5pa3VtIHdhaHJlbmRvcmZmIGdtYmiSARRwc3ljaGlhdHJpY19ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VObGVFeE1hVnBSRUFF4AEA-gEECD8QRA!16s%252Fg%252F1ptzjlzl0?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/Klinikum+Wahrendorff+GmbH/@52.3806517,9.1368755,10z/data=!4m10!1m2!2m1!1sKlinikum+Wahrendorff+GmbH!3m6!1s0x47b074ac03bc6603:0xcefa0717a9b09c02!8m2!3d52.3806517!4d9.7466167!15sChlLbGluaWt1bSBXYWhyZW5kb3JmZiBHbWJIWhsiGWtsaW5pa3VtIHdhaHJlbmRvcmZmIGdtYmiSARRwc3ljaGlhdHJpY19ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VObGVFeE1hVnBSRUFF4AEA-gEECD8QRA!16s%2Fg%2F1ptzjlzl0?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinikum%2BWahrendorff%2BGmbH/@52.3806517,9.1368755,10z/data%3D!4m10!1m2!2m1!1sKlinikum%2BWahrendorff%2BGmbH!3m6!1s0x47b074ac03bc6603:0xcefa0717a9b09c02!8m2!3d52.3806517!4d9.7466167!15sChlLbGluaWt1bSBXYWhyZW5kb3JmZiBHbWJIWhsiGWtsaW5pa3VtIHdhaHJlbmRvcmZmIGdtYmiSARRwc3ljaGlhdHJpY19ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VObGVFeE1hVnBSRUFF4AEA-gEECD8QRA!16s%252Fg%252F1ptzjlzl0?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinikum%2BWahrendorff%2BGmbH/@52.3806517,9.1368755,10z/data%3D!4m10!1m2!2m1!1sKlinikum%2BWahrendorff%2BGmbH!3m6!1s0x47b074ac03bc6603:0xcefa0717a9b09c02!8m2!3d52.3806517!4d9.7466167!15sChlLbGluaWt1bSBXYWhyZW5kb3JmZiBHbWJIWhsiGWtsaW5pa3VtIHdhaHJlbmRvcmZmIGdtYmiSARRwc3ljaGlhdHJpY19ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VObGVFeE1hVnBSRUFF4AEA-gEECD8QRA!16s%252Fg%252F1ptzjlzl0?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinikum%2BWahrendorff%2BGmbH/@52.3806517,9.1368755,10z/data%3D!4m10!1m2!2m1!1sKlinikum%2BWahrendorff%2BGmbH!3m6!1s0x47b074ac03bc6603:0xcefa0717a9b09c02!8m2!3d52.3806517!4d9.7466167!15sChlLbGluaWt1bSBXYWhyZW5kb3JmZiBHbWJIWhsiGWtsaW5pa3VtIHdhaHJlbmRvcmZmIGdtYmiSARRwc3ljaGlhdHJpY19ob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VObGVFeE1hVnBSRUFF4AEA-gEECD8QRA!16s%252Fg%252F1ptzjlzl0?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
     {
       "rank": 1,
       "candidate": {
-        "domIndex": 88,
+        "domIndex": 89,
         "score": 215,
         "reasons": [
           "jsaction_more_reviews",
@@ -53,16 +120,17 @@
         "text": "25 Berichte",
         "ariaLabel": "",
         "title": "",
-        "jsaction": "pane.wfvdle71.reviewchart.morereviews",
+        "jsaction": "pane.wfvdle73.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 6,
       "clickResult": {
         "clicked": true,
-        "index": 88,
+        "index": 89,
         "text": "25 Berichte",
         "ariaLabel": "",
         "title": "",
-        "jsaction": "pane.wfvdle71.reviewchart.morereviews",
+        "jsaction": "pane.wfvdle73.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
       "reviewsPanelAfterClick": {
@@ -71,12 +139,12 @@
       }
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 6,
   "reviewClick": {
     "clicked": true,
     "strategy": "candidate",
     "label": "25 Berichte",
-    "domIndex": 88,
+    "domIndex": 89,
     "candidateScore": 215,
     "candidateReasons": [
       "jsaction_more_reviews",
@@ -84,7 +152,7 @@
       "review_keyword",
       "button_like_control"
     ],
-    "jsaction": "pane.wfvdle71.reviewchart.morereviews"
+    "jsaction": "pane.wfvdle73.reviewchart.morereviews"
   },
   "reviewsPanel": {
     "reviewNodeCount": 85,
@@ -99,8 +167,8 @@
     "tagName": "DIV",
     "scrollTop": 0,
     "scrollHeight": 3009,
-    "clientHeight": 629,
-    "distanceToBottom": 2380
+    "clientHeight": 631,
+    "distanceToBottom": 2378
   },
   "declaredReviewTotalInfo": {
     "found": true,
@@ -141,11 +209,11 @@
       "scrolled": true,
       "strategy": "pane_to_bottom",
       "before": 0,
-      "after": 2379.5,
+      "after": 2377.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 3009,
-      "clientHeight": 629,
+      "clientHeight": 631,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 85,
       "uniqueReviewIdCount": 10,
@@ -158,25 +226,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 2379.5,
+        "scrollTop": 2377.5,
         "scrollHeight": 4847,
-        "clientHeight": 630,
+        "clientHeight": 632,
         "distanceToBottom": 1837.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 8.875038474798203e-06,
+      "networkIdleSeconds": 2.708309330046177e-05,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 2379.5,
-      "after": 4216.5,
+      "before": 2377.5,
+      "after": 4214.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 4847,
-      "clientHeight": 630,
+      "clientHeight": 632,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 151,
       "uniqueReviewIdCount": 20,
@@ -189,25 +257,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 4216.5,
+        "scrollTop": 4214.5,
         "scrollHeight": 5460,
-        "clientHeight": 630,
+        "clientHeight": 632,
         "distanceToBottom": 613.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 9.999959729611874e-06,
+      "networkIdleSeconds": 5.125068128108978e-06,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 4216.5,
-      "after": 4829.5,
+      "before": 4214.5,
+      "after": 4827.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 5460,
-      "clientHeight": 630,
+      "clientHeight": 632,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 176,
       "uniqueReviewIdCount": 25,
@@ -220,9 +288,9 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 4829.5,
+        "scrollTop": 4827.5,
         "scrollHeight": 5460,
-        "clientHeight": 630,
+        "clientHeight": 632,
         "distanceToBottom": 0.5
       },
       "declaredTotalSettle": {
@@ -234,14 +302,14 @@
           "foundTarget": true,
           "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
           "tagName": "DIV",
-          "scrollTop": 4829.5,
+          "scrollTop": 4827.5,
           "scrollHeight": 5460,
-          "clientHeight": 630,
+          "clientHeight": 632,
           "distanceToBottom": 0.5
         }
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 6.552151625044644,
+      "networkIdleSeconds": 6.592704500071704,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": true
     }
@@ -262,7 +330,7 @@
     }
   ],
   "networkEventsDuringScroll": 8,
-  "finalNetworkIdleSeconds": 6.552161250030622,
+  "finalNetworkIdleSeconds": 6.5927406249102205,
   "noGrowthCycles": 0,
   "finalReviewsState": {
     "title": "Klinikum Wahrendorff GmbH - Google Maps",
@@ -271,15 +339,15 @@
     "foundTarget": true,
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
-    "scrollTop": 4829.5,
+    "scrollTop": 4827.5,
     "scrollHeight": 5460,
-    "clientHeight": 630,
+    "clientHeight": 632,
     "distanceToBottom": 0.5
   },
   "reachedDeclaredReviewTotal": true,
   "reachedReviewPaneEnd": true,
   "finalUniqueReviewIdCount": 25,
-  "finalScrollTop": 4829.5,
+  "finalScrollTop": 4827.5,
   "finalScrollHeight": 5460,
   "reviewExpansion": {
     "buttonCount": 6,
@@ -289,7 +357,7 @@
   "batchexecuteCount": 2,
   "reviewPhaseXhrCount": 16,
   "captureSuccessful": true,
-  "finishedAt": "2026-04-15T17:16:05Z",
+  "finishedAt": "2026-05-11T14:39:01Z",
   "retryRunsRequested": 2,
   "retryRunsExecuted": 1,
   "retryAttempts": [

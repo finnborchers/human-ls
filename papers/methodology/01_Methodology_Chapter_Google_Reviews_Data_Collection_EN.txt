@@ -1,0 +1,147 @@
+Methodology Chapter Draft (English)
+Google Reviews Data Collection Pipeline for Hospitals in Lower Saxony
+
+1. Methodological Objective
+The objective of this data collection procedure was to build a structured and reproducible corpus of publicly visible Google Maps hospital reviews for Lower Saxony (Niedersachsen). The intention was not to replace traditional health-system data, but to complement them with experiential narratives that are often not captured in formal administrative datasets. The resulting corpus forms the empirical basis for subsequent analytical methods (e.g., taxonomy-based coding, LLM-assisted classification, topic modeling, and statistical comparison).
+
+2. Why Google Maps and Why Not the Standard API Alone
+Google Maps is a high-volume public platform where patients and relatives frequently report concrete care experiences, including barriers related to communication, waiting times, organizational quality, and perceived discrimination. For healthcare access research, these narratives are valuable because they contain fine-grained, real-world descriptions of obstacles at the point of care.
+
+A key technical constraint is that the official Google Places API typically returns only a very small review subset per place (commonly up to five reviews). This is insufficient for systematic analysis at scale. Therefore, a browser-automation strategy was required to access the publicly visible review panel and capture all dynamically loaded review content that is available through the web interface.
+
+3. Study Scope and Input Universe
+The extraction pipeline starts from a curated plain-text hospital list (`configs/places.txt`). At the time of documentation, the list contains 171 clinic entries (comments and blank lines excluded). The pipeline converts this list into machine-readable place identifiers and canonical Google Maps place URLs before any review capture is attempted.
+
+The URL lock file (`configs/place_urls.json`) stores resolution status and metadata per place. At the current project state (as documented on May 11, 2026), this file contains 170 place entries, with 126 marked as resolved and 44 marked as mismatch.
+
+4. Two-Stage Extraction Architecture
+The extraction process is intentionally separated into two sequential stages:
+
+Stage A: URL Resolution (`scripts/fetch_urls.py`)
+- Reads clinic names from the list.
+- Opens Google Maps search for each clinic name.
+- Resolves a stable canonical `/maps/place/` URL.
+- Validates whether the resolved place name matches the requested clinic name using normalization rules.
+- Writes status, timestamps, resolved URL/name, and error traces into `configs/place_urls.json`.
+
+Stage B: Review Capture (`scripts/capture_reviews.py`)
+- Uses resolved place URLs as input.
+- Opens each place page in Chrome.
+- Navigates into the “All reviews” panel.
+- Scrolls until stopping criteria indicate saturation.
+- Parses reviews from saved review-panel HTML.
+- Extracts visible engagement and provider-response metadata where available.
+- Deduplicates records and writes final `reviews.json` per clinic.
+- Produces run summaries and retry metadata for auditability.
+
+This separation improves reliability and transparency: URL resolution problems can be diagnosed independently from review-capture problems.
+
+5. Technical Principle: Chrome DevTools Protocol (CDP)
+The collection script uses the Chrome DevTools Protocol (CDP), which is a standardized interface that allows external programs to control a Chrome browser session and observe internal browser events (navigation, network requests, DOM state). In practical terms, CDP gives the script two essential capabilities:
+
+- Controlled interaction with the Google Maps interface (open page, click review controls, scroll review container).
+- Observation of review-related network activity while content is lazy-loaded.
+
+A custom lightweight WebSocket client is implemented in Python so that the workflow runs without heavy external browser-automation frameworks. This design improves portability and keeps dependencies limited.
+
+6. Practical Capture Procedure
+For each resolved clinic URL, the capture procedure follows this sequence:
+
+6.1 Session initialization
+- Start Chrome with remote debugging enabled.
+- Create a temporary browser profile to avoid long-term state contamination.
+- Connect via CDP and activate Page, Runtime, and Network domains.
+
+6.2 Cookie-consent handling
+- Detect Google consent flows (including consent subdomains and iframes).
+- Try multiple deny/reject selectors and language variants (German and English terms).
+- If consent cannot be resolved and blocks access to reviews, the run exits with a documented failure reason.
+
+6.3 Opening the review panel
+- Detect candidate controls that likely open “All reviews” using a weighted scoring heuristic.
+- Candidate scoring uses structural and semantic signals (e.g., button role, review-related text, count labels, JS action markers).
+- Click highest-ranked candidates sequentially until panel opening is confirmed.
+
+6.4 Dynamic scrolling and loading
+Google Maps reviews are lazily loaded. The script therefore does not assume one fixed endpoint; instead, it repeatedly scrolls the review container and checks both DOM growth and network activity.
+
+The loop monitors:
+- unique review-id count,
+- scroll height changes,
+- distance to panel bottom,
+- review-related request activity,
+- declared total review count (if inferable from rating histogram labels).
+
+6.5 Stop logic (saturation conditions)
+Collection stops when one of the evidence-based conditions is met, for example:
+- declared total reached at bottom and stabilized,
+- repeated no-growth cycles at bottom after probe nudges,
+- maximum scroll/time safety limits reached,
+- unrecoverable UI or consent failure.
+
+This design balances completeness with computational safety.
+
+6.6 Review text expansion
+Before final HTML snapshot export, the script clicks “more”/expansion controls (where visible) to maximize text completeness for long reviews.
+
+6.7 Parsing and structured output
+The parser extracts, per review:
+- reviewer_name
+- review_text
+- star_rating (1-5, if parseable)
+- review_time (relative timestamp string as displayed)
+- like_count (number of visible Google Maps “Gefällt mir” endorsements)
+- has_owner_response
+- owner_response_time (relative timestamp string as displayed, if present)
+- owner_response_text (text of the visible owner response, if present)
+
+The additional engagement and response fields are extracted from the final saved review-panel HTML, not from the limited official Places API. To reduce dependence on volatile Google Maps CSS class names, the parser links each review to its visible like button through the review identifier (`data-review-id`) and the thumbs-up action marker (`review.toggleThumbsUp`). The like count is then parsed from the button's accessible label or title: a label that only reads “Gefällt mir” is stored as `0`, while labels such as “1 „Gefällt mir“-Angabe” or “7 „Gefällt mir“-Angaben” are converted to integer counts. Owner responses are detected through the visible interface label “Antwort vom Inhaber”; if present, the parser records both the displayed relative response time and the response text. These fields allow later analysis of public engagement and institutional responsiveness without collecting additional private profile data.
+
+Records are deduplicated primarily by `review_id`, with fallback deduplication on normalized reviewer-name plus review-text pairs. If duplicates conflict, the version with longer text is preferred, and missing star/time, like-count, or owner-response fields are backfilled where possible.
+
+Final per-clinic output is written as JSON array to:
+`artifacts.../<place_id>/reviews.json`
+
+7. Retry Strategy and Robustness
+To reduce data loss from transient loading effects, each clinic run supports retries (`retry_runs`, default 2). Later attempts use slower scroll delays, and results from all attempts are merged and deduplicated. This strategy improves coverage when the first pass stalls early.
+
+8. Reproducibility and Audit Trail
+Each run writes extensive metadata:
+- `run_summary.json` (interaction path, stop reason, key counters)
+- `retry_summary.json` (attempt-level outcomes)
+- optional request/response artifacts for debug mode
+- batch-level overview (`capture_reviews_run_summary.json`) for multi-place execution
+
+This allows ex-post verification of capture quality, failure diagnostics, and transparent reporting in the thesis.
+
+9. Empirical Snapshot of the Current Corpus State
+In the project snapshot inspected for this chapter:
+- Resolved places available for capture: 126 (from `place_urls.json`).
+- Existing `reviews.json` files in the `artifacts_2026-04-15` corpus: 122.
+- Total reviews across these files: 31,823.
+- Median reviews per clinic file: 200.5.
+- Range per clinic file: 2 to 1,070 reviews.
+
+These values are time- and run-dependent and should be reported as extraction-date specific.
+
+10. Methodological Challenges and Limitations
+The approach addresses key technical barriers but retains inherent limitations:
+
+- Platform volatility: Google Maps DOM structure and internal request patterns can change.
+- Name matching sensitivity: strict matching may classify valid place hits as mismatches.
+- Display-language effects: labels and timestamps depend on localization context.
+- Selection bias: only users who post publicly are represented.
+- Context loss: review text captures perceived experience, not verified clinical outcomes.
+
+These constraints should be explicitly discussed in the limitations chapter.
+
+11. Ethical and Legal Positioning
+The pipeline captures publicly displayed review content and excludes private user accounts, non-public records, and direct contact data. The methodology should still be framed with responsible data handling principles:
+
+- Use aggregated reporting in analysis outputs.
+- Avoid deanonymization attempts.
+- Avoid quoting highly sensitive individual narratives in identifiable form.
+- Treat reviews as subjective experience reports, not objective truth claims.
+
+12. Bridge to Analysis Chapter
+This methodology produces a structured, auditable corpus that is suitable for comparative multi-method analysis. The next chapter can build on this foundation by evaluating different analytical approaches (e.g., LLM-based taxonomy extraction versus unsupervised topic approaches) and comparing interpretability, validity, and robustness.

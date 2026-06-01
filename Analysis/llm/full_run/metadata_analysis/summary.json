@@ -1,0 +1,934 @@
+{
+  "run_meta": {
+    "runner": "analyze_fullrun_v1_batch_metadata.py",
+    "generated_at": "2026-05-18T16:20:42.918406+00:00",
+    "record_count": 30863,
+    "input_path": "analysis/llm/full_run/v1_batch_run/merged/all_scopes_labeled.json"
+  },
+  "summary_by_star": [
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "reviews": 10580,
+      "review_pct": 34.28,
+      "avg_problem_labels": 3.18,
+      "avg_strength_labels": 0.27,
+      "problem_only_reviews": 8473,
+      "problem_only_pct": 80.09,
+      "strength_only_reviews": 45,
+      "strength_only_pct": 0.43,
+      "mixed_reviews": 1902,
+      "mixed_pct": 17.98,
+      "no_label_reviews": 160,
+      "no_label_pct": 1.51,
+      "avg_likes": 5.08
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "reviews": 1363,
+      "review_pct": 4.42,
+      "avg_problem_labels": 3.07,
+      "avg_strength_labels": 1.01,
+      "problem_only_reviews": 591,
+      "problem_only_pct": 43.36,
+      "strength_only_reviews": 18,
+      "strength_only_pct": 1.32,
+      "mixed_reviews": 731,
+      "mixed_pct": 53.63,
+      "no_label_reviews": 23,
+      "no_label_pct": 1.69,
+      "avg_likes": 3.21
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "reviews": 1164,
+      "review_pct": 3.77,
+      "avg_problem_labels": 2.29,
+      "avg_strength_labels": 1.56,
+      "problem_only_reviews": 267,
+      "problem_only_pct": 22.94,
+      "strength_only_reviews": 71,
+      "strength_only_pct": 6.1,
+      "mixed_reviews": 775,
+      "mixed_pct": 66.58,
+      "no_label_reviews": 51,
+      "no_label_pct": 4.38,
+      "avg_likes": 1.87
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "reviews": 2327,
+      "review_pct": 7.54,
+      "avg_problem_labels": 0.99,
+      "avg_strength_labels": 2.51,
+      "problem_only_reviews": 98,
+      "problem_only_pct": 4.21,
+      "strength_only_reviews": 887,
+      "strength_only_pct": 38.12,
+      "mixed_reviews": 1226,
+      "mixed_pct": 52.69,
+      "no_label_reviews": 116,
+      "no_label_pct": 4.98,
+      "avg_likes": 1.36
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "reviews": 15373,
+      "review_pct": 49.81,
+      "avg_problem_labels": 0.21,
+      "avg_strength_labels": 3.42,
+      "problem_only_reviews": 86,
+      "problem_only_pct": 0.56,
+      "strength_only_reviews": 12300,
+      "strength_only_pct": 80.01,
+      "mixed_reviews": 2333,
+      "mixed_pct": 15.18,
+      "no_label_reviews": 654,
+      "no_label_pct": 4.25,
+      "avg_likes": 1.35
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "reviews": 56,
+      "review_pct": 0.18,
+      "avg_problem_labels": 1.18,
+      "avg_strength_labels": 2.2,
+      "problem_only_reviews": 13,
+      "problem_only_pct": 23.21,
+      "strength_only_reviews": 26,
+      "strength_only_pct": 46.43,
+      "mixed_reviews": 16,
+      "mixed_pct": 28.57,
+      "no_label_reviews": 1,
+      "no_label_pct": 1.79,
+      "avg_likes": 2.91
+    }
+  ],
+  "summary_by_like_bucket": [
+    {
+      "group_key": "0",
+      "group_label": "0",
+      "reviews": 12808,
+      "review_pct": 41.5,
+      "avg_problem_labels": 1.03,
+      "avg_strength_labels": 2.38,
+      "problem_only_reviews": 2655,
+      "problem_only_pct": 20.73,
+      "strength_only_reviews": 7004,
+      "strength_only_pct": 54.68,
+      "mixed_reviews": 2562,
+      "mixed_pct": 20.0,
+      "no_label_reviews": 587,
+      "no_label_pct": 4.58,
+      "avg_likes": 0.0,
+      "avg_star_rating": 3.86
+    },
+    {
+      "group_key": "1",
+      "group_label": "1",
+      "reviews": 5118,
+      "review_pct": 16.58,
+      "avg_problem_labels": 1.04,
+      "avg_strength_labels": 2.39,
+      "problem_only_reviews": 1098,
+      "problem_only_pct": 21.45,
+      "strength_only_reviews": 2691,
+      "strength_only_pct": 52.58,
+      "mixed_reviews": 1112,
+      "mixed_pct": 21.73,
+      "no_label_reviews": 217,
+      "no_label_pct": 4.24,
+      "avg_likes": 1.0,
+      "avg_star_rating": 3.82
+    },
+    {
+      "group_key": "2-4",
+      "group_label": "2-4",
+      "reviews": 6759,
+      "review_pct": 21.9,
+      "avg_problem_labels": 1.5,
+      "avg_strength_labels": 2.17,
+      "problem_only_reviews": 2126,
+      "problem_only_pct": 31.45,
+      "strength_only_reviews": 2793,
+      "strength_only_pct": 41.32,
+      "mixed_reviews": 1689,
+      "mixed_pct": 24.99,
+      "no_label_reviews": 151,
+      "no_label_pct": 2.23,
+      "avg_likes": 2.75,
+      "avg_star_rating": 3.3
+    },
+    {
+      "group_key": "5-9",
+      "group_label": "5-9",
+      "reviews": 3950,
+      "review_pct": 12.8,
+      "avg_problem_labels": 2.47,
+      "avg_strength_labels": 1.36,
+      "problem_only_reviews": 2185,
+      "problem_only_pct": 55.32,
+      "strength_only_reviews": 717,
+      "strength_only_pct": 18.15,
+      "mixed_reviews": 1007,
+      "mixed_pct": 25.49,
+      "no_label_reviews": 41,
+      "no_label_pct": 1.04,
+      "avg_likes": 6.58,
+      "avg_star_rating": 2.15
+    },
+    {
+      "group_key": "10-24",
+      "group_label": "10-24",
+      "reviews": 2035,
+      "review_pct": 6.59,
+      "avg_problem_labels": 3.38,
+      "avg_strength_labels": 0.86,
+      "problem_only_reviews": 1341,
+      "problem_only_pct": 65.9,
+      "strength_only_reviews": 135,
+      "strength_only_pct": 6.63,
+      "mixed_reviews": 550,
+      "mixed_pct": 27.03,
+      "no_label_reviews": 9,
+      "no_label_pct": 0.44,
+      "avg_likes": 13.72,
+      "avg_star_rating": 1.52
+    },
+    {
+      "group_key": "25+",
+      "group_label": "25+",
+      "reviews": 193,
+      "review_pct": 0.63,
+      "avg_problem_labels": 4.51,
+      "avg_strength_labels": 1.06,
+      "problem_only_reviews": 123,
+      "problem_only_pct": 63.73,
+      "strength_only_reviews": 7,
+      "strength_only_pct": 3.63,
+      "mixed_reviews": 63,
+      "mixed_pct": 32.64,
+      "no_label_reviews": 0,
+      "no_label_pct": 0.0,
+      "avg_likes": 34.5,
+      "avg_star_rating": 1.39
+    }
+  ],
+  "summary_by_owner_response": [
+    {
+      "group_key": false,
+      "group_label": "No owner response",
+      "reviews": 21717,
+      "review_pct": 70.37,
+      "avg_problem_labels": 1.5,
+      "avg_strength_labels": 1.99,
+      "problem_only_reviews": 7010,
+      "problem_only_pct": 32.28,
+      "strength_only_reviews": 9042,
+      "strength_only_pct": 41.64,
+      "mixed_reviews": 4826,
+      "mixed_pct": 22.22,
+      "no_label_reviews": 839,
+      "no_label_pct": 3.86,
+      "avg_likes": 3.13
+    },
+    {
+      "group_key": true,
+      "group_label": "Owner response",
+      "reviews": 9146,
+      "review_pct": 29.63,
+      "avg_problem_labels": 1.47,
+      "avg_strength_labels": 2.35,
+      "problem_only_reviews": 2518,
+      "problem_only_pct": 27.53,
+      "strength_only_reviews": 4305,
+      "strength_only_pct": 47.07,
+      "mixed_reviews": 2157,
+      "mixed_pct": 23.58,
+      "no_label_reviews": 166,
+      "no_label_pct": 1.82,
+      "avg_likes": 1.79
+    }
+  ],
+  "top_problem_labels_by_star": [
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 1,
+      "label": "care.treatment",
+      "count": 3969
+    },
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 2,
+      "label": "staff.respect",
+      "count": 3305
+    },
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 3,
+      "label": "staff.friendliness",
+      "count": 3160
+    },
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 4,
+      "label": "access.waiting",
+      "count": 2965
+    },
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 5,
+      "label": "care.competence",
+      "count": 2350
+    },
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 6,
+      "label": "staff.seriousness",
+      "count": 2203
+    },
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 7,
+      "label": "care.safety",
+      "count": 2034
+    },
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 8,
+      "label": "staff.empathy",
+      "count": 1932
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 1,
+      "label": "care.treatment",
+      "count": 444
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 2,
+      "label": "staff.friendliness",
+      "count": 342
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 3,
+      "label": "access.waiting",
+      "count": 326
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 4,
+      "label": "staff.respect",
+      "count": 296
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 5,
+      "label": "staff.seriousness",
+      "count": 258
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 6,
+      "label": "coordination.coordination",
+      "count": 243
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 7,
+      "label": "care.competence",
+      "count": 228
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 8,
+      "label": "care.safety",
+      "count": 228
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 1,
+      "label": "staff.friendliness",
+      "count": 231
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 2,
+      "label": "access.waiting",
+      "count": 215
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 3,
+      "label": "care.treatment",
+      "count": 209
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 4,
+      "label": "environment.facilities",
+      "count": 175
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 5,
+      "label": "staff.respect",
+      "count": 169
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 6,
+      "label": "staff.seriousness",
+      "count": 156
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 7,
+      "label": "coordination.coordination",
+      "count": 140
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 8,
+      "label": "environment.food",
+      "count": 135
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 1,
+      "label": "access.waiting",
+      "count": 300
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 2,
+      "label": "environment.facilities",
+      "count": 252
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 3,
+      "label": "environment.food",
+      "count": 242
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 4,
+      "label": "staff.friendliness",
+      "count": 164
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 5,
+      "label": "staff.seriousness",
+      "count": 148
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 6,
+      "label": "care.treatment",
+      "count": 147
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 7,
+      "label": "coordination.coordination",
+      "count": 114
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 8,
+      "label": "staff.respect",
+      "count": 86
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 1,
+      "label": "access.waiting",
+      "count": 612
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 2,
+      "label": "environment.facilities",
+      "count": 350
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 3,
+      "label": "environment.food",
+      "count": 305
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 4,
+      "label": "staff.seriousness",
+      "count": 249
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 5,
+      "label": "care.treatment",
+      "count": 238
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 6,
+      "label": "staff.friendliness",
+      "count": 182
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 7,
+      "label": "care.symptoms",
+      "count": 150
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 8,
+      "label": "care.safety",
+      "count": 149
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 1,
+      "label": "staff.friendliness",
+      "count": 9
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 2,
+      "label": "staff.respect",
+      "count": 7
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 3,
+      "label": "staff.seriousness",
+      "count": 6
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 4,
+      "label": "care.treatment",
+      "count": 6
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 5,
+      "label": "care.competence",
+      "count": 5
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 6,
+      "label": "care.safety",
+      "count": 4
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 7,
+      "label": "environment.food",
+      "count": 3
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 8,
+      "label": "coordination.coordination",
+      "count": 3
+    }
+  ],
+  "top_strength_labels_by_star": [
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 1,
+      "label": "staff.friendliness",
+      "count": 1006
+    },
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 2,
+      "label": "care.treatment",
+      "count": 360
+    },
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 3,
+      "label": "staff.empathy",
+      "count": 345
+    },
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 4,
+      "label": "care.competence",
+      "count": 245
+    },
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 5,
+      "label": "staff.respect",
+      "count": 99
+    },
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 6,
+      "label": "access.waiting",
+      "count": 95
+    },
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 7,
+      "label": "care.diagnosis",
+      "count": 84
+    },
+    {
+      "group_key": 1,
+      "group_label": "1★",
+      "rank": 8,
+      "label": "environment.facilities",
+      "count": 77
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 1,
+      "label": "staff.friendliness",
+      "count": 472
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 2,
+      "label": "care.treatment",
+      "count": 183
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 3,
+      "label": "staff.empathy",
+      "count": 170
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 4,
+      "label": "care.competence",
+      "count": 134
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 5,
+      "label": "environment.food",
+      "count": 59
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 6,
+      "label": "environment.facilities",
+      "count": 56
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 7,
+      "label": "staff.respect",
+      "count": 47
+    },
+    {
+      "group_key": 2,
+      "group_label": "2★",
+      "rank": 8,
+      "label": "staff.seriousness",
+      "count": 41
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 1,
+      "label": "staff.friendliness",
+      "count": 558
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 2,
+      "label": "care.treatment",
+      "count": 271
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 3,
+      "label": "staff.empathy",
+      "count": 232
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 4,
+      "label": "care.competence",
+      "count": 192
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 5,
+      "label": "environment.food",
+      "count": 85
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 6,
+      "label": "staff.respect",
+      "count": 69
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 7,
+      "label": "environment.facilities",
+      "count": 61
+    },
+    {
+      "group_key": 3,
+      "group_label": "3★",
+      "rank": 8,
+      "label": "environment.support",
+      "count": 54
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 1,
+      "label": "staff.friendliness",
+      "count": 1584
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 2,
+      "label": "staff.empathy",
+      "count": 789
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 3,
+      "label": "care.treatment",
+      "count": 786
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 4,
+      "label": "care.competence",
+      "count": 618
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 5,
+      "label": "staff.respect",
+      "count": 307
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 6,
+      "label": "environment.food",
+      "count": 306
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 7,
+      "label": "environment.facilities",
+      "count": 218
+    },
+    {
+      "group_key": 4,
+      "group_label": "4★",
+      "rank": 8,
+      "label": "environment.support",
+      "count": 215
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 1,
+      "label": "staff.friendliness",
+      "count": 12068
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 2,
+      "label": "staff.empathy",
+      "count": 8192
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 3,
+      "label": "care.treatment",
+      "count": 7396
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 4,
+      "label": "care.competence",
+      "count": 6207
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 5,
+      "label": "staff.respect",
+      "count": 3164
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 6,
+      "label": "environment.support",
+      "count": 2549
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 7,
+      "label": "environment.food",
+      "count": 1756
+    },
+    {
+      "group_key": 5,
+      "group_label": "5★",
+      "rank": 8,
+      "label": "staff.seriousness",
+      "count": 1468
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 1,
+      "label": "staff.friendliness",
+      "count": 35
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 2,
+      "label": "care.treatment",
+      "count": 18
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 3,
+      "label": "care.competence",
+      "count": 15
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 4,
+      "label": "staff.empathy",
+      "count": 14
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 5,
+      "label": "environment.facilities",
+      "count": 8
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 6,
+      "label": "staff.respect",
+      "count": 6
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 7,
+      "label": "environment.support",
+      "count": 6
+    },
+    {
+      "group_key": null,
+      "group_label": "Unknown",
+      "rank": 8,
+      "label": "environment.food",
+      "count": 5
+    }
+  ]
+}

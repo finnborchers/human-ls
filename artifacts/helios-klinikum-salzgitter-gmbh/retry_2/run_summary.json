@@ -1,0 +1,43 @@
+{
+  "url": "https://www.google.com/maps/place/Helios+Klinikum+Salzgitter/@52.1538136,10.3196993,17z/data=!3m1!4b1!4m6!3m5!1s0x47a550da6e3bb84b:0x86e63f0cdc338a0!8m2!3d52.1538136!4d10.3196993!16s%2Fg%2F1tcxyvdb?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "placeId": "helios-klinikum-salzgitter-gmbh",
+  "startedAt": "2026-05-11T13:33:58Z",
+  "scrollDelayUsed": 2.25,
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "3F2FA125F9F74D5F06E36A21D8C71C96",
+  "selectedTargetId": "3F2FA125F9F74D5F06E36A21D8C71C96",
+  "selectedTargetUrl": "https://www.google.com/maps/place/Helios+Klinikum+Salzgitter/@52.1538136,10.3196993,17z/data=!3m1!4b1!4m6!3m5!1s0x47a550da6e3bb84b:0x86e63f0cdc338a0!8m2!3d52.1538136!4d10.3196993!16s%2Fg%2F1tcxyvdb?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "targetSelectionStrategy": "exact_url_match",
+  "cookieConsent": {
+    "clicked": false,
+    "attempts": [
+      {
+        "attempt": 1,
+        "state": {
+          "runtimeOk": false,
+          "runtimeErrorType": "TimeoutError",
+          "runtimeError": "Timed out waiting for CDP response: Runtime.evaluate"
+        },
+        "clickResult": {
+          "clicked": false,
+          "skipped": true
+        },
+        "currentUrl": null,
+        "onConsentHost": false,
+        "currentUrlReadOk": false,
+        "consecutiveRuntimeFailures": 1
+      }
+    ],
+    "blockedOnConsentHost": false,
+    "finalUrl": null
+  },
+  "failureReason": "unexpected_capture_exception",
+  "scrollStopReason": "unexpected_capture_exception",
+  "captureSuccessful": false,
+  "exceptionType": "TimeoutError",
+  "exception": "Timed out waiting for CDP response: Runtime.evaluate",
+  "finishedAt": "2026-05-11T13:34:38Z",
+  "matchedRequestCount": 0,
+  "batchexecuteCount": 0,
+  "reviewPhaseXhrCount": 0
+}
