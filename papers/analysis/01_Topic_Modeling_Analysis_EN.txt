@@ -1,0 +1,143 @@
+Analysis Chapter Draft (English)
+Exploratory Topic Modeling of Google Maps Hospital Reviews
+
+1. Analytical Objective
+
+The objective of the topic-modeling analysis is to explore recurring themes in the Google Maps hospital review corpus before applying the more structured LLM-based taxonomy extraction. The topic model is used as an inductive, data-driven method: it does not test a predefined list of access barriers, but instead identifies semantic clusters of reviews that tend to discuss similar experiences. This is methodologically useful because Google reviews are unsolicited narratives rather than survey responses. Reviewers decide themselves which aspects of care are worth mentioning, and these spontaneous descriptions may reveal themes that would be missed by a purely deductive coding scheme.
+
+In the broader study design, topic modeling serves three purposes. First, it provides an exploratory overview of the review corpus and helps identify candidate themes for later qualitative and LLM-assisted coding. Second, it enables a comparison between negative, positive, liked, and highly liked reviews. Third, it allows the analysis to examine whether publicly endorsed reviews, measured through Google Maps like counts, emphasize different topics than the full review population. This is important because like counts can be interpreted as a public relevance signal: a review with many likes may not be objectively more correct, but it appears to resonate with other platform users.
+
+2. Theoretical and Methodological Positioning
+
+The analysis is positioned within patient-centered healthcare access research. Access to care is not limited to the physical availability of services, but includes the ability to perceive healthcare needs, seek services, reach services, pay for care, and engage with care providers (Levesque et al., 2013). This multidimensional understanding is particularly relevant for public review data, because reviews often describe concrete friction points at the interface between patients, relatives, staff, and institutions. These friction points may concern waiting time, communication, appointment processes, staff behavior, administrative barriers, clinical care, or perceived discrimination.
+
+The literature on refugee and migrant health in Germany further supports the relevance of communication, legal and administrative access, interpretation, health literacy, mental healthcare, pregnancy-related care, and structural gaps. Brenner and Lok (2022) describe how grassroots organizations helped address health-system bottlenecks for refugees, especially where formal care was limited by legal or organizational constraints. Henry et al. (2020) show that pregnant Arabic-speaking refugee women in Germany encountered barriers related to health literacy, language skills, missing translators, and unfamiliarity with the health system. Esser et al. (2026) report frequent communication problems in care for asylum-seeking and refugee minors and describe gaps in mental health screening and follow-up care. Jesuthasan et al. (2018) highlight the vulnerability of refugee women and the importance of healthcare access in shaping quality of life after arrival in Germany.
+
+This literature does not imply that all Google reviewers are migrants, refugees, or asylum seekers. The topic model therefore avoids any attempt to infer migration status from names, language, or reviewer identity. Instead, the literature provides a conceptual background for why topics such as communication, discrimination, language barriers, waiting, navigation, administration, and responsiveness are analytically important when studying healthcare access in Germany.
+
+3. Why BERTopic Was Selected
+
+The topic-modeling script uses BERTopic, a neural topic-modeling approach that combines sentence embeddings, dimensionality reduction, clustering, and class-based TF-IDF topic representation (Grootendorst, 2022). This approach is well suited for short and medium-length review texts because it groups documents by semantic similarity rather than relying only on exact word overlap. This matters for Google reviews, where patients may describe the same underlying issue with different words, spelling variants, emotional tone, and varying levels of detail.
+
+The implementation uses the multilingual sentence-transformer model `paraphrase-multilingual-MiniLM-L12-v2` to embed review texts into a semantic vector space. Sentence-transformer models are based on the Sentence-BERT principle, which produces sentence embeddings that can be compared efficiently using vector similarity (Reimers & Gurevych, 2019). The script then applies UMAP for dimensionality reduction, which is commonly used to preserve useful local and global structure in high-dimensional embeddings while making clustering computationally feasible (McInnes et al., 2018). Clustering is performed with HDBSCAN, a density-based clustering algorithm that can identify clusters of varying density and assign ambiguous documents to an outlier group rather than forcing every review into a topic (McInnes et al., 2017).
+
+This combination is appropriate for exploratory review analysis because the corpus is heterogeneous. Some reviews contain detailed narratives about emergency departments, surgery, discharge, or maternity care; others contain short praise, brief complaints, or general evaluations. A method that allows outliers is preferable to a method that forces all texts into a fixed number of topics, because not every review contains enough thematic information for reliable clustering.
+
+4. How the Script Works
+
+The script is located at `scripts/analyze_reviews_topics.py`. It reads all available clinic review files from the current `artifacts` folder. For each clinic, the script looks for a `reviews.json` file and loads all reviews with non-empty review text. Each review is stored with a simple technical identifier, the clinic folder name, the review index, the review text, the star rating, and the like count.
+
+The script then creates four analytical subsets:
+
+- `negative_reviews`: reviews with a star rating of 1 or 2.
+- `positive_reviews`: reviews with a star rating of 4 or 5.
+- `liked_reviews`: reviews with at least one Google Maps like.
+- `high_liked_reviews`: reviews with three or more Google Maps likes.
+
+The split between negative and positive reviews allows the analysis to compare barriers and strengths. A negative review subset is expected to contain complaints about access barriers, communication failures, disrespectful behavior, waiting, administration, and clinical concerns. A positive review subset is expected to contain enablers and strengths, such as empathetic staff, clinical competence, successful treatment, good organization, or supportive care. This distinction is important because the research question should not only identify what goes wrong in hospital care, but also what patients and relatives explicitly value when care works well.
+
+The split by like count introduces a second comparison. Reviews with at least one like and reviews with three or more likes are treated as publicly endorsed review subsets. The threshold of three likes is not interpreted as a universal rule; it is an operational threshold for the current corpus. It creates a smaller subset of reviews with stronger visible engagement and allows the analysis to ask whether highly endorsed reviews concentrate around particular types of experiences.
+
+For each subset, BERTopic is fitted separately. This is important because a topic model trained on all reviews at once would likely be dominated by the largest and most general review patterns. Separate models make it easier to see the thematic structure within negative reviews, positive reviews, and liked reviews independently. The model is configured with a minimum topic size of 35 and HDBSCAN minimum samples of 5. These settings were chosen to avoid extremely small, unstable topics while still allowing the model to detect more specific themes than the first untuned run.
+
+The script writes two CSV outputs per subset:
+
+- `<subset>_topics.csv`: one row per topic, including the topic identifier, document count, machine-generated topic name, top terms, and short example snippets.
+- `<subset>_assignments.csv`: one row per review, including the review identifier, clinic folder, review index, star rating, like count, and assigned topic identifier.
+
+The script also writes `topic_model_summary.json`, which stores the corpus size, model settings, like-count threshold, and topic counts per subset. The current tuned output is stored in `analysis/topics_tuned`.
+
+5. Current Corpus Snapshot
+
+At the time of the current analysis run, the script found 30,863 reviews with non-empty text. The star-rating distribution was strongly polarized. There were 10,580 one-star reviews, 1,363 two-star reviews, 1,164 three-star reviews, 2,327 four-star reviews, 15,373 five-star reviews, and 56 reviews without a parsed star rating. Thus, 11,943 reviews were included in the negative subset and 17,700 reviews were included in the positive subset.
+
+Like counts were available in the new artifact structure. In total, 18,055 reviews had at least one like, and 9,773 reviews had three or more likes. The mean like count across all reviews with text was 2.731, and the maximum observed like count was 172. Owner responses were detected for 9,146 reviews. These additional metadata fields open the possibility of later statistical comparisons between review content, public endorsement, star rating, and institutional responsiveness.
+
+6. Preliminary Topic-Modeling Results
+
+The tuned BERTopic run produced the following subset-level results:
+
+- Negative reviews: 11,943 reviews, 43 topic rows, 49.2% assigned to the outlier topic.
+- Positive reviews: 17,700 reviews, 67 topic rows, 51.6% assigned to the outlier topic.
+- Liked reviews: 18,055 reviews, 59 topic rows, 50.0% assigned to the outlier topic.
+- Highly liked reviews: 9,773 reviews, 29 topic rows, 38.1% assigned to the outlier topic.
+
+Compared with the first untuned run, the negative-review model improved substantially. The earlier result had collapsed most negative reviews into one broad cluster, making the output analytically weak. The tuned model now separates a range of interpretable negative themes. These include emergency-department experiences, referrals back to general practitioners, waiting time despite appointments, cancelled or delayed operations, pain and symptom management, pediatric emergency care, telephone reachability, rude or incompetent staff, psychiatric care, intensive care, discharge and care coordination, and severe adverse narratives involving relatives.
+
+The positive-review model produced clusters that are useful for identifying strengths and enablers. Prominent topics include maternity and birth care, appreciative comments about doctors, emergency care that was experienced positively, pediatric care, friendly and helpful staff, intensive-care gratitude, psychiatric or day-clinic support, good treatment outcomes, competent doctors and nurses, and ward-level care. These findings support the decision to analyze strengths and barriers together rather than treating Google reviews only as complaint data.
+
+The liked-review model shows that publicly endorsed reviews contain both praise and criticism. Highly visible themes include maternity and pediatric care, strong praise for helpful and empathetic staff, emergency and pain-related experiences, waiting time, severe criticism of hospital care, complaints about staff behavior, and narratives involving older relatives, stroke, discharge, or care-home transitions. This suggests that likes do not simply amplify negative reviews or positive reviews. Instead, they appear to increase the visibility of emotionally salient, concrete, and socially recognizable experiences.
+
+The highly liked subset is particularly important. Its outlier share was lower than in the other subsets, indicating that highly liked reviews formed more coherent semantic clusters. The largest highly liked topic contained broad positive care narratives involving staff, clinics, therapy, and helpful treatment. Other highly liked topics concerned emergency care, pediatric care, rude staff, patient handling, therapy limitations, patient directives and discharge management, severe criticism of hospitals, communication and health-system criticism, diagnostic delay, stroke-related narratives, birth care, and crisis or psychiatric care. This pattern suggests that highly liked reviews may be especially useful for identifying themes that other users recognize as relevant.
+
+7. Interpretation for the Research Question
+
+The exploratory topic results support the core idea that Google reviews can function as a complementary data source for healthcare access research. The reviews do not provide representative clinical outcome data, and they cannot verify whether an event happened exactly as described. However, they contain recurring patient- and relative-centered descriptions of how healthcare is experienced at the point of contact. These descriptions include both barriers and enablers.
+
+Several preliminary access-relevant domains emerge from the topic model:
+
+- Timeliness and waiting: waiting in emergency departments, waiting despite appointments, delayed treatment, and postponed operations.
+- Availability and reachability: difficulty reaching clinics or departments, especially by phone, and referral loops back to outpatient care.
+- Communication and information: perceived lack of explanation, insufficient updates, unclear procedures, and communication failures with patients or relatives.
+- Staff behavior and respect: rude, unfriendly, dismissive, or empathetic and helpful behavior.
+- Clinical care and safety: pain management, diagnostic concerns, treatment outcomes, intensive care, surgery, and severe adverse narratives.
+- Coordination and continuity: discharge management, transitions from or to care homes, follow-up, documents, and care handovers.
+- Department-specific experiences: emergency care, pediatrics, maternity, psychiatry, intensive care, surgery, and outpatient clinics.
+- Positive enablers: competence, empathy, successful treatment, supportive teams, good maternity care, and gratitude toward staff.
+
+These domains are consistent with the access framework by Levesque et al. (2013), because they reflect both institutional accessibility and patients' abilities to navigate, understand, reach, obtain, and engage with care. They also connect to the refugee and migrant health literature, where communication, interpretation, administrative structures, care continuity, health literacy, and mental health support are repeatedly identified as relevant barriers (Brenner & Lok, 2022; Esser et al., 2026; Henry et al., 2020; Jesuthasan et al., 2018).
+
+8. Implications for the LLM Taxonomy
+
+The BERTopic output should not be used as the final taxonomy by itself. Topic labels are generated from frequent terms and representative phrases, and some labels remain linguistically noisy. For example, topics may contain useful semantic signals but still have awkward labels, repeated fragments, or context-dependent terms. The model is therefore best understood as an exploratory discovery tool.
+
+The LLM-based taxonomy should use the topic-modeling output to check coverage. Based on the current results, the taxonomy should retain simple, specific, and intuitive labels. It should include both barriers and strengths. It should also include discrimination and racism explicitly, but without trying to infer migration status from reviewer names or language. The taxonomy should distinguish between:
+
+- access barriers, such as appointment access, waiting time, reachability, and navigation;
+- administrative barriers, such as registration, paperwork, insurance or payment, and data privacy;
+- communication barriers, such as poor communication, poor explanation, missing updates, and shared-decision problems;
+- staff behavior, such as rude staff, lack of empathy, not being taken seriously, and praise for staff;
+- clinical care, such as diagnosis problems, treatment problems, medication problems, pain or symptom management, safety incidents, and clinical competence;
+- coordination, such as internal coordination, discharge, follow-up, and care transitions;
+- environment and basic support, such as cleanliness, facilities, food, and help with basic needs;
+- language and inclusion, such as language barriers, interpreter support, discrimination, cultural or religious needs, refugee or asylum context, and xenophobic complaints about staff.
+
+This structure allows each review to contain both negative and positive information. A five-star review may still mention a waiting-time problem; a one-star review may still praise an individual nurse or doctor. The analytical model should therefore avoid forcing reviews into a single sentiment category and instead extract barriers and strengths at the same time.
+
+9. Methodological Limitations
+
+The topic-modeling results are exploratory and should be interpreted cautiously. First, Google Maps reviews are self-selected public narratives and do not represent all patients. Second, like counts measure platform engagement, not objective validity. A highly liked review may be emotionally compelling, visible, or socially resonant, but it is not necessarily more factually accurate than an unliked review. Third, BERTopic can identify semantic clusters, but the interpretation of topics requires human judgment. Fourth, the outlier share remains high, especially in the negative, positive, and liked subsets. This is expected for heterogeneous review data, but it also means that the topic model captures only part of the corpus structure. Fifth, topic labels are not final scientific categories. They should be reviewed, renamed, and consolidated before being used in the thesis.
+
+Despite these limitations, the method is valuable because it provides a transparent and reproducible way to inspect the corpus before more expensive LLM-based analysis. It also creates an empirical basis for comparing analyses with and without like-count weighting.
+
+10. Planned Next Analytical Steps
+
+The next step is to connect the topic model with the LLM taxonomy extraction. The topic model should be used to identify candidate categories and to ensure that the taxonomy covers both expected and unexpected review themes. The LLM script should then label each review with structured barrier and strength categories. These labels can be analyzed statistically by star rating, like count, clinic, topic assignment, owner response, and review subset.
+
+The like-count analysis should compare at least three perspectives:
+
+- unweighted counts: how often each barrier or strength appears across all reviews;
+- binary like filtering: how patterns differ between liked and unliked reviews;
+- like-weighted analysis: how results change when reviews with more likes receive greater analytical weight.
+
+This design can answer whether like counts materially change the estimated importance of themes. If the same barriers dominate with and without like weighting, this would suggest robust patterns. If like weighting increases the relative importance of specific themes, such as rude staff, waiting, maternity care, pain management, or discrimination, then the thesis can report that public endorsement changes the perceived salience of healthcare access problems.
+
+References
+
+Brenner, S., & Lok, V. (2022). "We assist the health system doing the work that should be done by others" - A qualitative study on experiences of grassroots level organizations providing refugee health care during the 2015 migration event in Germany. BMC Health Services Research, 22, Article 309. https://doi.org/10.1186/s12913-022-07683-2
+
+Esser, A. J., Willems, J., Klein, M., Hufnagel, M., Langer, T., & Spielberger, B. D. (2026). Cross-sectional survey among professionals on communication and mental health care for asylum seeking and refugee minors in Germany. Communications Medicine. https://doi.org/10.1038/s43856-026-01415-x
+
+Grootendorst, M. (2022). BERTopic: Neural topic modeling with a class-based TF-IDF procedure. arXiv. https://doi.org/10.48550/arXiv.2203.05794
+
+Henry, J., Beruf, C., & Fischer, T. (2020). Access to health care for pregnant Arabic-speaking refugee women and mothers in Germany. Qualitative Health Research, 30(3), 437-447. https://doi.org/10.1177/1049732319873620
+
+Jesuthasan, J., Sönmez, E., Abels, I., Kurmeyer, C., Gutermann, J., Kimbel, R., Krüger, A., Niklewski, G., Richter, K., Stangier, U., Wollny, A., Zier, U., Oertelt-Prigione, S., Shouler-Ocak, M., & on behalf of the Female Refugee Study (FRS) Investigators. (2018). Near-death experiences, attacks by family members, and absence of health care in their home countries affect the quality of life of refugee women in Germany: A multi-region, cross-sectional, gender-sensitive study. BMC Medicine, 16, Article 15. https://doi.org/10.1186/s12916-017-1003-5
+
+Levesque, J.-F., Harris, M. F., & Russell, G. (2013). Patient-centred access to health care: Conceptualising access at the interface of health systems and populations. International Journal for Equity in Health, 12, Article 18. https://doi.org/10.1186/1475-9276-12-18
+
+McInnes, L., Healy, J., & Astels, S. (2017). hdbscan: Hierarchical density based clustering. Journal of Open Source Software, 2(11), Article 205. https://doi.org/10.21105/joss.00205
+
+McInnes, L., Healy, J., Saul, N., & Grossberger, L. (2018). UMAP: Uniform Manifold Approximation and Projection. Journal of Open Source Software, 3(29), Article 861. https://doi.org/10.21105/joss.00861
+
+Reimers, N., & Gurevych, I. (2019). Sentence-BERT: Sentence embeddings using Siamese BERT-networks. In K. Inui, J. Jiang, V. Ng, & X. Wan (Eds.), Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP) (pp. 3982-3992). Association for Computational Linguistics. https://doi.org/10.18653/v1/D19-1410

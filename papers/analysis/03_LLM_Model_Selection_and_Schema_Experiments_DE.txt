@@ -1,0 +1,1362 @@
+Analyse-Notiz (Deutsch)
+LLM-Modellauswahl, Schema-Experimente und Entscheidungslogik für die Review-Extraktion
+
+1. Ziel dieser Notiz
+
+Diese Notiz dokumentiert die experimentellen Schritte, die für die Auswahl des LLM-Setups zur strukturierten Extraktion aus Google-Maps-Krankenhausreviews durchgeführt wurden. Im Mittelpunkt standen drei methodische Fragen:
+
+1. Welches Modell bietet das beste Verhältnis von Qualität, Kosten und operativer Praktikabilität?
+2. Ist das ursprünglich verwendete verschachtelte Extraktionsschema für kleine Modelle zu komplex?
+3. Verbessert ein deutlich einfacheres, flaches Label-Schema die Extraktionsqualität kostengünstiger Modelle?
+
+Die Notiz hält damit nicht nur den aktuellen technischen Stand fest, sondern auch die Gründe, warum bestimmte Modell- oder Schemaoptionen verworfen wurden. Sie fungiert damit als nachvollziehbarer Methoden- und Entscheidungsanhang für die spätere Paper-Version.
+
+2. Ausgangspunkt
+
+Nach der explorativen BERTopic-Analyse wurde ein LLM-basierter Extraktionsschritt aufgebaut, um einzelne Reviews entlang einer festen Taxonomie zu codieren. Zunächst wurde ein verschachteltes, gespiegelt aufgebautes Pydantic-Modell verwendet. Dieses Modell trennte positive und negative Aussagen explizit:
+
+- `problems`
+- `strengths`
+
+Innerhalb beider Blöcke wurden dieselben Domänen gespiegelt modelliert:
+
+- `access`
+- `admin`
+- `communication`
+- `staff`
+- `care`
+- `coordination`
+- `environment`
+- `inclusion`
+
+Über alle Domänen hinweg umfasste das Schema 34 inhaltliche Felder pro Polarität. Das Ziel dieser Struktur war analytische Klarheit: dieselbe Domäne sollte positiv und negativ getrennt codierbar bleiben. Gleichzeitig entstand dadurch aber die Vermutung, dass vor allem kleinere Modelle an der formalen Struktur mehr arbeiten als an der eigentlichen inhaltlichen Extraktion.
+
+3. Testdesign
+
+Die Modell- und Schemaexperimente wurden nicht auf dem Gesamtkorpus begonnen, sondern auf einer festen Kalibrierungsstichprobe von 12 Reviews. Diese Stichprobe liegt unter:
+
+- `analysis/llm/samples/review_labels_sample_ids_12.txt`
+
+Die 12 Reviews wurden so gewählt, dass sie positive, negative und gemischte Fälle abdecken, darunter unter anderem:
+
+- kurze und lange Wartezeiten
+- gute und schlechte Behandlung
+- Datenschutzprobleme
+- unfreundliches oder kompetentes Personal
+- Kommunikationsprobleme
+- Sprachprobleme
+- Diskriminierung/Rassismus
+- Lob für Essen oder Stationsversorgung
+
+Dadurch entstand eine kleine, aber inhaltlich heterogene Testmenge, die für qualitative Modellvergleiche wesentlich aussagekräftiger ist als ein rein zufälliger Mini-Sample.
+
+4. Vergleich der Modelle im verschachtelten Schema
+
+4.1 Getestete Modelle
+
+Im verschachtelten Schema wurden die folgenden Modelle getestet:
+
+- `gpt-4.1-nano`
+- `gpt-4.1-mini`
+- `gpt-5-nano`
+
+Die Ergebnisse liegen nach der Neuordnung des Analyseordners hier:
+
+- `analysis/llm/model_comparison/review_labels_gpt41nano_nested_12sample.json`
+- `analysis/llm/model_comparison/review_labels_gpt41mini_nested_12sample.json`
+- `analysis/llm/model_comparison/review_labels_gpt5nano_nested_12sample.json`
+
+4.2 Laufzeiten
+
+Die beobachteten durchschnittlichen Laufzeiten pro Review lagen bei:
+
+- `gpt-4.1-nano`: 3.71 Sekunden
+- `gpt-4.1-mini`: 7.01 Sekunden
+- `gpt-5-nano`: 31.90 Sekunden
+
+Hochgerechnet auf 30.800 Reviews ergäben sich im synchronen Modus ungefähr:
+
+- `gpt-4.1-nano`: 31.74 Stunden
+- `gpt-4.1-mini`: 59.97 Stunden
+- `gpt-5-nano`: 272.92 Stunden
+
+Die synchrone Laufzeit war also für `gpt-5-nano` erheblich schlechter. Für spätere Batch-Überlegungen wurde zwar berücksichtigt, dass synchrone Latenz dort weniger wichtig ist, die Größenordnung zeigt aber trotzdem, wie unterschiedlich die Modellcharakteristika im laufenden Setup sind.
+
+4.3 Qualitative und formale Ergebnisse
+
+Die 12er-Stichprobe ergab für das verschachtelte Schema folgende Strukturmuster:
+
+- `gpt-4.1-nano`: 7 Reviews mit Problemen, 5 mit Stärken, 1 gemischter Fall, 1 leere Extraktion, insgesamt 20 gesetzte Labels
+- `gpt-4.1-mini`: 7 Reviews mit Problemen, 7 mit Stärken, 2 gemischte Fälle, 0 leere Extraktionen, insgesamt 41 gesetzte Labels
+- `gpt-5-nano`: 6 Reviews mit Problemen, 4 mit Stärken, 0 gemischte Fälle, 2 leere Extraktionen, insgesamt 23 gesetzte Labels
+
+Die zentrale Beobachtung war:
+
+1. `gpt-4.1-nano` war zwar schnell, aber inhaltlich zu schwach und zu inkonsistent.
+2. `gpt-4.1-mini` war das erste Modell, das auf der Stichprobe fachlich tragfähig wirkte.
+3. `gpt-5-nano` war deutlich zu konservativ beziehungsweise zu leer und verpasste mehrere wichtige positive wie negative Signale.
+
+4.4 Typische Fehlerbilder
+
+Bei `gpt-4.1-nano` zeigten sich vor allem:
+
+- unklare oder zu leere Gesamt-Sentiments
+- widersprüchliche Zuordnungen zwischen Problems und Strengths
+- zu starke Untererfassung gemischter Reviews
+
+Bei `gpt-5-nano` im verschachtelten Schema zeigten sich besonders:
+
+- Unterextraktion in komplexen negativen Reviews
+- Auslassen relevanter positiver Signale
+- keine überzeugende Abbildung gemischter Fälle
+
+Konkrete Beispiele:
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:14`
+  Die Review beschreibt medizinisch ausreichende Versorgung, aber deutlich unzureichende Kommunikation. `gpt-4.1-mini` erfasste diesen Fall als gemischt mit negativer Kommunikation und positiver Behandlung. `gpt-5-nano` erfasste nur die negative Informationsdimension und verlor die positive Care-Seite.
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:16`
+  Die Review lobt ausdrücklich das Essen. `gpt-4.1-mini` markierte `environment.food`, `gpt-5-nano` lieferte im verschachtelten Schema gar keine Stärke.
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:19`
+  Ein stark negativer Fall mit mehreren Problemsignalen. `gpt-4.1-mini` extrahierte ein Bündel aus Kommunikations-, Personal-, Care- und Koordinationsproblemen. `gpt-5-nano` blieb im verschachtelten Schema vollständig leer.
+
+- `allgemeines-krankenhaus-celle:381`
+  Ein expliziter Rassismus-Fall. `gpt-4.1-mini` traf `inclusion.equality` sauber. `gpt-5-nano` setzte zusätzlich `staff.respect`, was interpretierbar ist, aber das Kernsignal nicht besser macht.
+
+4.5 Entscheidung nach dem ersten Vergleich
+
+Nach dem ersten Vergleich wurde `gpt-4.1-nano` verworfen. Die Begründung war nicht primär finanziell, sondern qualitativ: die Extraktion war für die spätere Paper-Analyse nicht belastbar genug.
+
+Zwischen `gpt-4.1-mini` und `gpt-5-nano` wurde ebenfalls zunächst `gpt-4.1-mini` bevorzugt, weil:
+
+- die Qualität höher und vollständiger war
+- gemischte Reviews besser erkannt wurden
+- keine leeren Extraktionen auftraten
+- die Stärkenseite deutlich zuverlässiger extrahiert wurde
+
+5. Kostenüberlegungen
+
+5.1 Verwendete Basis für die Kostenschätzung
+
+Für eine praxisnahe Kostenschätzung wurde nicht mit einer rein theoretischen Token-Annahme gearbeitet, sondern mit einer beobachteten Nutzung aus dem Dashboard:
+
+- 79 Requests
+- 263.000 Input-Tokens
+- 88.000 Output-Tokens
+
+Das entspricht 351.000 direkt bepreisten Text-Tokens. Aus dieser Verteilung wurde ein Skalierungsfaktor auf den Vollkorpus mit 30.800 Reviews abgeleitet:
+
+- Skalierungsfaktor: 389.87
+- geschätzter Vollkorpus-Input: 102.54 Mio. Tokens
+- geschätzter Vollkorpus-Output: 34.31 Mio. Tokens
+
+5.2 Offizielle Modellpreise
+
+Die im Entscheidungszeitpunkt verwendeten offiziellen Preise pro 1 Mio. Tokens waren:
+
+- `gpt-4.1-nano`: Input $0.10, Output $0.40
+- `gpt-4.1-mini`: Input $0.40, Output $1.60
+- `gpt-5-nano`: Input $0.05, Output $0.40
+- `gpt-5-mini`: Input $0.25, Output $2.00
+
+Die OpenAI-Dokumentation weist zudem darauf hin, dass die Batch API 50% Rabatt auf Input und Output gewährt und asynchrone Verarbeitung innerhalb von 24 Stunden anbietet.
+
+5.3 Hochgerechnete Kosten
+
+Auf Basis des beobachteten Tokenmixes ergaben sich ungefähr folgende Kosten:
+
+Pilotgröße mit 79 Requests:
+
+- `gpt-4.1-nano`: $0.0615
+- `gpt-4.1-mini`: $0.2460
+- `gpt-5-nano`: $0.0484
+- `gpt-5-mini`: $0.2417
+
+Vollkorpus, synchron:
+
+- `gpt-4.1-nano`: $23.98
+- `gpt-4.1-mini`: $95.91
+- `gpt-5-nano`: $18.85
+- `gpt-5-mini`: $94.25
+
+Vollkorpus, Batch API:
+
+- `gpt-4.1-nano`: $11.99
+- `gpt-4.1-mini`: $47.95
+- `gpt-5-nano`: $9.43
+- `gpt-5-mini`: $47.13
+
+Diese Kalkulation machte deutlich:
+
+1. `gpt-5-nano` ist finanziell sehr attraktiv.
+2. `gpt-4.1-mini` und `gpt-5-mini` liegen für den beobachteten Tokenmix fast gleichauf.
+3. Rein preislich wäre ein Wechsel von `gpt-4.1-mini` zu `gpt-5-nano` nur sinnvoll, wenn die Qualitätsverluste klein wären.
+
+Genau deshalb wurde später noch ein zweites Schema-Experiment durchgeführt.
+
+6. Motivation für das Flat-Schema-Experiment
+
+Nach dem ersten Vergleich entstand die Hypothese, dass die verschachtelte Struktur für kleinere Modelle unnötig schwer zu produzieren ist. Statt eines stark strukturierten Outputs mit:
+
+- `overall_sentiment`
+- `care_context`
+- `problem_labels`
+- `strength_labels`
+- `problems` (verschachtelt)
+- `strengths` (verschachtelt)
+- `evidence_spans`
+- `confidence`
+
+sollte getestet werden, ob ein viel einfacheres Schema die Extraktion verbessert.
+
+Das flache Schema reduzierte die Ausgabe auf nur zwei Listen:
+
+- `problem_labels`
+- `strength_labels`
+
+Die Listen verwenden denselben festen Labelkatalog wie das verschachtelte Modell, aber ohne die hierarchischen Blöcke. Inhaltlich blieb der Labelraum also gleich, nur die JSON-Struktur wurde massiv vereinfacht.
+
+Die flachen Testläufe wurden in diesen Dateien gespeichert:
+
+- `analysis/llm/model_comparison/review_labels_gpt41mini_flat_12sample.json`
+- `analysis/llm/model_comparison/review_labels_gpt5nano_flat_12sample.json`
+
+7. Ergebnisse des Flat-Schema-Experiments
+
+7.1 Laufzeiten
+
+Die beobachteten durchschnittlichen Laufzeiten pro Review lagen nun bei:
+
+- `gpt-4.1-mini` flat: 3.37 Sekunden
+- `gpt-5-nano` flat: 14.59 Sekunden
+
+Hochgerechnet auf 30.800 Reviews im synchronen Modus ergäben sich:
+
+- `gpt-4.1-mini` flat: 28.83 Stunden
+- `gpt-5-nano` flat: 124.83 Stunden
+
+Das flache Schema reduzierte die Laufzeit bei beiden Modellen deutlich, insbesondere aber bei `gpt-5-nano`.
+
+7.2 Formale Ergebnisse
+
+Für das flache Schema ergab sich:
+
+- `gpt-4.1-mini` flat: 7 Reviews mit Problemen, 6 mit Stärken, 1 gemischter Fall, 0 leere Extraktionen, insgesamt 36 gesetzte Labels
+- `gpt-5-nano` flat: 6 Reviews mit Problemen, 5 mit Stärken, 0 gemischte Fälle, 1 leere Extraktion, insgesamt 27 gesetzte Labels
+
+Vergleicht man `gpt-5-nano` nested mit `gpt-5-nano` flat, zeigt sich tatsächlich eine Verbesserung:
+
+- von 23 auf 27 gesetzte Labels
+- von 2 auf 1 leere Extraktionen
+- bessere Erfassung einzelner zuvor verpasster Stärken
+
+7.3 Konkrete Verbesserungen bei `gpt-5-nano`
+
+Einige Beispiele zeigen, dass das flache Schema die Extraktion für `gpt-5-nano` tatsächlich verbessert:
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:7`
+  Im verschachtelten Schema markierte `gpt-5-nano` nur `access.waiting`. Im flachen Schema kamen `access.appointments` und `access.waiting` gemeinsam zurück, was der Review deutlich besser entspricht.
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:16`
+  Das Lob für das Essen wurde im verschachtelten Schema ganz verpasst, im flachen Schema aber korrekt als `environment.food` erfasst.
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:14`
+  Im verschachtelten Schema wurde nur `communication.information` erfasst. Im flachen Schema kamen `communication.communication` und `communication.information` zurück, was die Review besser abdeckt.
+
+7.4 Grenzen des Flat-Schemas
+
+Trotz dieser Verbesserung reichte `gpt-5-nano` auch im flachen Schema nicht an `gpt-4.1-mini` heran.
+
+Die wichtigsten Gründe:
+
+1. Komplexe negative Reviews bleiben untererfasst.
+2. Gemischte Reviews werden weiterhin nicht überzeugend abgebildet.
+3. Manche Labelverbesserungen gehen mit neuer Ungenauigkeit einher.
+
+Beispiel:
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:19`
+  Selbst im flachen Schema blieb `gpt-5-nano` leer, obwohl die Review mehrere deutliche Problemsignale enthält. `gpt-4.1-mini` bleibt hier klar stärker.
+
+- `allgemeines-krankenhaus-celle:381`
+  `gpt-4.1-mini` flat verlor hier das zentrale Rassismus-Signal und setzte stattdessen `inclusion.asylum`. `gpt-5-nano` flat traf `inclusion.equality` besser. Das zeigt, dass das flache Schema nicht automatisch für jedes Modell in jeder Review besser ist. Insgesamt war `gpt-4.1-mini` jedoch weiterhin der robustere Kandidat.
+
+8. Operative Neuordnung der Analyseartefakte
+
+Im Zuge der Experimente wurde der `analysis`-Ordner neu strukturiert, weil Smoke-Tests, Sample-Runs und Teiloutputs zuvor auf einer Ebene lagen und schwer nachvollziehbar wurden.
+
+Die LLM-Artefakte sind jetzt wie folgt gruppiert:
+
+- `analysis/llm/full_run`
+- `analysis/llm/smoke`
+- `analysis/llm/model_comparison`
+- `analysis/llm/samples`
+
+Diese Neuordnung ist methodisch nicht nur organisatorisch relevant. Sie macht später auch transparent, welche Ergebnisse explorative Smoke-Tests waren, welche Kalibrierungsvergleiche dienten und welche Dateien den produktiven Voll-Lauf darstellen.
+
+9. Schlussfolgerung und aktuelle Entscheidung
+
+Die Experimente führten zu vier klaren Schlussfolgerungen:
+
+1. `gpt-4.1-nano` ist für die eigentliche Review-Extraktion zu schwach.
+2. `gpt-4.1-mini` ist im verschachtelten Schema der erste fachlich belastbare Kandidat.
+3. `gpt-5-nano` ist im verschachtelten Schema zu leer und zu konservativ.
+4. Das flache Schema verbessert `gpt-5-nano`, reicht aber nicht aus, um `gpt-4.1-mini` als Standardmodell zu verdrängen.
+
+Die derzeitige Arbeitsentscheidung lautet daher:
+
+- Für die eigentliche Extraktion bleibt `gpt-4.1-mini` der aktuelle Standardkandidat.
+- Das flache Schema ist eine ernstzunehmende methodische Alternative für weitere kostensensitive Tests.
+- Wenn ein weiterer GPT-5-Vergleich durchgeführt werden soll, ist `gpt-5-mini` der sinnvollere nächste Kandidat als `gpt-5-nano`, da `gpt-5-mini` preislich im beobachteten Tokenmix fast auf dem Niveau von `gpt-4.1-mini` liegt, aber potenziell qualitativ stärker sein könnte.
+
+10. Implikationen für die weitere Arbeit
+
+Für den nächsten Schritt ergeben sich zwei sinnvolle Wege:
+
+1. Praktischer Produktionspfad:
+   `gpt-4.1-mini` im bisherigen oder leicht vereinfachten Schema für den eigentlichen Korpuslauf verwenden.
+
+2. Methodischer Erweiterungspfad:
+   `gpt-5-mini` zusätzlich auf derselben 12er-Stichprobe testen, idealerweise ebenfalls sowohl im verschachtelten als auch im flachen Schema, um zu prüfen, ob ein GPT-5-Modell mit besserer Qualität als `gpt-5-nano` bei ähnlichen Batch-Kosten eine echte Alternative zu `gpt-4.1-mini` darstellt.
+
+Insgesamt zeigen die Experimente, dass bei der LLM-gestützten Review-Analyse nicht nur das Modell selbst, sondern auch die gewählte Zielstruktur der Antwort erheblichen Einfluss auf die Extraktionsqualität hat. Für kleine und kostengünstige Modelle ist Schema-Design daher keine rein technische Nebensache, sondern ein zentraler methodischer Hebel.
+
+11. Nachfolgender Dreifachvergleich im flachen Schema
+
+Nach Abschluss der ersten Modell- und Schemaexperimente wurde ein zusätzlicher Vergleichslauf mit drei Modellen im flachen Schema durchgeführt. Ziel war es, die Modellentscheidung nicht länger nur auf `gpt-4.1-mini` versus `gpt-5-nano` zu stützen, sondern drei realistische Kandidaten für den weiteren Produktionspfad gegeneinander zu stellen:
+
+- `gpt-4.1-mini` als bisheriger Qualitätsanker
+- `gpt-5-mini` als stärkerer GPT-5-Kandidat bei fast identischen Batch-Kosten
+- `gpt-4o-mini` als deutlich günstigere Baseline
+
+Die Ergebnisse wurden in den folgenden Dateien gespeichert:
+
+- `analysis/llm/model_comparison/review_labels_gpt41mini_flat_12sample.json`
+- `analysis/llm/model_comparison/review_labels_gpt5mini_flat_12sample.json`
+- `analysis/llm/model_comparison/review_labels_gpt4omini_flat_12sample.json`
+
+11.1 Laufzeiten
+
+Die gemessenen durchschnittlichen Laufzeiten pro Review lagen bei:
+
+- `gpt-4.1-mini` flat: 3.37 Sekunden
+- `gpt-5-mini` flat: 11.60 Sekunden
+- `gpt-4o-mini` flat: 1.51 Sekunden
+
+Hochgerechnet auf 30.800 Reviews ergäben sich im synchronen Modus:
+
+- `gpt-4.1-mini` flat: 28.83 Stunden
+- `gpt-5-mini` flat: 99.24 Stunden
+- `gpt-4o-mini` flat: 12.92 Stunden
+
+Damit war `gpt-4o-mini` operativ mit Abstand am schnellsten, `gpt-5-mini` dagegen deutlich langsamer als `gpt-4.1-mini`. Für spätere Batch-Szenarien bleibt diese Latenz zwar nicht allein entscheidend, sie ist aber weiterhin ein relevantes praktisches Signal.
+
+11.2 Formale Ergebnisse
+
+Die 12er-Stichprobe ergab im flachen Schema:
+
+- `gpt-4.1-mini`: 7 Reviews mit Problemen, 6 mit Stärken, 1 gemischter Fall, 0 leere Extraktionen, insgesamt 36 gesetzte Labels
+- `gpt-5-mini`: 6 Reviews mit Problemen, 7 mit Stärken, 2 gemischte Fälle, 1 leere Extraktion, insgesamt 35 gesetzte Labels
+- `gpt-4o-mini`: 7 Reviews mit Problemen, 7 mit Stärken, 2 gemischte Fälle, 0 leere Extraktionen, insgesamt 25 gesetzte Labels
+
+Die reinen Zählwerte allein reichen nicht aus, um die Qualität zu bewerten. Sie zeigen aber bereits, dass `gpt-4o-mini` bei ähnlich vielen nichtleeren Reviews deutlich weniger Informationen codiert. `gpt-5-mini` liegt in der Gesamtzahl gesetzter Labels sehr nah an `gpt-4.1-mini`, was auf einen ernstzunehmenden Qualitätskandidaten hindeutet.
+
+11.3 Qualitative Beobachtungen
+
+Der Dreifachvergleich zeigte ein differenziertes Bild:
+
+1. `gpt-5-mini` war in mehreren positiven oder gemischten Reviews semantisch überzeugender als `gpt-4.1-mini`.
+2. `gpt-4.1-mini` blieb jedoch robuster in kritischen Negativfällen.
+3. `gpt-4o-mini` war konsistent schnell und günstig, wirkte inhaltlich aber deutlich gröber und oft zu knapp.
+
+Beispiele:
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:0`
+  `gpt-5-mini` extrahierte `staff.friendliness`, `staff.empathy`, `care.treatment` und `care.competence` und wirkte damit inhaltlich stimmiger als `gpt-4.1-mini`, das hier eher diffuse Labels wie `access.reachability` oder `staff.respect` setzte.
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:8`
+  `gpt-5-mini` erfasste neben `environment.cleanliness` auch `environment.facilities` und `staff.seriousness`, was den negativen Charakter des Berichts breiter abbildete als `gpt-4o-mini` und etwas präziser wirkte als `gpt-4.1-mini`.
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:14`
+  Sowohl `gpt-4.1-mini` als auch `gpt-5-mini` trafen die Kombination aus Kommunikationsproblem und positiver Behandlung. `gpt-4o-mini` erfasste die Grundrichtung ebenfalls, aber knapper.
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:19`
+  Hier zeigte sich die wichtigste Schwäche von `gpt-5-mini`: Der Fall blieb vollständig leer, obwohl es sich um eine schwere negative Review mit mehreren klaren Problemsignalen handelt. `gpt-4.1-mini` extrahierte hier weiterhin ein relevantes Bündel an Care-, Koordinations- und Respektsignalen. `gpt-4o-mini` erfasste immerhin einige negative Aspekte, wenn auch unvollständig.
+
+- `allgemeines-krankenhaus-celle:381`
+  `gpt-5-mini` war hier dem `gpt-4.1-mini` überlegen, weil es `inclusion.equality` korrekt erfasste, während `gpt-4.1-mini` fälschlich `inclusion.asylum` setzte. `gpt-4o-mini` wich noch weiter ab und markierte `inclusion.culture`.
+
+11.4 Kostenvergleich
+
+Auf Basis des zuvor beschriebenen Tokenmixes ergeben sich für 30.800 Reviews ungefähr folgende Batch-Kosten:
+
+- `gpt-4o-mini`: $17.98
+- `gpt-5-mini`: $47.13
+- `gpt-4.1-mini`: $47.95
+
+Daraus folgt:
+
+1. `gpt-4o-mini` ist eine echte Sparoption.
+2. `gpt-5-mini` und `gpt-4.1-mini` sind kostenmäßig nahezu identisch.
+3. Zwischen `gpt-5-mini` und `gpt-4.1-mini` ist die Frage daher keine Preisfrage, sondern fast ausschließlich eine Qualitäts- und Robustheitsfrage.
+
+11.5 Entscheidung nach dem Dreifachvergleich
+
+Der Dreifachvergleich führte nicht zu einem vollständigen Modellwechsel, sondern zu einer präziseren Einordnung:
+
+- `gpt-4o-mini` bleibt eine interessante günstige Baseline, ist aber für die eigentliche Produktionsanalyse aktuell zu grob.
+- `gpt-5-mini` ist ein ernsthafter Qualitätskandidat und in mehreren Fällen semantisch stärker als `gpt-4.1-mini`.
+- `gpt-4.1-mini` bleibt vorerst dennoch der stabilere Standard, weil `gpt-5-mini` auf der kleinen Teststichprobe einen auffälligen Komplettausfall bei einem zentralen Negativfall zeigte.
+
+Die aktuelle Arbeitsentscheidung lautet deshalb:
+
+1. `gpt-4.1-mini` bleibt der operative Standardkandidat.
+2. `gpt-5-mini` ist der wichtigste nächste Kandidat für vertiefte Tests oder einen größeren Kalibrierungslauf.
+3. `gpt-4o-mini` eignet sich primär als günstige methodische Vergleichsbasis, nicht als erste Wahl für die finale Extraktion.
+
+12. Provider-Gegencheck mit Gemini 2.5 Flash-Lite
+
+Nach den OpenAI-internen Vergleichen wurde zusätzlich ein externer Provider-Gegencheck mit Google Gemini durchgeführt. Ziel war zu prüfen, ob ein günstiges Nicht-OpenAI-Modell im flachen Schema eine ähnliche oder bessere Qualität als `gpt-4.1-mini` oder `gpt-5-mini` erreicht.
+
+Das Gemini-Testskript wurde als eigener, aber bewusst einfacher Parallelpfad implementiert. Es verwendet dasselbe flache Pydantic-Modell wie die OpenAI-Flat-Tests und dieselbe 12er-Stichprobe. Dadurch bleibt die Vergleichbarkeit erhalten, ohne die bestehende OpenAI-Logik umzubauen.
+
+Die Ergebnisdatei lautet:
+
+- `analysis/llm/model_comparison/review_labels_gemini25flashlite_flat_12sample.json`
+
+12.1 Operative Beobachtungen
+
+Der 12er-Lauf mit `gemini-2.5-flash-lite` war grundsätzlich stabil, allerdings trat bei einem Review zunächst ein temporärer Fehler `503 UNAVAILABLE` auf. Die Fehlermeldung verwies explizit auf kurzfristig hohe Last auf dem Modell. Ein gezielter Retry für genau diesen einzelnen Review funktionierte anschließend problemlos.
+
+Damit ergab sich operativ:
+
+- erster Versuch: 11 von 12 Reviews erfolgreich
+- gezielter Retry: der eine fehlende Review wurde erfolgreich nachgeholt
+- Endstand: 12 von 12 Reviews vollständig vorhanden
+
+Dieser Punkt ist methodisch relevant, weil damit gezeigt wurde, dass der Provider nicht am Schema oder an der Validierungslogik scheiterte, sondern temporär an Last beziehungsweise Verfügbarkeit.
+
+12.2 Laufzeit
+
+Im 12er-Test lag die durchschnittliche Laufzeit bei:
+
+- `gemini-2.5-flash-lite`: 6.01 Sekunden pro Review
+
+Damit liegt Gemini im Flat-Schema:
+
+- langsamer als `gpt-4o-mini` (1.51 Sekunden)
+- langsamer als `gpt-4.1-mini` (3.37 Sekunden)
+- schneller als `gpt-5-mini` (11.60 Sekunden)
+
+Hochgerechnet auf 30.800 Reviews ergäbe dies im synchronen Modus ungefähr 51.41 Stunden. Da Gemini für den eigentlichen Produktionslauf ebenfalls eher als Batch-Kandidat interessant wäre, ist diese Zahl primär als grober Orientierungswert zu lesen.
+
+12.3 Kostenrahmen
+
+Auf Basis der zuvor verwendeten Tokenhochrechnung und der offiziellen Gemini-Preise ergibt sich für `Gemini 2.5 Flash-Lite` ungefähr:
+
+- Vollkorpus, synchron: etwa $23.98
+- Vollkorpus, Batch: etwa $11.99
+
+Damit liegt Gemini preislich:
+
+- deutlich unter `gpt-4.1-mini`
+- deutlich unter `gpt-5-mini`
+- sogar unter `gpt-4o-mini`
+
+Aus Kostensicht ist Gemini damit einer der attraktivsten Kandidaten im gesamten Vergleich.
+
+12.4 Formale Ergebnisse
+
+Im flachen Schema ergaben sich für die 12er-Stichprobe:
+
+- `gpt-4.1-mini`: 7 Reviews mit Problemen, 6 mit Stärken, 1 gemischter Fall, 0 leere Extraktionen, 36 gesetzte Labels
+- `gpt-5-mini`: 6 Reviews mit Problemen, 7 mit Stärken, 2 gemischte Fälle, 1 leere Extraktion, 35 gesetzte Labels
+- `gemini-2.5-flash-lite`: 7 Reviews mit Problemen, 6 mit Stärken, 1 gemischter Fall, 0 leere Extraktionen, 35 gesetzte Labels
+
+Formal liegt Gemini damit sehr nah an den stärkeren OpenAI-Kandidaten:
+
+- gleiche Anzahl nichtleerer Reviews wie `gpt-4.1-mini`
+- fast identische Labeldichte wie `gpt-4.1-mini` und `gpt-5-mini`
+- keine leeren Extraktionen
+
+12.5 Qualitative Gegenüberstellung
+
+Die qualitative Sichtung zeigte ein gemischtes, aber insgesamt positives Bild.
+
+12.5.1 Fälle, in denen Gemini überzeugend war
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:0`
+  Gemini extrahierte `staff.friendliness`, `care.treatment` und `care.competence`, was inhaltlich plausibler wirkt als `gpt-4.1-mini`, das hier eher randständige Labels wie `access.reachability` setzte. `gpt-5-mini` war in diesem Fall ebenfalls stark.
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:7`
+  Gemini traf die Kombination `access.appointments` und `access.waiting` sauber. Damit lag es auf dem Niveau von `gpt-5-mini` und näher an der Review als `gpt-4o-mini`.
+
+- `agaplesion-ev-bathildiskrankenhaus:36`
+  Gemini erfasste hier `staff.seriousness`, `staff.empathy`, `communication.explanation` und `inclusion.language`. Das wirkte analytisch stimmig, weil die Review sowohl sprachliche Probleme als auch deutliche Kritik am Personal enthält.
+
+- `allgemeines-krankenhaus-celle:381`
+  Gemini setzte `inclusion.equality` und traf damit das Kernsignal besser als `gpt-4.1-mini`, das fälschlich `inclusion.asylum` codierte. `gpt-5-mini` traf diesen Fall ebenfalls gut.
+
+12.5.2 Fälle, in denen Gemini schwächer oder ungenauer war
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:14`
+  Die Review beschreibt eine medizinisch ordentliche Versorgung bei gleichzeitig unzureichender Kommunikation. `gpt-4.1-mini` und `gpt-5-mini` erfassten diese Mischung mit `communication.*` plus positiver Behandlung recht klar. Gemini setzte `communication.information` und `care.competence`, was die Richtung zwar trifft, aber die positive Seite weniger direkt und die negative Kommunikation etwas schmaler abbildet.
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:16`
+  Das klare Lob für das Essen wurde zwar richtig als `environment.food` erkannt, zusätzlich setzte Gemini aber `care.competence`, was hier eher wie eine unnötige Überinterpretation wirkt.
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:18`
+  Auch hier kam neben plausiblen Lobsignalen ein weniger passendes `access.reachability` hinzu. Das Muster deutet darauf hin, dass Gemini gelegentlich zusätzliche positive Labels ergänzt, die nicht klar im Text verankert sind.
+
+- `allgemeines-krankenhaus-celle:68`
+  Gemini traf mehrere zentrale Problemsignale wie `access.waiting`, `care.treatment`, `care.safety`, `care.diagnosis` und `admin.privacy`. Allerdings setzte es zusätzlich `inclusion.language`, was für diese Review nicht im Vordergrund steht. `gpt-4.1-mini` wirkte hier präziser.
+
+12.5.3 Vergleich mit `gpt-5-mini`
+
+Im direkten Vergleich zeigte sich:
+
+- `gpt-5-mini` war in einigen positiven Fällen sprachlich und semantisch sehr stark
+- `gpt-5-mini` hatte aber den kritischen Komplettausfall bei `agaplesion-diakonieklinikum-rotenburg-ggmbh:19`
+- Gemini blieb dort nicht leer, setzte aber nur ein reduziertes Problemset
+
+Gemini wirkte damit insgesamt robuster als `gpt-5-mini` in dem Sinne, dass keine leeren Extraktionen auftraten. Gleichzeitig war `gpt-5-mini` in einigen gutartigen Fällen semantisch eleganter oder spezifischer.
+
+12.5.4 Vergleich mit `gpt-4.1-mini`
+
+`gpt-4.1-mini` bleibt insgesamt der stabilste Referenzpunkt:
+
+- keine leeren Extraktionen
+- gute Trennung von Problemen und Stärken
+- solide Leistung auch in komplexen Negativfällen
+
+Gemini kommt diesem Niveau erstaunlich nahe, ist aber etwas anfälliger für kleine Zusatzlabels oder semantische Überdehnungen. Besonders bei sensiblen oder komplex gemischten Fällen war `gpt-4.1-mini` meist etwas kontrollierter.
+
+12.6 Schlussfolgerung zum Gemini-Gegencheck
+
+Der Gemini-Gegencheck fällt insgesamt positiv aus.
+
+Die wichtigsten Schlüsse sind:
+
+1. `gemini-2.5-flash-lite` ist kein bloßer Billigbaseline-Kandidat, sondern ein ernstzunehmender Wettbewerber.
+2. Das Modell ist formal stabil genug, um das flache Schema zuverlässig zu befüllen.
+3. Preislich ist Gemini außergewöhnlich attraktiv.
+4. Qualitativ liegt Gemini näher an `gpt-4.1-mini` und `gpt-5-mini` als an `gpt-4o-mini`.
+5. `gpt-4.1-mini` bleibt dennoch vorerst der konservativste Standard, weil es im kleinen Test die robusteste Gesamtbalance zeigt.
+
+Die vorläufige Rangordnung nach heutigem Stand lautet damit:
+
+1. `gpt-4.1-mini` als stabilster Gesamtanker
+2. `gemini-2.5-flash-lite` als sehr attraktiver externer Kosten- und Qualitätskandidat
+3. `gpt-5-mini` als semantisch starker, aber noch nicht hinreichend stabil bestätigter Kandidat
+4. `gpt-4o-mini` als günstige, aber deutlich gröbere Baseline
+
+13. Erweiterter 50-vs-50-Vergleich: Gemini 2.5 Flash-Lite vs. GPT-4.1 Mini
+
+Nach dem 12er-Vergleich wurde ein größerer Vergleichslauf mit 50 Reviews durchgeführt, um die Kosten-Qualitäts-Abwägung belastbarer zu machen. Beide Modelle wurden mit demselben flachen Schema und derselben fest definierten 50er-Stichprobe ausgeführt.
+
+Die Ergebnisdateien lauten:
+
+- `analysis/llm/model_comparison/review_labels_gemini25flashlite_flat_50sample.json`
+- `analysis/llm/model_comparison/review_labels_gpt41mini_flat_50sample.json`
+
+Der Gemini-Lauf hatte zunächst erneut einen einzelnen temporären `503 UNAVAILABLE`-Fehler. Wie schon im 12er-Test ließ sich dieser jedoch mit einem gezielten Retry erfolgreich nachziehen. Die Vergleichsbasis umfasst damit am Ende vollständig 50 von 50 identischen Reviews.
+
+13.1 Laufzeit
+
+Die beobachteten mittleren Laufzeiten betrugen:
+
+- `gemini-2.5-flash-lite`: 5.09 Sekunden pro Review
+- `gpt-4.1-mini`: 1.42 Sekunden pro Review
+
+Damit war `gpt-4.1-mini` im synchronen 50er-Test deutlich schneller. Für Batch-Szenarien bleibt das zwar nur ein sekundäres Kriterium, es zeigt aber, dass Gemini seinen Preisvorteil nicht über geringere Latenz, sondern primär über günstigere Tokenpreise realisiert.
+
+13.2 Formale Ergebnisse
+
+Auf der vollständigen 50er-Stichprobe ergab sich:
+
+- `gemini-2.5-flash-lite`: 23 Reviews mit Problemen, 31 mit Stärken, 5 gemischte Fälle, 1 leere Extraktion, insgesamt 196 gesetzte Labels
+- `gpt-4.1-mini`: 27 Reviews mit Problemen, 33 mit Stärken, 10 gemischte Fälle, 0 leere Extraktionen, insgesamt 183 gesetzte Labels
+
+Diese Zahlen sind in mehrfacher Hinsicht aufschlussreich:
+
+1. Gemini produziert insgesamt sogar etwas mehr Labels als `gpt-4.1-mini`.
+2. Gleichzeitig codiert Gemini deutlich weniger Reviews als problemhaltig.
+3. Vor allem die Zahl gemischter Reviews ist bei Gemini nur halb so hoch wie bei `gpt-4.1-mini`.
+4. `gpt-4.1-mini` bleibt formal robuster, weil keine leere Extraktion auftrat.
+
+13.3 Inhaltliche Muster
+
+Der größere 50er-Vergleich bestätigt die Tendenz aus den kleineren Läufen:
+
+- Gemini wirkt etwas positiver und expansiver bei positiven Zusatzsignalen.
+- `gpt-4.1-mini` wirkt kritischer und kontrollierter bei Problemsignalen.
+
+Die häufigsten nur bei Gemini auftretenden Zusatzmuster waren:
+
+- positive `care.competence`
+- positive `staff.respect`
+- positive `staff.empathy`
+- negative `communication.information`
+- negative `care.competence`
+- zusätzliche Erreichbarkeits- und Kommunikationslabels
+
+Die häufigsten nur bei `gpt-4.1-mini` auftretenden Zusatzmuster waren:
+
+- negative `coordination.coordination`
+- negative `care.diagnosis`
+- negative `staff.respect`
+- negative `care.treatment`
+- negative `staff.seriousness`
+
+Methodisch ist das wichtig, weil diese Unterschiede nicht nur einzelne Einzelfehler darstellen, sondern potenziell die spätere Themenverteilung beeinflussen. Gemini scheint tendenziell stärker positive Kompetenz- und Personalaspekte auszuschreiben, während `gpt-4.1-mini` häufiger Problemaspekte in Koordination, Diagnose und respektbezogenem Personalverhalten markiert.
+
+13.4 Strittige Falltypen
+
+Mehrere Reviewtypen machten die Modellunterschiede besonders sichtbar:
+
+- Reviews mit gleichzeitig positiven und negativen Signalen
+  `gpt-4.1-mini` hält diese Mischformen häufiger aufrecht. Gemini glättet sie eher in Richtung einer einseitigeren Interpretation.
+
+- Kritische Personalbewertungen
+  `gpt-4.1-mini` setzt öfter negative Personalmarker wie `staff.respect`, `staff.seriousness` oder `staff.friendliness`. Gemini erfasst hier ebenfalls Relevantes, aber nicht immer im selben problemorientierten Zuschnitt.
+
+- Kommunikations- und Koordinationsprobleme
+  `gpt-4.1-mini` markiert häufiger Koordinationsprobleme, während Gemini öfter auf Kommunikations- oder Informationslabels ausweicht.
+
+- Positive Kompetenz- und Wertschätzungsaspekte
+  Gemini setzt auffällig oft zusätzliche positive Kompetenz-, Empathie- oder Respektsignale, die plausibel sein können, aber nicht immer so explizit im Review verankert wirken.
+
+13.5 Methodische Interpretation
+
+Der 50er-Vergleich macht die Rollen der beiden Modelle schärfer:
+
+- `gpt-4.1-mini` ist das konservativere und kritischere Modell.
+- Gemini ist das etwas generösere und in positiver Richtung breiter codierende Modell.
+
+Das ist keine bloß stilistische Differenz. Für die Forschungsfrage nach Barrieren ist diese Verschiebung relevant, weil ein Modell, das tendenziell weniger Problemsignale und weniger gemischte Fälle codiert, zu einer anderen inhaltlichen Gewichtung der Barrieren führen kann.
+
+Gerade für Themen wie:
+
+- fehlende Koordination
+- nicht ernst genommen werden
+- problematische Behandlung
+- diagnostische Unsicherheit
+
+scheint `gpt-4.1-mini` derzeit etwas empfindlicher zu sein. Das kann für eine barrierenorientierte Analyse ein Vorteil sein, solange die zusätzliche Sensitivität nicht in systematische Überklassifikation kippt.
+
+13.6 Kosten-Qualitäts-Abwägung
+
+Die ökonomische Gegenüberstellung bleibt unverändert deutlich:
+
+- `Gemini 2.5 Flash-Lite Batch`: ca. $11.99
+- `GPT-4.1 Mini Batch`: ca. $47.95
+
+Das bedeutet:
+
+- absolute Differenz: ca. $35.97
+- `gpt-4.1-mini` ist ungefähr viermal so teuer wie Gemini
+
+Die zentrale Frage lautet deshalb nicht, ob Gemini günstiger ist, sondern ob der Qualitätsunterschied groß genug ist, um diese Mehrkosten methodisch zu rechtfertigen.
+
+Auf Basis des 50er-Vergleichs lautet die aktuelle Antwort:
+
+- Ja, `gpt-4.1-mini` ist fachlich robuster.
+- Aber nein, Gemini ist nicht so weit entfernt, dass es als unbrauchbar gelten würde.
+
+13.7 Aktuelle Entscheidung
+
+Für die derzeitige Arbeitsphase ergibt sich daraus die folgende Abwägung:
+
+1. `gpt-4.1-mini` bleibt der bevorzugte Qualitätsanker für die finale Inhaltsanalyse, insbesondere wenn die barrierenorientierte Sensitivität Priorität hat.
+2. `gemini-2.5-flash-lite` ist die stärkste Kostenalternative und methodisch ernsthaft einsetzbar.
+3. Wenn Budgetrestriktionen die zentrale Nebenbedingung sind, ist Gemini ein verteidigbarer Produktionskandidat.
+4. Wenn maximale Kontrolliertheit und problemorientierte Präzision Priorität haben, bleibt `gpt-4.1-mini` die sicherere Wahl.
+
+Anders formuliert:
+
+- `gpt-4.1-mini` ist die konservativere wissenschaftliche Standardwahl.
+- Gemini ist die ökonomisch attraktivere Wahl mit überschaubaren, aber realen inhaltlichen Verschiebungen.
+
+14. Flat-Schema V2: Metadaten aus dem Prompt entfernt, Label-Guide auf Deutsch präzisiert
+
+Nach dem 50-vs-50-Vergleich stellte sich eine weitere methodische Frage: Liegt ein Teil der verbleibenden Unschärfe nicht nur am Modell, sondern auch an der Promptlogik des flachen Schemas selbst?
+
+Die erste Flat-Version verwendete bereits nur zwei Listen:
+
+- `problem_labels`
+- `strength_labels`
+
+Allerdings erhielt das Modell im Prompt zusätzlich Review-Metadaten wie:
+
+- `star_rating`
+- `review_time`
+- `like_count`
+- `has_owner_response`
+- `place_id`
+- `clinic_name`
+
+Diese Metadaten wurden zwar nicht vom LLM generiert, aber sie wurden dem LLM zur Extraktion mitgegeben. Daraus ergab sich die Hypothese, dass vor allem `star_rating` und allgemeine Kontextinformationen die Labelwahl unnötig beeinflussen könnten.
+
+Zusätzlich war die erste Flat-Version zwar strukturell sehr einfach, semantisch aber relativ knapp formuliert: Die Labels wurden überwiegend als reine Punktpfade ohne ausführliche deutschsprachige Erläuterung gegeben. Daher wurde eine zweite Flat-Version entwickelt, die zwei Änderungen kombinierte:
+
+1. Die Metadaten wurden vollständig aus dem Extraktionsprompt entfernt.
+2. Der Labelkatalog wurde durch einen deutlich ausführlicheren deutschen Guide ergänzt, inklusive:
+   - kompakter Definitionen pro Label
+   - globaler Extraktionsregeln
+   - expliziter Abgrenzung ähnlicher Labels wie:
+     - `communication.explanation` vs. `communication.information`
+     - `care.diagnosis` vs. `care.treatment`
+     - `staff.respect` vs. `staff.seriousness`
+     - `environment.cleanliness` vs. `care.safety`
+     - `access.appointments` vs. `access.waiting`
+     - `coordination.discharge` vs. `coordination.followup`
+
+Das Ziel von V2 war damit nicht, ein komplexeres Outputschema einzuführen, sondern bei gleichbleibend flacher Struktur die semantische Steuerung des Modells zu verbessern.
+
+Die neuen Ergebnisdateien lauten:
+
+- `analysis/llm/model_comparison/review_labels_gpt41mini_flat_v2_12sample.json`
+- `analysis/llm/model_comparison/review_labels_gemini25flashlite_flat_v2_12sample.json`
+- `analysis/llm/model_comparison/review_labels_gpt41mini_flat_v2_50sample.json`
+- `analysis/llm/model_comparison/review_labels_gemini25flashlite_flat_v2_50sample.json`
+
+14.1 Laufzeiten von V2
+
+Die neue Promptversion war trotz ausführlicherer Labelerklärungen operativ sehr schnell:
+
+12er-Stichprobe:
+
+- `gpt-4.1-mini` V2: 1.67 Sekunden pro Review
+- `gemini-2.5-flash-lite` V2: 0.78 Sekunden pro Review
+
+50er-Stichprobe:
+
+- `gpt-4.1-mini` V2: 1.25 Sekunden pro Review
+- `gemini-2.5-flash-lite` V2: 1.10 Sekunden pro Review
+
+Im Vergleich zu den früheren Flat-Läufen ist das ein klarer Geschwindigkeitsgewinn. Die Entfernung der Metadaten aus dem Prompt reduzierte offensichtlich die operative Last und machte die Extraktion sowohl bei OpenAI als auch bei Gemini deutlich schneller.
+
+14.2 Formale Ergebnisse: V1 versus V2
+
+Die V2-Ergebnisse zeigen jedoch, dass höhere Geschwindigkeit nicht automatisch mit besserer fachlicher Kalibrierung einhergeht.
+
+12er-Stichprobe:
+
+- `gpt-4.1-mini` V1: 7 Reviews mit Problemen, 6 mit Stärken, 1 gemischter Fall, 0 leere Extraktionen, 36 Labels
+- `gpt-4.1-mini` V2: 7 Reviews mit Problemen, 6 mit Stärken, 1 gemischter Fall, 0 leere Extraktionen, 29 Labels
+
+- `gemini-2.5-flash-lite` V1: 7 Reviews mit Problemen, 6 mit Stärken, 1 gemischter Fall, 0 leere Extraktionen, 35 Labels
+- `gemini-2.5-flash-lite` V2: 7 Reviews mit Problemen, 6 mit Stärken, 1 gemischter Fall, 0 leere Extraktionen, 34 Labels
+
+50er-Stichprobe:
+
+- `gpt-4.1-mini` V1: 27 Reviews mit Problemen, 33 mit Stärken, 10 gemischte Fälle, 0 leere Extraktionen, 183 Labels
+- `gpt-4.1-mini` V2: 24 Reviews mit Problemen, 30 mit Stärken, 6 gemischte Fälle, 2 leere Extraktionen, 139 Labels
+
+- `gemini-2.5-flash-lite` V1: 23 Reviews mit Problemen, 31 mit Stärken, 5 gemischte Fälle, 1 leere Extraktion, 196 Labels
+- `gemini-2.5-flash-lite` V2: 22 Reviews mit Problemen, 31 mit Stärken, 5 gemischte Fälle, 2 leere Extraktionen, 236 Labels
+
+Damit ergibt sich ein asymmetrisches Bild:
+
+1. `gpt-4.1-mini` wird in V2 deutlich sparsamer.
+2. Gemini bleibt auf 12 Reviews fast gleich dicht, wird aber auf 50 Reviews sogar deutlich expansiver.
+3. Die gleiche neue Promptlogik führt also nicht zu einer gemeinsamen Stabilisierung beider Modelle, sondern zu modellabhängigen Verschiebungen.
+
+14.3 Wie stark sich die Outputs tatsächlich verändert haben
+
+Die Unterschiede zwischen V1 und V2 waren nicht marginal, sondern substanziell:
+
+- `gpt-4.1-mini`, 12er-Stichprobe: 8 von 12 Reviews geändert
+- Gemini, 12er-Stichprobe: 9 von 12 Reviews geändert
+- `gpt-4.1-mini`, 50er-Stichprobe: 38 von 50 Reviews geändert
+- Gemini, 50er-Stichprobe: 39 von 50 Reviews geändert
+
+Das zeigt klar, dass V2 nicht bloß eine kosmetische Promptverfeinerung war. Die Änderung der Promptlogik verändert die Extraktionsentscheidungen auf breiter Front.
+
+14.4 Qualitative Veränderungen bei `gpt-4.1-mini`
+
+Bei `gpt-4.1-mini` ist V2 insgesamt restriktiver geworden. Viele frühere Zusatzlabels verschwanden, teils plausibel, teils problematisch.
+
+Beispiele:
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:0`
+  V1 setzte `access.reachability`, `care.treatment`, `staff.respect`. V2 reduzierte dies auf `staff.friendliness` und `care.treatment`. Das wirkt inhaltlich fokussierter und vermeidet ein randständiges Label wie `access.reachability`.
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:7`
+  V1 setzte `access.appointments`, `access.waiting`, `access.navigation`. V2 ließ `access.navigation` fallen. Auch das wirkt eher wie eine Präzisierung als wie ein Verlust.
+
+- `allgemeines-krankenhaus-celle:68`
+  V1 setzte `access.waiting`, `care.treatment`, `care.safety`, `care.competence`, `admin.privacy`, `environment.cleanliness`, `staff.respect`. V2 setzt `access.waiting`, `care.treatment`, `care.diagnosis`, `care.safety`, `environment.cleanliness`, `admin.privacy`. Hier wurde `care.competence` entfernt, zugleich aber `care.diagnosis` ergänzt. Das wirkt teilweise plausibel, aber nicht eindeutig besser.
+
+Es traten jedoch auch klare Verschlechterungen auf:
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:19`
+  V1 extrahierte ein schwer negatives Bündel aus `care.treatment`, `care.diagnosis`, `coordination.coordination` und `staff.respect`. V2 reduzierte diesen Fall in der 12er-Stichprobe auf nur noch `care.diagnosis` und im 50er-Lauf sogar auf `access.appointments`. Das ist für einen zentralen schweren Negativfall eine deutliche Verschlechterung.
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:10`
+  V1 setzte positive `care.competence`, `care.safety`, `staff.empathy`. V2 blieb vollständig leer. Auch hier wirkt V2 eher zu streng.
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:12`
+  V1 markierte einen gemischten Fall mit negativen Warte-/Navigationssignalen und positiven Personal-/Kompetenzsignalen. V2 reduzierte dies auf nur noch `access.waiting` als Problem und verlor die positive Seite ganz.
+
+Die Gesamtwirkung ist klar: `gpt-4.1-mini` wird durch V2 zwar oft präziser, aber zugleich auch spürbar zurückhaltender. Die Verringerung von 183 auf 139 Labels im 50er-Lauf ist deshalb nicht einfach als Qualitätsgewinn zu interpretieren.
+
+14.5 Qualitative Veränderungen bei Gemini
+
+Gemini reagiert anders auf dieselbe V2-Logik. Während `gpt-4.1-mini` sparsamer wird, bleibt Gemini teils gleich dicht oder wird sogar expansiver.
+
+Beispiele:
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:0`
+  V1 setzte positive Labels wie `access.appointments`, `staff.friendliness`, `care.treatment`, `care.competence`. V2 verschiebt den Schwerpunkt zu `access.waiting`, `care.competence`, `care.treatment`, `care.diagnosis`, `staff.friendliness`. Das ist nicht einfach weniger oder mehr, sondern anders kalibriert.
+
+- `agaplesion-diakonieklinikum-rotenburg-ggmbh:8`
+  V1 war relativ eng mit `environment.cleanliness`. V2 ergänzt `admin.costs` und `care.safety`. Das kann in Einzelfällen analytisch interessant sein, wirkt aber auch wie eine stärkere Interpretationsfreude.
+
+- `agaplesion-ev-bathildiskrankenhaus:36`
+  V1 setzte `staff.seriousness`, `staff.empathy`, `communication.explanation`, `inclusion.language`. V2 verschob dies zu `care.competence`, `communication.explanation`, `inclusion.language`, `staff.seriousness`, `staff.friendliness`. Hier wird die Problemseite teilweise anders gefärbt, ohne dass klar ist, dass dies textnäher wäre.
+
+Positiv ist:
+
+- `allgemeines-krankenhaus-celle:381`
+  Gemini V1 setzte `inclusion.equality` und `inclusion.culture`. V2 reduziert dies auf `inclusion.equality` und wirkt damit konzentrierter.
+
+Problematisch ist aber das Gesamtmuster im 50er-Lauf:
+
+- 196 Labels in V1
+- 236 Labels in V2
+
+Das heißt: Der präzisere deutsche Guide macht Gemini nicht strenger, sondern führt in Summe zu mehr Labelproduktion. Gerade für einen späteren Voll-Lauf wäre das methodisch heikel, weil dadurch eine höhere Gefahr von Überlabeling entsteht.
+
+14.6 Zentrale methodische Erkenntnis aus V2
+
+Die wichtigste Erkenntnis aus V2 lautet:
+
+Mehr Beschreibung der Labels führt nicht automatisch zu besserer Extraktion.
+
+Genauer gesagt:
+
+1. Die Entfernung der Metadaten aus dem Prompt war methodisch sinnvoll und operativ hilfreich.
+2. Der ausführliche deutsche Label-Guide war inhaltlich gut motiviert, hat die Modelle aber nicht einheitlich verbessert.
+3. Statt einer gemeinsamen Präzisionssteigerung entstanden modellabhängige Kalibrierungseffekte:
+   - `gpt-4.1-mini` wurde deutlich restriktiver
+   - Gemini wurde teilweise breiter und expansiver
+4. V2 ist daher kein klarer Nachfolger von V1.
+
+Die stärkste Aussage ist damit nicht, dass deutsche Labelbeschreibungen “schlecht” sind. Die stärkere Aussage ist:
+
+Die genaue Formulierung semantischer Guidance ist selbst ein hochwirksamer Modellparameter.
+
+Ein und dieselbe fachlich plausible Beschreibung kann je nach Modell:
+
+- Recall verringern
+- Precision erhöhen
+- gemischte Fälle glätten
+- oder zusätzliche Labels provozieren
+
+14.7 Konsequenz für die weitere Entwicklung
+
+Aus V2 folgt, dass die aktuelle Frage nicht einfach lautet:
+
+- flach oder verschachtelt?
+- OpenAI oder Gemini?
+- mehr oder weniger Prompttext?
+
+Sondern präziser:
+
+Welches Zusammenspiel aus Labelgranularität, Guidancedichte und Modellfamilie produziert die stabilste und textnächste Extraktion?
+
+Die bisherige Evidenz spricht dafür:
+
+1. Die flache Grundidee mit `problem_labels` und `strength_labels` ist weiterhin sinnvoll.
+2. Die aktuelle V1-Flat-Version ist trotz ihrer Unschärfen noch der robustere Referenzpunkt als V2.
+3. V2 sollte nicht direkt für größere Läufe oder Batch-Experimente verwendet werden.
+4. Wenn die Promptseite weiter verbessert werden soll, braucht es wahrscheinlich kleinere, gezieltere Iterationen statt eines großen Umbaus.
+
+15. Gesamtfazit bis zum aktuellen Stand
+
+Über die gesamte Experimentkette hinweg ergibt sich damit ein konsistenter roter Faden:
+
+1. Das ursprüngliche verschachtelte Schema war fachlich attraktiv, aber für kleinere Modelle formal zu schwergewichtig.
+2. `gpt-4.1-nano` und `gpt-5-nano` erwiesen sich trotz Kostenattraktivität nicht als ausreichend robust.
+3. `gpt-4.1-mini` wurde zum wichtigsten Qualitätsanker.
+4. Das flache Schema vereinfachte die Extraktion erheblich und machte weitere Modellvergleiche erst wirklich praktikabel.
+5. `gpt-5-mini` erwies sich als interessanter, aber noch nicht hinreichend stabil bestätigter Qualitätskandidat.
+6. Gemini 2.5 Flash-Lite erwies sich als überraschend starker externer Gegenkandidat mit sehr attraktivem Preisprofil.
+7. Der größere 50er-Vergleich zeigte, dass Gemini methodisch ernst zu nehmen ist, aber `gpt-4.1-mini` in problemorientierter Sensitivität weiterhin überlegen bleibt.
+8. Die V2-Iteration machte deutlich, dass semantische Promptverfeinerung nicht automatisch zu besserer Extraktion führt; stattdessen verschiebt sie das Verhalten der Modelle teils stark und in unterschiedliche Richtungen.
+
+Die derzeit belastbarste Arbeitsposition lautet deshalb:
+
+- `gpt-4.1-mini` bleibt der methodisch konservativste Qualitätsanker.
+- Gemini 2.5 Flash-Lite bleibt der stärkste Kostenkandidat.
+- Das flache Schema bleibt die praktikabelste Grundstruktur.
+- Die erste Flat-Version ist aktuell der robustere Referenzpunkt als die ausführlicher beschriebene V2.
+
+16. Feintuning als mögliche nächste Ausbaustufe
+
+Ein naheliegender nächster Gedanke ist Feintuning. Bislang wurden alle Experimente mit reiner Promptsteuerung und strukturierter Ausgabe durchgeführt. Die V2-Ergebnisse zeigen jedoch, dass es Grenzen gibt, wie weit sich die gewünschte Taxonomie allein durch Promptdesign stabilisieren lässt.
+
+Feintuning könnte in diesem Projekt aus drei Gründen interessant werden:
+
+1. Die Zielaufgabe ist klar und eng umrissen:
+   Extraktion strukturierter Labels aus deutschen Krankenhausreviews.
+
+2. Es gibt inzwischen mehrere kleine, aber gut diskutierte Vergleichsläufe:
+   - 12er-Kalibrierungsstichprobe
+   - 50er-Vergleichsstichprobe
+   - qualitative Sichtung strittiger Fälle
+
+3. Die eigentliche Schwierigkeit liegt weniger in offenem Generieren als in stabiler Taxonomieanwendung:
+   - Wann ist ein Fall `care.diagnosis` statt `care.treatment`?
+   - Wann ist ein Kommunikationsproblem `communication.information` statt `communication.explanation`?
+   - Wann ist ein negatives Personalsignal eher `staff.respect` oder `staff.seriousness`?
+
+Gerade für solche wiederkehrenden Grenzentscheidungen könnte Feintuning grundsätzlich helfen, sofern ein hinreichend sauberes manuell validiertes Trainingsset aufgebaut wird.
+
+Gleichzeitig ist Feintuning zum jetzigen Zeitpunkt noch nicht der sofortige nächste Schritt. Vorher müssten mindestens folgende Bedingungen erfüllt sein:
+
+- ein stabilerer Ziel-Guide als die aktuelle V2-Version
+- eine explizit manuell kuratierte Goldstichprobe
+- klare Entscheidungsregeln für strittige Labelgrenzen
+- ein realistischer Abgleich, ob der zusätzliche Setup-Aufwand gegenüber einem starken Basismodell tatsächlich lohnt
+
+Feintuning ist damit keine sofortige Lösung, aber eine plausible mittelfristige Option, falls die reine Promptsteuerung die gewünschte Präzision und Konsistenz nicht zuverlässig genug erreicht.
+
+17. Übergang von Modellvergleich zu Benchmark-Aufbau
+
+Nach den 12er-, 50er- und V2-Vergleichen wurde deutlich, dass weitere Modellläufe allein nicht ausreichen, um die Qualität der Extraktion belastbar zu beurteilen. Bis zu diesem Punkt lag zwar ein immer besseres Bild darüber vor, wie sich verschiedene Modellfamilien und Promptvarianten gegeneinander verhalten, es fehlte jedoch weiterhin eine manuell überprüfbare Referenzbasis. Genau an dieser Stelle erfolgte der methodische Übergang von reiner Modell- und Promptvergleichung zum Aufbau eines eigentlichen Benchmark-Datensatzes.
+
+Die zentrale Einsicht war:
+
+- Modellvergleiche ohne Ground-Truth-Referenz zeigen relative Unterschiede,
+- sie beantworten aber nicht zuverlässig, welches System den Reviewtext tatsächlich am textnächsten und fachlich plausibelsten abbildet.
+
+Deshalb wurde als nächster Schritt kein weiterer größerer Produktionslauf gestartet, sondern ein manuell prüfbarer Benchmark-Datensatz vorbereitet, der später sowohl für Promptrevisionen als auch für potenzielle Feintuning-Experimente als Referenz dienen kann.
+
+18. Aufbau des Benchmark-Datensatzes
+
+18.1 Zielsetzung
+
+Der Benchmark-Datensatz soll nicht den gesamten Korpus ersetzen, sondern als bewusst kleinere, kuratierbare Referenzmenge fungieren. Er dient drei Zielen:
+
+1. Manuelle Überprüfung und Korrektur von Modellvorschlägen auf Review-Ebene.
+2. Vergleich künftiger Modell- oder Promptvarianten gegen eine feste Referenz.
+3. Vorbereitung einer späteren systematischeren Evaluation, etwa mit Precision-/Recall-Analysen oder Feintuning-Datensätzen.
+
+Wichtig ist dabei die begriffliche Abgrenzung: Im Projekt wurde für diesen Schritt bewusst nicht mehr von einem "Goldstandard", sondern von einem "Benchmark" gesprochen. Das ist methodisch ehrlicher, weil die Datei zunächst als arbeitsfähige Referenzbasis aufgebaut wird und erst durch die sukzessive menschliche Überprüfung zu einer belastbareren Zielreferenz heranwächst.
+
+18.2 Samplingdesign
+
+Der Benchmark-Datensatz wurde als stratifizierte Stichprobe mit insgesamt 120 Reviews konstruiert. Die drei Buckets wurden gleich groß gehalten:
+
+- `negative`: 40 Reviews
+- `positive`: 40 Reviews
+- `mixed_hard`: 40 Reviews
+
+Die Auswahl erfolgte reproduzierbar mit dem Seed `20260513`. Die zugehörigen Sampling-Notizen wurden separat abgelegt, damit der Entstehungskontext des Datensatzes nicht verloren geht.
+
+Die Auswahlregeln waren bewusst strenger als bei den früheren Convenience-Splits:
+
+- Negative Reviews wurden bevorzugt aus 1- bis 2-Sterne-Bewertungen gezogen.
+- Positive Reviews wurden bevorzugt aus 4- bis 5-Sterne-Bewertungen gezogen.
+- Gemischte oder schwer einzuordnende Reviews wurden bevorzugt aus 3-Sterne-Fällen, längeren kontrastiven Texten und inhaltlich konfliktgeladenen Reviews gezogen.
+- Zusätzlich wurde auf nichtleere Texte, sinnvolle Textlänge, eine Mischung aus Reviews mit und ohne Likes sowie mit und ohne Owner Response geachtet.
+- Um Clusterbildung zu vermeiden, wurde die Anzahl pro Klinik begrenzt.
+
+Das Ergebnis war ein deutlich breiterer und methodisch sinnvollerer Benchmark-Schnitt als die früheren kleinen Test-Samples:
+
+- insgesamt `120` Reviews
+- exakt `40/40/40` über die drei Buckets
+- `59` verschiedene Kliniken
+- maximal `5` Reviews pro Klinik
+
+Die entsprechende ID-Datei liegt unter:
+
+- `analysis/llm/samples/review_labels_benchmark_ids_120.txt`
+
+Begleitende Sampling-Notizen wurden unter:
+
+- `analysis/llm/benchmark/benchmark_v1_120_sampling_notes.txt`
+
+abgelegt.
+
+18.3 V1-Prelabeling mit `gpt-4.1-mini`
+
+Für die initiale Vorlabelung des Benchmark-Datensatzes wurde bewusst nicht die neuere V2-Promptversion verwendet, sondern die robustere Flat-V1-Variante. Diese Entscheidung folgt direkt aus den vorherigen Experimenten:
+
+- V1 war in den bisherigen Tests der stabilere Referenzpunkt.
+- V2 führte zu modellabhängigen Verschiebungen, ohne klar bessere Textnähe zu garantieren.
+- Für einen Benchmark-Aufbau ist ein möglichst konservativer und bereits gut verstandener Vorlabeling-Stand wichtiger als ein experimenteller neuer Prompt.
+
+Daher wurde ein eigener V1-Pfad explizit konserviert:
+
+- `scripts/prompt_flat_v1.py`
+- `scripts/analyze_llm_flat_v1_gpt.py`
+
+Die 120 Benchmark-Reviews wurden mit `gpt-4.1-mini` im Flat-V1-Schema vollständig vorlabelt. Der Lauf war formal stabil:
+
+- `120/120` Reviews erfolgreich verarbeitet
+- `0` Fehler
+- durchschnittlich etwa `1.75` Sekunden pro Review
+
+Die Vorlabel-Datei wurde als separates Artefakt gespeichert:
+
+- `analysis/llm/benchmark/benchmark_v1_120_prelabeled.json`
+
+18.4 Struktur des ersten Benchmark-Arbeitsdatensatzes
+
+Aus der Stichprobe und den V1-Prelabels wurde anschließend ein erster Benchmark-Arbeitsdatensatz erzeugt:
+
+- `analysis/llm/benchmark/benchmark_v1_120_labled.json`
+
+Dieser Datensatz enthält auf Dateiebene:
+
+- `benchmark_name`
+- `created_at`
+- `source_model`
+- `prompt_version`
+- `sampling_seed`
+- `records`
+
+Jeder Record enthält:
+
+- `review_id`
+- `bucket`
+- `metadata`
+- `review_text`
+- `model_prelabels`
+- `benchmark_labels`
+- `benchmark_notes`
+- `benchmark_status`
+
+Wichtig ist die Trennung zwischen:
+
+- `model_prelabels`: unveränderter Modellvorschlag aus dem V1-Lauf
+- `benchmark_labels`: editierbare Referenzschicht für die spätere manuelle Korrektur
+
+Der initiale Benchmark-Datensatz startete bewusst vollständig im Status:
+
+- `prelabeled`: `120`
+
+Das heißt: In diesem ersten Schritt wurde zwar bereits eine arbeitsfähige Benchmark-Basis erzeugt, aber noch keine Behauptung aufgestellt, dass diese 120 Einträge schon final menschlich kuratiert seien.
+
+18.5 Erste Plausibilitätsprüfung der Bucket-Struktur
+
+Schon vor dem eigentlichen UI-Review ließ sich prüfen, ob die drei Buckets inhaltlich halbwegs das leisten, was sie leisten sollen.
+
+Die Verteilung der V1-Vorlabels sah dabei plausibel aus:
+
+- `negative`: `40/40` mit Problemsignalen, `8/40` zusätzlich mit Strength-Signalen
+- `positive`: `40/40` mit Strength-Signalen, `14/40` zusätzlich mit Problemsignalen
+- `mixed_hard`: `40/40` mit Problemsignalen, `37/40` zusätzlich mit Strength-Signalen
+
+Diese Verteilungen sind nicht als Qualitätsbeweis zu lesen, aber sie stützen die Annahme, dass die Stichprobe tatsächlich unterschiedliche Reviewtypen enthält und die Buckets nicht rein nominell, sondern auch inhaltlich unterschiedlich besetzt sind.
+
+19. Lokales Benchmark-Review-Tool
+
+19.1 Motivation für ein separates Tool
+
+Nach dem Aufbau des Benchmark-Datensatzes stellte sich unmittelbar die praktische Frage, wie dieser effizient und nachvollziehbar manuell überprüft werden kann. Eine reine JSON-Bearbeitung im Editor wäre zwar prinzipiell möglich gewesen, aber für 120 Reviews mit zwei Label-Listen, Notizen, Statuspflege und Modellvorschlägen unnötig fehleranfällig und langsam.
+
+Deshalb wurde ein separates lokales Review-Tool aufgebaut. Wichtig war dabei, die bestehende öffentliche oder halböffentliche Website-Struktur nicht unnötig zu belasten. Aus diesem Grund wurde kein neues Modul in die Hauptwebsite integriert, sondern eine eigenständige kleine React/Vite-Anwendung erstellt:
+
+- `analysis/benchmark-reviewer/`
+
+Diese Entscheidung hatte mehrere Vorteile:
+
+- klarer, lokaler Spezialzweck
+- keine Vermischung mit der eigentlichen Projektwebsite
+- direkte Dateiarbeit im Repository
+- kontrollierbarer Entwicklungs- und Review-Workflow
+
+19.2 Architektur und Dateistrategie
+
+Das lokale Tool arbeitet direkt mit den Benchmark-Dateien unter:
+
+- `analysis/llm/benchmark/`
+
+und unterscheidet bewusst drei Rollen:
+
+1. Basisdatei:
+   - `benchmark_v1_120_labled.json`
+2. explizite Review-Snapshots:
+   - `benchmark_v1_120_reviewed_YYYY-MM-DDTHH-mm-ssZ.json`
+
+Das Ladeverhalten wurde so definiert, dass die App standardmäßig den jeweils zuletzt relevanten Stand lädt. In der aktuellen vereinfachten Ordnerstruktur sind vor allem die Basisdatei und der finale Reviewed-Snapshot die entscheidenden Referenzpunkte.
+
+19.3 UI-Struktur
+
+Die Anwendung wurde bewusst schlicht und arbeitsorientiert gestaltet. Das Layout ist in drei funktionale Bereiche gegliedert:
+
+- linke Spalte: Fortschritt, Filter, Navigation
+- mittlere Spalte: Reviewtext und Kontextmetadaten
+- rechte Spalte: Modellvorschlag, editierbare Benchmark-Labels, Status und Notizen
+
+Angezeigt werden pro Review unter anderem:
+
+- `review_id`
+- Bucket (`negative`, `positive`, `mixed_hard`)
+- `place_id`
+- Sterne
+- Likes
+- Owner Response ja/nein
+- vollständiger Reviewtext
+
+Die Modellvorschläge bleiben bewusst sichtbar, sind aber read-only. Bearbeitet werden ausschließlich die eigentlichen `benchmark_labels`. Genau diese Trennung ist methodisch wichtig: Das Modell liefert einen Vorschlag, die Benchmark-Schicht bleibt die menschlich gepflegte Referenzebene.
+
+19.4 Label-Interaktion und Notizen
+
+Die Labels werden im UI nach Domänen gruppiert angezeigt:
+
+- `access`
+- `admin`
+- `communication`
+- `staff`
+- `care`
+- `coordination`
+- `environment`
+- `inclusion`
+
+Jedes Label besitzt zusätzlich eine kurze deutsche Beschreibung. Diese Beschreibungen haben einen doppelten Zweck:
+
+1. Sie erleichtern die manuelle Entscheidung im Moment der Annotation.
+2. Sie helfen, die spätere Benchmark-Datei an den fachlichen Definitionen des Taxonomieschemas auszurichten.
+
+Für jeden Review gibt es daneben ein freies Notizfeld:
+
+- `benchmark_notes`
+
+Dieses Feld ist nicht nur Komfortfunktion, sondern methodisch relevant. Es erlaubt, Grenzfälle oder bewusste Korrekturen explizit zu dokumentieren, etwa:
+
+- warum ein Modelllabel entfernt wurde
+- warum ein zusätzliches Label ergänzt wurde
+- warum ein Review trotz Ambivalenz in einer bestimmten Weise kodiert wurde
+
+Damit wird die Benchmark-Datei nicht nur zu einem Ergebnisartefakt, sondern auch zu einem nachvollziehbaren Entscheidungsprotokoll.
+
+19.5 Fortschrittsanzeige und Review-Status
+
+Für den manuellen Durchlauf wurde die Oberfläche um eine sichtbare Fortschrittslogik ergänzt. Zwischen Seitenkopf und Hauptlayout zeigt eine dünne Fortschrittsleiste an, wie weit der Review-Prozess bereits fortgeschritten ist. Zusätzlich wird der konkrete Zähler sichtbar angezeigt, etwa in der Form:
+
+- `x / 120 reviewed`
+
+Der interne Statuswert bleibt:
+
+- `reviewed_by_user`
+
+in der UI wird dieser Zustand jedoch bewusst vereinfacht als:
+
+- `reviewed`
+
+dargestellt. Diese scheinbar kleine Umbenennung ist nützlich, weil der Arbeitszustand dadurch klarer und weniger technisch wirkt.
+
+Ergänzt wurde außerdem ein expliziter Button zum Markieren eines Reviews als geprüft:
+
+- `Als reviewed markieren`
+
+Dadurch entsteht ein klarer, schrittweiser Workflow statt einer bloßen Statuspflege über Dropdowns. Das verleiht dem Prozess eine leichte Form von Gamification, ohne methodisch belanglos zu werden: Fortschritt wird sichtbar, aber weiterhin an eine konkrete inhaltliche Entscheidung gekoppelt.
+
+20. KI-Zweitprüfung als Assistenzschicht
+
+20.1 Motivation
+
+Mit dem manuellen Benchmark-Review stellte sich schnell die Frage, wie sich die menschliche Nacharbeit unterstützen lässt, ohne die endgültige Entscheidung an das Modell abzugeben. Die Antwort darauf war nicht ein drittes Labeling-System, sondern eine zweite, klar abgegrenzte Assistenzschicht:
+
+- eine KI-Zweitprüfung, die nicht neu labelt,
+- sondern die aktuellen `benchmark_labels` überprüft und kommentiert.
+
+Diese Schicht dient damit nicht als Ersatz menschlicher Urteile, sondern als gezielte Kontrollinstanz. Sie soll Hinweise geben, wo Labels möglicherweise fehlen, wo etwas überlabelt wurde oder welche Textstellen als besonders relevant angesehen werden sollten.
+
+20.2 Technisches und inhaltliches Design
+
+Die KI-Zweitprüfung wurde serverseitig über die lokale Vite-Middleware ergänzt. Dazu wurden im lokalen Tool zusätzliche API-Endpunkte eingeführt:
+
+- `GET /api/benchmark/load`
+- `POST /api/benchmark/autosave`
+- `POST /api/benchmark/save`
+- `POST /api/benchmark/review-check`
+
+Für die eigentliche Zweitprüfung wird erneut `gpt-4.1-mini` verwendet. Diese Entscheidung folgt der bisherigen Gesamtlinie des Projekts: Das Modell bleibt der robusteste Qualitätsanker und ist für eine strukturierte Prüfaufgabe stark genug, ohne die Kosten größerer Modelle zu verursachen.
+
+Inhaltlich bekommt die Zweitprüfung:
+
+- den Reviewtext
+- die aktuellen `benchmark_labels`
+- optional die ursprünglichen `model_prelabels`
+- den deutschen Labelkatalog mit Definitionen
+
+Wichtig ist, dass die KI-Prüfung nicht einfach "noch einmal neu labelt". Stattdessen prüft sie:
+
+- Sind die aktuellen Labels im Wesentlichen plausibel?
+- Fehlen textnah gestützte Labels?
+- Gibt es Labels, die textlich schwach gestützt erscheinen?
+- Welche Textstellen sind für diese Einschätzung besonders relevant?
+
+20.3 Struktur der KI-Empfehlung
+
+Die Empfehlung wird als eigener Block pro Review gespeichert:
+
+- `ai_review`
+
+Dieser enthält:
+
+- `status`
+- `model`
+- `prompt_version`
+- `checked_at`
+- `verdict`
+- `summary`
+- `suggested_additions`
+- `suggested_removals`
+- `critical_spans`
+- `raw_recommendation_notes`
+
+Methodisch ist das eine sinnvolle Zwischenform:
+
+- Die KI darf Hinweise geben,
+- sie überschreibt aber keine Benchmark-Labels automatisch.
+
+Das Ergebnis ist also kein automatischer Korrekturmechanismus, sondern ein Review-Hinweis mit dokumentierter Begründung und Textbezug.
+
+20.4 Triggerlogik und Veraltungslogik
+
+Die KI-Prüfung startet automatisch, sobald ein Review erstmals geöffnet wird und noch keine fertige Empfehlung besitzt. Intern durchläuft sie Zustände wie:
+
+- `missing`
+- `queued`
+- `ready`
+- `stale`
+- `error`
+
+Besonders wichtig ist die Veraltungslogik (`stale`): Sobald sich `benchmark_labels` ändern, kann eine ältere KI-Empfehlung nicht mehr als aktuell gelten. Deshalb wird sie bewusst als veraltet markiert und kann anschließend gezielt neu ausgeführt werden.
+
+Diese Logik ist methodisch sauberer als eine vollautomatische Neuerstellung nach jeder einzelnen Änderung, weil sie:
+
+- Kosten reduziert,
+- unnötige Request-Flut vermeidet,
+- aber dennoch explizit sichtbar macht, dass die Assistenzschicht nach einer Labeländerung neu bewertet werden sollte.
+
+20.5 Aktueller Zwischenstand der Review-Arbeit
+
+Im damaligen laufenden Arbeitsstand des Reviewprozesses
+
+zeigt sich bereits der Übergang vom reinen Prelabeling zur menschlich bearbeiteten Referenz:
+
+- `99` Reviews stehen noch auf `prelabeled`
+- `21` Reviews stehen bereits auf `reviewed_by_user`
+
+Für die KI-Zweitprüfung zeigt der aktuelle Arbeitsstand:
+
+- `17` Empfehlungen im Zustand `ready`
+- `6` Empfehlungen im Zustand `stale`
+- `97` Reviews noch ohne erzeugte KI-Prüfung (`missing`)
+
+Diese Zahlen sind kein Qualitätsurteil über einzelne Reviews, aber sie zeigen, dass die technische Infrastruktur nicht nur konzeptionell, sondern bereits praktisch in Benutzung ist.
+
+21. Speicherkonzept und Versionierung
+
+21.1 Autosave-Arbeitsstand
+
+Eine wesentliche Designentscheidung bestand darin, nicht jeden Zwischenschritt als neue Timestamp-Datei abzulegen. Während des Reviewprozesses existierte dafür eine fortlaufende Arbeitsdatei im lokalen Tool.
+
+Diese wird automatisch aktualisiert, wenn sich etwa ändern:
+
+- `benchmark_labels`
+- `benchmark_notes`
+- `benchmark_status`
+- `ai_review`
+
+Damit bleiben auch KI-Empfehlungen und Notizen erhalten, wenn die Sitzung unterbrochen wird. Die Arbeitsdatei ist damit der operative Review-Speicher, nicht die Basisdatei und auch noch nicht die finale Referenzversion.
+
+21.2 Explizite Snapshot-Speicherung
+
+Separat vom Arbeitsstand existiert weiterhin die bewusste Snapshot-Speicherung als neue timestamped Datei:
+
+- `benchmark_v1_120_reviewed_YYYY-MM-DDTHH-mm-ssZ.json`
+
+Diese Datei stellt jeweils eine explizit gespeicherte Benchmark-Version dar. Ein früher technischer Speichertest erzeugte bereits eine erste Snapshot-Datei; methodisch relevanter ist aber vor allem das Prinzip:
+
+- Basisdatei bleibt erhalten
+- Arbeitsstand wird fortlaufend überschrieben
+- explizite Review-Stände werden versioniert abgelegt
+
+Dieses Speichermodell ist für den weiteren Projektverlauf zentral, weil es spätere Rückvergleiche erlaubt, ohne den laufenden Arbeitsprozess zu erschweren.
+
+21.3 Freigabelogik für neue Benchmark-Versionen
+
+Der Button zum finalen Speichern einer neuen Benchmark-Version ist bewusst an eine Bedingung geknüpft:
+
+- Er wird erst aktiv, wenn alle 120 Reviews den Status `reviewed_by_user` tragen.
+
+Damit wird verhindert, dass halbfertige Stände versehentlich als neuer Benchmark-Endstand behandelt werden. Gleichzeitig bleibt der laufende Arbeitsfortschritt durch Autosave vollständig erhalten.
+
+22. Methodische Bedeutung des Benchmark-Setups
+
+Der Benchmark-Aufbau markiert einen wichtigen Reifegrad des Projekts. Bis zu diesem Punkt bestand die Hauptarbeit vor allem darin,
+
+- die Taxonomie zu formen,
+- geeignete Modellklassen zu vergleichen,
+- das Output-Schema zu vereinfachen,
+- und Promptvarianten gegeneinander zu testen.
+
+Mit dem Benchmark-Setup verschiebt sich der Schwerpunkt:
+
+- weg von rein explorativen Modellvergleichen,
+- hin zu einer kontrollierteren Referenzbildung.
+
+Dadurch entstehen erstmals die Voraussetzungen für die nächsten methodischen Schritte:
+
+1. gezielter Vergleich neuer Promptvarianten gegen eine manuell überprüfte Referenz
+2. direkte Modellbenchmarks auf derselben kuratierten Review-Menge
+3. robustere Analyse strittiger Labelgrenzen
+4. mögliche Vorbereitung eines Feintuning-Datensatzes
+
+In diesem Sinn ist der Benchmark nicht bloß ein weiteres Artefakt, sondern die eigentliche Brücke von explorativer Experimentation zu systematischerer Evaluation.
+
+23. Gesamtfazit bis zum aktuellen Stand
+
+Die bisherige Reise lässt sich nun in einer durchgehenden Linie lesen:
+
+1. Ausgangspunkt waren Topic-Clustering, Literaturbezug und der Versuch, ein inhaltlich reiches verschachteltes Schema zu etablieren.
+2. Kleinere Modelle wie `gpt-4.1-nano` und `gpt-5-nano` erwiesen sich dafür als zu schwach oder zu instabil.
+3. `gpt-4.1-mini` etablierte sich als Qualitätsanker.
+4. Das flache Schema mit `problem_labels` und `strength_labels` erwies sich als praktikabelste Struktur.
+5. Weitere Modellvergleiche mit `gpt-5-mini`, `gpt-4o-mini` und Gemini 2.5 Flash-Lite präzisierten die Kosten-Qualitäts-Abwägung.
+6. Der 50er-Vergleich zeigte, dass Gemini methodisch ernst zu nehmen ist, `gpt-4.1-mini` aber in problemorientierter Sensitivität überlegen bleibt.
+7. Die V2-Promptiteration mit deutschem Label-Guide und entfernten Metadaten war fachlich sinnvoll motiviert, aber kein klarer Fortschritt, weil sie die Modelle unterschiedlich verschob.
+8. Daraus folgte der nächste methodisch saubere Schritt: nicht einfach größer skalieren, sondern eine manuell bearbeitbare Benchmark-Referenz aufbauen.
+9. Dieser Benchmark wurde als stratifizierter 120er-Datensatz konstruiert, mit V1 vorlabelt und in eine eigenständige lokale Review-Umgebung überführt.
+10. Das Review-Tool ergänzt den Datensatz um kontrollierte menschliche Korrekturen, Notizen, Versionsstände, Fortschrittslogik und eine KI-gestützte Zweitprüfung.
+
+Die aktuelle Arbeitsposition lautet damit:
+
+- `gpt-4.1-mini` Flat V1 bleibt der operative Referenzanker für Benchmark-Vorlabels.
+- Der Benchmark-Datensatz ist die neue methodische Mitte des Projekts.
+- Die eigentliche Qualitätsverbesserung wird nun nicht mehr primär durch immer neue Modellläufe erwartet, sondern durch die Verbindung aus menschlicher Kuration, nachvollziehbarer Versionierung und gezielter Evaluation gegen diese Referenz.
+- Genau dieser Benchmark bildet die Ausgangslage für die nächsten Verbesserungsstufen, etwa neue Promptvarianten oder spätere Feintuning-Experimente.
+
+Quellen und Referenzen
+
+OpenAI. (2026). GPT-4.1 mini model documentation. https://developers.openai.com/api/docs/models/gpt-4.1-mini
+
+OpenAI. (2026). GPT-4o mini model documentation. https://developers.openai.com/api/docs/models/gpt-4o-mini
+
+OpenAI. (2026). GPT-4.1 nano model documentation. https://developers.openai.com/api/docs/models/gpt-4.1-nano
+
+OpenAI. (2026). GPT-5 mini model documentation. https://developers.openai.com/api/docs/models/gpt-5-mini
+
+OpenAI. (2026). GPT-5 nano model documentation. https://developers.openai.com/api/docs/models/gpt-5-nano
+
+OpenAI. (2026). API pricing. https://openai.com/api/pricing
+
+Google. (2026). Gemini API key documentation. https://ai.google.dev/gemini-api/docs/api-key
+
+Google. (2026). Gemini API quickstart. https://ai.google.dev/gemini-api/docs/quickstart
+
+Google. (2026). Gemini model documentation. https://ai.google.dev/gemini-api/docs/models
+
+Google. (2026). Gemini structured output documentation. https://ai.google.dev/gemini-api/docs/structured-output
+
+Google. (2026). Gemini API pricing. https://ai.google.dev/gemini-api/docs/pricing

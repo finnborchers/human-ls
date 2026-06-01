@@ -1,0 +1,194 @@
+{
+  "total_records": 20863,
+  "empty_label_records": 721,
+  "max_total_labels_on_single_review": 34,
+  "top_problem_labels": [
+    [
+      "care.treatment",
+      3449
+    ],
+    [
+      "access.waiting",
+      3070
+    ],
+    [
+      "staff.friendliness",
+      2895
+    ],
+    [
+      "staff.respect",
+      2818
+    ],
+    [
+      "staff.seriousness",
+      2144
+    ],
+    [
+      "care.competence",
+      1996
+    ],
+    [
+      "care.safety",
+      1822
+    ],
+    [
+      "staff.empathy",
+      1716
+    ],
+    [
+      "coordination.coordination",
+      1518
+    ],
+    [
+      "care.diagnosis",
+      1230
+    ],
+    [
+      "communication.communication",
+      1219
+    ],
+    [
+      "environment.facilities",
+      1000
+    ],
+    [
+      "care.symptoms",
+      938
+    ],
+    [
+      "communication.information",
+      770
+    ],
+    [
+      "environment.food",
+      739
+    ]
+  ],
+  "top_strength_labels": [
+    [
+      "staff.friendliness",
+      10279
+    ],
+    [
+      "staff.empathy",
+      6350
+    ],
+    [
+      "care.treatment",
+      5804
+    ],
+    [
+      "care.competence",
+      4884
+    ],
+    [
+      "staff.respect",
+      2417
+    ],
+    [
+      "environment.support",
+      1917
+    ],
+    [
+      "environment.food",
+      1610
+    ],
+    [
+      "staff.seriousness",
+      1161
+    ],
+    [
+      "environment.facilities",
+      1123
+    ],
+    [
+      "communication.explanation",
+      1029
+    ],
+    [
+      "coordination.coordination",
+      907
+    ],
+    [
+      "care.safety",
+      743
+    ],
+    [
+      "access.waiting",
+      698
+    ],
+    [
+      "environment.cleanliness",
+      677
+    ],
+    [
+      "communication.communication",
+      544
+    ]
+  ],
+  "generated_at": "2026-05-18T15:23:17.487408+00:00",
+  "scope": "20863_ids",
+  "expected_reviews": 20863,
+  "materialized_reviews": 20863,
+  "missing_reviews": 0,
+  "batch_count": 11,
+  "completed_batch_files": 11,
+  "parse_errors_total": 0,
+  "batch_summaries": [
+    {
+      "batch_name": "20863_ids_batch_001",
+      "materialized_records": 2000,
+      "parse_errors": 0
+    },
+    {
+      "batch_name": "20863_ids_batch_002",
+      "materialized_records": 2000,
+      "parse_errors": 0
+    },
+    {
+      "batch_name": "20863_ids_batch_003",
+      "materialized_records": 2000,
+      "parse_errors": 0
+    },
+    {
+      "batch_name": "20863_ids_batch_004",
+      "materialized_records": 2000,
+      "parse_errors": 0
+    },
+    {
+      "batch_name": "20863_ids_batch_005",
+      "materialized_records": 2000,
+      "parse_errors": 0
+    },
+    {
+      "batch_name": "20863_ids_batch_006",
+      "materialized_records": 2000,
+      "parse_errors": 0
+    },
+    {
+      "batch_name": "20863_ids_batch_007",
+      "materialized_records": 2000,
+      "parse_errors": 0
+    },
+    {
+      "batch_name": "20863_ids_batch_008",
+      "materialized_records": 2000,
+      "parse_errors": 0
+    },
+    {
+      "batch_name": "20863_ids_batch_009",
+      "materialized_records": 2000,
+      "parse_errors": 0
+    },
+    {
+      "batch_name": "20863_ids_batch_010",
+      "materialized_records": 2000,
+      "parse_errors": 0
+    },
+    {
+      "batch_name": "20863_ids_batch_011",
+      "materialized_records": 863,
+      "parse_errors": 0
+    }
+  ]
+}

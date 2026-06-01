@@ -1,40 +1,107 @@
 {
   "url": "https://www.google.com/maps/place/Kliniken+Landkreis+Diepholz+gGmbH+-+Klinik+Bassum/@52.8439184,8.7233832,17z/data=!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik+Bassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%2Fg%2F1tfmb8ql?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "klinik-bassum",
-  "startedAt": "2026-04-15T16:47:27Z",
+  "startedAt": "2026-05-11T14:08:14Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "8689A145A149D00ED31A3B87A12FAD0D",
-  "selectedTargetId": "8689A145A149D00ED31A3B87A12FAD0D",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "18E0A87DAF6E2CAC643782C0BFD1596B",
+  "selectedTargetId": "18E0A87DAF6E2CAC643782C0BFD1596B",
   "selectedTargetUrl": "https://www.google.com/maps/place/Kliniken+Landkreis+Diepholz+gGmbH+-+Klinik+Bassum/@52.8439184,8.7233832,17z/data=!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik+Bassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%2Fg%2F1tfmb8ql?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Kliniken%2BLandkreis%2BDiepholz%2BgGmbH%2B-%2BKlinik%2BBassum/@52.8439184,8.7233832,17z/data%3D!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik%2BBassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%252Fg%252F1tfmb8ql?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Kliniken%2BLandkreis%2BDiepholz%2BgGmbH%2B-%2BKlinik%2BBassum/@52.8439184,8.7233832,17z/data%3D!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik%2BBassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%252Fg%252F1tfmb8ql?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Kliniken%2BLandkreis%2BDiepholz%2BgGmbH%2B-%2BKlinik%2BBassum/@52.8439184,8.7233832,17z/data%3D!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik%2BBassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%252Fg%252F1tfmb8ql?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Kliniken%2BLandkreis%2BDiepholz%2BgGmbH%2B-%2BKlinik%2BBassum/@52.8439184,8.7233832,17z/data%3D!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik%2BBassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%252Fg%252F1tfmb8ql?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/Kliniken+Landkreis+Diepholz+gGmbH+-+Klinik+Bassum/@52.8439184,8.7233832,17z/data=!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik+Bassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%2Fg%2F1tfmb8ql?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Kliniken%2BLandkreis%2BDiepholz%2BgGmbH%2B-%2BKlinik%2BBassum/@52.8439184,8.7233832,17z/data%3D!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik%2BBassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%252Fg%252F1tfmb8ql?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Kliniken%2BLandkreis%2BDiepholz%2BgGmbH%2B-%2BKlinik%2BBassum/@52.8439184,8.7233832,17z/data%3D!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik%2BBassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%252Fg%252F1tfmb8ql?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Kliniken%2BLandkreis%2BDiepholz%2BgGmbH%2B-%2BKlinik%2BBassum/@52.8439184,8.7233832,17z/data%3D!3m1!5s0x47b0cf726fb58a45:0xcf43df48e028fc36!4m10!1m2!2m1!1sKlinik%2BBassum!3m6!1s0x47b0cf72fe268417:0x3cc73caa9829f1c6!8m2!3d52.8439184!4d8.7281468!15sCg1LbGluaWsgQmFzc3VtkgEIaG9zcGl0YWzgAQA!16s%252Fg%252F1tfmb8ql?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
@@ -50,623 +117,859 @@
           "button_like_control"
         ],
         "tagName": "BUTTON",
-        "text": "197 Berichte",
+        "text": "199 Berichte",
         "ariaLabel": "",
         "title": "",
         "jsaction": "pane.wfvdle41.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 6,
       "clickResult": {
         "clicked": true,
         "index": 69,
-        "text": "197 Berichte",
+        "text": "199 Berichte",
         "ariaLabel": "",
         "title": "",
         "jsaction": "pane.wfvdle41.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 2,
-      "candidate": {
-        "domIndex": 83,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "OP 31",
-        "ariaLabel": "OP, in 31 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle75; keydown:pane.wfvdle75; mouseover:pane.wfvdle75; mouseout:pane.wfvdle75;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 83,
-        "text": "Messen",
-        "ariaLabel": "",
-        "jsaction": "layerswitcher.tool.ruler"
-      }
-    },
-    {
-      "rank": 3,
-      "candidate": {
-        "domIndex": 84,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "notaufnahme 22",
-        "ariaLabel": "notaufnahme, in 22 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle76; keydown:pane.wfvdle76; mouseover:pane.wfvdle76; mouseout:pane.wfvdle76;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 84,
-        "text": "Standard",
-        "ariaLabel": "",
-        "jsaction": "layerswitcher.intent.map"
-      }
-    },
-    {
-      "rank": 4,
-      "candidate": {
-        "domIndex": 85,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "team 16",
-        "ariaLabel": "team, in 16 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle77; keydown:pane.wfvdle77; mouseover:pane.wfvdle77; mouseout:pane.wfvdle77;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 85,
-        "text": "Satellit",
-        "ariaLabel": "",
-        "jsaction": "layerswitcher.intent.satellite"
-      }
-    },
-    {
-      "rank": 5,
-      "candidate": {
-        "domIndex": 86,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "die ärzte 10",
-        "ariaLabel": "die ärzte, in 10 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle78; keydown:pane.wfvdle78; mouseover:pane.wfvdle78; mouseout:pane.wfvdle78;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 86,
-        "text": " Globusansicht",
-        "ariaLabel": "",
-        "jsaction": "layerswitcher.intent.spherical"
-      }
-    },
-    {
-      "rank": 6,
-      "candidate": {
-        "domIndex": 95,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Julia Knippenberg 10 Rezensionen · 3 Fotos",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle86.review.reviewerlink",
-        "className": "al6Kxe"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 95
-      }
-    },
-    {
-      "rank": 7,
-      "candidate": {
-        "domIndex": 101,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Jenny Klein 4 Rezensionen",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle87.review.reviewerlink",
-        "className": "al6Kxe"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 101
-      }
-    },
-    {
-      "rank": 8,
-      "candidate": {
-        "domIndex": 107,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Abdollah Dashan 6 Rezensionen",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle88.review.reviewerlink",
-        "className": "al6Kxe"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 107
-      }
-    },
-    {
-      "rank": 9,
-      "candidate": {
-        "domIndex": 82,
-        "score": 80,
-        "reasons": [
-          "explicit_all_reviews",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Alle",
-        "ariaLabel": "Alle Rezensionen",
-        "title": "",
-        "jsaction": "pane.wfvdle74; keydown:pane.wfvdle74; mouseover:pane.wfvdle74; mouseout:pane.wfvdle74;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 82,
-        "text": "Reisedauer",
-        "ariaLabel": "",
-        "jsaction": "layerswitcher.tool.reachability"
-      }
-    },
-    {
-      "rank": 10,
-      "candidate": {
-        "domIndex": 38,
-        "score": 35,
-        "reasons": [
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Rezensionen",
-        "ariaLabel": "Rezensionen zu „Kliniken Landkreis Diepholz gGmbH - Klinik Bassum“",
-        "title": "",
-        "jsaction": "pane.wfvdle32tabs.tabclick; mousedown:pane.wfvdle32tabs.dragtabs; focus:pane.wfvdle32tabs.focus",
-        "className": "hh2c6"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 38,
-        "text": "Weitere Informationen",
-        "ariaLabel": "",
-        "jsaction": ""
-      }
-    },
-    {
-      "rank": 11,
-      "candidate": {
-        "domIndex": 79,
-        "score": 35,
-        "reasons": [
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "",
-        "ariaLabel": "In Rezensionen suchen",
-        "title": "",
-        "jsaction": "pane.wfvdle72;keydown:pane.wfvdle72;mouseover:pane.wfvdle72;mouseout:pane.wfvdle72;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "S9kvJb"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 79,
-        "text": "Street View",
-        "ariaLabel": "",
-        "jsaction": "layerswitcher.intent.streetview"
-      }
-    },
-    {
-      "rank": 12,
-      "candidate": {
-        "domIndex": 81,
-        "score": 35,
-        "reasons": [
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Sortieren",
-        "ariaLabel": "Rezensionen sortieren",
-        "title": "",
-        "jsaction": "pane.wfvdle73;keydown:pane.wfvdle73;mouseover:pane.wfvdle73;mouseout:pane.wfvdle73",
-        "className": "S9kvJb"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 81,
-        "text": "Luftqualität",
-        "ariaLabel": "",
-        "jsaction": "layerswitcher.intent.air_quality"
-      }
-    },
-    {
-      "rank": 13,
-      "candidate": {
-        "domIndex": 111,
-        "score": 35,
-        "reasons": [
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Weitere Rezensionen (194)",
-        "ariaLabel": "Weitere Rezensionen (194)",
-        "title": "",
-        "jsaction": "pane.wfvdle89",
-        "className": "M77dve"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 111
-      }
-    },
-    {
-      "rank": 14,
-      "candidate": {
-        "domIndex": 3,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "",
-        "ariaLabel": "Suchen",
-        "title": "",
-        "jsaction": "omnibox.search; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip",
-        "className": "mL3xi"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 3,
-        "text": "",
-        "ariaLabel": "Suchen",
-        "title": "",
-        "jsaction": "omnibox.search; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip",
-        "className": "mL3xi"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 15,
-      "candidate": {
-        "domIndex": 4,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "",
-        "ariaLabel": "Schließen",
-        "title": "",
-        "jsaction": "omnibox.clear; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; focus:omnibox.hidesuggestions; blur:omnibox.hidetooltip",
-        "className": "yAuNSb vF7Cdb"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 4,
-        "text": "",
-        "ariaLabel": "Schließen",
-        "title": "",
-        "jsaction": "omnibox.clear; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; focus:omnibox.hidesuggestions; blur:omnibox.hidetooltip",
-        "className": "yAuNSb vF7Cdb"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 16,
-      "candidate": {
-        "domIndex": 6,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Bewertung ",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle103; keydown:pane.wfvdle103; mouseover:pane.wfvdle103; mouseout:pane.wfvdle103",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 6,
-        "text": "In diesem Gebiet suchen",
-        "ariaLabel": "In diesem Gebiet suchen",
-        "jsaction": "search.refresh"
-      }
-    },
-    {
-      "rank": 17,
-      "candidate": {
-        "domIndex": 7,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Öffnungszeiten ",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle104; keydown:pane.wfvdle104; mouseover:pane.wfvdle104; mouseout:pane.wfvdle104",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 7,
-        "text": " Restaurants",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle123; keydown:pane.wfvdle123; mouseover:pane.wfvdle123; mouseout:pane.wfvdle123;keydown:ripple.nested;mousedown:ripple.nested;ptrdown:ripple.nested",
-        "className": "e2moi"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 18,
-      "candidate": {
-        "domIndex": 8,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Alle Filter",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle105; keydown:pane.wfvdle105; mouseover:pane.wfvdle105; mouseout:pane.wfvdle105",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 8,
-        "text": " Bewertung ",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle158; keydown:pane.wfvdle158; mouseover:pane.wfvdle158; mouseout:pane.wfvdle158",
-        "className": "e2moi"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 19,
-      "candidate": {
-        "domIndex": 10,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "",
-        "ariaLabel": "Menü",
-        "title": "",
-        "jsaction": "navigationrail.more",
-        "className": "wR3cXd"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 10,
-        "text": " Alle Filter",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle160; keydown:pane.wfvdle160; mouseover:pane.wfvdle160; mouseout:pane.wfvdle160",
-        "className": "e2moi"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 20,
-      "candidate": {
-        "domIndex": 11,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Gespeichert",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.saved",
-        "className": "wR3cXd fontLabelMedium"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 11,
-        "text": " Zuletzt verwendet",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.recent",
-        "className": "wR3cXd fontLabelMedium"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 21,
-      "candidate": {
-        "domIndex": 12,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Zuletzt verwendet",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.recent",
-        "className": "wR3cXd fontLabelMedium"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 12,
-        "text": " Gespeichert",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.saved",
-        "className": "wR3cXd fontLabelMedium"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 22,
-      "candidate": {
-        "domIndex": 13,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "click:navigationrail.bundle; mouseover:navigationrail.bundle; mouseout:navigationrail.bundle",
-        "className": "atHn2d wR3cXd aJPqP fontBodySmall QyI6Nb"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 13
-      }
-    },
-    {
-      "rank": 23,
-      "candidate": {
-        "domIndex": 14,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " App herunterladen",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.mobileapp",
-        "className": "wR3cXd Ijds6e fontLabelMedium"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 14
-      }
-    },
-    {
-      "rank": 24,
-      "candidate": {
-        "domIndex": 19,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Teilen",
-        "ariaLabel": "Teilen",
-        "title": "",
-        "jsaction": "pane.wfvdle10",
-        "className": "M77dve"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 19
-      }
-    },
-    {
-      "rank": 25,
-      "candidate": {
-        "domIndex": 22,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Routen­planer",
-        "ariaLabel": "Route zum Ziel \"Kliniken Landkreis Diepholz gGmbH - Klinik Bassum\" berechnen",
-        "title": "",
-        "jsaction": "pane.wfvdle15;keydown:pane.wfvdle15;mouseover:pane.wfvdle15;mouseout:pane.wfvdle15",
-        "className": "S9kvJb"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 22
+      "reviewsPanelAfterClick": {
+        "reviewNodeCount": 95,
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps"
       }
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 6,
   "reviewClick": {
-    "clicked": false,
-    "reason": "reviews_panel_not_opened"
+    "clicked": true,
+    "strategy": "candidate",
+    "label": "199 Berichte",
+    "domIndex": 69,
+    "candidateScore": 215,
+    "candidateReasons": [
+      "jsaction_more_reviews",
+      "count_label",
+      "review_keyword",
+      "button_like_control"
+    ],
+    "jsaction": "pane.wfvdle41.reviewchart.morereviews"
   },
-  "reviewsPanel": false,
-  "failureReason": "reviews_panel_not_opened",
-  "scrollStopReason": "reviews_panel_not_opened",
-  "captureSuccessful": false,
-  "finishedAt": "2026-04-15T16:48:58Z",
-  "reviewPhaseXhrCount": 37,
-  "matchedRequestCount": 0,
-  "batchexecuteCount": 0,
+  "reviewsPanel": {
+    "reviewNodeCount": 95,
+    "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps"
+  },
+  "initialReviewsState": {
+    "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+    "reviewNodeCount": 95,
+    "uniqueReviewIdCount": 10,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 0,
+    "scrollHeight": 4208,
+    "clientHeight": 498,
+    "distanceToBottom": 3710
+  },
+  "declaredReviewTotalInfo": {
+    "found": true,
+    "declaredReviewTotal": 199,
+    "sourceKind": "rating-histogram",
+    "histogramByStar": {
+      "1": 77,
+      "2": 5,
+      "3": 3,
+      "4": 14,
+      "5": 100
+    },
+    "histogramStarCount": 5
+  },
+  "declaredReviewTotal": 199,
+  "declaredTotalSettleSeconds": 1.5,
+  "declaredTotalFastStopUsed": true,
+  "declaredTotalFinalCheck": {
+    "iteration": 20,
+    "before": {
+      "uniqueReviewIdCount": 199,
+      "scrollHeight": 51713,
+      "distanceToBottom": 0.5
+    },
+    "after": {
+      "uniqueReviewIdCount": 199,
+      "scrollHeight": 51713,
+      "distanceToBottom": 0.5
+    },
+    "settleSeconds": 1.5,
+    "grewDuringSettle": false,
+    "atBottomAfterSettle": true,
+    "declaredTotalReachedAfterSettle": true
+  },
+  "fallbackStableRoundsRequired": 5,
+  "scrollResults": [
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 0,
+      "after": 3709.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 4208,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 95,
+      "uniqueReviewIdCount": 10,
+      "iteration": 1,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 194,
+        "uniqueReviewIdCount": 20,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 3709.5,
+        "scrollHeight": 8374,
+        "clientHeight": 498,
+        "distanceToBottom": 4166.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.6290927305817604e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 3709.5,
+      "after": 7875.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 8374,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 194,
+      "uniqueReviewIdCount": 20,
+      "iteration": 2,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 290,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 7875.5,
+        "scrollHeight": 12318,
+        "clientHeight": 498,
+        "distanceToBottom": 3944.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.499925464391708e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 7875.5,
+      "after": 11819.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 12318,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 290,
+      "uniqueReviewIdCount": 30,
+      "iteration": 3,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 380,
+        "uniqueReviewIdCount": 40,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 11819.5,
+        "scrollHeight": 15606,
+        "clientHeight": 498,
+        "distanceToBottom": 3288.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.875015631318092e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 11819.5,
+      "after": 15107.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 15606,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 380,
+      "uniqueReviewIdCount": 40,
+      "iteration": 4,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 467,
+        "uniqueReviewIdCount": 50,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 15107.5,
+        "scrollHeight": 18269,
+        "clientHeight": 498,
+        "distanceToBottom": 2663.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 3.916909918189049e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 15107.5,
+      "after": 17770.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 18269,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 467,
+      "uniqueReviewIdCount": 50,
+      "iteration": 5,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 554,
+        "uniqueReviewIdCount": 60,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 17770.5,
+        "scrollHeight": 21054,
+        "clientHeight": 498,
+        "distanceToBottom": 2785.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 4.749977961182594e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 17770.5,
+      "after": 20555.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 21054,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 554,
+      "uniqueReviewIdCount": 60,
+      "iteration": 6,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 640,
+        "uniqueReviewIdCount": 70,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 20555.5,
+        "scrollHeight": 23885,
+        "clientHeight": 498,
+        "distanceToBottom": 2831.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 4.041939973831177e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 20555.5,
+      "after": 23386.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 23885,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 640,
+      "uniqueReviewIdCount": 70,
+      "iteration": 7,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 726,
+        "uniqueReviewIdCount": 80,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 23386.5,
+        "scrollHeight": 26674,
+        "clientHeight": 498,
+        "distanceToBottom": 2789.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.37489540874958e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 23386.5,
+      "after": 26175.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 26674,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 726,
+      "uniqueReviewIdCount": 80,
+      "iteration": 8,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 811,
+        "uniqueReviewIdCount": 90,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 26175.5,
+        "scrollHeight": 29511,
+        "clientHeight": 498,
+        "distanceToBottom": 2837.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.875015631318092e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 26175.5,
+      "after": 29012.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 29511,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 811,
+      "uniqueReviewIdCount": 90,
+      "iteration": 9,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 897,
+        "uniqueReviewIdCount": 100,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 29012.5,
+        "scrollHeight": 32438,
+        "clientHeight": 498,
+        "distanceToBottom": 2927.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.041023880243301e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 29012.5,
+      "after": 31939.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 32438,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 897,
+      "uniqueReviewIdCount": 100,
+      "iteration": 10,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 979,
+        "uniqueReviewIdCount": 110,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 31939.5,
+        "scrollHeight": 34975,
+        "clientHeight": 498,
+        "distanceToBottom": 2537.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.00003807246685e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 31939.5,
+      "after": 34476.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 34975,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 979,
+      "uniqueReviewIdCount": 110,
+      "iteration": 11,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 1060,
+        "uniqueReviewIdCount": 120,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 34476.5,
+        "scrollHeight": 37665,
+        "clientHeight": 498,
+        "distanceToBottom": 2690.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.333001121878624e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 34476.5,
+      "after": 37166.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 37665,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1060,
+      "uniqueReviewIdCount": 120,
+      "iteration": 12,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 1140,
+        "uniqueReviewIdCount": 130,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 37166.5,
+        "scrollHeight": 39992,
+        "clientHeight": 498,
+        "distanceToBottom": 2327.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 9.207986295223236e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 37166.5,
+      "after": 39493.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 39992,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1140,
+      "uniqueReviewIdCount": 130,
+      "iteration": 13,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 1220,
+        "uniqueReviewIdCount": 140,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 39493.5,
+        "scrollHeight": 42193,
+        "clientHeight": 498,
+        "distanceToBottom": 2201.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.707843229174614e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 39493.5,
+      "after": 41694.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 42193,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1220,
+      "uniqueReviewIdCount": 140,
+      "iteration": 14,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 1300,
+        "uniqueReviewIdCount": 150,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 41694.5,
+        "scrollHeight": 44226,
+        "clientHeight": 498,
+        "distanceToBottom": 2033.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.0499963536858559e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 41694.5,
+      "after": 43727.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 44226,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1300,
+      "uniqueReviewIdCount": 150,
+      "iteration": 15,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 1380,
+        "uniqueReviewIdCount": 160,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 43727.5,
+        "scrollHeight": 46196,
+        "clientHeight": 498,
+        "distanceToBottom": 1970.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.875015631318092e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 43727.5,
+      "after": 45697.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 46196,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1380,
+      "uniqueReviewIdCount": 160,
+      "iteration": 16,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 1437,
+        "uniqueReviewIdCount": 170,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 45697.5,
+        "scrollHeight": 47812,
+        "clientHeight": 498,
+        "distanceToBottom": 1616.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.8747904151678085e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 45697.5,
+      "after": 47313.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 47812,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1437,
+      "uniqueReviewIdCount": 170,
+      "iteration": 17,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 1487,
+        "uniqueReviewIdCount": 180,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 47313.5,
+        "scrollHeight": 49182,
+        "clientHeight": 498,
+        "distanceToBottom": 1370.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.458023563027382e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 47313.5,
+      "after": 48683.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 49182,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1487,
+      "uniqueReviewIdCount": 180,
+      "iteration": 18,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 1537,
+        "uniqueReviewIdCount": 190,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 48683.5,
+        "scrollHeight": 50552,
+        "clientHeight": 498,
+        "distanceToBottom": 1370.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 4.417030140757561e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 48683.5,
+      "after": 50053.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 50552,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1537,
+      "uniqueReviewIdCount": 190,
+      "iteration": 19,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 1582,
+        "uniqueReviewIdCount": 199,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 50053.5,
+        "scrollHeight": 51713,
+        "clientHeight": 498,
+        "distanceToBottom": 1161.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.749985575675964e-06,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 50053.5,
+      "after": 51214.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 51713,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1582,
+      "uniqueReviewIdCount": 199,
+      "iteration": 20,
+      "declaredReviewTotal": 199,
+      "stateAfterDelay": {
+        "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+        "reviewNodeCount": 1582,
+        "uniqueReviewIdCount": 199,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 51214.5,
+        "scrollHeight": 51713,
+        "clientHeight": 498,
+        "distanceToBottom": 0.5
+      },
+      "declaredTotalSettle": {
+        "waitSeconds": 1.5,
+        "stateAfterSettle": {
+          "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+          "reviewNodeCount": 1582,
+          "uniqueReviewIdCount": 199,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 51214.5,
+          "scrollHeight": 51713,
+          "clientHeight": 498,
+          "distanceToBottom": 0.5
+        }
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.630375416018069,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": true
+    }
+  ],
+  "scrollStopReason": "declared_total_reached_fast",
+  "exhausted": false,
+  "scrollSafetyTimeoutHit": false,
+  "growthEvents": [
+    {
+      "iteration": 1,
+      "uniqueReviewIdCount": 20,
+      "scrollHeight": 8374
+    },
+    {
+      "iteration": 2,
+      "uniqueReviewIdCount": 30,
+      "scrollHeight": 12318
+    },
+    {
+      "iteration": 3,
+      "uniqueReviewIdCount": 40,
+      "scrollHeight": 15606
+    },
+    {
+      "iteration": 4,
+      "uniqueReviewIdCount": 50,
+      "scrollHeight": 18269
+    },
+    {
+      "iteration": 5,
+      "uniqueReviewIdCount": 60,
+      "scrollHeight": 21054
+    },
+    {
+      "iteration": 6,
+      "uniqueReviewIdCount": 70,
+      "scrollHeight": 23885
+    },
+    {
+      "iteration": 7,
+      "uniqueReviewIdCount": 80,
+      "scrollHeight": 26674
+    },
+    {
+      "iteration": 8,
+      "uniqueReviewIdCount": 90,
+      "scrollHeight": 29511
+    },
+    {
+      "iteration": 9,
+      "uniqueReviewIdCount": 100,
+      "scrollHeight": 32438
+    },
+    {
+      "iteration": 10,
+      "uniqueReviewIdCount": 110,
+      "scrollHeight": 34975
+    },
+    {
+      "iteration": 11,
+      "uniqueReviewIdCount": 120,
+      "scrollHeight": 37665
+    },
+    {
+      "iteration": 12,
+      "uniqueReviewIdCount": 130,
+      "scrollHeight": 39992
+    },
+    {
+      "iteration": 13,
+      "uniqueReviewIdCount": 140,
+      "scrollHeight": 42193
+    },
+    {
+      "iteration": 14,
+      "uniqueReviewIdCount": 150,
+      "scrollHeight": 44226
+    },
+    {
+      "iteration": 15,
+      "uniqueReviewIdCount": 160,
+      "scrollHeight": 46196
+    },
+    {
+      "iteration": 16,
+      "uniqueReviewIdCount": 170,
+      "scrollHeight": 47812
+    },
+    {
+      "iteration": 17,
+      "uniqueReviewIdCount": 180,
+      "scrollHeight": 49182
+    },
+    {
+      "iteration": 18,
+      "uniqueReviewIdCount": 190,
+      "scrollHeight": 50552
+    },
+    {
+      "iteration": 19,
+      "uniqueReviewIdCount": 199,
+      "scrollHeight": 51713
+    }
+  ],
+  "networkEventsDuringScroll": 104,
+  "finalNetworkIdleSeconds": 6.630380083108321,
+  "noGrowthCycles": 0,
+  "finalReviewsState": {
+    "title": "Kliniken Landkreis Diepholz gGmbH - Klinik Bassum - Google Maps",
+    "reviewNodeCount": 1582,
+    "uniqueReviewIdCount": 199,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 51214.5,
+    "scrollHeight": 51713,
+    "clientHeight": 498,
+    "distanceToBottom": 0.5
+  },
+  "reachedDeclaredReviewTotal": true,
+  "reachedReviewPaneEnd": true,
+  "finalUniqueReviewIdCount": 199,
+  "finalScrollTop": 51214.5,
+  "finalScrollHeight": 51713,
+  "reviewExpansion": {
+    "buttonCount": 73,
+    "clickedCount": 73
+  },
+  "matchedRequestCount": 152,
+  "batchexecuteCount": 3,
+  "reviewPhaseXhrCount": 120,
+  "captureSuccessful": true,
+  "finishedAt": "2026-05-11T14:09:52Z",
   "retryRunsRequested": 2,
   "retryRunsExecuted": 1,
   "retryAttempts": [
@@ -674,14 +977,14 @@
       "attempt": 1,
       "outputDir": "artifacts/klinik-bassum",
       "scrollDelayUsed": 1.5,
-      "captureSuccessful": false,
-      "failureReason": "reviews_panel_not_opened",
-      "finalUniqueReviewIdCount": 0,
-      "scrollStopReason": "reviews_panel_not_opened",
-      "declaredReviewTotal": null
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 199,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 199
     }
   ],
-  "mergedReviewCountAcrossAttempts": 0,
-  "reviewsPath": null,
-  "latestDeclaredReviewTotalAcrossAttempts": null
+  "mergedReviewCountAcrossAttempts": 162,
+  "reviewsPath": "artifacts/klinik-bassum/reviews.json",
+  "latestDeclaredReviewTotalAcrossAttempts": 199
 }

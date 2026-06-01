@@ -4,11 +4,21 @@
       "attempt": 1,
       "outputDir": "artifacts/herzogin-elisabeth-hospital",
       "scrollDelayUsed": 1.5,
+      "captureSuccessful": false,
+      "failureReason": "unexpected_capture_exception",
+      "finalUniqueReviewIdCount": 0,
+      "scrollStopReason": "unexpected_capture_exception",
+      "declaredReviewTotal": null
+    },
+    {
+      "attempt": 2,
+      "outputDir": "artifacts/herzogin-elisabeth-hospital/retry_2",
+      "scrollDelayUsed": 2.25,
       "captureSuccessful": true,
       "failureReason": null,
-      "finalUniqueReviewIdCount": 430,
+      "finalUniqueReviewIdCount": 434,
       "scrollStopReason": "exhausted_no_growth_at_bottom",
-      "declaredReviewTotal": 431
+      "declaredReviewTotal": 435
     }
   ]
 }

@@ -1,0 +1,1372 @@
+{
+  "generated_at": "2026-05-15T12:30:30.095372+00:00",
+  "version": "v1_8",
+  "source_benchmark_path": "analysis/llm/benchmark_comparison/benchmark_v1_120_reviewed_2026-05-14T13-43-24Z.json",
+  "v1_prediction_path": "analysis/llm/benchmark_comparison/reviews_v1_120_labled.json",
+  "v1_7_prediction_path": "analysis/llm/benchmark_comparison/reviews_v1_7_120_labeled.json",
+  "train_ids_path": "analysis/llm/finetune/reviews_v1_7_train_ids_100.txt",
+  "holdout_ids_path": "analysis/llm/finetune/reviews_v1_7_holdout_ids_20.txt",
+  "selected_source_count": 40,
+  "target_accepted_augmentations": 80,
+  "variants_per_review": 2,
+  "max_attempts_per_source": 5,
+  "paraphrase_model": "gpt-5.1",
+  "paraphrase_reasoning_effort": "low",
+  "judge_model": "gpt-5.1",
+  "judge_reasoning_effort": "low",
+  "target_labels": [
+    "access.reachability",
+    "access.waiting",
+    "care.competence",
+    "communication.explanation",
+    "communication.information",
+    "staff.empathy",
+    "staff.friendliness",
+    "staff.seriousness"
+  ],
+  "primary_source_ids": [
+    "delme-klinikum-delmenhorst:196",
+    "staedtisches-klinikum-lueneburg-ggmbh:13",
+    "klinikum-wolfsburg:83",
+    "medizinische-hochschule-hannover:65",
+    "christliches-kinderhospital-osnabrueck:110",
+    "st-bernward-krankenhaus:128",
+    "agaplesion-ev-klinikum-schaumburg:227",
+    "diakovere-annastift:2",
+    "euregio-klinik-albert-schweitzer-strasse-gmbh:49",
+    "helios-klinikum-gifhorn-gmbh:113",
+    "karl-jaspers-klinik-fuer-psychosomatische-medizin-und-psychotherapie:7",
+    "karl-jaspers-klinik:7",
+    "klinikum-emden-hans-susemihl-krankenhaus-ggmbh:34",
+    "klinikum-emden-hans-susemihl-krankenhaus-ggmbh:74",
+    "klinikum-wahrendorff-gmbh:14",
+    "krh-klinikum-robert-koch-gehrden:242",
+    "staedtisches-klinikum-lueneburg-ggmbh:181",
+    "delme-klinikum-delmenhorst:174",
+    "diakovere-friederikenstift:1",
+    "helios-klinikum-salzgitter-gmbh:187",
+    "klinik-fallingbostel-fachklinik-fuer-herz-und-kreislauferkrankungen:21",
+    "krh-klinikum-siloah:155",
+    "krh-klinikum-grossburgwedel:95",
+    "clemens-august-klinik:33",
+    "delme-klinikum-delmenhorst:4",
+    "elbe-klinikum-stade:18",
+    "median-zentrum-fuer-verhaltensmedizin-bad-pyrmont-fachkrankenhaus:48",
+    "st-bernward-krankenhaus:166",
+    "agaplesion-ev-klinikum-schaumburg:5",
+    "ameos-klinikum-seepark-geestland-gmbh:55",
+    "christliches-krankenhaus-quakenbrueck:61",
+    "drk-krankenhaus-clementinenhaus:10",
+    "mediclin-seepark-klinik-akutpsychosomatik-schwerpunkt-essstoerungen:19",
+    "sana-klinikum-hameln-pyrmont:245",
+    "staedtisches-klinikum-wolfenbuettel-ggmbh:186",
+    "diakovere-henriettenstift:55",
+    "st-johannes-hospital:76",
+    "vinzenzkrankenhaus:159",
+    "christliches-krankenhaus-quakenbrueck:136",
+    "helios-klinikum-salzgitter-gmbh:234"
+  ],
+  "reserve_source_ids": [
+    "klinikum-leer-ggmbh:157",
+    "klinikum-wilhelmshaven-ggmbh:288",
+    "klinikum-wolfsburg:63",
+    "krankenhaus-st-elisabeth-ggmbh:67",
+    "krh-klinikum-siloah:12",
+    "diakovere-friederikenstift:151",
+    "karl-jaspers-klinik:31",
+    "medizinische-hochschule-hannover:461",
+    "allgemeines-krankenhaus-celle:458",
+    "asklepios-harzklinik-goslar:290",
+    "delme-klinikum-delmenhorst:303",
+    "diakovere-friederikenstift:704",
+    "drk-krankenhaus-clementinenhaus:136",
+    "elbe-klinikum-buxtehude:26",
+    "euregio-klinik-albert-schweitzer-strasse-gmbh:84",
+    "klinik-lilienthal:55",
+    "klinikum-osnabrueck:142",
+    "krh-klinikum-grossburgwedel:244",
+    "staedtisches-klinikum-wolfenbuettel-ggmbh:121",
+    "venenzentrum-braunschweig:26",
+    "vinzenzkrankenhaus:225",
+    "christliches-kinderhospital-osnabrueck:136",
+    "christliches-krankenhaus-quakenbrueck:37",
+    "klinik-dr-hancken:35",
+    "mediclin-seepark-klinik-akutpsychosomatik-schwerpunkt-essstoerungen:13",
+    "paracelsus-klinik-am-silbersee:138",
+    "staedtisches-klinikum-lueneburg-ggmbh:394",
+    "agaplesion-krankenhaus-neu-bethlehem-ggmbh:24",
+    "asklepios-harzklinik-goslar:207",
+    "bundeswehrkrankenhaus:215",
+    "diakovere-friederikenstift:72",
+    "euregio-klinik-albert-schweitzer-strasse-gmbh:110",
+    "euregio-klinik-albert-schweitzer-strasse-gmbh:316",
+    "helios-klinikum-salzgitter-gmbh:12",
+    "klinik-bassum:27",
+    "klinikum-osnabrueck:378",
+    "krankenhaus-buchholz-und-winsen-ggmbh-krankenhaus-buchholz:61",
+    "krh-klinikum-lehrte:68",
+    "krh-klinikum-neustadt-am-ruebenberge:419",
+    "niels-stensen-kliniken-bramsche:51",
+    "sana-klinikum-hameln-pyrmont:219",
+    "sana-klinikum-hameln-pyrmont:83",
+    "st-johannes-hospital:28",
+    "st-johannes-hospital:381",
+    "staedtisches-klinikum-braunschweig:40",
+    "diakovere-henriettenstift:259",
+    "helios-klinik-cuxhaven-gmbh:22",
+    "helios-klinikum-hildesheim-gmbh:191",
+    "klinikum-hann-muenden-gmbh:85",
+    "krankenhaus-st-elisabeth-ggmbh:130",
+    "krh-klinikum-neustadt-am-ruebenberge:494",
+    "krh-klinikum-siloah:212",
+    "krh-klinikum-siloah:444",
+    "st-johannes-hospital:428",
+    "elbe-klinikum-stade:76",
+    "klinikum-leer-ggmbh:301",
+    "klinikum-leer-ggmbh:333",
+    "klinikum-osnabrueck:284",
+    "krh-klinikum-neustadt-am-ruebenberge:210",
+    "staedtisches-klinikum-braunschweig:185"
+  ],
+  "used_source_ids": [
+    "delme-klinikum-delmenhorst:196",
+    "staedtisches-klinikum-lueneburg-ggmbh:13",
+    "klinikum-wolfsburg:83",
+    "medizinische-hochschule-hannover:65",
+    "christliches-kinderhospital-osnabrueck:110",
+    "st-bernward-krankenhaus:128",
+    "agaplesion-ev-klinikum-schaumburg:227",
+    "diakovere-annastift:2",
+    "euregio-klinik-albert-schweitzer-strasse-gmbh:49",
+    "helios-klinikum-gifhorn-gmbh:113",
+    "karl-jaspers-klinik-fuer-psychosomatische-medizin-und-psychotherapie:7",
+    "karl-jaspers-klinik:7",
+    "klinikum-emden-hans-susemihl-krankenhaus-ggmbh:34",
+    "klinikum-emden-hans-susemihl-krankenhaus-ggmbh:74",
+    "klinikum-wahrendorff-gmbh:14",
+    "krh-klinikum-robert-koch-gehrden:242",
+    "staedtisches-klinikum-lueneburg-ggmbh:181",
+    "delme-klinikum-delmenhorst:174",
+    "diakovere-friederikenstift:1",
+    "helios-klinikum-salzgitter-gmbh:187",
+    "klinik-fallingbostel-fachklinik-fuer-herz-und-kreislauferkrankungen:21",
+    "krh-klinikum-siloah:155",
+    "krh-klinikum-grossburgwedel:95",
+    "clemens-august-klinik:33",
+    "delme-klinikum-delmenhorst:4",
+    "elbe-klinikum-stade:18",
+    "median-zentrum-fuer-verhaltensmedizin-bad-pyrmont-fachkrankenhaus:48",
+    "st-bernward-krankenhaus:166",
+    "agaplesion-ev-klinikum-schaumburg:5",
+    "ameos-klinikum-seepark-geestland-gmbh:55",
+    "christliches-krankenhaus-quakenbrueck:61",
+    "drk-krankenhaus-clementinenhaus:10",
+    "mediclin-seepark-klinik-akutpsychosomatik-schwerpunkt-essstoerungen:19",
+    "sana-klinikum-hameln-pyrmont:245",
+    "staedtisches-klinikum-wolfenbuettel-ggmbh:186",
+    "diakovere-henriettenstift:55",
+    "st-johannes-hospital:76",
+    "vinzenzkrankenhaus:159",
+    "christliches-krankenhaus-quakenbrueck:136",
+    "helios-klinikum-salzgitter-gmbh:234"
+  ],
+  "accepted_source_ids": [
+    "agaplesion-ev-klinikum-schaumburg:227",
+    "agaplesion-ev-klinikum-schaumburg:5",
+    "ameos-klinikum-seepark-geestland-gmbh:55",
+    "christliches-kinderhospital-osnabrueck:110",
+    "christliches-krankenhaus-quakenbrueck:136",
+    "christliches-krankenhaus-quakenbrueck:61",
+    "clemens-august-klinik:33",
+    "delme-klinikum-delmenhorst:174",
+    "delme-klinikum-delmenhorst:196",
+    "delme-klinikum-delmenhorst:4",
+    "diakovere-annastift:2",
+    "diakovere-friederikenstift:1",
+    "diakovere-henriettenstift:55",
+    "drk-krankenhaus-clementinenhaus:10",
+    "elbe-klinikum-stade:18",
+    "euregio-klinik-albert-schweitzer-strasse-gmbh:49",
+    "helios-klinikum-gifhorn-gmbh:113",
+    "helios-klinikum-salzgitter-gmbh:187",
+    "helios-klinikum-salzgitter-gmbh:234",
+    "karl-jaspers-klinik-fuer-psychosomatische-medizin-und-psychotherapie:7",
+    "karl-jaspers-klinik:7",
+    "klinik-fallingbostel-fachklinik-fuer-herz-und-kreislauferkrankungen:21",
+    "klinikum-emden-hans-susemihl-krankenhaus-ggmbh:34",
+    "klinikum-emden-hans-susemihl-krankenhaus-ggmbh:74",
+    "klinikum-wahrendorff-gmbh:14",
+    "klinikum-wolfsburg:83",
+    "krh-klinikum-grossburgwedel:95",
+    "krh-klinikum-robert-koch-gehrden:242",
+    "krh-klinikum-siloah:155",
+    "median-zentrum-fuer-verhaltensmedizin-bad-pyrmont-fachkrankenhaus:48",
+    "mediclin-seepark-klinik-akutpsychosomatik-schwerpunkt-essstoerungen:19",
+    "medizinische-hochschule-hannover:65",
+    "sana-klinikum-hameln-pyrmont:245",
+    "st-bernward-krankenhaus:128",
+    "st-bernward-krankenhaus:166",
+    "st-johannes-hospital:76",
+    "staedtisches-klinikum-lueneburg-ggmbh:13",
+    "staedtisches-klinikum-lueneburg-ggmbh:181",
+    "staedtisches-klinikum-wolfenbuettel-ggmbh:186",
+    "vinzenzkrankenhaus:159"
+  ],
+  "selection_details": {
+    "delme-klinikum-delmenhorst:196": {
+      "score": 22,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "access.waiting",
+        "care.competence",
+        "communication.explanation",
+        "communication.information",
+        "staff.empathy",
+        "staff.friendliness",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "staedtisches-klinikum-lueneburg-ggmbh:13": {
+      "score": 22,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "care.competence",
+        "care.competence",
+        "communication.explanation",
+        "communication.information",
+        "staff.empathy",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "klinikum-wolfsburg:83": {
+      "score": 20,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "care.competence",
+        "communication.explanation",
+        "staff.empathy",
+        "staff.friendliness",
+        "staff.friendliness",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "medizinische-hochschule-hannover:65": {
+      "score": 19,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.reachability",
+        "access.waiting",
+        "care.competence",
+        "communication.information",
+        "staff.empathy",
+        "staff.friendliness",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "christliches-kinderhospital-osnabrueck:110": {
+      "score": 18,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "access.waiting",
+        "care.competence",
+        "communication.explanation",
+        "staff.empathy",
+        "staff.friendliness",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "st-bernward-krankenhaus:128": {
+      "score": 18,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "care.competence",
+        "communication.information",
+        "staff.empathy",
+        "staff.friendliness",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "agaplesion-ev-klinikum-schaumburg:227": {
+      "score": 16,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "care.competence",
+        "communication.information",
+        "staff.empathy",
+        "staff.friendliness",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "diakovere-annastift:2": {
+      "score": 16,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "care.competence",
+        "communication.explanation",
+        "communication.information",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "euregio-klinik-albert-schweitzer-strasse-gmbh:49": {
+      "score": 16,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "access.waiting",
+        "communication.explanation",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "helios-klinikum-gifhorn-gmbh:113": {
+      "score": 16,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "access.waiting",
+        "communication.information",
+        "staff.friendliness",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "karl-jaspers-klinik-fuer-psychosomatische-medizin-und-psychotherapie:7": {
+      "score": 16,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "care.competence",
+        "care.competence",
+        "staff.empathy",
+        "staff.friendliness",
+        "staff.friendliness",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "karl-jaspers-klinik:7": {
+      "score": 16,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "care.competence",
+        "care.competence",
+        "staff.empathy",
+        "staff.friendliness",
+        "staff.friendliness",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "klinikum-emden-hans-susemihl-krankenhaus-ggmbh:34": {
+      "score": 16,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "access.reachability",
+        "access.waiting",
+        "staff.friendliness",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "klinikum-emden-hans-susemihl-krankenhaus-ggmbh:74": {
+      "score": 16,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "staff.empathy",
+        "staff.friendliness",
+        "staff.friendliness",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "klinikum-wahrendorff-gmbh:14": {
+      "score": 16,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "communication.explanation",
+        "communication.information",
+        "staff.friendliness",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "krh-klinikum-robert-koch-gehrden:242": {
+      "score": 16,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "communication.explanation",
+        "communication.information",
+        "staff.empathy",
+        "staff.empathy",
+        "staff.friendliness",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "staedtisches-klinikum-lueneburg-ggmbh:181": {
+      "score": 16,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "care.competence",
+        "communication.information",
+        "staff.empathy",
+        "staff.friendliness",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "delme-klinikum-delmenhorst:174": {
+      "score": 14,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.waiting",
+        "communication.explanation",
+        "communication.information",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": false
+    },
+    "diakovere-friederikenstift:1": {
+      "score": 14,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "access.waiting",
+        "communication.explanation",
+        "communication.information",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "helios-klinikum-salzgitter-gmbh:187": {
+      "score": 14,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "access.waiting",
+        "communication.explanation",
+        "staff.friendliness",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "klinik-fallingbostel-fachklinik-fuer-herz-und-kreislauferkrankungen:21": {
+      "score": 14,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "communication.explanation",
+        "communication.information",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "krh-klinikum-siloah:155": {
+      "score": 14,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "access.waiting",
+        "care.competence",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "krh-klinikum-grossburgwedel:95": {
+      "score": 13,
+      "bucket": "positive",
+      "target_label_hits": [
+        "access.waiting",
+        "care.competence",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "clemens-august-klinik:33": {
+      "score": 12,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "staff.empathy",
+        "staff.friendliness",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "delme-klinikum-delmenhorst:4": {
+      "score": 12,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "care.competence",
+        "staff.friendliness",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "elbe-klinikum-stade:18": {
+      "score": 12,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "access.waiting",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "median-zentrum-fuer-verhaltensmedizin-bad-pyrmont-fachkrankenhaus:48": {
+      "score": 12,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "access.reachability",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "st-bernward-krankenhaus:166": {
+      "score": 12,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "staff.empathy",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "agaplesion-ev-klinikum-schaumburg:5": {
+      "score": 11,
+      "bucket": "negative",
+      "target_label_hits": [
+        "care.competence",
+        "staff.empathy",
+        "staff.friendliness",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "ameos-klinikum-seepark-geestland-gmbh:55": {
+      "score": 10,
+      "bucket": "positive",
+      "target_label_hits": [
+        "access.waiting",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": false
+    },
+    "christliches-krankenhaus-quakenbrueck:61": {
+      "score": 10,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "care.competence",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "drk-krankenhaus-clementinenhaus:10": {
+      "score": 10,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.waiting",
+        "communication.information",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "mediclin-seepark-klinik-akutpsychosomatik-schwerpunkt-essstoerungen:19": {
+      "score": 10,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "communication.explanation",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "sana-klinikum-hameln-pyrmont:245": {
+      "score": 10,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.waiting",
+        "care.competence",
+        "communication.explanation",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "staedtisches-klinikum-wolfenbuettel-ggmbh:186": {
+      "score": 10,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "diakovere-henriettenstift:55": {
+      "score": 9,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "care.competence",
+        "communication.explanation",
+        "communication.information"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "st-johannes-hospital:76": {
+      "score": 9,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.waiting",
+        "staff.friendliness",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "vinzenzkrankenhaus:159": {
+      "score": 9,
+      "bucket": "positive",
+      "target_label_hits": [
+        "care.competence",
+        "communication.explanation",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "christliches-krankenhaus-quakenbrueck:136": {
+      "score": 8,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "helios-klinikum-salzgitter-gmbh:234": {
+      "score": 8,
+      "bucket": "positive",
+      "target_label_hits": [
+        "care.competence",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": false
+    },
+    "klinikum-leer-ggmbh:157": {
+      "score": 8,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.reachability",
+        "communication.information",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "klinikum-wilhelmshaven-ggmbh:288": {
+      "score": 8,
+      "bucket": "positive",
+      "target_label_hits": [
+        "communication.explanation",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "klinikum-wolfsburg:63": {
+      "score": 8,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.waiting",
+        "staff.empathy"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": false
+    },
+    "krankenhaus-st-elisabeth-ggmbh:67": {
+      "score": 8,
+      "bucket": "positive",
+      "target_label_hits": [
+        "care.competence",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": false
+    },
+    "krh-klinikum-siloah:12": {
+      "score": 8,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "communication.information"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "diakovere-friederikenstift:151": {
+      "score": 7,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "communication.information"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "karl-jaspers-klinik:31": {
+      "score": 7,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "communication.explanation",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "medizinische-hochschule-hannover:461": {
+      "score": 7,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.waiting",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": true
+    },
+    "allgemeines-krankenhaus-celle:458": {
+      "score": 6,
+      "bucket": "negative",
+      "target_label_hits": [
+        "care.competence",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "asklepios-harzklinik-goslar:290": {
+      "score": 6,
+      "bucket": "negative",
+      "target_label_hits": [
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "delme-klinikum-delmenhorst:303": {
+      "score": 6,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.reachability",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "diakovere-friederikenstift:704": {
+      "score": 6,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.waiting",
+        "care.competence",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "drk-krankenhaus-clementinenhaus:136": {
+      "score": 6,
+      "bucket": "positive",
+      "target_label_hits": [
+        "care.competence",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "elbe-klinikum-buxtehude:26": {
+      "score": 6,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.waiting",
+        "staff.empathy"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": false
+    },
+    "euregio-klinik-albert-schweitzer-strasse-gmbh:84": {
+      "score": 6,
+      "bucket": "positive",
+      "target_label_hits": [
+        "care.competence",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "klinik-lilienthal:55": {
+      "score": 6,
+      "bucket": "positive",
+      "target_label_hits": [
+        "care.competence",
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "klinikum-osnabrueck:142": {
+      "score": 6,
+      "bucket": "negative",
+      "target_label_hits": [
+        "staff.empathy",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "krh-klinikum-grossburgwedel:244": {
+      "score": 6,
+      "bucket": "negative",
+      "target_label_hits": [
+        "care.competence",
+        "staff.empathy"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "staedtisches-klinikum-wolfenbuettel-ggmbh:121": {
+      "score": 6,
+      "bucket": "negative",
+      "target_label_hits": [
+        "care.competence"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": false
+    },
+    "venenzentrum-braunschweig:26": {
+      "score": 6,
+      "bucket": "positive",
+      "target_label_hits": [
+        "care.competence",
+        "communication.explanation",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "vinzenzkrankenhaus:225": {
+      "score": 6,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.waiting"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": false
+    },
+    "christliches-kinderhospital-osnabrueck:136": {
+      "score": 5,
+      "bucket": "positive",
+      "target_label_hits": [
+        "access.waiting",
+        "care.competence"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "christliches-krankenhaus-quakenbrueck:37": {
+      "score": 5,
+      "bucket": "positive",
+      "target_label_hits": [
+        "staff.empathy",
+        "staff.seriousness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "klinik-dr-hancken:35": {
+      "score": 5,
+      "bucket": "positive",
+      "target_label_hits": [
+        "access.waiting",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "mediclin-seepark-klinik-akutpsychosomatik-schwerpunkt-essstoerungen:13": {
+      "score": 5,
+      "bucket": "mixed_hard",
+      "target_label_hits": [
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "paracelsus-klinik-am-silbersee:138": {
+      "score": 5,
+      "bucket": "positive",
+      "target_label_hits": [
+        "staff.friendliness",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "staedtisches-klinikum-lueneburg-ggmbh:394": {
+      "score": 5,
+      "bucket": "positive",
+      "target_label_hits": [
+        "staff.friendliness"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": true
+    },
+    "agaplesion-krankenhaus-neu-bethlehem-ggmbh:24": {
+      "score": 4,
+      "bucket": "positive",
+      "target_label_hits": [
+        "care.competence",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "asklepios-harzklinik-goslar:207": {
+      "score": 4,
+      "bucket": "positive",
+      "target_label_hits": [
+        "communication.explanation",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "bundeswehrkrankenhaus:215": {
+      "score": 4,
+      "bucket": "positive",
+      "target_label_hits": [
+        "care.competence",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "diakovere-friederikenstift:72": {
+      "score": 4,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.reachability"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "euregio-klinik-albert-schweitzer-strasse-gmbh:110": {
+      "score": 4,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.waiting"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "euregio-klinik-albert-schweitzer-strasse-gmbh:316": {
+      "score": 4,
+      "bucket": "negative",
+      "target_label_hits": [
+        "communication.explanation",
+        "staff.empathy"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "helios-klinikum-salzgitter-gmbh:12": {
+      "score": 4,
+      "bucket": "positive",
+      "target_label_hits": [
+        "access.waiting",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "klinik-bassum:27": {
+      "score": 4,
+      "bucket": "positive",
+      "target_label_hits": [
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "klinikum-osnabrueck:378": {
+      "score": 4,
+      "bucket": "positive",
+      "target_label_hits": [
+        "care.competence"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "krankenhaus-buchholz-und-winsen-ggmbh-krankenhaus-buchholz:61": {
+      "score": 4,
+      "bucket": "negative",
+      "target_label_hits": [
+        "care.competence"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "krh-klinikum-lehrte:68": {
+      "score": 4,
+      "bucket": "positive",
+      "target_label_hits": [
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "krh-klinikum-neustadt-am-ruebenberge:419": {
+      "score": 4,
+      "bucket": "positive",
+      "target_label_hits": [
+        "communication.explanation",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "niels-stensen-kliniken-bramsche:51": {
+      "score": 4,
+      "bucket": "positive",
+      "target_label_hits": [
+        "care.competence",
+        "staff.empathy"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "sana-klinikum-hameln-pyrmont:219": {
+      "score": 4,
+      "bucket": "positive",
+      "target_label_hits": [
+        "care.competence",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "sana-klinikum-hameln-pyrmont:83": {
+      "score": 4,
+      "bucket": "positive",
+      "target_label_hits": [
+        "staff.empathy",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "st-johannes-hospital:28": {
+      "score": 4,
+      "bucket": "negative",
+      "target_label_hits": [],
+      "v1_missed_any": true,
+      "v17_added_extra_any": true,
+      "mixed_problem_and_strength": false
+    },
+    "st-johannes-hospital:381": {
+      "score": 4,
+      "bucket": "positive",
+      "target_label_hits": [
+        "care.competence",
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "staedtisches-klinikum-braunschweig:40": {
+      "score": 4,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.waiting"
+      ],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "diakovere-henriettenstift:259": {
+      "score": 2,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.waiting"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "helios-klinik-cuxhaven-gmbh:22": {
+      "score": 2,
+      "bucket": "negative",
+      "target_label_hits": [],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "helios-klinikum-hildesheim-gmbh:191": {
+      "score": 2,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.waiting"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "klinikum-hann-muenden-gmbh:85": {
+      "score": 2,
+      "bucket": "positive",
+      "target_label_hits": [
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "krankenhaus-st-elisabeth-ggmbh:130": {
+      "score": 2,
+      "bucket": "negative",
+      "target_label_hits": [
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "krh-klinikum-neustadt-am-ruebenberge:494": {
+      "score": 2,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.waiting"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "krh-klinikum-siloah:212": {
+      "score": 2,
+      "bucket": "negative",
+      "target_label_hits": [
+        "access.waiting"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "krh-klinikum-siloah:444": {
+      "score": 2,
+      "bucket": "negative",
+      "target_label_hits": [],
+      "v1_missed_any": true,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "st-johannes-hospital:428": {
+      "score": 2,
+      "bucket": "positive",
+      "target_label_hits": [
+        "staff.friendliness"
+      ],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "elbe-klinikum-stade:76": {
+      "score": 0,
+      "bucket": "positive",
+      "target_label_hits": [],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "klinikum-leer-ggmbh:301": {
+      "score": 0,
+      "bucket": "positive",
+      "target_label_hits": [],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "klinikum-leer-ggmbh:333": {
+      "score": 0,
+      "bucket": "negative",
+      "target_label_hits": [],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "klinikum-osnabrueck:284": {
+      "score": 0,
+      "bucket": "positive",
+      "target_label_hits": [],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "krh-klinikum-neustadt-am-ruebenberge:210": {
+      "score": 0,
+      "bucket": "positive",
+      "target_label_hits": [],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    },
+    "staedtisches-klinikum-braunschweig:185": {
+      "score": 0,
+      "bucket": "negative",
+      "target_label_hits": [],
+      "v1_missed_any": false,
+      "v17_added_extra_any": false,
+      "mixed_problem_and_strength": false
+    }
+  },
+  "artifacts": {
+    "source_ids_path": "analysis/llm/augmentation/reviews_v1_8_source_ids_40.txt",
+    "candidates_path": "analysis/llm/augmentation/reviews_v1_8_candidates.json",
+    "augmented_path": "analysis/llm/augmentation/reviews_v1_8_augmented_80.json",
+    "judgments_path": "analysis/llm/augmentation/reviews_v1_8_judgments.json",
+    "train_jsonl_path": "analysis/llm/finetune/reviews_v1_8_train_180.jsonl",
+    "valid_jsonl_path": "analysis/llm/finetune/reviews_v1_8_valid_20.jsonl"
+  }
+}

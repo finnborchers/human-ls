@@ -1,0 +1,548 @@
+{
+  "run_meta": {
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "sample_path": "analysis/llm/finetune/reviews_v1_7_holdout_ids_20.txt",
+    "temperature": null,
+    "reasoning_effort": null,
+    "generated_at": "2026-05-15T11:01:04.295451+00:00",
+    "prompt_version": "v1",
+    "runner": "analyze_llm_flat_v1_sweep_gemini.py",
+    "processed": 20,
+    "skipped": 0,
+    "errors": 0,
+    "total_request_sec": 115.9361,
+    "avg_request_sec": 5.7968,
+    "updated_at": "2026-05-15T11:03:00.269709+00:00"
+  },
+  "records": {
+    "ammerland-klinik-gmbh:297": {
+      "review_id": "ammerland-klinik-gmbh:297",
+      "review_index": 297,
+      "metadata": {
+        "place_id": "ammerland-klinik-gmbh",
+        "clinic_name": null,
+        "star_rating": 5,
+        "review_time": "vor 2 Jahren",
+        "like_count": 0,
+        "has_owner_response": false
+      },
+      "review_text": "Die Ammerland-Klinik ist eine klare Empfehlung. Unkomplizierte Terminvereinbarung, freundlich u. kompetente Beratung; gründliche Untersuchung, sehr nettes Klinikpersonal. Vorbildlich!!",
+      "labels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "access.appointments",
+          "staff.friendliness",
+          "care.competence",
+          "care.diagnosis"
+        ]
+      },
+      "request_duration_sec": 3.9728,
+      "model_name": "gemini-2.5-flash"
+    },
+    "asklepios-fachklinikum-goettingen:39": {
+      "review_id": "asklepios-fachklinikum-goettingen:39",
+      "review_index": 39,
+      "metadata": {
+        "place_id": "asklepios-fachklinikum-goettingen",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "Bearbeitet: vor 3 Jahren",
+        "like_count": 16,
+        "has_owner_response": true
+      },
+      "review_text": "Ich kann von dieser Klinik nur abraten! Man wird ziemlich schnell aus den Therapiestationen rausgeschmissen und auf die geschlossene oder Akut verlegt. Auf der geschlossenen Station werden Fixierungen nicht als „die letzte Möglichkeit“ angewandt und viel zu lange angewandt. Wenn man sich gegen die Fixierung wehrt, weil man zum Beispiel Panik bekommt, wird die dort genannte „Streckfixierung“ angewandt, was mehr eine Foltermethode als eine medizinische Maßnahme ist. Die Arme und Hände werden taub und tuen weh und trotz mehrmaligen Bescheid sagen, wurde die Position nicht geändert, weil man sich beruhigen soll. Aber wie soll man sich beruhigen wenn man Schmerzen hat? Außerdem ist diese Maßnahme rechtlich gesehen auch nicht ok. Wenn man so aggressiv ist, dass eine 4 Punkt Fixierung nicht ausreicht, muss eine höhere Fixierung gemacht werden. Und das muss wieder vom Richter genehmigt werden. Da das aber zu viel Aufwand ist und die Fixiergurte zu viel Geld kosten, greift man zu dieser Art Folter. Außerdem habe ich schon mehrmals mitbekommen, das Patienten die nichts gemacht haben eingeliefert wurden, sich ruhig verhalten haben, aber sie direkt für die nächsten 2 Tage fixiert wurden, ohne wirklich zu überprüfen ob das notwendig sei. Die Richter halten sich eh an die Ärzte. Abgesehen davon wird auch so häufig fixiert, weil nicht genug Personal für Beobachtung da ist. Ich bin total zerstört und vor allem verstört aus dieser Klinik rausgegangen. Mittlerweile ist eine ganze Zeit vergangen, aber das Trauma begleitet mich noch 24/7. Vielen dank auch… (Wie es auf den Stationen Therapiestationen ist, davon kann ich kaum sprechen. War bislang nur auf Einer und dort wurde ich wieder rausgeworfen)",
+      "labels": {
+        "problem_labels": [
+          "coordination.coordination",
+          "care.treatment",
+          "care.safety",
+          "communication.communication",
+          "admin.costs",
+          "care.diagnosis"
+        ],
+        "strength_labels": []
+      },
+      "request_duration_sec": 9.1792,
+      "model_name": "gemini-2.5-flash"
+    },
+    "asklepios-fachklinikum-goettingen:77": {
+      "review_id": "asklepios-fachklinikum-goettingen:77",
+      "review_index": 77,
+      "metadata": {
+        "place_id": "asklepios-fachklinikum-goettingen",
+        "clinic_name": null,
+        "star_rating": 5,
+        "review_time": "Bearbeitet: vor 2 Jahren",
+        "like_count": 2,
+        "has_owner_response": true
+      },
+      "review_text": "Also vielen Dank für die mitarbeiter der Station 10,ihr seit die besten,habe mich dort so wohl gefühlt,und noch herzlichen dank an Herrn Blume, Danke",
+      "labels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "staff.friendliness",
+          "staff.empathy",
+          "staff.respect",
+          "environment.support"
+        ]
+      },
+      "request_duration_sec": 2.3591,
+      "model_name": "gemini-2.5-flash"
+    },
+    "asklepios-harzklinik-goslar:160": {
+      "review_id": "asklepios-harzklinik-goslar:160",
+      "review_index": 160,
+      "metadata": {
+        "place_id": "asklepios-harzklinik-goslar",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "vor 9 Jahren",
+        "like_count": 4,
+        "has_owner_response": false
+      },
+      "review_text": "Sehr unfreundliche und hochnäsige Mitarbeiter. Ich wurde trotz richtigem Überweisungsschein angemacht, ich habe einen Vogel, und wurde des Hauses verwiesen. Nachdem ich ein zweites mal angerufen habe, mein Problem geschildert habe, bekam …",
+      "labels": {
+        "problem_labels": [
+          "staff.friendliness",
+          "staff.respect",
+          "access.reachability"
+        ],
+        "strength_labels": []
+      },
+      "request_duration_sec": 3.6829,
+      "model_name": "gemini-2.5-flash"
+    },
+    "bundeswehrkrankenhaus:223": {
+      "review_id": "bundeswehrkrankenhaus:223",
+      "review_index": 223,
+      "metadata": {
+        "place_id": "bundeswehrkrankenhaus",
+        "clinic_name": null,
+        "star_rating": 3,
+        "review_time": "vor einem Jahr",
+        "like_count": 1,
+        "has_owner_response": true
+      },
+      "review_text": "Ich war zur OP einer Weber-B-Fraktur 2 Nächte in diesem KKH. An sich bin ich mit dem Verlauf etc zufrieden, die Auskünfte und Aufklärung der Ärzte nach der OP hätten jedoch etwas präsenter sein können. Eine absolute Katastrophe ist jedoch das Essen, morgens und abends geht es noch gerade so, auch wenn prinzipiell nicht das gebracht wurde, was man zuvor bestellt hat und es, gerade was Obst und Gemüse angeht, sehr übersichtlich war (entweder Gurke oder Tomate, beides geht nicht). Das Mittagessen jedoch ist wirklich eine Zumutung. Dass man sowas in 2024 Menschen noch vorsetzt, ist mir unerklärlich. Widerlich ist leider das einzig richtige Wort dafür. Ich konnte keinen Bissen davon essen. Bei einem Aufenthalt von 2 Nächten kein Problem, schlimm wird es für die Menschen, die längere Zeit in diesem KKH verbringen müssen. Bitte, bitte ändert daran etwas, Ernährung ist wichtig, gerade wenn man krank ist!!!",
+      "labels": {
+        "problem_labels": [
+          "communication.explanation",
+          "environment.food"
+        ],
+        "strength_labels": [
+          "care.treatment"
+        ]
+      },
+      "request_duration_sec": 4.5047,
+      "model_name": "gemini-2.5-flash"
+    },
+    "clemens-august-klinik:12": {
+      "review_id": "clemens-august-klinik:12",
+      "review_index": 12,
+      "metadata": {
+        "place_id": "clemens-august-klinik",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "Bearbeitet: vor 2 Monaten",
+        "like_count": 0,
+        "has_owner_response": false
+      },
+      "review_text": "Die Oberärzte sind so von oben herab und nicht einfühlsam. Des Weiteren wurde ich angelogen von meiner Therapeutin. Das Essen könnte besser sein. Wenig Therapien und viele Ausfälle. 😕 …",
+      "labels": {
+        "problem_labels": [
+          "staff.empathy",
+          "staff.respect",
+          "staff.seriousness",
+          "communication.communication",
+          "environment.food",
+          "care.treatment",
+          "coordination.coordination"
+        ],
+        "strength_labels": []
+      },
+      "request_duration_sec": 3.6141,
+      "model_name": "gemini-2.5-flash"
+    },
+    "delme-klinikum-delmenhorst:136": {
+      "review_id": "delme-klinikum-delmenhorst:136",
+      "review_index": 136,
+      "metadata": {
+        "place_id": "delme-klinikum-delmenhorst",
+        "clinic_name": null,
+        "star_rating": 5,
+        "review_time": "vor einem Jahr",
+        "like_count": 1,
+        "has_owner_response": true
+      },
+      "review_text": "Behandlung der Symptome etwas holprig. Das Personal auf Station 31 ist unglaublich aufmerksam, freundlich und geht sehr schnell auf die Belange ein!!! Immer ein freundliches Wort und Lächeln! Ist leider heutzutage nicht mehr selbstverständlich. Deshalb erleichtert es die Schmerzen sehr gut!! Ein tolles Team 👍👍👍",
+      "labels": {
+        "problem_labels": [
+          "care.symptoms"
+        ],
+        "strength_labels": [
+          "staff.friendliness",
+          "staff.empathy"
+        ]
+      },
+      "request_duration_sec": 4.5723,
+      "model_name": "gemini-2.5-flash"
+    },
+    "diakovere-annastift:48": {
+      "review_id": "diakovere-annastift:48",
+      "review_index": 48,
+      "metadata": {
+        "place_id": "diakovere-annastift",
+        "clinic_name": null,
+        "star_rating": 2,
+        "review_time": "vor einem Jahr",
+        "like_count": 0,
+        "has_owner_response": true
+      },
+      "review_text": "Ich wurde gestern im Annastift an der Hüfte operiert und habe ein neues Hüftgelenk bekommen. Die Dysplasie-Sprechstunde war toll. Hatte schnell einen Termin bekommen und auch sehr schnell einen Op- und Op- Vorbereitungstermin bekommen. Die Op- Vorbereitung war wie zu erwarten zeitaufwendig, aber alle waren super nett und freundlich. Das Sozialsteam habe ich per Mail kontaktiert, damit Sie sich um die Anschluss-Reha kümmern können. Das hat auch super geklappt. Die Parkplatzsituation am Krankenhaus ist katastrophal. Wenn man Glück hat, verlässt gerade jemand einen Parkplatz mit seinem Auto. Sonst sucht man ewig und verzweifelt eine Parkmöglichkeit. Zur OP selbst musste ich schon um 6:15 h da sein. Das lief auch alles gut und reibungslos. Auch als ich für die OP von der Anästhesie vorbereitet wurde, war alles top… sehr freundlich. Auf der Intensivstation waren ebenfalls alle sehr freundlich. Aber als ich auf Station A4 gebracht wurde, war ich sehr enttäuscht. Meine Krankenhaustasche war nicht wie versprochen im Zimmer. Das Mittagessen wurde mir von der Intensivstation auf mein Bett gestellt und mit auf die Station gebracht. Aber es war natürlich kalt und niemand kam mal auf die Idee zu fragen, ob das Essen aufgewärmt werden soll oder ob ich etwas brauchen würde. Erst nach dem ich irgendwann nachgefragt habe, ob mir meine Sachen ins Zimmer gebracht werden können, damit ich mich mal umziehen kann, bekam ich meine Sachen. Das Pflegepersonal ist einfach unterbesetzt. Und da genügt es nicht, Pflegekräfte aus dem Ausland einzustellen, die ein anderes Verständnis für Pflege haben als die hier in Deutschland ausgebildeten Pflegekräfte. Es gibt da leider große Unterschiede. Die Einheimischen Pflegekräfte sind sehr bemüht und freundlich, zuvorkommend und sehen auch, was die Patienten brauchen. Allerdings können Sie die Mankos der Pflegekräfte aus dem Ausland nicht alle kompensieren. Sie gehen wirklich auf dem Zahnfleisch. Sie sind schlicht weg überbeansprucht und sichtlich am Ende ihrer Kräfte. Traurig ist auch, was man für Mahlzeiten angeboten wird. Es fehlt an qualitativen Nahrungsmitteln. Es gibt kein Salat, Tomate oder Gurke als Beilage zum Abendessen. Der Kaffee morgens ist schauderhaft. Es gibt lauwarmes Wasser und dazu einen Ministick Instantkaffee. Das dürfte kaum günstiger sein, als große Kaffeemengen zu kochen. Es kam auch nicht mehr der Operierende Arzt zu mir, um mir zu erklären, was genau bei der Op passiert ist. Ebenso bin ich enttäuscht, dass die Physiotherapie erst am Tag nach der Operation kam. Ich habe mich kaum getraut zu klingeln in der Nacht, obwohl ich starke Schmerzen hatte und zur Toilette musste. Hab bis morgens 6;00 ausgehalten, bekam dann zwar eine Schmerztablette, aber keine Hilfe beim aufstehen, damit ich zur Toilette konnte, obwohl ich noch nicht alleine aufstehen sollte. Niemand kam morgens ins Zimmer, um zu fragen, ob man vielleicht Hilfe bei der Körperpflege und beim Ankleiden braucht. Da man nach einer Hüftoperation sich nicht über 90 Grad bücken darf, war es echt triggy sich saubere Wäsche anzuziehen. Auch wenn die meisten Angestellte hier im Annastift sehr nett sind, gibt es leider zu viel zu bemängeln. Ich komme selbst aus der Pflege und habe auch im Krankenhaus gearbeitet, aber da hat man den Patienten noch Hilfe angeboten und musste nicht schamhaft darum bitten. Ich verstehe, dass die Pflegekräfte überfordert sind und immer unterbesetzt, aber sie sollten dennoch fürsorglich mit den Patienten umgehen. Nicht alle Patienten, die keine Hilfe anfordern, benötigen auch keine Hilfe. Sie nehmen Rücksicht auf die Pflegekräfte… so wie ich, aber das ist falsch. Wir sind nicht umsonst im Krankenhaus.",
+      "labels": {
+        "problem_labels": [
+          "environment.facilities",
+          "coordination.coordination",
+          "environment.food",
+          "communication.communication",
+          "staff.seriousness",
+          "inclusion.culture",
+          "care.safety",
+          "communication.explanation",
+          "coordination.followup",
+          "staff.empathy"
+        ],
+        "strength_labels": [
+          "access.appointments",
+          "care.diagnosis",
+          "staff.friendliness",
+          "coordination.coordination",
+          "care.treatment",
+          "staff.empathy",
+          "staff.respect"
+        ]
+      },
+      "request_duration_sec": 12.8111,
+      "model_name": "gemini-2.5-flash"
+    },
+    "drk-krankenhaus-clementinenhaus:374": {
+      "review_id": "drk-krankenhaus-clementinenhaus:374",
+      "review_index": 374,
+      "metadata": {
+        "place_id": "drk-krankenhaus-clementinenhaus",
+        "clinic_name": null,
+        "star_rating": 5,
+        "review_time": "vor 3 Jahren",
+        "like_count": 0,
+        "has_owner_response": true
+      },
+      "review_text": "An die Belegschaft am23.02.23 abens in der Notaufnahme vielen vielen Dank ihr seit super!!! von den pflegern bis zur aerztin alle qualifiziert.",
+      "labels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "staff.friendliness",
+          "care.competence"
+        ]
+      },
+      "request_duration_sec": 2.7596,
+      "model_name": "gemini-2.5-flash"
+    },
+    "euregio-klinik-albert-schweitzer-strasse-gmbh:191": {
+      "review_id": "euregio-klinik-albert-schweitzer-strasse-gmbh:191",
+      "review_index": 191,
+      "metadata": {
+        "place_id": "euregio-klinik-albert-schweitzer-strasse-gmbh",
+        "clinic_name": null,
+        "star_rating": 5,
+        "review_time": "vor 7 Jahren",
+        "like_count": 2,
+        "has_owner_response": false
+      },
+      "review_text": "Schwiegervater war Ende 2014 auf Paliativstation zum Sterben wegen verstreuten Kehlkopfkrebs. Schwestern waren super net und Ärzte haben sich prima gekümmert. Enge Familie durfte sogar bis spät Abends leise zu Besuch bleiben. Mein Partner durfte als Sohn zum besonderen Fußball Spiel im Fernsehen bei seinem Vater im Zimmer bis Nachts bleiben und beide durften q Bier gemeinsam trinken.",
+      "labels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "staff.friendliness",
+          "care.treatment",
+          "environment.support"
+        ]
+      },
+      "request_duration_sec": 2.5738,
+      "model_name": "gemini-2.5-flash"
+    },
+    "helios-klinikum-hildesheim-gmbh:140": {
+      "review_id": "helios-klinikum-hildesheim-gmbh:140",
+      "review_index": 140,
+      "metadata": {
+        "place_id": "helios-klinikum-hildesheim-gmbh",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "vor einem Jahr",
+        "like_count": 0,
+        "has_owner_response": false
+      },
+      "review_text": "Patient wird eingeliefert am Freitag, es geht immer schlechter! Arzt sagt vor Montag wird hier nichts passieren! Auf eigene Kosten und Risiko in MHH gefahren! (Urologe) Notfall OP! Noch Samstag Nacht! Stark Unterbesetzt und Fehlende Geräte! Wenn es wirklich um etwas ernsthaftes geht! Vermeiden!",
+      "labels": {
+        "problem_labels": [
+          "access.waiting",
+          "care.treatment",
+          "care.symptoms",
+          "care.safety",
+          "care.competence",
+          "environment.facilities"
+        ],
+        "strength_labels": []
+      },
+      "request_duration_sec": 8.9121,
+      "model_name": "gemini-2.5-flash"
+    },
+    "herzogin-elisabeth-hospital:259": {
+      "review_id": "herzogin-elisabeth-hospital:259",
+      "review_index": 259,
+      "metadata": {
+        "place_id": "herzogin-elisabeth-hospital",
+        "clinic_name": null,
+        "star_rating": 5,
+        "review_time": "vor 3 Jahren",
+        "like_count": 4,
+        "has_owner_response": false
+      },
+      "review_text": "Bin sofort dran genommen. Die Schwestern lassen sich Zeit und sind mega freundlich 💪 Werde dort auch bald operiert. Habe vollstes Vertrauen. …",
+      "labels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "access.waiting",
+          "staff.friendliness",
+          "staff.empathy",
+          "care.competence"
+        ]
+      },
+      "request_duration_sec": 2.1201,
+      "model_name": "gemini-2.5-flash"
+    },
+    "klinikum-leer-ggmbh:180": {
+      "review_id": "klinikum-leer-ggmbh:180",
+      "review_index": 180,
+      "metadata": {
+        "place_id": "klinikum-leer-ggmbh",
+        "clinic_name": null,
+        "star_rating": 3,
+        "review_time": "vor 4 Jahren",
+        "like_count": 5,
+        "has_owner_response": false
+      },
+      "review_text": "Das Ärzteteam ist sehr gut. Danke für die erfolgreiche OP. Nun ein paar Anmerkungen zum Pflegepersonal... Prinzipiell erstmal freundlich, aber... Wenn frisch operierte Patienten nicht in der Lage sind, sich selbst zu waschen oder ins Bad zu gehen, sollten sie besser einen in der Pflege erfahrenen Angehörigen mitbringen, denn es wird NICHTS gemacht. Schlussendlich habe ich mir eine Waschschüssel geben lassen und das selbst übernommen. Meiner Meinung nach ein Armutszeugnis für die Pflege. Noch eine Anmerkung zur Mobilisierung... Wenn Patienten sich unbedingt bewegen wollen, aber zum Beispiel die letzten Zentimeter fehlen, um sich irgendwo festhalten zu können, hilft es für die Mobilisierung überhaupt nicht, wenn man nur daneben steht und zuschaut. Da darf man dann ruhig mal unterstützend eingreifen. Da das Personal auch das nicht hinbekommen hat, hab ich das auch übernommen. Der Patient bzw die Patientin soll ja gerne soviel wie irgend möglich selbst machen. Aber gerade nach einer frischen Rücken - OP, wenn die Beweglichkeit doch sehr stark eingeschränkt ist, kann man wohl kaum erwarten, dass schon alles alleine geht. Und noch was allgemein. Ich kann mich nicht erinnern, dass auf Station bei uns jemals soviel Zeit war, dass ständig mindestens zwei Schwestern im Pausenraum am Handy sitzen konnten. Es ist eigentlich immer was zu tun und wenn man sich einmal einen kleinen Eimer nimmt und Patiententische säubert. Ja, auch sowas gehört eigentlich dazu. Man kann vielleicht, nicht ganz unterschwellig, heraushören, dass ich mit der Pflege in diesem Haus überhaupt nicht zufrieden bin.",
+      "labels": {
+        "problem_labels": [
+          "care.treatment",
+          "staff.seriousness",
+          "environment.cleanliness"
+        ],
+        "strength_labels": [
+          "care.competence",
+          "care.treatment",
+          "staff.seriousness"
+        ]
+      },
+      "request_duration_sec": 5.6069,
+      "model_name": "gemini-2.5-flash"
+    },
+    "klinikum-wilhelmshaven-ggmbh:12": {
+      "review_id": "klinikum-wilhelmshaven-ggmbh:12",
+      "review_index": 12,
+      "metadata": {
+        "place_id": "klinikum-wilhelmshaven-ggmbh",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "vor 4 Monaten",
+        "like_count": 0,
+        "has_owner_response": false
+      },
+      "review_text": "Leider kann ich überhaupt nichts positives berichten. Es betrifft hier in erster Linie den 6. Stock, ab der 1. Januarwoche. Seit Monaten gibt es keinen Fernsehempfang, für ältere Personen eine absolutes No Go. Keinerlei Kommunikation, Ärzte werden nur Ansatzweise mal gesehen. Wenn sie mal erscheinen, dann bei 2 Ärzten 2 Meinungen. Nachfragen werden allerdings nicht beantwortet. Informationen über das weitere Vorgehen, Fehlanzeige. Ansteckung mit einem Magen-Darm Virus mehrerer Patienten. Freundlichkeit und Empathie ist auch nur bei wenigen Pfleger/innen vorhanden. Wenn es ginge würde ich -10 Punkte vergeben",
+      "labels": {
+        "problem_labels": [
+          "environment.facilities",
+          "communication.communication",
+          "access.appointments",
+          "communication.explanation",
+          "communication.information",
+          "coordination.coordination",
+          "care.safety",
+          "staff.friendliness",
+          "staff.empathy"
+        ],
+        "strength_labels": []
+      },
+      "request_duration_sec": 5.3756,
+      "model_name": "gemini-2.5-flash"
+    },
+    "krankenhaus-st-elisabeth-ggmbh:21": {
+      "review_id": "krankenhaus-st-elisabeth-ggmbh:21",
+      "review_index": 21,
+      "metadata": {
+        "place_id": "krankenhaus-st-elisabeth-ggmbh",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "vor 9 Monaten",
+        "like_count": 0,
+        "has_owner_response": false
+      },
+      "review_text": "Am liebsten keinen Stern! Ich bin damals 2023 mit sehr starken Kopfschmerzen, Nackensteifigkeit, Fieber, starkem erbrechen und sehr schlechten Blutwerten nach damme gekommen. Soweit so gut. Unten wurde ich relativ nett und schnell behandelt. Aber was danach kam hätte mich fast 24 Std später das Leben gekostet. Erst wurde gesagt, das sie mir nervenwasser abnehmen wollen aber am nächsten morgen wurde ich ohne grosses aufheben mit den Worten es wäre \"nur\" eine migräne. Jeder der etwas Ahnung hat sobald der nackten steif wird und Fieber auftritt das dort alarm gemacht werden muss. Also heim Fieber stieg von 39° auf 41° an und ich wurde zunehmend eingetrübter. Ende vom Lied ist, das uch PRIVAT nach Osnabrück gefahren wurde. Dort wurde sofort reagiert. Punktion gemacht und zack war ganz schnell klar, das ich in Lebensgefahr schwebe. Also auf intensiv und bangen. Ergebnis der nervenwasser Untersuchung ergab MENINGITS. Da ich ein Gerät im kopf habe das das nervenwasser ableitet damit der druck sinkt ist dann das bild noch kritischer anzusehen. Meine Folgeschäden von zu später Behandlung aufgrund von verharmlosen sind heftig. Ich meine fehler macht jeder aber nur rein nach akte zu entscheiden und ohne bis auf in der Aufnahme einen Arzt gesehen zu haben entlassen zu werden geht absolut nicht. Zu dem kommen Stigmatisierung und beleidigungen dazu. Ich war selber dort mal im Haus angestellt und hatte einen anderen Mädchen Namen. Ich war noch nie so enttäuscht. Hätte man sich entschuldigt wäre das Thema nicht so präsent. Aber nach knapp 2 Jahren habe ich auch an den psychischen Folgen zu leiden. Ich vertraue kaum noch Ärzten. Die körperlichen Schäden sind auch absolut nicht mehr reparierbar. Nervenzerfall, MR/CFS, Cluster Kopfschmerz, und immer wieder heftige Entzündungen im nervenwasser, Einlagerung im gesamten Körper, gedächtnisverlust, angststörung und regelmäßige nachkomtrollen via LP mit leider auch dort Schwierigkeiten (nur unter Narkose noch möglich), gabgstörungen, Sprachstörungen und vieles mehr was ich nicht alles aufzählen kann. Was ich heute weiss ist wenn sowas nochmal wäre würde ich nur noch über meine Leiche dort hin wollen. Ostern dieses Jahres war ich leider auch da wegen der heftigsten nervenschmerzen der Welt aber ich habe mich sofort selbst entlassen und bin auf eigene Faust in eine emphatosche Klinik gefahren. Dort bin ich auch seid dem angebunden und diese reagieren sofort wenn nur die kleinste Veränderung diesbezüglich wieder Eintritt.",
+      "labels": {
+        "problem_labels": [
+          "care.safety",
+          "care.diagnosis",
+          "communication.explanation",
+          "care.competence",
+          "care.treatment",
+          "coordination.discharge",
+          "staff.respect",
+          "communication.communication"
+        ],
+        "strength_labels": [
+          "staff.friendliness",
+          "access.waiting"
+        ]
+      },
+      "request_duration_sec": 10.1682,
+      "model_name": "gemini-2.5-flash"
+    },
+    "paracelsus-klinik-am-silbersee:193": {
+      "review_id": "paracelsus-klinik-am-silbersee:193",
+      "review_index": 193,
+      "metadata": {
+        "place_id": "paracelsus-klinik-am-silbersee",
+        "clinic_name": null,
+        "star_rating": 5,
+        "review_time": "Bearbeitet: vor 2 Jahren",
+        "like_count": 4,
+        "has_owner_response": true
+      },
+      "review_text": "Zwei KnieTEP's in 11/2 Jahren. Keine Probleme, bin mehr als zufrieden. Hier steht der Mensch im Mittelpunkt. Vielen lieben Dank.",
+      "labels": {
+        "problem_labels": [],
+        "strength_labels": [
+          "care.treatment",
+          "staff.empathy"
+        ]
+      },
+      "request_duration_sec": 2.6023,
+      "model_name": "gemini-2.5-flash"
+    },
+    "psychiatrische-klinik-uelzen-ggmbh:6": {
+      "review_id": "psychiatrische-klinik-uelzen-ggmbh:6",
+      "review_index": 6,
+      "metadata": {
+        "place_id": "psychiatrische-klinik-uelzen-ggmbh",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "vor 2 Jahren",
+        "like_count": 8,
+        "has_owner_response": false
+      },
+      "review_text": "Dies wird eine längere Bewertung. Sie bezieht sich nicht auf jede einzelne Pflegekraft. Station 3… alles was ich schreibe ist aus meiner Erfahrung erstanden. Ich habe auch das Gegenteil mitbekommen, jeder Mensch ist anders und jeder wirkt anders auf andere. Ich habe aber bereits von mehreren Personen ähnliche Geschichten gehört und komischerweise waren diese Personen auch alternativer in ihrem Aussehen. Diese trauen sich nicht immer zu bewerten, da sie Angst haben, dass ihnen wieder nicht geglaubt wird. All diese Personen haben noch was gemeinsam: Intrusionen, Dissoziationen, also alles traumatisierte Frauen, die aber dadurch nach außen richtig stark werden mussten. Alle Sterne würden an den Pfleger mit dem tätowierten Kreuz und an die Psychologen gehen, der Rest war definitiv KEINE heilende Erfahrung und wenn überhaupt ein Stern wert. Für Menschen mit Depressionen o.ä. mag das eine gute Station sein, aber ich bin schwer traumatisiert und bat nur um Stabilisierung. Ich hatte oft gefragt ob sie auf dem Gebiet der Intrusionen und Dissoziationen geschult seien, hätten sie es mal mit nein beantwortet… dann hätte ich mir das sparen können und wäre auch vielleicht nicht so zur „Last“ gefallen. Die erhoffte Stabilisierung trat nicht ein, im Gegenteil, ich habe jetzt extrem lange gebraucht um mich überhaupt wieder an eine Klinik und die benötigte Hilfe zu wenden. Woanders. Während Intrusionen (sogenannten Flashbacks) die aufgrund verschiedener traumatisierungen unterschiedlich sind, wurde ich angeschrien und gezwungen aufzustehen, mir wurde ein kindliches Verhalten vorgeworfen und das ich mich nicht so anstellen sollte. Auf den Hinweis meiner Zimmernachbarin, dass ich wahrscheinlich gar nicht reagieren kann, wegen der Intrusion, wurde sie angefahren, sie solle sich nicht einmischen. Bei einer anderen Intrusion schaffte ich es vorher noch den Notknopf zu drücken. Als ich aus meiner nahtoderfahrung zurück kam, wurde ich angemeckert, dass der Knopf nur für Notfälle ist. Also sagte ich ab dann gar nicht mehr Bescheid. Meine Kraft war eh begrenzt und ich brauchte sie um nicht aufzugeben und nicht um mich gegen sowas zu wehren. Eine Entschuldigung kam nie, trotz Hinweis meinerseits. Ein anderes Mal wurde ich auf die Schuhe angesprochen, obwohl die Person neben mir die gleichen trug. Sie hat mich gemaßregelt und meinte ich würde keine Regeln einhalten, obwohl mir eine andere Pflegekraft genau diese Schuhe erlaubt hatte. Mir wurden Vorwürfe von Pflegerinnen gemacht, die überhaupt nicht der Wahrheit entsprachen, trotz der Bitte das normal zu klären, wurde ich ins „Kreuzverhör“ genommen. Da das Team natürlich zusammenhält, war mir klar, dass es für mich auf der Station nicht weiter geht. Dies sind nur die für mich prägenden Erfahrungen, die ganzen Kleinigkeiten der zwischenmenschlichkeit lasse ich mal dahin gestellt. Mir ist durchaus bewusst das der Umgang mit traumatisierten schwer ist, aber das darf einfach nicht passieren. Ich rede im Gegensatz zu anderen traumatisierten wenigstens noch, mich kann man ruhig und normal alles fragen was man als Pflegekraft wissen sollte, ich habe an meinem ersten Tag Informationen über den Umgang mit mir gegeben. Schien nur die wenigsten zu interessieren, denn genau dass worauf ich hingewiesen hatte, ist eingetreten. Sprich: ich wurde behandelt wie ein Kind, welches im Kindergarten so zu funktionieren hat, wie die Erzieher das gerne hätten, um ihre Ruhe zu haben. Also nichts für eine Psychiatrische Klinik. Auch wenn die Station vielleicht unterbesetzt ist, die Pflegekräfte nicht immer aus dem Psychiatrischen Bereich kommen oder der Druck sehr hoch ist, auf jeden einzelnen. Das mag sein und es ist menschlich unter diesem Druck auch falsche Entscheidungen zu treffen. Aber so oft? Und dann auch noch von den selben? Wow… Ich habe durch diese Punkte versucht, nicht noch zusätzlich zur Herausforderung zu werden. Aber wenn man sich das nichtmal anguckt/anhört, kann ich auch nichts machen.",
+      "labels": {
+        "problem_labels": [
+          "care.competence",
+          "care.treatment",
+          "staff.respect",
+          "staff.empathy",
+          "communication.communication",
+          "communication.information",
+          "care.safety"
+        ],
+        "strength_labels": [
+          "staff.friendliness",
+          "staff.empathy",
+          "care.competence"
+        ]
+      },
+      "request_duration_sec": 12.4869,
+      "model_name": "gemini-2.5-flash"
+    },
+    "sana-klinikum-hameln-pyrmont:139": {
+      "review_id": "sana-klinikum-hameln-pyrmont:139",
+      "review_index": 139,
+      "metadata": {
+        "place_id": "sana-klinikum-hameln-pyrmont",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "Bearbeitet: vor 2 Jahren",
+        "like_count": 8,
+        "has_owner_response": true
+      },
+      "review_text": "Am Montag Morgen um ca 3 Uhr wurde mein Vater eingeliefert. In meiner Mittagspause um ca 12 Uhr wollte ich meinen Vater besuchen und ihm Kleidung bringen sowie für die noch am gleichen Tag stattfindende OP alles Gute wünschen. Mit Verweis darauf, dass die Besuchszeiten erst um 14 Uhr beginnen, ließ mich die Dame an der Rezeption nicht zu ihm auf die Station. Vielleicht sollte die Dame lieber in den Einzelhandel wechseln. Dort kann sie sich dann gerne an die Öffnungszeiten klammern. In einem Krankenhaus jedoch sollte es meiner Meinung nach um den Menschen und nicht um Öffnungszeiten gehen! Glücklicherweise ist wenigstens die OP gut verlaufen. Eine Empfehlung für dieses Krankenhaus kann ich allerdings definitiv nicht aussprechen! Edit: Mein Vater war um 14 Uhr bereits im OP, so dass es sich nicht \"lediglich\" um zwei Stunden handelte. Zudem hat er eine chronische schwere Erkrankung. Also hören Sie auf, Herr Höxter, die Sache herunter zu spielen. Ich bin froh, dass er die OP überlebt hat, aber über Ihren Umgang mit Menschen bin ich keinesfalls erfreut. Ihre Antwort auf meine Rezension konnten Sie sich sparen.",
+      "labels": {
+        "problem_labels": [
+          "access.appointments",
+          "staff.empathy",
+          "staff.respect"
+        ],
+        "strength_labels": [
+          "care.treatment"
+        ]
+      },
+      "request_duration_sec": 4.2578,
+      "model_name": "gemini-2.5-flash"
+    },
+    "st-josefs-hospital-cloppenburg-ggmbh:27": {
+      "review_id": "st-josefs-hospital-cloppenburg-ggmbh:27",
+      "review_index": 27,
+      "metadata": {
+        "place_id": "st-josefs-hospital-cloppenburg-ggmbh",
+        "clinic_name": null,
+        "star_rating": 2,
+        "review_time": "vor einem Jahr",
+        "like_count": 0,
+        "has_owner_response": false
+      },
+      "review_text": "Ich habe eine Einweisung von meiner Ärztin ins Krankenhaus bekommen (Gastroenterologie). Erstmal zum positiven: Ich kam in die Notaufnahme und schon nach nicht mal 30 Minuten lag ich auf der Liege im Arztzimmer, umringt von 4 Schwestern (scheinbar Azubis) - alle nett und zuvorkommend. Das bei dem Versuch einen Zugang zu legen die Arterie getroffen wird und das Blut durch den halben Raum spritzt - kann mal passieren. Dann eben in den anderen Arm. Aber leider auch da so ungünstig gestochen, dass der Zugang die zwei Tage über durchgehend schmerzte. Innerhalb von 2 Stunden lag ich bereits auf dem Zimmer. Bis hierher hätte ich 4 Sterne gegeben - weil man merkt, dass das Hospital schon etwas in die Jahre gekommen ist. Na ja, ist ja kein Hotel. Dreibettzimmer. Der eine Schnarcht wie alter Zug, der andere telefoniert lauthals. Muss man als Kassenpatient hinnehmen. Am nächsten Tag die Untersuchung. Auch da noch alles im grünen Bereich. Keine zwei Stunden nach der Vollnarkose wurde ich entlassen. Alles gut. Das war an einem Donnerstagmittag. Der Arzbericht sollte spätestens am Freitag mit den Blutwerten an meinen Hausarzt übermittelt werden. Am Montagnachmittag immer noch nichts da. Erst nach unzähligen Anrufversuchen (sitzt da überhaupt jemand mal am Empfangstelefon?) jemanden erreicht. Keiner hat es für nötig erachtet den Arztbericht zu übermitteln, obwohl gesagt worden ist, dass weitere Untersuchungen nötig sind und dies im Hause nicht durchgeführt werden kann und mit dem Hausarzt abgesprochen werden soll. Die Schwester hat den Arztbericht dann netterweise gefaxt (wollte es erst per Post senden). Also gleich beim Hausarzt angerufen - die Blutwerte wurden nicht übermittelt. Also wieder unzählige Anrufversuche. Dieselbe Schwester am Telefon sagte \"ja, ich kann die Datei mit den Blutwerten nicht öffnen\". Ja und weiter? Wenigstens an jemanden im Hause weiterleiten der sich darum kümmern kann. Erst auf meine - nun schon etwas angenervte Bitte - sagte Sie, dass Sie dem Sekretariat für morgen einen Zettel hinterlegt. Zum Glück habe ich am nächsten Tag selbst nochmal angerufen. Nach drei Versuchen hat dies auch mal geklappt. Das Sekretariat wusste davon natürlich nichts aber dann hat es wenigstens funktioniert. Eigentlich hätte ich hier gerne max. 2 Sterne vergeben. Aber gut, so schlimm war es dann doch nicht...aber definitiv Luft nach oben...",
+      "labels": {
+        "problem_labels": [
+          "care.treatment",
+          "environment.facilities",
+          "coordination.coordination",
+          "communication.information",
+          "access.reachability",
+          "admin.paperwork",
+          "communication.communication"
+        ],
+        "strength_labels": [
+          "access.waiting",
+          "staff.friendliness",
+          "staff.respect",
+          "care.diagnosis",
+          "coordination.discharge"
+        ]
+      },
+      "request_duration_sec": 10.3245,
+      "model_name": "gemini-2.5-flash"
+    },
+    "staedtisches-klinikum-wolfenbuettel-ggmbh:56": {
+      "review_id": "staedtisches-klinikum-wolfenbuettel-ggmbh:56",
+      "review_index": 56,
+      "metadata": {
+        "place_id": "staedtisches-klinikum-wolfenbuettel-ggmbh",
+        "clinic_name": null,
+        "star_rating": 1,
+        "review_time": "vor 8 Monaten",
+        "like_count": 0,
+        "has_owner_response": true
+      },
+      "review_text": "Leider muss man einen Stern vergeben um zu bewerten. Drei Stunden vor dem Vorstellungstermin bekommt man einen Anruf,das eine Behandlung nicht nötig wäre. Aber man(n) bzw.Frau hat seit über 20 Schmerzen,die von jedem Arzt dokumentiert sind,aber wirklich von jedem(die über eine Woche vorher eingereicht wurden.Vorstellungstermin wäre der 15.08.2025 um 12.30 gewesen. Um 10.00 kam der Ablehnungsanruf.lch glaube nicht,das die Unterlagen nur ansatzweise,wenn dann nur vielleicht die erste Seite,durchgelesen wurde). Die Argumente der Praxis waren einfach,gelinde ausgedrückt einfach nur seltsam. Mehr schreib ich nicht dazu, außer: Nicht zu empfehlen! Und soviel ich weiß,sind Ärzte dazu verpflichtet den Menschen zu helfen. Gibt ja sowas wie den hypokratischen Eid, der hier nicht erfüllt wird. Wie ich oben schon geschrieben habe,nicht zu empfehlen. Hätte gute Lust,das bei der Ärztekammer zu melden. Da frage ich wirklich wie man eine 5 Sterne Bewertung bekommt. Wirkt irgendwie unglaubhaft.",
+      "labels": {
+        "problem_labels": [
+          "access.appointments",
+          "admin.paperwork",
+          "communication.explanation",
+          "care.treatment",
+          "care.competence"
+        ],
+        "strength_labels": []
+      },
+      "request_duration_sec": 4.0522,
+      "model_name": "gemini-2.5-flash"
+    }
+  }
+}

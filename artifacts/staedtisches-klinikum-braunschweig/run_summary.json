@@ -1,40 +1,107 @@
 {
   "url": "https://www.google.com/maps/place/St%C3%A4dtisches+Klinikum+Braunschweig+gGmbH+-+Klinikum+Fichtengrund/@52.2552957,10.5260594,14z/data=!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%C3%A4dtisches+Klinikum+Braunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%2Fg%2F11h4tpwp0z?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "staedtisches-klinikum-braunschweig",
-  "startedAt": "2026-04-15T19:27:50Z",
+  "startedAt": "2026-05-11T16:51:04Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "4267F0DF32ADB69DADD3FF1E75C238D1",
-  "selectedTargetId": "4267F0DF32ADB69DADD3FF1E75C238D1",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "6432BC66E9B00A534CE3FF3426C4BAFB",
+  "selectedTargetId": "6432BC66E9B00A534CE3FF3426C4BAFB",
   "selectedTargetUrl": "https://www.google.com/maps/place/St%C3%A4dtisches+Klinikum+Braunschweig+gGmbH+-+Klinikum+Fichtengrund/@52.2552957,10.5260594,14z/data=!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%C3%A4dtisches+Klinikum+Braunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%2Fg%2F11h4tpwp0z?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St%25C3%25A4dtisches%2BKlinikum%2BBraunschweig%2BgGmbH%2B-%2BKlinikum%2BFichtengrund/@52.2552957,10.5260594,14z/data%3D!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%25C3%25A4dtisches%2BKlinikum%2BBraunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%252Fg%252F11h4tpwp0z?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St%25C3%25A4dtisches%2BKlinikum%2BBraunschweig%2BgGmbH%2B-%2BKlinikum%2BFichtengrund/@52.2552957,10.5260594,14z/data%3D!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%25C3%25A4dtisches%2BKlinikum%2BBraunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%252Fg%252F11h4tpwp0z?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St%25C3%25A4dtisches%2BKlinikum%2BBraunschweig%2BgGmbH%2B-%2BKlinikum%2BFichtengrund/@52.2552957,10.5260594,14z/data%3D!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%25C3%25A4dtisches%2BKlinikum%2BBraunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%252Fg%252F11h4tpwp0z?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St%25C3%25A4dtisches%2BKlinikum%2BBraunschweig%2BgGmbH%2B-%2BKlinikum%2BFichtengrund/@52.2552957,10.5260594,14z/data%3D!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%25C3%25A4dtisches%2BKlinikum%2BBraunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%252Fg%252F11h4tpwp0z?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/St%C3%A4dtisches+Klinikum+Braunschweig+gGmbH+-+Klinikum+Fichtengrund/@52.2552957,10.5260594,14z/data=!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%C3%A4dtisches+Klinikum+Braunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%2Fg%2F11h4tpwp0z?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St%25C3%25A4dtisches%2BKlinikum%2BBraunschweig%2BgGmbH%2B-%2BKlinikum%2BFichtengrund/@52.2552957,10.5260594,14z/data%3D!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%25C3%25A4dtisches%2BKlinikum%2BBraunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%252Fg%252F11h4tpwp0z?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St%25C3%25A4dtisches%2BKlinikum%2BBraunschweig%2BgGmbH%2B-%2BKlinikum%2BFichtengrund/@52.2552957,10.5260594,14z/data%3D!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%25C3%25A4dtisches%2BKlinikum%2BBraunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%252Fg%252F11h4tpwp0z?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St%25C3%25A4dtisches%2BKlinikum%2BBraunschweig%2BgGmbH%2B-%2BKlinikum%2BFichtengrund/@52.2552957,10.5260594,14z/data%3D!3m1!5s0x47aff5de4d82a85b:0x597f52742892e745!4m10!1m2!2m1!1sSt%25C3%25A4dtisches%2BKlinikum%2BBraunschweig!3m6!1s0x47aff5351208cdbd:0x38299ceadd75a32d!8m2!3d52.2375257!4d10.5464076!15sCiJTdMOkZHRpc2NoZXMgS2xpbmlrdW0gQnJhdW5zY2h3ZWlnWiQiInN0w6RkdGlzY2hlcyBrbGluaWt1bSBicmF1bnNjaHdlaWeSAQhob3NwaXRhbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOUmNWbDViVnBSRUFF4AEA-gEFCLgCEEA!16s%252Fg%252F11h4tpwp0z?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
@@ -50,165 +117,35 @@
           "button_like_control"
         ],
         "tagName": "BUTTON",
-        "text": "549 Berichte",
+        "text": "562 Berichte",
         "ariaLabel": "",
         "title": "",
         "jsaction": "pane.wfvdle77.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 6,
       "clickResult": {
         "clicked": true,
         "index": 102,
-        "text": "549 Berichte",
+        "text": "562 Berichte",
         "ariaLabel": "",
         "title": "",
         "jsaction": "pane.wfvdle77.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
-      "reviewsPanelAfterClick": false
+      "reviewsPanelAfterClick": false,
+      "reviewsContinuationAttempts": [
+        {
+          "clicked": false,
+          "visibleContinuationCount": 0,
+          "policyNoticeDetected": false
+        }
+      ]
     },
     {
       "rank": 2,
       "candidate": {
-        "domIndex": 116,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "notaufnahme 121",
-        "ariaLabel": "notaufnahme, in 121 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle125; keydown:pane.wfvdle125; mouseover:pane.wfvdle125; mouseout:pane.wfvdle125;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 116
-      }
-    },
-    {
-      "rank": 3,
-      "candidate": {
-        "domIndex": 117,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "OP 64",
-        "ariaLabel": "OP, in 64 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle126; keydown:pane.wfvdle126; mouseover:pane.wfvdle126; mouseout:pane.wfvdle126;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 117
-      }
-    },
-    {
-      "rank": 4,
-      "candidate": {
-        "domIndex": 118,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "katastrophe 38",
-        "ariaLabel": "katastrophe, in 38 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle127; keydown:pane.wfvdle127; mouseover:pane.wfvdle127; mouseout:pane.wfvdle127;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 118
-      }
-    },
-    {
-      "rank": 5,
-      "candidate": {
-        "domIndex": 119,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "parkhaus 24",
-        "ariaLabel": "parkhaus, in 24 Rezensionen erwähnt",
-        "title": "",
-        "jsaction": "pane.wfvdle128; keydown:pane.wfvdle128; mouseover:pane.wfvdle128; mouseout:pane.wfvdle128;focus:pane.focustooltip;blur:pane.blurtooltip",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 119
-      }
-    },
-    {
-      "rank": 6,
-      "candidate": {
-        "domIndex": 128,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Ping R Local Guide · 49 Rezensionen · 72 Fotos",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle136.review.reviewerlink",
-        "className": "al6Kxe"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 128
-      }
-    },
-    {
-      "rank": 7,
-      "candidate": {
-        "domIndex": 142,
-        "score": 95,
-        "reasons": [
-          "count_label",
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Susanne Mulder Local Guide · 15 Rezensionen",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle138.review.reviewerlink",
-        "className": "al6Kxe"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 142
-      }
-    },
-    {
-      "rank": 8,
-      "candidate": {
-        "domIndex": 115,
+        "domIndex": 64,
         "score": 80,
         "reasons": [
           "explicit_all_reviews",
@@ -216,22 +153,35 @@
           "button_like_control"
         ],
         "tagName": "BUTTON",
-        "text": " Alle",
+        "text": "Alle",
         "ariaLabel": "Alle Rezensionen",
         "title": "",
-        "jsaction": "pane.wfvdle124; keydown:pane.wfvdle124; mouseover:pane.wfvdle124; mouseout:pane.wfvdle124;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "jsaction": "pane.wfvdle161; keydown:pane.wfvdle161; mouseover:pane.wfvdle161; mouseout:pane.wfvdle161;focus:pane.focustooltip;blur:pane.blurtooltip",
         "className": "e2moi"
       },
+      "candidateCountBeforeClick": 4,
       "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 115
-      }
+        "clicked": true,
+        "index": 64,
+        "text": "Alle",
+        "ariaLabel": "Alle Rezensionen",
+        "title": "",
+        "jsaction": "pane.wfvdle161; keydown:pane.wfvdle161; mouseover:pane.wfvdle161; mouseout:pane.wfvdle161;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "reviewsPanelAfterClick": false,
+      "reviewsContinuationAttempts": [
+        {
+          "clicked": false,
+          "visibleContinuationCount": 0,
+          "policyNoticeDetected": false
+        }
+      ]
     },
     {
-      "rank": 9,
+      "rank": 3,
       "candidate": {
-        "domIndex": 59,
+        "domIndex": 55,
         "score": 35,
         "reasons": [
           "review_keyword",
@@ -242,21 +192,31 @@
         "ariaLabel": "Rezensionen zu „Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund“",
         "title": "",
         "jsaction": "pane.wfvdle68tabs.tabclick; mousedown:pane.wfvdle68tabs.dragtabs; focus:pane.wfvdle68tabs.focus",
-        "className": "hh2c6"
+        "className": "hh2c6 G7m0Af"
       },
+      "candidateCountBeforeClick": 4,
       "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 59,
-        "text": "Weitere Informationen",
-        "ariaLabel": "",
-        "jsaction": ""
-      }
+        "clicked": true,
+        "index": 55,
+        "text": "Rezensionen",
+        "ariaLabel": "Rezensionen zu „Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund“",
+        "title": "",
+        "jsaction": "pane.wfvdle68tabs.tabclick; mousedown:pane.wfvdle68tabs.dragtabs; focus:pane.wfvdle68tabs.focus",
+        "className": "hh2c6 G7m0Af"
+      },
+      "reviewsPanelAfterClick": false,
+      "reviewsContinuationAttempts": [
+        {
+          "clicked": false,
+          "visibleContinuationCount": 0,
+          "policyNoticeDetected": false
+        }
+      ]
     },
     {
-      "rank": 10,
+      "rank": 4,
       "candidate": {
-        "domIndex": 112,
+        "domIndex": 61,
         "score": 35,
         "reasons": [
           "review_keyword",
@@ -266,411 +226,2186 @@
         "text": "",
         "ariaLabel": "In Rezensionen suchen",
         "title": "",
-        "jsaction": "pane.wfvdle122;keydown:pane.wfvdle122;mouseover:pane.wfvdle122;mouseout:pane.wfvdle122;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "jsaction": "pane.wfvdle159;keydown:pane.wfvdle159;mouseover:pane.wfvdle159;mouseout:pane.wfvdle159;focus:pane.focustooltip;blur:pane.blurtooltip",
         "className": "S9kvJb"
       },
+      "candidateCountBeforeClick": 4,
       "clickResult": {
         "clicked": true,
-        "index": 112,
-        "text": "Datenschutz",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "fineprint.privacy",
-        "className": "ZiKfbc tUdUte Hk4XGb ZqLNQd"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 11,
-      "candidate": {
-        "domIndex": 114,
-        "score": 35,
-        "reasons": [
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Sortieren",
-        "ariaLabel": "Rezensionen sortieren",
-        "title": "",
-        "jsaction": "pane.wfvdle123;keydown:pane.wfvdle123;mouseover:pane.wfvdle123;mouseout:pane.wfvdle123",
-        "className": "S9kvJb"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 114,
-        "text": "500 m",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "scale.click",
-        "className": "LNGekf"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 12,
-      "candidate": {
-        "domIndex": 147,
-        "score": 35,
-        "reasons": [
-          "review_keyword",
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Weitere Rezensionen (546)",
-        "ariaLabel": "Weitere Rezensionen (546)",
-        "title": "",
-        "jsaction": "pane.wfvdle139",
-        "className": "M77dve"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "index_out_of_range",
-        "index": 147
-      }
-    },
-    {
-      "rank": 13,
-      "candidate": {
-        "domIndex": 3,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
+        "index": 61,
         "text": "",
-        "ariaLabel": "Suchen",
+        "ariaLabel": "In Rezensionen suchen",
         "title": "",
-        "jsaction": "omnibox.search; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip",
-        "className": "mL3xi"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 3,
-        "text": "",
-        "ariaLabel": "Suchen",
-        "title": "",
-        "jsaction": "omnibox.search; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip",
-        "className": "mL3xi"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 14,
-      "candidate": {
-        "domIndex": 4,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "",
-        "ariaLabel": "Schließen",
-        "title": "",
-        "jsaction": "omnibox.clear; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; focus:omnibox.hidesuggestions; blur:omnibox.hidetooltip",
-        "className": "yAuNSb vF7Cdb"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 4,
-        "text": "",
-        "ariaLabel": "Schließen",
-        "title": "",
-        "jsaction": "omnibox.clear; mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; focus:omnibox.hidesuggestions; blur:omnibox.hidetooltip",
-        "className": "yAuNSb vF7Cdb"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 15,
-      "candidate": {
-        "domIndex": 6,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Bewertung ",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle153; keydown:pane.wfvdle153; mouseover:pane.wfvdle153; mouseout:pane.wfvdle153",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 6,
-        "text": "",
-        "ariaLabel": "Löschen",
-        "jsaction": "mouseover:omnibox.showtooltip; mouseout:omnibox.hidetooltip; focus:omnibox.showtooltip; blur:omnibox.hidetooltip;suggestion.delete"
-      }
-    },
-    {
-      "rank": 16,
-      "candidate": {
-        "domIndex": 7,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Öffnungszeiten ",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle154; keydown:pane.wfvdle154; mouseover:pane.wfvdle154; mouseout:pane.wfvdle154",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 7,
-        "text": "",
-        "ariaLabel": "Seitenleiste ausblenden",
-        "jsaction": "pane.close;mouseover:pane.showtoggletooltip; mouseout:pane.hidetoggletooltip; focus:pane.showtoggletooltip; blur:pane.hidetoggletooltip"
-      }
-    },
-    {
-      "rank": 17,
-      "candidate": {
-        "domIndex": 8,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Alle Filter",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle155; keydown:pane.wfvdle155; mouseover:pane.wfvdle155; mouseout:pane.wfvdle155",
-        "className": "e2moi"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 8,
-        "text": "Mäßiger Verkehr im Umkreis Viel langsamer als normal ",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.list-item.seetraffic",
-        "className": "GFG2E"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 18,
-      "candidate": {
-        "domIndex": 10,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "",
-        "ariaLabel": "Menü",
-        "title": "",
-        "jsaction": "navigationrail.more",
-        "className": "wR3cXd"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 10,
-        "text": "",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "focus:pane.focustooltip; blur:pane.blurtooltip; keydown:pane.escapetooltip",
-        "className": "m6Uuef"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 19,
-      "candidate": {
-        "domIndex": 11,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Gespeichert",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.saved",
-        "className": "wR3cXd fontLabelMedium"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 11,
-        "text": "",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "focus:pane.focustooltip; blur:pane.blurtooltip; keydown:pane.escapetooltip",
-        "className": "m6Uuef"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 20,
-      "candidate": {
-        "domIndex": 12,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Zuletzt verwendet",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.recent",
-        "className": "wR3cXd fontLabelMedium"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 12,
-        "text": "",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "focus:pane.focustooltip; blur:pane.blurtooltip; keydown:pane.escapetooltip",
-        "className": "m6Uuef"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 21,
-      "candidate": {
-        "domIndex": 13,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "click:navigationrail.bundle; mouseover:navigationrail.bundle; mouseout:navigationrail.bundle",
-        "className": "atHn2d wR3cXd aJPqP fontBodySmall QyI6Nb"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 13,
-        "text": "",
-        "ariaLabel": "Routenplaner schließen",
-        "title": "",
-        "jsaction": "directions.close; focus:pane.focustooltip; blur:pane.blurtooltip; keydown:pane.escapetooltip",
-        "className": "YismEf"
-      },
-      "reviewsPanelAfterClick": false
-    },
-    {
-      "rank": 22,
-      "candidate": {
-        "domIndex": 14,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " App herunterladen",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "navigationrail.mobileapp",
-        "className": "wR3cXd Ijds6e fontLabelMedium"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 14,
-        "text": "",
-        "ariaLabel": "",
-        "jsaction": "focus:pane.focustooltip; blur:pane.blurtooltip; keydown:pane.escapetooltip"
-      }
-    },
-    {
-      "rank": 23,
-      "candidate": {
-        "domIndex": 19,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Teilen",
-        "ariaLabel": "Teilen",
-        "title": "",
-        "jsaction": "pane.wfvdle10",
-        "className": "M77dve"
-      },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 19,
-        "text": "",
-        "ariaLabel": "Suchen",
-        "jsaction": "directions.search; focus:pane.focustooltip; blur:pane.blurtooltip; keydown:pane.escapetooltip;"
-      }
-    },
-    {
-      "rank": 24,
-      "candidate": {
-        "domIndex": 22,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Routen­planer",
-        "ariaLabel": "Route zum Ziel \"Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund\" berechnen",
-        "title": "",
-        "jsaction": "pane.wfvdle16;keydown:pane.wfvdle16;mouseover:pane.wfvdle16;mouseout:pane.wfvdle16",
+        "jsaction": "pane.wfvdle159;keydown:pane.wfvdle159;mouseover:pane.wfvdle159;mouseout:pane.wfvdle159;focus:pane.focustooltip;blur:pane.blurtooltip",
         "className": "S9kvJb"
       },
-      "clickResult": {
-        "clicked": false,
-        "reason": "not_visible",
-        "index": 22,
-        "text": "Ziel hinzufügen",
-        "ariaLabel": "",
-        "jsaction": "pane.directions-options.addwaypoint"
+      "reviewsPanelAfterClick": {
+        "reviewNodeCount": 91,
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps"
       }
-    },
-    {
-      "rank": 25,
-      "candidate": {
-        "domIndex": 26,
-        "score": 10,
-        "reasons": [
-          "button_like_control"
-        ],
-        "tagName": "BUTTON",
-        "text": " Routen­planer",
-        "ariaLabel": "Route zum Ziel \"Städtisches Klinikum Braunschweig gGmbH - Klinikum Celler Straße\" berechnen",
-        "title": "",
-        "jsaction": "pane.wfvdle21;keydown:pane.wfvdle21;mouseover:pane.wfvdle21;mouseout:pane.wfvdle21",
-        "className": "S9kvJb"
-      },
-      "clickResult": {
-        "clicked": true,
-        "index": 26,
-        "text": " Hotels",
-        "ariaLabel": "",
-        "title": "",
-        "jsaction": "pane.wfvdle189; keydown:pane.wfvdle189; mouseover:pane.wfvdle189; mouseout:pane.wfvdle189;keydown:ripple.nested;mousedown:ripple.nested;ptrdown:ripple.nested",
-        "className": "e2moi"
-      },
-      "reviewsPanelAfterClick": false
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 4,
   "reviewClick": {
-    "clicked": false,
-    "reason": "reviews_panel_not_opened"
+    "clicked": true,
+    "strategy": "candidate",
+    "label": "",
+    "domIndex": 61,
+    "candidateScore": 35,
+    "candidateReasons": [
+      "review_keyword",
+      "button_like_control"
+    ],
+    "jsaction": "pane.wfvdle159;keydown:pane.wfvdle159;mouseover:pane.wfvdle159;mouseout:pane.wfvdle159;focus:pane.focustooltip;blur:pane.blurtooltip"
   },
-  "reviewsPanel": false,
-  "failureReason": "reviews_panel_not_opened",
-  "scrollStopReason": "reviews_panel_not_opened",
-  "captureSuccessful": false,
-  "finishedAt": "2026-04-15T19:29:47Z",
-  "reviewPhaseXhrCount": 41,
-  "matchedRequestCount": 0,
-  "batchexecuteCount": 0,
+  "reviewsPanel": {
+    "reviewNodeCount": 91,
+    "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps"
+  },
+  "initialReviewsState": {
+    "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+    "reviewNodeCount": 91,
+    "uniqueReviewIdCount": 10,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 695,
+    "scrollHeight": 4032,
+    "clientHeight": 498,
+    "distanceToBottom": 2839
+  },
+  "declaredReviewTotalInfo": {
+    "found": true,
+    "declaredReviewTotal": 562,
+    "sourceKind": "rating-histogram",
+    "histogramByStar": {
+      "1": 351,
+      "2": 22,
+      "3": 15,
+      "4": 27,
+      "5": 147
+    },
+    "histogramStarCount": 5
+  },
+  "declaredReviewTotal": 562,
+  "declaredTotalSettleSeconds": 1.5,
+  "declaredTotalFastStopUsed": true,
+  "declaredTotalFinalCheck": {
+    "iteration": 57,
+    "before": {
+      "uniqueReviewIdCount": 562,
+      "scrollHeight": 145895,
+      "distanceToBottom": 0.5
+    },
+    "after": {
+      "uniqueReviewIdCount": 562,
+      "scrollHeight": 145895,
+      "distanceToBottom": 0.5
+    },
+    "settleSeconds": 1.5,
+    "grewDuringSettle": false,
+    "atBottomAfterSettle": true,
+    "declaredTotalReachedAfterSettle": true
+  },
+  "fallbackStableRoundsRequired": 5,
+  "scrollResults": [
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 697.5,
+      "after": 3533.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 4032,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 91,
+      "uniqueReviewIdCount": 10,
+      "iteration": 1,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 181,
+        "uniqueReviewIdCount": 20,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 3533.5,
+        "scrollHeight": 6842,
+        "clientHeight": 498,
+        "distanceToBottom": 2810.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 2.1832995116710663e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 3533.5,
+      "after": 6343.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 6842,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 181,
+      "uniqueReviewIdCount": 20,
+      "iteration": 2,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 271,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 6343.5,
+        "scrollHeight": 9610,
+        "clientHeight": 498,
+        "distanceToBottom": 2768.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 3.915978595614433e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 6343.5,
+      "after": 9111.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 9610,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 271,
+      "uniqueReviewIdCount": 30,
+      "iteration": 3,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 360,
+        "uniqueReviewIdCount": 40,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 9111.5,
+        "scrollHeight": 12420,
+        "clientHeight": 498,
+        "distanceToBottom": 2810.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 4.62518073618412e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 9111.5,
+      "after": 11921.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 12420,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 360,
+      "uniqueReviewIdCount": 40,
+      "iteration": 4,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 456,
+        "uniqueReviewIdCount": 50,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 11921.5,
+        "scrollHeight": 15931,
+        "clientHeight": 498,
+        "distanceToBottom": 3511.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 9.499955922365189e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 11921.5,
+      "after": 15432.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 15931,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 456,
+      "uniqueReviewIdCount": 50,
+      "iteration": 5,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 546,
+        "uniqueReviewIdCount": 60,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 15432.5,
+        "scrollHeight": 19062,
+        "clientHeight": 498,
+        "distanceToBottom": 3131.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.875030860304832e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 15432.5,
+      "after": 18563.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 19062,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 546,
+      "uniqueReviewIdCount": 60,
+      "iteration": 6,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 634,
+        "uniqueReviewIdCount": 70,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 18563.5,
+        "scrollHeight": 22212,
+        "clientHeight": 498,
+        "distanceToBottom": 3150.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 4.665926098823547e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 18563.5,
+      "after": 21713.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 22212,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 634,
+      "uniqueReviewIdCount": 70,
+      "iteration": 7,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 719,
+        "uniqueReviewIdCount": 80,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 21713.5,
+        "scrollHeight": 24938,
+        "clientHeight": 498,
+        "distanceToBottom": 2726.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 2.13750172406435e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 21713.5,
+      "after": 24439.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 24938,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 719,
+      "uniqueReviewIdCount": 80,
+      "iteration": 8,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 807,
+        "uniqueReviewIdCount": 90,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 24439.5,
+        "scrollHeight": 27744,
+        "clientHeight": 498,
+        "distanceToBottom": 2806.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 4.792120307683945e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 24439.5,
+      "after": 27245.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 27744,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 807,
+      "uniqueReviewIdCount": 90,
+      "iteration": 9,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 896,
+        "uniqueReviewIdCount": 100,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 27245.5,
+        "scrollHeight": 30554,
+        "clientHeight": 498,
+        "distanceToBottom": 2810.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 8.541857823729515e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 27245.5,
+      "after": 30055.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 30554,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 896,
+      "uniqueReviewIdCount": 100,
+      "iteration": 10,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 987,
+        "uniqueReviewIdCount": 110,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 30055.5,
+        "scrollHeight": 33985,
+        "clientHeight": 498,
+        "distanceToBottom": 3431.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 8.834060281515121e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 30055.5,
+      "after": 33486.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 33985,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 987,
+      "uniqueReviewIdCount": 110,
+      "iteration": 11,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 1080,
+        "uniqueReviewIdCount": 120,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 33486.5,
+        "scrollHeight": 37114,
+        "clientHeight": 498,
+        "distanceToBottom": 3129.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.583977326750755e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 33486.5,
+      "after": 36615.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 37114,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1080,
+      "uniqueReviewIdCount": 120,
+      "iteration": 12,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 1168,
+        "uniqueReviewIdCount": 130,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 36615.5,
+        "scrollHeight": 39838,
+        "clientHeight": 498,
+        "distanceToBottom": 2724.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.208894774317741e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 36615.5,
+      "after": 39339.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 39838,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1168,
+      "uniqueReviewIdCount": 130,
+      "iteration": 13,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 1255,
+        "uniqueReviewIdCount": 140,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 39339.5,
+        "scrollHeight": 42543,
+        "clientHeight": 498,
+        "distanceToBottom": 2705.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 4.00003045797348e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 39339.5,
+      "after": 42044.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 42543,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1255,
+      "uniqueReviewIdCount": 140,
+      "iteration": 14,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 1344,
+        "uniqueReviewIdCount": 150,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 42044.5,
+        "scrollHeight": 45267,
+        "clientHeight": 498,
+        "distanceToBottom": 2724.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.917157977819443e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 42044.5,
+      "after": 44768.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 45267,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1344,
+      "uniqueReviewIdCount": 150,
+      "iteration": 15,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 1433,
+        "uniqueReviewIdCount": 160,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 44768.5,
+        "scrollHeight": 47949,
+        "clientHeight": 498,
+        "distanceToBottom": 2682.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 4.333211109042168e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 44768.5,
+      "after": 47450.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 47949,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1433,
+      "uniqueReviewIdCount": 160,
+      "iteration": 16,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 1522,
+        "uniqueReviewIdCount": 170,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 47450.5,
+        "scrollHeight": 50717,
+        "clientHeight": 498,
+        "distanceToBottom": 2768.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.665933713316917e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 47450.5,
+      "after": 50218.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 50717,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1522,
+      "uniqueReviewIdCount": 170,
+      "iteration": 17,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 1608,
+        "uniqueReviewIdCount": 180,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 50218.5,
+        "scrollHeight": 53441,
+        "clientHeight": 498,
+        "distanceToBottom": 2724.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 2.040993422269821e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 50218.5,
+      "after": 52942.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 53441,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1608,
+      "uniqueReviewIdCount": 180,
+      "iteration": 18,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 1699,
+        "uniqueReviewIdCount": 190,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 52942.5,
+        "scrollHeight": 56568,
+        "clientHeight": 498,
+        "distanceToBottom": 3127.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.9160014390945435e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 52942.5,
+      "after": 56069.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 56568,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1699,
+      "uniqueReviewIdCount": 190,
+      "iteration": 19,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 1788,
+        "uniqueReviewIdCount": 200,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 56069.5,
+        "scrollHeight": 59294,
+        "clientHeight": 498,
+        "distanceToBottom": 2726.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 9.541865438222885e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 56069.5,
+      "after": 58795.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 59294,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1788,
+      "uniqueReviewIdCount": 200,
+      "iteration": 20,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 1877,
+        "uniqueReviewIdCount": 210,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 58795.5,
+        "scrollHeight": 62404,
+        "clientHeight": 498,
+        "distanceToBottom": 3110.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.166046321392059e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 58795.5,
+      "after": 61905.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 62404,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1877,
+      "uniqueReviewIdCount": 210,
+      "iteration": 21,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 1967,
+        "uniqueReviewIdCount": 220,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 61905.5,
+        "scrollHeight": 65917,
+        "clientHeight": 498,
+        "distanceToBottom": 3513.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.624955520033836e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 61905.5,
+      "after": 65418.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 65917,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 1967,
+      "uniqueReviewIdCount": 220,
+      "iteration": 22,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 2054,
+        "uniqueReviewIdCount": 230,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 65418.5,
+        "scrollHeight": 68664,
+        "clientHeight": 498,
+        "distanceToBottom": 2747.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.166992872953415e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 65418.5,
+      "after": 68165.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 68664,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 2054,
+      "uniqueReviewIdCount": 230,
+      "iteration": 23,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 2144,
+        "uniqueReviewIdCount": 240,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 68165.5,
+        "scrollHeight": 71325,
+        "clientHeight": 498,
+        "distanceToBottom": 2661.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.791902706027031e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 68165.5,
+      "after": 70826.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 71325,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 2144,
+      "uniqueReviewIdCount": 240,
+      "iteration": 24,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 2232,
+        "uniqueReviewIdCount": 250,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 70826.5,
+        "scrollHeight": 74175,
+        "clientHeight": 498,
+        "distanceToBottom": 2850.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 4.540896043181419e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 70826.5,
+      "after": 73676.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 74175,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 2232,
+      "uniqueReviewIdCount": 250,
+      "iteration": 25,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 2320,
+        "uniqueReviewIdCount": 260,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 73676.5,
+        "scrollHeight": 76880,
+        "clientHeight": 498,
+        "distanceToBottom": 2705.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.6249707490205765e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 73676.5,
+      "after": 76381.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 76880,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 2320,
+      "uniqueReviewIdCount": 260,
+      "iteration": 26,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 2406,
+        "uniqueReviewIdCount": 270,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 76381.5,
+        "scrollHeight": 79602,
+        "clientHeight": 498,
+        "distanceToBottom": 2722.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 4.292000085115433e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 76381.5,
+      "after": 79103.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 79602,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 2406,
+      "uniqueReviewIdCount": 270,
+      "iteration": 27,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 2493,
+        "uniqueReviewIdCount": 280,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 79103.5,
+        "scrollHeight": 82391,
+        "clientHeight": 498,
+        "distanceToBottom": 2789.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 4.667090252041817e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 79103.5,
+      "after": 81892.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 82391,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 2493,
+      "uniqueReviewIdCount": 280,
+      "iteration": 28,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 2581,
+        "uniqueReviewIdCount": 290,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 81892.5,
+        "scrollHeight": 85075,
+        "clientHeight": 498,
+        "distanceToBottom": 2684.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.95791095495224e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 81892.5,
+      "after": 84576.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 85075,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 2581,
+      "uniqueReviewIdCount": 290,
+      "iteration": 29,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 2667,
+        "uniqueReviewIdCount": 300,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 84576.5,
+        "scrollHeight": 87843,
+        "clientHeight": 498,
+        "distanceToBottom": 2768.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 8.00006091594696e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 84576.5,
+      "after": 87344.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 87843,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 2667,
+      "uniqueReviewIdCount": 300,
+      "iteration": 30,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 2750,
+        "uniqueReviewIdCount": 310,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 87344.5,
+        "scrollHeight": 90609,
+        "clientHeight": 498,
+        "distanceToBottom": 2766.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.582813173532486e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 87344.5,
+      "after": 90110.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 90609,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 2750,
+      "uniqueReviewIdCount": 310,
+      "iteration": 31,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 2835,
+        "uniqueReviewIdCount": 320,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 90110.5,
+        "scrollHeight": 93335,
+        "clientHeight": 498,
+        "distanceToBottom": 2726.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.458031177520752e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 90110.5,
+      "after": 92836.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 93335,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 2835,
+      "uniqueReviewIdCount": 320,
+      "iteration": 32,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 2918,
+        "uniqueReviewIdCount": 330,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 92836.5,
+        "scrollHeight": 96193,
+        "clientHeight": 498,
+        "distanceToBottom": 2858.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 2.5420449674129486e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 92836.5,
+      "after": 95694.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 96193,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 2918,
+      "uniqueReviewIdCount": 330,
+      "iteration": 33,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 3002,
+        "uniqueReviewIdCount": 340,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 95694.5,
+        "scrollHeight": 98940,
+        "clientHeight": 498,
+        "distanceToBottom": 2747.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.875015631318092e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 95694.5,
+      "after": 98441.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 98940,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 3002,
+      "uniqueReviewIdCount": 340,
+      "iteration": 34,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 3085,
+        "uniqueReviewIdCount": 350,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 98441.5,
+        "scrollHeight": 101519,
+        "clientHeight": 498,
+        "distanceToBottom": 2579.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.166985258460045e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 98441.5,
+      "after": 101020.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 101519,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 3085,
+      "uniqueReviewIdCount": 350,
+      "iteration": 35,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 3166,
+        "uniqueReviewIdCount": 360,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 101020.5,
+        "scrollHeight": 104098,
+        "clientHeight": 498,
+        "distanceToBottom": 2579.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 4.958827048540115e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 101020.5,
+      "after": 103599.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 104098,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 3166,
+      "uniqueReviewIdCount": 360,
+      "iteration": 36,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 3248,
+        "uniqueReviewIdCount": 370,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 103599.5,
+        "scrollHeight": 106740,
+        "clientHeight": 498,
+        "distanceToBottom": 2642.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.4999330788850784e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 103599.5,
+      "after": 106241.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 106740,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 3248,
+      "uniqueReviewIdCount": 370,
+      "iteration": 37,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 3328,
+        "uniqueReviewIdCount": 380,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 106241.5,
+        "scrollHeight": 109382,
+        "clientHeight": 498,
+        "distanceToBottom": 2642.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 8.083181455731392e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 106241.5,
+      "after": 108883.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 109382,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 3328,
+      "uniqueReviewIdCount": 380,
+      "iteration": 38,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 3408,
+        "uniqueReviewIdCount": 390,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 108883.5,
+        "scrollHeight": 111814,
+        "clientHeight": 498,
+        "distanceToBottom": 2432.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.916940376162529e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 108883.5,
+      "after": 111315.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 111814,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 3408,
+      "uniqueReviewIdCount": 390,
+      "iteration": 39,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 3488,
+        "uniqueReviewIdCount": 400,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 111315.5,
+        "scrollHeight": 114225,
+        "clientHeight": 498,
+        "distanceToBottom": 2411.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.084089934825897e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 111315.5,
+      "after": 113726.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 114225,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 3488,
+      "uniqueReviewIdCount": 400,
+      "iteration": 40,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 3569,
+        "uniqueReviewIdCount": 410,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 113726.5,
+        "scrollHeight": 116915,
+        "clientHeight": 498,
+        "distanceToBottom": 2690.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 9.417068213224411e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 113726.5,
+      "after": 116416.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 116915,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 3569,
+      "uniqueReviewIdCount": 410,
+      "iteration": 41,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 3649,
+        "uniqueReviewIdCount": 420,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 116416.5,
+        "scrollHeight": 119095,
+        "clientHeight": 498,
+        "distanceToBottom": 2180.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.500158295035362e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 116416.5,
+      "after": 118596.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 119095,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 3649,
+      "uniqueReviewIdCount": 420,
+      "iteration": 42,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 3729,
+        "uniqueReviewIdCount": 430,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 118596.5,
+        "scrollHeight": 121233,
+        "clientHeight": 498,
+        "distanceToBottom": 2138.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 2.3329630494117737e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 118596.5,
+      "after": 120734.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 121233,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 3729,
+      "uniqueReviewIdCount": 430,
+      "iteration": 43,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 3809,
+        "uniqueReviewIdCount": 440,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 120734.5,
+        "scrollHeight": 123203,
+        "clientHeight": 498,
+        "distanceToBottom": 1970.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 1.0666903108358383e-05,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 120734.5,
+      "after": 122704.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 123203,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 3809,
+      "uniqueReviewIdCount": 440,
+      "iteration": 44,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 3889,
+        "uniqueReviewIdCount": 450,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 122704.5,
+        "scrollHeight": 125173,
+        "clientHeight": 498,
+        "distanceToBottom": 1970.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 4.791887477040291e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 122704.5,
+      "after": 124674.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 125173,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 3889,
+      "uniqueReviewIdCount": 450,
+      "iteration": 45,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 3976,
+        "uniqueReviewIdCount": 460,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 124674.5,
+        "scrollHeight": 127918,
+        "clientHeight": 498,
+        "distanceToBottom": 2745.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.292007699608803e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 124674.5,
+      "after": 127419.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 127918,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 3976,
+      "uniqueReviewIdCount": 460,
+      "iteration": 46,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 4063,
+        "uniqueReviewIdCount": 470,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 127419.5,
+        "scrollHeight": 130602,
+        "clientHeight": 498,
+        "distanceToBottom": 2684.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 9.709037840366364e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 127419.5,
+      "after": 130103.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 130602,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 4063,
+      "uniqueReviewIdCount": 470,
+      "iteration": 47,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 4153,
+        "uniqueReviewIdCount": 480,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 130103.5,
+        "scrollHeight": 133464,
+        "clientHeight": 498,
+        "distanceToBottom": 2862.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.665933713316917e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 130103.5,
+      "after": 132965.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 133464,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 4153,
+      "uniqueReviewIdCount": 480,
+      "iteration": 48,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 4224,
+        "uniqueReviewIdCount": 490,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 132965.5,
+        "scrollHeight": 136103,
+        "clientHeight": 498,
+        "distanceToBottom": 2639.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.62518835067749e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 132965.5,
+      "after": 135604.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 136103,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 4224,
+      "uniqueReviewIdCount": 490,
+      "iteration": 49,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 4274,
+        "uniqueReviewIdCount": 500,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 135604.5,
+        "scrollHeight": 137473,
+        "clientHeight": 498,
+        "distanceToBottom": 1370.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.58304600417614e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 135604.5,
+      "after": 136974.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 137473,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 4274,
+      "uniqueReviewIdCount": 500,
+      "iteration": 50,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 4324,
+        "uniqueReviewIdCount": 510,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 136974.5,
+        "scrollHeight": 138843,
+        "clientHeight": 498,
+        "distanceToBottom": 1370.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.62518835067749e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 136974.5,
+      "after": 138344.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 138843,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 4324,
+      "uniqueReviewIdCount": 510,
+      "iteration": 51,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 4374,
+        "uniqueReviewIdCount": 520,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 138344.5,
+        "scrollHeight": 140213,
+        "clientHeight": 498,
+        "distanceToBottom": 1370.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 8.792150765657425e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 138344.5,
+      "after": 139714.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 140213,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 4374,
+      "uniqueReviewIdCount": 520,
+      "iteration": 52,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 4424,
+        "uniqueReviewIdCount": 530,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 139714.5,
+        "scrollHeight": 141583,
+        "clientHeight": 498,
+        "distanceToBottom": 1370.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 4.292000085115433e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 139714.5,
+      "after": 141084.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 141583,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 4424,
+      "uniqueReviewIdCount": 530,
+      "iteration": 53,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 4474,
+        "uniqueReviewIdCount": 540,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 141084.5,
+        "scrollHeight": 142953,
+        "clientHeight": 498,
+        "distanceToBottom": 1370.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.959067493677139e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 141084.5,
+      "after": 142454.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 142953,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 4474,
+      "uniqueReviewIdCount": 540,
+      "iteration": 54,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 4524,
+        "uniqueReviewIdCount": 550,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 142454.5,
+        "scrollHeight": 144323,
+        "clientHeight": 498,
+        "distanceToBottom": 1370.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 2.416083589196205e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 142454.5,
+      "after": 143824.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 144323,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 4524,
+      "uniqueReviewIdCount": 550,
+      "iteration": 55,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 4574,
+        "uniqueReviewIdCount": 560,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 143824.5,
+        "scrollHeight": 145693,
+        "clientHeight": 498,
+        "distanceToBottom": 1370.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.832873284816742e-06,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 143824.5,
+      "after": 145194.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 145693,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 4574,
+      "uniqueReviewIdCount": 560,
+      "iteration": 56,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 4584,
+        "uniqueReviewIdCount": 562,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 145194.5,
+        "scrollHeight": 145895,
+        "clientHeight": 498,
+        "distanceToBottom": 202.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 7.0838723331689835e-06,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 145194.5,
+      "after": 145396.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 145895,
+      "clientHeight": 498,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 4584,
+      "uniqueReviewIdCount": 562,
+      "iteration": 57,
+      "declaredReviewTotal": 562,
+      "stateAfterDelay": {
+        "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+        "reviewNodeCount": 4584,
+        "uniqueReviewIdCount": 562,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 145396.5,
+        "scrollHeight": 145895,
+        "clientHeight": 498,
+        "distanceToBottom": 0.5
+      },
+      "declaredTotalSettle": {
+        "waitSeconds": 1.5,
+        "stateAfterSettle": {
+          "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+          "reviewNodeCount": 4584,
+          "uniqueReviewIdCount": 562,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 145396.5,
+          "scrollHeight": 145895,
+          "clientHeight": 498,
+          "distanceToBottom": 0.5
+        }
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 6.679243583930656,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": true
+    }
+  ],
+  "scrollStopReason": "declared_total_reached_fast",
+  "exhausted": false,
+  "scrollSafetyTimeoutHit": false,
+  "growthEvents": [
+    {
+      "iteration": 1,
+      "uniqueReviewIdCount": 20,
+      "scrollHeight": 6842
+    },
+    {
+      "iteration": 2,
+      "uniqueReviewIdCount": 30,
+      "scrollHeight": 9610
+    },
+    {
+      "iteration": 3,
+      "uniqueReviewIdCount": 40,
+      "scrollHeight": 12420
+    },
+    {
+      "iteration": 4,
+      "uniqueReviewIdCount": 50,
+      "scrollHeight": 15931
+    },
+    {
+      "iteration": 5,
+      "uniqueReviewIdCount": 60,
+      "scrollHeight": 19062
+    },
+    {
+      "iteration": 6,
+      "uniqueReviewIdCount": 70,
+      "scrollHeight": 22212
+    },
+    {
+      "iteration": 7,
+      "uniqueReviewIdCount": 80,
+      "scrollHeight": 24938
+    },
+    {
+      "iteration": 8,
+      "uniqueReviewIdCount": 90,
+      "scrollHeight": 27744
+    },
+    {
+      "iteration": 9,
+      "uniqueReviewIdCount": 100,
+      "scrollHeight": 30554
+    },
+    {
+      "iteration": 10,
+      "uniqueReviewIdCount": 110,
+      "scrollHeight": 33985
+    },
+    {
+      "iteration": 11,
+      "uniqueReviewIdCount": 120,
+      "scrollHeight": 37114
+    },
+    {
+      "iteration": 12,
+      "uniqueReviewIdCount": 130,
+      "scrollHeight": 39838
+    },
+    {
+      "iteration": 13,
+      "uniqueReviewIdCount": 140,
+      "scrollHeight": 42543
+    },
+    {
+      "iteration": 14,
+      "uniqueReviewIdCount": 150,
+      "scrollHeight": 45267
+    },
+    {
+      "iteration": 15,
+      "uniqueReviewIdCount": 160,
+      "scrollHeight": 47949
+    },
+    {
+      "iteration": 16,
+      "uniqueReviewIdCount": 170,
+      "scrollHeight": 50717
+    },
+    {
+      "iteration": 17,
+      "uniqueReviewIdCount": 180,
+      "scrollHeight": 53441
+    },
+    {
+      "iteration": 18,
+      "uniqueReviewIdCount": 190,
+      "scrollHeight": 56568
+    },
+    {
+      "iteration": 19,
+      "uniqueReviewIdCount": 200,
+      "scrollHeight": 59294
+    },
+    {
+      "iteration": 20,
+      "uniqueReviewIdCount": 210,
+      "scrollHeight": 62404
+    },
+    {
+      "iteration": 21,
+      "uniqueReviewIdCount": 220,
+      "scrollHeight": 65917
+    },
+    {
+      "iteration": 22,
+      "uniqueReviewIdCount": 230,
+      "scrollHeight": 68664
+    },
+    {
+      "iteration": 23,
+      "uniqueReviewIdCount": 240,
+      "scrollHeight": 71325
+    },
+    {
+      "iteration": 24,
+      "uniqueReviewIdCount": 250,
+      "scrollHeight": 74175
+    },
+    {
+      "iteration": 25,
+      "uniqueReviewIdCount": 260,
+      "scrollHeight": 76880
+    },
+    {
+      "iteration": 26,
+      "uniqueReviewIdCount": 270,
+      "scrollHeight": 79602
+    },
+    {
+      "iteration": 27,
+      "uniqueReviewIdCount": 280,
+      "scrollHeight": 82391
+    },
+    {
+      "iteration": 28,
+      "uniqueReviewIdCount": 290,
+      "scrollHeight": 85075
+    },
+    {
+      "iteration": 29,
+      "uniqueReviewIdCount": 300,
+      "scrollHeight": 87843
+    },
+    {
+      "iteration": 30,
+      "uniqueReviewIdCount": 310,
+      "scrollHeight": 90609
+    },
+    {
+      "iteration": 31,
+      "uniqueReviewIdCount": 320,
+      "scrollHeight": 93335
+    },
+    {
+      "iteration": 32,
+      "uniqueReviewIdCount": 330,
+      "scrollHeight": 96193
+    },
+    {
+      "iteration": 33,
+      "uniqueReviewIdCount": 340,
+      "scrollHeight": 98940
+    },
+    {
+      "iteration": 34,
+      "uniqueReviewIdCount": 350,
+      "scrollHeight": 101519
+    },
+    {
+      "iteration": 35,
+      "uniqueReviewIdCount": 360,
+      "scrollHeight": 104098
+    },
+    {
+      "iteration": 36,
+      "uniqueReviewIdCount": 370,
+      "scrollHeight": 106740
+    },
+    {
+      "iteration": 37,
+      "uniqueReviewIdCount": 380,
+      "scrollHeight": 109382
+    },
+    {
+      "iteration": 38,
+      "uniqueReviewIdCount": 390,
+      "scrollHeight": 111814
+    },
+    {
+      "iteration": 39,
+      "uniqueReviewIdCount": 400,
+      "scrollHeight": 114225
+    },
+    {
+      "iteration": 40,
+      "uniqueReviewIdCount": 410,
+      "scrollHeight": 116915
+    },
+    {
+      "iteration": 41,
+      "uniqueReviewIdCount": 420,
+      "scrollHeight": 119095
+    },
+    {
+      "iteration": 42,
+      "uniqueReviewIdCount": 430,
+      "scrollHeight": 121233
+    },
+    {
+      "iteration": 43,
+      "uniqueReviewIdCount": 440,
+      "scrollHeight": 123203
+    },
+    {
+      "iteration": 44,
+      "uniqueReviewIdCount": 450,
+      "scrollHeight": 125173
+    },
+    {
+      "iteration": 45,
+      "uniqueReviewIdCount": 460,
+      "scrollHeight": 127918
+    },
+    {
+      "iteration": 46,
+      "uniqueReviewIdCount": 470,
+      "scrollHeight": 130602
+    },
+    {
+      "iteration": 47,
+      "uniqueReviewIdCount": 480,
+      "scrollHeight": 133464
+    },
+    {
+      "iteration": 48,
+      "uniqueReviewIdCount": 490,
+      "scrollHeight": 136103
+    },
+    {
+      "iteration": 49,
+      "uniqueReviewIdCount": 500,
+      "scrollHeight": 137473
+    },
+    {
+      "iteration": 50,
+      "uniqueReviewIdCount": 510,
+      "scrollHeight": 138843
+    },
+    {
+      "iteration": 51,
+      "uniqueReviewIdCount": 520,
+      "scrollHeight": 140213
+    },
+    {
+      "iteration": 52,
+      "uniqueReviewIdCount": 530,
+      "scrollHeight": 141583
+    },
+    {
+      "iteration": 53,
+      "uniqueReviewIdCount": 540,
+      "scrollHeight": 142953
+    },
+    {
+      "iteration": 54,
+      "uniqueReviewIdCount": 550,
+      "scrollHeight": 144323
+    },
+    {
+      "iteration": 55,
+      "uniqueReviewIdCount": 560,
+      "scrollHeight": 145693
+    },
+    {
+      "iteration": 56,
+      "uniqueReviewIdCount": 562,
+      "scrollHeight": 145895
+    }
+  ],
+  "networkEventsDuringScroll": 314,
+  "finalNetworkIdleSeconds": 6.679245749954134,
+  "noGrowthCycles": 0,
+  "finalReviewsState": {
+    "title": "Städtisches Klinikum Braunschweig gGmbH - Klinikum Fichtengrund - Google Maps",
+    "reviewNodeCount": 4584,
+    "uniqueReviewIdCount": 562,
+    "foundTarget": true,
+    "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "tagName": "DIV",
+    "scrollTop": 145396.5,
+    "scrollHeight": 145895,
+    "clientHeight": 498,
+    "distanceToBottom": 0.5
+  },
+  "reachedDeclaredReviewTotal": true,
+  "reachedReviewPaneEnd": true,
+  "finalUniqueReviewIdCount": 562,
+  "finalScrollTop": 145396.5,
+  "finalScrollHeight": 145895,
+  "reviewExpansion": {
+    "buttonCount": 284,
+    "clickedCount": 284
+  },
+  "matchedRequestCount": 349,
+  "batchexecuteCount": 2,
+  "reviewPhaseXhrCount": 319,
+  "captureSuccessful": true,
+  "finishedAt": "2026-05-11T16:55:26Z",
   "retryRunsRequested": 2,
   "retryRunsExecuted": 1,
   "retryAttempts": [
@@ -678,14 +2413,14 @@
       "attempt": 1,
       "outputDir": "artifacts/staedtisches-klinikum-braunschweig",
       "scrollDelayUsed": 1.5,
-      "captureSuccessful": false,
-      "failureReason": "reviews_panel_not_opened",
-      "finalUniqueReviewIdCount": 0,
-      "scrollStopReason": "reviews_panel_not_opened",
-      "declaredReviewTotal": null
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 562,
+      "scrollStopReason": "declared_total_reached_fast",
+      "declaredReviewTotal": 562
     }
   ],
-  "mergedReviewCountAcrossAttempts": 0,
-  "reviewsPath": null,
-  "latestDeclaredReviewTotalAcrossAttempts": null
+  "mergedReviewCountAcrossAttempts": 484,
+  "reviewsPath": "artifacts/staedtisches-klinikum-braunschweig/reviews.json",
+  "latestDeclaredReviewTotalAcrossAttempts": 562
 }

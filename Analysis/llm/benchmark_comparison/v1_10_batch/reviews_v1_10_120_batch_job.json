@@ -1,0 +1,60 @@
+{
+  "model": "gpt-4.1-mini-2025-04-14",
+  "sample_path": "analysis/llm/samples/review_labels_benchmark_ids_120.txt",
+  "review_count": 120,
+  "input_jsonl_path": "analysis/llm/benchmark_comparison/v1_10_batch/reviews_v1_10_120_input.jsonl",
+  "uploaded_input_file": {
+    "id": "file-21bAfvbvXjRe7v85kmG3gv",
+    "bytes": 628937,
+    "created_at": 1779105111,
+    "filename": "reviews_v1_10_120_input.jsonl",
+    "object": "file",
+    "purpose": "batch",
+    "status": "processed",
+    "expires_at": 1781697111,
+    "status_details": null
+  },
+  "batch": {
+    "id": "batch_6a0afd59559081909a13643b32757b03",
+    "completion_window": "24h",
+    "created_at": 1779105113,
+    "endpoint": "/v1/chat/completions",
+    "input_file_id": "file-21bAfvbvXjRe7v85kmG3gv",
+    "object": "batch",
+    "status": "completed",
+    "cancelled_at": null,
+    "cancelling_at": null,
+    "completed_at": 1779105283,
+    "error_file_id": null,
+    "errors": null,
+    "expired_at": null,
+    "expires_at": 1779191513,
+    "failed_at": null,
+    "finalizing_at": 1779105264,
+    "in_progress_at": 1779105176,
+    "metadata": {
+      "project": "human-ls",
+      "experiment": "v1_10_batch_control",
+      "prompt_version": "v1"
+    },
+    "model": "gpt-4.1-mini-2025-04-14",
+    "output_file_id": "file-DHRw4qQTZqVnE4rYo1Lqfa",
+    "request_counts": {
+      "completed": 120,
+      "failed": 0,
+      "total": 120
+    },
+    "usage": {
+      "input_tokens": 125214,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 3801,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 129015
+    }
+  },
+  "saved_at": "2026-05-18T11:59:32.983564+00:00"
+}

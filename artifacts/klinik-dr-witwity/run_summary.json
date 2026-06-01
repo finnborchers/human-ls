@@ -1,40 +1,107 @@
 {
   "url": "https://www.google.com/maps/place/Klinik+Dr.+Witwity+-+Fachklinik+f%C3%BCr+Arthrose,+Meniskus,+Kreuzbandriss/@53.5980656,9.4739118,17z/data=!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%2Fg%2F1tf14y8d?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "klinik-dr-witwity",
-  "startedAt": "2026-04-15T16:53:34Z",
+  "startedAt": "2026-05-11T14:13:34Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "C224D8AD948CC143B272CA3EA217E66E",
-  "selectedTargetId": "C224D8AD948CC143B272CA3EA217E66E",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "1201A3078053A45C2FD0228A32262B00",
+  "selectedTargetId": "1201A3078053A45C2FD0228A32262B00",
   "selectedTargetUrl": "https://www.google.com/maps/place/Klinik+Dr.+Witwity+-+Fachklinik+f%C3%BCr+Arthrose,+Meniskus,+Kreuzbandriss/@53.5980656,9.4739118,17z/data=!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%2Fg%2F1tf14y8d?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BWitwity%2B-%2BFachklinik%2Bf%25C3%25BCr%2BArthrose,%2BMeniskus,%2BKreuzbandriss/@53.5980656,9.4739118,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%252Fg%252F1tf14y8d?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BWitwity%2B-%2BFachklinik%2Bf%25C3%25BCr%2BArthrose,%2BMeniskus,%2BKreuzbandriss/@53.5980656,9.4739118,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%252Fg%252F1tf14y8d?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BWitwity%2B-%2BFachklinik%2Bf%25C3%25BCr%2BArthrose,%2BMeniskus,%2BKreuzbandriss/@53.5980656,9.4739118,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%252Fg%252F1tf14y8d?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BWitwity%2B-%2BFachklinik%2Bf%25C3%25BCr%2BArthrose,%2BMeniskus,%2BKreuzbandriss/@53.5980656,9.4739118,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%252Fg%252F1tf14y8d?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/Klinik+Dr.+Witwity+-+Fachklinik+f%C3%BCr+Arthrose,+Meniskus,+Kreuzbandriss/@53.5980656,9.4739118,17z/data=!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%2Fg%2F1tf14y8d?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BWitwity%2B-%2BFachklinik%2Bf%25C3%25BCr%2BArthrose,%2BMeniskus,%2BKreuzbandriss/@53.5980656,9.4739118,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%252Fg%252F1tf14y8d?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BWitwity%2B-%2BFachklinik%2Bf%25C3%25BCr%2BArthrose,%2BMeniskus,%2BKreuzbandriss/@53.5980656,9.4739118,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%252Fg%252F1tf14y8d?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BWitwity%2B-%2BFachklinik%2Bf%25C3%25BCr%2BArthrose,%2BMeniskus,%2BKreuzbandriss/@53.5980656,9.4739118,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b164cae01f9fef:0xe05ffc5ecc79ac8d!8m2!3d53.5980656!4d9.4739118!16s%252Fg%252F1tf14y8d?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
@@ -56,6 +123,7 @@
         "jsaction": "pane.wfvdle14.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 6,
       "clickResult": {
         "clicked": true,
         "index": 47,
@@ -71,7 +139,7 @@
       }
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 6,
   "reviewClick": {
     "clicked": true,
     "strategy": "candidate",
@@ -99,8 +167,8 @@
     "tagName": "DIV",
     "scrollTop": 0,
     "scrollHeight": 3394,
-    "clientHeight": 694,
-    "distanceToBottom": 2700
+    "clientHeight": 695,
+    "distanceToBottom": 2699
   },
   "declaredReviewTotalInfo": {
     "found": true,
@@ -139,11 +207,11 @@
       "scrolled": true,
       "strategy": "pane_to_bottom",
       "before": 0,
-      "after": 2699.5,
+      "after": 2698.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 3394,
-      "clientHeight": 694,
+      "clientHeight": 695,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 89,
       "uniqueReviewIdCount": 10,
@@ -156,25 +224,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 2699.5,
+        "scrollTop": 2698.5,
         "scrollHeight": 6099,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 2704.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 1.6332953236997128e-05,
+      "networkIdleSeconds": 1.708301715552807e-05,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 2699.5,
-      "after": 5403.5,
+      "before": 2698.5,
+      "after": 5402.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 6099,
-      "clientHeight": 695,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 175,
       "uniqueReviewIdCount": 20,
@@ -187,25 +255,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 5403.5,
+        "scrollTop": 5402.5,
         "scrollHeight": 8445,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 2346.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 1.1874944902956486e-05,
+      "networkIdleSeconds": 5.790963768959045e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 5403.5,
-      "after": 7749.5,
+      "before": 5402.5,
+      "after": 7748.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 8445,
-      "clientHeight": 695,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 257,
       "uniqueReviewIdCount": 30,
@@ -218,25 +286,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 7749.5,
+        "scrollTop": 7748.5,
         "scrollHeight": 10442,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 1997.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 1.1416967026889324e-05,
+      "networkIdleSeconds": 4.290835931897163e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 7749.5,
-      "after": 9746.5,
+      "before": 7748.5,
+      "after": 9745.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 10442,
-      "clientHeight": 695,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 325,
       "uniqueReviewIdCount": 40,
@@ -249,25 +317,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 9746.5,
+        "scrollTop": 9745.5,
         "scrollHeight": 11466,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 1024.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 8.792034350335598e-06,
+      "networkIdleSeconds": 6.707850843667984e-06,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 9746.5,
-      "after": 10770.5,
+      "before": 9745.5,
+      "after": 10769.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 11466,
-      "clientHeight": 695,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 365,
       "uniqueReviewIdCount": 48,
@@ -280,9 +348,9 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 10770.5,
+        "scrollTop": 10769.5,
         "scrollHeight": 11466,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 0.5
       },
       "declaredTotalSettle": {
@@ -294,14 +362,14 @@
           "foundTarget": true,
           "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
           "tagName": "DIV",
-          "scrollTop": 10770.5,
+          "scrollTop": 10769.5,
           "scrollHeight": 11466,
-          "clientHeight": 695,
+          "clientHeight": 696,
           "distanceToBottom": 0.5
         }
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 6.634284041938372,
+      "networkIdleSeconds": 6.627555540995672,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": true
     }
@@ -332,7 +400,7 @@
     }
   ],
   "networkEventsDuringScroll": 21,
-  "finalNetworkIdleSeconds": 6.634291999973357,
+  "finalNetworkIdleSeconds": 6.627560457913205,
   "noGrowthCycles": 0,
   "finalReviewsState": {
     "title": "Klinik Dr. Witwity - Fachklinik für Arthrose, Meniskus, Kreuzbandriss - Google Maps",
@@ -341,15 +409,15 @@
     "foundTarget": true,
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
-    "scrollTop": 10770.5,
+    "scrollTop": 10769.5,
     "scrollHeight": 11466,
-    "clientHeight": 695,
+    "clientHeight": 696,
     "distanceToBottom": 0.5
   },
   "reachedDeclaredReviewTotal": true,
   "reachedReviewPaneEnd": true,
   "finalUniqueReviewIdCount": 48,
-  "finalScrollTop": 10770.5,
+  "finalScrollTop": 10769.5,
   "finalScrollHeight": 11466,
   "reviewExpansion": {
     "buttonCount": 18,
@@ -359,7 +427,7 @@
   "batchexecuteCount": 3,
   "reviewPhaseXhrCount": 33,
   "captureSuccessful": true,
-  "finishedAt": "2026-04-15T16:54:18Z",
+  "finishedAt": "2026-05-11T14:14:18Z",
   "retryRunsRequested": 2,
   "retryRunsExecuted": 1,
   "retryAttempts": [

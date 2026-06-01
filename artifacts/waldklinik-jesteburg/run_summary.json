@@ -1,40 +1,107 @@
 {
   "url": "https://www.google.com/maps/place/Waldklinik+Jesteburg+Aldag+GmbH+%26+Co.+KG/@53.3193625,9.9489471,17z/data=!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%2Fg%2F1tzly062?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "waldklinik-jesteburg",
-  "startedAt": "2026-04-15T19:52:24Z",
+  "startedAt": "2026-05-11T17:18:00Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "521EBBBE811884A2B2056C31E436AECA",
-  "selectedTargetId": "521EBBBE811884A2B2056C31E436AECA",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "55DE5F5C50DD5CFB880204C938298E9E",
+  "selectedTargetId": "55DE5F5C50DD5CFB880204C938298E9E",
   "selectedTargetUrl": "https://www.google.com/maps/place/Waldklinik+Jesteburg+Aldag+GmbH+%26+Co.+KG/@53.3193625,9.9489471,17z/data=!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%2Fg%2F1tzly062?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Waldklinik%2BJesteburg%2BAldag%2BGmbH%2B%2526%2BCo.%2BKG/@53.3193625,9.9489471,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%252Fg%252F1tzly062?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Waldklinik%2BJesteburg%2BAldag%2BGmbH%2B%2526%2BCo.%2BKG/@53.3193625,9.9489471,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%252Fg%252F1tzly062?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Waldklinik%2BJesteburg%2BAldag%2BGmbH%2B%2526%2BCo.%2BKG/@53.3193625,9.9489471,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%252Fg%252F1tzly062?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Waldklinik%2BJesteburg%2BAldag%2BGmbH%2B%2526%2BCo.%2BKG/@53.3193625,9.9489471,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%252Fg%252F1tzly062?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/Waldklinik+Jesteburg+Aldag+GmbH+%26+Co.+KG/@53.3193625,9.9489471,17z/data=!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%2Fg%2F1tzly062?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Waldklinik%2BJesteburg%2BAldag%2BGmbH%2B%2526%2BCo.%2BKG/@53.3193625,9.9489471,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%252Fg%252F1tzly062?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Waldklinik%2BJesteburg%2BAldag%2BGmbH%2B%2526%2BCo.%2BKG/@53.3193625,9.9489471,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%252Fg%252F1tzly062?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Waldklinik%2BJesteburg%2BAldag%2BGmbH%2B%2526%2BCo.%2BKG/@53.3193625,9.9489471,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1bdf5ab0cbc47:0xf42792f995c8ec9a!8m2!3d53.3193625!4d9.9489471!16s%252Fg%252F1tzly062?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
@@ -56,6 +123,7 @@
         "jsaction": "pane.wfvdle14.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 6,
       "clickResult": {
         "clicked": true,
         "index": 59,
@@ -66,12 +134,12 @@
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
       "reviewsPanelAfterClick": {
-        "reviewNodeCount": 124,
+        "reviewNodeCount": 120,
         "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps"
       }
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 6,
   "reviewClick": {
     "clicked": true,
     "strategy": "candidate",
@@ -87,20 +155,20 @@
     "jsaction": "pane.wfvdle14.reviewchart.morereviews"
   },
   "reviewsPanel": {
-    "reviewNodeCount": 124,
+    "reviewNodeCount": 120,
     "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps"
   },
   "initialReviewsState": {
     "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
-    "reviewNodeCount": 124,
+    "reviewNodeCount": 120,
     "uniqueReviewIdCount": 10,
     "foundTarget": true,
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
     "scrollTop": 0,
-    "scrollHeight": 6001,
-    "clientHeight": 694,
-    "distanceToBottom": 5307
+    "scrollHeight": 5774,
+    "clientHeight": 695,
+    "distanceToBottom": 5079
   },
   "declaredReviewTotalInfo": {
     "found": true,
@@ -122,12 +190,12 @@
     "iteration": 11,
     "before": {
       "uniqueReviewIdCount": 108,
-      "scrollHeight": 36379,
+      "scrollHeight": 36523,
       "distanceToBottom": 0.5
     },
     "after": {
       "uniqueReviewIdCount": 108,
-      "scrollHeight": 36379,
+      "scrollHeight": 36523,
       "distanceToBottom": 0.5
     },
     "settleSeconds": 1.5,
@@ -141,230 +209,230 @@
       "scrolled": true,
       "strategy": "pane_to_bottom",
       "before": 0,
-      "after": 5306.5,
+      "after": 5078.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 6001,
-      "clientHeight": 694,
+      "scrollHeight": 5774,
+      "clientHeight": 695,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 124,
+      "reviewNodeCount": 120,
       "uniqueReviewIdCount": 10,
       "iteration": 1,
       "declaredReviewTotal": 108,
       "stateAfterDelay": {
         "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
-        "reviewNodeCount": 233,
+        "reviewNodeCount": 229,
         "uniqueReviewIdCount": 20,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 5306.5,
-        "scrollHeight": 10557,
-        "clientHeight": 695,
-        "distanceToBottom": 4555.5
+        "scrollTop": 5078.5,
+        "scrollHeight": 10351,
+        "clientHeight": 696,
+        "distanceToBottom": 4576.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 9.249895811080933e-06,
+      "networkIdleSeconds": 2.450007013976574e-05,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 5306.5,
-      "after": 9861.5,
+      "before": 5078.5,
+      "after": 9654.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 10557,
-      "clientHeight": 695,
+      "scrollHeight": 10351,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 233,
+      "reviewNodeCount": 229,
       "uniqueReviewIdCount": 20,
       "iteration": 2,
       "declaredReviewTotal": 108,
       "stateAfterDelay": {
         "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
-        "reviewNodeCount": 340,
+        "reviewNodeCount": 336,
         "uniqueReviewIdCount": 30,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 9861.5,
-        "scrollHeight": 14660,
-        "clientHeight": 695,
-        "distanceToBottom": 4103.5
+        "scrollTop": 9654.5,
+        "scrollHeight": 14433,
+        "clientHeight": 696,
+        "distanceToBottom": 4082.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 9.958050213754177e-06,
+      "networkIdleSeconds": 4.832865670323372e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 9861.5,
-      "after": 13964.5,
+      "before": 9654.5,
+      "after": 13736.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 14660,
-      "clientHeight": 695,
+      "scrollHeight": 14433,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 340,
+      "reviewNodeCount": 336,
       "uniqueReviewIdCount": 30,
       "iteration": 3,
       "declaredReviewTotal": 108,
       "stateAfterDelay": {
         "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
-        "reviewNodeCount": 440,
+        "reviewNodeCount": 435,
         "uniqueReviewIdCount": 40,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 13964.5,
-        "scrollHeight": 18191,
-        "clientHeight": 695,
-        "distanceToBottom": 3531.5
+        "scrollTop": 13736.5,
+        "scrollHeight": 17943,
+        "clientHeight": 696,
+        "distanceToBottom": 3510.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 9.750016033649445e-06,
+      "networkIdleSeconds": 6.4999330788850784e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 13964.5,
-      "after": 17495.5,
+      "before": 13736.5,
+      "after": 17246.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 18191,
-      "clientHeight": 695,
+      "scrollHeight": 17943,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 440,
+      "reviewNodeCount": 435,
       "uniqueReviewIdCount": 40,
       "iteration": 4,
       "declaredReviewTotal": 108,
       "stateAfterDelay": {
         "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
-        "reviewNodeCount": 534,
+        "reviewNodeCount": 529,
         "uniqueReviewIdCount": 50,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 17495.5,
-        "scrollHeight": 21932,
-        "clientHeight": 695,
-        "distanceToBottom": 3741.5
+        "scrollTop": 17246.5,
+        "scrollHeight": 21747,
+        "clientHeight": 696,
+        "distanceToBottom": 3804.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 8.707982487976551e-06,
+      "networkIdleSeconds": 3.7499703466892242e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 17495.5,
-      "after": 21236.5,
+      "before": 17246.5,
+      "after": 21050.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 21932,
-      "clientHeight": 695,
+      "scrollHeight": 21747,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 534,
+      "reviewNodeCount": 529,
       "uniqueReviewIdCount": 50,
       "iteration": 5,
       "declaredReviewTotal": 108,
       "stateAfterDelay": {
         "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
-        "reviewNodeCount": 632,
+        "reviewNodeCount": 627,
         "uniqueReviewIdCount": 60,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 21236.5,
-        "scrollHeight": 25519,
-        "clientHeight": 695,
-        "distanceToBottom": 3587.5
+        "scrollTop": 21050.5,
+        "scrollHeight": 25250,
+        "clientHeight": 696,
+        "distanceToBottom": 3503.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 9.833020158112049e-06,
+      "networkIdleSeconds": 7.082941010594368e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 21236.5,
-      "after": 24823.5,
+      "before": 21050.5,
+      "after": 24553.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 25519,
-      "clientHeight": 695,
+      "scrollHeight": 25250,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 632,
+      "reviewNodeCount": 627,
       "uniqueReviewIdCount": 60,
       "iteration": 6,
       "declaredReviewTotal": 108,
       "stateAfterDelay": {
         "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
-        "reviewNodeCount": 719,
+        "reviewNodeCount": 712,
         "uniqueReviewIdCount": 70,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 24823.5,
-        "scrollHeight": 28416,
-        "clientHeight": 695,
-        "distanceToBottom": 2897.5
+        "scrollTop": 24553.5,
+        "scrollHeight": 27994,
+        "clientHeight": 696,
+        "distanceToBottom": 2744.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 8.167000487446785e-06,
+      "networkIdleSeconds": 7.292022928595543e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 24823.5,
-      "after": 27720.5,
+      "before": 24553.5,
+      "after": 27297.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 28416,
-      "clientHeight": 695,
+      "scrollHeight": 27994,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 719,
+      "reviewNodeCount": 712,
       "uniqueReviewIdCount": 70,
       "iteration": 7,
       "declaredReviewTotal": 108,
       "stateAfterDelay": {
         "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
-        "reviewNodeCount": 803,
+        "reviewNodeCount": 797,
         "uniqueReviewIdCount": 80,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 27720.5,
-        "scrollHeight": 30887,
-        "clientHeight": 695,
-        "distanceToBottom": 2471.5
+        "scrollTop": 27297.5,
+        "scrollHeight": 30544,
+        "clientHeight": 696,
+        "distanceToBottom": 2550.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 1.1499971151351929e-05,
+      "networkIdleSeconds": 5.541834980249405e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 27720.5,
-      "after": 30191.5,
+      "before": 27297.5,
+      "after": 29847.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 30887,
-      "clientHeight": 695,
+      "scrollHeight": 30544,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 803,
+      "reviewNodeCount": 797,
       "uniqueReviewIdCount": 80,
       "iteration": 8,
       "declaredReviewTotal": 108,
@@ -375,25 +443,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 30191.5,
-        "scrollHeight": 33889,
-        "clientHeight": 695,
-        "distanceToBottom": 3002.5
+        "scrollTop": 29847.5,
+        "scrollHeight": 34033,
+        "clientHeight": 696,
+        "distanceToBottom": 3489.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 1.2542004697024822e-05,
+      "networkIdleSeconds": 7.458031177520752e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 30191.5,
-      "after": 33193.5,
+      "before": 29847.5,
+      "after": 33336.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 33889,
-      "clientHeight": 695,
+      "scrollHeight": 34033,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 883,
       "uniqueReviewIdCount": 90,
@@ -406,25 +474,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 33193.5,
-        "scrollHeight": 35355,
-        "clientHeight": 695,
+        "scrollTop": 33336.5,
+        "scrollHeight": 35499,
+        "clientHeight": 696,
         "distanceToBottom": 1466.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 9.458046406507492e-06,
+      "networkIdleSeconds": 5.915993824601173e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 33193.5,
-      "after": 34659.5,
+      "before": 33336.5,
+      "after": 34802.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 35355,
-      "clientHeight": 695,
+      "scrollHeight": 35499,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 934,
       "uniqueReviewIdCount": 100,
@@ -437,25 +505,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 34659.5,
-        "scrollHeight": 36379,
-        "clientHeight": 695,
+        "scrollTop": 34802.5,
+        "scrollHeight": 36523,
+        "clientHeight": 696,
         "distanceToBottom": 1024.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 1.2584030628204346e-05,
+      "networkIdleSeconds": 5.166046321392059e-06,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 34659.5,
-      "after": 35683.5,
+      "before": 34802.5,
+      "after": 35826.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 36379,
-      "clientHeight": 695,
+      "scrollHeight": 36523,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 974,
       "uniqueReviewIdCount": 108,
@@ -468,9 +536,9 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 35683.5,
-        "scrollHeight": 36379,
-        "clientHeight": 695,
+        "scrollTop": 35826.5,
+        "scrollHeight": 36523,
+        "clientHeight": 696,
         "distanceToBottom": 0.5
       },
       "declaredTotalSettle": {
@@ -482,14 +550,14 @@
           "foundTarget": true,
           "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
           "tagName": "DIV",
-          "scrollTop": 35683.5,
-          "scrollHeight": 36379,
-          "clientHeight": 695,
+          "scrollTop": 35826.5,
+          "scrollHeight": 36523,
+          "clientHeight": 696,
           "distanceToBottom": 0.5
         }
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 6.569139792001806,
+      "networkIdleSeconds": 6.641088458010927,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": true
     }
@@ -501,56 +569,56 @@
     {
       "iteration": 1,
       "uniqueReviewIdCount": 20,
-      "scrollHeight": 10557
+      "scrollHeight": 10351
     },
     {
       "iteration": 2,
       "uniqueReviewIdCount": 30,
-      "scrollHeight": 14660
+      "scrollHeight": 14433
     },
     {
       "iteration": 3,
       "uniqueReviewIdCount": 40,
-      "scrollHeight": 18191
+      "scrollHeight": 17943
     },
     {
       "iteration": 4,
       "uniqueReviewIdCount": 50,
-      "scrollHeight": 21932
+      "scrollHeight": 21747
     },
     {
       "iteration": 5,
       "uniqueReviewIdCount": 60,
-      "scrollHeight": 25519
+      "scrollHeight": 25250
     },
     {
       "iteration": 6,
       "uniqueReviewIdCount": 70,
-      "scrollHeight": 28416
+      "scrollHeight": 27994
     },
     {
       "iteration": 7,
       "uniqueReviewIdCount": 80,
-      "scrollHeight": 30887
+      "scrollHeight": 30544
     },
     {
       "iteration": 8,
       "uniqueReviewIdCount": 90,
-      "scrollHeight": 33889
+      "scrollHeight": 34033
     },
     {
       "iteration": 9,
       "uniqueReviewIdCount": 100,
-      "scrollHeight": 35355
+      "scrollHeight": 35499
     },
     {
       "iteration": 10,
       "uniqueReviewIdCount": 108,
-      "scrollHeight": 36379
+      "scrollHeight": 36523
     }
   ],
   "networkEventsDuringScroll": 56,
-  "finalNetworkIdleSeconds": 6.569148459006101,
+  "finalNetworkIdleSeconds": 6.6410937500186265,
   "noGrowthCycles": 0,
   "finalReviewsState": {
     "title": "Waldklinik Jesteburg Aldag GmbH & Co. KG - Google Maps",
@@ -559,25 +627,25 @@
     "foundTarget": true,
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
-    "scrollTop": 35683.5,
-    "scrollHeight": 36379,
-    "clientHeight": 695,
+    "scrollTop": 35826.5,
+    "scrollHeight": 36523,
+    "clientHeight": 696,
     "distanceToBottom": 0.5
   },
   "reachedDeclaredReviewTotal": true,
   "reachedReviewPaneEnd": true,
   "finalUniqueReviewIdCount": 108,
-  "finalScrollTop": 35683.5,
-  "finalScrollHeight": 36379,
+  "finalScrollTop": 35826.5,
+  "finalScrollHeight": 36523,
   "reviewExpansion": {
     "buttonCount": 96,
     "clickedCount": 96
   },
-  "matchedRequestCount": 89,
-  "batchexecuteCount": 2,
-  "reviewPhaseXhrCount": 75,
+  "matchedRequestCount": 92,
+  "batchexecuteCount": 4,
+  "reviewPhaseXhrCount": 76,
   "captureSuccessful": true,
-  "finishedAt": "2026-04-15T19:53:29Z",
+  "finishedAt": "2026-05-11T17:19:06Z",
   "retryRunsRequested": 2,
   "retryRunsExecuted": 1,
   "retryAttempts": [

@@ -1,0 +1,72 @@
+Pipeline Timeline and File Logic (Ready-to-Insert Appendix Text)
+
+A. End-to-end timeline
+1) Define clinic universe
+- Maintain clinic names in `configs/places.txt`.
+
+2) Resolve clinic names to canonical place URLs
+- Run `scripts/fetch_urls.py`.
+- Output: `configs/place_urls.json` with statuses (`resolved`, `mismatch`, `error`).
+
+3) Capture reviews for resolved places
+- Run `scripts/capture_reviews.py` in batch mode.
+- Output per clinic: `artifacts/<place_id>/reviews.json` and run metadata files.
+
+4) Consolidate capture monitoring
+- Batch summary file: `artifacts/capture_reviews_run_summary.json`.
+
+5) Prepare for analysis
+- Use `reviews.json` files as standardized input for analysis scripts.
+- The extended review schema supports later analysis of public engagement (`like_count`) and institutional responsiveness (`has_owner_response`, `owner_response_time`, `owner_response_text`).
+
+B. Folder and file structure
+- `configs/places.txt`
+  Master text list of clinic names.
+
+- `configs/place_urls.json`
+  Per-place URL resolution log with validation status.
+
+- `artifacts/<place_id>/reviews.json`
+  Final review records for one clinic, including review text, star rating, relative review time, visible like count, and owner-response metadata when available.
+
+- `artifacts/<place_id>/run_summary.json`
+  Procedural metadata for the capture run (important for audit and QC).
+
+- `artifacts/<place_id>/retry_summary.json`
+  Retry attempts and outcome traces.
+
+- `artifacts/capture_reviews_run_summary.json`
+  Aggregate batch-level progress and status overview.
+
+C. Typical command sequence (conceptual)
+1) URL resolution
+`python3 scripts/fetch_urls.py --headed`
+
+2) Batch capture over all resolved places
+`python3 scripts/capture_reviews.py --headless --artifacts-root artifacts`
+
+D. Why this architecture is methodologically strong
+- Separation of concerns:
+  URL disambiguation and review extraction are decoupled.
+
+- Reproducibility:
+  Intermediate state is persisted, enabling reruns without losing provenance.
+
+- Robustness:
+  Retry logic, multiple stopping criteria, and deduplication reduce random data loss.
+
+- Auditability:
+  Run summaries provide traceable evidence for collection quality and limitations.
+
+E. Current project snapshot (for methodology reporting)
+As of May 11, 2026 (local repository state):
+- Clinic names in list: 171
+- Place entries in URL lock file: 170
+- Resolved place entries: 126
+- Mismatch entries: 44
+- Existing review corpora (`artifacts_2026-04-15/*/reviews.json`): 122 files
+- Total extracted reviews in that snapshot: 31,823
+- Median reviews per clinic file: 200.5
+- Review count range per clinic file: 2 to 1,070
+
+These values should be reported as extraction-date dependent and may change after reruns.

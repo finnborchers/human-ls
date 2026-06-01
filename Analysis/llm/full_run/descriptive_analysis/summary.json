@@ -1,0 +1,572 @@
+{
+  "run_meta": {
+    "runner": "analyze_fullrun_v1_batch.py",
+    "generated_at": "2026-05-18T15:48:43.034222+00:00",
+    "record_count": 30863
+  },
+  "summary": {
+    "generated_at": "2026-05-18T15:48:43.034222+00:00",
+    "input_path": "analysis/llm/full_run/v1_batch_run/merged/all_scopes_labeled.json",
+    "input_summary_path": "analysis/llm/full_run/v1_batch_run/merged/all_scopes_summary.json",
+    "total_reviews": 30863,
+    "materialized_reviews": 30863,
+    "parse_errors_total": 0,
+    "problem_label_total": 46110,
+    "strength_label_total": 64675,
+    "no_label_reviews": 1005,
+    "no_label_reviews_pct": 3.26,
+    "problem_only_reviews": 9528,
+    "problem_only_reviews_pct": 30.87,
+    "strength_only_reviews": 13347,
+    "strength_only_reviews_pct": 43.25,
+    "mixed_reviews": 6983,
+    "mixed_reviews_pct": 22.63,
+    "avg_labels_per_review": 3.59,
+    "median_labels_per_review": 3,
+    "max_labels_per_review": 34,
+    "unique_problem_labels": 34,
+    "unique_strength_labels": 34
+  },
+  "top_problem_labels": [
+    {
+      "label": "care.treatment",
+      "count": 5013
+    },
+    {
+      "label": "access.waiting",
+      "count": 4420
+    },
+    {
+      "label": "staff.friendliness",
+      "count": 4088
+    },
+    {
+      "label": "staff.respect",
+      "count": 3966
+    },
+    {
+      "label": "staff.seriousness",
+      "count": 3020
+    },
+    {
+      "label": "care.competence",
+      "count": 2803
+    },
+    {
+      "label": "care.safety",
+      "count": 2585
+    },
+    {
+      "label": "staff.empathy",
+      "count": 2445
+    },
+    {
+      "label": "coordination.coordination",
+      "count": 2142
+    },
+    {
+      "label": "care.diagnosis",
+      "count": 1804
+    },
+    {
+      "label": "communication.communication",
+      "count": 1791
+    },
+    {
+      "label": "care.symptoms",
+      "count": 1366
+    },
+    {
+      "label": "environment.facilities",
+      "count": 1351
+    },
+    {
+      "label": "communication.information",
+      "count": 1145
+    },
+    {
+      "label": "environment.food",
+      "count": 1127
+    }
+  ],
+  "top_strength_labels": [
+    {
+      "label": "staff.friendliness",
+      "count": 15723
+    },
+    {
+      "label": "staff.empathy",
+      "count": 9742
+    },
+    {
+      "label": "care.treatment",
+      "count": 9014
+    },
+    {
+      "label": "care.competence",
+      "count": 7411
+    },
+    {
+      "label": "staff.respect",
+      "count": 3692
+    },
+    {
+      "label": "environment.support",
+      "count": 2909
+    },
+    {
+      "label": "environment.food",
+      "count": 2284
+    },
+    {
+      "label": "staff.seriousness",
+      "count": 1781
+    },
+    {
+      "label": "environment.facilities",
+      "count": 1616
+    },
+    {
+      "label": "communication.explanation",
+      "count": 1610
+    },
+    {
+      "label": "coordination.coordination",
+      "count": 1394
+    },
+    {
+      "label": "care.safety",
+      "count": 1163
+    },
+    {
+      "label": "access.waiting",
+      "count": 1097
+    },
+    {
+      "label": "environment.cleanliness",
+      "count": 980
+    },
+    {
+      "label": "communication.communication",
+      "count": 824
+    }
+  ],
+  "label_count_distribution": [
+    {
+      "label_count": 0,
+      "review_count": 1005,
+      "review_pct": 3.26
+    },
+    {
+      "label_count": 1,
+      "review_count": 2944,
+      "review_pct": 9.54
+    },
+    {
+      "label_count": 2,
+      "review_count": 6137,
+      "review_pct": 19.88
+    },
+    {
+      "label_count": 3,
+      "review_count": 6693,
+      "review_pct": 21.69
+    },
+    {
+      "label_count": 4,
+      "review_count": 5618,
+      "review_pct": 18.2
+    },
+    {
+      "label_count": 5,
+      "review_count": 3640,
+      "review_pct": 11.79
+    },
+    {
+      "label_count": 6,
+      "review_count": 2184,
+      "review_pct": 7.08
+    },
+    {
+      "label_count": 7,
+      "review_count": 1206,
+      "review_pct": 3.91
+    },
+    {
+      "label_count": 8,
+      "review_count": 683,
+      "review_pct": 2.21
+    },
+    {
+      "label_count": 9,
+      "review_count": 310,
+      "review_pct": 1.0
+    },
+    {
+      "label_count": 10,
+      "review_count": 211,
+      "review_pct": 0.68
+    },
+    {
+      "label_count": 11,
+      "review_count": 92,
+      "review_pct": 0.3
+    },
+    {
+      "label_count": 12,
+      "review_count": 46,
+      "review_pct": 0.15
+    },
+    {
+      "label_count": 13,
+      "review_count": 43,
+      "review_pct": 0.14
+    },
+    {
+      "label_count": 14,
+      "review_count": 25,
+      "review_pct": 0.08
+    },
+    {
+      "label_count": 15,
+      "review_count": 14,
+      "review_pct": 0.05
+    },
+    {
+      "label_count": 16,
+      "review_count": 5,
+      "review_pct": 0.02
+    },
+    {
+      "label_count": 17,
+      "review_count": 3,
+      "review_pct": 0.01
+    },
+    {
+      "label_count": 18,
+      "review_count": 1,
+      "review_pct": 0.0
+    },
+    {
+      "label_count": 19,
+      "review_count": 1,
+      "review_pct": 0.0
+    },
+    {
+      "label_count": 21,
+      "review_count": 1,
+      "review_pct": 0.0
+    },
+    {
+      "label_count": 34,
+      "review_count": 1,
+      "review_pct": 0.0
+    }
+  ],
+  "top_problem_problem_pairs": [
+    {
+      "label_a": "staff.friendliness",
+      "label_b": "staff.respect",
+      "count": 1678
+    },
+    {
+      "label_a": "care.treatment",
+      "label_b": "staff.respect",
+      "count": 1402
+    },
+    {
+      "label_a": "care.competence",
+      "label_b": "care.treatment",
+      "count": 1359
+    },
+    {
+      "label_a": "care.safety",
+      "label_b": "care.treatment",
+      "count": 1258
+    },
+    {
+      "label_a": "staff.empathy",
+      "label_b": "staff.friendliness",
+      "count": 1256
+    },
+    {
+      "label_a": "staff.empathy",
+      "label_b": "staff.respect",
+      "count": 1220
+    },
+    {
+      "label_a": "care.treatment",
+      "label_b": "staff.seriousness",
+      "count": 1134
+    },
+    {
+      "label_a": "access.waiting",
+      "label_b": "care.treatment",
+      "count": 1113
+    },
+    {
+      "label_a": "care.diagnosis",
+      "label_b": "care.treatment",
+      "count": 1112
+    },
+    {
+      "label_a": "staff.respect",
+      "label_b": "staff.seriousness",
+      "count": 1053
+    },
+    {
+      "label_a": "care.treatment",
+      "label_b": "staff.friendliness",
+      "count": 1053
+    },
+    {
+      "label_a": "care.competence",
+      "label_b": "staff.respect",
+      "count": 922
+    },
+    {
+      "label_a": "care.competence",
+      "label_b": "staff.seriousness",
+      "count": 913
+    },
+    {
+      "label_a": "access.waiting",
+      "label_b": "staff.friendliness",
+      "count": 911
+    },
+    {
+      "label_a": "care.treatment",
+      "label_b": "staff.empathy",
+      "count": 910
+    },
+    {
+      "label_a": "care.competence",
+      "label_b": "staff.friendliness",
+      "count": 857
+    },
+    {
+      "label_a": "care.safety",
+      "label_b": "staff.respect",
+      "count": 806
+    },
+    {
+      "label_a": "staff.friendliness",
+      "label_b": "staff.seriousness",
+      "count": 789
+    },
+    {
+      "label_a": "care.symptoms",
+      "label_b": "care.treatment",
+      "count": 779
+    },
+    {
+      "label_a": "care.treatment",
+      "label_b": "coordination.coordination",
+      "count": 736
+    }
+  ],
+  "top_strength_strength_pairs": [
+    {
+      "label_a": "staff.empathy",
+      "label_b": "staff.friendliness",
+      "count": 8350
+    },
+    {
+      "label_a": "care.treatment",
+      "label_b": "staff.friendliness",
+      "count": 6695
+    },
+    {
+      "label_a": "care.competence",
+      "label_b": "staff.friendliness",
+      "count": 6060
+    },
+    {
+      "label_a": "care.treatment",
+      "label_b": "staff.empathy",
+      "count": 4762
+    },
+    {
+      "label_a": "care.competence",
+      "label_b": "staff.empathy",
+      "count": 4212
+    },
+    {
+      "label_a": "care.competence",
+      "label_b": "care.treatment",
+      "count": 3327
+    },
+    {
+      "label_a": "staff.friendliness",
+      "label_b": "staff.respect",
+      "count": 3265
+    },
+    {
+      "label_a": "staff.empathy",
+      "label_b": "staff.respect",
+      "count": 2647
+    },
+    {
+      "label_a": "environment.support",
+      "label_b": "staff.friendliness",
+      "count": 2437
+    },
+    {
+      "label_a": "care.competence",
+      "label_b": "staff.respect",
+      "count": 2045
+    },
+    {
+      "label_a": "environment.food",
+      "label_b": "staff.friendliness",
+      "count": 2019
+    },
+    {
+      "label_a": "environment.support",
+      "label_b": "staff.empathy",
+      "count": 1842
+    },
+    {
+      "label_a": "care.treatment",
+      "label_b": "staff.respect",
+      "count": 1757
+    },
+    {
+      "label_a": "care.treatment",
+      "label_b": "environment.support",
+      "count": 1485
+    },
+    {
+      "label_a": "communication.explanation",
+      "label_b": "staff.friendliness",
+      "count": 1386
+    },
+    {
+      "label_a": "staff.friendliness",
+      "label_b": "staff.seriousness",
+      "count": 1358
+    },
+    {
+      "label_a": "environment.facilities",
+      "label_b": "staff.friendliness",
+      "count": 1225
+    },
+    {
+      "label_a": "care.competence",
+      "label_b": "environment.support",
+      "count": 1166
+    },
+    {
+      "label_a": "care.treatment",
+      "label_b": "environment.food",
+      "count": 1126
+    },
+    {
+      "label_a": "coordination.coordination",
+      "label_b": "staff.friendliness",
+      "count": 1109
+    }
+  ],
+  "top_problem_strength_pairs": [
+    {
+      "problem_label": "staff.friendliness",
+      "strength_label": "staff.friendliness",
+      "count": 1101
+    },
+    {
+      "problem_label": "access.waiting",
+      "strength_label": "staff.friendliness",
+      "count": 1088
+    },
+    {
+      "problem_label": "care.treatment",
+      "strength_label": "staff.friendliness",
+      "count": 929
+    },
+    {
+      "problem_label": "staff.seriousness",
+      "strength_label": "staff.friendliness",
+      "count": 788
+    },
+    {
+      "problem_label": "staff.respect",
+      "strength_label": "staff.friendliness",
+      "count": 784
+    },
+    {
+      "problem_label": "environment.facilities",
+      "strength_label": "staff.friendliness",
+      "count": 718
+    },
+    {
+      "problem_label": "care.treatment",
+      "strength_label": "care.treatment",
+      "count": 700
+    },
+    {
+      "problem_label": "environment.food",
+      "strength_label": "staff.friendliness",
+      "count": 688
+    },
+    {
+      "problem_label": "access.waiting",
+      "strength_label": "care.treatment",
+      "count": 548
+    },
+    {
+      "problem_label": "staff.empathy",
+      "strength_label": "staff.friendliness",
+      "count": 542
+    },
+    {
+      "problem_label": "coordination.coordination",
+      "strength_label": "staff.friendliness",
+      "count": 526
+    },
+    {
+      "problem_label": "care.competence",
+      "strength_label": "staff.friendliness",
+      "count": 489
+    },
+    {
+      "problem_label": "care.safety",
+      "strength_label": "staff.friendliness",
+      "count": 479
+    },
+    {
+      "problem_label": "staff.seriousness",
+      "strength_label": "staff.empathy",
+      "count": 475
+    },
+    {
+      "problem_label": "access.waiting",
+      "strength_label": "staff.empathy",
+      "count": 473
+    },
+    {
+      "problem_label": "access.waiting",
+      "strength_label": "care.competence",
+      "count": 458
+    },
+    {
+      "problem_label": "communication.communication",
+      "strength_label": "staff.friendliness",
+      "count": 418
+    },
+    {
+      "problem_label": "care.treatment",
+      "strength_label": "staff.empathy",
+      "count": 417
+    },
+    {
+      "problem_label": "staff.empathy",
+      "strength_label": "staff.empathy",
+      "count": 389
+    },
+    {
+      "problem_label": "environment.facilities",
+      "strength_label": "staff.empathy",
+      "count": 364
+    }
+  ]
+}

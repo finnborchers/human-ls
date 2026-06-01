@@ -1,40 +1,107 @@
 {
   "url": "https://www.google.com/maps/place/Euregio-Klinik+Hannoverstra%C3%9Fe+GmbH/@52.4427,7.0658,17z/data=!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%2Fg%2F11xc6_5kr?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "euregio-klinik-hannoverstrasse-gmbh",
-  "startedAt": "2026-04-15T15:45:03Z",
+  "startedAt": "2026-05-11T13:07:06Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "556D8445913A1F48E259AE9D6A7FC7C5",
-  "selectedTargetId": "556D8445913A1F48E259AE9D6A7FC7C5",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "7AEDEA3BB9E49CA8192D13458285D6A7",
+  "selectedTargetId": "7AEDEA3BB9E49CA8192D13458285D6A7",
   "selectedTargetUrl": "https://www.google.com/maps/place/Euregio-Klinik+Hannoverstra%C3%9Fe+GmbH/@52.4427,7.0658,17z/data=!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%2Fg%2F11xc6_5kr?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Euregio-Klinik%2BHannoverstra%25C3%259Fe%2BGmbH/@52.4427,7.0658,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%252Fg%252F11xc6_5kr?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Euregio-Klinik%2BHannoverstra%25C3%259Fe%2BGmbH/@52.4427,7.0658,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%252Fg%252F11xc6_5kr?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Euregio-Klinik%2BHannoverstra%25C3%259Fe%2BGmbH/@52.4427,7.0658,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%252Fg%252F11xc6_5kr?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Euregio-Klinik%2BHannoverstra%25C3%259Fe%2BGmbH/@52.4427,7.0658,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%252Fg%252F11xc6_5kr?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/Euregio-Klinik+Hannoverstra%C3%9Fe+GmbH/@52.4427,7.0658,17z/data=!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%2Fg%2F11xc6_5kr?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Euregio-Klinik%2BHannoverstra%25C3%259Fe%2BGmbH/@52.4427,7.0658,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%252Fg%252F11xc6_5kr?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Euregio-Klinik%2BHannoverstra%25C3%259Fe%2BGmbH/@52.4427,7.0658,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%252Fg%252F11xc6_5kr?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Euregio-Klinik%2BHannoverstra%25C3%259Fe%2BGmbH/@52.4427,7.0658,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b821e416540da7:0xbfbc2e3ce344496e!8m2!3d52.4427!4d7.0658!16s%252Fg%252F11xc6_5kr?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
@@ -56,6 +123,7 @@
         "jsaction": "pane.wfvdle14.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 5,
       "clickResult": {
         "clicked": true,
         "index": 58,
@@ -71,7 +139,7 @@
       }
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 5,
   "reviewClick": {
     "clicked": true,
     "strategy": "candidate",
@@ -99,8 +167,8 @@
     "tagName": "DIV",
     "scrollTop": 0,
     "scrollHeight": 3079,
-    "clientHeight": 694,
-    "distanceToBottom": 2385
+    "clientHeight": 695,
+    "distanceToBottom": 2384
   },
   "declaredReviewTotalInfo": {
     "found": true,
@@ -141,11 +209,11 @@
       "scrolled": true,
       "strategy": "pane_to_bottom",
       "before": 0,
-      "after": 2384.5,
+      "after": 2383.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 3079,
-      "clientHeight": 694,
+      "clientHeight": 695,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 83,
       "uniqueReviewIdCount": 10,
@@ -158,25 +226,25 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 2384.5,
+        "scrollTop": 2383.5,
         "scrollHeight": 3555,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 475.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 9.041046723723412e-06,
+      "networkIdleSeconds": 1.979200169444084e-05,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 2384.5,
-      "after": 2859.5,
+      "before": 2383.5,
+      "after": 2858.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 3555,
-      "clientHeight": 695,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 103,
       "uniqueReviewIdCount": 14,
@@ -189,9 +257,9 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 2859.5,
+        "scrollTop": 2858.5,
         "scrollHeight": 3555,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 0.5
       },
       "declaredTotalSettle": {
@@ -203,14 +271,14 @@
           "foundTarget": true,
           "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
           "tagName": "DIV",
-          "scrollTop": 2859.5,
+          "scrollTop": 2858.5,
           "scrollHeight": 3555,
-          "clientHeight": 695,
+          "clientHeight": 696,
           "distanceToBottom": 0.5
         }
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 6.651497457991354,
+      "networkIdleSeconds": 6.662863082950935,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": true
     }
@@ -225,8 +293,8 @@
       "scrollHeight": 3555
     }
   ],
-  "networkEventsDuringScroll": 2,
-  "finalNetworkIdleSeconds": 6.651503000059165,
+  "networkEventsDuringScroll": 3,
+  "finalNetworkIdleSeconds": 6.6628666669130325,
   "noGrowthCycles": 0,
   "finalReviewsState": {
     "title": "Euregio-Klinik Hannoverstraße GmbH - Google Maps",
@@ -235,25 +303,25 @@
     "foundTarget": true,
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
-    "scrollTop": 2859.5,
+    "scrollTop": 2858.5,
     "scrollHeight": 3555,
-    "clientHeight": 695,
+    "clientHeight": 696,
     "distanceToBottom": 0.5
   },
   "reachedDeclaredReviewTotal": true,
   "reachedReviewPaneEnd": true,
   "finalUniqueReviewIdCount": 14,
-  "finalScrollTop": 2859.5,
+  "finalScrollTop": 2858.5,
   "finalScrollHeight": 3555,
   "reviewExpansion": {
     "buttonCount": 2,
     "clickedCount": 2
   },
-  "matchedRequestCount": 32,
+  "matchedRequestCount": 34,
   "batchexecuteCount": 3,
   "reviewPhaseXhrCount": 11,
   "captureSuccessful": true,
-  "finishedAt": "2026-04-15T15:45:37Z",
+  "finishedAt": "2026-05-11T13:07:41Z",
   "retryRunsRequested": 2,
   "retryRunsExecuted": 1,
   "retryAttempts": [

@@ -1,0 +1,84 @@
+{
+  "base_model": "gpt-4.1-mini-2025-04-14",
+  "train_jsonl_path": "analysis/llm/finetune/reviews_v1_7_train_100.jsonl",
+  "valid_jsonl_path": "analysis/llm/finetune/reviews_v1_7_valid_20.jsonl",
+  "job_mode": "auto",
+  "training_file": {
+    "id": "file-CB9boR2pDdmAeXGgAgWiKf",
+    "bytes": 343486,
+    "created_at": 1778786002,
+    "filename": "reviews_v1_7_train_100.jsonl",
+    "object": "file",
+    "purpose": "fine-tune",
+    "status": "processed",
+    "expires_at": null,
+    "status_details": null
+  },
+  "validation_file": {
+    "id": "file-9mGdLzcffcu3MDSKmxuFmg",
+    "bytes": 65602,
+    "created_at": 1778786003,
+    "filename": "reviews_v1_7_valid_20.jsonl",
+    "object": "file",
+    "purpose": "fine-tune",
+    "status": "processed",
+    "expires_at": null,
+    "status_details": null
+  },
+  "fine_tuning_job": {
+    "id": "ftjob-WaObnRAeOvgiZaFBQ0yvYX8N",
+    "created_at": 1778786006,
+    "error": {
+      "code": null,
+      "message": null,
+      "param": null
+    },
+    "fine_tuned_model": "ft:gpt-4.1-mini-2025-04-14:personal::DfW1e1JT",
+    "finished_at": 1778786918,
+    "hyperparameters": {
+      "batch_size": 1,
+      "learning_rate_multiplier": 2.0,
+      "n_epochs": 3
+    },
+    "model": "gpt-4.1-mini-2025-04-14",
+    "object": "fine_tuning.job",
+    "organization_id": "org-y2B4RFSBTBcaJeBNS0PHatgZ",
+    "result_files": [
+      "file-RHa4UemVnCdVcDoVjducmV"
+    ],
+    "seed": 20260514,
+    "status": "succeeded",
+    "trained_tokens": 222855,
+    "training_file": "file-CB9boR2pDdmAeXGgAgWiKf",
+    "validation_file": "file-9mGdLzcffcu3MDSKmxuFmg",
+    "estimated_finish": null,
+    "integrations": [],
+    "metadata": {
+      "project": "human-ls",
+      "experiment": "v1_7_finetune",
+      "base_prompt": "v1"
+    },
+    "method": {
+      "type": "supervised",
+      "dpo": null,
+      "reinforcement": null,
+      "supervised": {
+        "hyperparameters": {
+          "batch_size": 1,
+          "learning_rate_multiplier": 2.0,
+          "n_epochs": 3
+        }
+      }
+    },
+    "user_provided_suffix": null,
+    "usage_metrics": null,
+    "shared_with_openai": false,
+    "eval_id": null,
+    "internal_worker_backend": null,
+    "internal_peashooter_execution": null,
+    "train_experiment_id": null,
+    "eval_experiment_id": null
+  },
+  "fine_tuned_model": "ft:gpt-4.1-mini-2025-04-14:personal::DfW1e1JT",
+  "saved_at": "2026-05-14T21:29:57.353556+00:00"
+}

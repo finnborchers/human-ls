@@ -4,11 +4,21 @@
       "attempt": 1,
       "outputDir": "artifacts/st-bernhard-hospital",
       "scrollDelayUsed": 1.5,
-      "captureSuccessful": true,
-      "failureReason": null,
-      "finalUniqueReviewIdCount": 3,
-      "scrollStopReason": "exhausted_no_growth_at_bottom",
-      "declaredReviewTotal": 477
+      "captureSuccessful": false,
+      "failureReason": "reviews_panel_not_opened",
+      "finalUniqueReviewIdCount": 0,
+      "scrollStopReason": "reviews_panel_not_opened",
+      "declaredReviewTotal": null
+    },
+    {
+      "attempt": 2,
+      "outputDir": "artifacts/st-bernhard-hospital/retry_2",
+      "scrollDelayUsed": 2.25,
+      "captureSuccessful": false,
+      "failureReason": "reviews_panel_not_opened",
+      "finalUniqueReviewIdCount": 0,
+      "scrollStopReason": "reviews_panel_not_opened",
+      "declaredReviewTotal": null
     }
   ]
 }

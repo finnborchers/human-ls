@@ -1,40 +1,107 @@
 {
   "url": "https://www.google.com/maps/place/Psychiatrisch+Psychosomatische+Klinik+Celle+Wahrendorff+GmbH/@52.6281472,10.0873795,17z/data=!3m1!4b1!4m6!3m5!1s0x47b022b0352ad255:0x9eb79b7a7e08c37b!8m2!3d52.6281472!4d10.0873795!16s%2Fg%2F11fxvplxvg?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "psychiatrisch-psychosomatische-klinik-celle",
-  "startedAt": "2026-04-15T18:52:15Z",
+  "startedAt": "2026-05-11T16:15:24Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "62AB0B384E4D75A518F434730D91FB38",
-  "selectedTargetId": "62AB0B384E4D75A518F434730D91FB38",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "F922BA0B80E5F04B843B69FF377E0FAF",
+  "selectedTargetId": "F922BA0B80E5F04B843B69FF377E0FAF",
   "selectedTargetUrl": "https://www.google.com/maps/place/Psychiatrisch+Psychosomatische+Klinik+Celle+Wahrendorff+GmbH/@52.6281472,10.0873795,17z/data=!3m1!4b1!4m6!3m5!1s0x47b022b0352ad255:0x9eb79b7a7e08c37b!8m2!3d52.6281472!4d10.0873795!16s%2Fg%2F11fxvplxvg?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Psychiatrisch%2BPsychosomatische%2BKlinik%2BCelle%2BWahrendorff%2BGmbH/@52.6281472,10.0873795,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b022b0352ad255:0x9eb79b7a7e08c37b!8m2!3d52.6281472!4d10.0873795!16s%252Fg%252F11fxvplxvg?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Psychiatrisch%2BPsychosomatische%2BKlinik%2BCelle%2BWahrendorff%2BGmbH/@52.6281472,10.0873795,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b022b0352ad255:0x9eb79b7a7e08c37b!8m2!3d52.6281472!4d10.0873795!16s%252Fg%252F11fxvplxvg?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Psychiatrisch%2BPsychosomatische%2BKlinik%2BCelle%2BWahrendorff%2BGmbH/@52.6281472,10.0873795,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b022b0352ad255:0x9eb79b7a7e08c37b!8m2!3d52.6281472!4d10.0873795!16s%252Fg%252F11fxvplxvg?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Psychiatrisch%2BPsychosomatische%2BKlinik%2BCelle%2BWahrendorff%2BGmbH/@52.6281472,10.0873795,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b022b0352ad255:0x9eb79b7a7e08c37b!8m2!3d52.6281472!4d10.0873795!16s%252Fg%252F11fxvplxvg?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/Psychiatrisch+Psychosomatische+Klinik+Celle+Wahrendorff+GmbH/@52.6281472,10.0873795,17z/data=!3m1!4b1!4m6!3m5!1s0x47b022b0352ad255:0x9eb79b7a7e08c37b!8m2!3d52.6281472!4d10.0873795!16s%2Fg%2F11fxvplxvg?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Psychiatrisch%2BPsychosomatische%2BKlinik%2BCelle%2BWahrendorff%2BGmbH/@52.6281472,10.0873795,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b022b0352ad255:0x9eb79b7a7e08c37b!8m2!3d52.6281472!4d10.0873795!16s%252Fg%252F11fxvplxvg?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Psychiatrisch%2BPsychosomatische%2BKlinik%2BCelle%2BWahrendorff%2BGmbH/@52.6281472,10.0873795,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b022b0352ad255:0x9eb79b7a7e08c37b!8m2!3d52.6281472!4d10.0873795!16s%252Fg%252F11fxvplxvg?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Psychiatrisch%2BPsychosomatische%2BKlinik%2BCelle%2BWahrendorff%2BGmbH/@52.6281472,10.0873795,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b022b0352ad255:0x9eb79b7a7e08c37b!8m2!3d52.6281472!4d10.0873795!16s%252Fg%252F11fxvplxvg?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
@@ -50,16 +117,17 @@
           "button_like_control"
         ],
         "tagName": "BUTTON",
-        "text": "59 Berichte",
+        "text": "60 Berichte",
         "ariaLabel": "",
         "title": "",
         "jsaction": "pane.wfvdle14.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 6,
       "clickResult": {
         "clicked": true,
         "index": 57,
-        "text": "59 Berichte",
+        "text": "60 Berichte",
         "ariaLabel": "",
         "title": "",
         "jsaction": "pane.wfvdle14.reviewchart.morereviews",
@@ -71,11 +139,11 @@
       }
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 6,
   "reviewClick": {
     "clicked": true,
     "strategy": "candidate",
-    "label": "59 Berichte",
+    "label": "60 Berichte",
     "domIndex": 57,
     "candidateScore": 215,
     "candidateReasons": [
@@ -99,34 +167,34 @@
     "tagName": "DIV",
     "scrollTop": 0,
     "scrollHeight": 3321,
-    "clientHeight": 694,
-    "distanceToBottom": 2627
+    "clientHeight": 695,
+    "distanceToBottom": 2626
   },
   "declaredReviewTotalInfo": {
     "found": true,
-    "declaredReviewTotal": 58,
+    "declaredReviewTotal": 59,
     "sourceKind": "rating-histogram",
     "histogramByStar": {
       "1": 36,
       "3": 2,
-      "4": 6,
+      "4": 7,
       "5": 14
     },
     "histogramStarCount": 4
   },
-  "declaredReviewTotal": 58,
+  "declaredReviewTotal": 59,
   "declaredTotalSettleSeconds": 1.5,
   "declaredTotalFastStopUsed": true,
   "declaredTotalFinalCheck": {
     "iteration": 6,
     "before": {
-      "uniqueReviewIdCount": 59,
-      "scrollHeight": 14129,
+      "uniqueReviewIdCount": 60,
+      "scrollHeight": 14266,
       "distanceToBottom": 0.5
     },
     "after": {
-      "uniqueReviewIdCount": 59,
-      "scrollHeight": 14129,
+      "uniqueReviewIdCount": 60,
+      "scrollHeight": 14266,
       "distanceToBottom": 0.5
     },
     "settleSeconds": 1.5,
@@ -140,16 +208,16 @@
       "scrolled": true,
       "strategy": "pane_to_bottom",
       "before": 0,
-      "after": 2626.5,
+      "after": 2625.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 3321,
-      "clientHeight": 694,
+      "clientHeight": 695,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 88,
       "uniqueReviewIdCount": 10,
       "iteration": 1,
-      "declaredReviewTotal": 58,
+      "declaredReviewTotal": 59,
       "stateAfterDelay": {
         "title": "Psychiatrisch Psychosomatische Klinik Celle Wahrendorff GmbH - Google Maps",
         "reviewNodeCount": 175,
@@ -157,30 +225,30 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 2626.5,
+        "scrollTop": 2625.5,
         "scrollHeight": 6089,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 2767.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 1.2125005014240742e-05,
+      "networkIdleSeconds": 1.879199407994747e-05,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 2626.5,
-      "after": 5393.5,
+      "before": 2625.5,
+      "after": 5392.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 6089,
-      "clientHeight": 695,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 175,
       "uniqueReviewIdCount": 20,
       "iteration": 2,
-      "declaredReviewTotal": 58,
+      "declaredReviewTotal": 59,
       "stateAfterDelay": {
         "title": "Psychiatrisch Psychosomatische Klinik Celle Wahrendorff GmbH - Google Maps",
         "reviewNodeCount": 259,
@@ -188,30 +256,30 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 5393.5,
+        "scrollTop": 5392.5,
         "scrollHeight": 8941,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 2852.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 1.4958903193473816e-05,
+      "networkIdleSeconds": 5.458947271108627e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 5393.5,
-      "after": 8245.5,
+      "before": 5392.5,
+      "after": 8244.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 8941,
-      "clientHeight": 695,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 259,
       "uniqueReviewIdCount": 30,
       "iteration": 3,
-      "declaredReviewTotal": 58,
+      "declaredReviewTotal": 59,
       "stateAfterDelay": {
         "title": "Psychiatrisch Psychosomatische Klinik Celle Wahrendorff GmbH - Google Maps",
         "reviewNodeCount": 340,
@@ -219,30 +287,30 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 8245.5,
+        "scrollTop": 8244.5,
         "scrollHeight": 11058,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 2117.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 9.041978046298027e-06,
+      "networkIdleSeconds": 6.166985258460045e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 8245.5,
-      "after": 10362.5,
+      "before": 8244.5,
+      "after": 10361.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 11058,
-      "clientHeight": 695,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 340,
       "uniqueReviewIdCount": 40,
       "iteration": 4,
-      "declaredReviewTotal": 58,
+      "declaredReviewTotal": 59,
       "stateAfterDelay": {
         "title": "Psychiatrisch Psychosomatische Klinik Celle Wahrendorff GmbH - Google Maps",
         "reviewNodeCount": 406,
@@ -250,90 +318,90 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 10362.5,
+        "scrollTop": 10361.5,
         "scrollHeight": 12968,
-        "clientHeight": 695,
+        "clientHeight": 696,
         "distanceToBottom": 1910.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 7.916940376162529e-06,
+      "networkIdleSeconds": 2.8665876016020775e-05,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 10362.5,
-      "after": 12272.5,
+      "before": 10361.5,
+      "after": 12271.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
       "scrollHeight": 12968,
-      "clientHeight": 695,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 406,
       "uniqueReviewIdCount": 50,
       "iteration": 5,
-      "declaredReviewTotal": 58,
+      "declaredReviewTotal": 59,
       "stateAfterDelay": {
         "title": "Psychiatrisch Psychosomatische Klinik Celle Wahrendorff GmbH - Google Maps",
-        "reviewNodeCount": 451,
-        "uniqueReviewIdCount": 59,
+        "reviewNodeCount": 456,
+        "uniqueReviewIdCount": 60,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 12272.5,
-        "scrollHeight": 14129,
-        "clientHeight": 695,
-        "distanceToBottom": 1161.5
+        "scrollTop": 12271.5,
+        "scrollHeight": 14266,
+        "clientHeight": 696,
+        "distanceToBottom": 1298.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 5.832989700138569e-06,
+      "networkIdleSeconds": 1.9625062122941017e-05,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 12272.5,
-      "after": 13433.5,
+      "before": 12271.5,
+      "after": 13569.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 14129,
-      "clientHeight": 695,
+      "scrollHeight": 14266,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 451,
-      "uniqueReviewIdCount": 59,
+      "reviewNodeCount": 456,
+      "uniqueReviewIdCount": 60,
       "iteration": 6,
-      "declaredReviewTotal": 58,
+      "declaredReviewTotal": 59,
       "stateAfterDelay": {
         "title": "Psychiatrisch Psychosomatische Klinik Celle Wahrendorff GmbH - Google Maps",
-        "reviewNodeCount": 451,
-        "uniqueReviewIdCount": 59,
+        "reviewNodeCount": 456,
+        "uniqueReviewIdCount": 60,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 13433.5,
-        "scrollHeight": 14129,
-        "clientHeight": 695,
+        "scrollTop": 13569.5,
+        "scrollHeight": 14266,
+        "clientHeight": 696,
         "distanceToBottom": 0.5
       },
       "declaredTotalSettle": {
         "waitSeconds": 1.5,
         "stateAfterSettle": {
           "title": "Psychiatrisch Psychosomatische Klinik Celle Wahrendorff GmbH - Google Maps",
-          "reviewNodeCount": 451,
-          "uniqueReviewIdCount": 59,
+          "reviewNodeCount": 456,
+          "uniqueReviewIdCount": 60,
           "foundTarget": true,
           "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
           "tagName": "DIV",
-          "scrollTop": 13433.5,
-          "scrollHeight": 14129,
-          "clientHeight": 695,
+          "scrollTop": 13569.5,
+          "scrollHeight": 14266,
+          "clientHeight": 696,
           "distanceToBottom": 0.5
         }
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 6.55098066595383,
+      "networkIdleSeconds": 6.627131750108674,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": true
     }
@@ -364,39 +432,39 @@
     },
     {
       "iteration": 5,
-      "uniqueReviewIdCount": 59,
-      "scrollHeight": 14129
+      "uniqueReviewIdCount": 60,
+      "scrollHeight": 14266
     }
   ],
-  "networkEventsDuringScroll": 27,
-  "finalNetworkIdleSeconds": 6.550992666045204,
+  "networkEventsDuringScroll": 28,
+  "finalNetworkIdleSeconds": 6.627136999974027,
   "noGrowthCycles": 0,
   "finalReviewsState": {
     "title": "Psychiatrisch Psychosomatische Klinik Celle Wahrendorff GmbH - Google Maps",
-    "reviewNodeCount": 451,
-    "uniqueReviewIdCount": 59,
+    "reviewNodeCount": 456,
+    "uniqueReviewIdCount": 60,
     "foundTarget": true,
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
-    "scrollTop": 13433.5,
-    "scrollHeight": 14129,
-    "clientHeight": 695,
+    "scrollTop": 13569.5,
+    "scrollHeight": 14266,
+    "clientHeight": 696,
     "distanceToBottom": 0.5
   },
   "reachedDeclaredReviewTotal": true,
   "reachedReviewPaneEnd": true,
-  "finalUniqueReviewIdCount": 59,
-  "finalScrollTop": 13433.5,
-  "finalScrollHeight": 14129,
+  "finalUniqueReviewIdCount": 60,
+  "finalScrollTop": 13569.5,
+  "finalScrollHeight": 14266,
   "reviewExpansion": {
     "buttonCount": 23,
     "clickedCount": 23
   },
-  "matchedRequestCount": 58,
+  "matchedRequestCount": 59,
   "batchexecuteCount": 2,
   "reviewPhaseXhrCount": 40,
   "captureSuccessful": true,
-  "finishedAt": "2026-04-15T18:53:02Z",
+  "finishedAt": "2026-05-11T16:16:12Z",
   "retryRunsRequested": 2,
   "retryRunsExecuted": 1,
   "retryAttempts": [
@@ -406,12 +474,12 @@
       "scrollDelayUsed": 1.5,
       "captureSuccessful": true,
       "failureReason": null,
-      "finalUniqueReviewIdCount": 59,
+      "finalUniqueReviewIdCount": 60,
       "scrollStopReason": "declared_total_reached_fast",
-      "declaredReviewTotal": 58
+      "declaredReviewTotal": 59
     }
   ],
   "mergedReviewCountAcrossAttempts": 44,
   "reviewsPath": "artifacts/psychiatrisch-psychosomatische-klinik-celle/reviews.json",
-  "latestDeclaredReviewTotalAcrossAttempts": 58
+  "latestDeclaredReviewTotalAcrossAttempts": 59
 }

@@ -4,11 +4,21 @@
       "attempt": 1,
       "outputDir": "artifacts/helios-klinikum-uelzen-gmbh",
       "scrollDelayUsed": 1.5,
+      "captureSuccessful": false,
+      "failureReason": "unexpected_capture_exception",
+      "finalUniqueReviewIdCount": 0,
+      "scrollStopReason": "unexpected_capture_exception",
+      "declaredReviewTotal": null
+    },
+    {
+      "attempt": 2,
+      "outputDir": "artifacts/helios-klinikum-uelzen-gmbh/retry_2",
+      "scrollDelayUsed": 2.25,
       "captureSuccessful": true,
       "failureReason": null,
-      "finalUniqueReviewIdCount": 311,
-      "scrollStopReason": "declared_total_reached_fast",
-      "declaredReviewTotal": 311
+      "finalUniqueReviewIdCount": 30,
+      "scrollStopReason": "exhausted_no_growth_at_bottom",
+      "declaredReviewTotal": 318
     }
   ]
 }

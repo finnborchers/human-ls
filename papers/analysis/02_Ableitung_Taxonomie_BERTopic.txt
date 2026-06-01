@@ -1,0 +1,277 @@
+Analyse-Notiz (Deutsch)
+Ableitung der deutschen Taxonomie aus den BERTopic-Ergebnissen
+
+1. Ziel
+
+Diese Notiz dokumentiert, wie aus den aktuellen BERTopic-Ergebnissen eine erste deutsche Arbeits-Taxonomie für die weitere LLM-Analyse abgeleitet wurde. Die Taxonomie wurde nicht frei formuliert, sondern aus den wiederkehrenden Themen der Review-Daten verdichtet. Grundlage sind die Dateien in `analysis/topics_tuned`, insbesondere:
+
+- `negative_reviews_topics.csv`
+- `positive_reviews_topics.csv`
+- `liked_reviews_topics.csv`
+- `high_liked_reviews_topics.csv`
+
+Die BERTopic-Themen wurden dabei nicht eins zu eins übernommen. Stattdessen wurden ähnliche oder inhaltlich benachbarte Topics zusammengeführt und in verständliche, wissenschaftlich nutzbare Kategorien übersetzt.
+
+2. Prinzip der Ableitung
+
+Die Ableitung erfolgte in drei Schritten:
+
+1. Sichtung der größten und inhaltlich klarsten Topics je Teilkorpus.
+2. Interpretation der Top-Wörter zusammen mit den Beispiel-Snippets.
+3. Zusammenführung mehrerer verwandter Topics zu einer gemeinsamen Oberkategorie.
+
+Das ist methodisch wichtig, weil BERTopic zwar wiederkehrende Muster sichtbar macht, aber keine fertige End-Taxonomie liefert. Viele Topics sind semantisch klar, sprachlich aber noch unsauber benannt. Deshalb ist ein interpretativer Zwischenschritt notwendig.
+
+3. Zentrale Topics und ihre inhaltliche Bedeutung
+
+3.1 Negative Reviews
+
+Die negativen Reviews zeigen besonders deutlich wiederkehrende Problemfelder:
+
+- Topic 4: `trotz termin`, `lange wartezeit`, `stunden wartezeiten`
+  Inhaltlich: lange Wartezeiten trotz Termin, Verzögerungen vor Untersuchung oder Gespräch.
+  Ableitung: `Wartezeit`, `Terminvergabe`
+
+- Topic 5: `anästhesie`, `operiert werden`, `abgesagt`, `op termin`
+  Inhaltlich: abgesagte, verschobene oder schlecht koordinierte Operationen und Eingriffe.
+  Ableitung: `Terminvergabe`, `Behandlungsproblem`, `Abstimmung zwischen Bereichen`
+
+- Topic 13: `warteschleife`, `niemand erreichbar`, `geht keiner ans`
+  Inhaltlich: telefonische Nichterreichbarkeit, erschwerte Kontaktaufnahme.
+  Ableitung: `Erreichbarkeit`
+
+- Topic 12: `sehr unfreundliche`, `unfähiges`, `unfreundliches`, `inkompetentes`
+  Inhaltlich: Unfreundlichkeit, Arroganz, abwertender Umgang.
+  Ableitung: `Unfreundlichkeit`, `Mangelnde Empathie`
+
+- Topic 6: `unfreundliche ärzte`, `inkompetente ärzte`, `patient schmerzen`
+  Inhaltlich: Kombination aus respektlosem Verhalten und Zweifeln an medizinischer Qualität.
+  Ableitung: `Unfreundlichkeit`, `Diagnoseproblem`, `Behandlungsproblem`
+
+- Topic 7: `starken schmerzen`, `schmerzmittel`, `notaufnahme`
+  Inhaltlich: starke Schmerzen, Notaufnahme, unzureichende Reaktion auf akute Beschwerden.
+  Ableitung: `Schmerz- und Symptommanagement`
+
+- Topic 8: `schlaganfall`, `lungenentzündung`, `stunden später`, `durfte nicht`
+  Inhaltlich: schwere Verläufe, wahrgenommene Gefährdung, unzureichende Versorgung vulnerabler Personen.
+  Ableitung: `Sicherheitsvorfall`, `Nicht ernst genommen`, `Nachsorge und Weiterbehandlung`
+
+- Topic 11: `kinderklinik`, `warten`, `kind nicht untersucht`
+  Inhaltlich: lange Wartezeiten und mangelhafte Versorgung in der Kinderklinik.
+  Ableitung: `Wartezeit`, `Behandlungsproblem`
+
+- Topic 9: `frauenklinik`, `kreißsaal`, `wochenbettstation`
+  Inhaltlich: geburtshilfliche Versorgung mit negativen Erfahrungen.
+  Ableitung: Bereichsmarker `Geburtshilfe`; inhaltlich meist `Kommunikation`, `Wartezeit`, `Nicht ernst genommen`
+
+- Topic 17: `frühstück`, `tabletten`, `keine chance`, `schnabelbecher`
+  Inhaltlich: Essen, Alltagsunterstützung, Versorgung auf Station.
+  Ableitung: `Essen und Verpflegung`, `Grundpflege und Unterstützung im Alltag`
+
+3.2 Positive Reviews
+
+Die positiven Reviews zeigen, was Patientinnen, Patienten und Angehörige als gute Versorgung wahrnehmen:
+
+- Topic 0: `geburtshilfe`, `kreißsaal`, `hebammen`, `wohl gefühlt`
+  Inhaltlich: positive Geburtshilfe und gute Betreuung rund um die Entbindung.
+  Ableitung: `Empathische Betreuung`, `Fachliche Kompetenz`, Bereichsmarker `Geburtshilfe`
+
+- Topic 1: `Dr.`, `Betreuung`, `Operation`
+  Inhaltlich: Lob für Ärztinnen, Ärzte und gelungene Eingriffe.
+  Ableitung: `Fachliche Kompetenz`, `Erfolgreiche Behandlung`
+
+- Topic 2 und Topic 4: `notaufnahme`, `sehr gut aufgenommen`, `schnell behandelt`
+  Inhaltlich: gute Erfahrungen in der Notaufnahme, kompetente und schnelle Hilfe.
+  Ableitung: `Schnelle Hilfe`, `Freundliches Personal`, `Erfolgreiche Behandlung`
+
+- Topic 5: `kinderklinik`, `sohn`, `hilfsbereit`
+  Inhaltlich: positive pädiatrische Versorgung.
+  Ableitung: `Freundliches Personal`, `Empathische Betreuung`
+
+- Topic 6: `geduldiges personal`, `hilfsbereit`, `kompetent`
+  Inhaltlich: allgemeines Lob für Umgang und Professionalität.
+  Ableitung: `Freundliches Personal`, `Empathische Betreuung`, `Fachliche Kompetenz`
+
+- Topic 7: `intensivstation`, `dankbar`, `um meine mutter gekümmert`
+  Inhaltlich: wertschätzende Pflege und gute Versorgung schwer erkrankter Angehöriger.
+  Ableitung: `Empathische Betreuung`, `Vertrauen und Sicherheit`
+
+- Topic 13: `super organisiert`, `aufklärungsgespräch sehr ausführlich`
+  Inhaltlich: gute Organisation und verständliche Aufklärung.
+  Ableitung: `Gute Organisation`, `Gute Kommunikation`
+
+- Topic 17: `Hüftprothese`, `Schultergelenk`, `OP ist sehr gut verlaufen`
+  Inhaltlich: erfolgreiche operative Behandlung.
+  Ableitung: `Erfolgreiche Behandlung`, `Fachliche Kompetenz`
+
+3.3 Liked Reviews
+
+Die gelikten Reviews sind besonders wichtig, weil sie zeigen, welche Themen von anderen Nutzerinnen und Nutzern sichtbar bestätigt wurden:
+
+- Topic 0: `kinderklinik`, `wohl gefühlt`, `hebammen`, `wochenbettstation`
+  Inhaltlich: stark sichtbare positive Erfahrungen in Geburtshilfe und Kinderklinik.
+  Ableitung: `Empathische Betreuung`, `Freundliches Personal`
+
+- Topic 4: `std gewartet`, `wartebereich`, `wartezeit trotz`
+  Inhaltlich: Wartezeiten werden nicht nur oft erwähnt, sondern auch häufig gelikt.
+  Ableitung: `Wartezeit`
+
+- Topic 7: `hilfsbereites personal`, `guter service`, `kompetentes personal`
+  Inhaltlich: öffentlich sichtbares Lob für freundliches und kompetentes Personal.
+  Ableitung: `Freundliches Personal`, `Fachliche Kompetenz`
+
+- Topic 10 und Topic 11: `pflegenotstand`, `ärzte sprechen`, `patienten werden`, `arroganter arzt`
+  Inhaltlich: Überforderung des Systems, Kommunikationsprobleme, negatives Arzt- und Personalverhalten.
+  Ableitung: `Unklare Kommunikation`, `Unfreundlichkeit`, `Nicht ernst genommen`
+
+- Topic 14: `meinem vater`, `hause gebracht`
+  Inhaltlich: Erfahrungen von Angehörigen bei schweren Verläufen und Übergängen.
+  Ableitung: `Nachsorge und Weiterbehandlung`, `Entlassung und Entlassmanagement`, `Sicherheitsvorfall`
+
+3.4 High-Liked Reviews
+
+Die Reviews mit mindestens drei Likes sind thematisch am kohärentesten und daher besonders relevant für die Taxonomie:
+
+- Topic 0: `sehr geholfen`, `hilfsbereit`, `Betreuung`
+  Inhaltlich: stark bestätigte positive Gesamterfahrungen.
+  Ableitung: `Freundliches Personal`, `Empathische Betreuung`, `Vertrauen und Sicherheit`
+
+- Topic 1: `Notaufnahme`, `Hausarzt`, `Schmerzmittel`
+  Inhaltlich: Notaufnahme, Einweisungen, akute Beschwerden, teils gute, teils schlechte Erfahrungen.
+  Ableitung: `Schmerz- und Symptommanagement`, `Schnelle Hilfe`, `Wartezeit`
+
+- Topic 2: `Kinderklinik`, `Fieber`, `Verletzung`
+  Inhaltlich: pädiatrische Akutversorgung als wiederkehrendes Feld.
+  Ableitung: Bereichsmarker `Kinderklinik`; inhaltlich meist `Wartezeit`, `Behandlungsproblem`, `Empathische Betreuung`
+
+- Topic 3 und Topic 14: `unfreundliche krankenschwester`, `sehr unfreundliches`, `hoffnungslos überfordert`
+  Inhaltlich: rüder Umgang, Überforderung, schlechte Interaktion.
+  Ableitung: `Unfreundlichkeit`, `Mangelnde Empathie`
+
+- Topic 6 und Topic 10: `patientenverfügung`, `schlaganfall`, `angehörigen nicht informiert`, `verwirrte einfach abhauen`
+  Inhaltlich: schwerwiegende Fälle mit mangelnder Information, Entlassung und Sicherheitsproblemen.
+  Ableitung: `Fehlende Information`, `Entlassung und Entlassmanagement`, `Sicherheitsvorfall`
+
+- Topic 8: `Arzt sprach`, `deutsche Sprache`, `massive Probleme`
+  Inhaltlich: hier taucht explizit Sprache als Problem auf.
+  Ableitung: `Sprachbarriere`
+
+- Topic 11 und Topic 12: `Entbindung`, `Tochter entbunden`, `Hebammen`, `Kreißsaal`
+  Inhaltlich: stark bestätigte positive Geburtshilfe.
+  Ableitung: `Empathische Betreuung`, `Fachliche Kompetenz`, `Vertrauen und Sicherheit`
+
+4. Daraus abgeleitete deutsche Taxonomie
+
+Aus der Zusammenführung der Topics ergibt sich folgende Arbeits-Taxonomie:
+
+4.1 Zugang und Erreichbarkeit
+
+- `Terminvergabe`
+- `Wartezeit`
+- `Erreichbarkeit`
+- `Orientierung vor Ort`
+
+4.2 Verwaltung und Organisation
+
+- `Anmeldung und Aufnahme`
+- `Unterlagen und Dokumente`
+- `Versicherung und Kosten`
+- `Datenschutz und Vertraulichkeit`
+
+4.3 Kommunikation und Information
+
+- `Unklare Kommunikation`
+- `Mangelnde Aufklärung`
+- `Fehlende Information`
+- `Nicht einbezogen in Entscheidungen`
+
+4.4 Verhalten des Personals
+
+- `Unfreundlichkeit`
+- `Mangelnde Empathie`
+- `Nicht ernst genommen`
+- `Wertschätzender Umgang`
+
+4.5 Medizinische und pflegerische Versorgung
+
+- `Diagnoseproblem`
+- `Behandlungsproblem`
+- `Medikationsproblem`
+- `Schmerz- und Symptommanagement`
+- `Sicherheitsvorfall`
+- `Fachliche Kompetenz`
+
+4.6 Koordination und Kontinuität
+
+- `Abstimmung zwischen Bereichen`
+- `Entlassung und Entlassmanagement`
+- `Nachsorge und Weiterbehandlung`
+
+4.7 Umfeld und Grundversorgung
+
+- `Sauberkeit und Hygiene`
+- `Räume und Ausstattung`
+- `Essen und Verpflegung`
+- `Grundpflege und Unterstützung im Alltag`
+
+4.8 Sprache, Gleichbehandlung und Inklusion
+
+- `Sprachbarriere`
+- `Dolmetschen und Übersetzung`
+- `Diskriminierung und Rassismus`
+- `Kulturelle oder religiöse Bedürfnisse`
+- `Flucht- oder Asylbezug`
+
+4.9 Positive Stärken und Enabler
+
+- `Freundliches Personal`
+- `Empathische Betreuung`
+- `Gute Organisation`
+- `Schnelle Hilfe`
+- `Gute Kommunikation`
+- `Vertrauen und Sicherheit`
+- `Erfolgreiche Behandlung`
+- `Besonders gute Betreuung in spezifischen Bereichen`
+
+5. Was direkt aus den Topics kommt und was ergänzend aufgenommen wurde
+
+Ein großer Teil der Taxonomie wird direkt durch die Topics getragen, insbesondere:
+
+- `Wartezeit`
+- `Terminvergabe`
+- `Erreichbarkeit`
+- `Unfreundlichkeit`
+- `Mangelnde Empathie`
+- `Nicht ernst genommen`
+- `Schmerz- und Symptommanagement`
+- `Diagnoseproblem`
+- `Behandlungsproblem`
+- `Entlassung und Entlassmanagement`
+- `Nachsorge und Weiterbehandlung`
+- `Sauberkeit und Hygiene`
+- `Essen und Verpflegung`
+- `Freundliches Personal`
+- `Empathische Betreuung`
+- `Fachliche Kompetenz`
+- `Erfolgreiche Behandlung`
+
+Einige Kategorien wurden bewusst ergänzt, obwohl sie in BERTopic nicht als großer, sauberer Cluster erscheinen:
+
+- `Datenschutz und Vertraulichkeit`
+- `Diskriminierung und Rassismus`
+- `Dolmetschen und Übersetzung`
+- `Kulturelle oder religiöse Bedürfnisse`
+- `Flucht- oder Asylbezug`
+
+Diese Kategorien bleiben wichtig, weil sie methodisch und inhaltlich relevant sind, auch wenn sie in unüberwachtem Topic Modeling wegen ihrer geringeren Häufigkeit oder sprachlichen Varianz nicht automatisch als dominante Topics erscheinen.
+
+6. Schlussfolgerung
+
+Ein neuer allgemeiner Topic-Durchlauf ist für die Ableitung der Taxonomie derzeit nicht notwendig. Die vorhandenen BERTopic-Ergebnisse sind ausreichend, um eine belastbare erste deutsche Arbeits-Taxonomie zu formulieren. Der nächste sinnvolle Schritt ist daher, diese Taxonomie in `scripts/analyze_llm_nested.py` umzusetzen und damit die Reviews strukturiert auf `Barrieren` und `Stärken` zu codieren.
+
+Ein weiterer Topic-Durchlauf wäre nur dann sinnvoll, wenn gezielt seltenere Themen vertieft werden sollen, zum Beispiel:
+
+- `Diskriminierung und Rassismus`
+- `Sprachbarriere`
+- `Datenschutz und Vertraulichkeit`
+- spezifische Fachbereiche wie `Geburtshilfe`, `Kinderklinik` oder `Psychiatrie`

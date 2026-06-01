@@ -1,0 +1,253 @@
+{
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:0": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:0",
+    "review_index": 0,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 2 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Ich war vor 7 Monaten in der Notaufnahme und wurde dort sehr gut aufgenommen. Ich hatte mir 2 Finger geklemmt. Dieses wurde von Dr. Rahmati behandelt. Er hat meine Finger wieder so zusammengenäht, inclusive Nagelbett wieder herstellen, dass …",
+    "labels": {
+      "problem_labels": [],
+      "strength_labels": [
+        "access.waiting",
+        "care.competence",
+        "care.treatment",
+        "care.diagnosis",
+        "staff.friendliness"
+      ]
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:1": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:1",
+    "review_index": 1,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 2 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Am Wochenende musste ich mit meinen 1,5 jährigen Sohn in die Notaufnahme wegen einer kleinen Platzwunde. Von Anmeldung bis zum Abschluss der Behandlung sind keine 30 min. vergangen. Sicherlich hatten wir Glück, dass nicht so viel los war, …",
+    "labels": {
+      "problem_labels": [],
+      "strength_labels": [
+        "access.waiting",
+        "admin.registration"
+      ]
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:2": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:2",
+    "review_index": 2,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 1,
+      "review_time": "vor 2 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Grundsätzlich haben wir im Agaplesion Krankenhaus Rotenburg sehr gute Erfahrungen gemacht. Das Personal war freundlich und kompetent, insbesondere die Hebammen und die Kinderstation verdienen ausdrücklich Lob. Fünf Sterne für euch! Zwei …",
+    "labels": {
+      "problem_labels": [],
+      "strength_labels": [
+        "staff.friendliness",
+        "care.competence",
+        "inclusion.language"
+      ]
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:7": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:7",
+    "review_index": 7,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 1,
+      "review_time": "vor 3 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Ich verstehe nicht, weshalb man hier Termine vergibt . Es werden alle nacheinander aufgerufen, diejenigen ohne Termin , kommen eher dran als wir …. Mit Termin . Bis zu 7 Stunden Wartezeiten sollten hier in Kauf genommen werden. Auch mit …",
+    "labels": {
+      "problem_labels": [
+        "access.appointments",
+        "access.waiting"
+      ],
+      "strength_labels": []
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:8": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:8",
+    "review_index": 8,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 1,
+      "review_time": "vor 8 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Ich war ja schon in fast 20 Krankenhäuser aber was hier abläuft ist der Oberhammer . Abreißen und Neubauen hilft wahrscheinlich auch nicht wenn die Hygiene Standards nicht eingehalten werden und sogar Leute vom Personal mit Fahrrad im …",
+    "labels": {
+      "problem_labels": [
+        "admin.costs",
+        "environment.cleanliness",
+        "care.safety"
+      ],
+      "strength_labels": []
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:14": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:14",
+    "review_index": 14,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 2,
+      "review_time": "vor 3 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Die medizinische Versorgung meines minderjährigen Sohnes war in Ordnung. Leider war die Kommunikation sehr unzureichend. Ich wurde weder darüber informiert, dass mein Sohn aus der Narkose erwacht ist, …",
+    "labels": {
+      "problem_labels": [
+        "communication.information"
+      ],
+      "strength_labels": [
+        "care.competence"
+      ]
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:16": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:16",
+    "review_index": 16,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 7 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Ich möchte fünf Sterne für das Diakoniekrankenhaus vergeben. Und zwar besonders für das Essen. Heute hatten wir eine Spinat Lasagne auf Tomatensoße und ein gebackenes Fischfilet mit Kräutersauce ,auf dem Punkt genau gegarten Brokkoli !!!!! …",
+    "labels": {
+      "problem_labels": [],
+      "strength_labels": [
+        "environment.food"
+      ]
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:18": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:18",
+    "review_index": 18,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 7 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Ich liege aktuell im Klinikum , von Notaufnahme bis Station 24 wurde ich freundlich und mit großer Kompetenz versorgt! Besonders hervor heben möchte ich die Stroke Unit Abteilung auf der Station. Sofort greifende Therapien und rundum …",
+    "labels": {
+      "problem_labels": [],
+      "strength_labels": [
+        "access.reachability",
+        "staff.friendliness",
+        "care.competence",
+        "care.treatment"
+      ]
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:19": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:19",
+    "review_index": 19,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 1,
+      "review_time": "vor 7 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Das Allerletzte. Mein Partner hat gestern als akutfall wegen Speiseröhrenkrebs eine Überweisung bekommen. Sogar mit Code! …",
+    "labels": {
+      "problem_labels": [
+        "access.appointments"
+      ],
+      "strength_labels": []
+    }
+  },
+  "agaplesion-ev-bathildiskrankenhaus:36": {
+    "review_id": "agaplesion-ev-bathildiskrankenhaus:36",
+    "review_index": 36,
+    "metadata": {
+      "place_id": "agaplesion-ev-bathildiskrankenhaus",
+      "clinic_name": null,
+      "star_rating": 1,
+      "review_time": "vor 9 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Lasst euch hier nicht behandeln! Inkompetenz pur bei dem Personal! Krankenschwestern die schwer hören und dazu noch vergesslich sind werde unterstütz von „Artzen“ die kaum Deutsche Sprache beherrschen. So eine schlechte Erfahrung hatte ich bisher noch nicht!",
+    "labels": {
+      "problem_labels": [
+        "care.competence",
+        "communication.explanation",
+        "inclusion.language",
+        "staff.seriousness",
+        "staff.friendliness"
+      ],
+      "strength_labels": []
+    }
+  },
+  "allgemeines-krankenhaus-celle:68": {
+    "review_id": "allgemeines-krankenhaus-celle:68",
+    "review_index": 68,
+    "metadata": {
+      "place_id": "allgemeines-krankenhaus-celle",
+      "clinic_name": null,
+      "star_rating": 1,
+      "review_time": "vor 9 Monaten",
+      "like_count": 1,
+      "has_owner_response": false
+    },
+    "review_text": "Vor ab 1 Sternen weil ich keine 6 oder 7 Stunden warten musste..jedoch war meine Behandlung echt schrecklich.. zwischen Tür und Angel kurz drauf geschaut auf dem Flur dann zum röntgen dann kam die Ärztin. Knochen ist alles gut nichts verletzt wir machen ein Verband drumm.. okay alles gut aber was ist mit dem Fingernagel den ich mit halb abgekattet habe der nur auf halb 8 hing der wurde mir dann auf dem Flur ohne Handschuhe ohne hand Desinfektion einfach abgezogen und dann wurde ich noch 30 minuten blutent im Wertebereich sitzengelassen bis ich aufgerufen wurde. Wir waren jetzt 2 da gewesen (familie) Erst falsche Diagnose... es war ein bruch kein prellung... und dann sowas unhyginisches offene Wunden ohne Handschuhe etc. Unmöglich Niewieder.. ach ja und der Datenschutz geht mal garnicht im Wertebereich werden diagnosen der Patienten laut besprochen ich weis jetzt das der Herr neben mir Krebs hat... und sogar welche Art. Liebes Personal nehmt die Leute in einen ruhigen Besprechungsraum und nicht vor versammelten Mannschaft",
+    "labels": {
+      "problem_labels": [
+        "access.waiting",
+        "care.treatment",
+        "care.diagnosis",
+        "care.safety",
+        "admin.privacy"
+      ],
+      "strength_labels": []
+    }
+  },
+  "allgemeines-krankenhaus-celle:381": {
+    "review_id": "allgemeines-krankenhaus-celle:381",
+    "review_index": 381,
+    "metadata": {
+      "place_id": "allgemeines-krankenhaus-celle",
+      "clinic_name": null,
+      "star_rating": 1,
+      "review_time": "vor einem Jahr",
+      "like_count": 0,
+      "has_owner_response": false
+    },
+    "review_text": "Sehr schlimm und es gibt Rassismus auf der Entbindungsstation. Ich schreibe das immer .",
+    "labels": {
+      "problem_labels": [
+        "inclusion.equality"
+      ],
+      "strength_labels": []
+    }
+  }
+}

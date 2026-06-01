@@ -1,40 +1,107 @@
 {
   "url": "https://www.google.com/maps/place/Helios+Klinik+Wittingen/@52.7302107,10.739714,17z/data=!3m1!4b1!4m6!3m5!1s0x47afc6207c047f11:0x6c538916e41af3ea!8m2!3d52.7302107!4d10.739714!16s%2Fg%2F1trqg7ww?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "helios-klinik-wittingen-gmbh",
-  "startedAt": "2026-04-15T16:05:31Z",
+  "startedAt": "2026-05-11T13:21:01Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "B54F75C01468A893ED5EE38C6386EAB2",
-  "selectedTargetId": "B54F75C01468A893ED5EE38C6386EAB2",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "56843DA93A9E82DC80E3E41A4A7A05D2",
+  "selectedTargetId": "56843DA93A9E82DC80E3E41A4A7A05D2",
   "selectedTargetUrl": "https://www.google.com/maps/place/Helios+Klinik+Wittingen/@52.7302107,10.739714,17z/data=!3m1!4b1!4m6!3m5!1s0x47afc6207c047f11:0x6c538916e41af3ea!8m2!3d52.7302107!4d10.739714!16s%2Fg%2F1trqg7ww?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Helios%2BKlinik%2BWittingen/@52.7302107,10.739714,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47afc6207c047f11:0x6c538916e41af3ea!8m2!3d52.7302107!4d10.739714!16s%252Fg%252F1trqg7ww?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Helios%2BKlinik%2BWittingen/@52.7302107,10.739714,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47afc6207c047f11:0x6c538916e41af3ea!8m2!3d52.7302107!4d10.739714!16s%252Fg%252F1trqg7ww?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Helios%2BKlinik%2BWittingen/@52.7302107,10.739714,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47afc6207c047f11:0x6c538916e41af3ea!8m2!3d52.7302107!4d10.739714!16s%252Fg%252F1trqg7ww?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Helios%2BKlinik%2BWittingen/@52.7302107,10.739714,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47afc6207c047f11:0x6c538916e41af3ea!8m2!3d52.7302107!4d10.739714!16s%252Fg%252F1trqg7ww?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/Helios+Klinik+Wittingen/@52.7302107,10.739714,17z/data=!3m1!4b1!4m6!3m5!1s0x47afc6207c047f11:0x6c538916e41af3ea!8m2!3d52.7302107!4d10.739714!16s%2Fg%2F1trqg7ww?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Helios%2BKlinik%2BWittingen/@52.7302107,10.739714,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47afc6207c047f11:0x6c538916e41af3ea!8m2!3d52.7302107!4d10.739714!16s%252Fg%252F1trqg7ww?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Helios%2BKlinik%2BWittingen/@52.7302107,10.739714,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47afc6207c047f11:0x6c538916e41af3ea!8m2!3d52.7302107!4d10.739714!16s%252Fg%252F1trqg7ww?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Helios%2BKlinik%2BWittingen/@52.7302107,10.739714,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47afc6207c047f11:0x6c538916e41af3ea!8m2!3d52.7302107!4d10.739714!16s%252Fg%252F1trqg7ww?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
@@ -50,16 +117,17 @@
           "button_like_control"
         ],
         "tagName": "BUTTON",
-        "text": "67 Berichte",
+        "text": "70 Berichte",
         "ariaLabel": "",
         "title": "",
         "jsaction": "pane.wfvdle14.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 6,
       "clickResult": {
         "clicked": true,
         "index": 58,
-        "text": "67 Berichte",
+        "text": "70 Berichte",
         "ariaLabel": "",
         "title": "",
         "jsaction": "pane.wfvdle14.reviewchart.morereviews",
@@ -71,11 +139,11 @@
       }
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 6,
   "reviewClick": {
     "clicked": true,
     "strategy": "candidate",
-    "label": "67 Berichte",
+    "label": "70 Berichte",
     "domIndex": 58,
     "candidateScore": 215,
     "candidateReasons": [
@@ -98,58 +166,42 @@
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
     "scrollTop": 0,
-    "scrollHeight": 3300,
-    "clientHeight": 694,
-    "distanceToBottom": 2606
+    "scrollHeight": 3434,
+    "clientHeight": 695,
+    "distanceToBottom": 2739
   },
   "declaredReviewTotalInfo": {
     "found": true,
-    "declaredReviewTotal": 66,
+    "declaredReviewTotal": 69,
     "sourceKind": "rating-histogram",
     "histogramByStar": {
-      "1": 8,
+      "1": 9,
       "3": 0,
-      "4": 9,
-      "5": 49
+      "4": 10,
+      "5": 50
     },
     "histogramStarCount": 4
   },
-  "declaredReviewTotal": 66,
+  "declaredReviewTotal": 69,
   "declaredTotalSettleSeconds": 1.5,
-  "declaredTotalFastStopUsed": true,
-  "declaredTotalFinalCheck": {
-    "iteration": 7,
-    "before": {
-      "uniqueReviewIdCount": 67,
-      "scrollHeight": 16867,
-      "distanceToBottom": 0.5
-    },
-    "after": {
-      "uniqueReviewIdCount": 67,
-      "scrollHeight": 16867,
-      "distanceToBottom": 0.5
-    },
-    "settleSeconds": 1.5,
-    "grewDuringSettle": false,
-    "atBottomAfterSettle": true,
-    "declaredTotalReachedAfterSettle": true
-  },
+  "declaredTotalFastStopUsed": false,
+  "declaredTotalFinalCheck": null,
   "fallbackStableRoundsRequired": 5,
   "scrollResults": [
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
       "before": 0,
-      "after": 2605.5,
+      "after": 2738.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 3300,
-      "clientHeight": 694,
+      "scrollHeight": 3434,
+      "clientHeight": 695,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 84,
       "uniqueReviewIdCount": 10,
       "iteration": 1,
-      "declaredReviewTotal": 66,
+      "declaredReviewTotal": 69,
       "stateAfterDelay": {
         "title": "Helios Klinik Wittingen - Google Maps",
         "reviewNodeCount": 169,
@@ -157,30 +209,30 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 2605.5,
-        "scrollHeight": 6026,
-        "clientHeight": 695,
+        "scrollTop": 2738.5,
+        "scrollHeight": 6160,
+        "clientHeight": 696,
         "distanceToBottom": 2725.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 6.917049176990986e-06,
+      "networkIdleSeconds": 1.3207783922553062e-05,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 2605.5,
-      "after": 5330.5,
+      "before": 2738.5,
+      "after": 5463.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 6026,
-      "clientHeight": 695,
+      "scrollHeight": 6160,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 169,
       "uniqueReviewIdCount": 20,
       "iteration": 2,
-      "declaredReviewTotal": 66,
+      "declaredReviewTotal": 69,
       "stateAfterDelay": {
         "title": "Helios Klinik Wittingen - Google Maps",
         "reviewNodeCount": 254,
@@ -188,251 +240,451 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 5330.5,
-        "scrollHeight": 8941,
-        "clientHeight": 695,
+        "scrollTop": 5463.5,
+        "scrollHeight": 9075,
+        "clientHeight": 696,
         "distanceToBottom": 2915.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 8.00006091594696e-06,
+      "networkIdleSeconds": 2.4170149117708206e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 5330.5,
-      "after": 8245.5,
+      "before": 5463.5,
+      "after": 8378.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 8941,
-      "clientHeight": 695,
+      "scrollHeight": 9075,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 254,
       "uniqueReviewIdCount": 30,
       "iteration": 3,
-      "declaredReviewTotal": 66,
+      "declaredReviewTotal": 69,
       "stateAfterDelay": {
         "title": "Helios Klinik Wittingen - Google Maps",
-        "reviewNodeCount": 339,
-        "uniqueReviewIdCount": 40,
+        "reviewNodeCount": 254,
+        "uniqueReviewIdCount": 30,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 8245.5,
-        "scrollHeight": 11776,
-        "clientHeight": 695,
-        "distanceToBottom": 2835.5
-      },
-      "noGrowthCycles": 0,
-      "networkIdleSeconds": 6.458023563027382e-06,
-      "declaredTotalReached": false,
-      "declaredTotalFastStopReady": false
-    },
-    {
-      "scrolled": true,
-      "strategy": "pane_to_bottom",
-      "before": 8245.5,
-      "after": 11080.5,
-      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-      "tagName": "DIV",
-      "scrollHeight": 11776,
-      "clientHeight": 695,
-      "distanceToBottom": 0.5,
-      "reviewNodeCount": 339,
-      "uniqueReviewIdCount": 40,
-      "iteration": 4,
-      "declaredReviewTotal": 66,
-      "stateAfterDelay": {
-        "title": "Helios Klinik Wittingen - Google Maps",
-        "reviewNodeCount": 419,
-        "uniqueReviewIdCount": 50,
-        "foundTarget": true,
-        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-        "tagName": "DIV",
-        "scrollTop": 11080.5,
-        "scrollHeight": 14061,
-        "clientHeight": 695,
-        "distanceToBottom": 2285.5
-      },
-      "noGrowthCycles": 0,
-      "networkIdleSeconds": 7.4160052463412285e-06,
-      "declaredTotalReached": false,
-      "declaredTotalFastStopReady": false
-    },
-    {
-      "scrolled": true,
-      "strategy": "pane_to_bottom",
-      "before": 11080.5,
-      "after": 13365.5,
-      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-      "tagName": "DIV",
-      "scrollHeight": 14061,
-      "clientHeight": 695,
-      "distanceToBottom": 0.5,
-      "reviewNodeCount": 419,
-      "uniqueReviewIdCount": 50,
-      "iteration": 5,
-      "declaredReviewTotal": 66,
-      "stateAfterDelay": {
-        "title": "Helios Klinik Wittingen - Google Maps",
-        "reviewNodeCount": 494,
-        "uniqueReviewIdCount": 60,
-        "foundTarget": true,
-        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-        "tagName": "DIV",
-        "scrollTop": 13365.5,
-        "scrollHeight": 15980,
-        "clientHeight": 695,
-        "distanceToBottom": 1919.5
-      },
-      "noGrowthCycles": 0,
-      "networkIdleSeconds": 7.167109288275242e-06,
-      "declaredTotalReached": false,
-      "declaredTotalFastStopReady": false
-    },
-    {
-      "scrolled": true,
-      "strategy": "pane_to_bottom",
-      "before": 13365.5,
-      "after": 15284.5,
-      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-      "tagName": "DIV",
-      "scrollHeight": 15980,
-      "clientHeight": 695,
-      "distanceToBottom": 0.5,
-      "reviewNodeCount": 494,
-      "uniqueReviewIdCount": 60,
-      "iteration": 6,
-      "declaredReviewTotal": 66,
-      "stateAfterDelay": {
-        "title": "Helios Klinik Wittingen - Google Maps",
-        "reviewNodeCount": 529,
-        "uniqueReviewIdCount": 67,
-        "foundTarget": true,
-        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-        "tagName": "DIV",
-        "scrollTop": 15284.5,
-        "scrollHeight": 16867,
-        "clientHeight": 695,
-        "distanceToBottom": 887.5
-      },
-      "noGrowthCycles": 0,
-      "networkIdleSeconds": 4.082918167114258e-06,
-      "declaredTotalReached": true,
-      "declaredTotalFastStopReady": false
-    },
-    {
-      "scrolled": true,
-      "strategy": "pane_to_bottom",
-      "before": 15284.5,
-      "after": 16171.5,
-      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-      "tagName": "DIV",
-      "scrollHeight": 16867,
-      "clientHeight": 695,
-      "distanceToBottom": 0.5,
-      "reviewNodeCount": 529,
-      "uniqueReviewIdCount": 67,
-      "iteration": 7,
-      "declaredReviewTotal": 66,
-      "stateAfterDelay": {
-        "title": "Helios Klinik Wittingen - Google Maps",
-        "reviewNodeCount": 529,
-        "uniqueReviewIdCount": 67,
-        "foundTarget": true,
-        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
-        "tagName": "DIV",
-        "scrollTop": 16171.5,
-        "scrollHeight": 16867,
-        "clientHeight": 695,
+        "scrollTop": 8378.5,
+        "scrollHeight": 9075,
+        "clientHeight": 696,
         "distanceToBottom": 0.5
       },
-      "declaredTotalSettle": {
-        "waitSeconds": 1.5,
-        "stateAfterSettle": {
+      "bottomProbe": {
+        "waitSeconds": 6.0,
+        "nudgeUp": {
+          "nudged": true,
+          "before": 8378.5,
+          "after": 8118.5,
+          "scrollHeight": 9075,
+          "clientHeight": 696
+        },
+        "scrollDown": {
+          "scrolled": true,
+          "strategy": "pane_to_bottom",
+          "before": 8118.5,
+          "after": 8378.5,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollHeight": 9075,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5,
+          "reviewNodeCount": 254,
+          "uniqueReviewIdCount": 30
+        },
+        "stateAfterProbe": {
           "title": "Helios Klinik Wittingen - Google Maps",
-          "reviewNodeCount": 529,
-          "uniqueReviewIdCount": 67,
+          "reviewNodeCount": 254,
+          "uniqueReviewIdCount": 30,
           "foundTarget": true,
           "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
           "tagName": "DIV",
-          "scrollTop": 16171.5,
-          "scrollHeight": 16867,
-          "clientHeight": 695,
+          "scrollTop": 8378.5,
+          "scrollHeight": 9075,
+          "clientHeight": 696,
           "distanceToBottom": 0.5
         }
       },
-      "noGrowthCycles": 0,
-      "networkIdleSeconds": 3.0594309580046684,
-      "declaredTotalReached": true,
-      "declaredTotalFastStopReady": true
+      "stateAfterProbe": {
+        "title": "Helios Klinik Wittingen - Google Maps",
+        "reviewNodeCount": 254,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 8378.5,
+        "scrollHeight": 9075,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "noGrowthCycles": 1,
+      "networkIdleSeconds": 13.82848074985668,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 8378.5,
+      "after": 8378.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 9075,
+      "clientHeight": 696,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 254,
+      "uniqueReviewIdCount": 30,
+      "iteration": 4,
+      "declaredReviewTotal": 69,
+      "stateAfterDelay": {
+        "title": "Helios Klinik Wittingen - Google Maps",
+        "reviewNodeCount": 254,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 8378.5,
+        "scrollHeight": 9075,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "bottomProbe": {
+        "waitSeconds": 6.0,
+        "nudgeUp": {
+          "nudged": true,
+          "before": 8378.5,
+          "after": 8118.5,
+          "scrollHeight": 9075,
+          "clientHeight": 696
+        },
+        "scrollDown": {
+          "scrolled": true,
+          "strategy": "pane_to_bottom",
+          "before": 8118.5,
+          "after": 8378.5,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollHeight": 9075,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5,
+          "reviewNodeCount": 254,
+          "uniqueReviewIdCount": 30
+        },
+        "stateAfterProbe": {
+          "title": "Helios Klinik Wittingen - Google Maps",
+          "reviewNodeCount": 254,
+          "uniqueReviewIdCount": 30,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 8378.5,
+          "scrollHeight": 9075,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5
+        }
+      },
+      "stateAfterProbe": {
+        "title": "Helios Klinik Wittingen - Google Maps",
+        "reviewNodeCount": 254,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 8378.5,
+        "scrollHeight": 9075,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "noGrowthCycles": 2,
+      "networkIdleSeconds": 27.663618041900918,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 8378.5,
+      "after": 8378.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 9075,
+      "clientHeight": 696,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 254,
+      "uniqueReviewIdCount": 30,
+      "iteration": 5,
+      "declaredReviewTotal": 69,
+      "stateAfterDelay": {
+        "title": "Helios Klinik Wittingen - Google Maps",
+        "reviewNodeCount": 254,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 8378.5,
+        "scrollHeight": 9075,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "bottomProbe": {
+        "waitSeconds": 6.0,
+        "nudgeUp": {
+          "nudged": true,
+          "before": 8378.5,
+          "after": 8118.5,
+          "scrollHeight": 9075,
+          "clientHeight": 696
+        },
+        "scrollDown": {
+          "scrolled": true,
+          "strategy": "pane_to_bottom",
+          "before": 8118.5,
+          "after": 8378.5,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollHeight": 9075,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5,
+          "reviewNodeCount": 254,
+          "uniqueReviewIdCount": 30
+        },
+        "stateAfterProbe": {
+          "title": "Helios Klinik Wittingen - Google Maps",
+          "reviewNodeCount": 254,
+          "uniqueReviewIdCount": 30,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 8378.5,
+          "scrollHeight": 9075,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5
+        }
+      },
+      "stateAfterProbe": {
+        "title": "Helios Klinik Wittingen - Google Maps",
+        "reviewNodeCount": 254,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 8378.5,
+        "scrollHeight": 9075,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "noGrowthCycles": 3,
+      "networkIdleSeconds": 41.513239457970485,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 8378.5,
+      "after": 8378.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 9075,
+      "clientHeight": 696,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 254,
+      "uniqueReviewIdCount": 30,
+      "iteration": 6,
+      "declaredReviewTotal": 69,
+      "stateAfterDelay": {
+        "title": "Helios Klinik Wittingen - Google Maps",
+        "reviewNodeCount": 254,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 8378.5,
+        "scrollHeight": 9075,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "bottomProbe": {
+        "waitSeconds": 6.0,
+        "nudgeUp": {
+          "nudged": true,
+          "before": 8378.5,
+          "after": 8118.5,
+          "scrollHeight": 9075,
+          "clientHeight": 696
+        },
+        "scrollDown": {
+          "scrolled": true,
+          "strategy": "pane_to_bottom",
+          "before": 8118.5,
+          "after": 8378.5,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollHeight": 9075,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5,
+          "reviewNodeCount": 254,
+          "uniqueReviewIdCount": 30
+        },
+        "stateAfterProbe": {
+          "title": "Helios Klinik Wittingen - Google Maps",
+          "reviewNodeCount": 254,
+          "uniqueReviewIdCount": 30,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 8378.5,
+          "scrollHeight": 9075,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5
+        }
+      },
+      "stateAfterProbe": {
+        "title": "Helios Klinik Wittingen - Google Maps",
+        "reviewNodeCount": 254,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 8378.5,
+        "scrollHeight": 9075,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "noGrowthCycles": 4,
+      "networkIdleSeconds": 55.34678287501447,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 8378.5,
+      "after": 8378.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 9075,
+      "clientHeight": 696,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 254,
+      "uniqueReviewIdCount": 30,
+      "iteration": 7,
+      "declaredReviewTotal": 69,
+      "stateAfterDelay": {
+        "title": "Helios Klinik Wittingen - Google Maps",
+        "reviewNodeCount": 254,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 8378.5,
+        "scrollHeight": 9075,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "bottomProbe": {
+        "waitSeconds": 6.0,
+        "nudgeUp": {
+          "nudged": true,
+          "before": 8378.5,
+          "after": 8118.5,
+          "scrollHeight": 9075,
+          "clientHeight": 696
+        },
+        "scrollDown": {
+          "scrolled": true,
+          "strategy": "pane_to_bottom",
+          "before": 8118.5,
+          "after": 8378.5,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollHeight": 9075,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5,
+          "reviewNodeCount": 254,
+          "uniqueReviewIdCount": 30
+        },
+        "stateAfterProbe": {
+          "title": "Helios Klinik Wittingen - Google Maps",
+          "reviewNodeCount": 254,
+          "uniqueReviewIdCount": 30,
+          "foundTarget": true,
+          "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+          "tagName": "DIV",
+          "scrollTop": 8378.5,
+          "scrollHeight": 9075,
+          "clientHeight": 696,
+          "distanceToBottom": 0.5
+        }
+      },
+      "stateAfterProbe": {
+        "title": "Helios Klinik Wittingen - Google Maps",
+        "reviewNodeCount": 254,
+        "uniqueReviewIdCount": 30,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 8378.5,
+        "scrollHeight": 9075,
+        "clientHeight": 696,
+        "distanceToBottom": 0.5
+      },
+      "noGrowthCycles": 5,
+      "networkIdleSeconds": 69.17571516684256,
+      "declaredTotalReached": false,
+      "declaredTotalFastStopReady": false
     }
   ],
-  "scrollStopReason": "declared_total_reached_fast",
-  "exhausted": false,
+  "scrollStopReason": "exhausted_no_growth_at_bottom",
+  "exhausted": true,
   "scrollSafetyTimeoutHit": false,
   "growthEvents": [
     {
       "iteration": 1,
       "uniqueReviewIdCount": 20,
-      "scrollHeight": 6026
+      "scrollHeight": 6160
     },
     {
       "iteration": 2,
       "uniqueReviewIdCount": 30,
-      "scrollHeight": 8941
-    },
-    {
-      "iteration": 3,
-      "uniqueReviewIdCount": 40,
-      "scrollHeight": 11776
-    },
-    {
-      "iteration": 4,
-      "uniqueReviewIdCount": 50,
-      "scrollHeight": 14061
-    },
-    {
-      "iteration": 5,
-      "uniqueReviewIdCount": 60,
-      "scrollHeight": 15980
-    },
-    {
-      "iteration": 6,
-      "uniqueReviewIdCount": 67,
-      "scrollHeight": 16867
+      "scrollHeight": 9075
     }
   ],
-  "networkEventsDuringScroll": 31,
-  "finalNetworkIdleSeconds": 3.0594618750037625,
-  "noGrowthCycles": 0,
+  "networkEventsDuringScroll": 11,
+  "finalNetworkIdleSeconds": 69.17574787489139,
+  "noGrowthCycles": 5,
   "finalReviewsState": {
     "title": "Helios Klinik Wittingen - Google Maps",
-    "reviewNodeCount": 529,
-    "uniqueReviewIdCount": 67,
+    "reviewNodeCount": 254,
+    "uniqueReviewIdCount": 30,
     "foundTarget": true,
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
-    "scrollTop": 16171.5,
-    "scrollHeight": 16867,
-    "clientHeight": 695,
+    "scrollTop": 8378.5,
+    "scrollHeight": 9075,
+    "clientHeight": 696,
     "distanceToBottom": 0.5
   },
-  "reachedDeclaredReviewTotal": true,
+  "reachedDeclaredReviewTotal": false,
   "reachedReviewPaneEnd": true,
-  "finalUniqueReviewIdCount": 67,
-  "finalScrollTop": 16171.5,
-  "finalScrollHeight": 16867,
+  "finalUniqueReviewIdCount": 30,
+  "finalScrollTop": 8378.5,
+  "finalScrollHeight": 9075,
   "reviewExpansion": {
-    "buttonCount": 17,
-    "clickedCount": 17
+    "buttonCount": 14,
+    "clickedCount": 14
   },
-  "matchedRequestCount": 62,
+  "matchedRequestCount": 39,
   "batchexecuteCount": 3,
-  "reviewPhaseXhrCount": 42,
+  "reviewPhaseXhrCount": 19,
   "captureSuccessful": true,
-  "finishedAt": "2026-04-15T16:06:23Z",
+  "finishedAt": "2026-05-11T13:22:42Z",
   "retryRunsRequested": 2,
   "retryRunsExecuted": 1,
   "retryAttempts": [
@@ -442,12 +694,12 @@
       "scrollDelayUsed": 1.5,
       "captureSuccessful": true,
       "failureReason": null,
-      "finalUniqueReviewIdCount": 67,
-      "scrollStopReason": "declared_total_reached_fast",
-      "declaredReviewTotal": 66
+      "finalUniqueReviewIdCount": 30,
+      "scrollStopReason": "exhausted_no_growth_at_bottom",
+      "declaredReviewTotal": 69
     }
   ],
-  "mergedReviewCountAcrossAttempts": 58,
+  "mergedReviewCountAcrossAttempts": 30,
   "reviewsPath": "artifacts/helios-klinik-wittingen-gmbh/reviews.json",
-  "latestDeclaredReviewTotalAcrossAttempts": 66
+  "latestDeclaredReviewTotalAcrossAttempts": 69
 }

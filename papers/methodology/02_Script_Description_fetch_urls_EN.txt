@@ -1,0 +1,63 @@
+Script Description for Thesis Methods
+File: scripts/fetch_urls.py
+
+Purpose
+`fetch_urls.py` resolves canonical Google Maps place URLs for each clinic in the study list and stores the result in a persistent lock/log file (`configs/place_urls.json`). This script is the preparation stage for review capture.
+
+Why this step is necessary
+If review capture starts from free-text place names directly, the process is vulnerable to ambiguity (multiple places with similar names, branch confusion, spelling variants). URL resolution separates this ambiguity-handling step from review collection and documents decisions per clinic.
+
+Input
+- Plain-text clinic list: `configs/places.txt`
+- One place name per line; comments and blank lines are ignored.
+
+Output
+- URL lock file: `configs/place_urls.json`
+- One JSON entry per place_id, with status and metadata.
+
+Core processing logic
+1. Read and normalize place list
+- The script reads all non-empty, non-comment lines.
+- Each clinic name is transformed into a stable `place_id` slug.
+- If duplicate slugs occur, numeric suffixes are added.
+
+2. Start browser session
+- Launches Chrome with remote debugging enabled.
+- Uses a temporary profile to reduce side effects.
+- Connects through CDP.
+
+3. Resolve each clinic name
+- Opens Google Maps search URL for the query string.
+- Handles cookie-consent pages (deny/reject flow).
+- Waits for a stable final `/maps/place/` URL.
+- Optionally clicks first visible search result if auto-transition does not happen.
+
+4. Validate name consistency
+- Extracts resolved place title from page heading/document title.
+- Compares requested and resolved names using normalization:
+  - lowercasing,
+  - umlaut replacements (`ä->ae`, `ö->oe`, `ü->ue`, `ß->ss`),
+  - removal of diacritics/punctuation,
+  - whitespace normalization.
+- Matching rule uses inclusion logic on normalized forms.
+
+5. Persist status
+The script stores one of the following statuses per place:
+- `resolved`: resolved_url and resolved_name accepted.
+- `mismatch`: URL found, but resolved name does not sufficiently match requested name.
+- `error`: technical failure during resolution.
+
+It also stores timestamp (`last_checked_at`) and error details.
+
+Refresh and reuse behavior
+- By default, previously resolved entries are reused.
+- `--refresh` forces re-resolution of all places.
+
+Scientific relevance
+This script creates a traceable mapping from conceptual sampling units (clinic names) to operational web units (canonical Google Maps place URLs). That mapping is essential for reproducibility and for transparent reporting of coverage gaps (e.g., mismatches).
+
+Boundary to the review-capture stage
+`fetch_urls.py` does not collect review-level content or metadata. Review text, star ratings, visible like counts, and owner-response information are extracted only in the downstream capture stage (`scripts/capture_reviews.py`) after a resolved Google Maps place URL has been accepted.
+
+Recommended thesis wording (short form)
+"As a preprocessing step, we resolved all clinic names to canonical Google Maps place URLs using an automated browser-based resolver. The resolver stored per-clinic resolution status and metadata in a persistent lock file, enabling reproducible URL selection and explicit tracking of unresolved or ambiguous cases."

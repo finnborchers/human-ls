@@ -51,7 +51,7 @@
   },
   "albert-schweitzer-therapeutikum": {
     "error": "Name mismatch: requested 'Albert-Schweitzer-Therapeutikum', resolved 'Albert-Schweitzer Familienwerk e.V.- Therapeutikum Holzminden'",
-    "last_checked_at": "2026-04-15T11:58:27Z",
+    "last_checked_at": "2026-05-05T09:10:30Z",
     "place_id": "albert-schweitzer-therapeutikum",
     "place_name": "Albert-Schweitzer-Therapeutikum",
     "query": "Albert-Schweitzer-Therapeutikum",
@@ -61,7 +61,7 @@
   },
   "aller-weser-klinik-krankenhaus-achim": {
     "error": "Name mismatch: requested 'Aller-Weser-Klinik Krankenhaus Achim', resolved 'Aller-Weser-Klinik gGmbH - Krankenhaus Achim'",
-    "last_checked_at": "2026-04-15T11:58:55Z",
+    "last_checked_at": "2026-05-05T09:10:57Z",
     "place_id": "aller-weser-klinik-krankenhaus-achim",
     "place_name": "Aller-Weser-Klinik Krankenhaus Achim",
     "query": "Aller-Weser-Klinik Krankenhaus Achim",
@@ -71,7 +71,7 @@
   },
   "aller-weser-klinik-krankenhaus-verden": {
     "error": "Name mismatch: requested 'Aller-Weser-Klinik Krankenhaus Verden', resolved 'Aller-Weser-Klinik gGmbH - Krankenhaus Verden'",
-    "last_checked_at": "2026-04-15T11:59:22Z",
+    "last_checked_at": "2026-05-05T09:11:24Z",
     "place_id": "aller-weser-klinik-krankenhaus-verden",
     "place_name": "Aller-Weser-Klinik Krankenhaus Verden",
     "query": "Aller-Weser-Klinik Krankenhaus Verden",
@@ -161,7 +161,7 @@
   },
   "asklepios-fachklinikumtiefenbrunn": {
     "error": "Name mismatch: requested 'ASKLEPIOS FachklinikumTiefenbrunn', resolved 'Asklepios Fachklinikum Tiefenbrunn'",
-    "last_checked_at": "2026-04-15T11:55:59Z",
+    "last_checked_at": "2026-05-05T09:09:36Z",
     "place_id": "asklepios-fachklinikumtiefenbrunn",
     "place_name": "ASKLEPIOS FachklinikumTiefenbrunn",
     "query": "ASKLEPIOS FachklinikumTiefenbrunn",
@@ -191,7 +191,7 @@
   },
   "asklepios-kliniken-schildautal-seesen": {
     "error": "Name mismatch: requested 'ASKLEPIOS Kliniken Schildautal Seesen', resolved 'Asklepios Klinik Schildautal Seesen'",
-    "last_checked_at": "2026-04-15T11:57:27Z",
+    "last_checked_at": "2026-05-05T09:10:03Z",
     "place_id": "asklepios-kliniken-schildautal-seesen",
     "place_name": "ASKLEPIOS Kliniken Schildautal Seesen",
     "query": "ASKLEPIOS Kliniken Schildautal Seesen",
@@ -341,7 +341,7 @@
   },
   "diabeteszentrum-bad-lauterberg-fachklinik-fuer-diabetes-und-stoffwechselkrankheiten": {
     "error": "Name mismatch: requested 'Diabeteszentrum Bad Lauterberg Fachklinik für Diabetes und Stoffwechselkrankheiten', resolved 'Diabeteszentrum Bad Lauterberg - Fachklinik für Innere Medizin, Schwerpunkt Diabetes'",
-    "last_checked_at": "2026-04-15T12:09:03Z",
+    "last_checked_at": "2026-05-05T09:11:51Z",
     "place_id": "diabeteszentrum-bad-lauterberg-fachklinik-fuer-diabetes-und-stoffwechselkrankheiten",
     "place_name": "Diabeteszentrum Bad Lauterberg Fachklinik für Diabetes und Stoffwechselkrankheiten",
     "query": "Diabeteszentrum Bad Lauterberg Fachklinik für Diabetes und Stoffwechselkrankheiten",
@@ -381,7 +381,7 @@
   },
   "diana-kliniken": {
     "error": "Name mismatch: requested 'Diana Kliniken', resolved 'DianaKlinik'",
-    "last_checked_at": "2026-04-15T12:09:30Z",
+    "last_checked_at": "2026-05-05T09:12:18Z",
     "place_id": "diana-kliniken",
     "place_name": "Diana Kliniken",
     "query": "Diana Kliniken",
@@ -461,7 +461,7 @@
   },
   "ev-krankenhaus-goettingen-weende-ggmbh-standort-neu-mariahilf": {
     "error": "Name mismatch: requested 'Ev. Krankenhaus Göttingen Weende gGmbH Standort Neu-Mariahilf', resolved 'Krankenhaus Neu-Mariahilf'",
-    "last_checked_at": "2026-04-15T12:12:48Z",
+    "last_checked_at": "2026-05-05T09:12:52Z",
     "place_id": "ev-krankenhaus-goettingen-weende-ggmbh-standort-neu-mariahilf",
     "place_name": "Ev. Krankenhaus Göttingen Weende gGmbH Standort Neu-Mariahilf",
     "query": "Ev. Krankenhaus Göttingen Weende gGmbH Standort Neu-Mariahilf",
@@ -471,7 +471,7 @@
   },
   "ev-luth-diakonissenanstalt-marienstift": {
     "error": "Name mismatch: requested 'Ev.-luth. Diakonissenanstalt Marienstift', resolved 'Krankenhaus Marienstift gGmbH - Notaufnahme'",
-    "last_checked_at": "2026-04-15T12:13:21Z",
+    "last_checked_at": "2026-05-05T09:13:25Z",
     "place_id": "ev-luth-diakonissenanstalt-marienstift",
     "place_name": "Ev.-luth. Diakonissenanstalt Marienstift",
     "query": "Ev.-luth. Diakonissenanstalt Marienstift",
@@ -511,7 +511,7 @@
   },
   "fachklinik-fuer-orthopaedie-und-rheumatologie-dr-muschinsky": {
     "error": "Name mismatch: requested 'Fachklinik für Orthopädie und Rheumatologie Dr. Muschinsky', resolved 'Fachklinik für Orthopädie und Schmerztherapie Dr. Muschinsky in Bad Lauterberg - Harz'",
-    "last_checked_at": "2026-04-15T12:15:17Z",
+    "last_checked_at": "2026-05-05T09:13:52Z",
     "place_id": "fachklinik-fuer-orthopaedie-und-rheumatologie-dr-muschinsky",
     "place_name": "Fachklinik für Orthopädie und Rheumatologie Dr. Muschinsky",
     "query": "Fachklinik für Orthopädie und Rheumatologie Dr. Muschinsky",

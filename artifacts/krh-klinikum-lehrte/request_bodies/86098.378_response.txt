@@ -1,2 +1,0 @@
-)]}'
-[null,[13,10,null,1,"https://www.google.com/settings/ads/preferences",null,32,40,27,30,"https://www.gstatic.com/maps/promotions/promotedpins/square_bg_transparent.png",null,0,16,6,[2,20],null,1,1,1,1,0,null,null,null,[2,20],null,null,1,1,1,0,15,null,null,null,null,[200,5000],null,1,[5,900]],1]

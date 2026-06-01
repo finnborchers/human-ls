@@ -1,0 +1,300 @@
+{
+  "url": "https://www.google.com/maps/place/St.+Bernhard-Hospital+Kamp-Lintfort+GmbH/@51.4921656,4.0769335,8z/data=!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.+Bernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%2Fg%2F12288w17?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "placeId": "st-bernhard-hospital",
+  "startedAt": "2026-05-11T16:27:13Z",
+  "scrollDelayUsed": 2.25,
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "F2B04B8F6B575C28B266D8E554DB8147",
+  "selectedTargetId": "F2B04B8F6B575C28B266D8E554DB8147",
+  "selectedTargetUrl": "https://www.google.com/maps/place/St.+Bernhard-Hospital+Kamp-Lintfort+GmbH/@51.4921656,4.0769335,8z/data=!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.+Bernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%2Fg%2F12288w17?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
+  "targetSelectionStrategy": "exact_url_match",
+  "cookieConsent": {
+    "clicked": true,
+    "action": "accept",
+    "attempts": [
+      {
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St.%2BBernhard-Hospital%2BKamp-Lintfort%2BGmbH/@51.4921656,4.0769335,8z/data%3D!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.%2BBernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%252Fg%252F12288w17?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St.%2BBernhard-Hospital%2BKamp-Lintfort%2BGmbH/@51.4921656,4.0769335,8z/data%3D!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.%2BBernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%252Fg%252F12288w17?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
+        "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St.%2BBernhard-Hospital%2BKamp-Lintfort%2BGmbH/@51.4921656,4.0769335,8z/data%3D!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.%2BBernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%252Fg%252F12288w17?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "onConsentHost": true,
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/St.+Bernhard-Hospital+Kamp-Lintfort+GmbH/@51.4921656,4.0769335,8z/data=!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.+Bernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%2Fg%2F12288w17?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
+      }
+    ],
+    "resolvedWith": {
+      "clicked": true,
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
+      "strategy": "direct_selector",
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/St.%2BBernhard-Hospital%2BKamp-Lintfort%2BGmbH/@51.4921656,4.0769335,8z/data%3D!3m1!5s0x47b8a20df8a275a7:0xc2fafa20ffa56c40!4m10!1m2!2m1!1sSt.%2BBernhard-Hospital!3m6!1s0x47b8a20df85dd213:0x7204061e0899747e!8m2!3d51.4921656!4d6.5158983!15sChVTdC4gQmVybmhhcmQtSG9zcGl0YWwiA4gBAZIBCGhvc3BpdGFs4AEA!16s%252Fg%252F12288w17?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+    }
+  },
+  "reviewOpenAttempts": [
+    {
+      "rank": 1,
+      "candidate": {
+        "domIndex": 88,
+        "score": 215,
+        "reasons": [
+          "jsaction_more_reviews",
+          "count_label",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "489 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle60.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "candidateCountBeforeClick": 6,
+      "clickResult": {
+        "clicked": true,
+        "index": 88,
+        "text": "489 Berichte",
+        "ariaLabel": "",
+        "title": "",
+        "jsaction": "pane.wfvdle60.reviewchart.morereviews",
+        "className": "GQjSyb fontTitleSmall rqjGif"
+      },
+      "reviewsPanelAfterClick": false,
+      "reviewsContinuationAttempts": [
+        {
+          "clicked": false,
+          "visibleContinuationCount": 0,
+          "policyNoticeDetected": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "candidate": {
+        "domIndex": 53,
+        "score": 80,
+        "reasons": [
+          "explicit_all_reviews",
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Alle",
+        "ariaLabel": "Alle Rezensionen",
+        "title": "",
+        "jsaction": "pane.wfvdle139; keydown:pane.wfvdle139; mouseover:pane.wfvdle139; mouseout:pane.wfvdle139;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "candidateCountBeforeClick": 4,
+      "clickResult": {
+        "clicked": true,
+        "index": 53,
+        "text": "Alle",
+        "ariaLabel": "Alle Rezensionen",
+        "title": "",
+        "jsaction": "pane.wfvdle139; keydown:pane.wfvdle139; mouseover:pane.wfvdle139; mouseout:pane.wfvdle139;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "e2moi"
+      },
+      "reviewsPanelAfterClick": false,
+      "reviewsContinuationAttempts": [
+        {
+          "clicked": false,
+          "visibleContinuationCount": 0,
+          "policyNoticeDetected": false
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "candidate": {
+        "domIndex": 44,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "Rezensionen",
+        "ariaLabel": "Rezensionen zu „St. Bernhard-Hospital Kamp-Lintfort GmbH“",
+        "title": "",
+        "jsaction": "pane.wfvdle51tabs.tabclick; mousedown:pane.wfvdle51tabs.dragtabs; focus:pane.wfvdle51tabs.focus",
+        "className": "hh2c6 G7m0Af"
+      },
+      "candidateCountBeforeClick": 4,
+      "clickResult": {
+        "clicked": true,
+        "index": 44,
+        "text": "Rezensionen",
+        "ariaLabel": "Rezensionen zu „St. Bernhard-Hospital Kamp-Lintfort GmbH“",
+        "title": "",
+        "jsaction": "pane.wfvdle51tabs.tabclick; mousedown:pane.wfvdle51tabs.dragtabs; focus:pane.wfvdle51tabs.focus",
+        "className": "hh2c6 G7m0Af"
+      },
+      "reviewsPanelAfterClick": false,
+      "reviewsContinuationAttempts": [
+        {
+          "clicked": false,
+          "visibleContinuationCount": 0,
+          "policyNoticeDetected": false
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "candidate": {
+        "domIndex": 50,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": "",
+        "ariaLabel": "In Rezensionen suchen",
+        "title": "",
+        "jsaction": "pane.wfvdle137;keydown:pane.wfvdle137;mouseover:pane.wfvdle137;mouseout:pane.wfvdle137;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "S9kvJb"
+      },
+      "candidateCountBeforeClick": 4,
+      "clickResult": {
+        "clicked": true,
+        "index": 50,
+        "text": "",
+        "ariaLabel": "In Rezensionen suchen",
+        "title": "",
+        "jsaction": "pane.wfvdle137;keydown:pane.wfvdle137;mouseover:pane.wfvdle137;mouseout:pane.wfvdle137;focus:pane.focustooltip;blur:pane.blurtooltip",
+        "className": "S9kvJb"
+      },
+      "reviewsPanelAfterClick": false,
+      "reviewsContinuationAttempts": [
+        {
+          "clicked": false,
+          "visibleContinuationCount": 0,
+          "policyNoticeDetected": false
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "candidate": {
+        "domIndex": 52,
+        "score": 35,
+        "reasons": [
+          "review_keyword",
+          "button_like_control"
+        ],
+        "tagName": "BUTTON",
+        "text": " Sortieren",
+        "ariaLabel": "Rezensionen sortieren",
+        "title": "",
+        "jsaction": "pane.wfvdle138;keydown:pane.wfvdle138;mouseover:pane.wfvdle138;mouseout:pane.wfvdle138",
+        "className": "S9kvJb"
+      },
+      "candidateCountBeforeClick": 3,
+      "clickResult": {
+        "clicked": true,
+        "index": 52,
+        "text": " Sortieren",
+        "ariaLabel": "Rezensionen sortieren",
+        "title": "",
+        "jsaction": "pane.wfvdle138;keydown:pane.wfvdle138;mouseover:pane.wfvdle138;mouseout:pane.wfvdle138",
+        "className": "S9kvJb"
+      },
+      "reviewsPanelAfterClick": false,
+      "reviewsContinuationAttempts": [
+        {
+          "clicked": false,
+          "visibleContinuationCount": 0,
+          "policyNoticeDetected": false
+        }
+      ]
+    }
+  ],
+  "reviewOpenCandidateCount": 3,
+  "reviewClick": {
+    "clicked": false,
+    "reason": "reviews_panel_not_opened"
+  },
+  "reviewsPanel": false,
+  "failureReason": "reviews_panel_not_opened",
+  "scrollStopReason": "reviews_panel_not_opened",
+  "captureSuccessful": false,
+  "finishedAt": "2026-05-11T16:28:16Z",
+  "reviewPhaseXhrCount": 5,
+  "matchedRequestCount": 0,
+  "batchexecuteCount": 0
+}

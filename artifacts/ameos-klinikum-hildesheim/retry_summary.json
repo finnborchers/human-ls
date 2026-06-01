@@ -4,11 +4,11 @@
       "attempt": 1,
       "outputDir": "artifacts/ameos-klinikum-hildesheim",
       "scrollDelayUsed": 1.5,
-      "captureSuccessful": false,
-      "failureReason": "reviews_panel_not_opened",
-      "finalUniqueReviewIdCount": 0,
-      "scrollStopReason": "reviews_panel_not_opened",
-      "declaredReviewTotal": null
+      "captureSuccessful": true,
+      "failureReason": null,
+      "finalUniqueReviewIdCount": 20,
+      "scrollStopReason": "exhausted_no_growth_at_bottom",
+      "declaredReviewTotal": 108
     }
   ]
 }

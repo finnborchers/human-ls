@@ -15,7 +15,7 @@ Important limitation: Google Places returns only `up to five reviews` for a plac
 
 ## Granular LLM review analysis
 
-The script at [scripts/analyze_reviews_llm.py](/Users/finnborchers/Desktop/HUMAN-LS/human-ls/scripts/analyze_reviews_llm.py) runs the granular all-LLM taxonomy pass over the captured `artifacts/*/reviews.json` corpus, uses explicit nested Pydantic models defined in the script, and writes the extracted labels to [review_label_results_v1.json](/Users/finnborchers/Desktop/HUMAN-LS/human-ls/analysis/review_label_results_v1.json).
+The script at [scripts/analyze_llm_nested.py](/Users/finnborchers/human-ls/human-ls/scripts/analyze_llm_nested.py) runs the granular nested taxonomy pass over the captured `artifacts/*/reviews.json` corpus, uses explicit nested Pydantic models defined in the script, and writes the extracted labels to [review_labels_latest.json](/Users/finnborchers/human-ls/human-ls/analysis/llm/full_run/review_labels_latest.json).
 
 It uses:
 
@@ -30,19 +30,19 @@ Install the Python dependencies first:
 python3 -m pip install -r requirements.txt
 ```
 
-The script is intentionally simple and constant-driven. Change the top-level values in [scripts/analyze_reviews_llm.py](/Users/finnborchers/Desktop/HUMAN-LS/human-ls/scripts/analyze_reviews_llm.py) if you want a different model, output path, start index, or review count.
+The script is intentionally simple and constant-driven. Change the top-level values in [scripts/analyze_llm_nested.py](/Users/finnborchers/human-ls/human-ls/scripts/analyze_llm_nested.py) if you want a different model, output path, start index, or review count.
 
 Run it with:
 
 ```bash
-python3 scripts/analyze_reviews_llm.py
+python3 scripts/analyze_llm_nested.py
 ```
 
 By default it:
 
 - loads `OPENAI_API_KEY` from `.env`
 - reads `artifacts/*/reviews.json`
-- uses explicit static Pydantic model definitions in `scripts/analyze_reviews_llm.py`
+- uses explicit static Pydantic model definitions in `scripts/analyze_llm_nested.py`
 - processes the slice defined by `START_INDEX` and `NUM_REVIEWS`
 - skips already processed `review_id`s if they are already present in the output JSON
 - writes nested model results to `analysis/review_label_results_v1.json`

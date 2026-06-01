@@ -1,0 +1,23 @@
+{
+  "run_meta": {
+    "provider": "gemini",
+    "model": "gemini-2.5-pro",
+    "sample_path": "analysis/llm/finetune/reviews_v1_7_holdout_ids_20.txt",
+    "temperature": null,
+    "reasoning_effort": null,
+    "generated_at": "2026-05-15T11:21:38.593039+00:00",
+    "prompt_version": "v1",
+    "runner": "analyze_llm_flat_v1_sweep_gemini.py",
+    "processed": 16,
+    "skipped": 4,
+    "errors": 0,
+    "total_request_sec": 184.8097,
+    "avg_request_sec": 11.5506,
+    "updated_at": "2026-05-15T11:24:46.502572+00:00",
+    "expected_count": 20,
+    "completed_count": 20,
+    "failed_count": 0,
+    "is_complete": true
+  },
+  "failures": {}
+}

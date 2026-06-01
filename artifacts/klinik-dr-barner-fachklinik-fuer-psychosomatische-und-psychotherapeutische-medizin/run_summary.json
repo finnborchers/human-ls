@@ -1,47 +1,114 @@
 {
   "url": "https://www.google.com/maps/place/Klinik+Dr.+Barner/@51.7294464,10.6176351,17z/data=!3m1!4b1!4m6!3m5!1s0x47a510613446accf:0xbd097a9b911fd9fb!8m2!3d51.7294464!4d10.6176351!16s%2Fg%2F124srr23t?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "klinik-dr-barner-fachklinik-fuer-psychosomatische-und-psychotherapeutische-medizin",
-  "startedAt": "2026-04-15T16:50:36Z",
+  "startedAt": "2026-05-11T14:11:31Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "084851571680F960093A3B33066FC10F",
-  "selectedTargetId": "084851571680F960093A3B33066FC10F",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "10558B9038CF16BF0228CF74FDF14901",
+  "selectedTargetId": "10558B9038CF16BF0228CF74FDF14901",
   "selectedTargetUrl": "https://www.google.com/maps/place/Klinik+Dr.+Barner/@51.7294464,10.6176351,17z/data=!3m1!4b1!4m6!3m5!1s0x47a510613446accf:0xbd097a9b911fd9fb!8m2!3d51.7294464!4d10.6176351!16s%2Fg%2F124srr23t?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BBarner/@51.7294464,10.6176351,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47a510613446accf:0xbd097a9b911fd9fb!8m2!3d51.7294464!4d10.6176351!16s%252Fg%252F124srr23t?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BBarner/@51.7294464,10.6176351,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47a510613446accf:0xbd097a9b911fd9fb!8m2!3d51.7294464!4d10.6176351!16s%252Fg%252F124srr23t?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BBarner/@51.7294464,10.6176351,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47a510613446accf:0xbd097a9b911fd9fb!8m2!3d51.7294464!4d10.6176351!16s%252Fg%252F124srr23t?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BBarner/@51.7294464,10.6176351,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47a510613446accf:0xbd097a9b911fd9fb!8m2!3d51.7294464!4d10.6176351!16s%252Fg%252F124srr23t?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/Klinik+Dr.+Barner/@51.7294464,10.6176351,17z/data=!3m1!4b1!4m6!3m5!1s0x47a510613446accf:0xbd097a9b911fd9fb!8m2!3d51.7294464!4d10.6176351!16s%2Fg%2F124srr23t?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BBarner/@51.7294464,10.6176351,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47a510613446accf:0xbd097a9b911fd9fb!8m2!3d51.7294464!4d10.6176351!16s%252Fg%252F124srr23t?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BBarner/@51.7294464,10.6176351,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47a510613446accf:0xbd097a9b911fd9fb!8m2!3d51.7294464!4d10.6176351!16s%252Fg%252F124srr23t?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Klinik%2BDr.%2BBarner/@51.7294464,10.6176351,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47a510613446accf:0xbd097a9b911fd9fb!8m2!3d51.7294464!4d10.6176351!16s%252Fg%252F124srr23t?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
     {
       "rank": 1,
       "candidate": {
-        "domIndex": 59,
+        "domIndex": 61,
         "score": 215,
         "reasons": [
           "jsaction_more_reviews",
@@ -50,16 +117,17 @@
           "button_like_control"
         ],
         "tagName": "BUTTON",
-        "text": "39 Berichte",
+        "text": "41 Berichte",
         "ariaLabel": "",
         "title": "",
         "jsaction": "pane.wfvdle14.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 6,
       "clickResult": {
         "clicked": true,
-        "index": 59,
-        "text": "39 Berichte",
+        "index": 61,
+        "text": "41 Berichte",
         "ariaLabel": "",
         "title": "",
         "jsaction": "pane.wfvdle14.reviewchart.morereviews",
@@ -71,12 +139,12 @@
       }
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 6,
   "reviewClick": {
     "clicked": true,
     "strategy": "candidate",
-    "label": "39 Berichte",
-    "domIndex": 59,
+    "label": "41 Berichte",
+    "domIndex": 61,
     "candidateScore": 215,
     "candidateReasons": [
       "jsaction_more_reviews",
@@ -98,34 +166,35 @@
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
     "scrollTop": 0,
-    "scrollHeight": 3934,
-    "clientHeight": 694,
-    "distanceToBottom": 3240
+    "scrollHeight": 4116,
+    "clientHeight": 695,
+    "distanceToBottom": 3421
   },
   "declaredReviewTotalInfo": {
     "found": true,
-    "declaredReviewTotal": 37,
+    "declaredReviewTotal": 40,
     "sourceKind": "rating-histogram",
     "histogramByStar": {
+      "1": 2,
       "2": 2,
       "4": 2,
-      "5": 33
+      "5": 34
     },
-    "histogramStarCount": 3
+    "histogramStarCount": 4
   },
-  "declaredReviewTotal": 37,
+  "declaredReviewTotal": 40,
   "declaredTotalSettleSeconds": 1.5,
   "declaredTotalFastStopUsed": true,
   "declaredTotalFinalCheck": {
-    "iteration": 4,
+    "iteration": 5,
     "before": {
-      "uniqueReviewIdCount": 39,
-      "scrollHeight": 10643,
+      "uniqueReviewIdCount": 41,
+      "scrollHeight": 11303,
       "distanceToBottom": 0.5
     },
     "after": {
-      "uniqueReviewIdCount": 39,
-      "scrollHeight": 10643,
+      "uniqueReviewIdCount": 41,
+      "scrollHeight": 11303,
       "distanceToBottom": 0.5
     },
     "settleSeconds": 1.5,
@@ -139,16 +208,16 @@
       "scrolled": true,
       "strategy": "pane_to_bottom",
       "before": 0,
-      "after": 3239.5,
+      "after": 3420.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 3934,
-      "clientHeight": 694,
+      "scrollHeight": 4116,
+      "clientHeight": 695,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 95,
       "uniqueReviewIdCount": 10,
       "iteration": 1,
-      "declaredReviewTotal": 37,
+      "declaredReviewTotal": 40,
       "stateAfterDelay": {
         "title": "Klinik Dr. Barner - Google Maps",
         "reviewNodeCount": 187,
@@ -156,121 +225,152 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 3239.5,
-        "scrollHeight": 7176,
-        "clientHeight": 695,
+        "scrollTop": 3420.5,
+        "scrollHeight": 7358,
+        "clientHeight": 696,
         "distanceToBottom": 3241.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 1.166702713817358e-05,
+      "networkIdleSeconds": 1.3250159099698067e-05,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 3239.5,
-      "after": 6480.5,
+      "before": 3420.5,
+      "after": 6661.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 7176,
-      "clientHeight": 695,
+      "scrollHeight": 7358,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 187,
       "uniqueReviewIdCount": 20,
       "iteration": 2,
-      "declaredReviewTotal": 37,
+      "declaredReviewTotal": 40,
       "stateAfterDelay": {
         "title": "Klinik Dr. Barner - Google Maps",
-        "reviewNodeCount": 268,
+        "reviewNodeCount": 267,
         "uniqueReviewIdCount": 30,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 6480.5,
-        "scrollHeight": 9482,
-        "clientHeight": 695,
-        "distanceToBottom": 2306.5
+        "scrollTop": 6661.5,
+        "scrollHeight": 9580,
+        "clientHeight": 696,
+        "distanceToBottom": 2222.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 8.207978680729866e-06,
+      "networkIdleSeconds": 6.207963451743126e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 6480.5,
-      "after": 8786.5,
+      "before": 6661.5,
+      "after": 8883.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 9482,
-      "clientHeight": 695,
+      "scrollHeight": 9580,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 268,
+      "reviewNodeCount": 267,
       "uniqueReviewIdCount": 30,
       "iteration": 3,
-      "declaredReviewTotal": 37,
+      "declaredReviewTotal": 40,
       "stateAfterDelay": {
         "title": "Klinik Dr. Barner - Google Maps",
-        "reviewNodeCount": 313,
-        "uniqueReviewIdCount": 39,
+        "reviewNodeCount": 325,
+        "uniqueReviewIdCount": 40,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 8786.5,
-        "scrollHeight": 10643,
-        "clientHeight": 695,
-        "distanceToBottom": 1161.5
+        "scrollTop": 8883.5,
+        "scrollHeight": 11238,
+        "clientHeight": 696,
+        "distanceToBottom": 1658.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 1.3582990504801273e-05,
+      "networkIdleSeconds": 3.125052899122238e-06,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 8786.5,
-      "after": 9947.5,
+      "before": 8883.5,
+      "after": 10541.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 10643,
-      "clientHeight": 695,
+      "scrollHeight": 11238,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 313,
-      "uniqueReviewIdCount": 39,
+      "reviewNodeCount": 325,
+      "uniqueReviewIdCount": 40,
       "iteration": 4,
-      "declaredReviewTotal": 37,
+      "declaredReviewTotal": 40,
       "stateAfterDelay": {
         "title": "Klinik Dr. Barner - Google Maps",
-        "reviewNodeCount": 313,
-        "uniqueReviewIdCount": 39,
+        "reviewNodeCount": 330,
+        "uniqueReviewIdCount": 41,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 9947.5,
-        "scrollHeight": 10643,
-        "clientHeight": 695,
+        "scrollTop": 10541.5,
+        "scrollHeight": 11303,
+        "clientHeight": 696,
+        "distanceToBottom": 65.5
+      },
+      "noGrowthCycles": 0,
+      "networkIdleSeconds": 5.084089934825897e-06,
+      "declaredTotalReached": true,
+      "declaredTotalFastStopReady": false
+    },
+    {
+      "scrolled": true,
+      "strategy": "pane_to_bottom",
+      "before": 10541.5,
+      "after": 10606.5,
+      "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "tagName": "DIV",
+      "scrollHeight": 11303,
+      "clientHeight": 696,
+      "distanceToBottom": 0.5,
+      "reviewNodeCount": 330,
+      "uniqueReviewIdCount": 41,
+      "iteration": 5,
+      "declaredReviewTotal": 40,
+      "stateAfterDelay": {
+        "title": "Klinik Dr. Barner - Google Maps",
+        "reviewNodeCount": 330,
+        "uniqueReviewIdCount": 41,
+        "foundTarget": true,
+        "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+        "tagName": "DIV",
+        "scrollTop": 10606.5,
+        "scrollHeight": 11303,
+        "clientHeight": 696,
         "distanceToBottom": 0.5
       },
       "declaredTotalSettle": {
         "waitSeconds": 1.5,
         "stateAfterSettle": {
           "title": "Klinik Dr. Barner - Google Maps",
-          "reviewNodeCount": 313,
-          "uniqueReviewIdCount": 39,
+          "reviewNodeCount": 330,
+          "uniqueReviewIdCount": 41,
           "foundTarget": true,
           "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
           "tagName": "DIV",
-          "scrollTop": 9947.5,
-          "scrollHeight": 10643,
-          "clientHeight": 695,
+          "scrollTop": 10606.5,
+          "scrollHeight": 11303,
+          "clientHeight": 696,
           "distanceToBottom": 0.5
         }
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 6.556255500065163,
+      "networkIdleSeconds": 6.644318584119901,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": true
     }
@@ -282,48 +382,53 @@
     {
       "iteration": 1,
       "uniqueReviewIdCount": 20,
-      "scrollHeight": 7176
+      "scrollHeight": 7358
     },
     {
       "iteration": 2,
       "uniqueReviewIdCount": 30,
-      "scrollHeight": 9482
+      "scrollHeight": 9580
     },
     {
       "iteration": 3,
-      "uniqueReviewIdCount": 39,
-      "scrollHeight": 10643
+      "uniqueReviewIdCount": 40,
+      "scrollHeight": 11238
+    },
+    {
+      "iteration": 4,
+      "uniqueReviewIdCount": 41,
+      "scrollHeight": 11303
     }
   ],
-  "networkEventsDuringScroll": 15,
-  "finalNetworkIdleSeconds": 6.556263125035912,
+  "networkEventsDuringScroll": 17,
+  "finalNetworkIdleSeconds": 6.6443235841579735,
   "noGrowthCycles": 0,
   "finalReviewsState": {
     "title": "Klinik Dr. Barner - Google Maps",
-    "reviewNodeCount": 313,
-    "uniqueReviewIdCount": 39,
+    "reviewNodeCount": 330,
+    "uniqueReviewIdCount": 41,
     "foundTarget": true,
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
-    "scrollTop": 9947.5,
-    "scrollHeight": 10643,
-    "clientHeight": 695,
+    "scrollTop": 10606.5,
+    "scrollHeight": 11303,
+    "clientHeight": 696,
     "distanceToBottom": 0.5
   },
   "reachedDeclaredReviewTotal": true,
   "reachedReviewPaneEnd": true,
-  "finalUniqueReviewIdCount": 39,
-  "finalScrollTop": 9947.5,
-  "finalScrollHeight": 10643,
+  "finalUniqueReviewIdCount": 41,
+  "finalScrollTop": 10606.5,
+  "finalScrollHeight": 11303,
   "reviewExpansion": {
-    "buttonCount": 16,
-    "clickedCount": 16
+    "buttonCount": 17,
+    "clickedCount": 17
   },
-  "matchedRequestCount": 46,
+  "matchedRequestCount": 49,
   "batchexecuteCount": 3,
-  "reviewPhaseXhrCount": 26,
+  "reviewPhaseXhrCount": 29,
   "captureSuccessful": true,
-  "finishedAt": "2026-04-15T16:51:16Z",
+  "finishedAt": "2026-05-11T14:12:16Z",
   "retryRunsRequested": 2,
   "retryRunsExecuted": 1,
   "retryAttempts": [
@@ -333,12 +438,12 @@
       "scrollDelayUsed": 1.5,
       "captureSuccessful": true,
       "failureReason": null,
-      "finalUniqueReviewIdCount": 39,
+      "finalUniqueReviewIdCount": 41,
       "scrollStopReason": "declared_total_reached_fast",
-      "declaredReviewTotal": 37
+      "declaredReviewTotal": 40
     }
   ],
-  "mergedReviewCountAcrossAttempts": 30,
+  "mergedReviewCountAcrossAttempts": 32,
   "reviewsPath": "artifacts/klinik-dr-barner-fachklinik-fuer-psychosomatische-und-psychotherapeutische-medizin/reviews.json",
-  "latestDeclaredReviewTotalAcrossAttempts": 37
+  "latestDeclaredReviewTotalAcrossAttempts": 40
 }

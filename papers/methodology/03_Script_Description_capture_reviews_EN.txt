@@ -1,0 +1,96 @@
+Script Description for Thesis Methods
+File: scripts/capture_reviews.py
+
+Purpose
+`capture_reviews.py` captures publicly visible Google Maps reviews for each resolved clinic URL, converts review content into structured records, and writes per-clinic JSON output with run metadata.
+
+Why a browser-protocol approach is used
+Google Maps review pages are highly dynamic:
+- reviews are lazy-loaded while scrolling,
+- review controls are embedded in a complex UI,
+- relevant network requests are generated only during interaction.
+
+Therefore, a static HTTP request approach is insufficient. The script uses Chrome DevTools Protocol (CDP) to control browser interaction and observe network activity in real time.
+
+Execution modes
+- Single URL mode (`--url`)
+- Single place_id mode (`--place-id`, URL loaded from `place_urls.json`)
+- Batch mode over all resolved places
+
+Default batch behavior writes one output folder per place under `artifacts/<place_id>/` and updates a batch summary file.
+
+Detailed procedure per clinic
+1. Session setup
+- Launch Chrome with remote debugging.
+- Connect to browser target via CDP.
+- Enable `Page`, `Runtime`, and `Network` event domains.
+
+2. Navigate and consent handling
+- Open place URL.
+- Resolve cookie banner by attempting deny/reject interactions in multiple label variants.
+- If review access remains blocked by consent host, run is terminated with explicit failure reason.
+
+3. Open review panel
+- Detect candidate controls likely corresponding to “All reviews”.
+- Rank candidates by heuristic score (text, count patterns, JS action markers, button semantics).
+- Click candidates until panel opening is confirmed.
+
+4. Scroll and load reviews
+The script iteratively scrolls the detected review container and evaluates progress using:
+- `uniqueReviewIdCount`
+- `scrollHeight` growth
+- `distanceToBottom`
+- observed review-related network requests
+- declared total review count (from rating-histogram labels, when available)
+
+5. Stopping strategy
+The script stops when sufficient evidence suggests corpus saturation, including:
+- declared total reached and stabilized at bottom,
+- repeated no-growth cycles at bottom despite probe nudges,
+- configured scroll/time limits,
+- early failure states (e.g., review panel not opened).
+
+6. Content expansion and artifact snapshot
+- Expands collapsed review text where possible.
+- Saves final page HTML (`page_reviews_after_scroll.html`).
+- Optionally saves debug screenshots and request snapshots.
+
+7. Parse, normalize, deduplicate
+The parser extracts review entries from saved HTML with fields:
+- `reviewer_name`
+- `review_text`
+- `star_rating`
+- `review_time`
+- `like_count`
+- `has_owner_response`
+- `owner_response_time`
+- `owner_response_text`
+
+Like counts are derived from the visible Google Maps thumbs-up control associated with the same `data-review-id` as the review. The parser uses the button's action marker (`review.toggleThumbsUp`) and reads the count from the accessible `aria-label` or `title`, treating a plain “Gefällt mir” label as zero likes and numeric labels as integer endorsement counts. Owner responses are identified through the displayed label “Antwort vom Inhaber”; when present, the parser stores both the relative response timestamp and the visible response text.
+
+Deduplication rules:
+- Primary key: `review_id` if available.
+- Fallback key: normalized `(reviewer_name, review_text)` pair.
+- Conflict resolution: prefer longer text; fill missing star/time, like-count, and owner-response fields from alternative duplicates where possible.
+
+8. Retry and merge logic
+- Multiple attempts can be executed (`retry_runs`, default 2).
+- Later attempts use slower scrolling to improve completeness.
+- Records from all attempts are merged and deduplicated.
+- Final output written to `reviews.json` if successful.
+
+Primary outputs per clinic
+- `reviews.json`: final structured review corpus
+- `run_summary.json`: procedural metadata, stop reasons, counters
+- `retry_summary.json`: attempt-level outcomes
+- optional debug artifacts (if enabled)
+
+Quality-control value for scientific work
+`run_summary.json` includes key quality signals that can be cited in methodology and appendix, e.g.:
+- declared total review count estimate
+- final unique loaded review-id count
+- stop reason (`declared_total_reached_fast`, `exhausted_no_growth_at_bottom`, etc.)
+- whether capture completed successfully
+
+Recommended thesis wording (short form)
+"Review extraction was implemented via Chrome DevTools Protocol automation. The script opened each place page, navigated into the review panel, iteratively scrolled until predefined saturation criteria were met, and transformed the resulting HTML into deduplicated structured review records containing review text, star rating, relative timestamp, visible like count, and owner-response metadata where available."

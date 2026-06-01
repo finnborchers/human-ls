@@ -6,9 +6,9 @@
       "scrollDelayUsed": 1.5,
       "captureSuccessful": true,
       "failureReason": null,
-      "finalUniqueReviewIdCount": 547,
+      "finalUniqueReviewIdCount": 559,
       "scrollStopReason": "declared_total_reached_fast",
-      "declaredReviewTotal": 547
+      "declaredReviewTotal": 559
     }
   ]
 }

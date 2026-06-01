@@ -1,40 +1,107 @@
 {
   "url": "https://www.google.com/maps/place/Ev.+Krankenhaus+Ginsterhof+gGmbH/@53.4052676,9.9356957,17z/data=!3m1!4b1!4m6!3m5!1s0x47b1972c331206cf:0xdf3c5bc4ff9d2c01!8m2!3d53.4052676!4d9.9356957!16s%2Fg%2F1tf0pp0s?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "placeId": "krankenhaus-ginsterhof",
-  "startedAt": "2026-04-15T17:33:05Z",
+  "startedAt": "2026-05-11T14:56:14Z",
   "scrollDelayUsed": 1.5,
-  "browserVersion": "Chrome/147.0.7727.56",
-  "pageTargetId": "FC01C412D725DFB6DD24CF06FDC0016B",
-  "selectedTargetId": "FC01C412D725DFB6DD24CF06FDC0016B",
+  "browserVersion": "Chrome/147.0.7727.138",
+  "pageTargetId": "7E5C2E59500B18F5118F08FB355381A4",
+  "selectedTargetId": "7E5C2E59500B18F5118F08FB355381A4",
   "selectedTargetUrl": "https://www.google.com/maps/place/Ev.+Krankenhaus+Ginsterhof+gGmbH/@53.4052676,9.9356957,17z/data=!3m1!4b1!4m6!3m5!1s0x47b1972c331206cf:0xdf3c5bc4ff9d2c01!8m2!3d53.4052676!4d9.9356957!16s%2Fg%2F1tf0pp0s?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D",
   "targetSelectionStrategy": "exact_url_match",
   "cookieConsent": {
     "clicked": true,
+    "action": "accept",
     "attempts": [
       {
-        "clicked": true,
-        "action": "deny",
-        "label": "alle ablehnen alle ablehnen",
-        "strategy": "direct_selector",
-        "selector": "button[aria-label*=\"ablehnen\" i]",
-        "source": "document",
-        "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Ev.%2BKrankenhaus%2BGinsterhof%2BgGmbH/@53.4052676,9.9356957,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1972c331206cf:0xdf3c5bc4ff9d2c01!8m2!3d53.4052676!4d9.9356957!16s%252Fg%252F1tf0pp0s?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+        "attempt": 1,
+        "state": {
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Ev.%2BKrankenhaus%2BGinsterhof%2BgGmbH/@53.4052676,9.9356957,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1972c331206cf:0xdf3c5bc4ff9d2c01!8m2!3d53.4052676!4d9.9356957!16s%252Fg%252F1tf0pp0s?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
+          "title": "Bevor Sie zu Google Maps weitergehen",
+          "controlCount": 8,
+          "controls": [
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "de sprache: deutsch",
+              "ariaLabel": "sprache: deutsch",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "anmelden",
+              "ariaLabel": "anmelden",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "cookies",
+              "ariaLabel": "",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle ablehnen alle ablehnen",
+              "ariaLabel": "alle ablehnen",
+              "title": ""
+            },
+            {
+              "tagName": "BUTTON",
+              "id": "",
+              "label": "alle akzeptieren alle akzeptieren",
+              "ariaLabel": "alle akzeptieren",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "ariaLabel": "weitere optionen fur personalisierungseinstellungen und cookies",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "datenschutzerklarung",
+              "ariaLabel": "datenschutzerklarung",
+              "title": ""
+            },
+            {
+              "tagName": "A",
+              "id": "",
+              "label": "nutzungsbedingungen",
+              "ariaLabel": "nutzungsbedingungen",
+              "title": ""
+            }
+          ],
+          "onConsentHost": true,
+          "looksLikeConsent": true,
+          "runtimeOk": true
+        },
+        "clickResult": {
+          "clicked": true,
+          "action": "accept",
+          "label": "alle akzeptieren alle akzeptieren",
+          "strategy": "direct_selector",
+          "selector": "button[aria-label*=\"akzeptieren\" i]",
+          "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Ev.%2BKrankenhaus%2BGinsterhof%2BgGmbH/@53.4052676,9.9356957,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1972c331206cf:0xdf3c5bc4ff9d2c01!8m2!3d53.4052676!4d9.9356957!16s%252Fg%252F1tf0pp0s?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
+        },
         "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Ev.%2BKrankenhaus%2BGinsterhof%2BgGmbH/@53.4052676,9.9356957,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1972c331206cf:0xdf3c5bc4ff9d2c01!8m2!3d53.4052676!4d9.9356957!16s%252Fg%252F1tf0pp0s?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
         "onConsentHost": true,
-        "attempt": 1
+        "currentUrlReadOk": true,
+        "consecutiveRuntimeFailures": 0,
+        "postClickUrl": "https://www.google.com/maps/place/Ev.+Krankenhaus+Ginsterhof+gGmbH/@53.4052676,9.9356957,17z/data=!3m1!4b1!4m6!3m5!1s0x47b1972c331206cf:0xdf3c5bc4ff9d2c01!8m2!3d53.4052676!4d9.9356957!16s%2Fg%2F1tf0pp0s?entry=ttu&g_ep=EgoyMDI2MDQxMi4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "resolvedWith": {
       "clicked": true,
-      "action": "deny",
-      "label": "alle ablehnen alle ablehnen",
+      "action": "accept",
+      "label": "alle akzeptieren alle akzeptieren",
       "strategy": "direct_selector",
-      "selector": "button[aria-label*=\"ablehnen\" i]",
-      "source": "document",
-      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Ev.%2BKrankenhaus%2BGinsterhof%2BgGmbH/@53.4052676,9.9356957,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1972c331206cf:0xdf3c5bc4ff9d2c01!8m2!3d53.4052676!4d9.9356957!16s%252Fg%252F1tf0pp0s?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "currentUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Ev.%2BKrankenhaus%2BGinsterhof%2BgGmbH/@53.4052676,9.9356957,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1972c331206cf:0xdf3c5bc4ff9d2c01!8m2!3d53.4052676!4d9.9356957!16s%252Fg%252F1tf0pp0s?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1",
-      "onConsentHost": true,
-      "attempt": 1
+      "selector": "button[aria-label*=\"akzeptieren\" i]",
+      "pageUrl": "https://consent.google.com/m?continue=https://www.google.com/maps/place/Ev.%2BKrankenhaus%2BGinsterhof%2BgGmbH/@53.4052676,9.9356957,17z/data%3D!3m1!4b1!4m6!3m5!1s0x47b1972c331206cf:0xdf3c5bc4ff9d2c01!8m2!3d53.4052676!4d9.9356957!16s%252Fg%252F1tf0pp0s?entry%3Dttu%26g_ep%3DEgoyMDI2MDQxMi4wIKXMDSoASAFQAw%253D%253D&gl=DE&m=0&pc=m&uxe=eomtm&cm=2&hl=de&src=1"
     }
   },
   "reviewOpenAttempts": [
@@ -50,16 +117,17 @@
           "button_like_control"
         ],
         "tagName": "BUTTON",
-        "text": "58 Berichte",
+        "text": "59 Berichte",
         "ariaLabel": "",
         "title": "",
         "jsaction": "pane.wfvdle14.reviewchart.morereviews",
         "className": "GQjSyb fontTitleSmall rqjGif"
       },
+      "candidateCountBeforeClick": 6,
       "clickResult": {
         "clicked": true,
         "index": 57,
-        "text": "58 Berichte",
+        "text": "59 Berichte",
         "ariaLabel": "",
         "title": "",
         "jsaction": "pane.wfvdle14.reviewchart.morereviews",
@@ -71,11 +139,11 @@
       }
     }
   ],
-  "reviewOpenCandidateCount": 25,
+  "reviewOpenCandidateCount": 6,
   "reviewClick": {
     "clicked": true,
     "strategy": "candidate",
-    "label": "58 Berichte",
+    "label": "59 Berichte",
     "domIndex": 57,
     "candidateScore": 215,
     "candidateReasons": [
@@ -98,16 +166,16 @@
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
     "scrollTop": 0,
-    "scrollHeight": 3279,
-    "clientHeight": 694,
-    "distanceToBottom": 2585
+    "scrollHeight": 3461,
+    "clientHeight": 695,
+    "distanceToBottom": 2766
   },
   "declaredReviewTotalInfo": {
     "found": true,
-    "declaredReviewTotal": 58,
+    "declaredReviewTotal": 59,
     "sourceKind": "rating-histogram",
     "histogramByStar": {
-      "1": 6,
+      "1": 7,
       "2": 0,
       "3": 0,
       "4": 10,
@@ -115,19 +183,19 @@
     },
     "histogramStarCount": 5
   },
-  "declaredReviewTotal": 58,
+  "declaredReviewTotal": 59,
   "declaredTotalSettleSeconds": 1.5,
   "declaredTotalFastStopUsed": true,
   "declaredTotalFinalCheck": {
     "iteration": 6,
     "before": {
-      "uniqueReviewIdCount": 58,
-      "scrollHeight": 14614,
+      "uniqueReviewIdCount": 59,
+      "scrollHeight": 15098,
       "distanceToBottom": 0.5
     },
     "after": {
-      "uniqueReviewIdCount": 58,
-      "scrollHeight": 14614,
+      "uniqueReviewIdCount": 59,
+      "scrollHeight": 15098,
       "distanceToBottom": 0.5
     },
     "settleSeconds": 1.5,
@@ -141,16 +209,16 @@
       "scrolled": true,
       "strategy": "pane_to_bottom",
       "before": 0,
-      "after": 2584.5,
+      "after": 2765.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 3279,
-      "clientHeight": 694,
+      "scrollHeight": 3461,
+      "clientHeight": 695,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 87,
       "uniqueReviewIdCount": 10,
       "iteration": 1,
-      "declaredReviewTotal": 58,
+      "declaredReviewTotal": 59,
       "stateAfterDelay": {
         "title": "Ev. Krankenhaus Ginsterhof gGmbH - Google Maps",
         "reviewNodeCount": 176,
@@ -158,30 +226,30 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 2584.5,
-        "scrollHeight": 6068,
-        "clientHeight": 695,
+        "scrollTop": 2765.5,
+        "scrollHeight": 6250,
+        "clientHeight": 696,
         "distanceToBottom": 2788.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 1.7417012713849545e-05,
+      "networkIdleSeconds": 3.445800393819809e-05,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 2584.5,
-      "after": 5372.5,
+      "before": 2765.5,
+      "after": 5553.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 6068,
-      "clientHeight": 695,
+      "scrollHeight": 6250,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 176,
       "uniqueReviewIdCount": 20,
       "iteration": 2,
-      "declaredReviewTotal": 58,
+      "declaredReviewTotal": 59,
       "stateAfterDelay": {
         "title": "Ev. Krankenhaus Ginsterhof gGmbH - Google Maps",
         "reviewNodeCount": 267,
@@ -189,30 +257,30 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 5372.5,
-        "scrollHeight": 9176,
-        "clientHeight": 695,
+        "scrollTop": 5553.5,
+        "scrollHeight": 9358,
+        "clientHeight": 696,
         "distanceToBottom": 3108.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 7.083057425916195e-06,
+      "networkIdleSeconds": 4.37488779425621e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 5372.5,
-      "after": 8480.5,
+      "before": 5553.5,
+      "after": 8661.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 9176,
-      "clientHeight": 695,
+      "scrollHeight": 9358,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 267,
       "uniqueReviewIdCount": 30,
       "iteration": 3,
-      "declaredReviewTotal": 58,
+      "declaredReviewTotal": 59,
       "stateAfterDelay": {
         "title": "Ev. Krankenhaus Ginsterhof gGmbH - Google Maps",
         "reviewNodeCount": 347,
@@ -220,121 +288,121 @@
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 8480.5,
-        "scrollHeight": 11587,
-        "clientHeight": 695,
+        "scrollTop": 8661.5,
+        "scrollHeight": 11769,
+        "clientHeight": 696,
         "distanceToBottom": 2411.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 7.707974873483181e-06,
+      "networkIdleSeconds": 4.37488779425621e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 8480.5,
-      "after": 10891.5,
+      "before": 8661.5,
+      "after": 11072.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 11587,
-      "clientHeight": 695,
+      "scrollHeight": 11769,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
       "reviewNodeCount": 347,
       "uniqueReviewIdCount": 40,
       "iteration": 4,
-      "declaredReviewTotal": 58,
+      "declaredReviewTotal": 59,
       "stateAfterDelay": {
         "title": "Ev. Krankenhaus Ginsterhof gGmbH - Google Maps",
-        "reviewNodeCount": 418,
+        "reviewNodeCount": 421,
         "uniqueReviewIdCount": 50,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 10891.5,
-        "scrollHeight": 13590,
-        "clientHeight": 695,
-        "distanceToBottom": 2003.5
+        "scrollTop": 11072.5,
+        "scrollHeight": 13937,
+        "clientHeight": 696,
+        "distanceToBottom": 2168.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 7.583992555737495e-06,
+      "networkIdleSeconds": 7.457798346877098e-06,
       "declaredTotalReached": false,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 10891.5,
-      "after": 12894.5,
+      "before": 11072.5,
+      "after": 13240.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 13590,
-      "clientHeight": 695,
+      "scrollHeight": 13937,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 418,
+      "reviewNodeCount": 421,
       "uniqueReviewIdCount": 50,
       "iteration": 5,
-      "declaredReviewTotal": 58,
+      "declaredReviewTotal": 59,
       "stateAfterDelay": {
         "title": "Ev. Krankenhaus Ginsterhof gGmbH - Google Maps",
-        "reviewNodeCount": 458,
-        "uniqueReviewIdCount": 58,
+        "reviewNodeCount": 466,
+        "uniqueReviewIdCount": 59,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 12894.5,
-        "scrollHeight": 14614,
-        "clientHeight": 695,
-        "distanceToBottom": 1024.5
+        "scrollTop": 13240.5,
+        "scrollHeight": 15098,
+        "clientHeight": 696,
+        "distanceToBottom": 1161.5
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 8.124974556267262e-06,
+      "networkIdleSeconds": 6.041023880243301e-06,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": false
     },
     {
       "scrolled": true,
       "strategy": "pane_to_bottom",
-      "before": 12894.5,
-      "after": 13918.5,
+      "before": 13240.5,
+      "after": 14401.5,
       "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
       "tagName": "DIV",
-      "scrollHeight": 14614,
-      "clientHeight": 695,
+      "scrollHeight": 15098,
+      "clientHeight": 696,
       "distanceToBottom": 0.5,
-      "reviewNodeCount": 458,
-      "uniqueReviewIdCount": 58,
+      "reviewNodeCount": 466,
+      "uniqueReviewIdCount": 59,
       "iteration": 6,
-      "declaredReviewTotal": 58,
+      "declaredReviewTotal": 59,
       "stateAfterDelay": {
         "title": "Ev. Krankenhaus Ginsterhof gGmbH - Google Maps",
-        "reviewNodeCount": 458,
-        "uniqueReviewIdCount": 58,
+        "reviewNodeCount": 466,
+        "uniqueReviewIdCount": 59,
         "foundTarget": true,
         "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
         "tagName": "DIV",
-        "scrollTop": 13918.5,
-        "scrollHeight": 14614,
-        "clientHeight": 695,
+        "scrollTop": 14401.5,
+        "scrollHeight": 15098,
+        "clientHeight": 696,
         "distanceToBottom": 0.5
       },
       "declaredTotalSettle": {
         "waitSeconds": 1.5,
         "stateAfterSettle": {
           "title": "Ev. Krankenhaus Ginsterhof gGmbH - Google Maps",
-          "reviewNodeCount": 458,
-          "uniqueReviewIdCount": 58,
+          "reviewNodeCount": 466,
+          "uniqueReviewIdCount": 59,
           "foundTarget": true,
           "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
           "tagName": "DIV",
-          "scrollTop": 13918.5,
-          "scrollHeight": 14614,
-          "clientHeight": 695,
+          "scrollTop": 14401.5,
+          "scrollHeight": 15098,
+          "clientHeight": 696,
           "distanceToBottom": 0.5
         }
       },
       "noGrowthCycles": 0,
-      "networkIdleSeconds": 6.669611332938075,
+      "networkIdleSeconds": 6.648647124879062,
       "declaredTotalReached": true,
       "declaredTotalFastStopReady": true
     }
@@ -346,58 +414,58 @@
     {
       "iteration": 1,
       "uniqueReviewIdCount": 20,
-      "scrollHeight": 6068
+      "scrollHeight": 6250
     },
     {
       "iteration": 2,
       "uniqueReviewIdCount": 30,
-      "scrollHeight": 9176
+      "scrollHeight": 9358
     },
     {
       "iteration": 3,
       "uniqueReviewIdCount": 40,
-      "scrollHeight": 11587
+      "scrollHeight": 11769
     },
     {
       "iteration": 4,
       "uniqueReviewIdCount": 50,
-      "scrollHeight": 13590
+      "scrollHeight": 13937
     },
     {
       "iteration": 5,
-      "uniqueReviewIdCount": 58,
-      "scrollHeight": 14614
+      "uniqueReviewIdCount": 59,
+      "scrollHeight": 15098
     }
   ],
   "networkEventsDuringScroll": 27,
-  "finalNetworkIdleSeconds": 6.669614083017223,
+  "finalNetworkIdleSeconds": 6.648652500007302,
   "noGrowthCycles": 0,
   "finalReviewsState": {
     "title": "Ev. Krankenhaus Ginsterhof gGmbH - Google Maps",
-    "reviewNodeCount": 458,
-    "uniqueReviewIdCount": 58,
+    "reviewNodeCount": 466,
+    "uniqueReviewIdCount": 59,
     "foundTarget": true,
     "className": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
     "tagName": "DIV",
-    "scrollTop": 13918.5,
-    "scrollHeight": 14614,
-    "clientHeight": 695,
+    "scrollTop": 14401.5,
+    "scrollHeight": 15098,
+    "clientHeight": 696,
     "distanceToBottom": 0.5
   },
   "reachedDeclaredReviewTotal": true,
   "reachedReviewPaneEnd": true,
-  "finalUniqueReviewIdCount": 58,
-  "finalScrollTop": 13918.5,
-  "finalScrollHeight": 14614,
+  "finalUniqueReviewIdCount": 59,
+  "finalScrollTop": 14401.5,
+  "finalScrollHeight": 15098,
   "reviewExpansion": {
     "buttonCount": 27,
     "clickedCount": 27
   },
   "matchedRequestCount": 61,
   "batchexecuteCount": 3,
-  "reviewPhaseXhrCount": 40,
+  "reviewPhaseXhrCount": 41,
   "captureSuccessful": true,
-  "finishedAt": "2026-04-15T17:33:53Z",
+  "finishedAt": "2026-05-11T14:57:03Z",
   "retryRunsRequested": 2,
   "retryRunsExecuted": 1,
   "retryAttempts": [
@@ -407,12 +475,12 @@
       "scrollDelayUsed": 1.5,
       "captureSuccessful": true,
       "failureReason": null,
-      "finalUniqueReviewIdCount": 58,
+      "finalUniqueReviewIdCount": 59,
       "scrollStopReason": "declared_total_reached_fast",
-      "declaredReviewTotal": 58
+      "declaredReviewTotal": 59
     }
   ],
-  "mergedReviewCountAcrossAttempts": 46,
+  "mergedReviewCountAcrossAttempts": 47,
   "reviewsPath": "artifacts/krankenhaus-ginsterhof/reviews.json",
-  "latestDeclaredReviewTotalAcrossAttempts": 58
+  "latestDeclaredReviewTotalAcrossAttempts": 59
 }

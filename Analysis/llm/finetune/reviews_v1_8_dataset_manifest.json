@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-05-15T12:30:30.095578+00:00",
+  "version": "v1_8",
+  "base_model": "gpt-4.1-mini-2025-04-14",
+  "prompt_version": "v1",
+  "system_prompt": "You extract structured info and respond only in JSON.",
+  "train_total_reviews": 100,
+  "synthetic_total_reviews": 80,
+  "combined_train_total_reviews": 180,
+  "holdout_total_reviews": 20,
+  "source_manifest_path": "analysis/llm/augmentation/reviews_v1_8_manifest.json",
+  "train_jsonl_path": "analysis/llm/finetune/reviews_v1_8_train_180.jsonl",
+  "valid_jsonl_path": "analysis/llm/finetune/reviews_v1_8_valid_20.jsonl"
+}

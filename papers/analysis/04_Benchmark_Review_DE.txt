@@ -1,0 +1,404 @@
+Analyse-Notiz (Deutsch)
+Benchmark Review des 120er-Referenzdatensatzes
+
+1. Ziel dieser Notiz
+
+Diese Notiz dokumentiert den ersten vollständigen manuellen Review-Durchlauf des aufgebauten Benchmark-Datensatzes. Sie schließt direkt an die vorangehende Notiz zu Modellwahl, Schema-Experimenten und Benchmark-Aufbau an und hält fest,
+
+- wie der 120er-Benchmark praktisch überprüft wurde,
+- wie stark die ursprünglichen V1-Modellvorschläge nachbearbeitet wurden,
+- welche Muster in den Korrekturen sichtbar wurden,
+- wie die KI-Zweitprüfung im Reviewprozess genutzt wurde,
+- und welche methodischen Schlussfolgerungen sich daraus für die nächsten Projektphasen ergeben.
+
+Im Unterschied zu den früheren Modellvergleichen geht es hier nicht mehr primär um den relativen Vergleich verschiedener LLMs, sondern um die Frage, wie aus einem modellgestützten Startvorschlag eine menschlich belastbarere Referenzbasis entsteht.
+
+2. Datengrundlage
+
+Grundlage des manuellen Reviews war der zuvor aufgebaute Benchmark-Datensatz:
+
+- `analysis/llm/benchmark/benchmark_v1_120_labled.json`
+
+Dieser Datensatz war aus einer stratifizierten 120er-Stichprobe aufgebaut worden und enthielt:
+
+- `40` negative Reviews
+- `40` positive Reviews
+- `40` gemischte oder schwer einzuordnende Reviews (`mixed_hard`)
+
+Die Vorlabelung erfolgte mit `gpt-4.1-mini` im Flat-V1-Schema. Die eigentlichen Startlabels lagen dabei in:
+
+- `model_prelabels`
+
+und wurden zu Beginn in die editierbare Schicht:
+
+- `benchmark_labels`
+
+übernommen.
+
+Der finale manuell gespeicherte Review-Snapshot dieses ersten vollständigen Durchlaufs liegt unter:
+
+- `analysis/llm/benchmark/benchmark_v1_120_reviewed_2026-05-14T13-43-24Z.json`
+
+Während der Bearbeitung existierte im lokalen Review-Tool zusätzlich ein fortlaufender Arbeitsstand. Für die aktuelle vereinfachte Benchmark-Struktur ist jedoch vor allem der finale Reviewed-Snapshot relevant.
+
+3. Praktischer Ablauf des manuellen Reviews
+
+Der komplette manuelle Review des 120er-Benchmarks dauerte ungefähr vier Stunden. Das ist für den Umfang und die Granularität der Labelentscheidungen durchaus plausibel und liefert einen realistischen Eindruck vom menschlichen Aufwand, der notwendig ist, um aus LLM-Vorschlägen eine methodisch belastbarere Referenz zu formen.
+
+Die Bearbeitung erfolgte in dieser Reihenfolge:
+
+1. positive Reviews
+2. negative Reviews
+3. gemischte oder schwer einzuordnende Reviews
+
+Diese Reihenfolge ist methodisch interessant, weil sie mit steigender Ambiguität verläuft:
+
+- positive Reviews sind häufig am schnellsten zu prüfen,
+- negative Reviews enthalten meist mehr Problemsignale und damit mehr Abgrenzungsarbeit,
+- gemischte Reviews sind erfahrungsgemäß am aufwendigsten, weil dort positive und negative Aspekte gleichzeitig textnah gegeneinander abgewogen werden müssen.
+
+Nach dem Ergebnisbild des Durchlaufs ist genau dieses Muster auch inhaltlich plausibel. Die positiv gelagerten Fälle waren am stabilsten, während negative und insbesondere gemischte Fälle die meiste Nacharbeit erzeugten. Am längsten gedauert haben damit sehr wahrscheinlich nicht die einfachen Positivfälle, sondern die gemischten und grenzwertigen Reviews, in denen mehrere Labelkandidaten gegeneinander abgewogen werden mussten.
+
+4. Vollständigkeit und Status des finalen Snapshots
+
+Der finale Snapshot ist vollständig abgeschlossen:
+
+- `120/120` Reviews stehen auf intern `reviewed_by_user`
+
+In der Oberfläche wurde dieser Status als:
+
+- `reviewed`
+
+dargestellt, während der technische Rohwert im JSON bewusst stabil gehalten wurde.
+
+Damit liegt nun erstmals ein vollständig menschlich durchgesehener Benchmark-Stand vor. Wichtig ist dabei die methodische Einordnung: Dies bedeutet nicht automatisch, dass der Datensatz schon die letztmögliche Wahrheit enthält. Es bedeutet aber, dass er sich nun klar von einem bloßen Modellvorschlag unterscheidet und als ernsthafte Referenzbasis für weitere Experimente dienen kann.
+
+5. Umfang der tatsächlichen inhaltlichen Änderungen
+
+Ein besonders wichtiger Befund ist, dass der manuelle Durchlauf nicht nur ein formales Abhaken der 120 Reviews war. Vielmehr wurde in einem großen Teil der Fälle tatsächlich inhaltlich eingegriffen.
+
+Gegenüber der ursprünglichen Benchmark-Basisdatei ergibt sich:
+
+- `76` von `120` Reviews mit echten Labeländerungen
+- `44` von `120` Reviews ohne Labeländerung, aber mit Review-Abschluss über Status und teils ergänzende Notizen
+
+Das ist methodisch bedeutsam. Wäre die Zahl der geänderten Reviews sehr klein gewesen, hätte man argumentieren können, dass der V1-Modellvorschlag bereits nahezu ausreichte. Die tatsächliche Änderungsquote zeigt aber, dass das Modell zwar ein guter Startpunkt war, die menschliche Kurationsarbeit jedoch in vielen Fällen substanziell war.
+
+6. Veränderung der Labeldichte
+
+Die deutlichste Gesamttendenz des manuellen Reviews ist:
+
+Der Datensatz wurde nicht einfach ausgedünnt, sondern vor allem auf der Problemseite nachgeschärft.
+
+Gesamtvergleich vor und nach dem Review:
+
+- Problem-Labels: `371 -> 431`
+- Strength-Labels: `250 -> 248`
+- Gesamtzahl aller Labels: `621 -> 679`
+
+Das heißt:
+
+1. Die Zahl der Stärken blieb nahezu stabil.
+2. Die Zahl der Problemsignale stieg deutlich.
+3. Der menschliche Review hat also nicht primär übermäßig viele Modelllabels gelöscht, sondern vor allem zusätzliche Problemsignale identifiziert und Grenzfälle problemseitig präzisiert.
+
+Diese Verschiebung ist inhaltlich sehr plausibel. Gerade bei Krankenhausreviews ist es methodisch wichtiger, problematische Erfahrungen nicht zu unterschätzen, als aus bloßer Symmetrie gleich viele positive und negative Labels erzwingen zu wollen.
+
+7. Unterschiede nach Bucket
+
+Die Veränderungen verteilen sich nicht gleichmäßig auf die drei Benchmark-Buckets.
+
+7.1 Negative Reviews
+
+Vorher/Nachher:
+
+- Problem-Labels: `141 -> 166`
+- Strength-Labels: `12 -> 8`
+
+Interpretation:
+
+- negative Reviews wurden im manuellen Review noch klarer problemfokussiert
+- einige wenige positive Restsignale wurden zurückgenommen
+- zugleich wurden zusätzliche Problemsignale ergänzt, insbesondere dort, wo das Modell zu grob oder zu zurückhaltend codiert hatte
+
+7.2 Positive Reviews
+
+Vorher/Nachher:
+
+- Problem-Labels: `16 -> 11`
+- Strength-Labels: `130 -> 126`
+
+Interpretation:
+
+- positive Reviews wurden insgesamt leicht bereinigt
+- sowohl einige unpassende Problemsignale als auch einige zu weit interpretierte Stärkesignale wurden entfernt
+- der positive Bucket ist damit der stabilste und am wenigsten revisionsintensive Teil des Datensatzes
+
+7.3 Gemischte oder schwer einzuordnende Reviews
+
+Vorher/Nachher:
+
+- Problem-Labels: `214 -> 254`
+- Strength-Labels: `108 -> 114`
+
+Interpretation:
+
+- genau hier fand die stärkste Nachschärfung statt
+- gemischte Reviews wurden nicht geglättet, sondern semantisch differenzierter gemacht
+- sowohl Probleme als auch Stärken nahmen zu, was darauf hindeutet, dass die Ambivalenz vieler Texte im finalen Benchmark bewusster und vollständiger abgebildet wird
+
+Gerade dieser Punkt ist wichtig: Der Benchmark tendiert nach dem manuellen Review nicht zu einer künstlichen Vereinfachung, sondern hält gemischte Erfahrungsberichte eher bewusster in ihrer Mehrschichtigkeit fest.
+
+8. Welche Labelarten besonders häufig verändert wurden
+
+8.1 Häufig ergänzte Labels
+
+Besonders häufig ergänzt wurden:
+
+- `care.competence` (`10`)
+- `access.waiting` (`10`)
+- `staff.seriousness` (`8`)
+- `communication.information` (`8`)
+- `coordination.discharge` (`7`)
+- `staff.empathy` (`6`)
+- `access.reachability` (`6`)
+- `communication.explanation` (`5`)
+
+Das deutet auf mehrere wiederkehrende Korrekturbewegungen hin:
+
+1. Das Modell war häufig noch nicht sensibel genug für Zugangs- und Ablaufprobleme.
+2. Kommunikations- und Informationsmängel wurden menschlich häufiger als relevant erkannt.
+3. Fragen von Kompetenz, Ernstnehmen und Versorgungssicherheit mussten in vielen Fällen nachpräzisiert werden.
+
+8.2 Häufig entfernte Labels
+
+Besonders häufig entfernt wurden:
+
+- `access.navigation` (`6`)
+- `staff.empathy` (`5`)
+- `access.waiting` (`4`)
+- `staff.friendliness` (`4`)
+- `care.safety` (`4`)
+- `care.competence` (`3`)
+
+Auch das ist aufschlussreich. Die menschliche Nacharbeit bestand also nicht nur aus Ergänzung, sondern auch aus gezieltem Zurücknehmen überinterpretierter Modellvorschläge. Besonders auffällig ist dabei:
+
+- `access.navigation` scheint vom Modell häufiger vorschnell gesetzt worden zu sein
+- `staff.friendliness` und `staff.empathy` mussten teils enger auf tatsächlich textnahe Personalsignale zurückgeführt werden
+- `care.safety` wurde dort entfernt, wo die Beschreibung eher auf Behandlung, Kompetenz oder Kommunikation hinwies als auf echte Gefährdung oder Safety-Aspekte
+
+9. Verschiebungen auf Domänenebene
+
+Auf aggregierter Domänenebene zeigt sich ein klares Muster. Gegenüber dem Ausgangsstand stiegen besonders:
+
+- `communication`: `67 -> 85`
+- `access`: `45 -> 53`
+- `coordination`: `37 -> 47`
+- `care`: `171 -> 179`
+- `inclusion`: `7 -> 11`
+- `admin`: `9 -> 11`
+
+Fast stabil blieben:
+
+- `environment`: `80 -> 79`
+
+Moderater Anstieg:
+
+- `staff`: `205 -> 214`
+
+Die menschliche Nachbearbeitung verschiebt den Schwerpunkt damit leicht weg von einer rein interpersonal dominierten Lesart und stärker hin zu:
+
+- Prozessproblemen
+- Kommunikations- und Informationslücken
+- Koordinations- und Entlassungsthemen
+- Zugangs- und Erreichbarkeitsproblemen
+
+Das ist analytisch sehr wertvoll, weil sich gerade diese Themen später gut mit systemischen Barrieren und Versorgungsqualität verknüpfen lassen.
+
+10. Top-Labels vor und nach dem Review
+
+10.1 Problemseite
+
+Vor dem Review dominierten auf der Problemseite unter anderem:
+
+- `care.treatment`
+- `staff.respect`
+- `care.safety`
+- `staff.friendliness`
+- `staff.empathy`
+- `access.waiting`
+
+Nach dem Review lagen weiterhin vorn:
+
+- `care.treatment`
+- `staff.respect`
+- `staff.empathy`
+- `staff.friendliness`
+- `care.safety`
+- `access.waiting`
+
+Verschoben haben sich aber vor allem:
+
+- `staff.seriousness`
+- `communication.information`
+- `communication.explanation`
+- `care.competence`
+
+Diese vier Felder wurden im finalen Benchmark spürbar wichtiger. Das spricht dafür, dass die menschliche Kuration stärker zwischen allgemeiner Unzufriedenheit und konkreteren Funktionsproblemen der Versorgung differenziert.
+
+10.2 Strength-Seite
+
+Auf der Strength-Seite blieb das Grundmuster relativ stabil. Dominant blieben:
+
+- `staff.friendliness`
+- `care.treatment`
+- `staff.empathy`
+- `care.competence`
+
+Gleichzeitig wurden einzelne zu großzügige Positivzuweisungen ausgedünnt. Besonders bei positiven Reviews zeigt sich damit:
+
+- Das Modell war als Startpunkt brauchbar,
+- aber menschliche Nacharbeit war nötig, um Lobsignale enger an den tatsächlichen Text zu binden.
+
+11. Rolle der KI-Zweitprüfung
+
+Der manuelle Review wurde nicht isoliert durchgeführt, sondern durch die separate KI-Zweitprüfung im Benchmark-Reviewer unterstützt.
+
+Im finalen Snapshot enthalten alle 120 Reviews einen `ai_review`-Block. Die Statusverteilung im finalen Stand ist:
+
+- `ready`: `43`
+- `stale`: `77`
+
+Der hohe Anteil `stale` ist methodisch sinnvoll interpretierbar: In diesen Fällen wurde nach der KI-Prüfung noch manuell an Labels gearbeitet. Das bedeutet gerade nicht, dass die KI-Nachprüfung fehlgeschlagen wäre, sondern eher, dass sie tatsächlich in einen aktiven menschlichen Korrekturprozess eingebettet war.
+
+Die Verdict-Verteilung lautet:
+
+- `ok`: `52`
+- `consider_changes`: `68`
+
+Nach Buckets getrennt:
+
+- `positive`: `35 ok`, `5 consider_changes`
+- `negative`: `7 ok`, `33 consider_changes`
+- `mixed_hard`: `10 ok`, `30 consider_changes`
+
+Diese Verteilung passt sehr gut zur inhärenten Schwierigkeit der Daten:
+
+- positive Reviews waren im Schnitt am stabilsten
+- negative Reviews waren deutlich revisionsintensiver
+- gemischte Reviews waren erwartungsgemäß besonders häufig nachjustierungsbedürftig
+
+Zusätzlich wurden über alle Reviews hinweg gespeichert:
+
+- `119` vorgeschlagene Ergänzungen
+- `16` vorgeschlagene Entfernungen
+- `407` dokumentierte kritische Textstellen (`critical_spans`)
+
+Die KI-Zweitprüfung war also nicht bloß eine kosmetische Zusatzfunktion, sondern lieferte eine recht konkrete Assistenzschicht für die Entscheidung, wo Labels ergänzt oder entfernt werden sollten.
+
+12. Rolle der Benchmark-Notizen
+
+Ein weiterer starker Aspekt des finalen Snapshots ist die Qualität der Review-Dokumentation auf Review-Ebene.
+
+Von `120` Reviews enthalten:
+
+- `71` Reviews explizite `benchmark_notes`
+
+Davon:
+
+- `34` mit explizitem Bezug auf KI-Empfehlungen
+- `37` mit eigenständiger manueller Begründung
+
+Außerdem blieben nur `5` labelveränderte Reviews ganz ohne Notiz. Das ist methodisch erfreulich, weil damit der Großteil der eigentlichen Eingriffe auch semantisch kommentiert wurde.
+
+Besonders typische Notizmuster waren:
+
+- "KI-Empfehlungen ergänzt"
+- "KI-Empfehlungen übernommen"
+- konkrete Begründungen für Labeltausch oder Labelpräzisierung
+- dokumentierte Grenzentscheidungen wie etwa:
+  - `care.treatment` statt `care.symptoms`
+  - Entfernen von `care.safety`
+  - Ergänzung von `coordination.followup`
+  - Präzisierung bei Sprachbarrieren oder Stigmatisierung
+
+Die Notizen machen den Benchmark damit nicht nur zu einer Zielreferenz, sondern auch zu einem nachvollziehbaren Entscheidungsprotokoll.
+
+13. Was der manuelle Review über die Modellfehler verrät
+
+Der manuelle Durchlauf zeigt rückblickend recht klar, welche Arten von Fehlern die V1-Modellvorlabels besonders häufig machten.
+
+13.1 Untererfassung von Prozess- und Kommunikationsproblemen
+
+Das Modell war oft noch zu grob bei:
+
+- `communication.information`
+- `communication.explanation`
+- `coordination.discharge`
+- `coordination.coordination`
+- `access.waiting`
+- `access.reachability`
+
+Gerade diese Labels wurden wiederholt ergänzt. Das spricht dafür, dass das Modell zwar das generelle Sentiment oft traf, aber prozessuale Funktionsprobleme nicht immer präzise genug aus dem Text herauszog.
+
+13.2 Tendenz zu vorschnellen interpersonalen Labels
+
+Mehrfach mussten Labels wie:
+
+- `staff.friendliness`
+- `staff.empathy`
+- `staff.respect`
+
+enger zurückgeführt oder teilweise entfernt werden. Das deutet darauf hin, dass das Modell manche eher allgemeinen Negativ- oder Positivsignale vorschnell in interpersonale Kategorien übersetzte.
+
+13.3 Schwierigkeiten an den Grenzlinien ähnlicher Labels
+
+Besonders typisch waren manuelle Präzisierungen an Stellen wie:
+
+- `care.treatment` vs. `care.symptoms`
+- `care.safety` vs. `care.treatment`
+- `communication.communication` vs. `communication.information`
+- `staff.friendliness` vs. `staff.respect` vs. `staff.seriousness`
+
+Genau diese Grenzen waren schon in den früheren Schema- und Prompt-Experimenten als potenziell kritisch sichtbar geworden. Der Benchmark-Review bestätigt, dass dies nicht nur theoretische Modellierungsfragen sind, sondern praktisch häufige Fehlerquellen.
+
+14. Zentrale methodische Beobachtungen
+
+Aus dem finalen Benchmark-Review lassen sich mehrere zentrale Beobachtungen ableiten:
+
+1. `gpt-4.1-mini` Flat V1 war ein guter Startpunkt, aber keine fertige Referenz.
+2. Die größte Nacharbeit betraf nicht die rein positiven Reviews, sondern die negativen und vor allem die gemischten Fälle.
+3. Die menschliche Kuration erhöhte vor allem die Problemsensitivität des Datensatzes.
+4. Besonders relevant waren Ergänzungen in den Bereichen Kommunikation, Zugang, Koordination und Kompetenz.
+5. Die KI-Zweitprüfung war nützlich als Assistenz, aber nicht als Ersatz für manuelle Entscheidung.
+6. Die Review-Notizen sind ein wesentlicher Teil des methodischen Mehrwerts, weil sie Grenzfälle und Korrekturlogik explizit festhalten.
+
+Der Benchmark ist damit jetzt deutlich mehr als ein Modelloutput mit ein paar Korrekturen. Er ist zu einer menschlich nachgeschärften Referenzschicht geworden, die das Projekt auf eine neue methodische Stufe hebt.
+
+15. Bedeutung für die nächsten Schritte
+
+Mit diesem Durchlauf liegt nun erstmals ein vollständiger, überprüfter Benchmark-Stand vor, der für mehrere Anschlussarbeiten nutzbar ist:
+
+1. Evaluation neuer Promptvarianten gegen den aktuellen Benchmark
+2. Direkter Vergleich anderer Modelle gegen dieselbe Referenz
+3. Systematische Auswertung typischer Modellfehler
+4. Vorbereitung eines potenziellen Feintuning-Datensatzes
+
+Besonders wichtig ist dabei:
+
+Der nächste Erkenntnisgewinn wird wahrscheinlich nicht mehr aus bloßer Vergrößerung der Testmenge kommen, sondern aus dem Vergleich künftiger Systeme gegen genau diesen kuratierten Benchmark.
+
+16. Kurzfazit
+
+Der vierstündige manuelle Review des 120er-Benchmark-Datensatzes hat gezeigt, dass aus den V1-Prelabels eine deutlich präzisere Referenz aufgebaut werden konnte.
+
+Der finale Stand zeichnet sich aus durch:
+
+- vollständigen manuellen Abschluss aller 120 Reviews
+- hohe tatsächliche Eingriffstiefe (`76` Reviews mit Labeländerungen)
+- klare Problemschärfung gegenüber dem Ausgangsmodell
+- starke Präzisierung bei Kommunikations-, Zugangs- und Koordinationsthemen
+- nachvollziehbare Dokumentation über `benchmark_notes`
+- sinnvolle Unterstützung durch eine KI-Zweitprüfung
+
+Insgesamt ist der Datensatz damit nicht mehr bloß ein technisches Zwischenprodukt, sondern die bislang wichtigste Referenzbasis des Projekts für die nächste Phase der Prompt- und Modellverbesserung.

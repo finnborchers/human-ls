@@ -1,0 +1,64 @@
+{
+  "scope": "10000_ids",
+  "batch_name": "10000_ids_batch_001",
+  "model": "gpt-4.1-mini",
+  "input_path": "analysis/llm/full_run/v1_batch_run/inputs/10000_ids_batch_001.jsonl",
+  "sample_path": "analysis/llm/full_run/v1_batch_run/samples/10000_ids_batch_001.txt",
+  "review_count": 2000,
+  "uploaded_input_file": {
+    "id": "file-EqsEnSv5nSP3FGKv7ycmtJ",
+    "bytes": 8827144,
+    "created_at": 1779083700,
+    "filename": "10000_ids_batch_001.jsonl",
+    "object": "file",
+    "purpose": "batch",
+    "status": "processed",
+    "expires_at": 1781675700,
+    "status_details": null
+  },
+  "batch": {
+    "id": "batch_6a0aa9b5e5688190809c92b50d76dffa",
+    "completion_window": "24h",
+    "created_at": 1779083701,
+    "endpoint": "/v1/chat/completions",
+    "input_file_id": "file-EqsEnSv5nSP3FGKv7ycmtJ",
+    "object": "batch",
+    "status": "completed",
+    "cancelled_at": null,
+    "cancelling_at": null,
+    "completed_at": 1779084040,
+    "error_file_id": null,
+    "errors": null,
+    "expired_at": null,
+    "expires_at": 1779170101,
+    "failed_at": null,
+    "finalizing_at": 1779083910,
+    "in_progress_at": 1779083704,
+    "metadata": {
+      "project": "human-ls",
+      "experiment": "v1_batch_run",
+      "prompt_version": "v1",
+      "scope": "10000_ids",
+      "batch_name": "10000_ids_batch_001"
+    },
+    "model": "gpt-4.1-mini-2025-04-14",
+    "output_file_id": "file-5NHp8LaXdarjUXHqJnyYug",
+    "request_counts": {
+      "completed": 2000,
+      "failed": 0,
+      "total": 2000
+    },
+    "usage": {
+      "input_tokens": 1733974,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 49002,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1782976
+    }
+  },
+  "saved_at": "2026-05-18T06:25:25.128738+00:00"
+}

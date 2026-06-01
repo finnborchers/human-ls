@@ -1,0 +1,266 @@
+{
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:1": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:1",
+    "review_index": 1,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 5,
+      "review_time": "vor 2 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Am Wochenende musste ich mit meinen 1,5 jährigen Sohn in die Notaufnahme wegen einer kleinen Platzwunde. Von Anmeldung bis zum Abschluss der Behandlung sind keine 30 min. vergangen. Sicherlich hatten wir Glück, dass nicht so viel los war, …",
+    "labels": {
+      "overall_sentiment": "unclear",
+      "care_context": [
+        "emergency"
+      ],
+      "problem_labels": [],
+      "strength_labels": [
+        "access.waiting"
+      ],
+      "problems": {
+        "access": {
+          "appointments": null,
+          "waiting": null,
+          "reachability": null,
+          "navigation": null
+        },
+        "admin": {
+          "registration": null,
+          "paperwork": null,
+          "costs": null,
+          "privacy": null
+        },
+        "communication": {
+          "communication": null,
+          "explanation": null,
+          "information": null,
+          "decisions": null
+        },
+        "staff": {
+          "friendliness": null,
+          "empathy": null,
+          "respect": null,
+          "seriousness": null
+        },
+        "care": {
+          "diagnosis": null,
+          "treatment": null,
+          "medication": null,
+          "symptoms": null,
+          "safety": null,
+          "competence": null
+        },
+        "coordination": {
+          "coordination": null,
+          "discharge": null,
+          "followup": null
+        },
+        "environment": {
+          "cleanliness": null,
+          "facilities": null,
+          "food": null,
+          "support": null
+        },
+        "inclusion": {
+          "language": null,
+          "interpreting": null,
+          "equality": null,
+          "culture": null,
+          "asylum": null
+        }
+      },
+      "strengths": {
+        "access": {
+          "appointments": null,
+          "waiting": true,
+          "reachability": null,
+          "navigation": null
+        },
+        "admin": {
+          "registration": null,
+          "paperwork": null,
+          "costs": null,
+          "privacy": null
+        },
+        "communication": {
+          "communication": null,
+          "explanation": null,
+          "information": null,
+          "decisions": null
+        },
+        "staff": {
+          "friendliness": null,
+          "empathy": null,
+          "respect": null,
+          "seriousness": null
+        },
+        "care": {
+          "diagnosis": null,
+          "treatment": null,
+          "medication": null,
+          "symptoms": null,
+          "safety": null,
+          "competence": null
+        },
+        "coordination": {
+          "coordination": null,
+          "discharge": null,
+          "followup": null
+        },
+        "environment": {
+          "cleanliness": null,
+          "facilities": null,
+          "food": null,
+          "support": null
+        },
+        "inclusion": {
+          "language": null,
+          "interpreting": null,
+          "equality": null,
+          "culture": null,
+          "asylum": null
+        }
+      },
+      "evidence_spans": [
+        "Von Anmeldung bis zum Abschluss der Behandlung sind keine 30 min. vergangen."
+      ],
+      "confidence": 0.85
+    }
+  },
+  "agaplesion-diakonieklinikum-rotenburg-ggmbh:2": {
+    "review_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh:2",
+    "review_index": 2,
+    "metadata": {
+      "place_id": "agaplesion-diakonieklinikum-rotenburg-ggmbh",
+      "clinic_name": null,
+      "star_rating": 1,
+      "review_time": "vor 2 Monaten",
+      "like_count": 0,
+      "has_owner_response": true
+    },
+    "review_text": "Grundsätzlich haben wir im Agaplesion Krankenhaus Rotenburg sehr gute Erfahrungen gemacht. Das Personal war freundlich und kompetent, insbesondere die Hebammen und die Kinderstation verdienen ausdrücklich Lob. Fünf Sterne für euch! Zwei …",
+    "labels": {
+      "overall_sentiment": "positive",
+      "care_context": [
+        "hospital"
+      ],
+      "problem_labels": [],
+      "strength_labels": [
+        "staff.friendliness",
+        "staff.competence"
+      ],
+      "problems": {
+        "access": {
+          "appointments": null,
+          "waiting": null,
+          "reachability": null,
+          "navigation": null
+        },
+        "admin": {
+          "registration": null,
+          "paperwork": null,
+          "costs": null,
+          "privacy": null
+        },
+        "communication": {
+          "communication": null,
+          "explanation": null,
+          "information": null,
+          "decisions": null
+        },
+        "staff": {
+          "friendliness": null,
+          "empathy": null,
+          "respect": null,
+          "seriousness": null
+        },
+        "care": {
+          "diagnosis": null,
+          "treatment": null,
+          "medication": null,
+          "symptoms": null,
+          "safety": null,
+          "competence": null
+        },
+        "coordination": {
+          "coordination": null,
+          "discharge": null,
+          "followup": null
+        },
+        "environment": {
+          "cleanliness": null,
+          "facilities": null,
+          "food": null,
+          "support": null
+        },
+        "inclusion": {
+          "language": null,
+          "interpreting": null,
+          "equality": null,
+          "culture": null,
+          "asylum": null
+        }
+      },
+      "strengths": {
+        "access": {
+          "appointments": null,
+          "waiting": null,
+          "reachability": null,
+          "navigation": null
+        },
+        "admin": {
+          "registration": null,
+          "paperwork": null,
+          "costs": null,
+          "privacy": null
+        },
+        "communication": {
+          "communication": null,
+          "explanation": null,
+          "information": null,
+          "decisions": null
+        },
+        "staff": {
+          "friendliness": true,
+          "empathy": null,
+          "respect": null,
+          "seriousness": null
+        },
+        "care": {
+          "diagnosis": null,
+          "treatment": null,
+          "medication": null,
+          "symptoms": null,
+          "safety": null,
+          "competence": null
+        },
+        "coordination": {
+          "coordination": null,
+          "discharge": null,
+          "followup": null
+        },
+        "environment": {
+          "cleanliness": null,
+          "facilities": null,
+          "food": null,
+          "support": null
+        },
+        "inclusion": {
+          "language": null,
+          "interpreting": null,
+          "equality": null,
+          "culture": null,
+          "asylum": null
+        }
+      },
+      "evidence_spans": [
+        "Das Personal war freundlich und kompetent",
+        "die Hebammen und die Kinderstation verdienen ausdrücklich Lob"
+      ],
+      "confidence": 0.95
+    }
+  }
+}
